@@ -458,6 +458,20 @@ body {
   letter-spacing: -0.3px;
 }
 
+.multi-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  padding: 0.2rem 0.65rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 /* Compact Icon Action Buttons */
 .question-actions {
   display: flex;
@@ -583,6 +597,13 @@ body {
   color: var(--text-secondary);
   flex-shrink: 0;
   transition: all 0.25s ease;
+}
+
+/* Checkbox-style for multi-select questions */
+.option-radio.multi {
+  border-radius: 6px;
+  border-width: 2px;
+  border-color: rgba(245, 158, 11, 0.4);
 }
 
 .option-text {

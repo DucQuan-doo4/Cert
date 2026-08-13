@@ -70,6 +70,14 @@ const elements = {
 function cleanExplanationText(text) {
   if (!text) return '';
   let cleaned = String(text);
+  // Strip garbage scraping prefix (e.g. lassName":"button hollow...}], )
+  cleaned = cleaned.replace(/^[\s\S]*?\}\]\s*,?\s*/, function(match) {
+    // Only strip if it looks like scraping garbage (contains className/button patterns)
+    if (match.includes('lassName') || match.includes('button') || match.includes('icon-accent')) {
+      return '';
+    }
+    return match;
+  });
   cleaned = cleaned.replace(/\[\s*undefined\s*\]\([^)]*\)/gi, '');
   cleaned = cleaned.replace(/\[\s*\[object\s+Object\]\s*\]\([^)]*\)/gi, '');
   cleaned = cleaned.replace(/http:\/\/localhost:\d+\/\[object%20Object\]/gi, '');
@@ -77,6 +85,34 @@ function cleanExplanationText(text) {
   cleaned = cleaned.replace(/Learn more:\s*·\s*$/gi, '');
   cleaned = cleaned.replace(/Learn more:\s*$/gi, '');
   return cleaned.trim();
+}
+
+// Detect if a question requires multiple answers
+function detectMultiSelect(q) {
+  const text = (q.question || '').toLowerCase();
+  const patterns = [
+    /each correct (?:answer|selection)/i,
+    /select\s+(?:two|three|four|2|3|4)/i,
+    /choose\s+(?:two|three|four|2|3|4)/i,
+    /which\s+(?:two|three|four|2|3|4)/i,
+  ];
+  for (const p of patterns) {
+    if (p.test(q.question || '')) return true;
+  }
+  // If question has 5+ options and null answer, likely multi-select
+  if (q.answer === null && q.options && q.options.length >= 5) return true;
+  return false;
+}
+
+// Extract how many answers are expected
+function getExpectedCount(q) {
+  const text = q.question || '';
+  const match = text.match(/(?:select|choose|which)\s+(two|three|four|2|3|4)/i);
+  if (match) {
+    const map = { 'two': 2, 'three': 3, 'four': 4, '2': 2, '3': 3, '4': 4 };
+    return map[match[1].toLowerCase()] || 2;
+  }
+  return 2; // default for multi-select
 }
 
 function formatAnswerBadge(ans) {
@@ -438,8 +474,14 @@ function renderQuestions() {
   let html = '';
   state.questions.forEach((q) => {
     const qKey = `${state.currentExam}:${q.number}`;
-    const selectedAns = state.userAnswers[qKey];
-    const isAnsSubmitted = !!selectedAns;
+    const isMulti = detectMultiSelect(q);
+    const expectedCount = isMulti ? getExpectedCount(q) : 1;
+    const rawSelected = state.userAnswers[qKey];
+    // Normalize selected answers to array for multi-select
+    const selectedArr = isMulti
+      ? (Array.isArray(rawSelected) ? rawSelected : (rawSelected ? [rawSelected] : []))
+      : (rawSelected ? [rawSelected] : []);
+    const isAnsSubmitted = selectedArr.length > 0;
     const isRevealed = !!state.revealedAnswers[qKey];
     
     const isTranslated = !!state.activeTranslation[qKey];
@@ -451,12 +493,16 @@ function renderQuestions() {
 
     const showExplanationBox = isAnsSubmitted || isRevealed;
 
+    // Multi-select badge
+    const multiLabel = isMulti ? `<span class="multi-badge"><i class="bi bi-ui-checks"></i> Chọn ${expectedCount} đáp án</span>` : '';
+
     html += `
       <div class="question-card glass-panel" id="question-${q.number}">
         <div class="question-header">
           <div class="question-number-badge">
             <span class="qnum-circle">${q.number}</span>
             <span class="qnum-label">Câu ${q.number}</span>
+            ${multiLabel}
           </div>
           <div class="question-actions">
             <button class="action-btn action-reveal ${isRevealed ? 'active' : ''}" onclick="toggleRevealAnswer(${q.number})" title="${isRevealed ? 'Ẩn đáp án' : 'Xem đáp án'}">
@@ -484,31 +530,38 @@ function renderQuestions() {
             }
 
             let optClass = 'option-item';
-            let radioClass = 'option-radio';
+            let radioClass = isMulti ? 'option-radio multi' : 'option-radio';
             let statusIcon = '';
+            const isPicked = selectedArr.includes(optLetter);
+
             if (isAnsSubmitted || isRevealed) {
-              if (optLetter === q.answer) {
+              // For questions with answer=null, we can't mark correct/incorrect
+              if (q.answer && optLetter === q.answer) {
                 optClass += ' correct';
                 statusIcon = '<i class="bi bi-check-circle-fill opt-status-icon correct-icon"></i>';
               }
-              if (selectedAns === optLetter && selectedAns !== q.answer) {
+              if (q.answer && isPicked && optLetter !== q.answer) {
                 optClass += ' incorrect';
                 statusIcon = '<i class="bi bi-x-circle-fill opt-status-icon incorrect-icon"></i>';
               }
-              if (selectedAns === optLetter) {
+              if (isPicked) {
                 optClass += ' selected';
               }
-            } else if (selectedAns === optLetter) {
+              // For null-answer multi-select, just show selected state
+              if (!q.answer && isPicked) {
+                optClass += ' picked';
+              }
+            } else if (isPicked) {
               optClass += ' picked';
             }
 
-            return \`
-              <div class="\${optClass}" onclick="selectAnswer(${q.number}, '\${optLetter}')">
-                <div class="\${radioClass}">\${optLetter}</div>
-                <div class="option-text">\${marked.parse(cleanExplanationText(optText))}</div>
-                \${statusIcon}
+            return `
+              <div class="${optClass}" onclick="selectAnswer(${q.number}, '${optLetter}')">
+                <div class="${radioClass}">${optLetter}</div>
+                <div class="option-text">${marked.parse(cleanExplanationText(optText))}</div>
+                ${statusIcon}
               </div>
-            \`;
+            `;
           }).join('')}
         </div>
 
@@ -536,10 +589,26 @@ window.toggleRevealAnswer = function(qNum) {
   renderQuestions();
 };
 
-// Handle Answer Selection
+// Handle Answer Selection (supports multi-select toggle)
 window.selectAnswer = function(qNum, letter) {
   const qKey = `${state.currentExam}:${qNum}`;
-  state.userAnswers[qKey] = letter;
+  const q = state.questions.find(item => item.number === qNum);
+  const isMulti = q ? detectMultiSelect(q) : false;
+
+  if (isMulti) {
+    // Toggle letter in/out of selected array
+    let current = state.userAnswers[qKey];
+    if (!Array.isArray(current)) current = current ? [current] : [];
+    const idx = current.indexOf(letter);
+    if (idx >= 0) {
+      current.splice(idx, 1);
+    } else {
+      current.push(letter);
+    }
+    state.userAnswers[qKey] = current.length > 0 ? current : undefined;
+  } else {
+    state.userAnswers[qKey] = letter;
+  }
   saveUserProgress();
   renderQuestions();
 };
