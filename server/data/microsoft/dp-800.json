@@ -1,0 +1,1397 @@
+{
+  "provider": "microsoft",
+  "slug": "dp-800",
+  "fullSlug": "microsoft/dp-800",
+  "title": "Copy link to this question",
+  "totalQuestions": 101,
+  "totalPages": 4,
+  "crawledPages": 5,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Design and develop database solutions",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604337972-h7k2s6vd.png)"
+        },
+        {
+          "letter": "B",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604340817-s5f80a11.png)"
+        },
+        {
+          "letter": "C",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604347944-przlj5hw.png)"
+        },
+        {
+          "letter": "D",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604352495-z4m3a8rg.png)"
+        }
+      ],
+      "answer": null,
+      "explanation": "A directed SQL Graph pattern uses arrows to specify the traversal direction. The pattern `p1-(k1)->p2-(k2)->p3` traverses exactly two directed `Knows` edges from the starting node `p1` to `p3`; filtering `p1.PersonID` by `@StartPersonId` establishes the origin, and selecting `p3.PersonID` and `p3.DisplayName` returns the people reached after the second relationship. Microsoft documents that MATCH patterns traverse from one node to another through an edge in the arrow’s specified direction.\n\n**Learn more:** [MATCH (Transact-SQL) - SQL Server](https://learn.microsoft.com/en-gb/sql/t-sql/queries/match-sql-graph?view=sql-server-ver16)"
+    },
+    {
+      "number": 2,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L31\",\"$L32\",\"$L33\",\"$L34\"],\"$L35\",false,false,\"$L36\",\"$L37\",\"$L38\"]}]\n39:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3b:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3c:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n4e:I[10489,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Image\"]\n4f:I[11077,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n2e:[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}]\n2f:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n30:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L39\",null,{\"questionNumber\":1,\"questionId\":\"d2ada99a-6549-4fec-ac29-1f1198c3d5ff\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L3a\"}]}],[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":1,\"questionId\":\"d2ada99a-6549-4fec-ac29-1f1198c3d5ff\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":1,\"questionId\":\"d2ada99a-6549-4fec-ac29-1f1198c3d5ff\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/1\"}]}]]}]\nYou have an Azure SQL database that includes a column named `Notes`.  \n  \nA security review finds that `Notes` contains sensitive data. You need to protect the data so that neither stored values nor query inputs disclose information about the actual data. The solution must prevent a user from inferring data relationships or repetitions from the encrypted output.  \n  \nWhich should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Always Encrypted with secure enclaves"
+        },
+        {
+          "letter": "B",
+          "text": "Always Encrypted with randomized encryption"
+        },
+        {
+          "letter": "C",
+          "text": "row-level security (RLS)"
+        },
+        {
+          "letter": "D",
+          "text": "Always Encrypted with deterministic encryption"
+        }
+      ],
+      "answer": null,
+      "explanation": "Always Encrypted with randomized encryption encrypts values and query parameters outside the database, and encrypts each occurrence of identical plaintext differently. This prevents encrypted output from revealing equality, repeated values, or relationships between plaintext values. Deterministic encryption intentionally produces matching ciphertext for matching plaintext and can therefore expose such patterns.\n\n**Learn more:** [Always Encrypted cryptography - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-cryptography?view=sql-server-ver17) · [Always Encrypted - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=azuresqldb-mi-current)"
+    },
+    {
+      "number": 3,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database that contains order data.  \n  \nA reporting query that aggregates monthly revenue for each customer runs frequently. You need to reduce the time required to retrieve the computed values. The solution must **not** change any underlying table structure.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a view by using ORDER BY without TOP, and then create a unique clustered index on the view."
+        },
+        {
+          "letter": "B",
+          "text": "Create a view without using WITH SCHEMABINDING, and then create a nonclustered index on the view."
+        },
+        {
+          "letter": "C",
+          "text": "Create a view by using GROUP BY, and then create a unique clustered index on the view."
+        },
+        {
+          "letter": "D",
+          "text": "Create a view by using WITH SCHEMABINDING, include COUNT_BIG(*), and then create a unique clustered index on the view."
+        }
+      ],
+      "answer": null,
+      "explanation": "An indexed view materializes the aggregation in a unique clustered index, which can reduce repeated computation of monthly revenue per customer. For an indexed view, the view must use `WITH SCHEMABINDING`; when its definition uses `GROUP BY`, it must also include `COUNT_BIG(*)`. The unique clustered index is the initial index required to materialize the view.\n\n**Learn more:** [Create indexed views - SQL Server](https://learn.microsoft.com/en-us/sql/relational-databases/views/create-indexed-views?view=sql-server-ver17) · [CREATE INDEX (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-index-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 4,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],35:[\"$\",\"$19\",null,{\"fallback\":[[\"$\",\"div\",\"0\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"1\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"2\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}]],\"children\":\"$L4d\"}]\n36:[\"$\",\"nav\",null,{\"className\":\"pagination-container\",\"aria-label\":\"Exam pages\",\"children\":[[\"$\",\"p\",null,{\"className\":\"pagination-info\",\"children\":[\"Page \",[\"$\",\"strong\",null,{\"children\":1}],\" of \",5,[\"$\",\"span\",null,{\"className\":\"pagination-info-sep\",\"aria-hidden\":\"true\",\"children\":\"•\"}],\"Questions \",1,\"–\",25,\" of \",101]}],[\"$\",\"div\",null,{\"className\":\"pagination-nav\",\"children\":[[\"$\",\"span\",null,{\"className\":\"button link back-arrow pagination-arrow is-disabled\",\"aria-disabled\":\"true\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Prev\"}]}],[\"$\",\"div\",null,{\"className\":\"pagination-numbers\",\"children\":[[\"$\",\"span\",\"1\",{\"className\":\"button primary sm pagination-page is-current\",\"aria-current\":\"page\",\"children\":1}],[\"$\",\"$L20\",\"2\",{\"href\":\"/exams/microsoft/dp-800/2\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 2\",\"children\":2}],[\"$\",\"$L20\",\"3\",{\"href\":\"/exams/microsoft/dp-800/3\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 3\",\"children\":3}],[\"$\",\"$L20\",\"4\",{\"href\":\"/exams/microsoft/dp-800/4\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 4\",\"children\":4}],[\"$\",\"$L20\",\"5\",{\"href\":\"/exams/microsoft/dp-800/5\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 5\",\"children\":5}]]}],[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/dp-800/2\",\"className\":\"button link arrow pagination-arrow\",\"aria-label\":\"Next page\",\"rel\":\"next\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Next\"}]}]]}]]}]\n37:[\"$\",\"div\",null,{\"className\":\"contribute-cta\",\"children\":[[\"$\",\"$L4e\",null,{\"src\":\"/icons/hand-holding-heart.svg\",\"alt\":\"\",\"width\":20,\"height\":20,\"aria-hidden\":\"true\"}],[\"$\",\"span\",null,{\"className\":\"contribute-cta-text\",\"children\":[\"Know a question that should be here?\",\" \",[\"$\",\"$L20\",null,{\"href\":\"/contribute/microsoft/dp-800\",\"children\":\"Contribute to this exam\"}]]}]]}]\n38:[\"$\",\"$L4f\",null,{}]\n54:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\n3e:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n3f:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n40:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L39\",null,{\"questionNumber\":2,\"questionId\":\"336dbe28-0b89-4209-8f7f-7fbd978883bf\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L50\"}]}],[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":2,\"questionId\":\"336dbe28-0b89-4209-8f7f-7fbd978883bf\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":2,\"questionId\":\"336dbe28-0b89-4209-8f7f-7fbd978883bf\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/1\"}]}]]}]\n42:[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}]\n43:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n44:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L39\",null,{\"questionNumber\":3,\"questionId\":\"2d5f1ff0-ce5c-4f2e-842a-766772511d7b\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L51\"}]}],[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":3,\"questionId\":\"2d5f1ff0-ce5c-4f2e-842a-766772511d7b\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":3,\"questionId\":\"2d5f1ff0-ce5c-4f2e-842a-766772511d7b\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/1\"}]}]]}]\n46:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n47:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n48:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L39\",null,{\"questionNumber\":4,\"questionId\":\"e72dba13-7d02-4757-969d-8528b30f4b89\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L52\"}]}],[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":4,\"questionId\":\"e72dba13-7d02-4757-969d-8528b30f4b89\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":4,\"questionId\":\"e72dba13-7d02-4757-969d-8528b30f4b89\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/1\"}]}]]}]\n4a:[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}]\n4b:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4c:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L39\",null,{\"questionNumber\":5,\"questionId\":\"5a91f339-bbd3-4ac2-925d-38b54e586641\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L53\"}]}],[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":5,\"questionId\":\"5a91f339-bbd3-4ac2-925d-38b54e586641\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":5,\"questionId\":\"5a91f339-bbd3-4ac2-925d-38b54e586641\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/1\"}]}]]}]\n3a:[[\"$\",\"p\",null,{\"children\":\"You have an Azure SQL database containing these SQL graph tables:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":[\"A NODE table named \",[\"$\",\"code\",null,{\"children\":\"dbo.Person\"}]]}],\"\n\",[\"$\",\"li\",null,{\"children\":[\"An EDGE table named \",[\"$\",\"code\",null,{\"children\":\"dbo.Knows\"}]]}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"Each row in \",[\"$\",\"code\",null,{\"children\":\"dbo.Person\"}],\" contains these columns:\"]}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"PersonID\"}],\" (\",[\"$\",\"code\",null,{\"children\":\"int\"}],\")\"]}],\"\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"DisplayName\"}],\" (\",[\"$\",\"code\",null,{\"children\":\"nvarchar(100)\"}],\")\"]}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"You need to use a \",[\"$\",\"code\",null,{\"children\":\"MATCH\"}],\" operator with exactly two directed \",[\"$\",\"code\",null,{\"children\":\"Knows\"}],\" relationships to return the \",[\"$\",\"code\",null,{\"children\":\"PersonID\"}],\" and \",[\"$\",\"code\",null,{\"children\":\"DisplayName\"}],\" of people reachable from the person identified by an input parameter named \",[\"$\",\"code\",null,{\"children\":\"@StartPersonId\"}],\".\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Which Transact-SQL query should you use?\"}],\"\n\",[\"$\",\"$L54\",null,{\"choices\":{\"A\":\"![](https://cdn.examcademy.com/images/questions/1785604337972-h7k2s6vd.png)\",\"B\":\"![](https://cdn.examcademy.com/images/questions/1785604340817-s5f80a11.png)\",\"C\":\"![](https://cdn.examcademy.com/images/questions/1785604347944-przlj5hw.png)\",\"D\":\"![](https://cdn.examcademy.com/images/questions/1785604352495-z4m3a8rg.png)\"},\"correctAnswer\":\"D\",\"explanation\":\"A directed SQL Graph pattern uses arrows to specify the traversal direction. The pattern `p1-(k1)->p2-(k2)->p3` traverses exactly two directed `Knows` edges from the starting node `p1` to `p3`; filtering `p1.PersonID` by `@StartPersonId` establishes the origin, and selecting `p3.PersonID` and `p3.DisplayName` returns the people reached after the second relationship. Microsoft documents that MATCH patterns traverse from one node to another through an edge in the arrow’s specified direction.\n\n**Learn more:** [MATCH (Transact-SQL) - SQL Server](https://learn.microsoft.com/en-gb/sql/t-sql/queries/match-sql-graph?view=sql-server-ver16)\",\"trackingInfo\":{\"questionId\":\"d2ada99a-6549-4fec-ac29-1f1198c3d5ff\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\n55:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Statements\"]\n56:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"DragDrop\"]\n50:[[\"$\",\"p\",null,{\"children\":[\"You have an Azure SQL database that includes a column named \",[\"$\",\"code\",null,{\"children\":\"Notes\"}],\".\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"A security review finds that \",[\"$\",\"code\",null,{\"children\":\"Notes\"}],\" contains sensitive data. You need to protect the data so that neither stored values nor query inputs disclose information about the actual data. The solution must prevent a user from inferring data relationships or repetitions from the encrypted output.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Which should you use?\"}],\"\n\",[\"$\",\"$L54\",null,{\"choices\":{\"A\":\"Always Encrypted with secure enclaves\",\"B\":\"Always Encrypted with randomized encryption\",\"C\":\"row-level security (RLS)\",\"D\":\"Always Encrypted with deterministic encryption\"},\"correctAnswer\":\"B\",\"explanation\":\"Always Encrypted with randomized encryption encrypts values and query parameters outside the database, and encrypts each occurrence of identical plaintext differently. This prevents encrypted output from revealing equality, repeated values, or relationships between plaintext values. Deterministic encryption intentionally produces matching ciphertext for matching plaintext and can therefore expose such patterns.\n\n**Learn more:** [Always Encrypted cryptography - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-cryptography?view=sql-server-ver17) · [Always Encrypted - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-database-engine?view=azuresqldb-mi-current)\",\"trackingInfo\":{\"questionId\":\"336dbe28-0b89-4209-8f7f-7fbd978883bf\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\n51:[[\"$\",\"p\",null,{\"children\":\"You have a SQL database in Microsoft Fabric that includes the following functions:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":[\"A multi-statement table-valued function (TVF) named \",[\"$\",\"code\",null,{\"children\":\"Sales.mstvf_OrderStatus()\"}],\" that returns order status information.\"]}],\"\n\",[\"$\",\"li\",null,{\"children\":[\"A scalar user-defined function (UDF) named \",[\"$\",\"code\",null,{\"children\":\"dbo.ufn_GetTaxMultiplier (@TaxAmt money, @StateCode char(2))\"}],\" that returns a numeric multiplier used in tax calculations.\"]}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"Reporting queries frequently join \",[\"$\",\"code\",null,{\"children\":\"Sales.mstvf_OrderStatus()\"}],\" to \",[\"$\",\"code\",null,{\"children\":\"Sales.SalesOrderHeader\"}],\" and return large result sets. A performance review shows that the queries generate inconsistent execution plans.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"During a code review, a developer finds that the following Transact-SQL statement produced an error:\"}],\"\n\",[\"$\",\"pre\",null,{\"children\":[\"$\",\"code\",null,{\"className\":\"language-sql\",\"children\":\"EXEC @ret = ufn_GetTaxMultiplier @TaxAmt = 100.00, @StateCode = ‘WA’;  \n\"}]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"For each of the following statements, select Yes if the statement is true. Otherwise, select No.\"}],\"\n\",[\"$\",\"$L55\",null,{\"statements\":[{\"text\":\"You can use GETDATE() in dbo.ufn_GetTaxMultiplier to produce nondeterministic results.\",\"answer\":\"Yes\"},{\"text\":\"Rewriting Sales.mstvf_OrderStatus() as an inline table TVF will reduce the number of inconsistent execution plans.\",\"answer\":\"Yes\"},{\"text\":\"Replacing ufn_GetTaxMultiplier with dbo.ufn_GetTaxMultiplier in the EXEC function statement will resolve the error.\",\"answer\":\"Yes\"}],\"columns\":[\"Yes\",\"No\"],\"explanation\":\"GETDATE() is a nondeterministic built-in function that is permitted in Transact-SQL UDFs. Multi-statement TVFs have no optimizer-created statistics for their output and use heuristic row estimates; an inline TVF is optimized as part of the calling query, avoiding that source of unstable plans. A scalar UDF invoked through EXEC must use a schema-qualified name, such as dbo.ufn_GetTaxMultiplier.\n\n**Learn more:** [User-defined functions (Database Engine)](https://learn.microsoft.com/en-us/sql/relational-databases/user-defined-functions/user-defined-functions?view=sql-server-ver17) · [Execute user-defined functions (SQL Server)](https://learn.microsoft.com/en-us/sql/relational-databases/user-defined-functions/execute-user-defined-functions?view=sql-server-ver17)\",\"trackingInfo\":{\"questionId\":\"2d5f1ff0-ce5c-4f2e-842a-766772511d7b\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\n52:[[\"$\",\"p\",null,{\"children\":\"You have an Azure SQL database that contains order data.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"A reporting query that aggregates monthly revenue for each customer runs frequently. You need to reduce the time required to retrieve the computed values. The solution must \",[\"$\",\"strong\",null,{\"children\":\"not\"}],\" change any underlying table structure.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"What should you do?\"}],\"\n\",[\"$\",\"$L54\",null,{\"choices\":{\"A\":\"Create a view by using ORDER BY without TOP, and then create a unique clustered index on the view.\",\"B\":\"Create a view without using WITH SCHEMABINDING, and then create a nonclustered index on the view.\",\"C\":\"Create a view by using GROUP BY, and then create a unique clustered index on the view.\",\"D\":\"Create a view by using WITH SCHEMABINDING, include COUNT_BIG(*), and then create a unique clustered index on the view.\"},\"correctAnswer\":\"D\",\"explanation\":\"An indexed view materializes the aggregation in a unique clustered index, which can reduce repeated computation of monthly revenue per customer. For an indexed view, the view must use `WITH SCHEMABINDING`; when its definition uses `GROUP BY`, it must also include `COUNT_BIG(*)`. The unique clustered index is the initial index required to materialize the view.\n\n**Learn more:** [Create indexed views - SQL Server](https://learn.microsoft.com/en-us/sql/relational-databases/views/create-indexed-views?view=sql-server-ver17) · [CREATE INDEX (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-index-transact-sql?view=sql-server-ver17)\",\"trackingInfo\":{\"questionId\":\"e72dba13-7d02-4757-969d-8528b30f4b89\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\n53:[[\"$\",\"p\",null,{\"children\":[\"You have a Microsoft SQL Server 2025 database containing a table named \",[\"$\",\"code\",null,{\"children\":\"dbo.CustomerMessages\"}],\". \",[\"$\",\"code\",null,{\"children\":\"dbo.CustomerMessages\"}],\" has two columns: \",[\"$\",\"code\",null,{\"children\":\"MessageID\"}],\" (\",[\"$\",\"code\",null,{\"children\":\"int\"}],\") and \",[\"$\",\"code\",null,{\"children\":\"MessageRaw\"}],\" (\",[\"$\",\"code\",null,{\"children\":\"nvarchar(max)\"}],\").\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"MessageRaw\"}],\" can include a phone number in several formats, and some rows do \",[\"$\",\"strong\",null,{\"children\":\"not\"}],\" include a phone number.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"Write one \",[\"$\",\"code\",null,{\"children\":\"SELECT\"}],\" query that meets these requirements:\"]}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":[\"Return \",[\"$\",\"code\",null,{\"children\":\"MessageID\"}],\", \",[\"$\",\"code\",null,{\"children\":\"RawNumber\"}],\", \",[\"$\",\"code\",null,{\"children\":\"DigitsOnly\"}],\", and \",[\"$\",\"code\",null,{\"children\":\"PhoneStatus\"}],\".\"]}],\"\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"RawNumber\"}],\" must contain the first substring that matches a phone-number pattern, or \",[\"$\",\"code\",null,{\"children\":\"NULL\"}],\" when no match is found.\"]}],\"\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"DigitsOnly\"}],\" must remove every non-digit character from \",[\"$\",\"code\",null,{\"children\":\"RawNumber\"}],\", or return \",[\"$\",\"code\",null,{\"children\":\"NULL\"}],\".\"]}],\"\n\",[\"$\",\"li\",null,{\"children\":[[\"$\",\"code\",null,{\"children\":\"PhoneStatus\"}],\" must return \",[\"$\",\"code\",null,{\"children\":\"Valid\"}],\" when \",[\"$\",\"code\",null,{\"children\":\"MessageRaw\"}],\" contains a phone number; otherwise, it must return \",[\"$\",\"code\",null,{\"children\":\"Missing\"}],\".\"]}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Each value may be used once, more than once, or not at all.\"}],\"\n\",[\"$\",\"$L56\",null,{\"items\":[\"REGEXP_COUNT(\",\"REGEXP_INSTR(\",\"REGEXP_LIKE(\",\"REGEXP_REPLACE( REGEXP_SUBSTR(\",\"REGEXP_SUBSTR(\",\"STRING_SIMILARITY(\"],\"slots\":[{\"answer\":\"REGEXP_SUBSTR(\",\"id\":\"raw_number\"},{\"answer\":\"REGEXP_REPLACE( REGEXP_SUBSTR(\",\"id\":\"digits_only\"},{\"answer\":\"REGEXP_LIKE(\",\"id\":\"phone_status\"}],\"template\":\"SELECT\n    MessageID,\n    {{raw_number}}MessageRaw, '\\d{3}[\\.\\-\\s]\\d{3}[\\.\\-\\s]\\d{4}') AS RawNumber,\n    {{digits_only}}MessageRaw, '\\d{3}[\\.\\-\\s]\\d{3}[\\.\\-\\s]\\d{4}'), '\\D', '') AS DigitsOnly,\n    CASE\n        WHEN {{phone_status}}MessageRaw, '\\d{3}[\\.\\-\\s]\\d{3}[\\.\\-\\s]\\d{4}') = 1\n        THEN 'Valid'\n        ELSE 'Missing'\n    END AS PhoneStatus\nFROM dbo.CustomerMessages;\",\"reuse\":true,\"explanation\":\"`REGEXP_SUBSTR` extracts the first substring matching the phone-number expression. `REGEXP_REPLACE` then replaces every non-digit (`\\D`) in that substring with an empty string, preserving `NULL` if there was no match. `REGEXP_LIKE` returns the match Boolean value used to set the status to `Valid` or `Missing`.\n\n**Learn more:** [Regular Expressions Functions (Transact-SQL)](https://learn.microsoft.com/sql/t-sql/functions/regular-expressions-functions-transact-sql?view=sql-server-ver17)\",\"trackingInfo\":{\"questionId\":\"5a91f339-bbd3-4ac2-925d-38b54e586641\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\nYou have an Azure SQL database named SalesDB that includes a table named dbo.Articles. dbo.Articles holds two million articles with embeddings. The articles are updated frequently during the day.  \n  \nYou query the embeddings by using VECTOR_SEARCH.  \n  \nUsers report that semantic search results do **not** reflect updates until the next day.  \n  \nYou need to ensure the embeddings are updated whenever the articles change. The solution must minimize CPU usage on SalesDB.  \n  \nWhich embedding-maintenance method should you implement?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Modify the query to use VECTOR_DISTANCE instead of VECTOR_SEARCH."
+        },
+        {
+          "letter": "B",
+          "text": "Enable change data capture (CDC) on dbo.Articles and use an Azure Functions app to process CDC changes."
+        },
+        {
+          "letter": "C",
+          "text": "Run an hourly Transact-SQL job that regenerates embeddings for all the rows in dbo.Articles."
+        },
+        {
+          "letter": "D",
+          "text": "On dbo.Articles, create a trigger that calls AI_GENERATE_EMBEDDINGS for each inserted or updated row."
+        }
+      ],
+      "answer": null,
+      "explanation": "Embeddings should be updated whenever the underlying data they represent changes. Change data capture records only inserted and updated article rows, allowing an Azure Functions app to process those changes asynchronously and regenerate only the affected embeddings. This avoids the CPU cost and write-path latency of invoking embedding generation in a table trigger and avoids repeatedly regenerating embeddings for all two million rows.\n\n**Learn more:** [Vector and embeddings FAQ](https://learn.microsoft.com/en-us/sql/sql-server/ai/vectors-faq?view=sql-server-ver17) · [Study Guide for Exam DP-800: Developing AI-Enabled Database Solutions](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/dp-800)"
+    },
+    {
+      "number": 5,
+      "domain": "Design and develop database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database containing a table named `dbo.Products`. `dbo.Products` has three columns named `Embedding`, `Category`, and `Price`. The `Embedding` column is defined as `VECTOR(1536)`.  \n  \nYou use `AI_GENERATE_EMBEDDINGS` and `VECTOR_SEARCH` to enable semantic search and apply additional filters to two columns named `Category` and `Price`.  \n  \nYou plan to change the embedding model from `text-embedding-ada-002` to `text-embedding-3-small`. Existing rows already have embeddings in the `Embedding` column.  \n  \nYou need to implement the model change. Applications must be able to use `VECTOR_SEARCH` without runtime errors.  \n  \nWhat should you do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Regenerate embeddings for the existing rows."
+        },
+        {
+          "letter": "B",
+          "text": "Normalize the vector lengths before storing new embeddings."
+        },
+        {
+          "letter": "C",
+          "text": "Convert the Embedding column to nvarchar(max)."
+        },
+        {
+          "letter": "D",
+          "text": "Create a vector index on dbo.Products.Embedding."
+        }
+      ],
+      "answer": null,
+      "explanation": "All persisted document embeddings must be regenerated with `text-embedding-3-small` before applications query with embeddings generated by that model. Similarity search requires stored vectors and query vectors from the same embedding model so that they represent the same semantic space. Both models support 1,536-dimensional output, so `VECTOR(1536)` remains compatible. Microsoft also recommends rebuilding a vector index after a near-complete embedding replacement, but indexing is not the first required action.\n\n**Learn more:** [Generate embeddings for search queries and documents — Microsoft Learn](https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-generate-embeddings) · [CREATE VECTOR INDEX (Transact-SQL) — Microsoft Learn](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-vector-index-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 6,
+      "domain": "Implement AI capabilities in database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$L79\"]}]]}],\"$L7a\"]}],false]}]\nYou need to recommend a solution that resolves the ingestion-pipeline failure issues.  \n  \nWhich two actions should you recommend? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable snapshot isolation on the database."
+        },
+        {
+          "letter": "B",
+          "text": "Use a trigger to automatically rewrite malformed JSON."
+        },
+        {
+          "letter": "C",
+          "text": "Add foreign key constraints on the table."
+        },
+        {
+          "letter": "D",
+          "text": "Create a unique index on a hash of the payload."
+        },
+        {
+          "letter": "E",
+          "text": "Add a check constraint that validates the JSON structure."
+        }
+      ],
+      "answer": null,
+      "explanation": "A CHECK constraint can enforce JSON validity, such as with `ISJSON`, so malformed payloads are rejected at ingestion. A unique index on a hash of the payload prevents duplicate payloads from being inserted. Together, these controls address both identified ingestion failure causes.\n\n**Learn more:** [ISJSON (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/functions/isjson-transact-sql?view=sql-server-ver17) · [Create a unique index](https://learn.microsoft.com/en-us/sql/relational-databases/indexes/create-unique-indexes?view=sql-server-ver17)"
+    },
+    {
+      "number": 7,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to recommend a solution that resolves the slow dashboard-query issue.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a clustered index on LastUpdatedUtc."
+        },
+        {
+          "letter": "B",
+          "text": "On FleetId, create a nonclustered index that includes LastUpdatedUtc, EngineStatus, and BatteryHealth."
+        },
+        {
+          "letter": "C",
+          "text": "On LastUpdatedUtc, create a nonclustered index that includes FleetId."
+        },
+        {
+          "letter": "D",
+          "text": "On FleetId, create a filtered index where LastUpdatedUtc > DATEADD(DAY, -7, SYSUTCDATETIME())."
+        }
+      ],
+      "answer": null,
+      "explanation": "A nonclustered index keyed on `FleetId` supports an index seek for the equality filter. Including `LastUpdatedUtc`, `EngineStatus`, and `BatteryHealth` covers the columns required by the query, reducing I/O and avoiding lookups to the base table or clustered index. Microsoft recommends placing equality-predicate columns first and using included columns to cover query output columns.\n\n**Learn more:** [Index Architecture and Design Guide - SQL Server](https://learn.microsoft.com/en-us/sql/relational-databases/sql-server-index-design-guide?view=sql-server-ver17)"
+    },
+    {
+      "number": 8,
+      "domain": "Implement AI capabilities in database solutions",
+      "question": "You need to create embeddings to address the issues reported by the analysts.  \n  \nWhich column should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "VehicleLocation"
+        },
+        {
+          "letter": "B",
+          "text": "IncidentDescription"
+        },
+        {
+          "letter": "C",
+          "text": "IncidentType"
+        },
+        {
+          "letter": "D",
+          "text": "SeverityScore"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Embeddings for semantic similarity search should be generated from the rich natural-language incident content. `IncidentDescription` contains the detailed incident narrative, whereas `IncidentType` is categorical, `SeverityScore` is numeric, and `VehicleLocation` is limited location metadata. Microsoft documentation describes embeddings as vector representations of text that support semantic similarity search.\\\n\\\n**Learn more:** [Vector search in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/vector-search-overview)"
+    },
+    {
+      "number": 9,
+      "domain": "Design and develop database solutions",
+      "question": "You need to create embeddings to address the issues reported by the analysts.  \n  \nWhich column should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a computed column that manually compares vector values"
+        },
+        {
+          "letter": "B",
+          "text": "a standard nonclustered index on the Embeddings (vector (1536)) column"
+        },
+        {
+          "letter": "C",
+          "text": "a full-text index on the Embeddings (vector (1536)) column"
+        },
+        {
+          "letter": "D",
+          "text": "a vector index on the Embeddings (vector (1536)) column"
+        }
+      ],
+      "answer": null,
+      "explanation": "A vector index is designed to accelerate nearest-neighbor similarity searches over embedding vectors. Azure SQL Database vector indexes create an approximate index on a vector column to improve nearest-neighbor search performance, making it the appropriate low-latency choice for `vector(1536)` embeddings.\n\n**Learn more:** [CREATE VECTOR INDEX (Transact-SQL) - SQL Server | Microsoft Learn](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-vector-index-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 10,
+      "domain": "Design and develop database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to recommend a solution that enables the development team to retrieve live metadata and meets the development requirements. What should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Export the database schema as a .dacpac file and load the schema into a GitHub Copilot context window."
+        },
+        {
+          "letter": "B",
+          "text": "Add the schema to a GitHub Copilot instruction file."
+        },
+        {
+          "letter": "C",
+          "text": "Use an MCP server."
+        },
+        {
+          "letter": "D",
+          "text": "Include the database project in the code repository."
+        }
+      ],
+      "answer": null,
+      "explanation": "An MCP server can expose database capabilities and metadata as tools that GitHub Copilot can access at runtime. Static schema artifacts, repository projects, and instruction files do not inherently provide current metadata from the connected database.\n\n**Learn more:** [How GitHub Copilot works with the MSSQL extension](https://learn.microsoft.com/en-us/sql/tools/visual-studio-code-extensions/github-copilot/how-it-works?view=sql-server-ver17) · [Use MCP servers with GitHub Copilot in SQL Server Management Studio](https://learn.microsoft.com/en-us/ssms/github-copilot/mcp-servers)"
+    },
+    {
+      "number": 11,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$L96\"]}]]}],\"$L97\"]}],false]}]\nYou have an Azure SQL database containing a table named `Rooms`. The `Rooms` table was created by using the following Transact-SQL statement.  \n  \n![Question Image](https://cdn.examcademy.com/images/questions/1783921966841-e3p95ivn.png)  \n  \nYou find that some records in the `Rooms` table have `NULL` values in the `Owner` field.  \n  \nYou need to ensure that every future record includes a value for the `Owner` field.  \n  \nWhat should you add?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a foreign key"
+        },
+        {
+          "letter": "B",
+          "text": "a check constraint"
+        },
+        {
+          "letter": "C",
+          "text": "a nonclustered index"
+        },
+        {
+          "letter": "D",
+          "text": "a unique constraint"
+        }
+      ],
+      "answer": null,
+      "explanation": "A `CHECK` constraint such as `CHECK (Owner IS NOT NULL)` rejects future inserts or updates whose `Owner` value is `NULL`. CHECK constraints enforce domain integrity by limiting the values permitted in a column, whereas a unique constraint does not require a non-NULL value.\n\n**Learn more:** [table_constraint (Transact-SQL) - SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/statements/alter-table-table-constraint-transact-sql?view=sql-server-ver17) · [Unique constraints and check constraints - SQL Server](https://learn.microsoft.com/en-us/sql/relational-databases/tables/unique-constraints-and-check-constraints?view=sql-server-ver17)"
+    },
+    {
+      "number": 12,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a Microsoft SQL Server 2025 instance with a managed identity enabled. You have a database containing a table named `dbo.ManualChunks`. `dbo.ManualChunks` contains product manuals.  \n  \nA retrieval query already returns the five best-matching chunks as `nvarchar(max)` text. You need to invoke an Azure OpenAI REST endpoint for chat completions. The solution must deliver the highest level of security.  \n  \nYou write the following Transact-SQL code.  \n  \n![Question Image](https://cdn.examcademy.com/images/questions/1785604300643-l0ysol5c.png)  \n  \nWhat should you add at line 02?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604303057-1d9frhko.png)"
+        },
+        {
+          "letter": "B",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604305013-1s7pipl1.png)"
+        },
+        {
+          "letter": "C",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604307186-pmoyja46.png)"
+        },
+        {
+          "letter": "D",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604310130-i80d91xu.png)"
+        },
+        {
+          "letter": "E",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604316168-r6516f8z.png)"
+        }
+      ],
+      "answer": null,
+      "explanation": "A managed-identity database-scoped credential lets SQL Server acquire and send a Microsoft Entra access token without storing an Azure OpenAI API key. For Azure OpenAI, the managed-identity credential uses `IDENTITY = 'Managed Identity'` and a `resourceid` of `https://cognitiveservices.azure.com`; the managed identity must be granted an appropriate Azure OpenAI data-plane role, such as Cognitive Services OpenAI User.\n\n**Learn more:** [sys.sp_invoke_external_rest_endpoint (Transact-SQL) - SQL Server](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-invoke-external-rest-endpoint-transact-sql?view=sql-server-ver17) · [Configure Azure OpenAI with Microsoft Entra ID authentication](https://learn.microsoft.com/en-us/azure/foundry-classic/openai/how-to/managed-identity?view=foundry-classic)"
+    },
+    {
+      "number": 13,
+      "domain": "Design and develop database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a GitHub Codespaces environment with GitHub Copilot Chat installed that is connected to a Microsoft Fabric SQL database named DB1. DB1 contains tables named Sales.Orders and Sales.Customers.  \n  \nYou use GitHub Copilot Chat in the context of DB1.  \n  \nA company policy prohibits sharing customer Personally Identifiable Information (PII), secrets, and query result sets with any AI service.  \n  \nYou need to use GitHub Copilot Chat to write and review Transact-SQL code for a new stored procedure that joins Sales.Orders to Sales.Customers and returns customer names and email addresses. The solution must NOT share the actual data in the tables with GitHub Copilot Chat.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "From Sales.Customers, paste several rows that include email addresses into a chat, so that GitHub Copilot Chat can infer edge cases."
+        },
+        {
+          "letter": "B",
+          "text": "Run a SELECT statement that returns customer names and email addresses and provide the result set to GitHub Copilot Chat so that GitHub Copilot Chat can generate the stored procedure."
+        },
+        {
+          "letter": "C",
+          "text": "Provide the database connection string to GitHub Copilot Chat so that GitHub Copilot Chat can validate the stored procedure."
+        },
+        {
+          "letter": "D",
+          "text": "Ask GitHub Copilot Chat to generate the stored procedure by using schema details only."
+        }
+      ],
+      "answer": null,
+      "explanation": "Using schema details alone supplies the table and column structure needed to draft and review the Transact-SQL procedure without disclosing customer records, PII, credentials, secrets, or query result sets to the AI service."
+    },
+    {
+      "number": 14,
+      "domain": "Implement AI capabilities in database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a SQL database in Microsoft Fabric that includes a column named `Payload`. `Payload` stores customer data in JSON documents in the following format.  \n  \n![Question Image](https://cdn.examcademy.com/images/questions/1783922359795-hg5sfcuf.png)  \n  \nData analysis indicates that some customers use subaddressing in their email addresses, for example, `user+tag@contoso.com`.  \n  \nYou need to return a normalized email value that removes the subaddressing; for example, `user1+tag@contoso.com` must be normalized to `user1@contoso.com`.  \n  \nWhich Transact-SQL expression should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "REGEXP_REPLACE(JSON_VALUE(Payload, ‘$.customer_email’), ‘\\+.*$’, ‘’)"
+        },
+        {
+          "letter": "B",
+          "text": "REGEXP_SUBSTR(JSON_VALUE(Payload, ‘$.customer_email’), ‘^[^+]+@.*$=’)"
+        },
+        {
+          "letter": "C",
+          "text": "REGEXP_REPLACE(JSON_VALUE(Payload, ‘$.customer_email’), ‘\\+.*@’, ‘@’)"
+        },
+        {
+          "letter": "D",
+          "text": "REGEXP_REPLACE(JSON_VALUE(Payload, ‘$.customer_email’), ‘\\+.*’, ‘’)"
+        }
+      ],
+      "answer": null,
+      "explanation": "`REGEXP_REPLACE` replaces text that matches a regular-expression pattern. The pattern `\\+.*@` matches the plus sign, the subaddressing text, and the following at sign. Replacing that match with `@` preserves the original local part and domain while removing the subaddressing.\n\n**Learn more:** [REGEXP_REPLACE (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/functions/regexp-replace-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 15,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a SQL database in Microsoft Fabric containing an `nvarchar(max)` column named `MessageText`. An ID is always present within the first paragraph of `MessageText`.  \n  \nYou need to write a Transact-SQL query using `REGEXP_SUBSTR` to extract the ID from `MessageText`.  \n  \nWhat should you include in the query?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Apply STRING_ESCAPE(MessageText, ‘json’) before calling REGEXP_SUBSTR."
+        },
+        {
+          "letter": "B",
+          "text": "Cast MessageText to nvarchar (4000) before calling REGEXP_SUBSTR."
+        },
+        {
+          "letter": "C",
+          "text": "Add a COLLATE Latin1_General_CS_AS clause to MessageText before calling REGEXP_SUBSTR."
+        },
+        {
+          "letter": "D",
+          "text": "Run TRY_CONVERT(varchar(max), MessageText) before calling REGEXP_SUBSTR."
+        }
+      ],
+      "answer": null,
+      "explanation": "In SQL Server 2025 / SQL database in Microsoft Fabric, the regular-expression functions have an important restriction: LOB types (varchar(max) and nvarchar(max), up to 2 MB) are supported only by REGEXP_LIKE, REGEXP_COUNT, and REGEXP_INSTR. REGEXP_SUBSTR, REGEXP_REPLACE, REGEXP_MATCHES, and REGEXP_SPLIT_TO_TABLE do NOT accept LOB input. Because MessageText is nvarchar(max), you must first cast it to a non-LOB type such as nvarchar(4000) before calling REGEXP_SUBSTR, which is fine here since the ID always appears in the first paragraph (choice B). A case-sensitive COLLATE clause (C) changes matching behavior but does not remove the LOB restriction, TRY_CONVERT to varchar(max) (D) is still a LOB, and STRING_ESCAPE (A) is unrelated.\n\n**Learn more:** [REGEXP_SUBSTR (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/functions/regexp-substr-transact-sql?view=sql-server-ver17) · [Work with regular expressions](https://learn.microsoft.com/en-us/sql/relational-databases/regular-expressions/overview?view=azuresqldb-current)"
+    },
+    {
+      "number": 16,
+      "domain": "Design and develop database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database named SalesDB on a logical server called sales-sql01.  \n  \nYou have an Azure App Service web app named OrderApi that connects to SalesDB by using SQL authentication.  \n  \nYou enable a user-assigned managed identity named OrderApi-Id for OrderApi.  \n  \nYou need to configure OrderApi to connect to SalesDB using Microsoft Entra authentication. The managed identity must have read and write permissions to SalesDB.  \n  \nWhich Transact-SQL statements should you execute in SalesDB?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604300844-v40hkbl1.png)"
+        },
+        {
+          "letter": "B",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604303017-vdimozxm.png)"
+        },
+        {
+          "letter": "C",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604305328-i9s6bnwh.png)"
+        },
+        {
+          "letter": "D",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604307719-02b2o9ub.png)"
+        }
+      ],
+      "answer": null,
+      "explanation": "A user-assigned managed identity needs a contained Microsoft Entra user in the database, created with `CREATE USER [OrderApi-Id] FROM EXTERNAL PROVIDER`. Adding that user to `db_datareader` grants read access and adding it to `db_datawriter` grants write access. This is the appropriate database-level configuration for Azure SQL Database; SQL-authentication passwords and server-level roles are not needed.\n\n**Learn more:** [Migrate a .NET Application to Use Passwordless Connections - Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/azure-sql-passwordless-migration?view=azuresql) · [Authorize server and database access using logins and user accounts - Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/logins-create-manage?view=azuresql)"
+    },
+    {
+      "number": 17,
+      "domain": "Design and develop database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database.  \n  \nYou deploy Data API builder (DAB) to Azure Container Apps using the `mcr.microsoft.com/azure-databases/data-api-builder:latest` image.  \n  \nYou have the following Container Apps secrets:  \n  \n- `MSSQL_CONNECTION_STRING`, which maps to the SQL connection string  \n- `DAB_CONFIG_BASE64`, which maps to the DAB configuration  \n  \nYou need to initialize the DAB configuration so that it reads the SQL connection string.  \n  \nWhich command should you run?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dab init --database-type mssql --connection-string “secretref:DAB_CONFIG_BASE64” --host-mode Production --config dab-config.json"
+        },
+        {
+          "letter": "B",
+          "text": "dab init --database-type mssql --connection-string “@env(‘MSSQL_CONNECTION_STRING’)” --host-mode Production --config dab-config.json"
+        },
+        {
+          "letter": "C",
+          "text": "dab init --database-type mssql --connection-string “secretref:mssql-connection-string” --host-mode Production --config dab-config.json"
+        },
+        {
+          "letter": "D",
+          "text": "dab init --database-type mssql --connection-string “@env(‘DAB_CONFIG_BASE64’)” --host-mode Production --config dab-config.json"
+        }
+      ],
+      "answer": null,
+      "explanation": "Data API builder supports `@env('VARIABLE_NAME')` in the `--connection-string` value and resolves it from the process environment when the configuration loads. `MSSQL_CONNECTION_STRING` is the environment variable mapped to the Azure SQL connection string; `DAB_CONFIG_BASE64` is for the DAB configuration itself. [Initialize a config with the DAB CLI](https://learn.microsoft.com/en-us/azure/data-api-builder/command-line/dab-init)\n\n**Learn more:** [Initialize a config with the DAB CLI](https://learn.microsoft.com/en-us/azure/data-api-builder/command-line/dab-init) · [Use @env() for environment variable substitution in Data API builder](https://learn.microsoft.com/en-us/azure/data-api-builder/concept/config/env-function)"
+    },
+    {
+      "number": 26,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604300463-9jplqsv4.png)"
+        },
+        {
+          "letter": "B",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604302729-yguolx0e.png)"
+        },
+        {
+          "letter": "C",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604307526-7rzbl621.png)"
+        },
+        {
+          "letter": "D",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785604311011-z91q2sxp.png)"
+        }
+      ],
+      "answer": null,
+      "explanation": "The Azure SQL Deploy GitHub Action publishes a DACPAC when configured with `azure/sql-action@v2`, `action: publish`, the DACPAC `path`, and a `connection-string` sourced from a GitHub secret. `extract` performs the reverse operation, creating a DACPAC from an existing database.\n\n**Learn more:** [Create and Deploy a SQL Project](https://learn.microsoft.com/en-us/sql/tools/sql-database-projects/tutorials/create-deploy-sql-project?view=sql-server-ver17) · [Use GitHub Actions to connect to Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-github-actions-sql-db?view=azuresql)"
+    },
+    {
+      "number": 27,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to design a generative AI solution that uses a Microsoft SQL Server 2025 database named DB1 as its data source. The solution must generate responses that meet these requirements:  \n  \n- Are grounded in the most recent transactional and reference data stored in DB1  \n- Do **NOT** require retraining or fine-tuning of the language model when the data changes  \n- Can include citations or references to the source data used in the response  \n  \nWhich scenario is the best use case for implementing a Retrieval Augmented Generation (RAG) pattern? More than one answer choice may achieve the goal. Select the **BEST** answer.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "summarizing free-form user input text"
+        },
+        {
+          "letter": "B",
+          "text": "training a custom language model on historical database data"
+        },
+        {
+          "letter": "C",
+          "text": "answering user questions based on company-specific knowledge"
+        },
+        {
+          "letter": "D",
+          "text": "generating marketing slogans based on user sentiment analysis"
+        }
+      ],
+      "answer": null,
+      "explanation": "Retrieval-augmented generation retrieves relevant company data at query time and provides it to the language model as grounding context. It therefore supports answers based on current, organization-specific knowledge without retraining when the underlying data changes, and retrieved source metadata can be used for citations.\n\n**Learn more:** [Retrieval augmented generation (RAG) and indexes in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/concepts/retrieval-augmented-generation?view=foundry-classic) · [Augment large language models with retrieval-augmented generation or fine-tuning](https://learn.microsoft.com/en-us/azure/developer/ai/augment-llm-rag-fine-tuning)"
+    },
+    {
+      "number": 28,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],53:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\n40:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n41:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n42:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":27,\"questionId\":\"46a7b045-3147-43aa-b797-3f2054f0b6bd\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L4f\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":27,\"questionId\":\"46a7b045-3147-43aa-b797-3f2054f0b6bd\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":27,\"questionId\":\"46a7b045-3147-43aa-b797-3f2054f0b6bd\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/2\"}]}]]}]\n44:[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"dp-800\",\"data-q\":28,\"data-question-id\":\"ed0647c5-b014-49fc-a34a-b04b81b7c423\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}],[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]]}]\n45:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":28,\"questionId\":\"ed0647c5-b014-49fc-a34a-b04b81b7c423\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L50\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":28,\"questionId\":\"ed0647c5-b014-49fc-a34a-b04b81b7c423\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":28,\"questionId\":\"ed0647c5-b014-49fc-a34a-b04b81b7c423\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/2\"}]}]]}]\n47:[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]\n48:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n49:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4a:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":29,\"questionId\":\"408376e5-355b-4253-be3e-0c1341971b8f\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L51\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":29,\"questionId\":\"408376e5-355b-4253-be3e-0c1341971b8f\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":29,\"questionId\":\"408376e5-355b-4253-be3e-0c1341971b8f\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/2\"}]}]]}]\n4c:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n4d:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4e:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":30,\"questionId\":\"470a1fdf-0c93-4488-ac5f-33fa311748d2\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L52\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":30,\"questionId\":\"470a1fdf-0c93-4488-ac5f-33fa311748d2\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":30,\"questionId\":\"470a1fdf-0c93-4488-ac5f-33fa311748d2\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/2\"}]}]]}]\n3c:[[\"$\",\"p\",null,{\"children\":\"You have a database named DB1. Its schema is stored in a Git repository as an SDK-style SQL database project.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"You have a GitHub Actions workflow that already runs \",[\"$\",\"code\",null,{\"children\":\"dotnet build\"}],\" and generates a database artifact.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"You need to add a deployment step that publishes the \",[\"$\",\"code\",null,{\"children\":\".dacpac\"}],\" file to an Azure SQL database by using secrets stored in GitHub repository secrets.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"What should you include in the workflow?\"}],\"\n\",[\"$\",\"$L53\",null,{\"choices\":{\"A\":\"![](https://cdn.examcademy.com/images/questions/1785604300463-9jplqsv4.png)\",\"B\":\"![](https://cdn.examcademy.com/images/questions/1785604302729-yguolx0e.png)\",\"C\":\"![](https://cdn.examcademy.com/images/questions/1785604307526-7rzbl621.png)\",\"D\":\"![](https://cdn.examcademy.com/images/questions/1785604311011-z91q2sxp.png)\"},\"correctAnswer\":\"C\",\"explanation\":\"The Azure SQL Deploy GitHub Action publishes a DACPAC when configured with `azure/sql-action@v2`, `action: publish`, the DACPAC `path`, and a `connection-string` sourced from a GitHub secret. `extract` performs the reverse operation, creating a DACPAC from an existing database.\n\n**Learn more:** [Create and Deploy a SQL Project](https://learn.microsoft.com/en-us/sql/tools/sql-database-projects/tutorials/create-deploy-sql-project?view=sql-server-ver17) · [Use GitHub Actions to connect to Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-github-actions-sql-db?view=azuresql)\",\"trackingInfo\":{\"questionId\":\"16203554-a0fe-4e11-bff0-ecabb7277b3c\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\n54:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"DragDrop\"]\n55:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Statements\"]\n4f:[[\"$\",\"p\",null,{\"children\":[\"You have a SQL database in Microsoft Fabric that includes a table called WebSite.Logs. WebSite.Logs stores application telemetry data and contains an \",[\"$\",\"code\",null,{\"children\":\"nvarchar(max)\"}],\" column named \",[\"$\",\"code\",null,{\"children\":\"log\"}],\" that holds JSON documents.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"A daily report filters on the \",[\"$\",\"code\",null,{\"children\":\"$$.severity\"}],\" JSON property and returns \",[\"$\",\"code\",null,{\"children\":\"LogId\"}],\", \",[\"$\",\"code\",null,{\"children\":\"LogDateTime\"}],\", and \",[\"$\",\"code\",null,{\"children\":\"log\"}],\". The report often performs full table scans.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"You need to modify WebSite.Logs so filtering by \",[\"$\",\"code\",null,{\"children\":\"$$.severity\"}],\" is efficient and key lookups are avoided for the columns the report returns.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"How should you complete the Transact-SQL code to prevent full table scans? Each value may be used once, more than once, or not at all.\"}],\"\n\",[\"$\",\"$L54\",null,{\"items\":[\"AS JSON_QUERY([log], '$.severity')\",\"AS JSON_VALUE([log], '$.severity') PERSISTED\",\"INCLUDE (log)\",\"INCLUDE (LogId, LogDateTime, [log])\"],\"slots\":[{\"answer\":\"AS JSON_VALUE([log], '$.severity') PERSISTED\",\"id\":\"severity_definition\"},{\"answer\":\"INCLUDE (LogId, LogDateTime, [log])\",\"id\":\"index_include\"}],\"template\":\"ALTER TABLE WebSite.Logs\n    ADD severity {{severity_definition}};\nGO\n\nCREATE INDEX ix_severity\n    ON WebSite.Logs(severity)\n    {{index_include}};\nGO\",\"reuse\":true,\"explanation\":\"`JSON_VALUE` extracts the scalar severity value from each JSON document. Defining it as a persisted computed column permits indexing that value. An index on `severity` with `LogId`, `LogDateTime`, and `log` as included columns covers the report, so SQL can use the index for filtering without fetching those columns through key lookups.\n\n**Learn more:** [Index JSON data](https://learn.microsoft.com/en-us/sql/relational-databases/json/index-json-data?view=sql-server-ver17) · [JSON_VALUE (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/functions/json-value-transact-sql?view=sql-server-ver17)\",\"trackingInfo\":{\"questionId\":\"46a7b045-3147-43aa-b797-3f2054f0b6bd\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\n50:[[\"$\",\"p\",null,{\"children\":\"You have an Azure SQL database with Query Store enabled. Query Performance Insight identifies one stored procedure as having the longest runtime. The procedure executes the following parameterized query.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"$\",\"img\",null,{\"src\":\"https://cdn.examcademy.com/images/questions/1783921980622-xkr5umcs.png\",\"alt\":\"Question Image\"}]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"The \",[\"$\",\"code\",null,{\"children\":\"dbo.Orders\"}],\" table contains approximately 120 million rows. \",[\"$\",\"code\",null,{\"children\":\"CustomerId\"}],\" is highly selective, while \",[\"$\",\"code\",null,{\"children\":\"OrderDate\"}],\" is used for range filtering and sorting.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You have these indexes:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":[\"Clustered index: \",[\"$\",\"code\",null,{\"children\":\"PK_Orders\"}],\" on (\",[\"$\",\"code\",null,{\"children\":\"OrderId\"}],\")\"]}],\"\n\",[\"$\",\"li\",null,{\"children\":[\"Nonclustered index: \",[\"$\",\"code\",null,{\"children\":\"IX_Orders_OrderDate\"}],\" on (\",[\"$\",\"code\",null,{\"children\":\"OrderDate\"}],\") with no included columns\"]}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"An actual execution plan from Query Store for slow executions shows the following:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":[\"An index seek on \",[\"$\",\"code\",null,{\"children\":\"IX_Orders_OrderDate\"}],\", followed by a Key Lookup (Clustered) on \",[\"$\",\"code\",null,{\"children\":\"PK_Orders\"}],\" for \",[\"$\",\"code\",null,{\"children\":\"CustomerId\"}],\", \",[\"$\",\"code\",null,{\"children\":\"Status\"}],\", and \",[\"$\",\"code\",null,{\"children\":\"TotalAmount\"}]]}],\"\n\",[\"$\",\"li\",null,{\"children\":[\"A Sort operator before \",[\"$\",\"code\",null,{\"children\":\"Top (50)\"}],\" because the results are ordered by \",[\"$\",\"code\",null,{\"children\":\"OrderDate DESC\"}]]}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"For each of the following statements, select Yes if the statement is true. Otherwise, select No.\"}],\"\n\",[\"$\",\"$L55\",null,{\"statements\":[{\"text\":\"To avoid the explicit sort for the query, create a nonclustered index on (CustomerId, OrderDate DESC) that includes (Status, TotalAmount).\",\"answer\":\"Yes\"},{\"text\":\"To eliminate the sort and make the query use an ordered seek, add CustomerId as an included column to IX_Orders_OrderDate.\",\"answer\":\"No\"},{\"text\":\"The plan indicates a bottleneck from a suboptimal query plan, rather locking or blocking.\",\"answer\":\"Yes\"}],\"columns\":[\"Yes\",\"No\"],\"explanation\":\"A `(CustomerId, OrderDate DESC)` nonclustered index supports the selective customer seek and returns rows in the required date order. Including `Status` and `TotalAmount` makes the index cover those output columns, eliminating the clustered key lookup. An included column is non-key data and does not establish index ordering or provide a seek key, so adding `CustomerId` as an included column cannot produce the required ordered seek. The Sort and Key Lookup show a query-plan/index-design bottleneck, not locking or blocking.\n\n**Learn more:** [CREATE INDEX (Transact-SQL) - SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-index-transact-sql?view=sql-server-ver15) · [Create indexes with included columns](https://learn.microsoft.com/en-us/sql/relational-databases/indexes/create-indexes-with-included-columns?view=azuresqldb-current)\",\"trackingInfo\":{\"questionId\":\"ed0647c5-b014-49fc-a34a-b04b81b7c423\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\n51:[[\"$\",\"p\",null,{\"children\":\"You have an Azure SQL database named SalesDB that contains tables named Sales.Orders and Sales.OrderLines. Both tables hold sales data.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"A Retrieval Augmented Generation (RAG) service queries SalesDB to retrieve order details and passes the results to a large language model (LLM) as JSON text. The following is a simple example of the JSON.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"$\",\"img\",null,{\"src\":\"https://cdn.examcademy.com/images/questions/1783921986901-q7964pwv.png\",\"alt\":\"Question Image\"}]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"You need to return one JSON document per order that includes the order header fields and an array of related order lines. The LLM must receive a single JSON array of orders, where each order contains a \",[\"$\",\"code\",null,{\"children\":\"lines\"}],\" property that is a JSON array of line items.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Which Transact-SQL commands should you use to produce the required JSON shape from the relational tables? Each command may be used once, more than once, or not at all.\"}],\"\n\",[\"$\",\"$L54\",null,{\"items\":[\"FOR JSON PATH\",\"JSON_MODIFY\",\"JSON_QUERY\",\"JSON_VALUE\",\"OPENJSON\"],\"slots\":[{\"answer\":\"FOR JSON PATH\",\"id\":\"serialize_order_level\",\"label\":\"Serialize the order-level JSON:\"},{\"answer\":\"FOR JSON PATH\",\"id\":\"generate_nested_lines\",\"label\":\"Generate a nested lines array:\"},{\"answer\":\"JSON_VALUE\",\"id\":\"extract_scalar\",\"label\":\"Extract a single scalar value from the JSON text:\"}],\"reuse\":true,\"explanation\":\"`FOR JSON PATH` serializes relational query results as JSON. Using it in a correlated subquery produces each order’s nested `lines` array, and using it on the outer query produces the JSON array of orders. `JSON_VALUE` extracts a single scalar value from JSON text.\n\n**Learn more:** [Format query results as JSON with FOR JSON](https://learn.microsoft.com/en-us/sql/relational-databases/json/format-query-results-as-json-with-for-json-sql-server?view=sql-server-ver17) · [JSON_VALUE (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/functions/json-value-transact-sql?view=sql-server-ver17)\",\"trackingInfo\":{\"questionId\":\"408376e5-355b-4253-be3e-0c1341971b8f\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\n52:[[\"$\",\"p\",null,{\"children\":\"You need to design a generative AI solution that uses a Microsoft SQL Server 2025 database named DB1 as its data source. The solution must generate responses that meet these requirements:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":\"Are grounded in the most recent transactional and reference data stored in DB1\"}],\"\n\",[\"$\",\"li\",null,{\"children\":[\"Do \",[\"$\",\"strong\",null,{\"children\":\"NOT\"}],\" require retraining or fine-tuning of the language model when the data changes\"]}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Can include citations or references to the source data used in the response\"}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"Which scenario is the best use case for implementing a Retrieval Augmented Generation (RAG) pattern? More than one answer choice may achieve the goal. Select the \",[\"$\",\"strong\",null,{\"children\":\"BEST\"}],\" answer.\"]}],\"\n\",[\"$\",\"$L53\",null,{\"choices\":{\"A\":\"summarizing free-form user input text\",\"B\":\"training a custom language model on historical database data\",\"C\":\"answering user questions based on company-specific knowledge\",\"D\":\"generating marketing slogans based on user sentiment analysis\"},\"correctAnswer\":\"C\",\"explanation\":\"Retrieval-augmented generation retrieves relevant company data at query time and provides it to the language model as grounding context. It therefore supports answers based on current, organization-specific knowledge without retraining when the underlying data changes, and retrieved source metadata can be used for citations.\n\n**Learn more:** [Retrieval augmented generation (RAG) and indexes in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/concepts/retrieval-augmented-generation?view=foundry-classic) · [Augment large language models with retrieval-augmented generation or fine-tuning](https://learn.microsoft.com/en-us/azure/developer/ai/augment-llm-rag-fine-tuning)\",\"trackingInfo\":{\"questionId\":\"470a1fdf-0c93-4488-ac5f-33fa311748d2\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\nYour team is building an Azure SQL dataset solution from a locally cloned GitHub repository by using Microsoft Visual Studio Code and GitHub Copilot Chat.  \n  \nYou need to turn off the GitHub Copilot repository-level instructions for your own use without impacting other users.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "From Visual Studio Code, modify your GitHub Copilot Chat user settings."
+        },
+        {
+          "letter": "B",
+          "text": "Add a --debug flag when you start the GitHub Copilot Chat extension."
+        },
+        {
+          "letter": "C",
+          "text": "Delete .github/copilot-instructions.md."
+        }
+      ],
+      "answer": null,
+      "explanation": "Visual Studio Code settings let an individual disable Copilot Chat's use of repository instruction files. This setting applies only to that user's Copilot Chat usage and does not affect other users or modify the repository instruction file.\n\n**Learn more:** [Adding repository custom instructions for GitHub Copilot in your IDE](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions-in-your-ide/add-repository-instructions-in-your-ide?tool=visualstudio)"
+    },
+    {
+      "number": 29,
+      "domain": "Design and develop database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL Database.  \n  \nYou need to create a scalar user-defined function (UDF) that returns, as one positive integer, the number of whole years between an input parameter named `@OrderDate` and the current date/time. The function must be created in Azure SQL Database.  \n  \nYou write the following code.  \n  \n![Question Image](https://cdn.examcademy.com/images/questions/1783922359582-yo98m4mi.png)  \n  \nWhat should be inserted at line 05?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RETURN DATEDIFF(year, GETDATE(), @OrderDate);"
+        },
+        {
+          "letter": "B",
+          "text": "DATEDIFF(month, @orderdate, GETDATE()) / 12"
+        },
+        {
+          "letter": "C",
+          "text": "DATEPART(year, GETDATE()) - DATEPART(year, @orderdate)"
+        },
+        {
+          "letter": "D",
+          "text": "RETURN DATEDIFF(year, @OrderDate, GETDATE());"
+        }
+      ],
+      "answer": null,
+      "explanation": "A Transact-SQL scalar UDF body returns its result through `RETURN scalar_expression`. `DATEDIFF(year, @OrderDate, GETDATE())` uses the required `DATEDIFF(datepart, startdate, enddate)` argument order, returns an `int`, and measures the year difference from the order date to the current date/time. [DATEDIFF (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/functions/datediff-transact-sql?view=sql-server-ver17) [CREATE FUNCTION (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-function-transact-sql?view=sql-server-ver17)\n\n**Learn more:** [DATEDIFF (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/functions/datediff-transact-sql?view=sql-server-ver17) · [CREATE FUNCTION (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-function-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 30,
+      "domain": "Implement AI capabilities in database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a Microsoft SQL Server 2025 instance containing a database named SalesDB. SalesDB supports a Retrieval Augmented Generation (RAG) pattern for internal support tickets. The SQL Server instance has no outbound network connectivity.  \n  \nYou plan to generate embeddings within the SQL Server instance and store them in a table for vector similarity queries.  \n  \nYou need to ensure that only a database user account named AIApplicationUser can use the model to generate embeddings.  \n  \nWhich two actions should you take? Each correct answer represents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Grant the CONTROL permission on SalesDB to AIApplicationUser."
+        },
+        {
+          "letter": "B",
+          "text": "Create a database audit specification on SalesDB owned by AIApplicationUser."
+        },
+        {
+          "letter": "C",
+          "text": "Grant the EXECUTE permission on the external model project to AIApplicationUser."
+        },
+        {
+          "letter": "D",
+          "text": "Create an external model project by using ONNX runtime and local paths."
+        },
+        {
+          "letter": "E",
+          "text": "Create an external model project that points to a Microsoft Foundry REST endpoint."
+        }
+      ],
+      "answer": null,
+      "explanation": "SQL Server 2025 can run text-embedding inference locally by creating an external model configured for ONNX Runtime with local model and runtime paths, which does not require outbound connectivity. Use of an external model in AI functions requires EXECUTE permission on that external model; granting this permission to AIApplicationUser authorizes that account to generate embeddings while avoiding broad database control permissions.\n\n**Learn more:** [CREATE EXTERNAL MODEL (Transact-SQL) - SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-external-model-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 31,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database that supports a customer-facing API. The API invokes a stored procedure named `dbo.GetCustomerOrders` thousands of times each hour.  \n  \nFollowing a deployment that updated indexes and statistics, users report that the API endpoint supported by `dbo.GetCustomerOrders` is slower. In Query Store, the same query now has two persisted execution plans. Over the past hour, the newer plan has had a substantially higher average duration and CPU time than the older plan.  \n  \nYou need to restore the earlier performance quickly without modifying the API code.  \n  \nWhich Transact-SQL command should you run?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "EXEC sys.sp_query_store_set_hints"
+        },
+        {
+          "letter": "B",
+          "text": "DBCC FREEPROCCACHE"
+        },
+        {
+          "letter": "C",
+          "text": "EXEC sp_query_store_force_plan"
+        },
+        {
+          "letter": "D",
+          "text": "ALTER DATABASE"
+        }
+      ],
+      "answer": null,
+      "explanation": "`sp_query_store_force_plan` forces a specified persisted Query Store plan for a query, allowing the known lower-duration, lower-CPU plan to be used again without changing application code. It is supported in Azure SQL Database.\n\n**Learn more:** [sp_query_store_force_plan (Transact-SQL)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-query-store-force-plan-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 32,
+      "domain": "Implement AI capabilities in database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"dp-800\",\"data-q\":38,\"data-question-id\":\"810efccf-7d80-4917-9438-f70150fe41f6\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],\"$L88\"]}],\"$L89\"]}]]}]]}],\"$L8a\"]}],\"$L8b\"]}]\nYou have an Azure SQL database named AdventureWorksDB that includes a table named dbo.Employee.  \n  \nYou have a C# Azure Functions app that uses an HTTP-triggered function and an Azure SQL input binding to query dbo.Employee.  \n  \nYou are adding a second function that responds to row changes in dbo.Employee and writes structured logs.  \n  \nYou need to configure AdventureWorksDB and the app to meet these requirements:  \n  \n- Changes to dbo.Employee must invoke the new function within five seconds.  \n- Each invocation must handle no more than 100 changes.  \n  \nWhich two database configurations should you perform? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create an AFTER trigger on dbo.Employee for Data Manipulation Language (DML)."
+        },
+        {
+          "letter": "B",
+          "text": "Set Sql_Trigger_MaxBatchSize to 100."
+        },
+        {
+          "letter": "C",
+          "text": "Enable change tracking on the dbo.Employee table."
+        },
+        {
+          "letter": "D",
+          "text": "Enable change tracking at the database level."
+        },
+        {
+          "letter": "E",
+          "text": "Set Sql_Trigger_PollingIntervalMs to 5000."
+        },
+        {
+          "letter": "F",
+          "text": "Enable change data capture (CDC) for dbo.Employee table changes."
+        }
+      ],
+      "answer": null,
+      "explanation": "The Azure SQL trigger binding uses SQL change tracking to detect row inserts, updates, and deletes. Change tracking must be enabled both for the database and for the specific monitored table. The trigger’s default maximum batch size is 100 changes and its default polling interval is 1,000 milliseconds, satisfying the stated limits without requiring a database configuration change. [Azure SQL trigger for Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-azure-sql-trigger)\n\n**Learn more:** [Azure SQL trigger for Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-azure-sql-trigger)"
+    },
+    {
+      "number": 33,
+      "domain": "Implement AI capabilities in database solutions",
+      "question": "You have an Azure SQL database that contains database-level Data Definition Language (DDL) triggers, including one named `ddl_Audit`.  \n  \nYou need to stop `ddl_Audit` from firing during the next deployment while keeping the trigger object in place.  \n  \nWhich Transact-SQL statement should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ALTER TRIGGER"
+        },
+        {
+          "letter": "B",
+          "text": "ALTER DATABASE"
+        },
+        {
+          "letter": "C",
+          "text": "ALTER SERVER AUDIT SPECIFICATION"
+        },
+        {
+          "letter": "D",
+          "text": "DISABLE TRIGGER"
+        },
+        {
+          "letter": "E",
+          "text": "ALTER DATABASE AUDIT SPECIFICATION"
+        }
+      ],
+      "answer": "D",
+      "explanation": "`DISABLE TRIGGER` prevents a database-scoped DDL trigger from firing without dropping the trigger object. For this trigger, the applicable form is `DISABLE TRIGGER ddl_Audit ON DATABASE`.\\\n\\\n**Learn more:** [DISABLE TRIGGER (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/statements/disable-trigger-transact-sql?view=sql-server-ver15)"
+    },
+    {
+      "number": 34,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "Solution: Add the `Microsoft.SqlServer.Dacpacs.Azure.Master` NuGet package to the project.  \n  \nDoes this achieve the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The `Microsoft.SqlServer.Dacpacs.Azure.Master` package provides the Azure SQL Database `master` system-database DACPAC. Adding it as a package reference supplies system-object definitions to an SDK-style SQL project, resolving build validation errors caused by unresolved system-object references.\\\n\\\n**Learn more:** [SQL Projects system objects](https://learn.microsoft.com/en-us/sql/tools/sql-database-projects/concepts/system-objects?view=sql-server-ver17)"
+    },
+    {
+      "number": 35,
+      "domain": "Implement AI capabilities in database solutions",
+      "question": "Solution: Add an artifact reference to the Azure SQL Database `master.dacpac` file.  \n  \nDoes this satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "An artifact reference to the Azure SQL Database `master.dacpac` adds the Azure SQL system-object definitions to the project’s database model. SQL projects support artifact references for `master.dacpac` in SDK-style projects, allowing build-time validation of references to system objects. [SQL projects system objects — Microsoft Learn](https://learn.microsoft.com/en-us/sql/tools/sql-database-projects/concepts/system-objects?view=sql-server-ver17)\\\n\\\n**Learn more:** [SQL projects system objects — Microsoft Learn](https://learn.microsoft.com/en-us/sql/tools/sql-database-projects/concepts/system-objects?view=sql-server-ver17)"
+    },
+    {
+      "number": 36,
+      "domain": "Design and develop database solutions",
+      "question": "Solution: Add the `Microsoft.SqlServer.Dacpacs.Master` NuGet package to the project.  \n  \nDoes this satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "For an SDK-style SQL project targeting Azure SQL Database, system-object validation requires a reference to the Azure SQL Database `master` model, provided by the `Microsoft.SqlServer.Dacpacs.Azure.Master` package. `Microsoft.SqlServer.Dacpacs.Master` is the SQL Server `master` package and is not the correct target-platform system-object reference.\\\n\\\n**Learn more:** [SQL projects system objects](https://learn.microsoft.com/en-us/sql/tools/sql-database-projects/concepts/system-objects?view=sql-server-ver17)"
+    },
+    {
+      "number": 37,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "Solution: Add the `Microsoft.SqlServer.Dacpacs.Master` NuGet package to the project.  \n  \nDoes this satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SqlPackage.exe /Action:DriftReport"
+        },
+        {
+          "letter": "B",
+          "text": "SqlPackage.exe /Action:DeployReport"
+        },
+        {
+          "letter": "C",
+          "text": "SqlPackage.exe /Action:Extract"
+        },
+        {
+          "letter": "D",
+          "text": "SqlPackage.exe /Action:Script"
+        }
+      ],
+      "answer": null,
+      "explanation": "`DeployReport` generates an XML report of the changes that a publish operation would make. Using the DACPAC built from the source-controlled SQL project as the source and the production Azure SQL database as the target reveals schema differences without deploying them. `DriftReport` instead reports changes to a registered database since its last registration.\n\n**Learn more:** [SqlPackage deploy report and drift report](https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-deploy-drift-report?view=sql-server-ver17)"
+    },
+    {
+      "number": 38,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL Database that contains a table named `dbo.ManualChunks`. `dbo.ManualChunks` contains product manuals.  \n  \nA retrieval query already returns the top five matching chunks as `nvarchar(max)` text. You need to call an Azure OpenAI REST endpoint for chat completions. The request body must contain both the user question and the retrieved chunks.  \n  \nYou write the following Transact-SQL code.  \n  \n![Question Image](https://cdn.examcademy.com/images/questions/1783921989609-g8qa729y.png)  \n  \nWhat should you insert at line 22?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "FOR XML AUTO, TYPE, XMLSCHEMA"
+        },
+        {
+          "letter": "B",
+          "text": "FOR JSON AUTO, INCLUDE_NULL_VALUES"
+        },
+        {
+          "letter": "C",
+          "text": "FOR XML PATH, INCLUDE_NULL_VALUES"
+        },
+        {
+          "letter": "D",
+          "text": "FOR JSON PATH, WITHOUT_ARRAY_WRAPPER"
+        }
+      ],
+      "answer": null,
+      "explanation": "`FOR JSON PATH, WITHOUT_ARRAY_WRAPPER` serializes the outer `SELECT` as one JSON object for the chat-completions request body. `FOR JSON PATH` maps the `messages[0]` and `messages[1]` aliases to nested JSON properties, and `WITHOUT_ARRAY_WRAPPER` prevents a top-level array. `JSON_QUERY(@chunks)` preserves the retrieved chunks as an embedded JSON fragment rather than escaped text.\n\n**Learn more:** [JSON_QUERY (Transact-SQL) - SQL Server](https://learn.microsoft.com/en-us/sql/t-sql/functions/json-query-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 51,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": null,
+      "explanation": "`TRUNCATE TABLE` with the `PARTITIONS` clause removes data from the specified partition without logging individual row deletions. Truncating only the oldest monthly partition targets the required data-retention slice and uses fewer transaction-log and locking resources than deleting its rows individually. The table and its indexes must be aligned to use partition truncation.\n\n**Learn more:** [TRUNCATE TABLE (Transact-SQL)](https://learn.microsoft.com/mt-mt/sql/t-sql/statements/truncate-table-transact-sql?view=sql-server-linux-ver16) · [Partitioned tables and indexes](https://learn.microsoft.com/en-us/sql/relational-databases/partitions/partitioned-tables-and-indexes?view=sql-server-ver17)"
+    },
+    {
+      "number": 52,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "Solution: Execute the following Transact-SQL statement.  \n  \n```sql  \nDELETE FROM dbo.Orders -  \nWHERE OrderDate &lt; DATEADD(month, -36, SYSUTCDATETIME());  \n```  \n  \nDoes this accomplish the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A row-by-row DELETE is not a low-impact way to remove an entire monthly partition from a large partitioned table. It can consume transaction-log and processing resources and interfere with concurrent access; removing data through a partition-level approach is needed to minimize impact on other queries."
+    },
+    {
+      "number": 53,
+      "domain": "Design and develop database solutions",
+      "question": "Solution: Determine the partition scheme for the oldest month, then execute the following Transact-SQL statement.  \n  \n```sql  \nALTER TABLE dbo.Orders -  \nDROP PARTITION SCHEME (partition_scheme_name);  \n```  \n  \nDoes this achieve the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "`DROP PARTITION SCHEME` is a standalone Transact-SQL statement, not an `ALTER TABLE` operation, and a partition scheme cannot be dropped while a table or index uses it. Dropping the scheme would not selectively remove the oldest monthly partition from `dbo.Orders`. [Microsoft Learn: DROP PARTITION SCHEME (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/statements/drop-partition-scheme-transact-sql?view=sql-server-ver17)\\\n\\\n**Learn more:** [DROP PARTITION SCHEME (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/statements/drop-partition-scheme-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 54,
+      "domain": "Implement AI capabilities in database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database that supports the OLTP workload for an order-processing application.  \n  \nDuring a 10-minute incident window, you run a dynamic management view query and find the following:  \n  \n- Session 72 is sleeping with `open_transaction_count = 1`.  \n- Multiple other sessions display `blocking_session_id = 72` in `sys.dm_exec_requests`.  \n- `sys.dm_exec_input_buffer(72, NULL)` returns only `BEGIN TRANSACTION UPDATE Sales.Orders`.  \n- Users report that updates to `Sales.Orders` intermittently time out during the incident window.  \n- The timeouts stop only after you manually terminate session 72.  \n  \nWhat could be causing the blocking?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A long-running SELECT statement is blocking writers."
+        },
+        {
+          "letter": "B",
+          "text": "Session 72 caused a deadlock."
+        },
+        {
+          "letter": "C",
+          "text": "An explicit transaction was started but not committed or rolled back."
+        },
+        {
+          "letter": "D",
+          "text": "A lock escalation occurred."
+        }
+      ],
+      "answer": null,
+      "explanation": "An explicit transaction begun with `BEGIN TRANSACTION` remains active until `COMMIT` or `ROLLBACK`. Locks acquired by the `UPDATE Sales.Orders` can therefore remain held while the session is sleeping, blocking conflicting updates until the transaction is ended or the session is terminated.\n\n**Learn more:** [Understand and Resolve Blocking Problems - Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/understand-resolve-blocking?view=azuresql) · [BEGIN TRANSACTION (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/begin-transaction-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 55,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database containing tables named `dbo.ProductDocs` and `dbo.ProductDocsEmbeddings`. `dbo.ProductDocs` stores product documentation and has these columns:  \n  \n- `DocID` (`int`)  \n- `Title` (`nvarchar(200)`)  \n- `Body` (`nvarchar(max)`)  \n- `LastModified` (`datetime2`)  \n  \nThe documentation is edited throughout the day.  \n  \n`dbo.ProductDocsEmbeddings` has the following columns:  \n  \n- `DocID` (`int`)  \n- `ChunkOrder` (`int`)  \n- `ChunkText` (`nvarchar(max)`)  \n- `Embedding` (`vector(1536)`)  \n  \nThe current embedding pipeline runs once each night.  \n  \nYou need to ensure embeddings are updated whenever the underlying documentation content changes. The solution must **not** require a nightly batch process.  \n  \nWhat should you include in the solution?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fixed-size chunking"
+        },
+        {
+          "letter": "B",
+          "text": "a smaller embedding model"
+        },
+        {
+          "letter": "C",
+          "text": "table triggers"
+        },
+        {
+          "letter": "D",
+          "text": "change tracking on dbo.ProductDocs"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure SQL change tracking records committed DML changes for enabled tables and lets an application retrieve the rows that changed and then read their current values. An incremental embedding process can use those changes to regenerate the affected chunks and vectors as documentation is edited, rather than relying on a nightly batch. Microsoft Learn describes change tracking as a lightweight mechanism for identifying changed rows and obtaining their latest data from the tracked table.\n\n**Learn more:** [About Change Tracking (SQL Server)](https://learn.microsoft.com/en-us/sql/relational-databases/track-changes/about-change-tracking-sql-server?view=sql-server-ver17) · [Track Data Changes (SQL Server)](https://learn.microsoft.com/en-us/sql/relational-databases/track-changes/track-data-changes-sql-server?view=sql-server-ver17)"
+    },
+    {
+      "number": 56,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A development team uses GitHub Copilot Chat in Microsoft SQL Server Management Studio (SSMS) to generate and execute Transact-SQL queries against an Azure SQL database named DB1. DB1 has tables that store sensitive customer data.  \n  \nYou need to ensure that every Transact-SQL query executed from GitHub Copilot Chat in SSMS is constrained by the same permissions as the developer’s database login.  \n  \nWhat stops GitHub Copilot Chat-executed queries from accessing data beyond the developer’s authorized access?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GitHub Copilot Chat runs queries in a read-only sandbox that is isolated from production database permissions."
+        },
+        {
+          "letter": "B",
+          "text": "GitHub Copilot Chat runs queries by using the developer’s database identity and permissions."
+        },
+        {
+          "letter": "C",
+          "text": "GitHub Copilot Chat filters query results on the client side to remove rows the developer is unauthorized to see."
+        },
+        {
+          "letter": "D",
+          "text": "GitHub Copilot Chat uses different row-level security (RLS) policies than the developer."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Copilot Chat in SSMS executes queries under the connected developer’s database login and permissions. Copilot has no separate or elevated database permissions, so Azure SQL permission enforcement prevents access to objects or data the developer is not authorized to access.\n\n**Learn more:** [Use the GitHub Copilot Chat experience in SQL Server Management Studio](https://learn.microsoft.com/en-us/ssms/github-copilot/chat) · [Execution context for GitHub Copilot in SQL Server Management Studio](https://learn.microsoft.com/en-us/ssms/github-copilot/execution-context)"
+    },
+    {
+      "number": 57,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database named ProductsDB.  \n  \nYou deploy Data API builder (DAB) to Azure Container Apps by using the `mcr.microsoft.com/azure-databases/data-api-builder:latest` image.  \n  \nThe container app has these configurations:  \n  \n- **Secrets:** `mssql-connection-string`, `dab-config-base64`  \n- **Environment variables:**  \n  - `MSSQL_CONNECTION_STRING=secretref:mssql-connection-string`  \n  - `DAB_CONFIG_BASE64=secretref:dab-config-base64`  \n- **Ingress:** External on port 5000  \n  \nUsers report that the `/health` endpoint returns a healthy response, but every request that queries an entity named Products fails and produces a connection error.  \n  \nYou confirm that the SQL login in the connection string is correct and that the database exists.  \n  \nYou need to ensure that the container app can establish connections to the Azure SQL logical server without changing the container app deployment settings or the DAB configuration file.  \n  \nWhat should you do on the Azure SQL logical server?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create an auto-failover group for ProductsDB."
+        },
+        {
+          "letter": "B",
+          "text": "Run DBCC CHECKDB on ProductsDB."
+        },
+        {
+          "letter": "C",
+          "text": "Create a firewall rule that allows a start and end IP address of 0.0.0.0."
+        },
+        {
+          "letter": "D",
+          "text": "Enable FORCE_LAST_GOOD_PLAN automatic tuning for ProductsDB."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure SQL Database requires its logical server firewall to allow connections from Azure-hosted resources. A server-level rule whose start and end IP addresses are both `0.0.0.0` enables Azure services and resources to pass through the firewall and attempt database connections. This is the network setting required for the container app to connect when its credentials and database are already valid.\n\n**Learn more:** [IP Firewall Rules - Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/firewall-configure?view=azuresql-db) · [az sql server firewall-rule](https://learn.microsoft.com/en-us/cli/azure/sql/server/firewall-rule?view=azure-cli-latest)"
+    },
+    {
+      "number": 58,
+      "domain": "Implement AI capabilities in database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a database containing production data. Its schema is stored in a Git repository as an SDK-style SQL database project and includes the following reference data.  \n  \n![Question Image](https://cdn.examcademy.com/images/questions/1784704107228-tmecasie.png)  \n  \nA deployment pipeline may be automatically rerun after a transient failure.  \n  \nYou need to deploy the reference data as part of the same CI/CD process. Rerunning the pipeline must yield the same result and must **not** create duplicate rows.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add a post-deployment script that inserts reference rows by using IF NOT EXISTS or MERGE logic."
+        },
+        {
+          "letter": "B",
+          "text": "Restore a backup after each deployment."
+        },
+        {
+          "letter": "C",
+          "text": "Store the reference values in GitHub repository secrets."
+        }
+      ],
+      "answer": null,
+      "explanation": "A post-deployment script runs as part of every SQL database-project deployment. Making its reference-data changes idempotent with `IF NOT EXISTS` inserts or correctly keyed `MERGE` logic ensures a rerun preserves the intended data state without inserting duplicate rows.\n\n**Learn more:** [Pre-deployment and post-deployment scripts overview](https://learn.microsoft.com/en-us/sql/tools/sql-database-projects/concepts/pre-post-deployment-scripts?view=sql-server-ver16) · [Fabric SQL database source control integration — Manage static data with a post-deployment script](https://learn.microsoft.com/en-us/fabric/database/sql/source-control)"
+    },
+    {
+      "number": 59,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You plan to update `sp_UpdateProcedureForPatient` to satisfy the performance requirements by running all of its code within a transaction.  \n  \nWhich transaction isolation level should you use?\n\n![Question Image](https://cdn.examcademy.com/images/questions/1784704107157-xwcbfs9m.png)\n\n![Question Image](https://cdn.examcademy.com/images/questions/1784704110883-rv2frunl.png)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "REPEATABLE READ"
+        },
+        {
+          "letter": "B",
+          "text": "SERIALIZABLE"
+        },
+        {
+          "letter": "C",
+          "text": "SNAPSHOT"
+        },
+        {
+          "letter": "D",
+          "text": "READ COMMITTED SNAPSHOT"
+        }
+      ],
+      "answer": null,
+      "explanation": "`REPEATABLE READ` prevents other transactions from modifying rows read by the current transaction until that transaction completes. This meets the requirement that records accessed by the procedure must not be changed while it runs. `SERIALIZABLE` also prevents phantom inserts into qualifying key ranges, which is not required here.\n\n**Learn more:** [SET TRANSACTION ISOLATION LEVEL (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/statements/set-transaction-isolation-level-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 60,
+      "domain": "Design and develop database solutions",
+      "question": "Solution: Build the project by running dotnet build -bl -flp:v=diag.  \n  \nDoes this meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The unresolved reference errors occur because the SDK-style database project is missing the correct system-object references (such as the Azure SQL Database master/system dacpac or the correct DatabaseSchemaProvider/target platform setting) needed for dotnet build to resolve system objects for an Azure SQL Database target. Simply re-running dotnet build with binary logging and diagnostic-level file logging flags changes only how build diagnostics are captured; it does not add any system-object references or change the project's schema provider, so the build will still fail with the same unresolved references."
+    },
+    {
+      "number": 61,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are building an Azure SQL database solution from a locally cloned GitHub repository by using Microsoft Visual Studio Code and GitHub Copilot Chat.  \n  \nYou need to make sure that GitHub Copilot Chat can invoke the hosted GitHub MCP Server tools by using OAuth. The MCP server configuration must be scoped to the repository.  \n  \nWhat should you do in Visual Studio Code?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a personal access token (PAT) that has the repo scope and store the PAT in the .vscode\\mcp.json file as the Authorization header."
+        },
+        {
+          "letter": "B",
+          "text": "From the Command Palette, enter MCP: add server, select HTTP (HTTP or Server-Sent Events), enter https://api.githubcopilot.com/mcp/, and then save the configuration to the workspace settings."
+        },
+        {
+          "letter": "C",
+          "text": "From the Command Palette, enter MCP: add server, select HTTP (HTTP or Server-Sent Events), enter https://api.githubcopilot.com/mcp/, and then save the configuration to the user settings."
+        },
+        {
+          "letter": "D",
+          "text": "Create a personal access token (PAT) that has the repo scope and store the PAT in the .github\\mcp.json file as the Authorization header."
+        }
+      ],
+      "answer": null,
+      "explanation": "A workspace-scoped MCP server is stored in the repository’s `.vscode/mcp.json` configuration, whereas user settings make the server available across workspaces. Add the hosted GitHub MCP Server as an HTTP/SSE server at `https://api.githubcopilot.com/mcp/` and save it to the workspace; Visual Studio Code handles the OAuth authorization flow without requiring a personal access token.\n\n**Learn more:** [Add and manage MCP servers in VS Code](https://code.visualstudio.com/docs/agent-customization/mcp-servers) · [MCP configuration reference](https://code.visualstudio.com/docs/agents/reference/mcp-configuration)"
+    },
+    {
+      "number": 62,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "You need to recommend a solution for the TransactionProcessing application that fulfills the security requirements.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a service principal"
+        },
+        {
+          "letter": "B",
+          "text": "a system-assigned managed identity"
+        },
+        {
+          "letter": "C",
+          "text": "a shared access key"
+        },
+        {
+          "letter": "D",
+          "text": "a user-assigned managed identity"
+        }
+      ],
+      "answer": "A",
+      "explanation": "An on-premises workload cannot use an Azure managed identity directly. A Microsoft Entra service principal provides an application identity for programmatic authentication to Azure SQL Database, replacing the hard-coded SQL username and password. Microsoft recommends a service principal when a workload is hosted outside Azure.\\\n\\\n**Learn more:** [Introduction to securing Microsoft Entra service accounts](https://learn.microsoft.com/en-us/entra/architecture/secure-service-accounts) · [Microsoft Entra service principals with Azure SQL](https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-aad-service-principal?view=azuresql)"
+    },
+    {
+      "number": 76,
+      "domain": "Design and develop database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are developing an Azure SQL solution by using Microsoft Visual Studio 2026. The solution uses a GitHub repository.  \n  \nYou plan to use GitHub Copilot Chat to access the GitHub repository tools by connecting to the GitHub MCP Server.  \n  \nYou need to configure Visual Studio to support the planned configuration. The solution must use OAuth to access the MCP server.  \n  \nWhat should you create?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the \\.vs\\settings.json file that contains the personal access token (PAT) that has the repo scope"
+        },
+        {
+          "letter": "B",
+          "text": "the \\.mcp.json file that contains a URL of https://api.githubcopilot.com/mcp/"
+        },
+        {
+          "letter": "C",
+          "text": "the \\.vscode\\settings.json file that contains a URL of https://api.githubcopilot.com/mcp/"
+        },
+        {
+          "letter": "D",
+          "text": "the \\.github\\mcp.json file that contains the personal access token (PAT) that has the repo scope"
+        }
+      ],
+      "answer": null,
+      "explanation": "Visual Studio supports a solution-level `.mcp.json` file for MCP server configuration. The documented GitHub MCP server entry uses the URL `https://api.githubcopilot.com/mcp/`; Visual Studio authenticates remote MCP servers through an OAuth provider, so a repository-scoped personal access token is not required in the configuration file.\n\n**Learn more:** [Use MCP Servers to Extend GitHub Copilot - Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=visualstudio)"
+    },
+    {
+      "number": 77,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database named `ToDo` that includes a table named `dbo.ToDo`.  \n  \nYour company plans to develop an Azure Functions app that runs whenever rows in `dbo.ToDo` change. The app will process `INSERT`, `UPDATE`, and `DELETE` events by using the Azure SQL trigger binding.  \n  \nYou need to configure `ToDo` to support the planned app.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable change tracking on ToDo and dbo.ToDo."
+        },
+        {
+          "letter": "B",
+          "text": "On dbo.ToDo, create a Data Manipulation Language (DML) trigger that calls the Azure Functions HTTP endpoint."
+        },
+        {
+          "letter": "C",
+          "text": "Enable change data capture (CDC) on ToDo and dbo.ToDo."
+        },
+        {
+          "letter": "D",
+          "text": "On dbo.ToDo, create a Data Definition Language (DDL) trigger that calls the Azure Functions HTTP endpoint."
+        }
+      ],
+      "answer": null,
+      "explanation": "The Azure SQL trigger binding uses SQL change tracking to monitor a table and invoke a function for inserted, updated, and deleted rows. Its required setup enables change tracking on both the database that contains the monitored table and on that table itself.\n\n**Learn more:** [Azure SQL trigger for Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-azure-sql-trigger)"
+    },
+    {
+      "number": 78,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],4f:I[68201,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n56:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"DragDrop\"]\n40:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n41:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Existing Environment\n\n### Azure Environment\n\nFabrikam has one Azure subscription in the East US 2 Azure region. The subscription contains an Azure SQL database named DB1. DB1 contains the following tables:\n\n- Patients\n- Employees\n- Procedures\n- Transactions\n- UsefulPrompts\n- ProcedureDocuments\n\nYou store a column master key as a secret in Azure Key Vault.\n\nYou have an on-premises application named TransactionProcessing that uses a hard-coded username and password in a connection string to access DB1.\n\n## Problem Statements\n\nUsers report that after running a long-running stored procedure named sp_UpdateProcedureForPatient, updates to the underlying data are sometimes inconsistent.\n\n## Requirements\n\n### Planned Changes\n\nFabrikam plans to manage all changes to Azure SQL Database objects by using source control in GitHub. Every pull request submitted to production will be validated before it can be merged. Deployments must use the Release configuration.\n\n### Security Requirements\n\nFabrikam identifies the following security requirements:\n\n- The TransactionProcessing application must use a passwordless connection to DB1.\n- The Employees table contains two columns named TaxID and Salary that must be encrypted at rest.\n- Auditors must have a tamper-evident history of transactions with cryptographic proof of changes to the employee data.\n\n### Database Performance Requirements\n\nRecords accessed by using sp_UpdateProcedureForPatient must NOT be changed by other transactions while the stored procedure runs.\n\n### AI Search, Embeddings, and Vector Indexing\n\nFabrikam identifies the following AI-related requirements:\n\n- Queries to the ProcedureDocuments table must use Reciprocal Rank Fusion (RRF).\n- Users must be able to query the data in DB1 by using prompts in Copilot in Microsoft Fabric.\n- The UsefulPrompts table will store prompts that doctors can use to help diagnose patient illness by connecting to an Azure OpenAI endpoint.\n\n### Development Requirements\n\nFabrikam identifies the following development requirements:\n\n- Provide the functionality to retrieve all the transactions of a given patient between two dates, showing a running total.\n- Expose a Data API builder (DAB) configuration file to enable Azure services to perform the following operations over a REST API:\n  - Read data from the procedures table without authentication.\n  - Read and insert data into the Transactions table once authenticated.\n  - Execute the sp_UpdateProcedurePatient stored procedure.\n- Provide the functionality to retrieve a list of the names of patients who underwent medical procedures during the last 30 days.\n- Information for each medical procedure will be stored in a table. The table will be used with a large language model (LLM) for user querying and will have the following structure.\n\n![Scenario Image](https://cdn.examcademy.com/images/questions/1784704107641-of8gt1cl.png)\n\n## DAB\n\nYou create a DAB configuration file that meets the development requirements for DB1 and includes the following entities.\n\n![Scenario Image](https://cdn.examcademy.com/images/questions/1784704110906-wphgrgyj.png)42:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L4f\",null,{\"group\":{\"id\":\"f3393e67365d3818d8d85578e58677a4bf06934a15929c7b44edacc25d95c33a\",\"type\":\"case_study\",\"title\":\"Fabrikam Healthcare Data Modernization\",\"content\":\"$50\"}}],\"$L51\",\"$L52\"]}]\n44:[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}]\n45:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n46:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":78,\"questionId\":\"394c5148-b211-42cc-a465-7dc91d3a505b\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L53\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":78,\"questionId\":\"394c5148-b211-42cc-a465-7dc91d3a505b\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":78,\"questionId\":\"394c5148-b211-42cc-a465-7dc91d3a505b\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/4\"}]}]]}]\n48:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n49:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4a:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":79,\"questionId\":\"1447806e-82a1-480d-932d-aa1ce0132a2a\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L54\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":79,\"questionId\":\"1447806e-82a1-480d-932d-aa1ce0132a2a\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":79,\"questionId\":\"1447806e-82a1-480d-932d-aa1ce0132a2a\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/4\"}]}]]}]\n4c:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n4d:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4e:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":80,\"questionId\":\"960fbb62-920d-4b94-b745-982ba7a46a67\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L55\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":80,\"questionId\":\"960fbb62-920d-4b94-b745-982ba7a46a67\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":80,\"questionId\":\"960fbb62-920d-4b94-b745-982ba7a46a67\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/4\"}]}]]}]\n3c:[[\"$\",\"p\",null,{\"children\":\"You have an Azure SQL database that contains a table named Sales.Orders. Sales.Orders contains the following columns.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"$\",\"img\",null,{\"src\":\"https://cdn.examcademy.com/images/questions/1784704113049-vcng2xb4.png\",\"alt\":\"Question Image\"}]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Reporting queries often repeat logic to calculate the number of days since an order was placed.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to create a scalar user-defined function (UDF) that returns the number of days between an input value of @OrderDate and the current date and time.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"How should you complete the Transact-SQL code? Each value may be used once, more than once, or not at all.\"}],\"\n\",[\"$\",\"$L56\",null,{\"items\":[\"AS RETURN\",\"DATEADD(day, @OrderDate, GETDATE())\",\"DATEDIFF(day, @OrderDate, GETDATE())\",\"RETURNS INT\",\"RETURNS TABLE\",\"WITH SCHEMABINDING\"],\"slots\":[{\"answer\":\"RETURNS INT\",\"id\":\"return_type\"},{\"answer\":\"DATEDIFF(day, @OrderDate, GETDATE())\",\"id\":\"days_expression\"}],\"template\":\"CREATE FUNCTION dbo.ufn_DaysSinceOrder\n(\n    @OrderDate datetime2(0)\n)\n{{return_type}}\nBEGIN\n    DECLARE @Days int;\n    SELECT @Days = {{days_expression}};\n    RETURN @Days;\nEND;\nGO\",\"reuse\":true,\"explanation\":\"RETURNS INT defines the scalar result type. DATEDIFF(day, @OrderDate, GETDATE()) returns the integer count of day boundaries crossed from the order date to the current system date and time.\n\n**Learn more:** [DATEDIFF (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/functions/datediff-transact-sql?view=sql-server-ver17) · [CREATE FUNCTION (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-function-transact-sql?view=sql-server-ver17)\",\"trackingInfo\":{\"questionId\":\"448333d7-e322-415b-a5e5-3bade4cab97c\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\n58:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\n51:[\"$\",\"$L3b\",null,{\"questionNumber\":77,\"questionId\":\"11a69255-d851-452e-a0ec-f23aa64ffafb\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L57\"}]}]\n52:[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":77,\"questionId\":\"11a69255-d851-452e-a0ec-f23aa64ffafb\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"questionNumber\":77,\"questionId\":\"11a69255-d851-452e-a0ec-f23aa64ffafb\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-800/4\"}]}]\n53:[[\"$\",\"p\",null,{\"children\":\"You have an Azure SQL database named sqldb-ai-prod that stores customer support tickets for a multitenant software as a service (SaaS) application. sqldb-ai-prod contains a table named Tickets. Tickets contains columns named TenantId, TicketId, CustomerEmail, CustomerPhone, and Notes.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You plan to strengthen data access because a new support team will use ad hoc reporting tools that connect directly to sqldb-ai-prod.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to configure security to meet these requirements:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":\"Support agents must see only the rows of their own TenantId column.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Support agents must see only the domain name portion of the CustomerEmail column.\"}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Each action may be used once, more than once, or not at all.\"}],\"\n\",[\"$\",\"$L56\",null,{\"items\":[\"Configure dynamic data masking on selected columns.\",\"Enable Transparent Data Encryption (TDE) and customer-managed keys.\",\"Create a row-level security (RLS) predicate that uses the user context.\",\"Encrypt sensitive columns by using Always Encrypted with Azure Key Vault.\"],\"slots\":[{\"answer\":\"Create a row-level security (RLS) predicate that uses the user context.\",\"id\":\"tenant_rows\",\"label\":\"Support agents must see only the rows of their own TenantId:\"},{\"answer\":\"Configure dynamic data masking on selected columns.\",\"id\":\"email_domain\",\"label\":\"Support agents must see only the domain name portion of CustomerEmail:\"}],\"reuse\":true,\"explanation\":\"Row-level security uses a filter predicate to restrict which rows are returned based on the querying user’s identity or session context, so it enforces tenant isolation. Dynamic data masking applies a masking rule to selected columns for nonprivileged users, including email-format masking. TDE and Always Encrypted are encryption-at-rest/data-protection mechanisms and do not provide row filtering or a masked query presentation.\n\n**Learn more:** [Row-Level Security - SQL Server](https://learn.microsoft.com/en-us/sql/relational-databases/security/row-level-security?view=azure-sqldw-latest) · [Dynamic Data Masking - Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/dynamic-data-masking-overview?view=azuresql)\",\"trackingInfo\":{\"questionId\":\"394c5148-b211-42cc-a465-7dc91d3a505b\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\n54:[[\"$\",\"p\",null,{\"children\":\"You are developing an Azure SQL solution by using Microsoft Visual Studio 2026. The solution uses a GitHub repository.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You plan to use GitHub Copilot Chat to access the GitHub repository tools by connecting to the GitHub MCP Server.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to configure Visual Studio to support the planned configuration. The solution must use OAuth to access the MCP server.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"What should you create?\"}],\"\n\",[\"$\",\"$L58\",null,{\"choices\":{\"A\":\"the \\.vs\\settings.json file that contains the personal access token (PAT) that has the repo scope\",\"B\":\"the \\.mcp.json file that contains a URL of https://api.githubcopilot.com/mcp/\",\"C\":\"the \\.vscode\\settings.json file that contains a URL of https://api.githubcopilot.com/mcp/\",\"D\":\"the \\.github\\mcp.json file that contains the personal access token (PAT) that has the repo scope\"},\"correctAnswer\":\"B\",\"explanation\":\"Visual Studio supports a solution-level `.mcp.json` file for MCP server configuration. The documented GitHub MCP server entry uses the URL `https://api.githubcopilot.com/mcp/`; Visual Studio authenticates remote MCP servers through an OAuth provider, so a repository-scoped personal access token is not required in the configuration file.\n\n**Learn more:** [Use MCP Servers to Extend GitHub Copilot - Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/mcp-servers?view=visualstudio)\",\"trackingInfo\":{\"questionId\":\"1447806e-82a1-480d-932d-aa1ce0132a2a\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\n55:[[\"$\",\"p\",null,{\"children\":[\"You have an Azure SQL database named \",[\"$\",\"code\",null,{\"children\":\"ToDo\"}],\" that includes a table named \",[\"$\",\"code\",null,{\"children\":\"dbo.ToDo\"}],\".\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"Your company plans to develop an Azure Functions app that runs whenever rows in \",[\"$\",\"code\",null,{\"children\":\"dbo.ToDo\"}],\" change. The app will process \",[\"$\",\"code\",null,{\"children\":\"INSERT\"}],\", \",[\"$\",\"code\",null,{\"children\":\"UPDATE\"}],\", and \",[\"$\",\"code\",null,{\"children\":\"DELETE\"}],\" events by using the Azure SQL trigger binding.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"You need to configure \",[\"$\",\"code\",null,{\"children\":\"ToDo\"}],\" to support the planned app.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"What should you do?\"}],\"\n\",[\"$\",\"$L58\",null,{\"choices\":{\"A\":\"Enable change tracking on ToDo and dbo.ToDo.\",\"B\":\"On dbo.ToDo, create a Data Manipulation Language (DML) trigger that calls the Azure Functions HTTP endpoint.\",\"C\":\"Enable change data capture (CDC) on ToDo and dbo.ToDo.\",\"D\":\"On dbo.ToDo, create a Data Definition Language (DDL) trigger that calls the Azure Functions HTTP endpoint.\"},\"correctAnswer\":\"A\",\"explanation\":\"The Azure SQL trigger binding uses SQL change tracking to monitor a table and invoke a function for inserted, updated, and deleted rows. Its required setup enables change tracking on both the database that contains the monitored table and on that table itself.\n\n**Learn more:** [Azure SQL trigger for Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-azure-sql-trigger)\",\"trackingInfo\":{\"questionId\":\"960fbb62-920d-4b94-b745-982ba7a46a67\",\"examProvider\":\"microsoft\",\"examName\":\"dp-800\",\"mode\":\"default\"}}]]\nYou have an Azure SQL database named SalesDB and an Azure App Service app named sales-api. SalesDB contains a table named dbo.Customers. dbo.Customers has two columns named CreditCardNumber and TenantId.  \n  \nCurrently, sales-api connects to SalesDB by using SQL authentication with a stored username and password.  \n  \nYou need to recommend a solution that meets these requirements:  \n  \n- Provides a passwordless way for sales-api to access SalesDB.  \n- Ensures that credit card numbers are **NOT** stored as plain text.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Key Vault and Always Encrypted"
+        },
+        {
+          "letter": "B",
+          "text": "Transparent Data Encryption (TDE) and row-level security (RLS)"
+        },
+        {
+          "letter": "C",
+          "text": "managed identities and dynamic data masking"
+        },
+        {
+          "letter": "D",
+          "text": "managed identities and Always Encrypted"
+        }
+      ],
+      "answer": null,
+      "explanation": "A managed identity lets an Azure App Service authenticate to Azure SQL Database through Microsoft Entra ID without storing or rotating a SQL username and password. Always Encrypted protects sensitive columns such as credit card numbers by storing encrypted values in the database; the database engine does not have access to the plaintext encryption keys.\n\n**Learn more:** [Tutorial: Connect to Azure databases from App Service without secrets using a managed identity](https://learn.microsoft.com/en-us/azure/app-service/tutorial-connect-msi-azure-database) · [Always Encrypted - How queries against encrypted columns work](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-how-queries-against-encrypted-columns-work)"
+    },
+    {
+      "number": 79,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "Solution: Execute the following Transact-SQL statement.  \n  \n```sql  \nTRUNCATE TABLE dbo.Orders;  \n```  \n  \nDoes this accomplish the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Without a `WITH (PARTITIONS (...))` clause, `TRUNCATE TABLE` removes every row from the table, not just the oldest monthly partition. Removing all data does not satisfy a requirement to remove only the rows for the oldest month. [TRUNCATE TABLE (Transact-SQL) - Microsoft Learn](https://learn.microsoft.com/en-us/sql/t-sql/statements/truncate-table-transact-sql?view=sql-server-ver17)\\\n\\\n**Learn more:** [TRUNCATE TABLE (Transact-SQL) - Microsoft Learn](https://learn.microsoft.com/en-us/sql/t-sql/statements/truncate-table-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 80,
+      "domain": "Design and develop database solutions",
+      "question": "You have an Azure container app named `app1-contoso-001` that hosts a Data API builder (DAB) container in front of an Azure SQL database.  \n  \nYou add an entity named `Todo` that uses the source `dbo.todos`.  \n  \nWhich URL pattern should clients use to reach the `Todo` REST endpoint?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "https://appl-contoso-001.azurestaticapps.net/data-api/graphq1/Todo"
+        },
+        {
+          "letter": "B",
+          "text": "https://appl-contoso-001.azurestaticapps.net/api/Todo"
+        },
+        {
+          "letter": "C",
+          "text": "https://appl-contoso-001.azurestaticapps.net/data-api/Todo"
+        },
+        {
+          "letter": "D",
+          "text": "https://appl-contoso-001.azurestaticapps.net/data-api/api/Todo"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Data API builder hosts REST endpoints by default at `https://{base_url}/api/{entity}`. With an entity named `Todo`, the endpoint path is `/api/Todo`; the `dbo.todos` source does not change that path.\\\n\\\n**Learn more:** [How to call REST endpoints - Data API builder](https://learn.microsoft.com/en-us/azure/data-api-builder/concept/rest/overview)"
+    },
+    {
+      "number": 81,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "You have an Azure container app named `app1-contoso-001` that hosts a Data API builder (DAB) container in front of an Azure SQL database.  \n  \nYou add an entity named `Todo` that uses the source `dbo.todos`.  \n  \nWhich URL pattern should clients use to reach the `Todo` REST endpoint?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a vector index on products.embedding and change the query to use VECTOR_NORMALIZE and NORM_TYPE = ‘norm1’."
+        },
+        {
+          "letter": "B",
+          "text": "Use CONTAINSTABLE against description only and remove the vector search."
+        },
+        {
+          "letter": "C",
+          "text": "Create a vector index on products.embedding and change the query to use VECTOR_SEARCH and METRIC = ‘cosine’."
+        },
+        {
+          "letter": "D",
+          "text": "Add a nonclustered index on products.embedding."
+        },
+        {
+          "letter": "E",
+          "text": "Change embedding to VARBINARY(8000)."
+        }
+      ],
+      "answer": null,
+      "explanation": "`VECTOR_DISTANCE` calculates exact vector distances and does not use a vector index, which can require comparisons across all embeddings. A vector index combined with `VECTOR_SEARCH` enables approximate nearest-neighbor search, reducing the work required for semantic search. The vector index must match the search metric, so the cosine metric should be used for both the index and `VECTOR_SEARCH`.\n\n**Learn more:** [VECTOR_DISTANCE (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/functions/vector-distance-transact-sql?view=sql-server-ver17) · [CREATE VECTOR INDEX (Transact-SQL)](https://learn.microsoft.com/en-us/sql/t-sql/statements/create-vector-index-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 82,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your team is building an Azure SQL database solution from a locally cloned GitHub repository by using Microsoft Visual Studio Code and GitHub Copilot Chat.  \n  \nYou need to ensure that GitHub Copilot Chat follows the team’s coding standards when it generates Transact-SQL code in Visual Studio Code.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": ".github/copilot-instructions.md"
+        },
+        {
+          "letter": "B",
+          "text": ".vscode/settings.json"
+        },
+        {
+          "letter": "C",
+          "text": "%APPDATA%\\Code\\User\\settings.json"
+        },
+        {
+          "letter": "D",
+          "text": "%APPDATA%\\Code\\User\\copilot-instructions.md"
+        }
+      ],
+      "answer": null,
+      "explanation": "Repository-wide GitHub Copilot instructions are stored in `.github/copilot-instructions.md`. Copilot Chat automatically adds the saved repository instructions to requests, enabling the team’s shared coding standards to guide Transact-SQL generation in Visual Studio Code.\n\n**Learn more:** [Adding repository custom instructions for GitHub Copilot in your IDE](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions-in-your-ide/add-repository-instructions-in-your-ide?tool=vscode)"
+    },
+    {
+      "number": 83,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database that supports an AI-enabled product catalog API. The database includes a table named `Sales.Orders`. `Sales.Orders` contains 20 million rows and has a nonclustered index on a column named `CreateDate`.  \n  \nThe API supplies a date parameter named `@OrderDate`.  \n  \nYou have a stored procedure named `get_latest_day_orders` that filters by executing the following query:  \n  \n```sql  \nWHERE CAST(CreateDate AS date) = @0rderDate.  \n```  \n  \nA review of the query execution shows that the query performs an index scan.  \n  \nYou need to change the predicate so that Microsoft SQL Server can use an index seek on `CreateDate` for a single day.  \n  \nWhich `WHERE` clause should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "WHERE CreateDate >= @OrderDate AND CreateDate < DATEADD(day, 1, @0rderDate)"
+        },
+        {
+          "letter": "B",
+          "text": "WHERE CreateDate LIKE CONVERT(char(10), @0rderDate, 121) + ‘%’"
+        },
+        {
+          "letter": "C",
+          "text": "WHERE LEFT(CONVERT(varchar(30), CreateDate, 121), 10) = CONVERT(char(10), @0rderDate, 121)"
+        },
+        {
+          "letter": "D",
+          "text": "WHERE CONVERT(char(10), CreateDate, 121) = CONVERT(char(10), @OrderDate, 121)"
+        }
+      ],
+      "answer": null,
+      "explanation": "A half-open range predicate compares `CreateDate` directly to the day’s start and the following day’s start. This is SARGable for an index on `CreateDate` and includes every timestamp on the specified day without applying a function to the indexed column."
+    },
+    {
+      "number": 84,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"dp-800\",\"data-q\":88,\"data-question-id\":\"afd6c418-2e28-4a72-bdba-e7c1e257bab1\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],\"$L87\"]}],\"$L88\"]}]]}]]}],\"$L89\"]}],\"$L8a\"]}]\nA development team uses Microsoft Visual Studio Code with the MSSQL extension and the GitHub Copilot Chat extension.  \n  \nThe team connects to an Azure SQL database by using individual database logins and uses the `@mssql` chat participant to generate and run Transact-SQL queries from prompts.  \n  \nWhat is used to make sure GitHub Copilot Chat-generated queries run in the developer's context?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SQL permissions"
+        },
+        {
+          "letter": "B",
+          "text": "Azure role-based access control (Azure RBAC) permissions"
+        },
+        {
+          "letter": "C",
+          "text": "GitHub organization permissions"
+        },
+        {
+          "letter": "D",
+          "text": "shared MCP instruction files"
+        }
+      ],
+      "answer": null,
+      "explanation": "Individual database logins establish each developer’s database identity. Azure SQL authorizes data access and actions through that user’s database role memberships and explicit object-level permissions, so queries generated by GitHub Copilot Chat run with the permissions of the connected developer rather than with GitHub, Azure resource-management, or instruction-file permissions.\n\n**Learn more:** [Authorize database access to Azure SQL Database](https://learn.microsoft.com/en-us/azure/azure-sql/database/logins-create-manage?view=azuresql) · [Overview of GitHub Copilot Integration - MSSQL Extension for Visual Studio Code](https://learn.microsoft.com/en-us/sql/tools/visual-studio-code-extensions/github-copilot/overview?view=sql-server-ver17)"
+    },
+    {
+      "number": 85,
+      "domain": "Design and develop database solutions",
+      "question": "You have a GitHub Enterprise subscription.  \n  \nYour team is building an Azure SQL dataset solution from a locally cloned GitHub repository by using Microsoft Visual Studio Code and GitHub Copilot Chat.  \n  \nA mixture of GitHub Copilot instructions is configured at several levels, including organization-wide, repository-wide, agent-specific, and personal.  \n  \nWhich instructions take precedence over all the others?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "repository-wide"
+        },
+        {
+          "letter": "B",
+          "text": "personal"
+        },
+        {
+          "letter": "C",
+          "text": "organization-wide"
+        },
+        {
+          "letter": "D",
+          "text": "agent-specific"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub Copilot gives personal custom instructions the highest priority when multiple applicable instruction sets conflict. Repository-wide instructions have lower priority, agent instructions are lower within the repository instruction hierarchy, and organization-wide instructions have the lowest priority.\\\n\\\n**Learn more:** [About customizing GitHub Copilot responses](https://docs.github.com/en/copilot/concepts/prompting/response-customization)"
+    },
+    {
+      "number": 86,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "You need to enhance data-retrieval performance and decrease the number of tokens used for each retrieval.  \n  \nWhat should you implement?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "chunking"
+        },
+        {
+          "letter": "B",
+          "text": "embeddings"
+        },
+        {
+          "letter": "C",
+          "text": "a small language model (SLM)"
+        },
+        {
+          "letter": "D",
+          "text": "JSON content"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Chunking splits source documents into smaller, relevant passages that can be independently indexed and retrieved for a RAG workflow. Returning focused passages instead of entire documents reduces the token context supplied to the model and avoids the latency and cost associated with processing oversized content.\\\n\\\n**Learn more:** [Chunk large documents for RAG and vector search in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-chunk-documents)"
+    },
+    {
+      "number": 87,
+      "domain": "Implement AI capabilities in database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database containing tables named `dbo.Tickets` and `dbo.TicketNotes`. `dbo.Tickets` holds support tickets, and `dbo.TicketNotes` holds ticket notes.  \n  \nA retrieval query returns the five most relevant ticket notes for a user question.  \n  \nYou plan to implement a Retrieval Augmented Generation (RAG) pattern that meets these requirements:  \n  \n- Formats the retrieved relational data for large language model (LLM) processing  \n- Sends the user question and retrieved context to an Azure OpenAI REST endpoint for chat completions  \n- Extracts the response text from the LLM response  \n  \nWhich Transact-SQL function should be used to extract the response text?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "JSON_MODIFY(@response, ‘$.result’)"
+        },
+        {
+          "letter": "B",
+          "text": "OPENJSON(@response)"
+        },
+        {
+          "letter": "C",
+          "text": "JSON_QUERY(@response, ‘$.choices’)"
+        },
+        {
+          "letter": "D",
+          "text": "JSON_VALUE(@response, ‘$.choices[0].message.content’)"
+        }
+      ],
+      "answer": null,
+      "explanation": "An Azure OpenAI chat-completions response stores generated assistant text at the scalar JSON path `$.choices[0].message.content`. `JSON_VALUE` extracts scalar values from JSON, whereas `JSON_QUERY` is for objects or arrays and `JSON_MODIFY` changes JSON.\n\n**Learn more:** [Azure OpenAI chat completions REST reference](https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/chat) · [Validate, query, and change JSON data with built-in functions](https://learn.microsoft.com/en-us/sql/relational-databases/json/validate-query-and-change-json-data-with-built-in-functions-sql-server?view=sql-server-ver16)"
+    },
+    {
+      "number": 88,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$La2\"]}]]}],\"$La3\"]}],false]}]\nYou have an Azure SQL database containing a table named `Tickets_Embeddings`. `Tickets_Embeddings` has a `VECTOR(1536)` column.  \n  \nEmbeddings are created by using `text-embedding-ada-002` and the `/openai/v1/embeddings` endpoint.  \n  \nAfter reviewing the current environment, the following changes are requested:  \n  \n- The AI architect recommends changing to `text-embedding-3-small`.  \n- The security team requires authentication using Microsoft Entra managed identities only. API keys must not be stored in an application.  \n  \nWhich two actions should you include in the solution? Each correct answer presents a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alter the database tables."
+        },
+        {
+          "letter": "B",
+          "text": "Regenerate all the embeddings."
+        },
+        {
+          "letter": "C",
+          "text": "Change the endpoint."
+        },
+        {
+          "letter": "D",
+          "text": "Change the primary keys for the tickets."
+        },
+        {
+          "letter": "E",
+          "text": "Add a firewall rule."
+        }
+      ],
+      "answer": null,
+      "explanation": "Embeddings generated by `text-embedding-ada-002` and `text-embedding-3-small` are not interchangeable, even when both use 1,536 dimensions, so all stored embeddings must be regenerated. Managed-identity-only access requires an Azure OpenAI endpoint that accepts Microsoft Entra bearer-token authentication instead of an API key. `text-embedding-3-small` supports up to 1,536 dimensions, so the existing vector-column dimension can remain unchanged.\n\n**Learn more:** [Azure OpenAI Embeddings REST API reference](https://learn.microsoft.com/en-us/rest/api/aifoundry/azureopenai/embeddings) · [Configure keyless authentication with Microsoft Entra ID](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/configure-entra-id)"
+    },
+    {
+      "number": 89,
+      "domain": "Secure, optimize, and deploy database solutions",
+      "question": "You need to use the `UsefulPrompts` table as specified in the AI requirements.  \n  \nWhich stored procedure should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sp_addendpoint"
+        },
+        {
+          "letter": "B",
+          "text": "xp_cmdshell"
+        },
+        {
+          "letter": "C",
+          "text": "sp_OACreate"
+        },
+        {
+          "letter": "D",
+          "text": "sp_invoke_external_rest_endpoint"
+        }
+      ],
+      "answer": "D",
+      "explanation": "`sp_invoke_external_rest_endpoint` invokes an HTTPS REST endpoint from Azure SQL Database and supports calls to Azure OpenAI endpoints, making it appropriate for sending stored prompts to the Azure OpenAI endpoint.\\\n\\\n**Learn more:** [sys.sp_invoke_external_rest_endpoint (Transact-SQL)](https://learn.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-invoke-external-rest-endpoint-transact-sql?view=sql-server-ver17)"
+    },
+    {
+      "number": 90,
+      "domain": "Implement AI capabilities in database solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure SQL database that includes a table named `Customer`. `Customer` has these columns:  \n  \n- `NationalIDNumber` is unique for each customer.  \n- `InvestigationNotes` holds free-form text.  \n  \nYou have a stored procedure that carries out point lookups using `NationalIDNumber` and returns `InvestigationNotes` in the query results without filtering by `InvestigationNotes`.  \n  \nYou need to encrypt both columns by using Always Encrypted with the highest possible security.  \n  \nWhich Always Encrypted encryption type should you use for each column?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "deterministic for NationalIDNumber and randomized for InvestigationNotes"
+        },
+        {
+          "letter": "B",
+          "text": "deterministic for NationalIDNumber and deterministic for InvestigationNotes"
+        },
+        {
+          "letter": "C",
+          "text": "randomized for NationalIDNumber and randomized for InvestigationNotes"
+        },
+        {
+          "letter": "D",
+          "text": "randomized for NationalIDNumber and deterministic for InvestigationNotes"
+        }
+      ],
+      "answer": null,
+      "explanation": "Deterministic Always Encrypted encryption is required for `NationalIDNumber` because point lookups use equality comparisons. `InvestigationNotes` is not used for filtering or other computations, so randomized encryption can be used; it provides the higher confidentiality because identical plaintext values encrypt to different ciphertext values.\n\n**Learn more:** [Always Encrypted - How queries against encrypted columns work](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-how-queries-against-encrypted-columns-work?view=sql-server-ver17) · [Tutorial: Getting started with Always Encrypted](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/always-encrypted-tutorial-getting-started?view=sql-server-ver17)"
+    }
+  ]
+}

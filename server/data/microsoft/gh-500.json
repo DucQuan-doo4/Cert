@@ -1,0 +1,2865 @@
+{
+  "provider": "microsoft",
+  "slug": "gh-500",
+  "fullSlug": "microsoft/gh-500",
+  "title": "Copy link to this question",
+  "totalQuestions": 113,
+  "totalPages": 4,
+  "crawledPages": 5,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Configure and use dependency management",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "read-only access to all the repository’s files"
+        },
+        {
+          "letter": "B",
+          "text": "dependency graph enabled at the organization level for all new private repositories"
+        },
+        {
+          "letter": "C",
+          "text": "write access to the dependency manifest and lock files for an enterprise"
+        },
+        {
+          "letter": "D",
+          "text": "read-only access to the dependency manifest and lock files for a repository"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub’s dependency graph for private repositories must be enabled, and GitHub needs read-only access to that repository’s dependency manifest and lock files so it can parse declared dependencies. Write access is unnecessary, and access to every repository file is not required.\n\n**Learn more:** [Enabling the dependency graph](https://docs.github.com/en/enterprise-cloud%40latest/code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/enable-dependency-graph?apiVersion=2022-11-28) · [Dependency graph](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-graph?apiVersion=2022-11-28)"
+    },
+    {
+      "number": 2,
+      "domain": "Configure and use code scanning",
+      "question": "What is the best way to ensure that all newly added code is scanned for vulnerabilities?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add the extended suite."
+        },
+        {
+          "letter": "B",
+          "text": "Configure code scanning."
+        },
+        {
+          "letter": "C",
+          "text": "Set up a security policy."
+        },
+        {
+          "letter": "D",
+          "text": "Configure code owners."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Code scanning automatically analyzes code for security vulnerabilities and alerts as code is added or changed."
+    },
+    {
+      "number": 3,
+      "domain": "Configure and use secret scanning",
+      "question": "What must you do before you can define a custom pattern for a repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add a secret scanning custom pattern."
+        },
+        {
+          "letter": "B",
+          "text": "Provide match requirements for the secret format."
+        },
+        {
+          "letter": "C",
+          "text": "Enable secret scanning on the repository."
+        },
+        {
+          "letter": "D",
+          "text": "Provide a regular expression for the format of your secret pattern"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Secret scanning (GitHub Secret Protection) must be enabled on the repository before a custom secret-scanning pattern can be created. The regular expression and any additional match requirements are entered as part of defining that pattern.\\\n\\\n**Learn more:** [Defining custom patterns for secret scanning](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/customize-leak-detection/define-custom-patterns)"
+    },
+    {
+      "number": 4,
+      "domain": "Configure and use dependency management",
+      "question": "When a dependency has a known vulnerability, what does the warning message contain?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "an easily understandable visualization of dependency change"
+        },
+        {
+          "letter": "B",
+          "text": "a brief description of the vulnerability"
+        },
+        {
+          "letter": "C",
+          "text": "how many projects use these components"
+        },
+        {
+          "letter": "D",
+          "text": "the security impact of these changes"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A known-vulnerability warning includes a brief description of the vulnerability. It also provides the CVE or GHSA identifier, severity, and the dependency version in which the vulnerability was fixed.\\\n\\\n**Learn more:** [Reviewing dependency changes in a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-dependency-changes-in-a-pull-request)"
+    },
+    {
+      "number": 5,
+      "domain": "Configure and use dependency management",
+      "question": "Assuming no custom Dependabot behavior has been configured, who can merge a pull request created by Dependabot security updates?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a repository member of an enterprise organization"
+        },
+        {
+          "letter": "B",
+          "text": "an enterprise administrator"
+        },
+        {
+          "letter": "C",
+          "text": "a user who has read access to the repository"
+        },
+        {
+          "letter": "D",
+          "text": "a user who has write access to the repository"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Dependabot security-update pull requests are subject to the repository’s normal merge permissions. Users with write access to the repository can manage and merge Dependabot pull requests; read access, organization membership, or enterprise administrator status alone is insufficient.\\\n\\\n**Learn more:** [Managing pull requests for dependency updates — GitHub Docs](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/managing-pull-requests-for-dependency-updates)"
+    },
+    {
+      "number": 6,
+      "domain": "Describe GitHub Advanced Security best practices",
+      "question": "Which details should be included in your security policy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the reported issue for the security vulnerability"
+        },
+        {
+          "letter": "B",
+          "text": "the previous commit version to the current branch"
+        },
+        {
+          "letter": "C",
+          "text": "how to report a vulnerability"
+        },
+        {
+          "letter": "D",
+          "text": "the standards for how to engage with a community"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A security policy should provide instructions for reporting a vulnerability, so security researchers can notify the project maintainers through the intended channel. GitHub’s guidance for `SECURITY.md` specifically includes information on how to report a vulnerability.\\\n\\\n**Learn more:** [Adding a security policy to your repository](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/add-security-policy)"
+    },
+    {
+      "number": 7,
+      "domain": "Configure and use secret scanning",
+      "question": "Which of these features helps prioritize secret-scanning alerts that pose an immediate risk?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "non-provider patterns"
+        },
+        {
+          "letter": "B",
+          "text": "push protection"
+        },
+        {
+          "letter": "C",
+          "text": "secret validation"
+        },
+        {
+          "letter": "D",
+          "text": "custom pattern dry runs"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Secret validation verifies whether a detected secret remains active and could still be exploited. Alerts for active secrets can therefore be prioritized for immediate remediation. GitHub documents this as a validity-check capability for prioritizing exposed credentials that pose immediate security risks.\\\n\\\n**Learn more:** [Secret scanning](https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning) · [Evaluating alerts from secret scanning](https://docs.github.com/en/code-security/tutorials/remediate-leaked-secrets/evaluating-alerts)"
+    },
+    {
+      "number": 8,
+      "domain": "Configure and use dependency management",
+      "question": "Which of these features helps prioritize secret-scanning alerts that pose an immediate risk?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "enable all in existing repositories"
+        },
+        {
+          "letter": "B",
+          "text": "enable all for Dependabot alerts"
+        },
+        {
+          "letter": "C",
+          "text": "enable all for Dependency graph"
+        },
+        {
+          "letter": "D",
+          "text": "enable by default for new public repositories"
+        }
+      ],
+      "answer": null,
+      "explanation": "Dependabot alerts detect vulnerable dependencies and, by default, notify users with write, maintain, or admin access who are watching the affected repository. The **Enable all for Dependabot alerts** setting activates this alerting capability; the dependency graph alone does not generate vulnerability alerts.\n\n**Learn more:** [Configuring Dependabot alerts](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/secure-your-dependencies/configure-dependabot-alerts?apiVersion=2022-11-28) · [Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts?ref=toul)"
+    },
+    {
+      "number": 9,
+      "domain": "Use code scanning with CodeQL",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are setting up a CodeQL workflow for compiled languages. What occurs if the workflow uses a language matrix?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Analysis of other languages in your repository will fail unless you supply explicit build commands."
+        },
+        {
+          "letter": "B",
+          "text": "Autobuild attempts to build the supported language that has the most source files in the repository."
+        },
+        {
+          "letter": "C",
+          "text": "You may need to install additional software to use the autobuild process."
+        },
+        {
+          "letter": "D",
+          "text": "Autobuild attempts to build each of the languages listed in the matrix."
+        }
+      ],
+      "answer": null,
+      "explanation": "For compiled languages, CodeQL `autobuild` attempts to build every compiled language specified in the workflow’s language matrix. [GitHub Docs: CodeQL build options and steps for compiled languages](https://docs.github.com/en/code-security/reference/code-scanning/codeql/build-options-for-compiled-languages)\n\n**Learn more:** [CodeQL build options and steps for compiled languages](https://docs.github.com/en/code-security/reference/code-scanning/codeql/build-options-for-compiled-languages)"
+    },
+    {
+      "number": 10,
+      "domain": "Configure and use dependency management",
+      "question": "If the default code-security settings have not been modified at the repository, organization, or enterprise level, which repositories receive Dependabot alerts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "private repositories"
+        },
+        {
+          "letter": "B",
+          "text": "none"
+        },
+        {
+          "letter": "C",
+          "text": "repositories owned by an organization"
+        },
+        {
+          "letter": "D",
+          "text": "repositories owned by an enterprise account"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Dependabot alerts are not enabled by default for public or private repositories. They must be enabled through the applicable repository, organization, or enterprise configuration; therefore, no repositories receive Dependabot alerts under unchanged default settings.\\\n\\\n**Learn more:** [Supply chain security - GitHub Docs](https://docs.github.com/en/code-security/concepts/supply-chain-security/supply-chain-security)"
+    },
+    {
+      "number": 11,
+      "domain": "Configure and use secret scanning",
+      "question": "What is the least-privileged role required to view the secret scanning alerts list in a repository’s Security tab?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Read"
+        },
+        {
+          "letter": "B",
+          "text": "Write"
+        },
+        {
+          "letter": "C",
+          "text": "repository owner"
+        },
+        {
+          "letter": "D",
+          "text": "Admin"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Secret scanning alerts are repository security alerts. GitHub makes these alerts visible to people with write, maintain, or admin repository access; therefore, Write is the minimum listed role that can view the alerts list.\\\n\\\n**Learn more:** [Managing security and analysis settings for your repository](https://docs.github.com/en/enterprise-server%403.18/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-security-and-analysis-settings-for-your-repository)"
+    },
+    {
+      "number": 12,
+      "domain": "Describe the GHAS security features and functionality",
+      "question": "Which of these features can enforce passing status checks for code-scanning and dependency-review workflows?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "repository rulesets"
+        },
+        {
+          "letter": "B",
+          "text": "status enforcement"
+        },
+        {
+          "letter": "C",
+          "text": "security GuardRails"
+        },
+        {
+          "letter": "D",
+          "text": "Insights"
+        }
+      ],
+      "answer": "A",
+      "explanation": "GitHub repository rulesets can require checks or workflows to pass before changes may be merged. They support code-scanning merge protection and can enforce a dependency-review workflow across repositories.\\\n\\\n**Learn more:** [Available rules for rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets) · [Enforcing dependency review across an organization](https://docs.github.com/en/code-security/how-tos/secure-at-scale/configure-organization-security/configure-specific-tools/enforce-dependency-review)"
+    },
+    {
+      "number": 13,
+      "domain": "Configure and use secret scanning",
+      "question": "Which of these features can enforce passing status checks for code-scanning and dependency-review workflows?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "users with the Maintain repository role"
+        },
+        {
+          "letter": "B",
+          "text": "user who committed the secret"
+        },
+        {
+          "letter": "C",
+          "text": "users with the Write repository role"
+        },
+        {
+          "letter": "D",
+          "text": "users with the Admin repository role"
+        },
+        {
+          "letter": "E",
+          "text": "security analyst"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub secret scanning notifies the author of the commit that exposed the secret, regardless of that author’s notification preferences. Repository administrators are also recipients of secret-scanning alert notifications, subject to their notification preferences; the Admin repository role corresponds to repository administrators. [GitHub Docs: Monitoring alerts from secret scanning](https://docs.github.com/en/enterprise-cloud%40latest/code-security/secret-scanning/managing-alerts-from-secret-scanning/monitoring-alerts)\n\n**Learn more:** [GitHub Docs: Monitoring alerts from secret scanning](https://docs.github.com/en/enterprise-cloud%40latest/code-security/secret-scanning/managing-alerts-from-secret-scanning/monitoring-alerts)"
+    },
+    {
+      "number": 14,
+      "domain": "Configure and use dependency management",
+      "question": "Where can you locate the vulnerable dependencies that GitHub has detected in your repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "in security advisories"
+        },
+        {
+          "letter": "B",
+          "text": "in code scanning alerts"
+        },
+        {
+          "letter": "C",
+          "text": "in secret scanning alerts"
+        },
+        {
+          "letter": "D",
+          "text": "in Dependabot alerts"
+        }
+      ],
+      "answer": "D",
+      "explanation": "GitHub creates Dependabot alerts when it detects a vulnerable dependency in a repository. These alerts identify affected dependencies and provide vulnerability details and remediation information.\\\n\\\n**Learn more:** [Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts)"
+    },
+    {
+      "number": 15,
+      "domain": "Configure and use secret scanning",
+      "question": "Which statement most accurately characterizes push protection for custom patterns used in secret scanning?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Push protection is enabled by default for new custom patterns."
+        },
+        {
+          "letter": "B",
+          "text": "Push protection must be enabled for all, or none, of a repository’s custom patterns."
+        },
+        {
+          "letter": "C",
+          "text": "Push protection is not available for custom patterns."
+        },
+        {
+          "letter": "D",
+          "text": "Push protection is an opt-in experience for each custom pattern."
+        }
+      ],
+      "answer": "D",
+      "explanation": "Push protection is available for published secret-scanning custom patterns and is enabled separately for the individual pattern. GitHub’s configuration guidance provides an Enable control in each custom pattern’s Push Protection section, making this a per-pattern opt-in setting.\\\n\\\n**Learn more:** [Managing custom patterns](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/customize-leak-detection/manage-custom-patterns)"
+    },
+    {
+      "number": 16,
+      "domain": "Describe GitHub Advanced Security best practices",
+      "question": "Which statement most accurately characterizes push protection for custom patterns used in secret scanning?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure a CODEOWNERS file in the repository."
+        },
+        {
+          "letter": "B",
+          "text": "Enable Dependabot for the organization."
+        },
+        {
+          "letter": "C",
+          "text": "Establish the protection rules in the code security settings."
+        },
+        {
+          "letter": "D",
+          "text": "Add a repository ruleset."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub code-scanning merge protection is enforced through a repository branch ruleset. The ruleset must require code-scanning results and set its security-alert threshold to include Critical alerts; a matching critical code-scanning alert blocks the pull request from merging. CODEOWNERS and Dependabot alone do not create this merge gate.\n\n**Learn more:** [Set code scanning merge protection](https://docs.github.com/en/code-security/how-tos/find-and-fix-code-vulnerabilities/manage-your-configuration/set-merge-protection) · [Code scanning merge protection](https://docs.github.com/en/code-security/concepts/code-scanning/merge-protection)"
+    },
+    {
+      "number": 17,
+      "domain": "Configure and use secret scanning",
+      "question": "Which statement best describes secret scanning push protection?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Buttons for sensitive actions in the GitHub UI are disabled."
+        },
+        {
+          "letter": "B",
+          "text": "Commits that contain secrets are blocked before code is added to the repository."
+        },
+        {
+          "letter": "C",
+          "text": "Users need to reply to a 2FA challenge before any push events."
+        },
+        {
+          "letter": "D",
+          "text": "Secret scanning alerts must be closed before a branch can be merged into the repository."
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub secret scanning push protection blocks pushes that contain detected secrets before they reach the repository, preventing accidental exposure of credentials or tokens.\\\n\\\n**Learn more:** [Push protection — GitHub Docs](https://docs.github.com/en/code-security/concepts/secret-security/push-protection?learn=secret_scanning&learnProduct=code-security)"
+    },
+    {
+      "number": 18,
+      "domain": "Configure and use dependency management",
+      "question": "You have enabled security updates for a repository. When is a Dependabot alert marked as resolved for that repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "when you merge a pull request that contains a security update"
+        },
+        {
+          "letter": "B",
+          "text": "when Dependabot creates a pull request to update dependencies"
+        },
+        {
+          "letter": "C",
+          "text": "when you dismiss the Dependabot alert"
+        },
+        {
+          "letter": "D",
+          "text": "when the pull request checks are successful"
+        }
+      ],
+      "answer": "A",
+      "explanation": "GitHub marks the corresponding Dependabot alert as resolved when a pull request containing the security update is merged, because the fixed dependency change has been applied to the repository’s default branch.\\\n\\\n**Learn more:** [Dependabot pull requests](https://docs.github.com/en/enterprise-cloud@latest/code-security/concepts/supply-chain-security/dependabot-pull-requests)"
+    },
+    {
+      "number": 19,
+      "domain": "Configure and use code scanning",
+      "question": "What is needed to trigger code scanning on a specified branch?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Developers must actively maintain the repository."
+        },
+        {
+          "letter": "B",
+          "text": "Secret scanning must be enabled on the repository."
+        },
+        {
+          "letter": "C",
+          "text": "The repository must be private."
+        },
+        {
+          "letter": "D",
+          "text": "The workflow file must exist in that branch."
+        }
+      ],
+      "answer": "D",
+      "explanation": "For push-triggered code scanning on a specified branch, the code-scanning workflow file must exist in that branch. GitHub’s CodeQL workflow configuration determines the events and branches that initiate the scan.\\\n\\\n**Learn more:** [GitHub Docs: Workflow configuration options for code scanning](https://docs.github.com/en/enterprise-cloud%40latest/code-security/reference/code-scanning/workflow-configuration-options)"
+    },
+    {
+      "number": 20,
+      "domain": "Configure and use code scanning",
+      "question": "You manage code-scanning alerts for your repository. You receive an alert that highlights a data-flow problem. What do you click to get additional context for the alert?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Show paths"
+        },
+        {
+          "letter": "B",
+          "text": "Code scanning alerts"
+        },
+        {
+          "letter": "C",
+          "text": "Security"
+        }
+      ],
+      "answer": "A",
+      "explanation": "For a data-flow alert, **Show paths** displays the path from the data source to the sink where the data is used, including the individual steps in that flow.\\\n\\\n**Learn more:** [Assessing code scanning alerts for your repository](https://docs.github.com/en/code-security/how-tos/manage-security-alerts/manage-code-scanning-alerts/assess-alerts)"
+    },
+    {
+      "number": 21,
+      "domain": "Configure and use code scanning",
+      "question": "What does code scanning accomplish?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It scans your entire Git history on branches present in your GitHub repository for any secrets."
+        },
+        {
+          "letter": "B",
+          "text": "It prevents code pushes with vulnerabilities as a pre-receive hook."
+        },
+        {
+          "letter": "C",
+          "text": "It analyzes a GitHub repository to find security vulnerabilities."
+        },
+        {
+          "letter": "D",
+          "text": "It contacts maintainers to ask them to create security advisories if a vulnerability is found."
+        }
+      ],
+      "answer": "C",
+      "explanation": "GitHub code scanning analyzes the code in a GitHub repository to identify security vulnerabilities and coding errors, reporting any findings as alerts in the repository.\\\n\\\n**Learn more:** [Code scanning - GitHub Docs](https://docs.github.com/en/code-security/concepts/code-scanning/code-scanning)"
+    },
+    {
+      "number": 22,
+      "domain": "Configure and use code scanning",
+      "question": "What does code scanning do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a feature to identify all your project’s dependencies"
+        },
+        {
+          "letter": "B",
+          "text": "a feature that analyzes the code in a GitHub repository to find security vulnerabilities and coding errors"
+        },
+        {
+          "letter": "C",
+          "text": "a feature to privately discuss, fix, and publish information about security vulnerabilities in your repository"
+        },
+        {
+          "letter": "D",
+          "text": "a feature that scans repositories for known types of secrets, to prevent fraudulent use of secrets that were committed accidentally"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Code scanning analyzes the code in a GitHub repository to identify security vulnerabilities and coding errors, reporting the detected issues as repository alerts.\\\n\\\n**Learn more:** [Code scanning - GitHub Docs](https://docs.github.com/en/code-security/concepts/code-scanning/code-scanning)"
+    },
+    {
+      "number": 23,
+      "domain": "Configure and use secret scanning",
+      "question": "What does code scanning do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "users with Maintain privileges to the repository"
+        },
+        {
+          "letter": "B",
+          "text": "users with Read permissions to the repository"
+        },
+        {
+          "letter": "C",
+          "text": "users with Write permissions to the repository"
+        },
+        {
+          "letter": "D",
+          "text": "users with Admin privileges to the repository"
+        }
+      ],
+      "answer": null,
+      "explanation": "By default GitHub sends Dependabot alert notifications by email to users who have write, maintain, or admin permissions to the affected repository (and who are watching it with security-alert notifications enabled); users with only read access are not notified. Among the single-choice options, write permission is the minimum threshold that receives these notifications, so 'users with Write permissions' (C) best captures the default recipient set. 'Read' (B) is explicitly excluded, and while Admin (D) users are also notified, Admin is a narrower subset rather than the general default audience.\n\n**Learn more:** [Configuring notifications for Dependabot alerts](https://docs.github.com/en/code-security/dependabot/dependabot-alerts/configuring-notifications-for-dependabot-alerts) · [Dependabot alerts default permissions change](https://github.blog/changelog/2023-02-07-dependabot-alerts-default-permissions-change/)"
+    },
+    {
+      "number": 24,
+      "domain": "Use code scanning with CodeQL",
+      "question": "What does a CodeQL database for your repository include?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a build of the code and extracted data"
+        },
+        {
+          "letter": "B",
+          "text": "a build for Go projects to set up the project"
+        },
+        {
+          "letter": "C",
+          "text": "a representation of all of the source code"
+        },
+        {
+          "letter": "D",
+          "text": "build commands for C/C++, C#, and Java"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A CodeQL database is a queryable representation of the source code in a repository (one database per language). Build steps and data extraction can be used to create it for compiled languages, but they are not themselves what the database contains.\\\n\\\n**Learn more:** [CodeQL code scanning for compiled languages](https://docs.github.com/en/code-security/concepts/code-scanning/codeql/codeql-for-compiled-languages)"
+    },
+    {
+      "number": 25,
+      "domain": "Configure and use secret scanning",
+      "question": "What should be the first action taken to remediate a secret-scanning alert?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Remove the secret in a commit to the main branch."
+        },
+        {
+          "letter": "B",
+          "text": "Archive the repository."
+        },
+        {
+          "letter": "C",
+          "text": "Update your dependencies."
+        },
+        {
+          "letter": "D",
+          "text": "Revoke the alert if the secret is still valid."
+        }
+      ],
+      "answer": "D",
+      "explanation": "An exposed credential that remains valid should be revoked or rotated promptly to prevent unauthorized use. Removing it from repository history alone does not invalidate a credential that may already have been copied or abused.\\\n\\\n**Learn more:** [Secret scanning](https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning) · [Resolving alerts from secret scanning](https://docs.github.com/en/code-security/how-tos/manage-security-alerts/manage-secret-scanning-alerts/resolving-alerts)"
+    },
+    {
+      "number": 26,
+      "domain": "Configure and use dependency management",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "scans repositories for vulnerable dependencies on a schedule and adds those files to a manifest"
+        },
+        {
+          "letter": "B",
+          "text": "scans any push to all branches and generates an alert for each vulnerable repository"
+        },
+        {
+          "letter": "C",
+          "text": "creates a pull request to upgrade the vulnerable dependency to the minimum possible secure version"
+        },
+        {
+          "letter": "D",
+          "text": "constructs a graph of all the repository’s dependencies and public dependents for the default branch"
+        }
+      ],
+      "answer": null,
+      "explanation": "Dependabot security updates automatically create a pull request that upgrades a vulnerable dependency to the minimum secure version needed to address the vulnerability, when that update can be made without disrupting the repository’s dependency graph.\n\n**Learn more:** [Dependabot security updates](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-security-updates)"
+    },
+    {
+      "number": 27,
+      "domain": "Configure and use secret scanning",
+      "question": "Which prerequisite is needed to define a custom pattern for a repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Change the repository visibility to Internal."
+        },
+        {
+          "letter": "B",
+          "text": "Enable secret scanning."
+        },
+        {
+          "letter": "C",
+          "text": "Close other secret scanning alerts."
+        },
+        {
+          "letter": "D",
+          "text": "Specify additional match criteria."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Secret scanning must be enabled on the repository before a custom pattern can be created. GitHub documents this as requiring Secret Protection to be enabled for the repository.\\\n\\\n**Learn more:** [Defining custom patterns for secret scanning](https://docs.github.com/en/enterprise-cloud@latest/code-security/how-tos/secure-your-secrets/customize-leak-detection/define-custom-patterns?learn=secret_scanning&learnProduct=code-security)"
+    },
+    {
+      "number": 28,
+      "domain": "Configure and use dependency management",
+      "question": "Which of the following is the most comprehensive method Dependabot uses to identify vulnerabilities in third-party dependencies?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CodeQL analyzes the code and raises vulnerabilities in third-party dependencies."
+        },
+        {
+          "letter": "B",
+          "text": "Dependabot reviews manifest files in the repository."
+        },
+        {
+          "letter": "C",
+          "text": "The build tool finds the vulnerable dependencies and calls the Dependabot API."
+        },
+        {
+          "letter": "D",
+          "text": "A dependency graph is created, and Dependabot compares the graph to the GitHub Advisory database."
+        }
+      ],
+      "answer": "D",
+      "explanation": "Dependabot vulnerability alerts use the repository’s dependency graph and compare its dependencies, including transitive dependencies where available, with the GitHub Advisory Database to identify known vulnerable packages."
+    },
+    {
+      "number": 29,
+      "domain": "Configure and use code scanning",
+      "question": "Using advanced setup, which code-scanning configuration helps detect vulnerabilities before they are introduced into a shared branch?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "on:workflow_dispatch:"
+        },
+        {
+          "letter": "B",
+          "text": "on:pull_request:"
+        },
+        {
+          "letter": "C",
+          "text": "on:issues:"
+        },
+        {
+          "letter": "D",
+          "text": "on:schedule:"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The `pull_request` event triggers code scanning for proposed changes targeting a branch, producing results in the pull-request check before merge. GitHub’s default CodeQL workflow uses this event to scan pull requests against the default branch.\\\n\\\n**Learn more:** [GitHub Docs — Workflow configuration options for code scanning](https://docs.github.com/en/enterprise-cloud@latest/code-security/reference/code-scanning/workflow-configuration-options?learn=code_security_actions&learnProduct=code-security)"
+    },
+    {
+      "number": 30,
+      "domain": "Use code scanning with CodeQL",
+      "question": "When using the advanced CodeQL code-scanning setup, what is the workflow file called?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "codeql-scan.yml"
+        },
+        {
+          "letter": "B",
+          "text": "codeql.yml"
+        },
+        {
+          "letter": "C",
+          "text": "codeql-workflow.yml"
+        },
+        {
+          "letter": "D",
+          "text": "codeql-config.yml"
+        }
+      ],
+      "answer": "B",
+      "explanation": "`codeql.yml` is the GitHub Actions workflow file used for the advanced CodeQL code-scanning setup. A `codeql-config.yml` file is an optional CodeQL configuration file referenced by the workflow, rather than the workflow itself.\\\n\\\n**Learn more:** [Configuring advanced setup for code scanning](https://docs.github.com/en/code-security/how-tos/find-and-fix-code-vulnerabilities/configure-code-scanning/configuring-advanced-setup-for-code-scanning) · [Workflow configuration options for code scanning](https://docs.github.com/en/enterprise-cloud@latest/code-security/reference/code-scanning/workflow-configuration-options?learn=code_security_actions&learnProduct=code-security)"
+    },
+    {
+      "number": 31,
+      "domain": "Use code scanning with CodeQL",
+      "question": "How can you build your code as part of the CodeQL analysis workflow? Each answer provides a complete solution. (Choose two.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Upload compiled binaries."
+        },
+        {
+          "letter": "B",
+          "text": "Use CodeQL’s autobuild action."
+        },
+        {
+          "letter": "C",
+          "text": "Use jobs.analyze.runs-on."
+        },
+        {
+          "letter": "D",
+          "text": "Use CodeQL’s init action."
+        },
+        {
+          "letter": "E",
+          "text": "Ignore paths."
+        },
+        {
+          "letter": "F",
+          "text": "Implement custom build steps."
+        }
+      ],
+      "answer": null,
+      "explanation": "CodeQL can build compiled code through the `autobuild` action, which detects the likely build method, or through manually defined custom build steps. Manual steps are appropriate when the automatic build does not work or when a specific build process is required.\\\n\\\n**Learn more:** [CodeQL code scanning for compiled languages](https://docs.github.com/en/code-security/how-tos/find-and-fix-code-vulnerabilities/manage-your-configuration/codeql-for-compiled-languages)"
+    },
+    {
+      "number": 32,
+      "domain": "Configure and use secret scanning",
+      "question": "How can you build your code as part of the CodeQL analysis workflow? Each answer provides a complete solution. (Choose two.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable system for cross-domain identity management (SCIM) provisioning for the enterprise."
+        },
+        {
+          "letter": "B",
+          "text": "Document alternatives to storing secrets in the source code."
+        },
+        {
+          "letter": "C",
+          "text": "Dismiss alerts that are older than 90 days."
+        },
+        {
+          "letter": "D",
+          "text": "Configure a webhook to monitor for secret scanning alert events."
+        }
+      ],
+      "answer": null,
+      "explanation": "Security teams can reduce secret leakage by guiding developers toward secure secret-storage alternatives instead of hardcoding credentials, and they can automate awareness and response by subscribing a webhook to `secret_scanning_alert` events. GitHub documents that hardcoded credentials are security risks and that `secret_scanning_alert` is a webhook event for activity related to a secret-scanning alert.\n\n**Learn more:** [Secret leakage risks](https://docs.github.com/en/code-security/concepts/secret-security/secret-leakage-risks) · [Webhook events and payloads](https://docs.github.com/en/webhooks/webhook-events-and-payloads?actionType=reported)"
+    },
+    {
+      "number": 33,
+      "domain": "Configure and use secret scanning",
+      "question": "Which YAML syntax is used to exclude particular files from secret scanning?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "paths-ignore:"
+        },
+        {
+          "letter": "B",
+          "text": "secret_scanning.yml"
+        },
+        {
+          "letter": "C",
+          "text": "branches-ignore:"
+        },
+        {
+          "letter": "D",
+          "text": "decrypt_secret.sh"
+        }
+      ],
+      "answer": "A",
+      "explanation": "GitHub secret scanning uses the `paths-ignore:` YAML key to list file or directory patterns that should be excluded from scanning.\\\n\\\n**Learn more:** [GitHub Docs: Excluding folders and files from secret scanning](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/customize-leak-detection/exclude-folders-and-files)"
+    },
+    {
+      "number": 34,
+      "domain": "Use code scanning with CodeQL",
+      "question": "Which CodeQL query suite includes queries with lower severity than the default query suite?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "github/codeql/cpp/ql/src@main"
+        },
+        {
+          "letter": "B",
+          "text": "security-extended"
+        },
+        {
+          "letter": "C",
+          "text": "github/codeql-go/ql/src@main"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The `security-extended` suite contains all queries in the default suite and adds queries with slightly lower severity and precision.\\\n\\\n**Learn more:** [CodeQL query suites](https://docs.github.com/en/code-security/concepts/code-scanning/codeql/codeql-query-suites)"
+    },
+    {
+      "number": 35,
+      "domain": "Configure and use code scanning",
+      "question": "As a developer, you need to configure a code-scanning workflow for a repository in which GitHub Advanced Security is enabled. What is the minimum repository permission required?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Read"
+        },
+        {
+          "letter": "B",
+          "text": "Admin"
+        },
+        {
+          "letter": "C",
+          "text": "None"
+        },
+        {
+          "letter": "D",
+          "text": "Write"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Configuring a code-scanning workflow requires creating or editing the repository’s workflow file. Write access is the minimum permission that allows this; read access cannot change the workflow, and admin access is not required. GitHub documents workflow configuration as available to users with write access when advanced setup is enabled.\\\n\\\n**Learn more:** [Workflow configuration options for code scanning](https://docs.github.com/en/enterprise-cloud@latest/code-security/reference/code-scanning/workflow-configuration-options)"
+    },
+    {
+      "number": 36,
+      "domain": "Configure and use dependency management",
+      "question": "As a developer, you need to configure a code-scanning workflow for a repository in which GitHub Advanced Security is enabled. What is the minimum repository permission required?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GitHub Security Advisory ID (GHSA)"
+        },
+        {
+          "letter": "B",
+          "text": "Static Application Security Testing (SAST)"
+        },
+        {
+          "letter": "C",
+          "text": "Common Vulnerabilities and Exposures (CVE)"
+        },
+        {
+          "letter": "D",
+          "text": "Common Weakness Enumeration (CWE)"
+        },
+        {
+          "letter": "E",
+          "text": "Exploit Prediction Scoring System (EPSS)"
+        }
+      ],
+      "answer": null,
+      "explanation": "Dependabot alerts are based on security advisories that use GitHub Security Advisory (GHSA) identifiers and may map to Common Vulnerabilities and Exposures (CVE) identifiers and Common Weakness Enumeration (CWE) entries. SAST is a testing approach, and EPSS is an exploitation-likelihood scoring system rather than an alert classification.\n\n**Learn more:** [Dependabot alert filters](https://docs.github.com/en/code-security/reference/supply-chain-security/dependabot-alerts-filters) · [REST API endpoints for Dependabot alerts](https://docs.github.com/en/rest/dependabot/alerts?apiVersion=2022-11-28)"
+    },
+    {
+      "number": 37,
+      "domain": "Configure and use code scanning",
+      "question": "You are building an application that will use the code scanning application programming interface (API) to export a repository's alerts to a comma-separated values (CSV) file. Which scope must be included in the GitHub token?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "workflow"
+        },
+        {
+          "letter": "B",
+          "text": "security_events"
+        },
+        {
+          "letter": "C",
+          "text": "admin:org"
+        },
+        {
+          "letter": "D",
+          "text": "read:user"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub’s REST API for listing repository code-scanning alerts requires the `security_events` scope for OAuth app tokens and classic personal access tokens when used with public or private repositories. Exporting those retrieved alerts to CSV is a client-side operation and does not require a different scope.\\\n\\\n**Learn more:** [GitHub Docs: REST API endpoints for code scanning](https://docs.github.com/en/rest/code-scanning/code-scanning?learn=code_security_integration&learnProduct=code-security)"
+    },
+    {
+      "number": 38,
+      "domain": "Configure and use secret scanning",
+      "question": "By default, what is the minimum repository role required to bypass push protection?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Maintain"
+        },
+        {
+          "letter": "B",
+          "text": "Admin"
+        },
+        {
+          "letter": "C",
+          "text": "Triage"
+        },
+        {
+          "letter": "D",
+          "text": "Write"
+        }
+      ],
+      "answer": "D",
+      "explanation": "For repository push protection, GitHub allows anyone with write access to bypass protection by providing a bypass reason. The lowest listed repository role with write access is Write.\\\n\\\n**Learn more:** [Push protection - GitHub Docs](https://docs.github.com/en/code-security/concepts/secret-security/push-protection)"
+    },
+    {
+      "number": 39,
+      "domain": "Configure and use secret scanning",
+      "question": "Assuming that security and analysis features are not configured at the repository, organization, or enterprise level, secret scanning is enabled on:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "private repositories."
+        },
+        {
+          "letter": "B",
+          "text": "all new repositories within your organization."
+        },
+        {
+          "letter": "C",
+          "text": "public repositories."
+        },
+        {
+          "letter": "D",
+          "text": "user-owned private repositories."
+        }
+      ],
+      "answer": "C",
+      "explanation": "GitHub automatically enables secret scanning for public repositories at no cost. Private repositories do not receive this default enablement; their availability depends on the applicable Secret Protection plan and configuration.\\\n\\\n**Learn more:** [GitHub Docs: Secret scanning detection scope](https://docs.github.com/en/code-security/reference/secret-security/secret-scanning-scope)"
+    },
+    {
+      "number": 40,
+      "domain": "Use code scanning with CodeQL",
+      "question": "Which of the following is a benefit of using a custom CodeQL configuration file?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It allows you to schedule the scan."
+        },
+        {
+          "letter": "B",
+          "text": "It allows configuration options for multiple repositories in a single place."
+        },
+        {
+          "letter": "C",
+          "text": "It disables packs from running the default query suite."
+        },
+        {
+          "letter": "D",
+          "text": "It specifies a token that has access to the private repository."
+        }
+      ],
+      "answer": "B",
+      "explanation": "A custom CodeQL configuration file can be stored in an external repository and referenced by multiple repositories, centralizing shared CodeQL configuration options in one location.\\\n\\\n**Learn more:** [Workflow configuration options for code scanning](https://docs.github.com/en/enterprise-cloud%40latest/code-security/reference/code-scanning/workflow-configuration-options?learn=code_security_actions&learnProduct=code-security)"
+    },
+    {
+      "number": 41,
+      "domain": "Configure and use secret scanning",
+      "question": "Secret scanning scans:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a continuous integration system."
+        },
+        {
+          "letter": "B",
+          "text": "the GitHub repository."
+        },
+        {
+          "letter": "C",
+          "text": "any Git repository."
+        },
+        {
+          "letter": "D",
+          "text": "external services."
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub Secret Scanning scans a repository’s Git history across all branches for hardcoded credentials and other supported secret types; it can also scan certain associated GitHub content. Its primary scanning scope is the GitHub repository. [GitHub Docs: Secret scanning](https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning)\\\n\\\n**Learn more:** [GitHub Docs: Secret scanning](https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning)"
+    },
+    {
+      "number": 42,
+      "domain": "Describe the GHAS security features and functionality",
+      "question": "Which of the following details can be found in a repository’s Security tab?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "number of alerts per GHAS feature"
+        },
+        {
+          "letter": "B",
+          "text": "GHAS settings"
+        },
+        {
+          "letter": "C",
+          "text": "access management"
+        },
+        {
+          "letter": "D",
+          "text": "two-factor authentication (2FA) options"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A repository’s Security tab shows security alerts from GitHub Advanced Security-related features, including Dependabot, secret scanning, and code scanning; alert counts can therefore be viewed by feature. Configuration for those features is managed under repository settings, while access management and two-factor authentication are not Security-tab information.\\\n\\\n**Learn more:** [Managing security and analysis settings for your repository](https://docs.github.com/en/enterprise-cloud%40latest/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-security-and-analysis-settings-for-your-repository)"
+    },
+    {
+      "number": 43,
+      "domain": "Configure and use dependency management",
+      "question": "A repository’s dependency graph contains:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "annotated code scanning alerts from your repository’s dependencies."
+        },
+        {
+          "letter": "B",
+          "text": "dependencies from all your repositories."
+        },
+        {
+          "letter": "C",
+          "text": "a summary of the dependencies used in your organization’s repositories."
+        },
+        {
+          "letter": "D",
+          "text": "dependencies parsed from a repository’s manifest and lock files."
+        }
+      ],
+      "answer": "D",
+      "explanation": "A repository dependency graph identifies dependencies parsed from that repository’s manifest and lock files."
+    },
+    {
+      "number": 44,
+      "domain": "Describe GitHub Advanced Security best practices",
+      "question": "What is the best approach to ensure that licenses for added dependencies are checked and that new code is analyzed at the repository level?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure a workflow with the dependency review action."
+        },
+        {
+          "letter": "B",
+          "text": "Enable secret scanning."
+        },
+        {
+          "letter": "C",
+          "text": "Configure Require status checks to pass with a CodeQL action in a repository Ruleset."
+        },
+        {
+          "letter": "D",
+          "text": "Configure Dependabot."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The dependency review action runs against pull-request dependency changes and supports license allowlists and denylists, enabling repository-level enforcement of dependency license policy before changes are merged.\\\n\\\n**Learn more:** [Configuring the dependency review action](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-dependency-review-action) · [Dependency review](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-review)"
+    },
+    {
+      "number": 45,
+      "domain": "Configure and use code scanning",
+      "question": "Which action must you include in a workflow to upload a third-party Static Analysis Results Interchange Format (SARIF) file to a repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "upload-sarif"
+        },
+        {
+          "letter": "B",
+          "text": "partialFingerprints"
+        },
+        {
+          "letter": "C",
+          "text": "dependency-review"
+        },
+        {
+          "letter": "D",
+          "text": "scheduled"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The `upload-sarif` action in `github/codeql-action` uploads SARIF results produced by third-party static-analysis tools to GitHub code scanning.\\\n\\\n**Learn more:** [Uploading a SARIF file to GitHub](https://docs.github.com/en/code-security/how-tos/find-and-fix-code-vulnerabilities/integrate-with-existing-tools/upload-sarif-file)"
+    },
+    {
+      "number": 46,
+      "domain": "Use code scanning with CodeQL",
+      "question": "The autobuild step in the CodeQL workflow failed. What should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Compile the source code."
+        },
+        {
+          "letter": "B",
+          "text": "Use CodeQL, which implicitly detects the supported languages in your code base."
+        },
+        {
+          "letter": "C",
+          "text": "Remove the autobuild step from your code scanning workflow and add specific build steps."
+        },
+        {
+          "letter": "D",
+          "text": "Remove specific build steps."
+        }
+      ],
+      "answer": "C",
+      "explanation": "When CodeQL autobuild cannot build a compiled project, configure a manual build by removing or commenting out the `autobuild` step and adding build commands appropriate for the repository. This lets CodeQL analyze the source files produced by those explicit build steps.\\\n\\\n**Learn more:** [Automatic build failed for a compiled language](https://docs.github.com/code-security/code-scanning/troubleshooting-code-scanning/automatic-build-failed-for-a-compiled-language)"
+    },
+    {
+      "number": 47,
+      "domain": "Configure and use secret scanning",
+      "question": "How many alerts are generated when two occurrences of the same secret value exist in the same repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "1"
+        }
+      ],
+      "answer": "D",
+      "explanation": "GitHub Secret Scanning consolidates repeated detections of the same secret value within a repository into one secret-scanning alert; the alert can contain multiple detected locations.\\\n\\\n**Learn more:** [About secret scanning alerts](https://docs.github.com/en/code-security/concepts/secret-security/about-alerts) · [REST API endpoints for secret scanning](https://docs.github.com/en/rest/secret-scanning/secret-scanning)"
+    },
+    {
+      "number": 48,
+      "domain": "Describe GitHub Advanced Security best practices",
+      "question": "What does a security policy mean?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a security alert issued to a community in response to a vulnerability"
+        },
+        {
+          "letter": "B",
+          "text": "a file in a GitHub repository that provides instructions to users about how to report a security vulnerability"
+        },
+        {
+          "letter": "C",
+          "text": "an alert about dependencies that are known to contain security vulnerabilities"
+        },
+        {
+          "letter": "D",
+          "text": "an automatic detection of security vulnerabilities and coding errors in new or modified code"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A security policy is repository documentation, commonly a `SECURITY.md` file, that explains how users should privately report a security vulnerability."
+    },
+    {
+      "number": 49,
+      "domain": "Configure and use dependency management",
+      "question": "Which scenario illustrates the use of Dependabot security updates?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An alert is created for a vulnerable dependency."
+        },
+        {
+          "letter": "B",
+          "text": "An alert is created for a secret that’s been exposed in the codebase."
+        },
+        {
+          "letter": "C",
+          "text": "A pull request is opened that fixes a vulnerable dependency."
+        },
+        {
+          "letter": "D",
+          "text": "A pull request is opened that updates a dependency to the most recent version."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Dependabot security updates automatically open a pull request to upgrade a dependency with a known vulnerability to a version that contains a fix. Dependabot alerts identify vulnerable dependencies, while version updates target the latest available version regardless of a vulnerability.\\\n\\\n**Learn more:** [Dependabot security updates](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-security-updates) · [Dependabot version updates](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-version-updates)"
+    },
+    {
+      "number": 50,
+      "domain": "Describe the GHAS security features and functionality",
+      "question": "Which scenario illustrates the use of Dependabot security updates?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Automatically raise pull requests, which reduces your exposure to older versions of dependencies."
+        },
+        {
+          "letter": "B",
+          "text": "View alerts about dependencies that are known to contain security vulnerabilities."
+        },
+        {
+          "letter": "C",
+          "text": "Search for potential security vulnerabilities, detect secrets, and show the full impact of changes to dependencies."
+        },
+        {
+          "letter": "D",
+          "text": "Confidentially report security vulnerabilities and privately discuss and fix security vulnerabilities in your repository’s code."
+        }
+      ],
+      "answer": null,
+      "explanation": "Code scanning identifies potential security vulnerabilities in code, secret scanning detects exposed secrets, and dependency review shows the security impact of dependency changes, including vulnerable versions before merging a pull request.\n\n**Learn more:** [GitHub security features](https://docs.github.com/en/enterprise-cloud@latest/code-security/getting-started/github-security-features) · [Dependency review](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-review)"
+    },
+    {
+      "number": 51,
+      "domain": "Configure and use code scanning",
+      "question": "Where can a user modify a repository’s code-scanning severity threshold that causes a pull request status check to fail?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Settings tab"
+        },
+        {
+          "letter": "B",
+          "text": "Actions tab"
+        },
+        {
+          "letter": "C",
+          "text": "Security tab"
+        },
+        {
+          "letter": "D",
+          "text": "Pull Requests tab"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Repository code scanning merge protection uses rulesets, which are managed from the repository’s Settings tab. A ruleset’s code scanning rule defines the alert severity threshold that blocks a pull request from merging.\\\n\\\n**Learn more:** [Set code scanning merge protection](https://docs.github.com/en/code-security/how-tos/find-and-fix-code-vulnerabilities/manage-your-configuration/set-merge-protection)"
+    },
+    {
+      "number": 52,
+      "domain": "Configure and use secret scanning",
+      "question": "What is push protection intended to do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "to scan and block the code that contains vulnerabilities before it reaches the repository"
+        },
+        {
+          "letter": "B",
+          "text": "to validate the push by the code owner"
+        },
+        {
+          "letter": "C",
+          "text": "to define license requirements for the repository"
+        },
+        {
+          "letter": "D",
+          "text": "to scan and block the code that contains secrets before it reaches the repository"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Push protection uses secret scanning to detect supported secrets, credentials, and tokens in a push and block the push before the sensitive information reaches the repository.\\\n\\\n**Learn more:** [Push protection — GitHub Docs](https://docs.github.com/en/code-security/concepts/secret-security/push-protection?learn=secret_scanning&learnProduct=code-security)"
+    },
+    {
+      "number": 53,
+      "domain": "Configure and use code scanning",
+      "question": "For compatibility with code scanning, which data format must third-party code-scanning tools use for their output?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ESLint"
+        },
+        {
+          "letter": "B",
+          "text": "YAML"
+        },
+        {
+          "letter": "C",
+          "text": "Static Analysis Results Interchange Format (SARIF)"
+        },
+        {
+          "letter": "D",
+          "text": "comma separated values (CSV)"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Third-party code-scanning results must be produced in Static Analysis Results Interchange Format (SARIF). GitHub code scanning parses SARIF files to display analysis alerts and supports a subset of the SARIF 2.1.0 JSON schema.\\\n\\\n**Learn more:** [SARIF support for code scanning](https://docs.github.com/en/code-security/reference/code-scanning/sarif-files/sarif-support)"
+    },
+    {
+      "number": 54,
+      "domain": "Configure and use code scanning",
+      "question": "For compatibility with code scanning, which data format must third-party code-scanning tools use for their output?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Webhooks and the code scanning API remove the alert."
+        },
+        {
+          "letter": "B",
+          "text": "Sensitive information could be leaked."
+        },
+        {
+          "letter": "C",
+          "text": "Data could be used insecurely."
+        },
+        {
+          "letter": "D",
+          "text": "A dangerous argument could be passed to functions."
+        },
+        {
+          "letter": "E",
+          "text": "GitHub removes the alert after sixty days."
+        }
+      ],
+      "answer": null,
+      "explanation": "CodeQL data-flow analysis identifies potential security issues including leaked sensitive information, insecure use of data, and dangerous arguments passed to functions. Leaving a code-scanning alert unaddressed can leave those vulnerabilities in the codebase. Webhooks and the code-scanning API are for monitoring results, and alerts are closed when the triggering code is fixed.\n\n**Learn more:** [Code scanning alerts - GitHub Docs](https://docs.github.com/en/code-security/concepts/code-scanning/code-scanning-alerts) · [Code scanning - GitHub Docs](https://docs.github.com/en/code-security/concepts/code-scanning/code-scanning?learn=code_security_actions&learnProduct=code-security)"
+    },
+    {
+      "number": 55,
+      "domain": "Configure and use dependency management",
+      "question": "Which Dependabot configuration fields are mandatory? Each answer gives part of the solution. (Choose three.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "package-ecosystem"
+        },
+        {
+          "letter": "B",
+          "text": "allow"
+        },
+        {
+          "letter": "C",
+          "text": "schedule.interval"
+        },
+        {
+          "letter": "D",
+          "text": "directory"
+        },
+        {
+          "letter": "E",
+          "text": "milestone"
+        }
+      ],
+      "answer": null,
+      "explanation": "A Dependabot version-update configuration requires `package-ecosystem` to identify the package manager, `directory` to locate dependency manifests, and `schedule.interval` to set the update-check frequency. `allow` and `milestone` are optional configuration settings.\\\n\\\n**Learn more:** [Dependabot options reference](https://docs.github.com/en/code-security/reference/supply-chain-security/dependabot-options-reference)"
+    },
+    {
+      "number": 56,
+      "domain": "Configure and use code scanning",
+      "question": "What action is required to run a SARIF-compatible (Static Analysis Results Interchange Format) tool in GitHub Actions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The CodeQL action uploads the SARIF file automatically when it completes analysis."
+        },
+        {
+          "letter": "B",
+          "text": "Use the CLI to upload results to GitHub."
+        },
+        {
+          "letter": "C",
+          "text": "Update the workflow to include a final step that uploads the results."
+        },
+        {
+          "letter": "D",
+          "text": "By default, the CodeQL runner automatically uploads results to GitHub on completion."
+        }
+      ],
+      "answer": "C",
+      "explanation": "A GitHub Actions workflow that runs a third-party SARIF-compatible analysis tool must include a final results-upload step, normally using the `upload-sarif` action, to submit the generated SARIF file to GitHub code scanning.\\\n\\\n**Learn more:** [Uploading a SARIF file to GitHub](https://docs.github.com/en/code-security/how-tos/find-and-fix-code-vulnerabilities/integrate-with-existing-tools/upload-sarif-file?learn=code_security_integration&learnProduct=code-security)"
+    },
+    {
+      "number": 57,
+      "domain": "Configure and use secret scanning",
+      "question": "After you define a secret scanning custom pattern, what is the last step before publishing the pattern?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "defining a custom pattern"
+        },
+        {
+          "letter": "B",
+          "text": "adding additional match requirements"
+        },
+        {
+          "letter": "C",
+          "text": "enabling push protection"
+        },
+        {
+          "letter": "D",
+          "text": "performing a dry run"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A dry run tests the custom pattern against the selected scope without creating alerts, allowing results and false positives to be reviewed before the pattern is published. Push protection is an optional action available only after publication.\\\n\\\n**Learn more:** [Defining custom patterns for secret scanning](https://docs.github.com/en/enterprise-cloud%40latest/code-security/how-tos/secure-your-secrets/customize-leak-detection/define-custom-patterns)"
+    },
+    {
+      "number": 58,
+      "domain": "Configure and use secret scanning",
+      "question": "Which of the following is the most proactive and practical method for preventing new secret-scanning alerts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scan for non-provider patterns"
+        },
+        {
+          "letter": "B",
+          "text": "Use feature branches"
+        },
+        {
+          "letter": "C",
+          "text": "Configure a secret scanning Actions workflow."
+        },
+        {
+          "letter": "D",
+          "text": "Enable push protection."
+        }
+      ],
+      "answer": "D",
+      "explanation": "GitHub push protection checks commits and pushes for supported secrets and blocks them before they reach the repository, preventing the exposure that would otherwise create a secret-scanning alert.\\\n\\\n**Learn more:** [GitHub Docs: Push protection](https://docs.github.com/en/code-security/concepts/secret-security/push-protection)"
+    },
+    {
+      "number": 59,
+      "domain": "Configure and use code scanning",
+      "question": "Which role is required to modify a repository’s code-scanning severity threshold that causes a pull-request status check to fail?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Maintain"
+        },
+        {
+          "letter": "B",
+          "text": "Write"
+        },
+        {
+          "letter": "C",
+          "text": "Admin"
+        },
+        {
+          "letter": "D",
+          "text": "Triage"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The severity threshold is configured in a code-scanning merge-protection ruleset, an administrative repository setting. GitHub limits creation and modification of this protection to users with the repository admin role (as well as applicable organization-level roles).\\\n\\\n**Learn more:** [Set code scanning merge protection](https://docs.github.com/en/code-security/how-tos/find-and-fix-code-vulnerabilities/manage-your-configuration/set-merge-protection)"
+    },
+    {
+      "number": 60,
+      "domain": "Configure and use dependency management",
+      "question": "In a pull request, how can developers prevent the addition of new dependencies that have known vulnerabilities?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable Dependabot security updates."
+        },
+        {
+          "letter": "B",
+          "text": "Add Dependabot rules."
+        },
+        {
+          "letter": "C",
+          "text": "Enable Dependabot alerts."
+        },
+        {
+          "letter": "D",
+          "text": "Add a workflow with the dependency review action."
+        }
+      ],
+      "answer": "D",
+      "explanation": "A workflow that uses the dependency review action scans dependency changes in pull requests and raises an error for newly introduced dependencies with known vulnerabilities. When required, the failed check prevents the pull request from being merged.\\\n\\\n**Learn more:** [Dependency review](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-review)"
+    },
+    {
+      "number": 61,
+      "domain": "Configure and use secret scanning",
+      "question": "Where do you enable secret scanning for a private repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "within a secret.yml file in the repository"
+        },
+        {
+          "letter": "B",
+          "text": "in the code scanning default set up settings"
+        },
+        {
+          "letter": "C",
+          "text": "within a repository ruleset"
+        },
+        {
+          "letter": "D",
+          "text": "in the code security settings"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Secret scanning for a private repository is enabled in the repository’s Code security settings by enabling Secret Protection. GitHub documents this under the repository security configuration rather than code-scanning setup, rulesets, or a repository YAML file.\\\n\\\n**Learn more:** [Enabling secret scanning for your repository](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/detect-secret-leaks/enable-secret-scanning) · [Managing security and analysis settings for your repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-security-and-analysis-settings-for-your-repository)"
+    },
+    {
+      "number": 62,
+      "domain": "Configure and use secret scanning",
+      "question": "When secret scanning identifies a set of credentials in a public repository, what action does GitHub take?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It sends a notification to repository members."
+        },
+        {
+          "letter": "B",
+          "text": "It displays a public alert in the Security tab of the repository."
+        },
+        {
+          "letter": "C",
+          "text": "It notifies the service provider who issued the secret."
+        },
+        {
+          "letter": "D",
+          "text": "It scans the contents of the commits for additional secrets."
+        }
+      ],
+      "answer": "C",
+      "explanation": "For secrets issued by providers participating in GitHub’s secret-scanning partner program, GitHub sends a partner alert directly to the relevant service provider when it detects the secret in a public repository. The provider can then validate or revoke the exposed credential.\\\n\\\n**Learn more:** [Secret scanning for partners — GitHub Docs](https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning-for-partners) · [About secret scanning alerts — GitHub Docs](https://docs.github.com/en/code-security/concepts/secret-security/about-alerts)"
+    },
+    {
+      "number": 63,
+      "domain": "Configure and use secret scanning",
+      "question": "Where in the repository can you grant additional users access to secret scanning alerts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Secrets"
+        },
+        {
+          "letter": "B",
+          "text": "Insights"
+        },
+        {
+          "letter": "C",
+          "text": "Settings"
+        },
+        {
+          "letter": "D",
+          "text": "Security"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Additional recipients for secret scanning alerts are configured in the repository’s security settings. GitHub documents that repository administrators can designate additional people or teams to receive these alerts.\\\n\\\n**Learn more:** [Repository roles for an organization](https://docs.github.com/en/enterprise-cloud@latest/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization) · [Enabling secret scanning for your repository](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/detect-secret-leaks/enable-secret-scanning?learn=secret_scanning&learnProduct=code-security)"
+    },
+    {
+      "number": 64,
+      "domain": "Configure and use secret scanning",
+      "question": "Secret scanning will ignore a `secret_scanning.yml` file that",
+      "options": [
+        {
+          "letter": "A",
+          "text": "contains 1,000 or more entries."
+        },
+        {
+          "letter": "B",
+          "text": "has 1,000 or more directories"
+        },
+        {
+          "letter": "C",
+          "text": "is 1 MB or larger"
+        },
+        {
+          "letter": "D",
+          "text": "is 100 KB or larger."
+        }
+      ],
+      "answer": "C",
+      "explanation": "GitHub Secret Scanning ignores the entire `secret_scanning.yml` configuration file when its size exceeds 1 MB. A `paths-ignore` list with more than 1,000 entries is instead limited to excluding only the first 1,000 directories. [GitHub Docs: Excluding folders and files from secret scanning](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/customize-leak-detection/exclude-folders-and-files)\\\n\\\n**Learn more:** [GitHub Docs: Excluding folders and files from secret scanning](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/customize-leak-detection/exclude-folders-and-files)"
+    },
+    {
+      "number": 65,
+      "domain": "Configure and use dependency management",
+      "question": "What action should you take after receiving an alert about a dependency that was added in a pull request?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Disable Dependabot alerts for all repositories owned by your organization."
+        },
+        {
+          "letter": "B",
+          "text": "Fork the branch and deploy the new fork."
+        },
+        {
+          "letter": "C",
+          "text": "Deploy the code to your default branch."
+        },
+        {
+          "letter": "D",
+          "text": "Update the vulnerable dependencies before the branch is merged."
+        }
+      ],
+      "answer": "D",
+      "explanation": "A vulnerable dependency should be updated to a secure version and the remediation included in the pull request before it is merged. Merging the security-update pull request resolves the associated Dependabot alert.\\\n\\\n**Learn more:** [Dependabot security updates](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-security-updates)"
+    },
+    {
+      "number": 66,
+      "domain": "Configure and use secret scanning",
+      "question": "Which of the following is the most appropriate way to dispose of a compromised secret?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a new secret."
+        },
+        {
+          "letter": "B",
+          "text": "Revoke the secret."
+        },
+        {
+          "letter": "C",
+          "text": "Update any services that use the secret."
+        },
+        {
+          "letter": "D",
+          "text": "Remove the secret from the code base."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Revoking a compromised secret immediately invalidates it and prevents further use by an unauthorized party."
+    },
+    {
+      "number": 67,
+      "domain": "Use code scanning with CodeQL",
+      "question": "You are setting up code scanning with CodeQL. What is one effect of using a language matrix in your workflow?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CodeQL is configured to run analysis sequentially."
+        },
+        {
+          "letter": "B",
+          "text": "CodeQL will only analyze the languages in the matrix."
+        },
+        {
+          "letter": "C",
+          "text": "CodeQL excludes alerts for those dependencies specified in the language matrix."
+        },
+        {
+          "letter": "D",
+          "text": "You can use the languages parameter under the init action."
+        }
+      ],
+      "answer": "B",
+      "explanation": "A CodeQL language matrix defines the set of languages passed to the `languages` input for each analysis job. CodeQL analyzes only the languages included in that matrix; separate matrix jobs can run in parallel. [GitHub Docs: Workflow configuration options for code scanning](https://docs.github.com/en/code-security/reference/code-scanning/workflow-configuration-options)\\\n\\\n**Learn more:** [GitHub Docs: Workflow configuration options for code scanning](https://docs.github.com/en/code-security/reference/code-scanning/workflow-configuration-options)"
+    },
+    {
+      "number": 68,
+      "domain": "Configure and use secret scanning",
+      "question": "You are setting up code scanning with CodeQL. What is one effect of using a language matrix in your workflow?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the secret format"
+        },
+        {
+          "letter": "B",
+          "text": "a list of repositories to scan"
+        },
+        {
+          "letter": "C",
+          "text": "the name of the pattern"
+        },
+        {
+          "letter": "D",
+          "text": "additional match requirements for the secret format"
+        }
+      ],
+      "answer": null,
+      "explanation": "A custom secret-scanning pattern requires a pattern name and a regular expression specifying the secret format. Additional match requirements are optional, and repository selection is separate from defining the pattern. [GitHub Docs: Defining custom patterns for secret scanning](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/customize-leak-detection/define-custom-patterns)\n\n**Learn more:** [Defining custom patterns for secret scanning](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/customize-leak-detection/define-custom-patterns) · [Custom patterns reference](https://docs.github.com/en/enterprise-cloud%40latest/code-security/reference/secret-security/custom-patterns)"
+    },
+    {
+      "number": 69,
+      "domain": "Configure and use dependency management",
+      "question": "Which security feature identifies a vulnerable dependency in a pull request?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dependency review"
+        },
+        {
+          "letter": "B",
+          "text": "dependency graph"
+        },
+        {
+          "letter": "C",
+          "text": "Dependabot alert"
+        },
+        {
+          "letter": "D",
+          "text": "the repository’s Security tab"
+        }
+      ],
+      "answer": "A",
+      "explanation": "GitHub Dependency Review analyzes dependency changes in a pull request and displays vulnerability information for added or updated dependencies that have known vulnerabilities.\\\n\\\n**Learn more:** [Dependency review - GitHub Docs](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-review) · [Reviewing dependency changes in a pull request - GitHub Docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-dependency-changes-in-a-pull-request)"
+    },
+    {
+      "number": 70,
+      "domain": "Configure and use dependency management",
+      "question": "Which of the following formats are used to describe a Dependabot alert? Each answer represents a complete solution. (Choose two.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vulnerability Exploitability eXchange (VEX)"
+        },
+        {
+          "letter": "B",
+          "text": "Common Vulnerabilities and Exposures (CVE)"
+        },
+        {
+          "letter": "C",
+          "text": "Common Weakness Enumeration (CWE)"
+        },
+        {
+          "letter": "D",
+          "text": "Exploit Prediction Scoring System (EPSS)"
+        }
+      ],
+      "answer": null,
+      "explanation": "Dependabot alert details can include a unique CVE identifier for the vulnerability and related CWE entries that classify the underlying weakness. VEX conveys product vulnerability status, and EPSS is an exploitation-likelihood scoring system rather than an alert-description format.\\\n\\\n**Learn more:** [Dependabot quickstart guide](https://docs.github.com/en/enterprise-cloud@latest/code-security/tutorials/secure-your-dependencies/dependabot-quickstart) · [REST API endpoints for Dependabot alerts](https://docs.github.com/en/rest/dependabot/alerts?apiVersion=2022-11-28)"
+    },
+    {
+      "number": 71,
+      "domain": "Describe the GHAS security features and functionality",
+      "question": "Which capabilities require GitHub Advanced Security to be enabled for an organization's internal and private repositories? Each correct answer is part of the solution. *(Choose two.)*",
+      "options": [
+        {
+          "letter": "A",
+          "text": "security policy"
+        },
+        {
+          "letter": "B",
+          "text": "secret scanning"
+        },
+        {
+          "letter": "C",
+          "text": "packages"
+        },
+        {
+          "letter": "D",
+          "text": "dependency review"
+        }
+      ],
+      "answer": null,
+      "explanation": "Secret scanning is provided for organization-owned private and internal repositories through GitHub Secret Protection (or a GitHub Advanced Security license). Dependency review is a GitHub Code Security capability for private and internal repositories. Security policies and GitHub Packages are not GitHub Advanced Security features.\\\n\\\n**Learn more:** [About GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security) · [Dependency review](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-review)"
+    },
+    {
+      "number": 72,
+      "domain": "Configure and use secret scanning",
+      "question": "Which filter or sort settings can be used to prioritize secret scanning alerts that pose the most risk?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sort to display the oldest first."
+        },
+        {
+          "letter": "B",
+          "text": "Filter to display active secrets."
+        },
+        {
+          "letter": "C",
+          "text": "Select only the custom patterns."
+        },
+        {
+          "letter": "D",
+          "text": "Sort to display the newest first."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Active secrets present the greatest immediate exposure because they may still be usable. GitHub secret-scanning validity checks support prioritizing remediation by identifying secrets that are still active, so filtering alerts to active secrets focuses attention on the highest-risk alerts.\\\n\\\n**Learn more:** [Secret scanning](https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning) · [Viewing and filtering alerts from secret scanning](https://docs.github.com/en/code-security/how-tos/manage-security-alerts/manage-secret-scanning-alerts/viewing-alerts)"
+    },
+    {
+      "number": 73,
+      "domain": "Configure and use dependency management",
+      "question": "Which filter or sort settings can be used to prioritize secret scanning alerts that pose the most risk?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "loose dependencies declared in a manifest"
+        },
+        {
+          "letter": "B",
+          "text": "direct dependencies explicitly declared in a manifest"
+        },
+        {
+          "letter": "C",
+          "text": "direct dependencies at 08:00 UTC"
+        },
+        {
+          "letter": "D",
+          "text": "indirect dependencies explicitly declared in a lockfile"
+        }
+      ],
+      "answer": null,
+      "explanation": "Dependabot can alert on vulnerable direct dependencies explicitly declared in a manifest and on vulnerable indirect (transitive) dependencies declared in a lockfile, where their versions can be determined. Loose copied-in dependencies are not automatically detected, and alerting is not triggered by a particular time of day.\n\n**Learn more:** [Vulnerable dependency detection](https://docs.github.com/en/code-security/reference/supply-chain-security/troubleshoot-dependabot/vulnerability-detection) · [Troubleshooting the dependency graph](https://docs.github.com/en/enterprise-cloud%40latest/code-security/reference/supply-chain-security/troubleshoot-dependabot/dependency-graph-errors)"
+    },
+    {
+      "number": 74,
+      "domain": "Configure and use secret scanning",
+      "question": "Which of the following is the most effective way to stop developers from adding secrets to the repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Make the repository public."
+        },
+        {
+          "letter": "B",
+          "text": "Configure a security manager."
+        },
+        {
+          "letter": "C",
+          "text": "Create a CODEOWNERS file."
+        },
+        {
+          "letter": "D",
+          "text": "Enable push protection."
+        }
+      ],
+      "answer": "D",
+      "explanation": "GitHub push protection detects supported hardcoded secrets in a push and blocks the push before the secret reaches the repository.\\\n\\\n**Learn more:** [GitHub Docs: Push protection](https://docs.github.com/en/code-security/concepts/secret-security/push-protection)"
+    },
+    {
+      "number": 75,
+      "domain": "Describe GitHub Advanced Security best practices",
+      "question": "As a contributor, you found a vulnerability in a repository. Where should you look for instructions on reporting the vulnerability?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "contributing.md"
+        },
+        {
+          "letter": "B",
+          "text": "readme.md"
+        },
+        {
+          "letter": "C",
+          "text": "security.md"
+        },
+        {
+          "letter": "D",
+          "text": "support.md"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A repository’s `SECURITY.md` file contains its security policy, including the process and contact details for reporting vulnerabilities.\\\n\\\n**Learn more:** [Adding a security policy to your repository](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/add-security-policy)"
+    },
+    {
+      "number": 76,
+      "domain": "Use code scanning with CodeQL",
+      "question": "Which query-suite syntax instructs CodeQL to find one or more specified `.ql` files?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "qlpack"
+        },
+        {
+          "letter": "B",
+          "text": "query"
+        },
+        {
+          "letter": "C",
+          "text": "qls"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The `query` instruction selects one or more specified `.ql` files, with paths relative to the CodeQL pack that contains the suite definition.\\\n\\\n**Learn more:** [Creating CodeQL query suites](https://docs.github.com/en/enterprise-cloud%40latest/code-security/tutorials/customize-code-scanning/create-query-suites)"
+    },
+    {
+      "number": 77,
+      "domain": "Describe GitHub Advanced Security best practices",
+      "question": "As a repository owner, you want to prevent a GitHub Actions workflow from running when changes affect any `.txt` or Markdown files. How would you modify the event trigger for a pull request targeting the `main` branch? Each answer supplies part of the solution. (Choose three.)  \n  \n1. `on:`  \n2. `push:`  \n3. `branches: [main, protected]`  \n4. `pull_request:`  \n5. `branches: [main]`",
+      "options": [
+        {
+          "letter": "A",
+          "text": "paths-ignore:"
+        },
+        {
+          "letter": "B",
+          "text": "paths:"
+        },
+        {
+          "letter": "C",
+          "text": "- '**/*.md'"
+        },
+        {
+          "letter": "D",
+          "text": "- '**/*.txt'"
+        },
+        {
+          "letter": "E",
+          "text": "- '*/docs/*.md'"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Actions supports `paths-ignore` on `pull_request` events to exclude changed-file patterns. The `**/*.md` and `**/*.txt` glob patterns match Markdown and text files at any directory depth. When every changed path matches one of those ignored patterns, the pull-request workflow does not run.\\\n\\\n**Learn more:** [Workflow syntax for GitHub Actions](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax)"
+    },
+    {
+      "number": 78,
+      "domain": "Configure and use dependency management",
+      "question": "Which of the following actions would close a Dependabot alert?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "viewing the dependency graph"
+        },
+        {
+          "letter": "B",
+          "text": "leaving the repository in its current state"
+        },
+        {
+          "letter": "C",
+          "text": "creating a pull request to resolve the vulnerability that will be approved and merged"
+        },
+        {
+          "letter": "D",
+          "text": "viewing the Dependabot alert on the Dependabot alerts tab of your repository"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A Dependabot alert is marked as resolved when a pull request containing the security update is merged, because the vulnerable dependency has been updated to a version that remediates the vulnerability.\\\n\\\n**Learn more:** [Dependabot pull requests](https://docs.github.com/en/enterprise-cloud@latest/code-security/concepts/supply-chain-security/dependabot-pull-requests) · [Dependabot security updates](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-security-updates?learn=dependabot_security_updates&learnProduct=code-security)"
+    },
+    {
+      "number": 79,
+      "domain": "Use code scanning with CodeQL",
+      "question": "Where can you see code-scanning results generated by CodeQL analysis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a CodeQL database"
+        },
+        {
+          "letter": "B",
+          "text": "at Security advisories"
+        },
+        {
+          "letter": "C",
+          "text": "a CodeQL query pack"
+        },
+        {
+          "letter": "D",
+          "text": "the repository’s code scanning alerts"
+        }
+      ],
+      "answer": "D",
+      "explanation": "CodeQL analysis generates code-scanning alerts, which are available in the repository’s code scanning alerts."
+    },
+    {
+      "number": 80,
+      "domain": "Describe GitHub Advanced Security best practices",
+      "question": "As a repository owner, you want to receive selected notifications, including security alerts, for one individual repository. Which repository notification setting should you choose?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Custom"
+        },
+        {
+          "letter": "B",
+          "text": "All Activity"
+        },
+        {
+          "letter": "C",
+          "text": "Ignore"
+        },
+        {
+          "letter": "D",
+          "text": "Participating and @mentions"
+        }
+      ],
+      "answer": "A",
+      "explanation": "GitHub’s **Custom** repository notification setting lets a watcher select particular event types, including security alerts, for an individual repository. It is the setting used to receive security-alert notifications without subscribing to all repository activity.\\\n\\\n**Learn more:** [Configuring notifications](https://docs.github.com/en/enterprise-cloud@latest/subscriptions-and-notifications/get-started/configuring-notifications) · [Managing security notifications](https://docs.github.com/en/subscriptions-and-notifications/how-tos/managing-security-notifications)"
+    },
+    {
+      "number": 81,
+      "domain": "Configure and use dependency management",
+      "question": "As a repository owner, you want to receive selected notifications, including security alerts, for one individual repository. Which repository notification setting should you choose?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "in the National Vulnerability Database"
+        },
+        {
+          "letter": "B",
+          "text": "in the dependency graph"
+        },
+        {
+          "letter": "C",
+          "text": "in security advisories reported on GitHub"
+        },
+        {
+          "letter": "D",
+          "text": "in manifest and lock files"
+        }
+      ],
+      "answer": null,
+      "explanation": "Vulnerabilities can be published as National Vulnerability Database records or as GitHub security advisories, which can feed the GitHub Advisory Database used for Dependabot vulnerability information. A dependency graph and manifest or lock files identify dependencies in a repository but do not disclose vulnerabilities.\n\n**Learn more:** [GitHub Advisory Database](https://docs.github.com/en/code-security/concepts/vulnerability-reporting-and-management/github-advisory-database) · [Repository security advisories](https://docs.github.com/en/code-security/concepts/vulnerability-reporting-and-management/repository-security-advisories)"
+    },
+    {
+      "number": 82,
+      "domain": "Configure and use dependency management",
+      "question": "By default, which role can enable Dependabot alerts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "repository maintainers"
+        },
+        {
+          "letter": "B",
+          "text": "security analysts"
+        },
+        {
+          "letter": "C",
+          "text": "outside collaborators"
+        },
+        {
+          "letter": "D",
+          "text": "repository administrators"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Repository administrators have the required repository-level authority to enable Dependabot alerts. Organization owners can also enable them, but that role is not among the choices. [GitHub Docs: Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts)\\\n\\\n**Learn more:** [GitHub Docs: Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts)"
+    },
+    {
+      "number": 83,
+      "domain": "Configure and use dependency management",
+      "question": "Which GitHub security feature lets you view details about vulnerable dependency versions in a pull request?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "dependency graph"
+        },
+        {
+          "letter": "B",
+          "text": "code scanning"
+        },
+        {
+          "letter": "C",
+          "text": "dependency review"
+        },
+        {
+          "letter": "D",
+          "text": "Dependabot alerts"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Dependency review displays dependency changes and associated vulnerability data in pull requests, including the affected dependency version and the version in which a vulnerability is fixed.\\\n\\\n**Learn more:** [Reviewing dependency changes in a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-dependency-changes-in-a-pull-request)"
+    },
+    {
+      "number": 84,
+      "domain": "Use code scanning with CodeQL",
+      "question": "When using CodeQL, how is extraction performed for compiled languages?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "by resolving dependencies to give an accurate representation of the codebase"
+        },
+        {
+          "letter": "B",
+          "text": "by monitoring the normal build process"
+        },
+        {
+          "letter": "C",
+          "text": "by running directly on the source code"
+        },
+        {
+          "letter": "D",
+          "text": "by generating one language at a time"
+        }
+      ],
+      "answer": "B",
+      "explanation": "CodeQL extraction for compiled languages uses a tracer that intercepts the normal build process and forwards compilation information to the appropriate language extractors.\\\n\\\n**Learn more:** [CodeQL code scanning for compiled languages](https://docs.github.com/en/code-security/concepts/code-scanning/codeql/codeql-for-compiled-languages)"
+    },
+    {
+      "number": 85,
+      "domain": "Configure and use dependency management",
+      "question": "Dependabot alerts are enabled for your repository. If Dependabot identifies a vulnerable dependency, it sends an alert when:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a contributor adds the vulnerable dependency to a manifest in the repository."
+        },
+        {
+          "letter": "B",
+          "text": "a contributor makes a change to a function in the code."
+        },
+        {
+          "letter": "C",
+          "text": "manifests and lock files are out of date and a version needs to be updated."
+        },
+        {
+          "letter": "D",
+          "text": "the vulnerability is removed from the GitHub Advisory Database."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Dependabot scans the repository’s default branch when its dependency graph changes, such as when a commit adds or updates a package or version. A contributor adding a known vulnerable dependency to a manifest therefore triggers an alert.\\\n\\\n**Learn more:** [Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts)"
+    },
+    {
+      "number": 86,
+      "domain": "Use code scanning with CodeQL",
+      "question": "Where can CodeQL analysis be used for code scanning? Each answer represents part of the solution. (Choose two.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "in a third-party Git repository"
+        },
+        {
+          "letter": "B",
+          "text": "in an external continuous integration (CI) system"
+        },
+        {
+          "letter": "C",
+          "text": "in a workflow"
+        },
+        {
+          "letter": "D",
+          "text": "in the Files changed tab of the pull request"
+        }
+      ],
+      "answer": null,
+      "explanation": "CodeQL analysis for code scanning can run in a GitHub Actions workflow or directly in an external CI system using the CodeQL CLI, with the results uploaded to GitHub. GitHub documents these as the advanced-setup workflow option and the external-CI option for CodeQL code scanning.\\\n\\\n**Learn more:** [Code scanning with CodeQL](https://docs.github.com/en/code-security/concepts/code-scanning/codeql/codeql-code-scanning) · [CodeQL CLI](https://docs.github.com/en/code-security/concepts/code-scanning/codeql/codeql-cli)"
+    },
+    {
+      "number": 87,
+      "domain": "Use code scanning with CodeQL",
+      "question": "Which of the following steps should be taken to integrate CodeQL with a third-party continuous integration system? Each answer represents part of the solution. (Choose three.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "install the CLI"
+        },
+        {
+          "letter": "B",
+          "text": "analyze code"
+        },
+        {
+          "letter": "C",
+          "text": "write queries"
+        },
+        {
+          "letter": "D",
+          "text": "process alerts"
+        },
+        {
+          "letter": "E",
+          "text": "upload scan results"
+        }
+      ],
+      "answer": null,
+      "explanation": "A third-party CI integration requires the CodeQL CLI to be available on the CI server, CodeQL analysis to produce SARIF results, and upload of those scan results to GitHub. Custom query authoring is optional, while alerts are processed after the results have been uploaded.\\\n\\\n**Learn more:** [CodeQL CLI](https://docs.github.com/en/code-security/concepts/code-scanning/codeql/codeql-cli) · [Using code scanning with your existing CI system](https://docs.github.com/en/enterprise-cloud%40latest/code-security/how-tos/scan-code-for-vulnerabilities/integrate-with-existing-tools/using-code-scanning-with-your-existing-ci-system)"
+    },
+    {
+      "number": 88,
+      "domain": "Use code scanning with CodeQL",
+      "question": "Which of the following steps should be taken to integrate CodeQL with a third-party continuous integration system? Each answer represents part of the solution. (Choose three.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Common Weakness Enumeration (CWE)"
+        },
+        {
+          "letter": "B",
+          "text": "Vulnerability Exploitability eXchange (VEX)"
+        },
+        {
+          "letter": "C",
+          "text": "GitHub Security Advisory (GHSA)"
+        },
+        {
+          "letter": "D",
+          "text": "Common Vulnerabilities and Exposures (CVE)"
+        }
+      ],
+      "answer": null,
+      "explanation": "CodeQL code-scanning alerts are associated with Common Weakness Enumeration (CWE) categories, which classify the type of software weakness detected. GitHub’s code-scanning documentation refers to CodeQL alert queries and alerts in terms of their associated CWE tags. [Code scanning alerts — GitHub Docs](https://docs.github.com/en/code-security/concepts/code-scanning/code-scanning-alerts)\n\n**Learn more:** [Code scanning alerts — GitHub Docs](https://docs.github.com/en/code-security/concepts/code-scanning/code-scanning-alerts) · [REST API endpoints for code scanning — GitHub Docs](https://docs.github.com/en/rest/code-scanning/code-scanning?learn=code_security_integration&learnProduct=code-security)"
+    },
+    {
+      "number": 89,
+      "domain": "Use code scanning with CodeQL",
+      "question": "After investigating an injection code-scanning alert, you determine that the input is correctly sanitized through custom logic. What should you do next?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dismiss the alert with the reason “false positive.”"
+        },
+        {
+          "letter": "B",
+          "text": "Ignore the alert."
+        },
+        {
+          "letter": "C",
+          "text": "Open an issue in the CodeQL repository."
+        },
+        {
+          "letter": "D",
+          "text": "Draft a pull request to update the open source query."
+        }
+      ],
+      "answer": "A",
+      "explanation": "A code-scanning alert whose reported data flow is safely sanitized is a false positive. GitHub recommends dismissing such a CodeQL alert with the `false positive` reason; the dismissal records the triage decision and prevents the unchanged code from producing the same alert in subsequent scans.\\\n\\\n**Learn more:** [Resolving code scanning alerts - GitHub Docs](https://docs.github.com/en/code-security/how-tos/manage-security-alerts/manage-code-scanning-alerts/resolve-alerts)"
+    },
+    {
+      "number": 90,
+      "domain": "Configure and use dependency management",
+      "question": "Which of the following workflow events can trigger a dependency review? (Each answer presents a complete solution. Choose two.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "commit"
+        },
+        {
+          "letter": "B",
+          "text": "trigger"
+        },
+        {
+          "letter": "C",
+          "text": "workflow_dispatch"
+        },
+        {
+          "letter": "D",
+          "text": "pull_request"
+        }
+      ],
+      "answer": null,
+      "explanation": "The dependency-review action evaluates dependency changes between revisions, most commonly for a pull request, so `pull_request` is the standard event for running it. A workflow may also be started manually with `workflow_dispatch`; when a dependency-review workflow is configured for that event, it can run the review. `commit` and `trigger` are not valid GitHub Actions event names.\\\n\\\n**Learn more:** [Configuring the dependency review action](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-dependency-review-action) · [Workflow syntax for GitHub Actions](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax)"
+    },
+    {
+      "number": 91,
+      "domain": "Configure and use code scanning",
+      "question": "Under what circumstances should you dismiss a code-scanning alert?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "if you fix the code that triggered the alert"
+        },
+        {
+          "letter": "B",
+          "text": "to prevent developers from introducing new problems"
+        },
+        {
+          "letter": "C",
+          "text": "if it includes an error in code that is used only for testing"
+        },
+        {
+          "letter": "D",
+          "text": "if there is a production error in your code"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A code-scanning alert may be dismissed when the reported issue does not need to be fixed, such as an error in code used only for testing. Production issues require remediation; correcting the affected code is distinct from dismissing an alert.\\\n\\\n**Learn more:** [Resolving code scanning alerts](https://docs.github.com/en/code-security/how-tos/manage-security-alerts/manage-code-scanning-alerts/resolve-alerts)"
+    },
+    {
+      "number": 92,
+      "domain": "Configure and use dependency management",
+      "question": "Which of the following Watch settings can you use to receive Dependabot alert notifications? Each answer represents part of the solution. (Choose two.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Participating and @mentions setting"
+        },
+        {
+          "letter": "B",
+          "text": "the Custom setting"
+        },
+        {
+          "letter": "C",
+          "text": "the Ignore setting"
+        },
+        {
+          "letter": "D",
+          "text": "the All Activity setting"
+        }
+      ],
+      "answer": null,
+      "explanation": "For a watched repository, Dependabot alert notifications require either the **All Activity** watch setting or a **Custom** watch setting configured to include **Security alerts**. Participating and @mentions only covers activity in conversations involving the user, while Ignore suppresses repository notifications.\\\n\\\n**Learn more:** [Managing security notifications](https://docs.github.com/en/subscriptions-and-notifications/how-tos/managing-security-notifications) · [Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts)"
+    },
+    {
+      "number": 93,
+      "domain": "Configure and use code scanning",
+      "question": "Which of the following predefined roles is necessary to manage code scanning alerts in a repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Maintain"
+        },
+        {
+          "letter": "B",
+          "text": "View"
+        },
+        {
+          "letter": "C",
+          "text": "Read"
+        },
+        {
+          "letter": "D",
+          "text": "Triage"
+        }
+      ],
+      "answer": "A",
+      "explanation": "GitHub grants the ability to list, dismiss, and delete code scanning alerts to repository roles with write-level access, including the Maintain role. Read and Triage do not grant those alert-management permissions.\\\n\\\n**Learn more:** [Repository roles for an organization](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization)"
+    },
+    {
+      "number": 94,
+      "domain": "Configure and use dependency management",
+      "question": "When does Dependabot notify you about a vulnerability during your software development process?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "as soon as a vulnerable dependency is detected"
+        },
+        {
+          "letter": "B",
+          "text": "when Dependabot opens a pull request to update a vulnerable dependency"
+        },
+        {
+          "letter": "C",
+          "text": "as soon as a pull request is opened by a contributor"
+        },
+        {
+          "letter": "D",
+          "text": "when a pull request adding a vulnerable dependency is opened"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Dependabot sends an alert when it detects a vulnerable dependency in the repository’s dependency graph, such as after a dependency-graph change or when a newly recorded advisory affects an existing dependency. Security-update pull requests are a potential remediation action triggered after an alert, not the alert condition itself.\\\n\\\n**Learn more:** [Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts)"
+    },
+    {
+      "number": 95,
+      "domain": "Use code scanning with CodeQL",
+      "question": "When working with CodeQL, which extension is used to store query suite definitions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": ".yml"
+        },
+        {
+          "letter": "B",
+          "text": ".qls"
+        },
+        {
+          "letter": "C",
+          "text": ".qll"
+        },
+        {
+          "letter": "D",
+          "text": ".ql"
+        }
+      ],
+      "answer": "B",
+      "explanation": "CodeQL stores query suite definitions in YAML files with the `.qls` extension. `.ql` files contain queries, while `.qll` files contain QL libraries.\\\n\\\n**Learn more:** [CodeQL query suites](https://docs.github.com/en/code-security/concepts/code-scanning/codeql/codeql-query-suites)"
+    },
+    {
+      "number": 96,
+      "domain": "Configure and use dependency management",
+      "question": "What are Dependabot security updates?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "compatibility scores to let you know whether updating a dependency could cause breaking changes to your project"
+        },
+        {
+          "letter": "B",
+          "text": "automated pull requests that keep your dependencies updated, even when they don’t have any vulnerabilities"
+        },
+        {
+          "letter": "C",
+          "text": "automated pull requests to update the manifest to the latest version of the dependency"
+        },
+        {
+          "letter": "D",
+          "text": "automated pull requests that help you update dependencies that have known vulnerabilities"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Dependabot security updates automatically create pull requests to help update dependencies that have known vulnerabilities.\\\n\\\n**Learn more:** [Dependabot security updates](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-security-updates?learn=dependabot_security_updates&learnProduct=code-security)"
+    },
+    {
+      "number": 97,
+      "domain": "Describe the GHAS security features and functionality",
+      "question": "Which alerts are displayed in a repository’s Security tab? Each answer represents part of the solution. (Choose three.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "secret scanning alerts"
+        },
+        {
+          "letter": "B",
+          "text": "Dependabot alerts"
+        },
+        {
+          "letter": "C",
+          "text": "code scanning alerts"
+        },
+        {
+          "letter": "D",
+          "text": "security status alerts"
+        },
+        {
+          "letter": "E",
+          "text": "repository permissions"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub provides repository security alerts from Dependabot for vulnerable dependencies, secret scanning for detected credentials, and code scanning for potential vulnerabilities or errors in code.\\\n\\\n**Learn more:** [Managing security and analysis settings for your repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-security-and-analysis-settings-for-your-repository)"
+    },
+    {
+      "number": 98,
+      "domain": "Configure and use secret scanning",
+      "question": "Assuming no custom patterns are configured, which type of secret does secret scanning detect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "usernames"
+        },
+        {
+          "letter": "B",
+          "text": "sealed boxes"
+        },
+        {
+          "letter": "C",
+          "text": "Personal Identifiable Information (PII)"
+        },
+        {
+          "letter": "D",
+          "text": "private keys"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Secret scanning’s built-in generic patterns detect secrets that are not tied to a particular provider, including private keys.\\\n\\\n**Learn more:** [Supported secret scanning patterns](https://docs.github.com/en/code-security/reference/secret-security/supported-secret-scanning-patterns)"
+    },
+    {
+      "number": 99,
+      "domain": "Configure and use code scanning",
+      "question": "As a developer with write access, you navigate to a code-scanning alert in your repository. When does GitHub close this alert?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "after you triage the pull request containing the alert"
+        },
+        {
+          "letter": "B",
+          "text": "after you fix the code by committing within the pull request"
+        },
+        {
+          "letter": "C",
+          "text": "when you use data-flow analysis to find potential security issues in code"
+        },
+        {
+          "letter": "D",
+          "text": "after you find the code and click the alert within the pull request"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub closes a code-scanning alert after the code that triggered it is fixed. A commit containing the corrective change in the pull request is the applicable action; reviewing or triaging an alert does not itself remediate the code.\\\n\\\n**Learn more:** [Code scanning](https://docs.github.com/en/code-security/concepts/code-scanning/code-scanning)"
+    },
+    {
+      "number": 100,
+      "domain": "Configure and use secret scanning",
+      "question": "By default, which locations in a repository does secret scanning inspect to perform its job? Each correct answer represents part of the solution. (Choose three.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "all files in the repository"
+        },
+        {
+          "letter": "B",
+          "text": "dependencies"
+        },
+        {
+          "letter": "C",
+          "text": "selected files in the repository"
+        },
+        {
+          "letter": "D",
+          "text": "full commit history"
+        },
+        {
+          "letter": "E",
+          "text": "all branches"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub secret scanning searches hardcoded credentials throughout the repository’s complete Git history on every branch, which includes all files represented in that history. Dependencies are not a separate default scanning scope, and scanning is not restricted to selected files.\\\n\\\n**Learn more:** [Secret scanning](https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning)"
+    },
+    {
+      "number": 101,
+      "domain": "Configure and use dependency management",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "when a public repository has a new dependency added to its manifest file"
+        },
+        {
+          "letter": "B",
+          "text": "when a private repository is forked to be used as a dependent"
+        },
+        {
+          "letter": "C",
+          "text": "when a private repository has a new dependency added to its manifest file"
+        },
+        {
+          "letter": "D",
+          "text": "when a public repository is forked to be used as a dependent"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub enables the dependency graph by default for public repositories. It parses supported manifest and lock files, and updates the graph when a supported manifest or lock file on the default branch is changed. Private repositories do not have the dependency graph enabled by default, and forking does not itself add a dependency.\n\n**Learn more:** [Dependency graph](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-graph?apiVersion=2022-11-28) · [How the dependency graph recognizes dependencies](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-graph-data)"
+    },
+    {
+      "number": 102,
+      "domain": "Configure and use secret scanning",
+      "question": "Where can you locate a deleted line of code that contained a secret value?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Issues"
+        },
+        {
+          "letter": "B",
+          "text": "Dependency graph"
+        },
+        {
+          "letter": "C",
+          "text": "Commits"
+        },
+        {
+          "letter": "D",
+          "text": "Insights"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A deleted line can remain in repository version-control history, where earlier file revisions are preserved in commits. Reviewing commits can therefore reveal a secret that was removed from the current code."
+    },
+    {
+      "number": 103,
+      "domain": "Configure and use dependency management",
+      "question": "Which key must be included in the update settings of a Dependabot configuration file?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "commit-message"
+        },
+        {
+          "letter": "B",
+          "text": "package-ecosystem"
+        },
+        {
+          "letter": "C",
+          "text": "assignees"
+        },
+        {
+          "letter": "D",
+          "text": "rebase-strategy"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Each Dependabot update configuration requires `package-ecosystem` to identify the dependency ecosystem that Dependabot should monitor, such as npm, pip, or GitHub Actions."
+    },
+    {
+      "number": 104,
+      "domain": "Configure and use code scanning",
+      "question": "Who is able to fix a code-scanning alert in a private repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "users who have the security manager role within the repository"
+        },
+        {
+          "letter": "B",
+          "text": "users who have Write access to the repository"
+        },
+        {
+          "letter": "C",
+          "text": "users who have the Triage role within the repository"
+        },
+        {
+          "letter": "D",
+          "text": "users who have Read permissions within the repository"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A code scanning alert is fixed by committing a correction to the repository’s code. This requires Write access; GitHub identifies users with write access as able to resolve code scanning alerts.\\\n\\\n**Learn more:** [Resolving code scanning alerts](https://docs.github.com/en/code-security/how-tos/manage-security-alerts/manage-code-scanning-alerts/resolve-alerts)"
+    },
+    {
+      "number": 105,
+      "domain": "Configure and use dependency management",
+      "question": "Who is able to fix a code-scanning alert in a private repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It generates a Dependabot alert and displays it on the Security tab for the repository."
+        },
+        {
+          "letter": "B",
+          "text": "It consults with a security service and conducts a thorough vulnerability review."
+        },
+        {
+          "letter": "C",
+          "text": "It generates Dependabot alerts by default for all private repositories."
+        },
+        {
+          "letter": "D",
+          "text": "It notifies the repository administrators about the new alert."
+        }
+      ],
+      "answer": null,
+      "explanation": "When GitHub detects a vulnerable dependency in a repository with Dependabot alerts enabled, it creates a Dependabot alert in the repository’s Security area. By default, new Dependabot alerts notify people with repository permissions that include administrators; thus, repository administrators receive the new-alert notification.\n\n**Learn more:** [Dependabot alerts](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-alerts) · [Configuring notifications for Dependabot alerts](https://docs.github.com/en/code-security/how-tos/secure-your-supply-chain/manage-your-dependency-security/configure-dependabot-notifications?learn=dependabot_alerts)"
+    },
+    {
+      "number": 106,
+      "domain": "Describe the GHAS security features and functionality",
+      "question": "Which type of repository permission is required to request a Common Vulnerabilities and Exposures (CVE) identification number for a security advisory?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Maintain"
+        },
+        {
+          "letter": "B",
+          "text": "Write"
+        },
+        {
+          "letter": "C",
+          "text": "Triage"
+        },
+        {
+          "letter": "D",
+          "text": "Admin"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Requesting a CVE identification number for a repository security advisory requires admin permissions to the security advisory; write-level collaborators cannot make that request.\\\n\\\n**Learn more:** [GitHub Docs: Repository security advisories](https://docs.github.com/en/code-security/concepts/vulnerability-reporting-and-management/repository-security-advisories)"
+    },
+    {
+      "number": 107,
+      "domain": "Configure and use secret scanning",
+      "question": "For which patterns are secret-scanning validity checks available?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "high entropy strings"
+        },
+        {
+          "letter": "B",
+          "text": "custom patterns"
+        },
+        {
+          "letter": "C",
+          "text": "push protection patterns"
+        },
+        {
+          "letter": "D",
+          "text": "partner patterns"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Secret-scanning validity checks determine whether a detected credential is still active. GitHub makes this feature available for supported partner patterns; it is not supported for generic/non-provider patterns, including custom patterns.\\\n\\\n**Learn more:** [Enabling validity checks for your repository](https://docs.github.com/en/enterprise-cloud%40latest/code-security/how-tos/secure-your-secrets/customize-leak-detection/enable-validity-checks?learn=secret_scanning&learnProduct=code-security) · [Supported secret scanning patterns](https://docs.github.com/en/code-security/reference/secret-security/supported-secret-scanning-patterns)"
+    },
+    {
+      "number": 108,
+      "domain": "Use code scanning with CodeQL",
+      "question": "When configuring CodeQL code scanning, which options can you use to specify additional queries? Each answer supplies part of the solution. (Choose two.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "packs"
+        },
+        {
+          "letter": "B",
+          "text": "queries"
+        },
+        {
+          "letter": "C",
+          "text": "github/codeql"
+        },
+        {
+          "letter": "D",
+          "text": "scope"
+        }
+      ],
+      "answer": null,
+      "explanation": "CodeQL code-scanning configuration provides `packs` for adding CodeQL query packs and `queries` for adding individual query files, directories, or query suite definitions.\\\n\\\n**Learn more:** [Workflow configuration options for code scanning](https://docs.github.com/en/enterprise-cloud@latest/code-security/reference/code-scanning/workflow-configuration-options?learn=code_security_actions&learnProduct=code-security)"
+    },
+    {
+      "number": 109,
+      "domain": "Configure and use secret scanning",
+      "question": "A secret-scanning alert should be closed as “used in tests” if a secret is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "in a test file."
+        },
+        {
+          "letter": "B",
+          "text": "solely used for tests."
+        },
+        {
+          "letter": "C",
+          "text": "in the readme.md file."
+        },
+        {
+          "letter": "D",
+          "text": "not a secret in the production environment."
+        }
+      ],
+      "answer": "B",
+      "explanation": "The “used in tests” resolution is appropriate only when the secret is solely used for testing; file location or non-production use alone does not prove that limitation.\\\n\\\n**Learn more:** [Push protection](https://docs.github.com/en/code-security/concepts/secret-security/push-protection)"
+    },
+    {
+      "number": 110,
+      "domain": "Configure and use secret scanning",
+      "question": "Which of the following would trigger secret-scanning alerts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GitHub personal access token"
+        },
+        {
+          "letter": "B",
+          "text": "server-side request forgery"
+        },
+        {
+          "letter": "C",
+          "text": "cross site scripting (XSS)"
+        },
+        {
+          "letter": "D",
+          "text": "structured query language (SQL) injection"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Secret scanning detects exposed credentials, such as API keys, passwords, and tokens. A GitHub personal access token is a supported secret type and can therefore generate a secret-scanning alert; SSRF, XSS, and SQL injection are vulnerability classes rather than secrets. \\\n\\\n**Learn more:** [Secret scanning](https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning) · [Viewing and filtering alerts from secret scanning](https://docs.github.com/en/code-security/how-tos/manage-security-alerts/manage-secret-scanning-alerts/viewing-alerts)"
+    },
+    {
+      "number": 111,
+      "domain": "Configure and use code scanning",
+      "question": "Which of the following are code-scanning application programming interface (API) endpoints? Each answer represents part of the solution. (Choose two.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Delete all open code scanning alerts."
+        },
+        {
+          "letter": "B",
+          "text": "List all open code scanning alerts for the default branch."
+        },
+        {
+          "letter": "C",
+          "text": "Modify the severity of an open code scanning alert."
+        },
+        {
+          "letter": "D",
+          "text": "Get a single code scanning alert."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub’s code-scanning REST API provides endpoints for listing code-scanning alerts on the default branch and for retrieving an individual code-scanning alert. Alert severity is derived from the scanning analysis and is not directly modified through the alert API; there is also no bulk endpoint to delete all open code-scanning alerts.\\\n\\\n**Learn more:** [REST API endpoints for code scanning](https://docs.github.com/en/rest/code-scanning/code-scanning)"
+    },
+    {
+      "number": 112,
+      "domain": "Configure and use secret scanning",
+      "question": "What occurs when you turn on secret scanning for a private repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repository administrators can view Dependabot alerts."
+        },
+        {
+          "letter": "B",
+          "text": "Dependency review, secret scanning, and code scanning are enabled."
+        },
+        {
+          "letter": "C",
+          "text": "Your team is subscribed to security alerts."
+        },
+        {
+          "letter": "D",
+          "text": "GitHub performs a read-only analysis on the repository."
+        }
+      ],
+      "answer": "D",
+      "explanation": "GitHub scans the repository for supported secret patterns and generates secret-scanning alerts without modifying repository contents; the analysis is read-only. Dependabot alerts, dependency review, and code scanning require separate feature enablement.\\\n\\\n**Learn more:** [Enabling secret scanning for your repository](https://docs.github.com/en/code-security/how-tos/secure-your-secrets/detect-secret-leaks/enable-secret-scanning?learn=secret_scanning&learnProduct=code-security)"
+    },
+    {
+      "number": 113,
+      "domain": "Configure and use secret scanning",
+      "question": "Which of the following secret-scanning features can confirm whether a secret is still active?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "branch protection"
+        },
+        {
+          "letter": "B",
+          "text": "validity checks"
+        },
+        {
+          "letter": "C",
+          "text": "push protection"
+        },
+        {
+          "letter": "D",
+          "text": "custom patterns"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Validity checks are a GitHub secret-scanning feature that verifies whether a detected secret is still active, helping prioritize remediation of credentials that could still be exploited.\\\n\\\n**Learn more:** [GitHub Docs: Validity checks](https://docs.github.com/en/code-security/concepts/secret-security/validity-checks)"
+    }
+  ]
+}

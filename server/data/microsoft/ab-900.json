@@ -1,0 +1,933 @@
+{
+  "provider": "microsoft",
+  "slug": "ab-900",
+  "fullSlug": "microsoft/ab-900",
+  "title": "Copy link to this question",
+  "totalQuestions": 88,
+  "totalPages": 3,
+  "crawledPages": 4,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "<Dropdown\n  blanks={[{\"id\":\"blank1\",\"options\":[\"Microsoft Defender for Office 365\",\"Microsoft Defender XDR\",\"Microsoft Purview Compliance Manager\",\"Microsoft Purview Data Loss Prevention\"],\"answer\":\"Microsoft Defender XDR\"}]}\n  template={\"You can use {{blank1}} to review threat indicators correlated across email, identity, and device incidents in a single view.\"}\n  templateMode={\"prose\"}\n  explanation={\"Microsoft Defender XDR correlates security alerts and events from across the organization into unified incidents, providing investigation context spanning email, identities, and endpoints/devices.\\\n\\\n**Learn more:** [Microsoft Defender XDR in the Microsoft Defender portal](https://learn.microsoft.com/en-us/defender-xdr/microsoft-365-defender-portal)\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L30\",\"$L31\",\"$L32\",\"$L33\"],\"$L34\",false,false,\"$L35\",\"$L36\",\"$L37\"]}]\n38:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3a:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3b:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n49:I[10489,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Image\"]\n4a:I[11077,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n2d:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n2e:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n2f:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L38\",null,{\"questionNumber\":1,\"questionId\":\"096d308f-7b3c-4cc6-9b0d-c4a5c7ad856c\",\"examProvider\":\"microsoft\",\"examName\":\"ab-900\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L39\"}]}],[\"$\",\"$L3a\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-900\",\"questionNumber\":1,\"questionId\":\"096d308f-7b3c-4cc6-9b0d-c4a5c7ad856c\",\"initialCommentCount\":2,\"children\":[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-900\",\"questionNumber\":1,\"questionId\":\"096d308f-7b3c-4cc6-9b0d-c4a5c7ad856c\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-900/1\"}]}]]}]\nYour organization has a Microsoft 365 subscription.  \n  \nYou create a security group named Group1 and assign the group a Microsoft 365 E3 license. You discover that a user named User1 does **not** have access to the Microsoft 365 E3 features.  \n  \nYou need to ensure that User1 can access every Microsoft 365 E3 feature.  \n  \nWhich two actions can you take? Each correct answer provides a complete solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add User1 to Group1."
+        },
+        {
+          "letter": "B",
+          "text": "Assign a Conditional Access policy to Group1."
+        },
+        {
+          "letter": "C",
+          "text": "Assign a Conditional Access policy to User1."
+        },
+        {
+          "letter": "D",
+          "text": "Assign a license to User1."
+        }
+      ],
+      "answer": null,
+      "explanation": "Group-based licensing assigns the group’s product licenses to its members, so adding User1 to Group1 provides the Microsoft 365 E3 license. A Microsoft 365 E3 license can alternatively be assigned directly to User1. Conditional Access policies govern the conditions under which access is allowed and do not grant product-license entitlements.\n\n**Learn more:** [Assign or unassign licenses to a group in the Microsoft 365 admin center](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/manage-group-licenses?view=o365-worldwide) · [Assign or unassign licenses for users in the Microsoft 365 admin center](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)"
+    },
+    {
+      "number": 2,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your organization has a Microsoft 365 subscription that includes a user named User1.  \n  \nUser1 intends to leave the company in two weeks.  \n  \nYou need to capture User1’s activity to determine whether the user is exfiltrating data.  \n  \nWhich Microsoft Purview solution should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Communication Compliance"
+        },
+        {
+          "letter": "B",
+          "text": "Data Security Posture Management"
+        },
+        {
+          "letter": "C",
+          "text": "Insider Risk Management"
+        },
+        {
+          "letter": "D",
+          "text": "Data Lifecycle Management"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Microsoft Purview Insider Risk Management detects, investigates, and helps mitigate risky insider activity. Its **Data theft by departing users** policy template detects suspicious activity associated with potential data theft or exfiltration by users who are leaving the organization. [Microsoft Learn: Insider Risk Management](https://learn.microsoft.com/en-us/purview/insider-risk-management)\\\n\\\n**Learn more:** [Microsoft Learn: Insider Risk Management](https://learn.microsoft.com/en-us/purview/insider-risk-management)"
+    },
+    {
+      "number": 3,
+      "domain": "Understand data protection and governance tasks for Microsoft 365 and Copilot",
+      "question": "You need to build a Microsoft 365 Copilot agent that can generate charts and visualizations from a Microsoft Excel workbook.  \n  \nWhat should you configure for the agent?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the image generator capability"
+        },
+        {
+          "letter": "B",
+          "text": "the Scrum Assistant template"
+        },
+        {
+          "letter": "C",
+          "text": "the Customer Insights Assistant template"
+        },
+        {
+          "letter": "D",
+          "text": "the code interpreter capability"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The code interpreter capability enables a Microsoft 365 Copilot agent to analyze Excel data and create graphs, charts, and other data visualizations using generated Python code in a sandboxed environment.\\\n\\\n**Learn more:** [Code Interpreter Capability for Declarative Agents for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/code-interpreter)"
+    },
+    {
+      "number": 4,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company uses Microsoft Purview data loss prevention (DLP) policies.  \n  \nA user named User1 shares sensitive information to an external user by using Microsoft Teams.  \n  \nYou need to identify the sensitive content that was shared.  \n  \nWhat should you use in the Microsoft Purview portal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diagnostics"
+        },
+        {
+          "letter": "B",
+          "text": "Data explorer"
+        },
+        {
+          "letter": "C",
+          "text": "Content explorer"
+        },
+        {
+          "letter": "D",
+          "text": "Activity explorer"
+        }
+      ],
+      "answer": null,
+      "explanation": "Activity explorer collects DLP policy match events from workloads including Teams chat and channels, so an administrator can drill into the specific external-sharing incident to see who shared what, when, where, and which sensitive information type triggered the match. Content explorer instead shows a current snapshot of items already carrying a label or sensitive information type across data stores, rather than a record of a specific past sharing event.\n\n**Learn more:** [Get started with Activity explorer](https://learn.microsoft.com/en-us/purview/data-classification-activity-explorer)"
+    },
+    {
+      "number": 5,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "You are reviewing your company’s security policies as part of a Zero Trust strategy.  \n  \nWhich statement accurately describes the Zero Trust principles?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Zero Trust enhances the user experience by minimizing authentication prompts."
+        },
+        {
+          "letter": "B",
+          "text": "Zero Trust assumes breach and verifies each request."
+        },
+        {
+          "letter": "C",
+          "text": "Zero Trust treats all requests from your corporate network as trustworthy."
+        },
+        {
+          "letter": "D",
+          "text": "Zero Trust removes the need to regularly review and adjust access permissions."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Zero Trust rests on three principles: verify explicitly, use least-privileged access, and assume breach, so every request is authenticated and authorized rather than trusted by default. Treating traffic from the corporate network as inherently trustworthy or reducing authentication prompts and access reviews runs counter to this model."
+    },
+    {
+      "number": 6,
+      "domain": "Perform basic administrative tasks for Copilot and agents",
+      "question": "You have a Microsoft SharePoint site, as shown in the following exhibit.  \n  \n![Question Image](https://cdn.examcademy.com/images/questions/1783716256969-kngdbdzg.png)  \n  \nYou need to view the settings for SLabel1. What should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Microsoft Defender portal"
+        },
+        {
+          "letter": "B",
+          "text": "the SharePoint admin center"
+        },
+        {
+          "letter": "C",
+          "text": "the Microsoft 365 admin center"
+        },
+        {
+          "letter": "D",
+          "text": "the Microsoft Purview portal"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Sensitivity-label configuration is managed in the Microsoft Purview portal, under Information Protection > Sensitivity labels. The label list there lets administrators open a label and view its configured settings; SharePoint only displays the label assigned to the document.\\\n\\\n**Learn more:** [Learn about sensitivity labels](https://learn.microsoft.com/en-us/purview/sensitivity-labels) · [Create and publish sensitivity labels](https://learn.microsoft.com/en-us/purview/create-sensitivity-labels)"
+    },
+    {
+      "number": 7,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your organization has a Microsoft 365 subscription.  \n  \nYou need to assign a user a license. What should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Microsoft Purview portal"
+        },
+        {
+          "letter": "B",
+          "text": "the Microsoft 365 admin center"
+        },
+        {
+          "letter": "C",
+          "text": "the Microsoft Teams admin center"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The Microsoft 365 admin center is used to assign or remove Microsoft 365 licenses for users, including through the Active users and Licenses pages.\\\n\\\n**Learn more:** [Assign or unassign licenses for users in the Microsoft 365 admin center](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)"
+    },
+    {
+      "number": 8,
+      "domain": "Understand data protection and governance tasks for Microsoft 365 and Copilot",
+      "question": "Your organization has a Microsoft 365 subscription.  \n  \nYou discover that some users cannot sign in to Microsoft 365.  \n  \nYou need to view the failed Microsoft 365 sign-in attempts.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Microsoft Defender portal"
+        },
+        {
+          "letter": "B",
+          "text": "the Microsoft Entra admin center"
+        },
+        {
+          "letter": "C",
+          "text": "the Microsoft Purview portal"
+        },
+        {
+          "letter": "D",
+          "text": "the Microsoft 365 admin center"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Failed sign-in attempts are logged in Microsoft Entra (formerly Azure AD) admin center, accessible via the Identity > Monitoring & health > Sign-in logs path or via individual user sign-in logs. These logs show authentication failures, multi-factor authentication failures, and other sign-in issues. Other admin centers (Microsoft 365, Defender, Purview) do not provide detailed sign-in diagnostics."
+    },
+    {
+      "number": 9,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "A user named User1 is responsible for quarterly sales reporting.  \n  \nUser1 needs to identify performance trends, generate visual insights, and create a summary of anomalies across multiple files that contain various datasets.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Analyst agent in Microsoft 365 Copilot"
+        },
+        {
+          "letter": "B",
+          "text": "the Researcher agent in Microsoft 365 Copilot"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft 365 Copilot Search"
+        },
+        {
+          "letter": "D",
+          "text": "Copilot in Excel"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The Analyst agent in Microsoft 365 Copilot is specifically designed to work across multiple data files simultaneously, performing advanced data analysis including trend identification, generating charts and visual insights automatically, surfacing anomalies and patterns, and producing written summaries of findings. This directly matches the stated requirements for identifying performance trends, generating visual insights, and summarizing anomalies across multiple datasets."
+    },
+    {
+      "number": 10,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "You use Microsoft 365 Copilot.  \n  \nYou need to schedule a prompt to run at midnight.  \n  \nWhat task should you include in your solution?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create an agent."
+        },
+        {
+          "letter": "B",
+          "text": "Create a notebook."
+        },
+        {
+          "letter": "C",
+          "text": "Run the prompt."
+        },
+        {
+          "letter": "D",
+          "text": "Save the prompt."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Scheduling a prompt in Microsoft 365 Copilot requires first submitting the prompt and receiving a response; only then does the \\\"Schedule this prompt\\\" option appear, letting you set its recurrence, including a midnight run time. Saving a prompt, creating an agent, or building a notebook does not by itself surface the scheduling option.\\\n\\\n**Learn more:** [Schedule your most used Copilot prompts](https://support.microsoft.com/en-us/microsoft-365-copilot/schedule-your-most-used-copilot-prompts)"
+    },
+    {
+      "number": 26,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your organization has a Microsoft 365 subscription.  \n  \nYou need to generate a report that shows the permissions and active sharing links of content stored in Microsoft OneDrive accounts.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Audit in the Microsoft Defender portal"
+        },
+        {
+          "letter": "B",
+          "text": "Reports in the Microsoft 365 admin center"
+        },
+        {
+          "letter": "C",
+          "text": "Data access governance in the SharePoint admin center"
+        },
+        {
+          "letter": "D",
+          "text": "eDiscovery in the Microsoft Purview portal"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Data access governance in the SharePoint admin center provides comprehensive visibility into file permissions and active sharing links across OneDrive and SharePoint. It reports on external sharing, permission assignments, and overshared content, enabling compliance audits. Audit logs, general reports, and eDiscovery serve different purposes but lack the integrated permissions and sharing-link visibility."
+    },
+    {
+      "number": 27,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your organization has a Microsoft 365 E5 subscription.  \n  \nYou need to ensure that a third-party cloud service can authenticate with Microsoft Entra.  \n  \nWhat should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a Microsoft 365 Copilot connector"
+        },
+        {
+          "letter": "B",
+          "text": "multifactor authentication (MFA)"
+        },
+        {
+          "letter": "C",
+          "text": "a Conditional Access policy"
+        },
+        {
+          "letter": "D",
+          "text": "an app registration"
+        }
+      ],
+      "answer": "D",
+      "explanation": "An app registration establishes the service's application identity and trust relationship with Microsoft Entra, enabling it to authenticate by using configured application credentials and permissions.\\\n\\\n**Learn more:** [Register an application with the Microsoft identity platform](https://learn.microsoft.com/en-us/graph/auth-register-app-v2) · [Application and service principal objects in Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/identity-platform/app-objects-and-service-principals)"
+    },
+    {
+      "number": 28,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your company has a written compliance policy that requires all emails be retained for seven years, and then permanently deleted.  \n  \nWhich Microsoft Purview solution should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Information Protection"
+        },
+        {
+          "letter": "B",
+          "text": "Data Lifecycle Management"
+        },
+        {
+          "letter": "C",
+          "text": "Data Loss Prevention"
+        },
+        {
+          "letter": "D",
+          "text": "Insider Risk Management"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Data Lifecycle Management in Microsoft Purview automates retention policies and deletion schedules. Administrators define retention periods (7 years in this case) and specify deletion actions that execute automatically when the retention period expires. Information Protection handles sensitivity; Data Loss Prevention prevents unauthorized sharing; Insider Risk Management detects risky user behaviors—none address automated retention and deletion."
+    },
+    {
+      "number": 29,
+      "domain": "Understand data protection and governance tasks for Microsoft 365 and Copilot",
+      "question": "Your company plans to use Microsoft 365 Copilot.  \n  \nYou need to provide a user with the ability to use Microsoft 365 Copilot, including the Researcher and Analyst agent.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Microsoft 365 admin center"
+        },
+        {
+          "letter": "B",
+          "text": "the Microsoft Purview portal"
+        },
+        {
+          "letter": "C",
+          "text": "the Microsoft Entra admin center"
+        },
+        {
+          "letter": "D",
+          "text": "the Microsoft Defender portal"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Access to Microsoft 365 Copilot and its built-in agents, including Researcher and Analyst, is granted and managed from the Microsoft 365 admin center under Copilot settings, where administrators assign licenses and control which users can use specific agents. Purview, Entra, and Defender govern data protection, identity, and security workloads rather than Copilot licensing and agent access."
+    },
+    {
+      "number": 30,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your company is evaluating Microsoft 365 Copilot licensing.  \n  \nIn which scenario should you use pay-as-you-go billing?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "to provide users with access to the AI assistant in Copilot in Word"
+        },
+        {
+          "letter": "B",
+          "text": "to summarize the actions in Microsoft Teams meetings"
+        },
+        {
+          "letter": "C",
+          "text": "to generate images in premium chats"
+        },
+        {
+          "letter": "D",
+          "text": "to make a custom agent available to unlicensed users"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Pay-as-you-go billing for Microsoft 365 Copilot allows organizations to extend Copilot capabilities to unlicensed users without purchasing full per-user licenses. This model is specifically used when making custom agents available to users who do not have a Copilot license, billing based on consumption rather than per-user licensing. The other options (Researcher agent, Teams meeting recaps, and Word editing) are included in standard Copilot licensing."
+    },
+    {
+      "number": 31,
+      "domain": "Understand data protection and governance tasks for Microsoft 365 and Copilot",
+      "question": "Your organization has a Microsoft 365 subscription that contains a Microsoft SharePoint site named Site1.  \n  \nYou need to prevent users from sharing the content of Site1 to external users.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Site1 content"
+        },
+        {
+          "letter": "B",
+          "text": "the SharePoint admin center"
+        },
+        {
+          "letter": "C",
+          "text": "the Microsoft 365 admin center"
+        },
+        {
+          "letter": "D",
+          "text": "the Microsoft Entra admin center"
+        }
+      ],
+      "answer": "B",
+      "explanation": "External sharing permissions are controlled in the SharePoint admin center's Active sites section. Administrators select the target site and configure External sharing settings, restricting sharing to organization members only. These controls exist at the admin level, not at individual content or via other admin centers."
+    },
+    {
+      "number": 32,
+      "domain": "Perform basic administrative tasks for Copilot and agents",
+      "question": "Which statement accurately describes authorization in Microsoft 365?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a process to verify whether an identity is who or what they claim to be"
+        },
+        {
+          "letter": "B",
+          "text": "a process to require additional authentication methods before an identity can access resources"
+        },
+        {
+          "letter": "C",
+          "text": "a process to verify whether an identity is allowed to access a resource"
+        },
+        {
+          "letter": "D",
+          "text": "a process to validate an identity from an external system"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Authorization determines what an authenticated user is allowed to access and do within a system. After identity is verified (authentication), authorization policies grant or deny access to specific resources. Option A describes authentication; option B describes multi-factor authentication; option D describes identity federation or external identity validation."
+    },
+    {
+      "number": 33,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your organization has a Microsoft 365 subscription.  \n  \nAll users are assigned a Microsoft 365 Copilot license.  \n  \nYou need to prevent the users from generating images by using Copilot.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Microsoft Defender portal"
+        },
+        {
+          "letter": "B",
+          "text": "the Microsoft Entra admin center"
+        },
+        {
+          "letter": "C",
+          "text": "the Microsoft Purview portal"
+        },
+        {
+          "letter": "D",
+          "text": "the Microsoft 365 admin center"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Image generation is a product feature within Microsoft 365 Copilot, not a security or compliance control. Therefore, it must be managed through the Microsoft 365 admin center where administrators can enable or disable product-specific features for the organization. The Defender portal manages security threats, Entra admin center manages identity and access, and Purview handles compliance—none of which are appropriate for controlling a productivity feature like image generation."
+    },
+    {
+      "number": 34,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your organization has a Microsoft 365 subscription.  \n  \nAll users are assigned a Microsoft 365 Copilot license.  \n  \nYou need to prevent the users from generating images by using Copilot.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "You need to use a custom AI model."
+        },
+        {
+          "letter": "B",
+          "text": "You need to use a custom set of instructions that differ from those of the chat experience."
+        },
+        {
+          "letter": "C",
+          "text": "You need to reason over a specific website."
+        },
+        {
+          "letter": "D",
+          "text": "You need to group related chats into a Copilot notebook."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft 365 Copilot agents can be tailored to a business scenario by defining custom behavioral instructions and adding relevant knowledge sources. Website URLs can be configured as knowledge sources, allowing an agent to ground its responses in a specific website. Agent Builder does not provide a reason to create an agent merely to use a custom AI model or to organize related chats into a Copilot notebook.\n\n**Learn more:** [Write effective instructions for declarative agents](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/declarative-agent-instructions) · [Add knowledge sources to your declarative agent](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/knowledge-sources)"
+    },
+    {
+      "number": 35,
+      "domain": "Perform basic administrative tasks for Copilot and agents",
+      "question": "Your company requires every Microsoft SharePoint site to have at least two owners.  \n  \nYou need to make sites with fewer than two owners read-only when they are **not** remediated.  \n  \nWhat should you configure in the SharePoint admin center?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Site-level access restriction"
+        },
+        {
+          "letter": "B",
+          "text": "Data access governance reports"
+        },
+        {
+          "letter": "C",
+          "text": "Site lifecycle management"
+        },
+        {
+          "letter": "D",
+          "text": "Block download policy for SharePoint and OneDrive"
+        }
+      ],
+      "answer": "C",
+      "explanation": "SharePoint Site lifecycle management contains site ownership policies, which define the minimum required number of owners or administrators, notify responsible users about noncompliance, and support enforcement actions such as read-only access. Microsoft documents that setting the minimum owner count to two identifies sites requiring remediation.\\\n\\\n**Learn more:** [Create a SharePoint site ownership policy](https://learn.microsoft.com/en-us/sharepoint/site-ownership-policy)"
+    },
+    {
+      "number": 36,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your organization has a Microsoft 365 subscription.  \n  \nWhich two tasks can you perform by using the Exchange admin center? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Assign a Microsoft Exchange license."
+        },
+        {
+          "letter": "B",
+          "text": "Create a mail flow rule."
+        },
+        {
+          "letter": "C",
+          "text": "Create a shared mailbox."
+        },
+        {
+          "letter": "D",
+          "text": "Add a custom domain."
+        }
+      ],
+      "answer": null,
+      "explanation": "The Exchange admin center is where mail flow (transport) rules are created and managed, and it is also one of the places administrators create and configure shared mailboxes. Assigning licenses and adding a custom domain are tenant-wide setup tasks handled in the Microsoft 365 admin center, not the Exchange admin center."
+    },
+    {
+      "number": 51,
+      "domain": "Perform basic administrative tasks for Copilot and agents",
+      "question": "You use Microsoft 365 Copilot.  \n  \nWhat does Copilot use to create responses from corporate data stored in Microsoft SharePoint?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Intune"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Defender"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Graph"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Purview"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Microsoft 365 Copilot uses Microsoft Graph to retrieve and ground responses with organizational data, including SharePoint documents, while honoring each user's existing permissions.\\\n\\\n**Learn more:** [How does Microsoft 365 Copilot work?](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-architecture)"
+    },
+    {
+      "number": 52,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L54\",\"$L55\",\"$L56\",\"$L57\",\"$L58\",\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\"]\n9e:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Statements\"]\n9f:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\n51:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n52:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n53:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":57,\"questionId\":\"b3583a2d-7088-4813-942f-d53a10f3097b\",\"examProvider\":\"microsoft\",\"examName\":\"ab-900\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L67\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-900\",\"questionNumber\":57,\"questionId\":\"b3583a2d-7088-4813-942f-d53a10f3097b\",\"initialCommentCount\":3,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-900\",\"questionNumber\":57,\"questionId\":\"b3583a2d-7088-4813-942f-d53a10f3097b\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-900/3\"}]}]]}]\nYour organization has a Microsoft 365 subscription.  \n  \nAll users have Microsoft 365 Copilot licenses assigned.  \n  \nSome users report getting Copilot responses that include information from a Microsoft SharePoint site named Finance. The users state that the information is commercially sensitive.  \n  \nYou need to stop Copilot from providing responses that include information from the Finance site.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "From Microsoft Purview, create an Information Barrier (IB) policy."
+        },
+        {
+          "letter": "B",
+          "text": "From Microsoft Defender, create a data connector."
+        },
+        {
+          "letter": "C",
+          "text": "From Microsoft Entra, create a Conditional Access policy."
+        },
+        {
+          "letter": "D",
+          "text": "From the Finance site, configure permissions."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft 365 Copilot accesses SharePoint data in the context of the signed-in user and honors that user’s existing permissions. Restricting permissions on the Finance site removes unauthorized users’ access to its content, so Copilot cannot use that content in responses for those users.\n\n**Learn more:** [How does Microsoft 365 Copilot work?](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-architecture) · [Understanding permission levels in SharePoint](https://learn.microsoft.com/en-us/sharepoint/understanding-permission-levels)"
+    },
+    {
+      "number": 53,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your organization has a Microsoft 365 subscription.  \n  \nYour company recently purchased Microsoft 365 Copilot licenses for some users.  \n  \nYou need to identify how many unlicensed users have used Copilot in Microsoft Teams.  \n  \nWhich usage report should you use in the Microsoft 365 admin center?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft 365 Copilot Chat"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft 365 Copilot Search"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft 365 Apps"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft 365 Copilot"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The Microsoft 365 Copilot Chat usage report specifically covers users who do not hold a Microsoft 365 Copilot license, tracking their interactions with Copilot Chat across Teams, Outlook, Word, Excel, PowerPoint, and other apps. The Microsoft 365 Copilot usage report, by contrast, reports only on users who already hold a Copilot license.\\\n\\\n**Learn more:** [Microsoft 365 Copilot Chat usage report](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-copilot-usage)"
+    },
+    {
+      "number": 54,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "What can you use to block a user account automatically when a risky sigh-in is detected?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Defender for Identity"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Entra ID Protection"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Defender for Office 365"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Entra Privileged Identity Management (PIM)"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Microsoft Entra ID Protection detects risky sign-in behavior and automatically enforces risk policies, including blocking access or requiring password changes when suspicious activity is detected. This is the dedicated identity-risk tool within the Microsoft security stack. Defender for Identity focuses on on-premises threats; Defender for Office 365 protects email; PIM manages privileged access."
+    },
+    {
+      "number": 55,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your company is evaluating Microsoft 365 Copilot pay-as-you-go billing instead of purchasing a Microsoft 365 Copilot license.  \n  \nIn which scenario can pay-as-you-go billing apply?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "performing multi-step reasoning by using the Researcher agent"
+        },
+        {
+          "letter": "B",
+          "text": "generating a recap of a Microsoft Teams meeting"
+        },
+        {
+          "letter": "C",
+          "text": "using a custom agent that is grounded in work data"
+        },
+        {
+          "letter": "D",
+          "text": "using the AI assistant to edit a document in Copilot in Word"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Pay-as-you-go billing for Microsoft 365 Copilot specifically applies to messages consumed by custom agents built in Copilot Studio that are grounded in organizational or work data. This consumption-based model allows organizations to pay per message rather than purchasing per-user licenses, making it suitable for scenarios with variable or broad audiences accessing custom agents. The other options represent core M365 Copilot licensed features requiring per-user licenses."
+    },
+    {
+      "number": 56,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your organization has a Microsoft 365 subscription.  \n  \nYou need to investigate security incidents and alerts generated by the Windows 11 devices in your organization.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Entra ID Protection"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Defender for Identity"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Purview Insider Risk Management"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Defender for Endpoint"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Microsoft Defender for Endpoint provides endpoint detection and response capabilities for Windows devices, including investigating incidents and alerts, reviewing affected devices, and collecting related evidence.\\\n\\\n**Learn more:** [Investigate incidents in Microsoft Defender for Endpoint](https://learn.microsoft.com/en-us/defender-endpoint/investigate-incidents) · [Investigate devices in the Microsoft Defender for Endpoint Devices list](https://learn.microsoft.com/en-us/defender-endpoint/investigate-machines)"
+    },
+    {
+      "number": 57,
+      "domain": "Understand data protection and governance tasks for Microsoft 365 and Copilot",
+      "question": "Your organization has a Microsoft 365 subscription.  \n  \nYou need to investigate security incidents and alerts generated by the Windows 11 devices in your organization.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Microsoft 365 Copilot readiness report in the Microsoft 365 admin center"
+        },
+        {
+          "letter": "B",
+          "text": "the Microsoft 365 Copilot usage report in the Microsoft 365 admin center"
+        },
+        {
+          "letter": "C",
+          "text": "the Microsoft 365 Copilot dashboard in Microsoft Viva Insights"
+        },
+        {
+          "letter": "D",
+          "text": "the Microsoft 365 Apps usage report in the Microsoft 365 admin center"
+        }
+      ],
+      "answer": null,
+      "explanation": "The Microsoft Copilot Dashboard in Microsoft Viva Insights provides detailed adoption and impact metrics for Teams, including total meeting hours summarized or recapped by Copilot and meeting-summary actions taken using Copilot. Organizations with at least 50 assigned Copilot licenses have access to its full capabilities.\n\n**Learn more:** [Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers](https://learn.microsoft.com/en-us/viva/insights/org-team-insights/copilot-dashboard)"
+    },
+    {
+      "number": 76,
+      "domain": "Perform basic administrative tasks for Copilot and agents",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Agent1 is accessible to User1 and User2 until the users manually uninstall Agent. No other users can install Agent1."
+        },
+        {
+          "letter": "B",
+          "text": "Agent1 is accessible to User1 and User2, and no other users can install Agent1."
+        },
+        {
+          "letter": "C",
+          "text": "Agent1 is removed from User2, and User1 can continue to use Agent1."
+        },
+        {
+          "letter": "D",
+          "text": "Agent1is removed from User1 and User2, and no users can install Agent1."
+        }
+      ],
+      "answer": null,
+      "explanation": "Blocking a Microsoft 365 Copilot agent blocks it for members of the organization: they cannot install or use it, and it is removed from users who had already installed it. This includes both the creator and users with whom it was shared.\n\n**Learn more:** [Understand agent details in Microsoft 365 admin center](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-details?view=o365-worldwide) · [Agent Registry in the Microsoft 365 admin center](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/agent-registry?view=o365-worldwide)"
+    },
+    {
+      "number": 77,
+      "domain": "Perform basic administrative tasks for Copilot and agents",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L34\",\"$L35\",\"$L36\",\"$L37\"]\n26:[\"$\",\"$19\",null,{\"fallback\":[[\"$\",\"div\",\"0\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"1\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"2\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}]],\"children\":\"$L38\"}]\n27:[\"$\",\"$L39\",null,{\"compact\":true,\"centered\":true,\"isLoggedIn\":true,\"isSubscriber\":false,\"currentTier\":null,\"returnTo\":\"/exams/microsoft/ab-900/4\",\"sidebarModal\":true}]\n28:[\"$\",\"nav\",null,{\"className\":\"pagination-container\",\"aria-label\":\"Exam pages\",\"children\":[[\"$\",\"p\",null,{\"className\":\"pagination-info\",\"children\":[\"Page \",[\"$\",\"strong\",null,{\"children\":4}],\" of \",4,[\"$\",\"span\",null,{\"className\":\"pagination-info-sep\",\"aria-hidden\":\"true\",\"children\":\"•\"}],\"Questions \",76,\"–\",88,\" of \",88]}],[\"$\",\"div\",null,{\"className\":\"pagination-nav\",\"children\":[[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ab-900/3\",\"className\":\"button link back-arrow pagination-arrow\",\"aria-label\":\"Previous page\",\"rel\":\"prev\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Prev\"}]}],[\"$\",\"div\",null,{\"className\":\"pagination-numbers\",\"children\":[[\"$\",\"$L20\",\"1\",{\"href\":\"/exams/microsoft/ab-900/1\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 1\",\"children\":1}],[\"$\",\"$L20\",\"2\",{\"href\":\"/exams/microsoft/ab-900/2\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 2\",\"children\":2}],[\"$\",\"$L20\",\"3\",{\"href\":\"/exams/microsoft/ab-900/3\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 3\",\"children\":3}],[\"$\",\"span\",\"4\",{\"className\":\"button primary sm pagination-page is-current\",\"aria-current\":\"page\",\"children\":4}]]}],[\"$\",\"span\",null,{\"className\":\"button link arrow pagination-arrow is-disabled\",\"aria-disabled\":\"true\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Next\"}]}]]}]]}]\n29:[\"$\",\"div\",null,{\"className\":\"contribute-cta\",\"children\":[[\"$\",\"$L3a\",null,{\"src\":\"/icons/hand-holding-heart.svg\",\"alt\":\"\",\"width\":20,\"height\":20,\"aria-hidden\":\"true\"}],[\"$\",\"span\",null,{\"className\":\"contribute-cta-text\",\"children\":[\"Know a question that should be here?\",\" \",[\"$\",\"$L20\",null,{\"href\":\"/contribute/microsoft/ab-900\",\"children\":\"Contribute to this exam\"}]]}]]}]\n2a:[\"$\",\"$L3b\",null,{}]\n3c:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3e:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3f:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n31:[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]\n32:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n33:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3c\",null,{\"questionNumber\":77,\"questionId\":\"b874a331-4dfc-4533-a735-e16ef53128cb\",\"examProvider\":\"microsoft\",\"examName\":\"ab-900\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L3d\"}]}],[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-900\",\"questionNumber\":77,\"questionId\":\"b874a331-4dfc-4533-a735-e16ef53128cb\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-900\",\"questionNumber\":77,\"questionId\":\"b874a331-4dfc-4533-a735-e16ef53128cb\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-900/4\"}]}]]}]\nYour company has a Microsoft SharePoint site named Site1. Site1 contains all the policies of the company’s HR department. The policies are saved as Microsoft Word documents.  \n  \nAll users have read access to Site1.  \n  \nThe HR department manager reports that user requests about the policies are NOT being addressed in a timely manner, especially around major holidays.  \n  \nYou need to recommend a solution to enable the users to find the HR department policies. The solution must provide the users with a list of common queries and ensure that responses are grounded only in Site1.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the personal assistant in Copilot in Word"
+        },
+        {
+          "letter": "B",
+          "text": "a custom Microsoft 365 Copilot agent"
+        },
+        {
+          "letter": "C",
+          "text": "the Researcher agent in Microsoft 365 Copilot"
+        },
+        {
+          "letter": "D",
+          "text": "a Microsoft 365 Copilot notebook"
+        }
+      ],
+      "answer": null,
+      "explanation": "A custom Microsoft 365 Copilot agent can be scoped so its knowledge comes only from Site1, and it can be configured with a curated set of starter prompts covering the common HR policy questions users ask. The Researcher agent and the personal assistant in Copilot in Word are not restricted to a single SharePoint site, and a notebook is a personal workspace rather than a shared, discoverable tool for other users."
+    },
+    {
+      "number": 78,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your organization has a Microsoft 365 subscription.  \n  \nYou need to assess your organization’s Identity Secure Score.  \n  \nWhich two factors affect the score? Each correct answer presents a complete solution.  \n  \n&gt; NOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the SharePoint site permissions"
+        },
+        {
+          "letter": "B",
+          "text": "the number of global administrators"
+        },
+        {
+          "letter": "C",
+          "text": "passwords that are never expired"
+        },
+        {
+          "letter": "D",
+          "text": "the location of the users"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Entra Identity Secure Score includes recommendations to designate more than one Global Administrator and to not expire passwords. Compliance with these identity-security recommendations affects the score.\\\n\\\n**Learn more:** [What is the Identity Secure Score?](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/concept-identity-secure-score)"
+    },
+    {
+      "number": 79,
+      "domain": "Understand data protection and governance tasks for Microsoft 365 and Copilot",
+      "question": "Your organization has a Microsoft 365 E5 subscription.  \n  \nYou need to prevent users from sharing corporate financial data to external users.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "role groups"
+        },
+        {
+          "letter": "B",
+          "text": "data loss prevention (DLP) policies"
+        },
+        {
+          "letter": "C",
+          "text": "insider risk management policies"
+        },
+        {
+          "letter": "D",
+          "text": "retention labels"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Data Loss Prevention (DLP) policies detect sensitive information patterns (financial data, personally identifiable information) and automatically block or restrict sharing to external recipients. DLP rules can identify and prevent unauthorized external sharing of corporate financial data before transmission. Role groups, insider risk management, and retention labels do not provide content-based sharing controls."
+    },
+    {
+      "number": 80,
+      "domain": "Understand data protection and governance tasks for Microsoft 365 and Copilot",
+      "question": "Your organization has a Microsoft 365 E5 subscription.  \n  \nYou need to prevent users from sharing corporate financial data to external users.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Microsoft Defender portal"
+        },
+        {
+          "letter": "B",
+          "text": "the Microsoft 365 admin center"
+        },
+        {
+          "letter": "C",
+          "text": "the Microsoft Entra admin center"
+        },
+        {
+          "letter": "D",
+          "text": "the Microsoft Exchange admin center"
+        }
+      ],
+      "answer": null,
+      "explanation": "The Microsoft Defender portal provides Microsoft Defender for Office 365 investigation capabilities, including the Phish view in Threat Explorer or Real-time detections, to examine phishing email activity and its impact on affected users. It also consolidates incident alerts and evidence for investigation.\n\n**Learn more:** [Email security with Threat Explorer and Real-time detections in Microsoft Defender for Office 365](https://learn.microsoft.com/en-us/defender-office-365/threat-explorer-email-security) · [Investigate incidents in the Microsoft Defender portal](https://learn.microsoft.com/en-us/defender-xdr/investigate-incidents)"
+    },
+    {
+      "number": 81,
+      "domain": "Understand data protection and governance tasks for Microsoft 365 and Copilot",
+      "question": "<Dropdown\n  blanks={[{\"id\":\"blank1\",\"options\":[\"Data Lifecycle Management\",\"DSPM for AI\",\"Information Barriers\",\"Information Protection\"],\"answer\":\"DSPM for AI\"}]}\n  template={\"You can use the {{blank1}} Microsoft Purview solution to detect Microsoft 365 Copilot prompts that contain sensitive information.\"}\n  templateMode={\"prose\"}\n  explanation={\"Microsoft Purview DSPM for AI monitors AI use and detects risky prompts and responses, including interactions involving sensitive information in Microsoft 365 Copilot.\\\n\\\n**Learn more:** [Microsoft Purview DSPM for AI](https://learn.microsoft.com/en-us/purview/dspm-for-ai)\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],Your organization has a Microsoft 365 subscription containing Microsoft SharePoint sites and Microsoft Teams teams.  \n  \nYou discover that sites and teams have been shared with users outside your organization.  \n  \nYou need to determine which sites and teams were shared with the external users.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the SharePoint admin center"
+        },
+        {
+          "letter": "B",
+          "text": "the Microsoft Teams admin center"
+        },
+        {
+          "letter": "C",
+          "text": "the Microsoft 365 admin center"
+        },
+        {
+          "letter": "D",
+          "text": "the Microsoft Defender portal"
+        }
+      ],
+      "answer": null,
+      "explanation": "The Microsoft 365 admin center centrally lists guest users and manages membership of active teams and Microsoft 365 groups. Microsoft Teams uses Microsoft 365 Groups for team membership, so external guest membership can be identified there for Teams and their group-connected resources.\n\n**Learn more:** [Guests in the Microsoft 365 admin center](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/about-guest-users?view=o365-worldwide) · [Manage guest access in Microsoft 365 groups](https://learn.microsoft.com/en-sg/microsoft-365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide)"
+    },
+    {
+      "number": 82,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your organization uses a Microsoft 365 subscription.  \n  \nAll users are licensed for Microsoft 365 Copilot.  \n  \nYou need to determine where sensitive content is used in Copilot interactions, analyze content-usage patterns, and receive recommendations for applying the appropriate protections.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Viva Insights"
+        },
+        {
+          "letter": "B",
+          "text": "the Microsoft Purview DSPM for AI solution"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Security Copilot"
+        },
+        {
+          "letter": "D",
+          "text": "the Microsoft Purview Insider Risk Management solution"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Purview Data Security Posture Management (DSPM) for AI assesses how Microsoft 365 Copilot interacts with sensitive data, provides visibility into AI usage and data exposure risks, and recommends controls such as sensitivity labels and data loss prevention policies to protect that data.\n\n**Learn more:** [Understand How to Secure AI Data with Microsoft Purview](https://learn.microsoft.com/en-us/training/modules/purview-ai-understand-risks/) · [Learn about Data Security Posture Management for AI](https://learn.microsoft.com/en-us/purview/dspm-for-ai)"
+    },
+    {
+      "number": 83,
+      "domain": "Identify the core features and objects of Microsoft 365 services",
+      "question": "Your organization has a Microsoft 365 E5 subscription.  \n  \nYou create a Microsoft Purview sensitivity label named Label1.  \n  \nYou need to ensure that users can apply Label1 to files in Microsoft 365.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a sensitivity label policy"
+        },
+        {
+          "letter": "B",
+          "text": "a trainable classifier"
+        },
+        {
+          "letter": "C",
+          "text": "a retention label policy"
+        },
+        {
+          "letter": "D",
+          "text": "an auto-labeling policy"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A sensitivity label must be published via a sensitivity label policy to make it visible and applicable to end users. Creating the label alone does not expose it in Office applications; the policy controls which users see the label and what protection settings apply when it is applied. Trainable classifiers, retention policies, and auto-labeling policies serve different purposes in the information governance workflow."
+    },
+    {
+      "number": 84,
+      "domain": "Understand data protection and governance tasks for Microsoft 365 and Copilot",
+      "question": "You need to identify files and emails that contain social security numbers (SSNs) and credit card numbers.  \n  \nWhat should you use in the Microsoft Purview portal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Data explorer"
+        },
+        {
+          "letter": "B",
+          "text": "Information Protection reports"
+        },
+        {
+          "letter": "C",
+          "text": "Information Protection policies"
+        },
+        {
+          "letter": "D",
+          "text": "Activity explorer"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Data Explorer in Microsoft Purview displays files and emails matching sensitive information type definitions, including built-in patterns for U.S. Social Security Numbers and credit card numbers. It shows where sensitive data is stored across SharePoint, OneDrive, Exchange, and Teams. Information Protection policies and Activity Explorer serve different functions; Information Protection reports lack the granular file/email visibility."
+    }
+  ]
+}

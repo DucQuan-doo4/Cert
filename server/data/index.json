@@ -1,0 +1,771 @@
+{
+  "updatedAt": "2026-08-13T08:52:45.956Z",
+  "totalExams": 85,
+  "exams": [
+    {
+      "provider": "microsoft",
+      "slug": "dp-800",
+      "fullSlug": "microsoft/dp-800",
+      "title": "Copy link to this question",
+      "totalQuestions": 57,
+      "totalPages": 4,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "dp-700",
+      "fullSlug": "microsoft/dp-700",
+      "title": "Copy link to this question",
+      "totalQuestions": 97,
+      "totalPages": 5,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "az-104",
+      "fullSlug": "microsoft/az-104",
+      "title": "Copy link to this question",
+      "totalQuestions": 387,
+      "totalPages": 23,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ai-103",
+      "fullSlug": "microsoft/ai-103",
+      "title": "Copy link to this question",
+      "totalQuestions": 80,
+      "totalPages": 4,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "dp-600",
+      "fullSlug": "microsoft/dp-600",
+      "title": "Copy link to this question",
+      "totalQuestions": 141,
+      "totalPages": 8,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "az-900",
+      "fullSlug": "microsoft/az-900",
+      "title": "Copy link to this question",
+      "totalQuestions": 209,
+      "totalPages": 18,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ab-100",
+      "fullSlug": "microsoft/ab-100",
+      "title": "Copy link to this question",
+      "totalQuestions": 79,
+      "totalPages": 4,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "az-400",
+      "fullSlug": "microsoft/az-400",
+      "title": "Copy link to this question",
+      "totalQuestions": 358,
+      "totalPages": 21,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "az-700",
+      "fullSlug": "microsoft/az-700",
+      "title": "Copy link to this question",
+      "totalQuestions": 177,
+      "totalPages": 14,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ab-410",
+      "fullSlug": "microsoft/ab-410",
+      "title": "Copy link to this question",
+      "totalQuestions": 49,
+      "totalPages": 2,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ab-620",
+      "fullSlug": "microsoft/ab-620",
+      "title": "Copy link to this question",
+      "totalQuestions": 38,
+      "totalPages": 3,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ab-730",
+      "fullSlug": "microsoft/ab-730",
+      "title": "Copy link to this question",
+      "totalQuestions": 50,
+      "totalPages": 3,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ab-731",
+      "fullSlug": "microsoft/ab-731",
+      "title": "Copy link to this question",
+      "totalQuestions": 45,
+      "totalPages": 3,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ab-900",
+      "fullSlug": "microsoft/ab-900",
+      "title": "Copy link to this question",
+      "totalQuestions": 37,
+      "totalPages": 3,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ai-200",
+      "fullSlug": "microsoft/ai-200",
+      "title": "Copy link to this question",
+      "totalQuestions": 34,
+      "totalPages": 2,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ai-300",
+      "fullSlug": "microsoft/ai-300",
+      "title": "Copy link to this question",
+      "totalQuestions": 73,
+      "totalPages": 5,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ai-901",
+      "fullSlug": "microsoft/ai-901",
+      "title": "Copy link to this question",
+      "totalQuestions": 22,
+      "totalPages": 2,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "az-120",
+      "fullSlug": "microsoft/az-120",
+      "title": "Copy link to this question",
+      "totalQuestions": 229,
+      "totalPages": 16,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "az-140",
+      "fullSlug": "microsoft/az-140",
+      "title": "Copy link to this question",
+      "totalQuestions": 232,
+      "totalPages": 14,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "az-204",
+      "fullSlug": "microsoft/az-204",
+      "title": "Copy link to this question",
+      "totalQuestions": 249,
+      "totalPages": 19,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "az-305",
+      "fullSlug": "microsoft/az-305",
+      "title": "Copy link to this question",
+      "totalQuestions": 183,
+      "totalPages": 11,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "az-500",
+      "fullSlug": "microsoft/az-500",
+      "title": "Copy link to this question",
+      "totalQuestions": 270,
+      "totalPages": 18,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "az-800",
+      "fullSlug": "microsoft/az-800",
+      "title": "Copy link to this question",
+      "totalQuestions": 152,
+      "totalPages": 10,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "az-801",
+      "fullSlug": "microsoft/az-801",
+      "title": "Copy link to this question",
+      "totalQuestions": 186,
+      "totalPages": 12,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "dp-750",
+      "fullSlug": "microsoft/dp-750",
+      "title": "Copy link to this question",
+      "totalQuestions": 52,
+      "totalPages": 3,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "dp-420",
+      "fullSlug": "microsoft/dp-420",
+      "title": "Copy link to this question",
+      "totalQuestions": 149,
+      "totalPages": 10,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "dp-300",
+      "fullSlug": "microsoft/dp-300",
+      "title": "Copy link to this question",
+      "totalQuestions": 224,
+      "totalPages": 14,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "gh-100",
+      "fullSlug": "microsoft/gh-100",
+      "title": "Copy link to this question",
+      "totalQuestions": 65,
+      "totalPages": 2,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "gh-200",
+      "fullSlug": "microsoft/gh-200",
+      "title": "Copy link to this question",
+      "totalQuestions": 110,
+      "totalPages": 4,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "dp-900",
+      "fullSlug": "microsoft/dp-900",
+      "title": "Copy link to this question",
+      "totalQuestions": 143,
+      "totalPages": 12,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "gh-600",
+      "fullSlug": "microsoft/gh-600",
+      "title": "Copy link to this question",
+      "totalQuestions": 35,
+      "totalPages": 2,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "gh-500",
+      "fullSlug": "microsoft/gh-500",
+      "title": "Copy link to this question",
+      "totalQuestions": 113,
+      "totalPages": 4,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "gh-300",
+      "fullSlug": "microsoft/gh-300",
+      "title": "Copy link to this question",
+      "totalQuestions": 116,
+      "totalPages": 4,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "gh-900",
+      "fullSlug": "microsoft/gh-900",
+      "title": "Copy link to this question",
+      "totalQuestions": 126,
+      "totalPages": 5,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "mb-280",
+      "fullSlug": "microsoft/mb-280",
+      "title": "Copy link to this question",
+      "totalQuestions": 104,
+      "totalPages": 6,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "mb-230",
+      "fullSlug": "microsoft/mb-230",
+      "title": "Copy link to this question",
+      "totalQuestions": 275,
+      "totalPages": 18,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "mb-500",
+      "fullSlug": "microsoft/mb-500",
+      "title": "Copy link to this question",
+      "totalQuestions": 220,
+      "totalPages": 15,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "mb-310",
+      "fullSlug": "microsoft/mb-310",
+      "title": "Copy link to this question",
+      "totalQuestions": 252,
+      "totalPages": 16,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "mb-330",
+      "fullSlug": "microsoft/mb-330",
+      "title": "Copy link to this question",
+      "totalQuestions": 260,
+      "totalPages": 17,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "mb-820",
+      "fullSlug": "microsoft/mb-820",
+      "title": "Copy link to this question",
+      "totalQuestions": 59,
+      "totalPages": 4,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "mb-800",
+      "fullSlug": "microsoft/mb-800",
+      "title": "Copy link to this question",
+      "totalQuestions": 160,
+      "totalPages": 12,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "md-102",
+      "fullSlug": "microsoft/md-102",
+      "title": "Copy link to this question",
+      "totalQuestions": 221,
+      "totalPages": 15,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ms-721",
+      "fullSlug": "microsoft/ms-721",
+      "title": "Copy link to this question",
+      "totalQuestions": 194,
+      "totalPages": 3699262,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ms-102",
+      "fullSlug": "microsoft/ms-102",
+      "title": "Copy link to this question",
+      "totalQuestions": 263,
+      "totalPages": 17,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "ms-700",
+      "fullSlug": "microsoft/ms-700",
+      "title": "Copy link to this question",
+      "totalQuestions": 326,
+      "totalPages": 19,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "pl-200",
+      "fullSlug": "microsoft/pl-200",
+      "title": "Copy link to this question",
+      "totalQuestions": 186,
+      "totalPages": 13,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "pl-300",
+      "fullSlug": "microsoft/pl-300",
+      "title": "Copy link to this question",
+      "totalQuestions": 256,
+      "totalPages": 15,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "pl-400",
+      "fullSlug": "microsoft/pl-400",
+      "title": "Copy link to this question",
+      "totalQuestions": 223,
+      "totalPages": 17,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "sc-100",
+      "fullSlug": "microsoft/sc-100",
+      "title": "Copy link to this question",
+      "totalQuestions": 226,
+      "totalPages": 14,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "pl-900",
+      "fullSlug": "microsoft/pl-900",
+      "title": "Copy link to this question",
+      "totalQuestions": 162,
+      "totalPages": 15,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "sc-200",
+      "fullSlug": "microsoft/sc-200",
+      "title": "Copy link to this question",
+      "totalQuestions": 269,
+      "totalPages": 18,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "sc-500",
+      "fullSlug": "microsoft/sc-500",
+      "title": "Copy link to this question",
+      "totalQuestions": 85,
+      "totalPages": 4,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "sc-401",
+      "fullSlug": "microsoft/sc-401",
+      "title": "Copy link to this question",
+      "totalQuestions": 149,
+      "totalPages": 3981279,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "sc-300",
+      "fullSlug": "microsoft/sc-300",
+      "title": "Copy link to this question",
+      "totalQuestions": 281,
+      "totalPages": 17,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "mo-201",
+      "fullSlug": "microsoft/mo-201",
+      "title": "MO-201: Microsoft Excel Expert (Office 2019)Demo",
+      "totalQuestions": 0,
+      "totalPages": 1,
+      "isComplete": true
+    },
+    {
+      "provider": "microsoft",
+      "slug": "sc-900",
+      "fullSlug": "microsoft/sc-900",
+      "title": "Copy link to this question",
+      "totalQuestions": 108,
+      "totalPages": 10,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "associate-cloud-engineer",
+      "fullSlug": "google/associate-cloud-engineer",
+      "title": "Copy link to this question",
+      "totalQuestions": 375,
+      "totalPages": 14,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "professional-machine-learning-engineer",
+      "fullSlug": "google/professional-machine-learning-engineer",
+      "title": "Copy link to this question",
+      "totalQuestions": 375,
+      "totalPages": 14,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "professional-security-operations-engineer",
+      "fullSlug": "google/professional-security-operations-engineer",
+      "title": "Copy link to this question",
+      "totalQuestions": 133,
+      "totalPages": 5,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "professional-cloud-architect",
+      "fullSlug": "google/professional-cloud-architect",
+      "title": "Copy link to this question",
+      "totalQuestions": 360,
+      "totalPages": 14,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "professional-cloud-developer",
+      "fullSlug": "google/professional-cloud-developer",
+      "title": "Copy link to this question",
+      "totalQuestions": 379,
+      "totalPages": 15,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "cloud-digital-leader",
+      "fullSlug": "google/cloud-digital-leader",
+      "title": "Copy link to this question",
+      "totalQuestions": 289,
+      "totalPages": 11,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "associate-data-practitioner",
+      "fullSlug": "google/associate-data-practitioner",
+      "title": "Copy link to this question",
+      "totalQuestions": 78,
+      "totalPages": 4,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "associate-google-workspace-administrator",
+      "fullSlug": "google/associate-google-workspace-administrator",
+      "title": "Copy link to this question",
+      "totalQuestions": 108,
+      "totalPages": 12010750,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "generative-ai-leader",
+      "fullSlug": "google/generative-ai-leader",
+      "title": "Copy link to this question",
+      "totalQuestions": 75,
+      "totalPages": 2,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "professional-chrome-enterprise-administrator",
+      "fullSlug": "google/professional-chrome-enterprise-administrator",
+      "title": "Copy link to this question",
+      "totalQuestions": 50,
+      "totalPages": 9037717,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "professional-chromeos-administrator",
+      "fullSlug": "google/professional-chromeos-administrator",
+      "title": "Copy link to this question",
+      "totalQuestions": 147,
+      "totalPages": 5,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "professional-cloud-database-engineer",
+      "fullSlug": "google/professional-cloud-database-engineer",
+      "title": "Copy link to this question",
+      "totalQuestions": 197,
+      "totalPages": 7,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "professional-cloud-devops-engineer",
+      "fullSlug": "google/professional-cloud-devops-engineer",
+      "title": "Copy link to this question",
+      "totalQuestions": 239,
+      "totalPages": 9,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "professional-cloud-network-engineer",
+      "fullSlug": "google/professional-cloud-network-engineer",
+      "title": "Copy link to this question",
+      "totalQuestions": 316,
+      "totalPages": 12,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "professional-cloud-security-engineer",
+      "fullSlug": "google/professional-cloud-security-engineer",
+      "title": "Copy link to this question",
+      "totalQuestions": 360,
+      "totalPages": 14,
+      "isComplete": true
+    },
+    {
+      "provider": "google",
+      "slug": "professional-data-engineer",
+      "fullSlug": "google/professional-data-engineer",
+      "title": "Copy link to this question",
+      "totalQuestions": 349,
+      "totalPages": 13,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-solutions-architect-associate-saa-c03",
+      "fullSlug": "amazon/aws-certified-solutions-architect-associate-saa-c03",
+      "title": "Copy link to this question",
+      "totalQuestions": 1019,
+      "totalPages": 40,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-cloud-practitioner-clf-c02",
+      "fullSlug": "amazon/aws-certified-cloud-practitioner-clf-c02",
+      "title": "Copy link to this question",
+      "totalQuestions": 712,
+      "totalPages": 28,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-ai-practitioner-aif-c01",
+      "fullSlug": "amazon/aws-certified-ai-practitioner-aif-c01",
+      "title": "Copy link to this question",
+      "totalQuestions": 420,
+      "totalPages": 18,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-solutions-architect-professional-sap-c02",
+      "fullSlug": "amazon/aws-certified-solutions-architect-professional-sap-c02",
+      "title": "Copy link to this question",
+      "totalQuestions": 529,
+      "totalPages": 21,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-generative-ai-developer-professional-aip-c01",
+      "fullSlug": "amazon/aws-certified-generative-ai-developer-professional-aip-c01",
+      "title": "Copy link to this question",
+      "totalQuestions": 117,
+      "totalPages": 4,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-advanced-networking-specialty-ans-c01",
+      "fullSlug": "amazon/aws-certified-advanced-networking-specialty-ans-c01",
+      "title": "Copy link to this question",
+      "totalQuestions": 296,
+      "totalPages": 11,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-cloudops-engineer-associate-soa-c03",
+      "fullSlug": "amazon/aws-certified-cloudops-engineer-associate-soa-c03",
+      "title": "Copy link to this question",
+      "totalQuestions": 142,
+      "totalPages": 5,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-data-engineer-associate-dea-c01",
+      "fullSlug": "amazon/aws-certified-data-engineer-associate-dea-c01",
+      "title": "Copy link to this question",
+      "totalQuestions": 366,
+      "totalPages": 14,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-developer-associate-dva-c02",
+      "fullSlug": "amazon/aws-certified-developer-associate-dva-c02",
+      "title": "Copy link to this question",
+      "totalQuestions": 557,
+      "totalPages": 22,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-devops-engineer-professional-dop-c02",
+      "fullSlug": "amazon/aws-certified-devops-engineer-professional-dop-c02",
+      "title": "Copy link to this question",
+      "totalQuestions": 460,
+      "totalPages": 18,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-machine-learning-engineer-associate-mla-c01",
+      "fullSlug": "amazon/aws-certified-machine-learning-engineer-associate-mla-c01",
+      "title": "Copy link to this question",
+      "totalQuestions": 249,
+      "totalPages": 10,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-certified-security-specialty-scs-c03",
+      "fullSlug": "amazon/aws-certified-security-specialty-scs-c03",
+      "title": "Copy link to this question",
+      "totalQuestions": 78,
+      "totalPages": 3,
+      "isComplete": true
+    },
+    {
+      "provider": "amazon",
+      "slug": "aws-devops-engineer-professional",
+      "fullSlug": "amazon/aws-devops-engineer-professional",
+      "title": "Copy link to this question",
+      "totalQuestions": 206,
+      "totalPages": 8,
+      "isComplete": true
+    }
+  ]
+}

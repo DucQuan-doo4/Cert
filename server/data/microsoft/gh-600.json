@@ -1,0 +1,903 @@
+{
+  "provider": "microsoft",
+  "slug": "gh-600",
+  "fullSlug": "microsoft/gh-600",
+  "title": "Copy link to this question",
+  "totalQuestions": 58,
+  "totalPages": 2,
+  "crawledPages": 3,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$L44\"]}]]}],\"$L45\"]}],false]}]\nYou have a repository that uses the GitHub Copilot coding agent and supports hooks stored under `.github/hooks`.  \n  \nYou need a Shell command to run automatically whenever an agent execution fails.  \n  \nWhich type of hook should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "postToolUse"
+        },
+        {
+          "letter": "B",
+          "text": "sessionEnd"
+        },
+        {
+          "letter": "C",
+          "text": "errorOccurred"
+        },
+        {
+          "letter": "D",
+          "text": "agentStop"
+        }
+      ],
+      "answer": null,
+      "explanation": "The errorOccurred hook event is triggered whenever an error occurs during an agent execution — including failures in model calls, tool execution, system operations, or input processing. It provides details such as the error message, name, stack trace, and origin context, making it the appropriate hook to run a shell command that reacts specifically to agent execution failures. The other listed hook types (postToolUse, sessionEnd, agentStop) trigger on different lifecycle events unrelated specifically to error/failure conditions.\n\n**Learn more:** [About hooks for GitHub Copilot - GitHub Docs](https://docs.github.com/en/copilot/concepts/agents/hooks) · [GitHub Copilot hooks reference - GitHub Docs](https://docs.github.com/en/copilot/reference/hooks-reference)"
+    },
+    {
+      "number": 2,
+      "domain": "Manage memory, state, and execution",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are about to begin a complex refactoring task using the GitHub Copilot CLI. Before Copilot makes any changes, you want to review and agree on the approach first. What should you do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Start the Copilot CLI and specify the --agent=Task parameter."
+        },
+        {
+          "letter": "B",
+          "text": "Start the Copilot CLI and specify the --allow-all parameter."
+        },
+        {
+          "letter": "C",
+          "text": "From the Copilot CLI, switch to plan mode."
+        },
+        {
+          "letter": "D",
+          "text": "From the Copilot CLI, run the /compact command."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Copilot CLI supports a plan mode (activated via Shift+Tab or the /plan command) that is designed for exactly this scenario. In plan mode, Copilot analyzes the request and codebase, asks clarifying questions to align on requirements, and produces a structured implementation plan (saved as plan.md) for the developer to review and approve before any code is written or modified. GitHub's official best-practices guidance for Copilot CLI recommends using plan mode specifically for complex multi-file changes and refactoring with many touch points, since models achieve higher success rates when given a concrete plan to follow and it lets the developer confirm the approach before implementation begins.\n\n**Learn more:** [Best practices for GitHub Copilot CLI - GitHub Docs](https://docs.github.com/en/copilot/how-tos/copilot-cli/cli-best-practices) · [GitHub Copilot CLI: Plan before you build, steer as you go - GitHub Changelog](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go/)"
+    },
+    {
+      "number": 3,
+      "domain": "Manage memory, state, and execution",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],52:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"DragDrop\"]\n41:[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"gh-600\",\"data-q\":2,\"data-question-id\":\"5d2a3a6f-c0a9-41c1-bbed-acb9d9ddebc7\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}],[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]]}]\n42:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3c\",null,{\"questionNumber\":2,\"questionId\":\"5d2a3a6f-c0a9-41c1-bbed-acb9d9ddebc7\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L4e\"}]}],[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":2,\"questionId\":\"5d2a3a6f-c0a9-41c1-bbed-acb9d9ddebc7\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":2,\"questionId\":\"5d2a3a6f-c0a9-41c1-bbed-acb9d9ddebc7\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/1\"}]}]]}]\n44:[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"gh-600\",\"data-q\":3,\"data-question-id\":\"5ce4bb72-d815-463f-944d-37ef4ec5e231\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}],[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]]}]\n45:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3c\",null,{\"questionNumber\":3,\"questionId\":\"5ce4bb72-d815-463f-944d-37ef4ec5e231\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L4f\"}]}],[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":3,\"questionId\":\"5ce4bb72-d815-463f-944d-37ef4ec5e231\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":3,\"questionId\":\"5ce4bb72-d815-463f-944d-37ef4ec5e231\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/1\"}]}]]}]\n47:[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]\n48:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n49:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3c\",null,{\"questionNumber\":4,\"questionId\":\"cbe19cfe-8a9c-40c9-843b-681c89ab8e35\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L50\"}]}],[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":4,\"questionId\":\"cbe19cfe-8a9c-40c9-843b-681c89ab8e35\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":4,\"questionId\":\"cbe19cfe-8a9c-40c9-843b-681c89ab8e35\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/1\"}]}]]}]\n4b:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n4c:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4d:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3c\",null,{\"questionNumber\":5,\"questionId\":\"6388ae53-cc8a-430c-b948-0508adc75322\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L51\"}]}],[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":5,\"questionId\":\"6388ae53-cc8a-430c-b948-0508adc75322\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":5,\"questionId\":\"6388ae53-cc8a-430c-b948-0508adc75322\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/1\"}]}]]}]\nGitHub's guidance for securing GitHub Actions workflows recommends declaring restrictive default permissions for the GITHUB_TOKEN at the workflow level, and only adding scoped write permissions at the job level where they are actually needed (principle of least privilege). Setting the top-level 'permissions: contents: read' ensures the token defaults to read-only access across the workflow, since unspecified scopes default to 'none' once any explicit permissions block is declared. The 'update_artifacts' job, which regenerates and commits artifacts, requires 'contents: write' at the job level so that only this job — not the whole workflow — can write to the repository. Finally, because pull request creation and approval must only be possible when explicitly enabled, the 'pull-requests: write' permission is granted specifically at the step/operation that creates the pull request, rather than being included in the workflow-wide or job-wide default, keeping that elevated capability isolated and intentional.\n\n**Learn more:** [Automatic token authentication - permissions for GITHUB_TOKEN](https://docs.github.com/en/actions/security-guides/automatic-token-authentication)3d:[[\"$\",\"p\",null,{\"children\":\"You have a GitHub repository containing a GitHub Actions workflow that runs an AI agent.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to ensure that:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":\"The default GITHUB_TOKEN permissions are read-only.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Write access is granted only to the job that performs repository write operations.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"The workflow can create and approve pull requests only when explicitly enabled.\"}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"How should you complete the workflow? Each value may be used once, more than once, or not at all.\"}],\"\n\",[\"$\",\"$L52\",null,{\"items\":[\"contents: read\",\"contents: write\",\"issues: write\",\"permissions: read-all\",\"pull-requests: read\",\"pull-requests: write\"],\"slots\":[{\"answer\":\"contents: read\",\"id\":\"p1\"},{\"answer\":\"contents: write\",\"id\":\"p2\"},{\"answer\":\"pull-requests: write\",\"id\":\"p3\"}],\"template\":\"name: agent-pr\n\non:\n  pull_request:\n\npermissions:\n  {{p1}}\n\njobs:\n  analyze:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v5\n      - name: Read-only analysis\n        run: echo \"Analyze PR content and post a comment via API\"\n\n  update_artifacts:\n    runs-on: ubuntu-latest\n    permissions:\n      {{p2}}\n    steps:\n      - uses: actions/checkout@v5\n      - name: Update generated artifacts\n        run: |\n          echo \"regenerate\"\n      - name: Create pull request\n        {{p3}}\n        run: echo \"create PR\"\",\"reuse\":true,\"explanation\":\"$53\",\"trackingInfo\":{\"questionId\":\"59189d6c-e05e-4206-8e5b-7d4b182f8e0b\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"mode\":\"default\"}}]]\n56:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\nGitHub Actions' upload-artifact action persists build/run outputs as durable, downloadable artifacts, and configuring retention controls how long they remain available after a workflow completes — satisfying the need for durable task artifacts. The GitHub Copilot coding agent posts ongoing updates to the pull request description (body) and generates timeline events as it progresses, giving reviewers a continuously updated, human-reviewable record of decisions directly inside the pull request, which addresses the problem of reviewers losing track of context between iterations. Finally, the 'View session' feature streams the agent's live logs in real time, giving reviewers visibility into the agent's actions as they happen for auditing and troubleshooting purposes, using GitHub itself as the system of record.\n\n**Learn more:** [About GitHub Copilot coding agent](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-copilot-coding-agent) · [Storing and sharing data from a workflow (artifacts)](https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts)4e:[[\"$\",\"p\",null,{\"children\":\"You have a GitHub repository that uses the GitHub Copilot coding agent to resolve issues and create draft pull requests. The repository uses GitHub Actions for CI, and reviewers rely on pull request timelines and workflow artifacts to understand what the agent did.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"During long-running agent tasks, the reviewers lose track of decisions and validation steps, which causes repeated questions and rework when context drifts between iterations.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to persist task progress and decisions as durable artifacts and ensure that reviewers can verify what the agent did during and after execution by using GitHub as the system of record.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Determine which action satisfies each requirement below. Each action may be used once, more than once, or not at all.\"}],\"\n\",[\"$\",\"$L52\",null,{\"items\":[\"Select View session to stream live agent logs.\",\"Assign an issue and wait for the agent to view the issue.\",\"Select Approve and run workflows in the pull request merge box.\",\"Mention @copilot in the merged pull request to restart the agent.\",\"Watch for pull request body updates and pull request timeline events.\",\"Use the upload-artifact action and configure artifact retention in the CI workflow.\"],\"slots\":[{\"answer\":\"Use the upload-artifact action and configure artifact retention in the CI workflow.\",\"id\":\"1\",\"label\":\"Create durable run outputs that are downloadable after completion:\"},{\"answer\":\"Watch for pull request body updates and pull request timeline events.\",\"id\":\"2\",\"label\":\"Provide ongoing, human-reviewable task progress signals inside the pull request:\"},{\"answer\":\"Select View session to stream live agent logs.\",\"id\":\"3\",\"label\":\"Provide a real-time view of agent actions for audit and troubleshooting:\"}],\"reuse\":true,\"explanation\":\"$54\",\"trackingInfo\":{\"questionId\":\"5d2a3a6f-c0a9-41c1-bbed-acb9d9ddebc7\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"mode\":\"default\"}}]]\nWhen an issue is assigned to the GitHub Copilot coding agent, GitHub immediately adds an eyes (👀) emoji reaction to the issue to acknowledge that Copilot received the assignment and will begin work, which includes opening a linked draft pull request. Once the agent session actually begins executing (running in an ephemeral, GitHub Actions-powered environment), it pushes commits and updates to the pull request timeline, which is visible as the agent generating live logs and progress. Because the coding agent's pull requests originate from an app-like actor, GitHub Actions workflows triggered on those pull requests require a human with write access to manually review and approve the workflow run before checks execute — hence a draft PR existing with no checks running indicates pending human approval of the workflows.\n\n**Learn more:** [Assigning and completing issues with coding agent in GitHub Copilot](https://github.blog/ai-and-ml/github-copilot/assigning-and-completing-issues-with-coding-agent-in-github-copilot/) · [Troubleshooting GitHub Copilot cloud agent - GitHub Docs](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/troubleshooting-copilot-coding-agent)4f:[[\"$\",\"p\",null,{\"children\":\"You manage a GitHub Enterprise Cloud organization that uses the GitHub Copilot coding agent to resolve issues asynchronously.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"When an issue is assigned to GitHub Copilot, the agent creates a draft pull request, but your team cannot always tell whether the agent is actively working, has completed its session, or is awaiting workflow approval.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Which execution context does each signal indicate? Drag the appropriate context to the matching signal. A context may be used once, more than once, or not at all.\"}],\"\n\",[\"$\",\"$L52\",null,{\"items\":[\"The agent session timed out and must be reassigned.\",\"A human must manually approve and run the workflows.\",\"The agent cannot see the repository content due to exclusions.\",\"The agent session is actively running and generating live logs.\",\"The agent comment was ignored because the user lacks write access.\",\"The agent acknowledges the assignment and will create the draft pull request.\"],\"slots\":[{\"answer\":\"The agent acknowledges the assignment and will create the draft pull request.\",\"id\":\"1\",\"label\":\"The eyes emoji (👀) reaction appears on the issue:\"},{\"answer\":\"The agent session is actively running and generating live logs.\",\"id\":\"2\",\"label\":\"The pull request timeline shows Copilot started work:\"},{\"answer\":\"A human must manually approve and run the workflows.\",\"id\":\"3\",\"label\":\"A draft pull request exists, but GitHub Actions checks are not running:\"}],\"reuse\":true,\"explanation\":\"$55\",\"trackingInfo\":{\"questionId\":\"5ce4bb72-d815-463f-944d-37ef4ec5e231\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"mode\":\"default\"}}]]\n50:[[\"$\",\"p\",null,{\"children\":[\"You have a repository that uses the GitHub Copilot coding agent and supports hooks stored under \",[\"$\",\"code\",null,{\"children\":\".github/hooks\"}],\".\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need a Shell command to run automatically whenever an agent execution fails.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Which type of hook should you use?\"}],\"\n\",[\"$\",\"$L56\",null,{\"choices\":{\"A\":\"postToolUse\",\"B\":\"sessionEnd\",\"C\":\"errorOccurred\",\"D\":\"agentStop\"},\"correctAnswer\":\"C\",\"explanation\":\"The errorOccurred hook event is triggered whenever an error occurs during an agent execution — including failures in model calls, tool execution, system operations, or input processing. It provides details such as the error message, name, stack trace, and origin context, making it the appropriate hook to run a shell command that reacts specifically to agent execution failures. The other listed hook types (postToolUse, sessionEnd, agentStop) trigger on different lifecycle events unrelated specifically to error/failure conditions.\n\n**Learn more:** [About hooks for GitHub Copilot - GitHub Docs](https://docs.github.com/en/copilot/concepts/agents/hooks) · [GitHub Copilot hooks reference - GitHub Docs](https://docs.github.com/en/copilot/reference/hooks-reference)\",\"trackingInfo\":{\"questionId\":\"cbe19cfe-8a9c-40c9-843b-681c89ab8e35\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"mode\":\"default\"}}]]\nGitHub Copilot CLI supports a plan mode (activated via Shift+Tab or the /plan command) that is designed for exactly this scenario. In plan mode, Copilot analyzes the request and codebase, asks clarifying questions to align on requirements, and produces a structured implementation plan (saved as plan.md) for the developer to review and approve before any code is written or modified. GitHub's official best-practices guidance for Copilot CLI recommends using plan mode specifically for complex multi-file changes and refactoring with many touch points, since models achieve higher success rates when given a concrete plan to follow and it lets the developer confirm the approach before implementation begins.\n\n**Learn more:** [Best practices for GitHub Copilot CLI - GitHub Docs](https://docs.github.com/en/copilot/how-tos/copilot-cli/cli-best-practices) · [GitHub Copilot CLI: Plan before you build, steer as you go - GitHub Changelog](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go/)51:[[\"$\",\"p\",null,{\"children\":\"You are about to begin a complex refactoring task using the GitHub Copilot CLI. Before Copilot makes any changes, you want to review and agree on the approach first. What should you do first?\"}],\"\n\",[\"$\",\"$L56\",null,{\"choices\":{\"A\":\"Start the Copilot CLI and specify the --agent=Task parameter.\",\"B\":\"Start the Copilot CLI and specify the --allow-all parameter.\",\"C\":\"From the Copilot CLI, switch to plan mode.\",\"D\":\"From the Copilot CLI, run the /compact command.\"},\"correctAnswer\":\"C\",\"explanation\":\"$57\",\"trackingInfo\":{\"questionId\":\"6388ae53-cc8a-430c-b948-0508adc75322\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"mode\":\"default\"}}]]\nA team assigns an issue to the GitHub Copilot coding agent using the following one-line description: \"Fix the login bug.\"  \n  \nCopilot creates a pull request, but the pull request is missing changes and has an incorrect scope.  \n  \nHow should you resolve the issue?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable Copilot memory."
+        },
+        {
+          "letter": "B",
+          "text": "Update the Model Context Protocol (MCP) server rate limits."
+        },
+        {
+          "letter": "C",
+          "text": "Add a clear description of the problem to the issue."
+        },
+        {
+          "letter": "D",
+          "text": "Allocate more resources to copilot-setup-steps.yml."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Copilot coding agent performs best when the assigned issue provides a clear, well-scoped description of the problem, including details such as expected behavior, reproduction steps, acceptance criteria, and hints about which files or areas of the codebase are affected. A vague one-line description like \"Fix the login bug\" lacks the context Copilot needs to correctly identify the scope of changes required, which results in incomplete or improperly scoped pull requests. Improving the issue description with concrete problem details directly addresses this root cause, whereas enabling memory, adjusting MCP server rate limits, or allocating more resources in copilot-setup-steps.yml do not affect how well Copilot understands the task scope.\n\n**Learn more:** [Best practices for using GitHub Copilot to work on tasks](https://docs.github.com/copilot/how-tos/agents/copilot-coding-agent/best-practices-for-using-copilot-to-work-on-tasks)"
+    },
+    {
+      "number": 4,
+      "domain": "Perform evaluation, error analysis, and tuning",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\",\"$L6a\",\"$L6b\",\"$L6c\",\"$L6d\",\"$L6e\"]\n59:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n5a:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n5b:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3c\",null,{\"questionNumber\":6,\"questionId\":\"8dc26dde-d942-4648-94e3-aaf214135340\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6f\"}]}],[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":6,\"questionId\":\"8dc26dde-d942-4648-94e3-aaf214135340\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":6,\"questionId\":\"8dc26dde-d942-4648-94e3-aaf214135340\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/1\"}]}]]}]\nBefore App1 is upgraded, you need to verify each individual upgrade step and confirm whether all tests have passed. Which file should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "assessment.md"
+        },
+        {
+          "letter": "B",
+          "text": "plan.md"
+        },
+        {
+          "letter": "C",
+          "text": "agent.md"
+        },
+        {
+          "letter": "D",
+          "text": "tasks.md"
+        }
+      ],
+      "answer": null,
+      "explanation": "In the GitHub Copilot app modernization workflow for .NET, the upgrade process follows a three-stage lifecycle (assessment, planning, execution), and each stage writes files to the .github/upgrades/{scenarioId}/ folder in the repository. The tasks.md file is the ordered list of tasks generated during planning, and during execution the agent updates it live as each task goes through a start → execute → validate (build and test) → complete cycle. This makes tasks.md the visual progress dashboard that shows the status of every individual upgrade step, including whether the build succeeded and tests passed for that step—exactly what is needed to verify each upgrade step and its test results before proceeding with the retry of the App1 upgrade.\n\n**Learn more:** [GitHub Copilot modernization core concepts - .NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/porting/github-copilot-app-modernization/concepts) · [How to upgrade a .NET app with GitHub Copilot modernization - .NET Core | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/core/porting/github-copilot-app-modernization/how-to-upgrade-with-github-copilot)"
+    },
+    {
+      "number": 5,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a GitHub repository. You use the GitHub Copilot CLI to run an agentic workflow from the terminal.  \n  \nDuring execution, the conversation history approaches the context limit, and the agent cannot continue the current session unless the amount of retained context is reduced.  \n  \nYou need to continue the current session without losing all the prior progress.  \n  \nWhich Copilot CLI slash command should you run?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "/context"
+        },
+        {
+          "letter": "B",
+          "text": "/yolo"
+        },
+        {
+          "letter": "C",
+          "text": "/clear"
+        },
+        {
+          "letter": "D",
+          "text": "/compact"
+        }
+      ],
+      "answer": null,
+      "explanation": "The /compact command summarizes the existing conversation history to reduce the amount of context being retained, freeing up space in the context window while preserving the essential progress so the session can continue. GitHub Copilot CLI also triggers this automatically as context usage approaches its limit, and it can be run manually at any time via /compact. In contrast, /clear purges the entire session (losing all progress), /context only displays context usage without reducing it, and /yolo toggles automatic approval of tool calls and is unrelated to context management.\n\n**Learn more:** [Managing context in GitHub Copilot CLI - GitHub Docs](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/context-management) · [A cheat sheet to slash commands in GitHub Copilot CLI - The GitHub Blog](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/)"
+    },
+    {
+      "number": 6,
+      "domain": "Prepare agent architecture and SDLC processes",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a GitHub Enterprise repository. An agent opens pull requests against the main branch. You need to ensure that changes to the following paths require approval from designated reviewers before the pull request can be merged:  \n  \n- `.github/workflows/*`  \n- `/infra/*`  \n  \nWhat should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a ruleset and an agents.md file"
+        },
+        {
+          "letter": "B",
+          "text": "a ruleset and a .copilotignore file"
+        },
+        {
+          "letter": "C",
+          "text": "a branch protection rule and a CODEOWNERS file"
+        },
+        {
+          "letter": "D",
+          "text": "a branch protection rule and copilot-instructions.md"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub enforces path-based mandatory reviewers through a CODEOWNERS file, which maps specific paths or patterns (such as `.github/workflows/*` and `/infra/*`) to the users or teams required to review changes to those paths. For this mapping to be enforced at merge time, the repository's branch protection rule for the target branch must have 'Require review from Code Owners' enabled, along with 'Require a pull request before merging'. This combination ensures that any pull request — including ones opened automatically by an agent — modifying the specified paths cannot be merged until the designated code owners approve it. The other listed files (agents.md, .copilotignore, copilot-instructions.md) configure Copilot agent behavior/context and do not enforce reviewer approval requirements.\n\n**Learn more:** [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) · [About protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)"
+    },
+    {
+      "number": 7,
+      "domain": "Prepare agent architecture and SDLC processes",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You maintain a repository on github.com that leverages the GitHub Copilot coding agent. You also use the GitHub Copilot CLI locally to reproduce issues and to keep working on the same tasks from your terminal.  \n  \nYou want to check the current token usage.  \n  \nWhich Copilot CLI slash command should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "/compact"
+        },
+        {
+          "letter": "B",
+          "text": "/diff"
+        },
+        {
+          "letter": "C",
+          "text": "/usage"
+        },
+        {
+          "letter": "D",
+          "text": "/context"
+        }
+      ],
+      "answer": null,
+      "explanation": "In GitHub Copilot CLI, the `/usage` slash command displays current session statistics, including token/premium request consumption, session duration, and activity details. This lets a developer working locally confirm how much of their token or premium request quota has been used during the session. The other options serve different purposes: `/compact` condenses conversation history rather than reporting usage, `/diff` shows code changes, and `/context` is not a recognized Copilot CLI command for usage reporting.\n\n**Learn more:** [A cheat sheet to slash commands in GitHub Copilot CLI - The GitHub Blog](https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/) · [Using GitHub Copilot CLI - GitHub Docs](https://docs.github.com/en/copilot/how-tos/copilot-cli/use-copilot-cli/overview)"
+    },
+    {
+      "number": 8,
+      "domain": "Prepare agent architecture and SDLC processes",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to configure agent1 so that it supports the planned changes. What should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Delete line 05 from the agent configuration."
+        },
+        {
+          "letter": "B",
+          "text": "Add Use all available tools to the .github/copilot-instructions.md file."
+        },
+        {
+          "letter": "C",
+          "text": "Add Use all available tools to the instructions in the agent configuration."
+        },
+        {
+          "letter": "D",
+          "text": "Add the mcp-servers property to the agent configuration."
+        },
+        {
+          "letter": "E",
+          "text": "In the agent configuration, replace line 05 with the following.05 tools: []."
+        }
+      ],
+      "answer": null,
+      "explanation": "Custom agent configuration files for GitHub Copilot coding agents use a YAML front matter block; the 'tools' property, when present, restricts the agent to only the listed tools. Removing this property (deleting the tools line) causes the agent to default to having access to all available tools in the environment, which satisfies the requirement that agent1 be able to access all tools. Declaring tools: [] would deny all tool access, and adding freeform text like \"Use all available tools\" to instructions files has no effect because tool access is governed by the structured 'tools' field, not by natural-language instructions."
+    },
+    {
+      "number": 9,
+      "domain": "Manage memory, state, and execution",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a GitHub Copilot coding agent named CodeAgent. The .agent.md file of CodeAgent contains the following YAML frontmatter.  \n\n---  \n\nname: CodeAgent  \n\ndescription: Performs repository analysis and code review tasks. tools: ['edit', 'execute', 'read', 'search']  \n\n---  \n\nYou need to issue a GitHub Copilot CLI command that preserves execution velocity for read-only tasks by eliminating approval prompts for low-risk tools. The solution must ensure that high-risk tools that can make changes remain available but still require explicit user approval before running.  \n\nWhich command should you run?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "copilot agent run CodeAgent --deny-tool 'edit,execute'"
+        },
+        {
+          "letter": "B",
+          "text": "copilot agent run CodeAgent --allow-all-tools"
+        },
+        {
+          "letter": "C",
+          "text": "copilot agent run CodeAgent"
+        },
+        {
+          "letter": "D",
+          "text": "copilot agent run CodeAgent --allow-tool 'read,search'"
+        },
+        {
+          "letter": "E",
+          "text": "copilot agent run CodeAgent --allow-tool 'read,search' --deny-tool 'edit,execute'"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Copilot CLI treats read and search operations as low-risk and, by default, still requires user confirmation before running any tool unless it has been explicitly allow-listed. Passing --allow-tool 'read,search' marks those specific tools as pre-approved so the agent can invoke them without interrupting the workflow for confirmation, which satisfies the goal of removing prompts for low-risk operations. Because edit and execute are not included in the allow list, they retain the CLI's default behavior of remaining available to the agent while still requiring the user to explicitly approve each invocation, which is exactly the requirement that high-risk, change-making tools stay available but gated behind approval. Adding --deny-tool for edit and execute would instead block those tools outright, making them unavailable rather than merely subject to approval, which would violate the stated requirement."
+    },
+    {
+      "number": 10,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to grant access to the API key used by MCP1 for agent1. The solution must satisfy the security requirements.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Store the API key as a GitHub Codespaces user secret scoped to product-api."
+        },
+        {
+          "letter": "B",
+          "text": "Store the API key as a secret in the Copilot environment of product-api by using a name prefix of COPILOT_MCP_, and then reference the variable name in the mcp.json configuration."
+        },
+        {
+          "letter": "C",
+          "text": "In the product-api repository settings, add the API key directly to the .mcp/server.json file by using a plaintext apiKey field."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Copilot coding agent reads secrets for MCP server authentication from the repository's Copilot environment, and only secrets whose name begins with the COPILOT_MCP_ prefix are exposed to the agent's MCP tool runtime. Storing the MCP1 API key this way, and referencing that secret's name inside the mcp.json configuration used by agent1, keeps the key encrypted at rest and accessible only within the secure Copilot execution context — meeting the requirement that all API keys be stored and accessed securely, unlike storing it as a Codespaces secret, embedding it as plaintext in a config file, or using a generic GitHub Actions secret referenced in workflow YAML (which is not the mechanism Copilot coding agent uses to authenticate MCP servers).\n\n**Learn more:** [Extending Copilot coding agent with MCP](https://docs.github.com/en/copilot/how-tos/agents/coding-agent/extend-copilot-coding-agent-with-mcp)"
+    },
+    {
+      "number": 11,
+      "domain": "Implement tool use and environment interaction",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to make changes to repo1 so that the planned changes for the agents can be supported.  \n  \nWhat should you modify?",
+      "options": [
+        {
+          "letter": "A",
+          "text": ".github/agents/*.agent.md"
+        },
+        {
+          "letter": "B",
+          "text": ".vscode/settings.json"
+        },
+        {
+          "letter": "C",
+          "text": ".vscode/mcp.json"
+        },
+        {
+          "letter": "D",
+          "text": "<project>/.mcp/server.json"
+        }
+      ],
+      "answer": null,
+      "explanation": "To make an MCP server configuration available to every developer and agent working on a project—rather than requiring each person to set up their own connection—Visual Studio Code supports adding a `.vscode/mcp.json` file at the root of the repository and committing it to source control. This file centrally defines the MCP servers (such as the Microsoft Learn MCP Server) available to anyone who opens the workspace, which directly addresses the requirement that all agents and developers in repo1 use the Microsoft Learn MCP and that the configuration be implemented centrally, rather than configured individually by each developer.\n\n**Learn more:** [MCP configuration reference - Visual Studio Code](https://code.visualstudio.com/docs/agents/reference/mcp-configuration) · [Extending GitHub Copilot Chat with Model Context Protocol (MCP) servers - GitHub Docs](https://docs.github.com/copilot/customizing-copilot/using-model-context-protocol/extending-copilot-chat-with-mcp)"
+    },
+    {
+      "number": 12,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a GitHub Enterprise Cloud repository that uses the GitHub Copilot coding agent.  \n  \nEngineers assign issues to Copilot, and Copilot creates draft pull requests. Tasks are started either by:  \n  \n- Assigning issues to Copilot on github.com, or  \n- Using GitHub Copilot Chat in an IDE  \n  \nReviewers request updates by leaving comments on the pull requests.  \n  \nYou notice that:  \n  \n- Sometimes Copilot uses outdated requirements after a reviewer posts an updated instruction as a pull request comment  \n- In several cases, Copilot fails to resume work based on the comment  \n  \nYou need to make sure that iteration requests are applied to the correct pull request session and are processed consistently.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ensure that the reviewer has write access to the repository. Instruct the reviewer to mention @copilot in the pull request comments."
+        },
+        {
+          "letter": "B",
+          "text": "Ensure that the agent has write access to the repository. Instruct the reviewer to mention @github in the task comments."
+        },
+        {
+          "letter": "C",
+          "text": "Ensure that the agent has write access to the repository. Instruct the reviewer to unassign and reassign the original issue to Copilot."
+        },
+        {
+          "letter": "D",
+          "text": "Start a new task from Copilot Chat in the IDE. Instruct the reviewer to mention @github in the task comments."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Copilot coding agent only picks up follow-up instructions on a pull request when a comment explicitly mentions @copilot, and this trigger only works reliably when the person commenting has write access to the repository. This mechanism ties the new instruction directly to the existing pull request session, so Copilot resumes work using the correct, up-to-date context rather than stale requirements or failing to notice the comment. Reassigning the issue or starting a fresh Copilot Chat session in the IDE would instead create a new task/session rather than continuing the same pull request's context, and mentioning @github has no effect on the coding agent. Ensuring reviewers have write access and consistently mention @copilot in pull request comments is the documented, reliable way to have Copilot iterate on the correct session.\n\n**Learn more:** [Make changes to an existing pull request - GitHub Docs](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/make-changes-to-an-existing-pr) · [Best practices for using GitHub Copilot to work on tasks - GitHub Docs](https://docs.github.com/copilot/how-tos/agents/copilot-coding-agent/best-practices-for-using-copilot-to-work-on-tasks)"
+    },
+    {
+      "number": 13,
+      "domain": "Perform evaluation, error analysis, and tuning",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$La8\"]}]]}],\"$La9\"]}],false]}]\nYou maintain a GitHub repository. Developers use the GitHub Copilot CLI along with repository-scoped hooks located under `.github/hooks/*.json`.  \n  \nYou need to let the Copilot CLI automatically execute low-risk Bash commands, while ensuring that high-risk commands — such as `sudo`, `rm -rf /`, and `curl ... | bash` — cannot be run autonomously.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure a userPromptSubmitted hook that logs prompts and exits nonzero."
+        },
+        {
+          "letter": "B",
+          "text": "Add .github/hooks/logs/ to .gitignore."
+        },
+        {
+          "letter": "C",
+          "text": "Configure a sessionStart hook that prints a policy banner."
+        },
+        {
+          "letter": "D",
+          "text": "Configure a preToolUse hook that returns permissionDecision: "
+        }
+      ],
+      "answer": null,
+      "explanation": "The `preToolUse` hook runs before a tool call (such as a Bash command execution) is carried out and can return a structured decision — `permissionDecision: \"allow\"` or `permissionDecision: \"deny\"` — along with a `permissionDecisionReason`. By writing a `preToolUse` hook that evaluates the command being requested and returns `permissionDecision: \"deny\"` for matches against high-risk patterns like `sudo`, `rm -rf /`, or `curl ... | bash`, you block those specific commands from autonomous execution while still permitting other (low-risk) commands to run automatically. This is the only hook type among the options that can actually intercept and block tool/command execution; `sessionStart` and `userPromptSubmitted` hooks only run at session start or on prompt submission and cannot gate a specific tool call, and modifying `.gitignore` has no bearing on command execution policy.\n\n**Learn more:** [Pre-tool use hook - GitHub Docs](https://docs.github.com/en/copilot/how-tos/copilot-sdk/hooks/pre-tool-use) · [Working with hooks - GitHub Docs](https://docs.github.com/en/copilot/how-tos/copilot-sdk/features/hooks)"
+    },
+    {
+      "number": 14,
+      "domain": "Perform evaluation, error analysis, and tuning",
+      "question": "Your GitHub Enterprise organization has Copilot memory enabled. You create a new repository.  \n  \nWhich two ways will memories be deleted from the repository? (Choose two.) Each correct answer presents a complete solution. Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manually by repository members"
+        },
+        {
+          "letter": "B",
+          "text": "when the repository is archived"
+        },
+        {
+          "letter": "C",
+          "text": "when the code that created the memory is deleted"
+        },
+        {
+          "letter": "D",
+          "text": "automatically after 28 days"
+        },
+        {
+          "letter": "E",
+          "text": "when pull requests are merged"
+        }
+      ],
+      "answer": null,
+      "explanation": "In GitHub Copilot memory, stored memories can be removed manually by anyone with write access to the repository, and memories are also automatically purged after they have gone unused for 28 days. Repository archiving, deletion of the originating code, and merging pull requests are not defined triggers for memory deletion."
+    },
+    {
+      "number": 26,
+      "domain": "Implement tool use and environment interaction",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a GitHub repository that uses the GitHub Copilot coding agent.  \n  \nYour company restricts GitHub Actions secrets.  \n  \nDevelopers need the Copilot coding agent to call an internal dependency-scanning API during its run. The API requires an access token.  \n  \nYou need to ensure that the Copilot coding agent can use the token during execution without accessing the repository's Actions secrets and variables. The solution must prevent exposing the token in plaintext.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add the token as an Actions repository secret."
+        },
+        {
+          "letter": "B",
+          "text": "Add the token as a secret in the Copilot environment."
+        },
+        {
+          "letter": "C",
+          "text": "Store the token in a repository custom instructions file."
+        },
+        {
+          "letter": "D",
+          "text": "Store the token in the agent configuration file."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Copilot coding agent operates in its own isolated, ephemeral development environment and does not have access to a repository's regular GitHub Actions, Codespaces, or Dependabot secrets and variables. To let the agent authenticate to an internal API, you configure a secret specifically for the Copilot coding agent (added under the repository's or organization's dedicated Copilot/Agents secrets and variables settings, separate from the standard Actions secrets). These secret values are injected into the agent's environment as environment variables at runtime and are masked in session logs, so the token is never exposed in plaintext, and it bypasses the restricted Actions secrets/variables entirely.\n\n**Learn more:** [Configure secrets and variables for Copilot cloud agent](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-cloud-agent/configure-secrets-and-variables) · [More flexible secrets and variables for Copilot cloud agent](https://github.blog/changelog/2026-05-08-more-flexible-secrets-and-variables-for-copilot-cloud-agent/)"
+    },
+    {
+      "number": 27,
+      "domain": "Manage memory, state, and execution",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A private GitHub repository has Copilot memory enabled. Multiple developers with write access make changes across several branches, and some pull requests are later closed without being merged.  \n  \nThe team wants to understand how GitHub Copilot ensures that only task-relevant, up-to-date information influences code suggestions, even when older memories exist.  \n  \nHow does Copilot manage these memories?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Copilot validates each memory's citations against the current branch before using the memory, and ignores the memory if the referenced code no longer exists."
+        },
+        {
+          "letter": "B",
+          "text": "Copilot stores memories per user, ensuring that only the developer who created a memory can trigger the memory in future sessions."
+        },
+        {
+          "letter": "C",
+          "text": "Copilot stores memories indefinitely until a repository administrator deletes them manually."
+        },
+        {
+          "letter": "D",
+          "text": "Copilot automatically blocks memory creation from pull requests that are closed without merging, to prevent outdated information from being stored."
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot Memory stores facts about a repository together with citations referencing the specific code that supports each fact. Before reusing a stored memory, Copilot re-validates its citations against the current branch to confirm the referenced code still exists and still supports the fact. If the cited code has changed or no longer exists, the memory is treated as invalid (and Copilot may replace it with a corrected version) rather than being applied to suggestions. This real-time validation lets Copilot benefit from persisted context while avoiding outdated or misleading information, and memories that go unused/unvalidated are automatically deleted after 28 days rather than persisting indefinitely or requiring manual deletion by an administrator.\n\n**Learn more:** [About GitHub Copilot Memory - GitHub Docs](https://docs.github.com/en/copilot/concepts/agents/copilot-memory) · [Building an agentic memory system for GitHub Copilot - The GitHub Blog](https://github.blog/ai-and-ml/github-copilot/building-an-agentic-memory-system-for-github-copilot/)"
+    },
+    {
+      "number": 28,
+      "domain": "Implement tool use and environment interaction",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to troubleshoot the issue reported by Ben.  \n  \nWhat should you review?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the GITHUB_TOKEN permissions block in the agent1 workflow"
+        },
+        {
+          "letter": "B",
+          "text": "the agent session log in the Agents panel"
+        },
+        {
+          "letter": "C",
+          "text": "the GitHub Actions runner log for the session job"
+        },
+        {
+          "letter": "D",
+          "text": "the GitHub Actions usage metrics of repo1"
+        }
+      ],
+      "answer": null,
+      "explanation": "When a GitHub Copilot coding agent session finishes with a successful status but the resulting pull request contains no file changes, the appropriate place to investigate is the session log recorded in the Agents panel. This log captures the full timeline of the agent's actions during that specific task — including which tools it called, what files it read or attempted to edit, and where it may have stopped short of committing changes — allowing you to determine why no diff was produced even though the session reported success. This is distinct from workflow token permissions, CI runner logs, or Actions usage/billing metrics, none of which record the agent's internal task execution steps.\n\n**Learn more:** [Troubleshooting GitHub Copilot cloud agent - GitHub Docs](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/troubleshoot-coding-agent) · [About GitHub Copilot cloud agent - GitHub Docs](https://docs.github.com/copilot/concepts/agents/coding-agent/about-coding-agent)"
+    },
+    {
+      "number": 29,
+      "domain": "Manage memory, state, and execution",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],52:I[68201,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n56:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"DragDrop\"]\n3f:[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}]\n40:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n41:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":27,\"questionId\":\"b1f56ffc-c527-4248-81a6-bac757bdcd4f\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L4f\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":27,\"questionId\":\"b1f56ffc-c527-4248-81a6-bac757bdcd4f\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":27,\"questionId\":\"b1f56ffc-c527-4248-81a6-bac757bdcd4f\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/2\"}]}]]}]\n43:[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]\n44:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n45:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n46:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":28,\"questionId\":\"a134ef7d-623f-4e83-ae57-43158f8dccb6\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L50\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":28,\"questionId\":\"a134ef7d-623f-4e83-ae57-43158f8dccb6\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":28,\"questionId\":\"a134ef7d-623f-4e83-ae57-43158f8dccb6\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/2\"}]}]]}]\n48:[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}]\n49:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4a:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":29,\"questionId\":\"3fae5860-9c0b-4341-974a-487634fa5db3\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L51\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":29,\"questionId\":\"3fae5860-9c0b-4341-974a-487634fa5db3\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":29,\"questionId\":\"3fae5860-9c0b-4341-974a-487634fa5db3\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/2\"}]}]]}]\n4c:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n4d:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Existing Environment\n\n### GitHub Environment\n\nThe GitHub environment includes the following components:\n\n- Three repositories: product-api, billing-service, and infra-terraform\n- Main branch protection on all repositories requiring at least one pull request review before merging\n- GitHub Actions runners deployed across all workflows\n- A GitHub team labeled SG_Dev containing developers\n- A GitHub team labeled SG_Review containing senior engineers and a security team\n- A .github/copilot-instructions.md file with general coding conventions for all features\n\n### Agent Environment\n\nThe product-api repository employs a GitHub Copilot coding agent named agent1, configured as follows:\n\n- No custom agent profile has been configured\n- A Model Context Protocol (MCP) server named MCP1 is hosted at https://mcp.litwareinc.internal and grants access to internal ticketing and deployment APIs; MCP1 authentication requires an API key\n- A second Copilot coding agent named agent2 manages changes in infra-terraform and executes in parallel with agent1 when both agents have open assigned issues\n- Copilot memory is disabled across the organization\n\n## Problem Statements\n\nLitware has identified the following issues:\n\n- In recent sessions, agent1 has accessed files in billing-service, which lies outside the agent's intended scope; additionally, agent1 applies code changes immediately upon task receipt\n- A developer named Ben from the SG_Dev team reports that agent1 concluded a session with successful status and created a pull request; however, the pull request contained no file modifications; other developers report this occurring intermittently\n- During a parallel test run, both agent1 and agent2 modified shared/config.yaml, resulting in conflicting outputs; additionally, agent1 routinely uses raw try-catch blocks for error handling, which violates SG_Dev's established implementation standards\n\n## Requirements\n\n### Planned Changes\n\nLitware intends to make the following changes:\n\n- Enable agent1 to access all available tools in the environment\n- Supply product-api with targeted instructions for agent1 without affecting Copilot Chat or Copilot code review\n- Set up MCP1 as a tool for agent1 by updating the product-api repository MCP configuration\n- Allow Copilot to retain information it has learned and apply that knowledge for future work; this must be made available to all licensed members of the organization\n\n### Implementation Guidelines\n\nThe development team at Litware has established the following implementation guidelines:\n\n- Agent workflows must support parallel execution\n- Application error handling must employ the repository ErrorHandler class; agent1 and agent2 must run on separate isolated branches during parallel execution; file-level conflicts must be identified before merges, and both agents must be capable of running concurrently\n\n### Security Requirements\n\nLitware has defined the following security requirements:\n\n- Only SG_Review members are permitted to approve agent1 plan outputs\n- All API keys must be securely stored and retrieved\n- Developers must not be able to self-approve\n\n## Agent Configuration\n\n![Scenario Image](https://cdn.examcademy.com/images/questions/1785218599177-wh3n9s72.png)4e:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L52\",null,{\"group\":{\"id\":\"8eda7fd884a4a0def0091e3ad48b7b5efa80fde24f51416fe65d202d79195bcb\",\"type\":\"case_study\",\"title\":\"Litware Copilot Agent Orchestration\",\"content\":\"$53\"}}],\"$L54\",\"$L55\"]}]\nA GitHub-hosted MCP server is a remote, cloud-based server, so any device with network access can reach the same tools and state without needing local installation such as Docker or IDE-specific configuration, which satisfies the cross-device, no-local-setup requirement. Enabling the MCP servers policy at the organization (or enterprise) level in GitHub Copilot settings turns on MCP tool usage consistently for all users and all supported Copilot surfaces (VS Code, Copilot Chat on github.com, coding agent, etc.), which satisfies the organization-wide, all-environments requirement. Changing the Copilot mode in VS Code only affects that local IDE session, running an MCP server in Docker still requires local infrastructure, configuring toolsets to disable API groups only narrows existing tool scope, and adding third-party MCP servers via /mcp add is a per-user/per-client action rather than an organization-wide control.\n\n**Learn more:** [Configure MCP server access for your organization or enterprise](https://docs.github.com/en/copilot/how-tos/administer-copilot/manage-mcp-usage/configure-mcp-server-access) · [Using Model Context Protocol - GitHub Enterprise Cloud Docs](https://docs.github.com/en/enterprise-cloud@latest/copilot/customizing-copilot/using-model-context-protocol)3b:[[\"$\",\"p\",null,{\"children\":\"Your company uses GitHub Copilot Enterprise.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Developers use GitHub Copilot agent mode in Microsoft Visual Studio Code on their laptops and Copilot Chat on github.com when they are away from their laptops.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"When switching between environments, the developers notice that agent workflows lose continuity because the tools available in Visual Studio Code are unavailable on github.com.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to ensure that the agent tools and state are available consistently across environments and can be used from any device without local setup.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"What should you do for each requirement? Each action may be used once, more than once, or not at all.\"}],\"\n\",[\"$\",\"$L56\",null,{\"items\":[\"Enable the MCP servers in Copilot policy.\",\"From Visual Studio Code, change the Copilot mode.\",\"Run a Model Context Protocol (MCP) server in Docker.\",\"Configure toolsets to disable unused GitHub API groups.\",\"Use a GitHub-hosted Model Context Protocol (MCP) server for cloud-based workflows.\",\"Add third-party Model Context Protocol (MCP) servers by using the /mcp add command.\"],\"slots\":[{\"answer\":\"Use a GitHub-hosted Model Context Protocol (MCP) server for cloud-based workflows.\",\"id\":\"1\",\"label\":\"To allow cross-device tool access without local setup:\"},{\"answer\":\"Enable the MCP servers in Copilot policy.\",\"id\":\"2\",\"label\":\"To enable organization-wide agent tools across all Copilot environments:\"}],\"reuse\":true,\"explanation\":\"$57\",\"trackingInfo\":{\"questionId\":\"474eb962-da15-4059-8794-62d2a5da1540\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"mode\":\"default\"}}]]\nYou have a GitHub repository where GitHub Copilot code review is used on pull requests.  \n  \nYou want to add code review guidance that applies across the whole repository, to all files.  \n  \nYou need Copilot code review to consistently apply this guidance whenever it reviews pull requests.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Modify the .github/pull_request_template.md file."
+        },
+        {
+          "letter": "B",
+          "text": "Update the instructions in the .github/agents/*.agent.md files."
+        },
+        {
+          "letter": "C",
+          "text": "Create a .github/instructions/copilot.instructions.md file."
+        },
+        {
+          "letter": "D",
+          "text": "Create a .github/copilot-instructions.md file."
+        }
+      ],
+      "answer": null,
+      "explanation": "Repository-wide custom instructions for GitHub Copilot are defined in a single file named .github/copilot-instructions.md at the root of the repository. Content in this file is automatically included in the context for all Copilot interactions in that repository, including Copilot code review on pull requests, and it applies to the entire codebase rather than being limited to specific paths. In contrast, .github/instructions/*.instructions.md files use an 'applyTo' pattern to scope instructions to particular files or directories, which is not what's needed when the guidance must apply to every file in the repo.\n\n**Learn more:** [Adding repository custom instructions for GitHub Copilot - GitHub Docs](https://docs.github.com/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) · [Using custom instructions to unlock the power of Copilot code review - GitHub Docs](https://docs.github.com/en/copilot/tutorials/customize-code-review)"
+    },
+    {
+      "number": 30,
+      "domain": "Perform evaluation, error analysis, and tuning",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\",\"$L6a\",\"$L6b\",\"$L6c\",\"$L6d\",\"$L6e\"]\nbf:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Dropdown\"]\nc1:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\n54:[\"$\",\"$L3a\",null,{\"questionNumber\":30,\"questionId\":\"47be3e89-eef1-4292-8338-41c8d1a06dda\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6f\"}]}]\n55:[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":30,\"questionId\":\"47be3e89-eef1-4292-8338-41c8d1a06dda\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":30,\"questionId\":\"47be3e89-eef1-4292-8338-41c8d1a06dda\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/2\"}]}]\n59:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n5a:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n5b:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":31,\"questionId\":\"06bc6603-907f-46ed-b081-f05336d9779a\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L70\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":31,\"questionId\":\"06bc6603-907f-46ed-b081-f05336d9779a\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":31,\"questionId\":\"06bc6603-907f-46ed-b081-f05336d9779a\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/2\"}]}]]}]\nYou have a GitHub Enterprise repository configured to use the GitHub Copilot coding agent, which opens draft pull requests for issues assigned to it.  \n  \nDuring evaluation, you notice that the agent repeatedly opens pull requests that modify files under `.github/workflows/*.yml` in order to bypass failing checks, rather than fixing the underlying code that is causing the checks to fail.  \n  \nYou need to ensure that the agent fixes the underlying code instead of bypassing the failing checks.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Start the GitHub Copilot CLI by using --allow-all."
+        },
+        {
+          "letter": "B",
+          "text": "Update .github/copilot-instructions.md."
+        },
+        {
+          "letter": "C",
+          "text": "Create a branch ruleset."
+        },
+        {
+          "letter": "D",
+          "text": "Disable GitHub Actions workflows for pull requests created by the agent."
+        }
+      ],
+      "answer": null,
+      "explanation": "A branch ruleset can be configured to restrict changes to specific file paths, such as `.github/workflows/*.yml`, so that no pull request — including those created by the Copilot coding agent — can modify the CI workflow definitions. This enforced restriction prevents the agent from bypassing failing checks by editing the workflow files, compelling it to instead resolve the failures by correcting the underlying application code. Editing copilot-instructions.md only offers guidance and is not an enforced control, disabling Actions for agent PRs removes validation entirely, and CLI flags like --allow-all are unrelated to restricting file modifications.\n\n**Learn more:** [About rulesets - GitHub Docs](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets) · [Customizing the development environment for Copilot coding agent](https://docs.github.com/en/copilot/how-tos/agents/copilot-coding-agent/customizing-the-development-environment-for-copilot-coding-agent)"
+    },
+    {
+      "number": 31,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You use a GitHub Actions workflow to orchestrate a multi-agent draft-review process for pull requests. The workflow uploads a single combined review-package artifact at the end of each run.  \n  \nYou notice that the review-package artifact is occasionally missing from the workflow run history, and you suspect that a user manually deleted it.  \n  \nYou need to determine which user deleted a workflow run artifact and when that deletion took place.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the checks.delete_logs audit log event"
+        },
+        {
+          "letter": "B",
+          "text": "the pull request description and comment history"
+        },
+        {
+          "letter": "C",
+          "text": "the merge commit history"
+        },
+        {
+          "letter": "D",
+          "text": "the artifact.destroy audit log event"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub's audit log records an artifact.destroy event whenever a workflow run artifact is manually deleted (as opposed to being removed automatically due to the retention period expiring). This audit log entry captures the actor who performed the deletion, the timestamp of the action, and the associated workflow_run_id, allowing you to pinpoint exactly which user deleted the artifact and when. The checks.delete_logs event instead relates to deletion of check suite logs, not workflow artifacts, so it would not surface this information. Pull request descriptions/comments and merge commit history are unrelated to artifact storage events and would not reflect artifact deletions at all.\n\n**Learn more:** [Audit log events for your organization - GitHub Docs](https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/audit-log-events-for-your-organization) · [Audit log events for your enterprise - GitHub Enterprise Cloud Docs](https://docs.github.com/en/enterprise-cloud@latest/admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/audit-log-events-for-your-enterprise)"
+    },
+    {
+      "number": 32,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Within a GitHub Enterprise Cloud organization that uses the GitHub Copilot coding agent, Copilot creates a draft pull request for an issue that has been assigned to it, and the pull request timeline shows that Copilot has started work.  \n  \nAfter 70 minutes, the following occurs:  \n  \n- The agent session log stops updating.  \n- The status shown in the pull request body stops changing.  \n  \nYou need to restart the agent so that it resumes the task using the issue context and pushes new commits to the same existing draft pull request.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Wait for the agent to complete."
+        },
+        {
+          "letter": "B",
+          "text": "Merge the draft pull request and mention @copilot on the merged pull request."
+        },
+        {
+          "letter": "C",
+          "text": "Unassign the issue from Copilot, and then reassign the issue to Copilot."
+        },
+        {
+          "letter": "D",
+          "text": "Select Approve and run workflows in the pull request merge box."
+        }
+      ],
+      "answer": null,
+      "explanation": "According to GitHub's official troubleshooting guidance for Copilot coding agent, an agent session can appear stuck and will time out after about one hour of inactivity. The documented way to recover is to unassign the issue from Copilot and then reassign the issue to Copilot again. Because the draft pull request remains linked to the issue, reassigning causes Copilot to pick the task back up using the original issue context and continue pushing new commits to that same existing draft pull request, rather than starting a completely new one.\n\n**Learn more:** [Troubleshooting GitHub Copilot coding agent - GitHub Enterprise Cloud Docs](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/agents/copilot-coding-agent/troubleshooting-copilot-coding-agent) · [Troubleshoot GitHub Copilot coding agent](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/troubleshoot-coding-agent)"
+    },
+    {
+      "number": 33,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You manage a GitHub Enterprise Cloud organization that uses a custom coding agent to run GitHub Actions workflows. These workflows create branches, open pull requests, and merge changes once required checks have passed.  \n  \nYou need to:  \n  \n- Log all actions initiated by the agent.  \n- Ensure the logs are retained for two years.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure audit log retention."
+        },
+        {
+          "letter": "B",
+          "text": "Enable log forwarding."
+        },
+        {
+          "letter": "C",
+          "text": "Enable Git events in the audit log."
+        },
+        {
+          "letter": "D",
+          "text": "Configure audit log streaming to Azure Event Hubs."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Enterprise Cloud's native audit log only keeps standard events for 180 days and Git events for just 7 days, which is insufficient for a 2-year retention requirement. Configuring audit log streaming to an external system such as Azure Event Hubs continuously forwards every audit log event—including branch creation, pull request creation, and merge actions performed by the agent—in near real time to external storage, where it can be retained indefinitely (or for as long as the organization configures, such as two years), satisfying both the completeness-of-logging and long-term-retention requirements.\n\n**Learn more:** [Streaming the audit log for your enterprise - GitHub Enterprise Cloud Docs](https://docs.github.com/en/enterprise-cloud@latest/admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/streaming-the-audit-log-for-your-enterprise) · [Audit log streaming is now in public beta - The GitHub Blog](https://github.blog/news-insights/product-news/audit-log-streaming-public-beta/)"
+    },
+    {
+      "number": 34,
+      "domain": "Manage memory, state, and execution",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are running multiple GitHub Copilot coding agents that execute tasks concurrently. While live streaming the session log output, you observe the following:  \n  \n![Question Image](https://cdn.examcademy.com/images/questions/1785218610460-hgjf7ae7.png)  \n  \nWhat is a possible cause of this error?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a postToolUse hook"
+        },
+        {
+          "letter": "B",
+          "text": "a GitHub app installation policy"
+        },
+        {
+          "letter": "C",
+          "text": "a preToolUse hook"
+        },
+        {
+          "letter": "D",
+          "text": "a Copilot firewall policy"
+        }
+      ],
+      "answer": null,
+      "explanation": "The session log shows a tool call (`rm -rf /infra`) being intercepted and denied with the message \"Command blocked by policy\" and reason \"destructive_operation_detected,\" after which the agent escalates to human review. This matches the behavior of a preToolUse hook, which executes before any tool invocation (such as a bash command) and can programmatically approve, deny, or ask for approval on the action by returning a permission decision (e.g., `{\"permissionDecision\": \"deny\", \"permissionDecisionReason\": \"..."
+    },
+    {
+      "number": 35,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"gh-600\",\"data-q\":38,\"data-question-id\":\"0886db8d-bd60-4684-b0bf-767e4588bcd4\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],\"$L8c\"]}],\"$L8d\"]}]]}]]}],\"$L8e\"]}],\"$L8f\"]}]\nYou have several GitHub Copilot coding agents executing tasks at the same time. You are monitoring these agents from the terminal using the GitHub CLI. One of the agents appears to be stalled, and you need to live stream its session log output.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Run gh agent-task view and specify the --log and --jq parameters."
+        },
+        {
+          "letter": "B",
+          "text": "Run gh agent-task view and specify the --log and --follow parameters."
+        },
+        {
+          "letter": "C",
+          "text": "Run gh agent-task list and specify the --web parameter."
+        },
+        {
+          "letter": "D",
+          "text": "Run gh agent-task list and specify the --status and --jq parameters."
+        }
+      ],
+      "answer": null,
+      "explanation": "The `gh agent-task view` command supports a `--log` flag to show the session logs for a Copilot coding agent task, and a `--follow` flag to stream those logs live as the agent continues to work — this combination is the correct way to watch a stalled agent's output in real time from the terminal. The `--jq` flag only filters JSON-formatted output and does not stream logs, and `gh agent-task list` merely lists tasks (with `--web` opening the list in a browser and `--status`/`--jq` filtering/formatting that list), none of which provide live log streaming for an individual session.\n\n**Learn more:** [gh agent-task view](https://cli.github.com/manual/gh_agent-task_view) · [Using Copilot cloud agent from the GitHub CLI - GitHub Docs](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/cloud-agent/use-cloud-agent-from-cli)"
+    },
+    {
+      "number": 36,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A GitHub Copilot coding agent has finished a pull request that implements a security fix in your repository. Prior to merging, you need to assess the quality of the agent's work by combining automated evaluation signals with human review. You examine the session log and the pull request.  \n  \nWhich two automated evaluation signals are produced by the coding agent's built-in scanning tools? (Each correct answer presents a complete solution.)  \n  \n*Note: Each correct selection is worth one point.*",
+      "options": [
+        {
+          "letter": "A",
+          "text": "linting errors from the repository's CI pipeline configured in GitHub Actions"
+        },
+        {
+          "letter": "B",
+          "text": "comments from Copilot code review that suggest improvements to code patterns"
+        },
+        {
+          "letter": "C",
+          "text": "the detection of hardcoded secrets, such as API keys and tokens"
+        },
+        {
+          "letter": "D",
+          "text": "the median time to merge metric reported on the Copilot usage metrics dashboard"
+        },
+        {
+          "letter": "E",
+          "text": "CodeQL findings that identify security vulnerabilities in the generated code"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Copilot coding agent automatically runs built-in validation tools as part of completing a pull request. These include CodeQL, which analyzes newly generated code for security vulnerabilities, and secret scanning, which detects hardcoded secrets such as API keys and tokens before the pull request is finalized. These tools are enabled by default and do not require a GitHub Advanced Security license, and any issues they find are surfaced to the agent, which attempts to resolve them before requesting human review. Linting via a separately configured GitHub Actions CI pipeline, Copilot code review comments, and usage metrics like median time to merge are not part of the coding agent's own built-in automated scanning tools.\n\n**Learn more:** [Copilot coding agent now automatically validates code security and quality - GitHub Changelog](https://github.blog/changelog/2025-10-28-copilot-coding-agent-now-automatically-validates-code-security-and-quality/) · [Configure Copilot coding agent's validation tools - GitHub Changelog](https://github.blog/changelog/2026-03-18-configure-copilot-coding-agents-validation-tools/)"
+    },
+    {
+      "number": 37,
+      "domain": "Perform evaluation, error analysis, and tuning",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a GitHub Enterprise repository that runs an autonomous agent using a GitHub Actions workflow. The workflow includes the following jobs:  \n  \n- **agent-run**: generates `trace.json` and `plan.md`  \n- **review**: waits for human approval before continuing  \n- **deploy**: uses the outputs from `agent-run`  \n  \nYou need to make the files inspectable in the GitHub Actions UI and ensure that the files are available to the `review` and `deploy` jobs.  \n  \nWhat should you do in the workflow?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use dependency caching to store trace.json and plan.md."
+        },
+        {
+          "letter": "B",
+          "text": "Upload trace.json and plan.md as workflow artifacts in agent-run, and download the files inside the jobs."
+        },
+        {
+          "letter": "C",
+          "text": "Commit trace.json and plan.md back to the repository from agent-run."
+        },
+        {
+          "letter": "D",
+          "text": "Store trace.json and plan.md on a network share and have later jobs retrieve them from the share."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Actions provides the upload-artifact and download-artifact actions specifically to persist files produced by one job so they can be inspected directly from the workflow run summary in the Actions UI and consumed by subsequent jobs in the same run. Uploading trace.json and plan.md as artifacts in agent-run makes them visible in the UI for inspection and lets the review and deploy jobs download them as needed. Dependency caching is intended to speed up repeated builds by caching dependencies, not for sharing generated output files or making them UI-visible. Committing the files back to the repository would create unnecessary commits and doesn't provide UI-based artifact inspection tied to the workflow run. Using an external network share introduces infrastructure outside GitHub Actions' native artifact handling and doesn't satisfy the UI-inspection requirement.\n\n**Learn more:** [Storing and sharing data from a workflow (Artifacts)](https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts)"
+    },
+    {
+      "number": 38,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A developer is using GitHub Copilot CLI in plan mode, and Copilot produces a plan. What does Copilot do next?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "saves the plan to plan.md"
+        },
+        {
+          "letter": "B",
+          "text": "creates a branch named /copilot/plan in the repository"
+        },
+        {
+          "letter": "C",
+          "text": "opens a pull request that has the plan as a comment"
+        },
+        {
+          "letter": "D",
+          "text": "begins the implementation"
+        }
+      ],
+      "answer": null,
+      "explanation": "In GitHub Copilot CLI's plan mode, after Copilot analyzes the request and codebase and builds a structured implementation plan, it saves that plan to a file called plan.md within the current session folder. The developer can review and edit this file (for example, via Ctrl+Y to open it in their default Markdown editor) before approving it. Copilot then waits for explicit approval before it proceeds to implement any code — it does not automatically create a branch, open a pull request, or start implementation on its own.\n\n**Learn more:** [Best practices for GitHub Copilot CLI - GitHub Docs](https://docs.github.com/en/copilot/how-tos/copilot-cli/cli-best-practices) · [GitHub Copilot CLI: Plan before you build, steer as you go - GitHub Changelog](https://github.blog/changelog/2026-01-21-github-copilot-cli-plan-before-you-build-steer-as-you-go/)"
+    },
+    {
+      "number": 39,
+      "domain": "Perform evaluation, error analysis, and tuning",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to resolve the issue of the agents producing conflicting output. The solution must meet the implementation guidelines.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add shared/config.yaml to a CODEOWNERS file that requires SG_Review approval before any changes can be merged."
+        },
+        {
+          "letter": "B",
+          "text": "Configure each agent to work on a separate branch and add a required status check that detects file-level overlap before either pull request can be merged."
+        },
+        {
+          "letter": "C",
+          "text": "Configure tools: ['read', 'search'] in both agent profiles to prevent either agent from writing files."
+        },
+        {
+          "letter": "D",
+          "text": "Configure a concurrency group on both agent workflows so that only one workflow runs at a time."
+        }
+      ],
+      "answer": null,
+      "explanation": "The Litware implementation guidelines require that agent1 and agent2 run on isolated branches during parallel execution, that file-level conflicts be detected before merges, and that both agents remain able to run concurrently. Configuring each agent to work on its own separate branch satisfies the isolation requirement, and adding a required status check that performs file-level overlap detection ensures conflicts (such as both agents modifying shared/config.yaml) are caught before either pull request merges, without forcing the agents to run sequentially. This approach preserves concurrent execution while eliminating the conflicting-output problem, unlike serializing the workflows (which breaks the parallel-execution requirement) or restricting write access (which breaks the agents' ability to make code changes) or relying solely on a manual CODEOWNERS review gate (which does not provide automated pre-merge conflict detection or branch isolation).\n\n**Learn more:** [GitHub Copilot coding agent documentation](https://docs.github.com/en/copilot/using-github-copilot/coding-agent/about-assigning-tasks-to-copilot) · [About branch protection rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)"
+    },
+    {
+      "number": 40,
+      "domain": "Perform evaluation, error analysis, and tuning",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$Lae\"]}]]}],\"$Laf\"]}],false]}]\nYou have a GitHub repository containing an agent called Orchestrator. Orchestrator delegates work to the following specialized subagents:  \n  \n- Planner – reviews issues and creates a plan of action.  \n- Implementer – writes code based on the plan of action.  \n- Reviewer – reviews the code.  \n  \nYou create a new agent named Summarizer that produces a concise summary of the work performed by the other agents.  \n  \nYou need to ensure that Orchestrator can invoke Summarizer as part of its workflow.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In the YAML frontmatter of the Reviewer agent, add a handoffs entry that points to the Summarizer agent."
+        },
+        {
+          "letter": "B",
+          "text": "In the YAML frontmatter of the Reviewer agent, add Summarizer to the agents list."
+        },
+        {
+          "letter": "C",
+          "text": "In the YAML frontmatter of the Orchestrator agent, add Summarizer to the tools list."
+        },
+        {
+          "letter": "D",
+          "text": "In the YAML frontmatter of the Orchestrator agent, add Summarizer to the agents list."
+        }
+      ],
+      "answer": null,
+      "explanation": "Subagent delegation in GitHub's agent configuration is defined through the \"agents\" list in an agent's YAML frontmatter, which specifies which other agents that particular agent is allowed to invoke. Since Orchestrator is the agent that needs to call Summarizer, Summarizer must be added to the \"agents\" list in Orchestrator's own frontmatter, not Reviewer's, and not via the \"tools\" list, which is reserved for tool integrations rather than agent-to-agent delegation."
+    },
+    {
+      "number": 41,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a multi-agent GitHub Actions workflow that uploads review artifacts for every run. You notice that some workflow run artifacts are being deleted manually. You need to search your organization's audit log data to determine which user deleted the artifacts.  \n  \nWhich audit log search filter should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "repo:<org>/<repo>"
+        },
+        {
+          "letter": "B",
+          "text": "action:workflows.run"
+        },
+        {
+          "letter": "C",
+          "text": "operation:remove"
+        },
+        {
+          "letter": "D",
+          "text": "action:artifact.destroy"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub logs artifact deletion events in the organization audit log under the action `artifact.destroy`. This event is recorded whenever a workflow run artifact is removed, whether manually by a user or through automated retention expiration, and the audit log entry captures the actor who performed the action along with the repository, workflow run, and timestamp. Filtering the audit log with `action:artifact.destroy` isolates these deletion events so you can identify the specific user responsible for deleting the artifacts, per GitHub's documented audit log event schema for organizations and enterprises.\n\n**Learn more:** [Audit log events for your organization - GitHub Docs](https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/audit-log-events-for-your-organization) · [Reviewing the audit log for your organization - GitHub Docs](https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization)"
+    },
+    {
+      "number": 42,
+      "domain": "Orchestrate multi-agent coordination",
+      "question": "You are reviewing the following agent logs.  \n  \n![Question Image](https://cdn.examcademy.com/images/questions/1785218611647-tqjksvc0.png)  \n  \nYou need to classify the error for a report to your company's CTO. How should you classify the error?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Context Issue"
+        },
+        {
+          "letter": "B",
+          "text": "Reasoning error"
+        },
+        {
+          "letter": "C",
+          "text": "Tool misuse"
+        },
+        {
+          "letter": "D",
+          "text": "Network issue"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The log entry shows an error thrown directly from the tool call itself: `Error from tool mcp_microsoftdocs_microsoft_docs_search ... TypeError: Cannot read properties of undefined (reading 'invoke')`. This indicates the failure occurred because the tool call was made incorrectly or the tool reference was not properly available when invoked, rather than because of a network failure, a reasoning mistake in the agent's plan, or a context/prompt issue. This pattern — an error surfaced specifically during the tool invocation step — is classified as a tool misuse error."
+    },
+    {
+      "number": 51,
+      "domain": "Orchestrate multi-agent coordination",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$L43\"]}]]}],\"$L44\"]}],false]}]\nYou need to resolve the scoping issue related to agent1.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "To the profile of agent1, add a custom instruction specifying that the agent must NOT access billing-service or infra-terraform."
+        },
+        {
+          "letter": "B",
+          "text": "Add a permissions block to the agent1 workflow in product-api."
+        },
+        {
+          "letter": "C",
+          "text": "Create a fine-grained personal access token (PAT) scoped to product-api and store the PAT as a GitHub Actions secret for agent1 to use."
+        },
+        {
+          "letter": "D",
+          "text": "Create a ruleset for billing-service and infra-terraform that blocks push access from the github-actions bot account."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Copilot coding agent executes as a GitHub Actions workflow, and the scope of resources/repositories it can access is governed by the permissions defined in that workflow (e.g., the permissions block that controls the GITHUB_TOKEN's access). Restricting the permissions block for the agent1 workflow in product-api ensures the agent cannot reach out to unrelated repositories such as billing-service, directly resolving the cross-repository scoping violation described. Custom instructions only influence model behavior and are not a hard security boundary, so they cannot reliably prevent out-of-scope file access."
+    },
+    {
+      "number": 52,
+      "domain": "Orchestrate multi-agent coordination",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a GitHub Enterprise Cloud organization that uses GitHub Actions for CI/CD.  \n  \nYou are planning to enable an agent that can update and deploy workflows which access production environment secrets.  \n  \nYou need to choose an appropriate autonomy level for this compliance-sensitive workflow.  \n  \nWhich autonomy level should you select?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "read-only analysis with no ability to trigger workflows"
+        },
+        {
+          "letter": "B",
+          "text": "autonomous execution limited to non-production environments"
+        },
+        {
+          "letter": "C",
+          "text": "human-in-the-loop with required manual approvals for production"
+        },
+        {
+          "letter": "D",
+          "text": "fully autonomous execution without approvals"
+        }
+      ],
+      "answer": null,
+      "explanation": "When an automation agent can modify and deploy workflows that access production secrets, compliance and security best practices require a human-in-the-loop control so that a person must review and approve any change before it executes against production. GitHub Environments support required reviewers as a deployment protection rule, ensuring that deployments to protected environments (such as production) pause for manual approval before running. This mitigates the risk of an autonomous agent making unreviewed changes to sensitive, compliance-governed environments, which is essential when production secrets are involved.\n\n**Learn more:** [Managing environments for deployment - Required reviewers](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment)"
+    },
+    {
+      "number": 53,
+      "domain": "Implement guardrails and accountability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],4e:I[68201,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n56:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"DragDrop\"]\n3f:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n40:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n41:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":52,\"questionId\":\"14b63a14-f9cb-41b2-9f18-54aea408e656\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L4d\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":52,\"questionId\":\"14b63a14-f9cb-41b2-9f18-54aea408e656\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":52,\"questionId\":\"14b63a14-f9cb-41b2-9f18-54aea408e656\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/3\"}]}]]}]\n43:[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"gh-600\",\"data-q\":53,\"data-question-id\":\"64b7b626-2589-42f1-b308-bb3b895d6cc0\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}],[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]]}]\n## Existing Environment\n\n### GitHub Environment\n\nThe GitHub environment includes the following components:\n\n- Three repositories: product-api, billing-service, and infra-terraform\n- Main branch protection on all repositories requiring at least one pull request review before merging\n- GitHub Actions runners deployed across all workflows\n- A GitHub team labeled SG_Dev containing developers\n- A GitHub team labeled SG_Review containing senior engineers and a security team\n- A .github/copilot-instructions.md file with general coding conventions for all features\n\n### Agent Environment\n\nThe product-api repository employs a GitHub Copilot coding agent named agent1, configured as follows:\n\n- No custom agent profile has been configured\n- A Model Context Protocol (MCP) server named MCP1 is hosted at https://mcp.litwareinc.internal and grants access to internal ticketing and deployment APIs; MCP1 authentication requires an API key\n- A second Copilot coding agent named agent2 manages changes in infra-terraform and executes in parallel with agent1 when both agents have open assigned issues\n- Copilot memory is disabled across the organization\n\n## Problem Statements\n\nLitware has identified the following issues:\n\n- In recent sessions, agent1 has accessed files in billing-service, which lies outside the agent's intended scope; additionally, agent1 applies code changes immediately upon task receipt\n- A developer named Ben from the SG_Dev team reports that agent1 concluded a session with successful status and created a pull request; however, the pull request contained no file modifications; other developers report this occurring intermittently\n- During a parallel test run, both agent1 and agent2 modified shared/config.yaml, resulting in conflicting outputs; additionally, agent1 routinely uses raw try-catch blocks for error handling, which violates SG_Dev's established implementation standards\n\n## Requirements\n\n### Planned Changes\n\nLitware intends to make the following changes:\n\n- Enable agent1 to access all available tools in the environment\n- Supply product-api with targeted instructions for agent1 without affecting Copilot Chat or Copilot code review\n- Set up MCP1 as a tool for agent1 by updating the product-api repository MCP configuration\n- Allow Copilot to retain information it has learned and apply that knowledge for future work; this must be made available to all licensed members of the organization\n\n### Implementation Guidelines\n\nThe development team at Litware has established the following implementation guidelines:\n\n- Agent workflows must support parallel execution\n- Application error handling must employ the repository ErrorHandler class; agent1 and agent2 must run on separate isolated branches during parallel execution; file-level conflicts must be identified before merges, and both agents must be capable of running concurrently\n\n### Security Requirements\n\nLitware has defined the following security requirements:\n\n- Only SG_Review members are permitted to approve agent1 plan outputs\n- All API keys must be securely stored and retrieved\n- Developers must not be able to self-approve\n\n## Agent Configuration\n\n![Scenario Image](https://cdn.examcademy.com/images/questions/1785218599177-wh3n9s72.png)44:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L4e\",null,{\"group\":{\"id\":\"8eda7fd884a4a0def0091e3ad48b7b5efa80fde24f51416fe65d202d79195bcb\",\"type\":\"case_study\",\"title\":\"Litware Copilot Agent Orchestration\",\"content\":\"$4f\"}}],\"$L50\",\"$L51\"]}]\n46:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n47:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Existing Environment\n\n### GitHub Environment\n\nThe GitHub environment includes the following components:\n\n- Three repositories: product-api, billing-service, and infra-terraform\n- Main branch protection on all repositories requiring at least one pull request review before merging\n- GitHub Actions runners deployed across all workflows\n- A GitHub team labeled SG_Dev containing developers\n- A GitHub team labeled SG_Review containing senior engineers and a security team\n- A .github/copilot-instructions.md file with general coding conventions for all features\n\n### Agent Environment\n\nThe product-api repository employs a GitHub Copilot coding agent named agent1, configured as follows:\n\n- No custom agent profile has been configured\n- A Model Context Protocol (MCP) server named MCP1 is hosted at https://mcp.litwareinc.internal and grants access to internal ticketing and deployment APIs; MCP1 authentication requires an API key\n- A second Copilot coding agent named agent2 manages changes in infra-terraform and executes in parallel with agent1 when both agents have open assigned issues\n- Copilot memory is disabled across the organization\n\n## Problem Statements\n\nLitware has identified the following issues:\n\n- In recent sessions, agent1 has accessed files in billing-service, which lies outside the agent's intended scope; additionally, agent1 applies code changes immediately upon task receipt\n- A developer named Ben from the SG_Dev team reports that agent1 concluded a session with successful status and created a pull request; however, the pull request contained no file modifications; other developers report this occurring intermittently\n- During a parallel test run, both agent1 and agent2 modified shared/config.yaml, resulting in conflicting outputs; additionally, agent1 routinely uses raw try-catch blocks for error handling, which violates SG_Dev's established implementation standards\n\n## Requirements\n\n### Planned Changes\n\nLitware intends to make the following changes:\n\n- Enable agent1 to access all available tools in the environment\n- Supply product-api with targeted instructions for agent1 without affecting Copilot Chat or Copilot code review\n- Set up MCP1 as a tool for agent1 by updating the product-api repository MCP configuration\n- Allow Copilot to retain information it has learned and apply that knowledge for future work; this must be made available to all licensed members of the organization\n\n### Implementation Guidelines\n\nThe development team at Litware has established the following implementation guidelines:\n\n- Agent workflows must support parallel execution\n- Application error handling must employ the repository ErrorHandler class; agent1 and agent2 must run on separate isolated branches during parallel execution; file-level conflicts must be identified before merges, and both agents must be capable of running concurrently\n\n### Security Requirements\n\nLitware has defined the following security requirements:\n\n- Only SG_Review members are permitted to approve agent1 plan outputs\n- All API keys must be securely stored and retrieved\n- Developers must not be able to self-approve\n\n## Agent Configuration\n\n![Scenario Image](https://cdn.examcademy.com/images/questions/1785218599177-wh3n9s72.png)48:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L4e\",null,{\"group\":{\"id\":\"8eda7fd884a4a0def0091e3ad48b7b5efa80fde24f51416fe65d202d79195bcb\",\"type\":\"case_study\",\"title\":\"Litware Copilot Agent Orchestration\",\"content\":\"$52\"}}],\"$L53\",\"$L54\"]}]\n4a:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n4b:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4c:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":55,\"questionId\":\"25b91ecd-d751-4bf8-8fad-daaed1f91186\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L55\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":55,\"questionId\":\"25b91ecd-d751-4bf8-8fad-daaed1f91186\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":55,\"questionId\":\"25b91ecd-d751-4bf8-8fad-daaed1f91186\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/3\"}]}]]}]\n3b:[[\"$\",\"p\",null,{\"children\":\"You have a GitHub repository that runs an agentic software development lifecycle (SDLC) workflow using GitHub Actions. The workflow uses three executor scripts implemented as jobs: spec_analyzer, risk_reviewer, and plan_merger.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to coordinate the specialized agents so that the analysis and risk review run in parallel, and then a final executor merges their outputs into a single plan. The orchestration pattern must fan out one request to multiple executors and then fan in the results to a final executor.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Complete the workflow definition by dragging the correct values into the blanks. Each value may be used once, more than once, or not at all.\"}],\"\n\",[\"$\",\"$L56\",null,{\"items\":[\"[spec_analyzer, risk_reviewer]\",\"concurrency\",\"group\",\"matrix\",\"needs\",\"strategy\",\"tools\"],\"slots\":[{\"answer\":\"needs\",\"id\":\"b1\"},{\"answer\":\"[spec_analyzer, risk_reviewer]\",\"id\":\"b2\"},{\"answer\":\"concurrency\",\"id\":\"b3\"}],\"template\":\"name: multi-agent-orchestration\non:\n  workflow_dispatch:\njobs:\n  spec_analyzer:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Run spec analyzer executor\n        run: ./executors/spec_analyzer.sh\n  risk_reviewer:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Run spec analyzer executor\n        run: ./executors/spec_analyzer.sh\n  risk_reviewer:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Run risk reviewer executor\n        run: ./executors/risk_reviewer.sh\n  plan_merger:\n    runs-on: ubuntu-latest\n    {{b1}}: {{b2}}\n    steps:\n      - name: Merge executor outputs into a single plan\n        run: ./executors/plan_merger.sh\n      - name: Publish merged plan\n        run: echo \"publish plan artifact\"\n    {{b3}}:\n      group: multiagent-${{ github.ref }}\",\"reuse\":true,\"explanation\":\"The `needs` keyword in a GitHub Actions job definition creates a dependency, forcing that job to wait until the listed jobs complete — this implements the fan-in step, so `plan_merger` must declare `needs: [spec_analyzer, risk_reviewer]` to wait for both parallel executors. The `concurrency` key at the job level, paired with a `group` value (here `multiagent-${{ github.ref }}`), controls how concurrent runs of that job are grouped/queued, which is why the trailing blank before `group:` must be `concurrency`. The other pool values — `group`, `matrix`, `strategy`, and `tools` — relate to unrelated Actions features (matrix strategy, tool setup) and are not applicable here.\n\n**Learn more:** [Workflow syntax for GitHub Actions - needs](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idneeds) · [Workflow syntax for GitHub Actions - concurrency](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#concurrency)\",\"trackingInfo\":{\"questionId\":\"3cde9f10-3d2c-4603-94e0-6c0037106eac\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"mode\":\"default\"}}]]\n59:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Dropdown\"]\n5a:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\n50:[\"$\",\"$L3a\",null,{\"questionNumber\":53,\"questionId\":\"64b7b626-2589-42f1-b308-bb3b895d6cc0\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L57\"}]}]\n51:[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":53,\"questionId\":\"64b7b626-2589-42f1-b308-bb3b895d6cc0\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":53,\"questionId\":\"64b7b626-2589-42f1-b308-bb3b895d6cc0\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/3\"}]}]\n53:[\"$\",\"$L3a\",null,{\"questionNumber\":54,\"questionId\":\"373e08fb-c495-4d54-bc0c-4088093c7ed1\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L58\"}]}]\n54:[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":54,\"questionId\":\"373e08fb-c495-4d54-bc0c-4088093c7ed1\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":54,\"questionId\":\"373e08fb-c495-4d54-bc0c-4088093c7ed1\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/3\"}]}]\n4d:[[\"$\",\"p\",null,{\"children\":\"You have a GitHub repository that uses GitHub Copilot Chat in Microsoft Visual Studio Code. Custom agents are stored in the repository under version control.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Your team uses a multi-agent workflow where a planner agent produces an implementation plan that is then handed off to an implementation agent to make changes.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Recent prompts cause the planner agent to start editing files and running commands before the plan is approved.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to configure the planner agent so that it:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":\"Uses only read-only tools.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Hands off to the implementation agent only after the plan is approved.\"}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"How should you configure the agent?\"}],\"\n\",[\"$\",\"$L59\",null,{\"blanks\":[{\"id\":\"tools\",\"options\":[\"['edit','read','commit']\",\"['fetch','push','merge']\",\"['search','read','fetch']\",\"['search','read','publish']\",\"false\",\"true\"],\"answer\":\"['search','read','fetch']\",\"label\":\"tools:\"},{\"id\":\"send\",\"options\":[\"['edit','read','commit']\",\"['fetch','push','merge']\",\"['search','read','fetch']\",\"['search','read','publish']\",\"false\",\"true\"],\"answer\":\"false\",\"label\":\"send:\"}],\"explanation\":\"For the tools list, read-only access requires excluding any tool capable of modifying repository state such as edit, commit, push, merge, or publish; of the available choices, ['search','read','fetch'] is the only combination composed entirely of non-mutating operations. For the handoff's send property, requiring that the hand-off to the implementer agent occur only once the plan is approved means the handoff must not fire automatically — it must wait for explicit approval/confirmation, which corresponds to send: false. GitHub Copilot custom agent handoff configuration documentation describes the 'send' flag as controlling automatic versus confirmation-gated hand-offs between agents.\",\"trackingInfo\":{\"questionId\":\"14b63a14-f9cb-41b2-9f18-54aea408e656\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"mode\":\"default\"}}]]\n55:[[\"$\",\"p\",null,{\"children\":\"You have a GitHub Enterprise Cloud organization that uses GitHub Actions for CI/CD.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You are planning to enable an agent that can update and deploy workflows which access production environment secrets.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to choose an appropriate autonomy level for this compliance-sensitive workflow.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Which autonomy level should you select?\"}],\"\n\",[\"$\",\"$L5a\",null,{\"choices\":{\"A\":\"read-only analysis with no ability to trigger workflows\",\"B\":\"autonomous execution limited to non-production environments\",\"C\":\"human-in-the-loop with required manual approvals for production\",\"D\":\"fully autonomous execution without approvals\"},\"correctAnswer\":\"C\",\"explanation\":\"When an automation agent can modify and deploy workflows that access production secrets, compliance and security best practices require a human-in-the-loop control so that a person must review and approve any change before it executes against production. GitHub Environments support required reviewers as a deployment protection rule, ensuring that deployments to protected environments (such as production) pause for manual approval before running. This mitigates the risk of an autonomous agent making unreviewed changes to sensitive, compliance-governed environments, which is essential when production secrets are involved.\n\n**Learn more:** [Managing environments for deployment - Required reviewers](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment)\",\"trackingInfo\":{\"questionId\":\"25b91ecd-d751-4bf8-8fad-daaed1f91186\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"mode\":\"default\"}}]]\nA GitHub Copilot coding agent named Orchestrator runs a multi-phase workflow using the following subagents:  \n  \n- Explorer gathers context using read-only tools.  \n- Modifier applies focused edits.  \n  \nYou add a new agent named Summarizer that generates a concise summary once modifications are complete. Summarizer's YAML frontmatter is shown below.  \n  \n![Question Image](https://cdn.examcademy.com/images/questions/1785218616564-gtck765u.png)  \n  \nOrchestrator's agents property lists all three agents. After adding Summarizer, Orchestrator successfully runs Explorer and Modifier, but fails to run Summarizer.  \n  \nWhat could explain this failure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Summarizer cannot be invoked as a subagent because disable-model-invocation is set to true."
+        },
+        {
+          "letter": "B",
+          "text": "Orchestrator is missing a handoff entry to trigger Summarizer."
+        },
+        {
+          "letter": "C",
+          "text": "Orchestrator cannot call Summarizer because user-invocable is set to false."
+        },
+        {
+          "letter": "D",
+          "text": "Summarizer is missing the editing tools required to complete the workflow."
+        }
+      ],
+      "answer": null,
+      "explanation": "The Summarizer agent's frontmatter has disable-model-invocation set to true. According to GitHub's custom agent configuration reference, this setting disables the Copilot cloud coding agent from automatically invoking that custom agent based on task/workflow context — when true, the agent can only be triggered by explicit manual selection rather than being called programmatically as part of an orchestrated workflow. Since Orchestrator relies on automatic, context-driven invocation to hand off to Summarizer after the modification phase, this flag blocks that automatic subagent call even though Summarizer appears in Orchestrator's agents list. The user-invocable: false setting is not the cause, since that property only restricts manual selection by a human user and explicitly still permits programmatic/subagent access.\n\n**Learn more:** [Custom agents configuration - GitHub Docs](https://docs.github.com/en/copilot/reference/custom-agents-configuration)"
+    },
+    {
+      "number": 54,
+      "domain": "Manage memory, state, and execution",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L60\",\"$L61\"]\n5c:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}]\n5d:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n5e:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n5f:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":56,\"questionId\":\"f1024e18-48d8-4a44-8ac1-c63c7d621290\",\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L62\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":56,\"questionId\":\"f1024e18-48d8-4a44-8ac1-c63c7d621290\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-600\",\"questionNumber\":56,\"questionId\":\"f1024e18-48d8-4a44-8ac1-c63c7d621290\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-600/3\"}]}]]}]\nWhile upgrading App1, the agent identifies 47 issues, including a security vulnerability, and 46 API incompatibilities across different projects.  \n  \nWhich two actions are unsafe to delegate to the agent and require human involvement? Each correct answer presents a complete solution.  \n  \n(Choose two.)\n\n![Question Image](https://cdn.examcademy.com/images/questions/1785218617701-kw5zrxjt.png)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Validate the assessment.md file for accuracy."
+        },
+        {
+          "letter": "B",
+          "text": "Generate the assessment.md file."
+        },
+        {
+          "letter": "C",
+          "text": "Approve all Git commits."
+        },
+        {
+          "letter": "D",
+          "text": "Review the plan.md file for dependencies."
+        },
+        {
+          "letter": "E",
+          "text": "Validate whether the tasks.md file exists."
+        }
+      ],
+      "answer": null,
+      "explanation": "In the GitHub Copilot modernization agent's Assess → Plan → Execute workflow, the agent generates an assessment.md report and a plan.md/tasks.md set of files automatically, but Microsoft's guidance emphasizes that humans must remain in the loop for judgment calls and irreversible actions: plans must be reviewed and approved before execution, and when the agent surfaces security vulnerabilities (CVEs), a human must review and approve the related changes. Approving all Git commits finalizes code changes into the repository's history -- an irreversible, high-impact action that, per governance guidance for AI agents, must not be finalized by the agent without explicit human authorization, particularly given a confirmed security vulnerability is in scope. Likewise, validating the assessment.md file for accuracy is a judgment-based verification of the AI-generated findings (including the vulnerability and 46 incompatibilities) that a human must perform, since an inaccurate assessment would propagate errors into planning and remediation. Generating the assessment (an automatable analysis task), reviewing plan.md for dependencies, and checking whether tasks.md exists are lower-risk, non-finalizing tasks that the agent can safely perform.\n\n**Learn more:** [GitHub Copilot Modernization Agent Overview | Microsoft Learn](https://learn.microsoft.com/en-us/azure/developer/github-copilot-app-modernization/modernization-agent/overview) · [Analyze Applications and Migrate to Azure by Using GitHub Copilot Modernization - Azure | Microsoft Learn](https://learn.microsoft.com/en-us/azure/developer/github-copilot-app-modernization/overview)"
+    }
+  ]
+}

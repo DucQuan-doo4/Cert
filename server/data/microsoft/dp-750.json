@@ -1,0 +1,1256 @@
+{
+  "provider": "microsoft",
+  "slug": "dp-750",
+  "fullSlug": "microsoft/dp-750",
+  "title": "Copy link to this question",
+  "totalQuestions": 83,
+  "totalPages": 3,
+  "crawledPages": 4,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L32\",\"$L33\",\"$L34\",\"$L35\"],\"$L36\",false,false,\"$L37\",\"$L38\",\"$L39\"]}]\n3a:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3c:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3d:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n49:I[10489,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Image\"]\n4a:I[11077,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n2e:[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]\n2f:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n30:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n31:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":1,\"questionId\":\"5a735182-3c11-43c7-ba37-866f5acbe133\",\"examProvider\":\"microsoft\",\"examName\":\"dp-750\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L3b\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-750\",\"questionNumber\":1,\"questionId\":\"5a735182-3c11-43c7-ba37-866f5acbe133\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-750\",\"questionNumber\":1,\"questionId\":\"5a735182-3c11-43c7-ba37-866f5acbe133\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-750/1\"}]}]]}]\nYou have an Azure Databricks workspace enabled for Unity Catalog that contains two Delta tables, Table1 and Table2, with the same data type.  \n  \nTable1 has a column named Column1. Table2 has a column named Column2.  \n  \nYou execute the following query:  \n  \n```sql  \nSELECT Colum1 -  \n  \nFROM Table1 -  \n  \nGROUP BY Column1 -  \n  \nHAVING COUNT(*) &gt; 1 -  \n  \nINTERSECT -  \n  \nSELECT Column2 -  \n  \nFROM Table2 -  \n  \nGROUP BY Column2 -  \nHAVING COUNT(*) &gt; 1;  \n```  \n  \nWhat happens when the query is executed?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Values appear in both tables more than once."
+        },
+        {
+          "letter": "B",
+          "text": "Values appear in either table more than once."
+        },
+        {
+          "letter": "C",
+          "text": "Values appear in Table2 but NOT Table1."
+        },
+        {
+          "letter": "D",
+          "text": "Values appear in Table1 more than once."
+        }
+      ],
+      "answer": null,
+      "explanation": "`GROUP BY` with `HAVING COUNT(*) > 1` returns only values that occur more than once in each table. `INTERSECT` retains only rows common to both result sets, so the result contains values that appear more than once in both tables. Azure Databricks documents that only rows common to the two operands are returned by `INTERSECT`.\n\n**Learn more:** [NULL semantics - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-null-semantics) · [GROUP BY clause - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-qry-select-groupby)"
+    },
+    {
+      "number": 2,
+      "domain": "Prepare and process data",
+      "question": "Solution: Create a Databricks access connector.  \n  \nDoes this meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "An Azure Databricks access connector is used to connect managed identities to Azure Databricks for access to Azure services or storage. Exposing a SQL Server database for read-only querying as Unity Catalog objects without copying its data requires Lakehouse Federation: a SQL Server connection and a foreign catalog that mirrors the external database.\\\n\\\n**Learn more:** [Use Azure managed identities in Unity Catalog to access storage](https://learn.microsoft.com/en-us/azure/databricks/connect/unity-catalog/cloud-storage/azure-managed-identities) · [Connect to external databases and catalogs](https://learn.microsoft.com/en-us/azure/databricks/query-federation/)"
+    },
+    {
+      "number": 3,
+      "domain": "Set up and configure an Azure Databricks environment",
+      "question": "Solution: Create a Lakeflow Connect pipeline and connect it to DB1.  \n  \nDoes this satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Lakeflow Connect ingests and replicates SQL Server data into Unity Catalog destination tables, including use of a Unity Catalog staging volume. It therefore does not meet a requirement that the SQL Server data remain un-copied in Databricks-managed storage. Lakehouse Federation is the zero-copy SQL Server option that supports querying the external data without moving it.\\\n\\\n**Learn more:** [Microsoft SQL Server connector concepts - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/ingestion/lakeflow-connect/sql-server-concepts) · [Ingest data from SQL Server - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/ingestion/lakeflow-connect/sql-server-pipeline)"
+    },
+    {
+      "number": 4,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "Solution: Create a foreign catalog in Catalog Explorer.  \n  \nDoes this achieve the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A Unity Catalog foreign catalog mirrors an external database, including its schemas and tables, so it can be queried from Azure Databricks and governed alongside other Unity Catalog objects. For Microsoft SQL Server, Lakehouse Federation provides read-only access to the external data without migrating it into Databricks-managed storage.\\\n\\\n**Learn more:** [Run federated queries on Microsoft SQL Server](https://learn.microsoft.com/en-us/azure/databricks/query-federation/sql-server) · [Manage and work with foreign catalogs](https://learn.microsoft.com/en-us/azure/databricks/query-federation/foreign-catalogs)"
+    },
+    {
+      "number": 5,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "Solution: Create a new native catalog in Unity Catalog.  \n  \nDoes this meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A SQL Server database must be exposed through a Unity Catalog foreign catalog that uses the SQL Server connection. A foreign catalog mirrors the external database’s schemas and tables in Unity Catalog and supports querying the source data without copying it into Databricks-managed storage. A native catalog does not create that federated mapping.\\\n\\\n**Learn more:** [Create catalogs - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/catalogs/create-catalog) · [CREATE CATALOG - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-create-catalog)"
+    },
+    {
+      "number": 6,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company includes sales, finance, and HR departments.  \n  \nYou have an Azure Databricks workspace enabled for Unity Catalog. You need to implement Unity Catalog to meet the following requirements:  \n  \n- Access to Unity Catalog for each department must be managed independently of the other departments.  \n- Each department’s data assets must be logically isolated from those of the other departments.  \n- The solution must support centralized governance.  \n  \nWhat should you do for each department?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a separate Azure Data Lake Storage Gen2 account."
+        },
+        {
+          "letter": "B",
+          "text": "Create dynamic views."
+        },
+        {
+          "letter": "C",
+          "text": "Create a new workspace."
+        },
+        {
+          "letter": "D",
+          "text": "Create a new catalog."
+        }
+      ],
+      "answer": null,
+      "explanation": "A Unity Catalog catalog is the primary unit of data isolation. Catalog-level ownership and privileges allow each department’s access to be managed independently, while all catalogs remain governed centrally by Unity Catalog in the same metastore.\n\n**Learn more:** [Unity Catalog setup guide](https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/setup-uc) · [Unity Catalog permissions model concepts](https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/access-control/permissions-concepts)"
+    },
+    {
+      "number": 7,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace named Workspace1 that uses a Git repository. The repository includes a Databricks notebook named Notebook1.  \n  \nFrom the main branch, you create a feature branch named Branch1 and commit changes to Notebook1. Another user commits changes to Notebook1 on main.  \n  \nWhen you try to merge Branch1 into main, the merge fails because of conflicts.  \n  \nYou need to merge Branch1 into the main branch. The solution must ensure that Notebook1 contains all changes from both branches.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "From Workspace1, clone the main branch as a new repository."
+        },
+        {
+          "letter": "B",
+          "text": "Apply the main branch changes to Branch1 and resolve the conflicts."
+        },
+        {
+          "letter": "C",
+          "text": "From Workspace1, clone Branch1 as a new repository."
+        },
+        {
+          "letter": "D",
+          "text": "Apply the changes directly to the main branch."
+        }
+      ],
+      "answer": null,
+      "explanation": "A Git merge conflict occurs when changes from different branches cannot be reconciled automatically. Integrating the main-branch changes into Branch1 and resolving the conflicting notebook content preserves the intended edits from both branches; the resolved feature branch can then be merged into main. Azure Databricks Git folders support manually resolving conflicting file contents and continuing the merge after all conflicts are marked resolved.\n\n**Learn more:** [Run Git operations on Databricks Git folders - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/repos/git-operations-with-repos)"
+    },
+    {
+      "number": 8,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "You have an Azure Databricks workspace that includes several all-purpose clusters.  \n  \nYou find that some clusters stay idle for extended periods after users complete their work.  \n  \nYou need to lower compute costs without impacting active workloads. What should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable autoscaling."
+        },
+        {
+          "letter": "B",
+          "text": "Convert the clusters into job clusters."
+        },
+        {
+          "letter": "C",
+          "text": "Use spot instances."
+        },
+        {
+          "letter": "D",
+          "text": "Configure automatic termination."
+        }
+      ],
+      "answer": "D",
+      "explanation": "Azure Databricks automatic termination ends all-purpose compute after a configured period of inactivity. Compute is considered inactive only after commands and workloads have completed, so active workloads are not affected while idle DBU and cloud-instance charges are reduced.\\\n\\\n**Learn more:** [Manage classic compute - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/compute/clusters-manage)"
+    },
+    {
+      "number": 9,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to configure compute for telemetry-data ingestion. The solution must satisfy the data ingestion and processing requirements.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Move the ingestion pipelines to shared compute."
+        },
+        {
+          "letter": "B",
+          "text": "Enable Photon acceleration for a job compute cluster."
+        },
+        {
+          "letter": "C",
+          "text": "Increase an all-purpose cluster to a larger fixed node type."
+        },
+        {
+          "letter": "D",
+          "text": "Disable autoscaling for a job compute cluster."
+        }
+      ],
+      "answer": null,
+      "explanation": "A Photon-enabled job compute cluster is appropriate for a scheduled, non-interactive production ingestion workload. Job compute isolates the pipeline from development activity, while autoscaling can add workers during telemetry spikes; Photon accelerates supported Spark and SQL processing. Azure Databricks documents autoscaling as dynamically reallocating workers based on job workload characteristics.\n\n**Learn more:** [Azure Databricks cost optimization best practices](https://learn.microsoft.com/en-us/azure/databricks/lakehouse-architecture/cost-optimization/best-practices) · [Azure Databricks compute configuration reference](https://learn.microsoft.com/en-us/azure/databricks/compute/configure)"
+    },
+    {
+      "number": 10,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to develop the task logic for a new Lakeflow Jobs job that processes telemetry data.  \n  \nEach task must include only the logic appropriate to its pipeline step. The solution must support the planned changes and satisfy the data ingestion and processing requirements.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use a single Databricks notebook task that performs ingestion, cleansing, and curation in one script."
+        },
+        {
+          "letter": "B",
+          "text": "Create separate tasks for ingestion, cleansing, and curation."
+        },
+        {
+          "letter": "C",
+          "text": "Create three tasks that each contains the identical logic and use task retries."
+        },
+        {
+          "letter": "D",
+          "text": "Use a single SQL task that performs ingestion, cleansing, and curation by running MERGE commands."
+        }
+      ],
+      "answer": null,
+      "explanation": "Lakeflow Jobs orchestrates workflows as discrete tasks with dependencies. Separating ingestion, cleansing, and curation into individual tasks assigns each pipeline stage a clear unit of work and supports explicit execution order, task-level retry behavior, monitoring, and scheduling.\n\n**Learn more:** [Lakeflow Jobs](https://docs.databricks.com/aws/en/jobs) · [Run pipelines in a workflow](https://docs.databricks.com/gcp/en/ldp/workflows)"
+    },
+    {
+      "number": 11,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to organize Unity Catalog in a way that meets the governance requirements.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use a single shared schema for all the development teams and rely on table-level permissions for isolation."
+        },
+        {
+          "letter": "B",
+          "text": "Enable the development teams to create objects directly in the default catalog and schema."
+        },
+        {
+          "letter": "C",
+          "text": "Create a separate catalog for each development team and enable each team to choose its own schema names."
+        },
+        {
+          "letter": "D",
+          "text": "Create a shared development catalog, enforce a standardized naming convention, and assign each development team its own schema."
+        }
+      ],
+      "answer": null,
+      "explanation": "A shared development catalog centralizes governance, while separate schemas give each development team an isolated logical area for its data assets. Enforcing a standard naming convention maintains consistency across teams. In Unity Catalog, schemas are child containers that can represent a team sandbox, and catalogs and schemas support organized access control.\n\n**Learn more:** [What are schemas in Azure Databricks?](https://learn.microsoft.com/en-us/azure/databricks/schemas/) · [Unity Catalog best practices](https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/best-practices)"
+    },
+    {
+      "number": 12,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace with Unity Catalog enabled.  \n  \nYou need to recommend a pipeline that ingests files from cloud storage, applies cleansing and enrichment transformations, and writes curated Delta tables for analytics. The solution must minimize development effort while providing built-in monitoring and automatic retries.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a Databricks notebook triggered by a scheduled job"
+        },
+        {
+          "letter": "B",
+          "text": "an Apache Spark Structured Streaming job"
+        },
+        {
+          "letter": "C",
+          "text": "an MLflow pipeline"
+        },
+        {
+          "letter": "D",
+          "text": "a Lakeflow Spark Declarative Pipelines (SDP) pipeline"
+        }
+      ],
+      "answer": null,
+      "explanation": "Lakeflow Spark Declarative Pipelines provides a declarative framework for batch and streaming ETL, including incremental processing, automatic orchestration, monitoring, and progressive retries for transient failures. It supports streaming tables and materialized views managed through Unity Catalog, making it suitable for producing curated Delta tables from cloud-storage ingestion with less custom code and operational logic.\n\n**Learn more:** [What is Lakeflow Spark Declarative Pipelines](https://docs.databricks.com/aws/en/ldp/concepts) · [Monitor pipelines in the UI](https://docs.databricks.com/aws/en/ldp/monitoring-ui)"
+    },
+    {
+      "number": 13,
+      "domain": "Prepare and process data",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace enabled for Unity Catalog that contains a managed Delta table named `Sales`.  \n  \n`Sales` stores transaction data and has the following columns:  \n  \n- `transaction_id` (string)  \n- `transaction_date` (date)  \n- `amount` (decimal)  \n  \nYou need to implement these data-quality requirements by using table-level data-quality enforcement:  \n  \n- `amount` must be greater than 0.  \n- `transaction_id` must never be null.  \n  \nInvalid records must be rejected when they are written to the `Sales` table.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use a SELECT statement with WHERE conditions to validate the data before querying."
+        },
+        {
+          "letter": "B",
+          "text": "Create a view that filters out rows where transaction_id is null or amount is less than or equal to 0."
+        },
+        {
+          "letter": "C",
+          "text": "Add a NOT NULL constraint to transaction_id and a CHECK constraint to amount."
+        },
+        {
+          "letter": "D",
+          "text": "Configure row-level security (RLS) where transaction_id is null or amount is less than or equal to 0."
+        }
+      ],
+      "answer": null,
+      "explanation": "A `NOT NULL` constraint prevents writes with a null `transaction_id`, and a `CHECK` constraint requiring `amount > 0` rejects rows with zero or negative amounts. These are enforced Delta table constraints; violating either causes the write transaction to fail.\n\n**Learn more:** [Constraints on Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/tables/constraints) · [ADD CONSTRAINT clause — Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-alter-table-add-constraint)"
+    },
+    {
+      "number": 14,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace enabled for Unity Catalog.  \n  \nYou have a Lakeflow Spark Declarative Pipelines (SDP) pipeline that writes numerical data to a table named Table1 by using a data-quality validation rule named rule1.  \n  \nYou need to change rule1 to meet these requirements:  \n  \n- Ensure that `amount` is always greater than 0.  \n- Prevent an update to Table1 from being committed when data that violates rule1 is detected.  \n  \nWhich statement should you execute?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "@dlt.expect_or_fail(“rule1”, ”amount > 0”)"
+        },
+        {
+          "letter": "B",
+          "text": "@dlt.expect(“rule1”, “amount > 0”)"
+        }
+      ],
+      "answer": null,
+      "explanation": "`expect_or_fail` enforces the `amount > 0` expectation and fails the pipeline update when any record violates it. A failed table update is rolled back atomically, so no update to the target table is committed.\n\n**Learn more:** [Manage data quality with pipeline expectations](https://docs.databricks.com/aws/en/ldp/expectations)"
+    },
+    {
+      "number": 15,
+      "domain": "Prepare and process data",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace that includes a Delta table named Table1.  \n  \nTable1 has accumulated obsolete files. You need to reduce storage costs while preserving 30 days of time-travel history.  \n  \nWhich two actions should you take? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Run the vacuum command on Table1."
+        },
+        {
+          "letter": "B",
+          "text": "Set the delta.deletedFileRetentionDuration table property to 30 days."
+        },
+        {
+          "letter": "C",
+          "text": "Set the delta.logRetentionDuration table property to 30 days."
+        },
+        {
+          "letter": "D",
+          "text": "Run the OPTIMIZE command on Table1."
+        },
+        {
+          "letter": "E",
+          "text": "Reduce the deleted file retention period to one day."
+        }
+      ],
+      "answer": null,
+      "explanation": "Set `delta.deletedFileRetentionDuration` to 30 days so that obsolete Delta data files remain available for the required 30-day time-travel window. Run `VACUUM` on the table to permanently delete obsolete files older than that retention period, reducing storage costs. The Delta transaction-log retention setting does not preserve the old data files required for time travel after a vacuum operation.\n\n**Learn more:** [VACUUM - Azure Databricks - Databricks SQL](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/delta-vacuum) · [Remove unused data files with vacuum - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/tables/operations/vacuum)"
+    },
+    {
+      "number": 26,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "You have an Azure Databricks workspace that uses serverless compute.  \n  \nYou need to ingest data by using Lakeflow Jobs. New records must be processed as soon as they are available.  \n  \nWhich job-trigger type should you use for the ingestion?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manual"
+        },
+        {
+          "letter": "B",
+          "text": "file arrival"
+        },
+        {
+          "letter": "C",
+          "text": "scheduled"
+        },
+        {
+          "letter": "D",
+          "text": "continuous"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A continuous Lakeflow Jobs trigger keeps the job running by initiating a new run immediately after the prior run ends, supporting prompt ongoing processing of newly available data. File-arrival triggers are intended specifically for detecting files in a configured storage location.\\\n\\\n**Learn more:** [Automate jobs with schedules and triggers - Azure Databricks](https://learn.microsoft.com/en-au/azure/databricks/jobs/triggers) · [Jobs system table reference - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/admin/system-tables/jobs)"
+    },
+    {
+      "number": 27,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L57\",\"$L58\",\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\"]\n54:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n55:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n56:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":31,\"questionId\":\"640793b2-915c-46ec-aff3-b900114a1853\",\"examProvider\":\"microsoft\",\"examName\":\"dp-750\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6a\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-750\",\"questionNumber\":31,\"questionId\":\"640793b2-915c-46ec-aff3-b900114a1853\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-750\",\"questionNumber\":31,\"questionId\":\"640793b2-915c-46ec-aff3-b900114a1853\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-750/2\"}]}]]}]\nYou have an Azure Databricks workspace enabled for Unity Catalog.  \n  \nA CSV file is stored in an Azure Data Lake Storage Gen2 container. You plan to ingest the data into an existing table by running the following SQL statement.  \n  \n```sql  \nCOPY INTO Customer -  \nFROM ‘abfss://[email protected]/data/customer’  \n  \nFILEFORMAT = CSV -  \n```  \n  \nYou need to ensure that the statement can access the data in the container. What should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "an external table named Customer in the CSV file format"
+        },
+        {
+          "letter": "B",
+          "text": "a Lakeflow ingestion gateway"
+        },
+        {
+          "letter": "C",
+          "text": "an external location that uses a storage credential"
+        },
+        {
+          "letter": "D",
+          "text": "a volume in a catalog"
+        }
+      ],
+      "answer": null,
+      "explanation": "In Unity Catalog, access to an ADLS Gen2 path used by `COPY INTO` is configured through an external location, which associates the cloud-storage path with a storage credential that authorizes access. The principal also requires the applicable permissions, such as `READ FILES`, on that external location.\n\n**Learn more:** [Load data using COPY INTO with Unity Catalog volumes or external locations](https://learn.microsoft.com/en-us/azure/databricks/ingestion/cloud-object-storage/copy-into/unity-catalog) · [Configure data access for ingestion](https://learn.microsoft.com/en-us/azure/databricks/ingestion/cloud-object-storage/copy-into/configure-data-access)"
+    },
+    {
+      "number": 28,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "You have an Azure Databricks workspace enabled for Unity Catalog.  \n  \nYou have a complex job named Job1 that contains eight tasks. Job1 requires multiple hours to complete.  \n  \nDuring the most recent job run, the final task fails because of a transient issue.  \n  \nYou need to retry the final task without rerunning tasks that have already completed.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repair the current job run."
+        },
+        {
+          "letter": "B",
+          "text": "Update the job parameters."
+        },
+        {
+          "letter": "C",
+          "text": "Disable and reenable the job schedule."
+        },
+        {
+          "letter": "D",
+          "text": "Restart Job1."
+        }
+      ],
+      "answer": "A",
+      "explanation": "A repair run for a failed multi-task Databricks job reruns the unsuccessful task and any necessary dependent tasks, but does not rerun tasks that completed successfully. This allows the failed final task to be retried without repeating the earlier completed tasks.\\\n\\\n**Learn more:** [Troubleshoot and repair job failures](https://docs.databricks.com/aws/en/jobs/repair-job-failures)"
+    },
+    {
+      "number": 29,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "You have an Azure Databricks workspace enabled for Unity Catalog.  \n  \nYou have a complex job named Job1 that contains eight tasks. Job1 requires multiple hours to complete.  \n  \nDuring the most recent job run, the final task fails because of a transient issue.  \n  \nYou need to retry the final task without rerunning tasks that have already completed.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Decrease the retry interval."
+        },
+        {
+          "letter": "B",
+          "text": "Increase the minimum number of nodes in the cluster."
+        },
+        {
+          "letter": "C",
+          "text": "Add an alert and manually restart Job1."
+        },
+        {
+          "letter": "D",
+          "text": "Implement checkpointing."
+        }
+      ],
+      "answer": null,
+      "explanation": "Checkpointing stores processed source offsets, commit records, and streaming state in fault-tolerant storage. After a failure, Structured Streaming restores that checkpoint so processing continues from the last successful point rather than starting over, which reduces the work, time, and compute cost required for recovery.\n\n**Learn more:** [Structured Streaming checkpoints - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/structured-streaming/checkpoints)"
+    },
+    {
+      "number": 30,
+      "domain": "Prepare and process data",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace enabled for Unity Catalog.  \n  \nYou plan to ingest data from CSV files stored in Azure Data Lake Storage Gen2. New rows are appended frequently.  \n  \nYou need to implement a data-ingestion solution that meets the following requirements:  \n  \n- New data must be available near real-time (NRT).  \n- The data must be stored in managed Delta tables.  \n- The solution must minimize custom code and maintenance effort.  \n  \nWhat should you include in the solution?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "scheduled Apache Spark batch jobs"
+        },
+        {
+          "letter": "B",
+          "text": "an Azure Data Factory pipeline"
+        },
+        {
+          "letter": "C",
+          "text": "Auto Loader"
+        },
+        {
+          "letter": "D",
+          "text": "an external table that references the CSV files"
+        }
+      ],
+      "answer": null,
+      "explanation": "Auto Loader incrementally detects and processes new files arriving in Azure Data Lake Storage, supports CSV input, and is designed for near-real-time ingestion. With Unity Catalog, it can write the streaming output to a managed Delta table, providing a managed, low-maintenance file-ingestion pattern.\n\n**Learn more:** [What is Auto Loader? - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/ingestion/cloud-object-storage/auto-loader/) · [Using Auto Loader with Unity Catalog - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/ingestion/cloud-object-storage/auto-loader/unity-catalog)"
+    },
+    {
+      "number": 31,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "You need to deploy Declarative Automation Bundles to a development environment. The solution must enable automated, repeatable deployments across environments.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Databricks CLI"
+        },
+        {
+          "letter": "B",
+          "text": "Git folders"
+        },
+        {
+          "letter": "C",
+          "text": "the Azure Developer CLI (azd)"
+        },
+        {
+          "letter": "D",
+          "text": "the Azure Command-Line Interface (CLI)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Declarative Automation Bundles are a Databricks CLI feature. Its bundle commands validate and deploy bundle configurations to target Databricks workspaces, supporting repeatable multi-environment deployments and CI/CD workflows.\\\n\\\n**Learn more:** [What are Declarative Automation Bundles?](https://docs.databricks.com/aws/en/dev-tools/bundles/) · [Databricks CLI bundle command group](https://docs.databricks.com/aws/en/dev-tools/cli/bundle-commands)"
+    },
+    {
+      "number": 32,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "You need to deploy Declarative Automation Bundles to a development environment. The solution must enable automated, repeatable deployments across environments.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add a CHECK constraint to Table1."
+        },
+        {
+          "letter": "B",
+          "text": "Run WHERE clauses in downstream queries to filter out invalid records."
+        },
+        {
+          "letter": "C",
+          "text": "Define a pipeline expectation."
+        },
+        {
+          "letter": "D",
+          "text": "Implement advanced logic to quarantine the invalid records."
+        }
+      ],
+      "answer": null,
+      "explanation": "Lakeflow SDP expectations can drop invalid rows before they are written, but dropped records are not retained as reviewable rows. To both exclude invalid data from Table1 and retain it, invalid rows must be routed to a separate quarantine table; the pipeline can then continue processing valid records. Databricks documents this as the quarantine pattern for invalid records.\n\n**Learn more:** [Databricks Lakeflow SDP best practices](https://docs.databricks.com/aws/en/ldp/best-practices)"
+    },
+    {
+      "number": 33,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You use Databricks Asset Bundles to manage two jobs and an app.  \n  \nYou need to deploy the bundle to development and production environments. The solution must meet these requirements:  \n  \n- Deploy the app to both environments.  \n- Deploy only one job to development.  \n- Minimize administrative effort.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "separate databricks.yml files for each environment"
+        },
+        {
+          "letter": "B",
+          "text": "a variables node in a databricks.yml file"
+        },
+        {
+          "letter": "C",
+          "text": "a resources node in a databricks.yml file"
+        },
+        {
+          "letter": "D",
+          "text": "a targets node in a databricks.yml file"
+        }
+      ],
+      "answer": null,
+      "explanation": "The `targets` mapping defines bundle deployment environments and supports target-specific `resources` configuration. It can define the app in both development and production targets, while defining only the required job in development and both jobs in production, avoiding separate bundle configuration files.\n\n**Learn more:** [Declarative Automation Bundles configuration](https://docs.databricks.com/aws/en/dev-tools/bundles/settings) · [Declarative Automation Bundles FAQs](https://docs.databricks.com/aws/en/dev-tools/bundles/faqs)"
+    },
+    {
+      "number": 34,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"dp-750\",\"data-q\":38,\"data-question-id\":\"e874bffb-a7a4-460e-9d73-f0ea532c870f\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],\"$L81\"]}],\"$L82\"]}]]}]]}],\"$L83\"]}],\"$L84\"]}]\nYou have an Azure Databricks workspace enabled for Unity Catalog that contains a Delta table named Table1. Table1 is used as a dimension table and has the following columns:  \n  \n`id` `name` `address`  \n  \nYou need to use a Type 1 slowly changing dimension (SCD) approach when updates are processed for the `name` and `address` columns.  \n  \nWhat occurs when an update is processed?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A new row will be added for each change to a name and address."
+        },
+        {
+          "letter": "B",
+          "text": "The value of the id column will be updated."
+        },
+        {
+          "letter": "C",
+          "text": "The existing name and address values will be overwritten."
+        },
+        {
+          "letter": "D",
+          "text": "Historical versions of the row and its effective dates will be retained."
+        }
+      ],
+      "answer": null,
+      "explanation": "A Type 1 SCD maintains only the current state of each dimension record. Updates directly overwrite changed attribute values in the existing row, so the existing `name` and `address` values are replaced without retaining historical versions or effective dates.\n\n**Learn more:** [Change data capture and snapshots - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/data-engineering/what-is-cdc)"
+    },
+    {
+      "number": 35,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace that includes an all-purpose cluster named Cluster1.  \n  \nYou need to configure Cluster1 to meet these requirements:  \n  \n- Scale up automatically as workloads increase.  \n- Scale down automatically as workloads decrease.  \n- Minimize costs.  \n  \nWhich two actions should you take? Each correct answer presents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Disable Photon acceleration."
+        },
+        {
+          "letter": "B",
+          "text": "Enable autoscaling for Cluster1."
+        },
+        {
+          "letter": "C",
+          "text": "Apply a compute policy that enables users to manage the cluster settings."
+        },
+        {
+          "letter": "D",
+          "text": "Specify a fixed number of workers."
+        },
+        {
+          "letter": "E",
+          "text": "Configure Cluster1 to terminate after 30 minutes of inactivity."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Databricks autoscaling adjusts the number of workers up or down according to workload demand. Automatic termination stops an inactive all-purpose cluster after its configured timeout, avoiding continued compute charges during idle time. Together, these settings satisfy dynamic capacity and cost-minimization requirements.\n\n**Learn more:** [Manage classic compute - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/compute/clusters-manage) · [Classic compute configuration best practices - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/compute/cluster-config-best-practices)"
+    },
+    {
+      "number": 36,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace enabled for Unity Catalog that contains a managed Delta table named Table1. Table1 holds customer data.  \n  \nYou need to implement a data-lifecycle solution that satisfies these requirements:  \n  \n- Deleted data must remain recoverable for 30 days to support audits.  \n- Data older than 30 days must be permanently removed.  \n- The solution must require minimal administrative effort.  \n- The solution must be applied consistently.  \n  \nWhat should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "scheduled DELETE operations"
+        },
+        {
+          "letter": "B",
+          "text": "the data lineage"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Storage lifecycle management"
+        },
+        {
+          "letter": "D",
+          "text": "data retention for Table1"
+        }
+      ],
+      "answer": null,
+      "explanation": "For a Unity Catalog managed Delta table, the data-retention setting controls how long deleted files are retained for time travel and recovery before `VACUUM` can permanently remove them. Setting retention to 30 days preserves deleted customer data for audit recovery during that interval and provides an automated, table-level lifecycle policy rather than relying on manually scheduled deletion jobs.\n\n**Learn more:** [Work with table history](https://docs.databricks.com/aws/en/tables/history) · [Predictive optimization for Unity Catalog managed tables](https://docs.databricks.com/aws/en/optimizations/predictive-optimization)"
+    },
+    {
+      "number": 37,
+      "domain": "Prepare and process data",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace that includes a cluster named Cluster1.  \n  \nPerformance monitoring indicates that Cluster1 is consistently overprovisioned for its batch workload:  \n  \n- CPU utilization stays below 20 percent, even during peak processing periods.  \n- The workload is highly predictable and has no spikes.  \n- The current node type already satisfies the workload requirements.  \n  \nYou need to lower compute costs without increasing job duration. What should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable Photon acceleration."
+        },
+        {
+          "letter": "B",
+          "text": "Configure Cluster1 to use a larger node type."
+        },
+        {
+          "letter": "C",
+          "text": "Decrease the autotermination timeout of Cluster1."
+        },
+        {
+          "letter": "D",
+          "text": "Disable autoscaling and reduce the number of worker nodes."
+        }
+      ],
+      "answer": null,
+      "explanation": "A predictable batch workload that remains underutilized even at peak can be right-sized by using fewer worker nodes while retaining the existing node type. This removes unused compute capacity and lowers cost without increasing duration when the reduced worker count still meets the workload’s demonstrated peak requirements. Azure Databricks autoscaling is intended to add and remove workers as workload characteristics change; it is not needed for a stable workload with a known adequate fixed size.\n\n**Learn more:** [Compute configuration reference - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/compute/configure)"
+    },
+    {
+      "number": 38,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "You have an Azure Databricks workspace containing a Lakeflow Jobs job named Job1.  \n  \nJob1 processes raw data files stored in Azure Storage. New files arrive at unpredictable intervals.  \n  \nYou need to ensure that Job1 starts automatically when new files arrive and does **not** consume compute resources when no data is available.  \n  \nWhich type of job trigger should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "manual"
+        },
+        {
+          "letter": "B",
+          "text": "file arrival"
+        },
+        {
+          "letter": "C",
+          "text": "continuous"
+        },
+        {
+          "letter": "D",
+          "text": "scheduled"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A file arrival trigger starts a Lakeflow Jobs run when new files arrive in the configured monitored storage location. It is event-driven, so the job does not need to run continuously while waiting for data.\\\n\\\n**Learn more:** [Automate jobs with schedules and triggers - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/jobs/triggers)"
+    },
+    {
+      "number": 39,
+      "domain": "Prepare and process data",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace with Unity Catalog enabled.  \n  \nYou need to recommend a pipeline that ingests files from cloud storage, performs cleansing and enrichment transformations, and writes curated Delta tables for analytics. The solution must minimize development effort while providing built-in monitoring and automatic retries.  \n  \nWhat should be included in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a Databricks notebook triggered by a scheduled job"
+        },
+        {
+          "letter": "B",
+          "text": "an Apache Spark Structured Streaming job"
+        },
+        {
+          "letter": "C",
+          "text": "a Lakeflow Spark Declarative Pipelines (SDP) pipeline"
+        },
+        {
+          "letter": "D",
+          "text": "an Azure Data Factory pipeline that uses data flows"
+        }
+      ],
+      "answer": null,
+      "explanation": "Lakeflow Spark Declarative Pipelines provides a declarative framework for cloud-storage ingestion and batch or streaming transformations that produce curated Delta-backed datasets. It automates dependency orchestration and retries transient failures, while its monitoring UI and event log provide built-in operational visibility and alerts.\n\n**Learn more:** [What are Lakeflow pipelines? - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/ldp/concepts/) · [Monitor pipelines in the UI - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/ldp/monitoring-ui)"
+    },
+    {
+      "number": 40,
+      "domain": "Set up and configure an Azure Databricks environment",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks solution developed by several engineers and deployed across development, test, and production environments.  \n  \nYou need to implement an application lifecycle management (ALM) process that meets these requirements:  \n  \n- Deploys and source-controls Databricks notebooks, workflows, and jobs consistently and repeatably  \n- Parameterizes the target deployment environment  \n  \nWhat should you include in the solution?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the export and import of Databricks workspaces"
+        },
+        {
+          "letter": "B",
+          "text": "Databricks resources managed by using the Databricks Terraform provider"
+        },
+        {
+          "letter": "C",
+          "text": "Git folders and manual promotion"
+        },
+        {
+          "letter": "D",
+          "text": "Declarative Automation Bundles in Git"
+        }
+      ],
+      "answer": null,
+      "explanation": "Declarative Automation Bundles provide a Git-friendly, declarative project definition for Databricks source files and resources such as notebooks and workflows/jobs, enabling consistent repeatable CI/CD deployments. Bundle targets and variables allow environment-specific settings to be parameterized for development, test, and production deployments.\n\n**Learn more:** [What are Declarative Automation Bundles?](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/bundles/) · [Configuration reference for Declarative Automation Bundles](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/bundles/reference)"
+    },
+    {
+      "number": 41,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace containing a Lakeflow Jobs job named Job1. Job1 has multiple tasks.  \n  \nSome tasks are business-critical, while others are not.  \n  \nYou need to configure alerts so that:  \n  \n- Failures in non-critical tasks do not send notifications.  \n- Notifications are sent only when critical portions of the workflow fail.  \n  \nWhat should trigger a notification?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "task success"
+        },
+        {
+          "letter": "B",
+          "text": "job success"
+        },
+        {
+          "letter": "C",
+          "text": "a task failure"
+        },
+        {
+          "letter": "D",
+          "text": "a job failure"
+        }
+      ],
+      "answer": null,
+      "explanation": "A task failure should trigger the notification when the notification is configured only on critical tasks. Lakeflow Jobs supports notifications at both the job and task level; task notifications provide failure events for individual task runs, allowing non-critical task failures to remain silent. [Add notifications on a job - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/jobs/notifications)\n\n**Learn more:** [Add notifications on a job - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/jobs/notifications)"
+    },
+    {
+      "number": 42,
+      "domain": "Set up and configure an Azure Databricks environment",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace enabled for Unity Catalog that contains two managed Delta tables named `sales.schema1.table1` and `sales.schema1.table2`. `sales.schema1.table1` contains sales data for the current year. `sales.schema1 .table2` contains historical data.  \n  \nYou need to load every row from `sales.schema1.table1` into `sales.schema1.table2`. The solution must retain existing data in `sales.schema1.table2` and minimize processing effort.  \n  \nWhich command should you run?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "INSERT OVERWRITE sales.schema1.table2 SELECT * FROM sales.schema1.table1;"
+        },
+        {
+          "letter": "B",
+          "text": "CREATE TABLE sales.schema1.table2 AS SELECT * FROM sales.schema1.table1;"
+        },
+        {
+          "letter": "C",
+          "text": "INSERT INTO sales.schema1.table2 SELECT * FROM sales.schema1.table1;"
+        },
+        {
+          "letter": "D",
+          "text": "CREATE OR REPLACE TABLE sales.schema1.table2 AS SELECT * FROM sales.schema1.table1;"
+        }
+      ],
+      "answer": null,
+      "explanation": "In Databricks SQL, `INSERT INTO` adds rows to the target table without removing its existing rows. It therefore appends the current-year sales rows to the historical Delta table, whereas `INSERT OVERWRITE` truncates the target before loading data.\n\n**Learn more:** [INSERT | Databricks Documentation](https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-dml-insert-into)"
+    },
+    {
+      "number": 51,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "You have an Azure Databricks workspace containing a Git folder that uses an Azure Repos Git repository.  \n  \nFrom the main branch, you create a branch named Branch1 and commit changes to Branch1.  \n  \nYou need to integrate the changes from Branch1 into main. The solution must retain the repository’s commit history.  \n  \nWhich Git operation should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "rebase"
+        },
+        {
+          "letter": "B",
+          "text": "pull"
+        },
+        {
+          "letter": "C",
+          "text": "merge"
+        },
+        {
+          "letter": "D",
+          "text": "push"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A merge combines Branch1 into main while preserving the commit history of both branches. Azure Databricks Git folders use `git merge` for branch merging; unlike rebase, it does not rewrite commit history.\\\n\\\n**Learn more:** [Run Git operations on Databricks Git folders](https://learn.microsoft.com/en-us/azure/databricks/repos/git-operations-with-repos)"
+    },
+    {
+      "number": 52,
+      "domain": "Set up and configure an Azure Databricks environment",
+      "question": "You have an Azure Databricks workspace containing a Git folder that uses an Azure Repos Git repository.  \n  \nFrom the main branch, you create a branch named Branch1 and commit changes to Branch1.  \n  \nYou need to integrate the changes from Branch1 into main. The solution must retain the repository’s commit history.  \n  \nWhich Git operation should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Install the libraries by using pip3."
+        },
+        {
+          "letter": "B",
+          "text": "Create a custom dependency management script and run the script from a Databricks notebook."
+        },
+        {
+          "letter": "C",
+          "text": "Upload the libraries to Workspace1 and install the libraries on Cluster1."
+        },
+        {
+          "letter": "D",
+          "text": "Install the libraries on Cluster1 and manually restart the cluster."
+        }
+      ],
+      "answer": null,
+      "explanation": "Cluster-scoped libraries are installed through the cluster’s library management workflow, making them available to workloads that run on that compute. Library files can be uploaded to workspace files and selected as the source when installing a library on a cluster. Unity Catalog workloads must also run on Unity Catalog-compliant compute with an appropriate access mode.\n\n**Learn more:** [Install libraries from workspace files - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/libraries/workspace-files-libraries) · [Unity Catalog setup guide - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/setup-uc)"
+    },
+    {
+      "number": 53,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace that uses Unity Catalog.  \n  \nYou have a Lakeflow Spark Declarative Pipelines (SDP) pipeline that ingests data into a managed Delta table named Table1. Table1 is used for analytics.  \n  \nNew columns are added to the source data, which causes pipeline write failures to Table1.  \n  \nYou need to prevent the pipeline failures. The solution must ensure that schema changes are detected and handled.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Disable schema enforcement for Table1."
+        },
+        {
+          "letter": "B",
+          "text": "Use row filters to exclude records that have new columns."
+        },
+        {
+          "letter": "C",
+          "text": "Enable schema evolution."
+        },
+        {
+          "letter": "D",
+          "text": "Create a separate table for each schema version."
+        }
+      ],
+      "answer": null,
+      "explanation": "Delta tables enforce their schema during writes. When schema evolution is enabled, source columns that are missing from the target are detected and automatically added to the Delta table schema as part of the write, allowing the pipeline to continue processing the changed source schema.\n\n**Learn more:** [Update table schema - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/tables/update-schema) · [Schema evolution in Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/data-engineering/schema-evolution)"
+    },
+    {
+      "number": 54,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$L6d\"]}]]}],\"$L6e\"]}],false]}]\nYou have an Azure Databricks workspace attached to a Unity Catalog metastore named `metastore1`. `metastore1` contains a catalog named `catalog1`.  \n  \nYou need to create a new schema named `schema2` that meets the following requirements:  \n  \n- Is contained in `catalog1`.  \n- Uses `abfss://[email protected]/data` as its managed location.  \n  \nWhich SQL statement should you execute?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CREATE SCHEMA catalog1.schema2 -LOCATION ‘abfss://[email protected]/data’;"
+        },
+        {
+          "letter": "B",
+          "text": "CREATE SCHEMA catalog1.schema2 -MANAGED LOCATION ‘abfss://[email protected]/data’;"
+        },
+        {
+          "letter": "C",
+          "text": "CREATE CATALOG schema2 -MANAGED LOCATION ‘abfss://[email protected]/data’;"
+        },
+        {
+          "letter": "D",
+          "text": "CREATE SCHEMA catalog1.schema2 -WITH DBPROPERTIES (LOCATION-’abfss://[email protected]/data’);"
+        }
+      ],
+      "answer": null,
+      "explanation": "A Unity Catalog schema is created with the qualified name `catalog1.schema2`. Its managed storage root must be specified using the `MANAGED LOCATION` clause; `LOCATION` is not supported for Unity Catalog schemas. The storage path must also correspond to a configured external location for which the required managed-storage privilege is held.\n\n**Learn more:** [CREATE SCHEMA - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-create-schema)"
+    },
+    {
+      "number": 55,
+      "domain": "Prepare and process data",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace enabled for Unity Catalog that contains a catalog named Catalog1. Catalog1 includes a table named Transactions. Transactions has the following columns: transaction_id, customer_name, email_address, credit_card_number, transaction_amount.  \n  \nYou need to ensure that business analysts can query every row in the Transactions table. The solution must meet these requirements:  \n  \n- Prevent the analysts from viewing the complete values in the email_address and credit_card_number columns.  \n- Ensure that analysts can see only the values following the `@` character in each email address.  \n- Ensure that analysts can see only the final four digits of every credit card number.  \n- Allow the analysts to query the table without errors.  \n- Follow the principle of least privilege.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Grant the analysts the SELECT permission for the Transactions table and apply column-level encryption."
+        },
+        {
+          "letter": "B",
+          "text": "Grant the analysts the SELECT permission for columns that do NOT contain sensitive data."
+        },
+        {
+          "letter": "C",
+          "text": "Grant the analysts the SELECT permission for the Transactions table and implement row-level filters."
+        },
+        {
+          "letter": "D",
+          "text": "Grant the analysts the SELECT permission for the Transactions table and apply column masks to email_address and credit_card_number."
+        }
+      ],
+      "answer": null,
+      "explanation": "Unity Catalog column masks apply a function to a column whenever table rows are fetched, returning the masked result instead of the original value. A mask can expose only an email domain and only the last four digits of a credit card number while preserving all rows. SELECT grants read access to the table; row filters restrict rows rather than redact column values.\n\n**Learn more:** [Column mask clause - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-column-mask) · [Unity Catalog setup guide - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/setup-uc)"
+    },
+    {
+      "number": 56,
+      "domain": "Prepare and process data",
+      "question": "You need to deploy Databricks Asset Bundles to a development environment. The solution must enable automated, repeatable deployments across environments.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Git folders"
+        },
+        {
+          "letter": "B",
+          "text": "the Databricks CLI"
+        },
+        {
+          "letter": "C",
+          "text": "the Databricks SDK for Python"
+        },
+        {
+          "letter": "D",
+          "text": "the Jobs UI"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The Databricks CLI provides `bundle` commands to validate and deploy Databricks Asset Bundles to configured deployment targets. Target-specific configurations enable automated, repeatable deployments across development, staging, and production environments.\\\n\\\n**Learn more:** [Databricks CLI bundle command group](https://docs.databricks.com/aws/en/dev-tools/cli/bundle-commands) · [What are Declarative Automation Bundles?](https://docs.databricks.com/aws/en/dev-tools/bundles)"
+    },
+    {
+      "number": 57,
+      "domain": "Prepare and process data",
+      "question": "You need to deploy Databricks Asset Bundles to a development environment. The solution must enable automated, repeatable deployments across environments.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the existing SQL warehouse"
+        },
+        {
+          "letter": "B",
+          "text": "an all-purpose cluster that uses autoscaling"
+        },
+        {
+          "letter": "C",
+          "text": "a job cluster that uses autoscaling"
+        },
+        {
+          "letter": "D",
+          "text": "a single-node, all-purpose cluster"
+        }
+      ],
+      "answer": null,
+      "explanation": "An autoscaling job cluster provisions compute for the workload and adjusts worker capacity to demand, avoiding the cost and administration of a continuously available all-purpose cluster. SQL warehouses are for SQL workloads, and a single-node cluster cannot scale out for distributed pipeline processing.\n\n**Learn more:** [Configure classic compute for pipelines - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/ldp/configure-compute) · [Classic compute overview - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/compute/use-compute)"
+    },
+    {
+      "number": 58,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"dp-750\",\"data-q\":63,\"data-question-id\":\"3c98ab42-03cc-40d6-86d9-4be93d64510d\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],\"$L83\"]}],\"$L84\"]}]]}]]}],\"$L85\"]}],\"$L86\"]}]\nAn Azure Databricks workspace is enabled for Unity Catalog and contains two catalogs: Catalog1 and Catalog2.  \n  \nAn external application uses a service principal named SP1 to connect to a SQL warehouse.  \n  \nYou need to ensure that SP1 can query data in Catalog1 and Catalog2 while following the principle of least privilege.  \n  \nWhich catalog permissions should you grant to SP1?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "USE SCHEMA and SELECT"
+        },
+        {
+          "letter": "B",
+          "text": "USE CATALOG and SELECT"
+        },
+        {
+          "letter": "C",
+          "text": "USE CATALOG, USE SCHEMA, and SELECT"
+        },
+        {
+          "letter": "D",
+          "text": "USE CATALOG and USE SCHEMA"
+        }
+      ],
+      "answer": null,
+      "explanation": "Reading data from a Unity Catalog table or view requires `USE CATALOG` on the parent catalog, `USE SCHEMA` on the parent schema, and `SELECT` on the table or view. Granting those privileges on each catalog permits querying the contained data without granting write or administrative permissions.\n\n**Learn more:** [Unity Catalog permissions model concepts](https://learn.microsoft.com/en-us/azure/databricks/data-governance/unity-catalog/access-control/permissions-concepts)"
+    },
+    {
+      "number": 59,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "You have an Azure Databricks workspace that includes a Lakeflow Jobs job named Job1. Job1 contains multiple tasks.  \n  \nFailures of non-critical tasks must be logged but must **not** cause notifications. Notifications must be triggered only after critical tasks have failed and Job1 has finished.  \n  \nYou need to configure the job alerting behavior.  \n  \nWhat should trigger a notification?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "task success"
+        },
+        {
+          "letter": "B",
+          "text": "a job failure"
+        },
+        {
+          "letter": "C",
+          "text": "a task failure"
+        },
+        {
+          "letter": "D",
+          "text": "job success"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A job-failure notification is sent when the job run has stopped in an unsuccessful state. This waits for job completion and avoids task-level notifications for non-critical task failures; critical task failures should be configured to make the overall job run fail.\\\n\\\n**Learn more:** [Add notifications on a job - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/jobs/notifications)"
+    },
+    {
+      "number": 60,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "You have an Azure Databricks workspace containing a Lakeflow Jobs job named Job1.  \n  \nJob1 runs on a schedule and processes business-critical data.  \n  \nYou need to ensure that you are notified if Job1 fails.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add a SQL alert task to Job1."
+        },
+        {
+          "letter": "B",
+          "text": "Create an Azure Monitor alert rule based on the metrics of Job1."
+        },
+        {
+          "letter": "C",
+          "text": "Send the job run results of Job1 to Log Analytics."
+        },
+        {
+          "letter": "D",
+          "text": "Configure a failure notification to be sent for the job runs of Job1."
+        }
+      ],
+      "answer": "D",
+      "explanation": "Azure Databricks Lakeflow Jobs supports job-level notifications for run events, including failures. Configure a notification destination and select the **Failure** event for Job1 so recipients are notified when a job run fails.\\\n\\\n**Learn more:** [Add notifications on a job - Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/jobs/notifications)"
+    },
+    {
+      "number": 61,
+      "domain": "Deploy and maintain data pipelines and workloads",
+      "question": "You have an Azure Databricks workspace containing a Lakeflow Jobs job named Job1.  \n  \nJob1 runs on a schedule and processes business-critical data.  \n  \nYou need to ensure that you are notified if Job1 fails.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure a checkpoint location for the streaming query."
+        },
+        {
+          "letter": "B",
+          "text": "Increase the trigger interval of the streaming query."
+        },
+        {
+          "letter": "C",
+          "text": "Enable change data feed (CDF) for the target table."
+        },
+        {
+          "letter": "D",
+          "text": "Configure a watermark for the streaming query."
+        }
+      ],
+      "answer": null,
+      "explanation": "A persistent checkpoint location stores the streaming query’s processed source offsets, committed micro-batches, and state. When the job restarts, Structured Streaming restores this checkpoint and continues from its recorded progress without reprocessing already completed input. [Structured Streaming checkpoints — Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/structured-streaming/checkpoints)\n\n**Learn more:** [Structured Streaming checkpoints — Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/structured-streaming/checkpoints)"
+    },
+    {
+      "number": 62,
+      "domain": "Set up and configure an Azure Databricks environment",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace.  \n  \nYou are creating a Lakeflow Spark Declarative Pipelines (SDP) pipeline that automatically scales.  \n  \nYou need to configure compute for the pipeline. The solution must minimize operational costs and administrative effort.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "serverless compute"
+        },
+        {
+          "letter": "B",
+          "text": "a single-node, all-purpose cluster"
+        },
+        {
+          "letter": "C",
+          "text": "an all-purpose cluster that uses autoscaling"
+        },
+        {
+          "letter": "D",
+          "text": "an existing SQL warehouse"
+        },
+        {
+          "letter": "E",
+          "text": "a job cluster that uses autoscaling"
+        }
+      ],
+      "answer": null,
+      "explanation": "Serverless compute runs Lakeflow Spark Declarative Pipelines without requiring cluster provisioning or manual infrastructure configuration. Azure Databricks manages the resources and automatically scales them; serverless pipelines also use enhanced autoscaling and select cost-efficient instance types as workload requirements change.\n\n**Learn more:** [Best practices for Lakeflow pipelines](https://learn.microsoft.com/en-us/azure/databricks/ldp/best-practices) · [Optimize the cluster utilization of Lakeflow Spark Declarative Pipelines with Autoscaling](https://learn.microsoft.com/en-us/azure/databricks/ldp/auto-scaling)"
+    },
+    {
+      "number": 63,
+      "domain": "Set up and configure an Azure Databricks environment",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure Databricks workspace enabled for Unity Catalog that contains a Delta table named Table1.  \n  \nTable1 contains approximately 1.5 TB of data and has these columns: `event_time`, `event_type`.  \n  \nQueries against Table1 often filter by ranges of `event_time`.  \n  \nYou need to implement a data-layout strategy that improves query performance for `event_time` filters, prevents over-partitioning, and stays efficient as data volume increases over time.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Implement liquid clustering on Table1."
+        },
+        {
+          "letter": "B",
+          "text": "Create a fixed number of partitions based on the total table size."
+        },
+        {
+          "letter": "C",
+          "text": "Partition Table1 by using the event_type column."
+        },
+        {
+          "letter": "D",
+          "text": "Partition Table1 by using the event_time column."
+        }
+      ],
+      "answer": null,
+      "explanation": "Liquid clustering dynamically organizes Delta table data around clustering columns such as `event_time`, improving data skipping for range filters without imposing static partition boundaries. It supports both low- and high-cardinality columns and avoids the small-file and over-partitioning problems associated with legacy static partitioning as the table grows.\n\n**Learn more:** [When to partition tables on Azure Databricks](https://learn.microsoft.com/en-us/azure/databricks/tables/partitions) · [CLUSTER BY clause (TABLE)](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/sql-ref-syntax-ddl-cluster-by)"
+    },
+    {
+      "number": 76,
+      "domain": "Prepare and process data",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "UPDATE"
+        },
+        {
+          "letter": "B",
+          "text": "INSERT OVERWRITE"
+        },
+        {
+          "letter": "C",
+          "text": "INSERT INTO"
+        }
+      ],
+      "answer": null,
+      "explanation": "`INSERT INTO` appends new rows to an existing Delta table, preserving its historical records. Because the source contains only inserts and no changes to existing rows, an append operation avoids the additional matching or replacement work required by update or overwrite operations.\n\n**Learn more:** [INSERT | Databricks documentation](https://docs.databricks.com/aws/en/sql/language-manual/sql-ref-syntax-dml-insert-into)"
+    },
+    {
+      "number": 77,
+      "domain": "Prepare and process data",
+      "question": "Solution: Run the following expression:  \n  \n`df.fillna(0, subset=[’order_amount’])`  \n  \nDoes this accomplish the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "`fillna` creates a new DataFrame in which null values in the specified column are replaced with `0`. It does not exclude rows whose `order_amount` is null; those rows remain, with a value of zero. Apache Spark documents that `DataFrame.fillna` returns a DataFrame with null values replaced.\\\n\\\n**Learn more:** [PySpark DataFrame.fillna documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.fillna.html)"
+    },
+    {
+      "number": 78,
+      "domain": "Prepare and process data",
+      "question": "Solution: Run the following expression:  \n  \n```python  \ndf.filter(df.order_amount.isNotNull())  \n```  \n  \nDoes this accomplish the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "`Column.isNotNull()` evaluates to true for non-null values, and `DataFrame.filter` retains rows for which its condition is true. Filtering on `order_amount.isNotNull()` therefore excludes rows with a null `order_amount`.\\\n\\\n**Learn more:** [PySpark Column.isNotNull documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.Column.isNotNull.html) · [PySpark DataFrame.filter documentation](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrame.filter.html)"
+    },
+    {
+      "number": 79,
+      "domain": "Prepare and process data",
+      "question": "Solution: Run the following expression:  \n  \n`df.dropna(subset=[“order_amount”])`  \n  \nDoes this achieve the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "`DataFrame.dropna` returns a new DataFrame and, when `subset` specifies `order_amount`, evaluates nulls in that column. Its default behavior drops every row having a null value in the specified subset, so rows whose `order_amount` is null are excluded.\\\n\\\n**Learn more:** [PySpark DataFrameNaFunctions.drop](https://spark.apache.org/docs/latest/api/python/reference/pyspark.sql/api/pyspark.sql.DataFrameNaFunctions.drop.html)"
+    },
+    {
+      "number": 80,
+      "domain": "Prepare and process data",
+      "question": "Solution: Run the following expression:  \n  \n`df.filter(df.order_amount != None)`  \n  \nDoes this achieve the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A comparison to `None` does not test whether a Spark column is non-null; it creates a null comparison, whose result is unknown rather than true for non-null values. To exclude null order amounts, use an `isNotNull()` predicate, such as `df.filter(df.order_amount.isNotNull())`."
+    },
+    {
+      "number": 81,
+      "domain": "Secure and govern Unity Catalog objects",
+      "question": "Solution: Run the following expression:  \n  \n`df.filter(df.order_amount != None)`  \n  \nDoes this achieve the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sales1"
+        },
+        {
+          "letter": "B",
+          "text": "Schema1"
+        },
+        {
+          "letter": "C",
+          "text": "Space1"
+        },
+        {
+          "letter": "D",
+          "text": "Catalog1"
+        },
+        {
+          "letter": "E",
+          "text": "Notebook1"
+        }
+      ],
+      "answer": null,
+      "explanation": "Knowledge-store configuration and instructions are scoped to a Genie space. Adding the instruction to Space1 lets Genie interpret transaction, event, order, and invoice as references to Sales1 within that space, while leaving every other Genie space unaffected.\n\n**Learn more:** [Set up and manage an AI/BI Genie space](https://docs.databricks.com/aws/genie/set-up)"
+    },
+    {
+      "number": 82,
+      "domain": "Prepare and process data",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L52\",\"$L53\"]\n4f:[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]\n50:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n51:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3c\",null,{\"questionNumber\":81,\"questionId\":\"113ea8c2-7b22-43d7-a414-0a3fe9a693e6\",\"examProvider\":\"microsoft\",\"examName\":\"dp-750\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L54\"}]}],[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-750\",\"questionNumber\":81,\"questionId\":\"113ea8c2-7b22-43d7-a414-0a3fe9a693e6\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"dp-750\",\"questionNumber\":81,\"questionId\":\"113ea8c2-7b22-43d7-a414-0a3fe9a693e6\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/dp-750/4\"}]}]]}]\nYou have an Azure Databricks workspace enabled for Unity Catalog that contains a managed Delta table named Table1. Table1 stores customer data.  \n  \nYou need to implement a data-retention solution that meets these requirements:  \n  \n- Deleted data must be retained for 30 days to support audits.  \n- Deleted data older than 30 days must be permanently removed.  \n- The solution must minimize administrative effort.  \n  \nWhich two properties should you configure? Each correct answer presents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "delta.timeUntilArchived"
+        },
+        {
+          "letter": "B",
+          "text": "delta.enableDeletionVectors"
+        },
+        {
+          "letter": "C",
+          "text": "delta.logRetentionDuration"
+        },
+        {
+          "letter": "D",
+          "text": "delta.deletedFileRetentionDuration"
+        },
+        {
+          "letter": "E",
+          "text": "delta.autoOptimize.autoCompact"
+        }
+      ],
+      "answer": null,
+      "explanation": "`delta.deletedFileRetentionDuration` sets the retention threshold that VACUUM uses before permanently removing data files no longer referenced by the current Delta table version. `delta.logRetentionDuration` retains the Delta transaction-log history needed to access historical versions during the same 30-day audit period. For Unity Catalog managed tables, predictive optimization can automatically run VACUUM, reducing manual maintenance.\n\n**Learn more:** [Work with table history](https://docs.databricks.com/aws/en/tables/history) · [Remove unused data files with vacuum](https://docs.databricks.com/gcp/en/delta/vacuum)"
+    }
+  ]
+}

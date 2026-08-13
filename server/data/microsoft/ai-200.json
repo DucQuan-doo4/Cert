@@ -1,0 +1,826 @@
+{
+  "provider": "microsoft",
+  "slug": "ai-200",
+  "fullSlug": "microsoft/ai-200",
+  "title": "Copy link to this question",
+  "totalQuestions": 66,
+  "totalPages": 2,
+  "crawledPages": 3,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Develop containerized solutions on Azure",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tag the image as production and deploy it by using the production tag."
+        },
+        {
+          "letter": "B",
+          "text": "Schedule nightly rebuilds of the image."
+        },
+        {
+          "letter": "C",
+          "text": "Configure deployment to use the latest tag."
+        },
+        {
+          "letter": "D",
+          "text": "Identify the image by using its SHA digest."
+        }
+      ],
+      "answer": null,
+      "explanation": "A container image manifest digest is a unique SHA-256 content identifier for that exact image build. Deploying by digest pins the deployment to that image even if a tag such as `production` or `latest` is later moved to another build. [About Registries, Repositories, Images, and Artifacts – Azure Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-concepts)\n\n**Learn more:** [About Registries, Repositories, Images, and Artifacts – Azure Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-concepts)"
+    },
+    {
+      "number": 2,
+      "domain": "Secure, monitor, troubleshoot Azure solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L36\",\"$L37\",\"$L38\",\"$L39\"]\n28:[\"$\",\"$19\",null,{\"fallback\":[[\"$\",\"div\",\"0\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"1\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"2\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}]],\"children\":\"$L3a\"}]\n29:[\"$\",\"nav\",null,{\"className\":\"pagination-container\",\"aria-label\":\"Exam pages\",\"children\":[[\"$\",\"p\",null,{\"className\":\"pagination-info\",\"children\":[\"Page \",[\"$\",\"strong\",null,{\"children\":1}],\" of \",3,[\"$\",\"span\",null,{\"className\":\"pagination-info-sep\",\"aria-hidden\":\"true\",\"children\":\"•\"}],\"Questions \",1,\"–\",25,\" of \",66]}],[\"$\",\"div\",null,{\"className\":\"pagination-nav\",\"children\":[[\"$\",\"span\",null,{\"className\":\"button link back-arrow pagination-arrow is-disabled\",\"aria-disabled\":\"true\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Prev\"}]}],[\"$\",\"div\",null,{\"className\":\"pagination-numbers\",\"children\":[[\"$\",\"span\",\"1\",{\"className\":\"button primary sm pagination-page is-current\",\"aria-current\":\"page\",\"children\":1}],[\"$\",\"$L20\",\"2\",{\"href\":\"/exams/microsoft/ai-200/2\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 2\",\"children\":2}],[\"$\",\"$L20\",\"3\",{\"href\":\"/exams/microsoft/ai-200/3\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 3\",\"children\":3}]]}],[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ai-200/2\",\"className\":\"button link arrow pagination-arrow\",\"aria-label\":\"Next page\",\"rel\":\"next\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Next\"}]}]]}]]}]\n2a:[\"$\",\"div\",null,{\"className\":\"contribute-cta\",\"children\":[[\"$\",\"$L3b\",null,{\"src\":\"/icons/hand-holding-heart.svg\",\"alt\":\"\",\"width\":20,\"height\":20,\"aria-hidden\":\"true\"}],[\"$\",\"span\",null,{\"className\":\"contribute-cta-text\",\"children\":[\"Know a question that should be here?\",\" \",[\"$\",\"$L20\",null,{\"href\":\"/contribute/microsoft/ai-200\",\"children\":\"Contribute to this exam\"}]]}]]}]\n2b:[\"$\",\"$L3c\",null,{}]\n3d:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3f:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n40:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n33:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n34:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n35:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3d\",null,{\"questionNumber\":1,\"questionId\":\"bfafc792-e326-4a0c-9a5b-fd4dc796bd8b\",\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L3e\"}]}],[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":1,\"questionId\":\"bfafc792-e326-4a0c-9a5b-fd4dc796bd8b\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L40\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":1,\"questionId\":\"bfafc792-e326-4a0c-9a5b-fd4dc796bd8b\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-200/1\"}]}]]}]\nA container in an AKS cluster is restarting repeatedly.  \n  \nPod events indicate probe failures, while node-level CPU and memory metrics are normal.  \n  \nYou need to identify the cause of the recurring restarts. What should you do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scale the deployment to more replicas."
+        },
+        {
+          "letter": "B",
+          "text": "Decrease the initialDelaySeconds for the container liveness probe."
+        },
+        {
+          "letter": "C",
+          "text": "Drain and reboot the node hosting the pod."
+        },
+        {
+          "letter": "D",
+          "text": "Inspect the pod events and container logs."
+        }
+      ],
+      "answer": null,
+      "explanation": "Liveness or readiness probe failures can cause recurring container restarts even when node resources are healthy. Pod events provide the probe failure details, and container logs—especially logs from the previous container instance—expose application startup, endpoint, and termination errors needed to identify the root cause.\n\n**Learn more:** [Troubleshoot pod workload restarts in AKS](https://learn.microsoft.com/en-us/troubleshoot/azure/azure-kubernetes/availability-performance/troubleshoot-pod-workload-restart) · [Troubleshoot app connection issues in an AKS cluster](https://learn.microsoft.com/en-us/troubleshoot/azure/azure-kubernetes/connectivity/connection-issues-application-hosted-aks-cluster)"
+    },
+    {
+      "number": 3,
+      "domain": "Develop containerized solutions on Azure",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You develop a message-processing service that is deployed to Azure Container Apps. The service reads messages from an Azure Service Bus queue.  \n  \nThe solution must minimize costs by ensuring that **no compute resources** are consumed when the queue is empty.  \n  \nYou need to configure scaling for the service.  \n  \nWhich two actions should you take? Each correct answer presents part of the solution.  \n  \n&gt; NOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increase the scaling rule to allow for the maximum running replica count."
+        },
+        {
+          "letter": "B",
+          "text": "Configure the scaling rule to allow for the termination of all active replicas."
+        },
+        {
+          "letter": "C",
+          "text": "Configure a Kubernetes Event-driven Autoscaler rule that monitors queue length."
+        },
+        {
+          "letter": "D",
+          "text": "Enable HTTP ingress concurrency scaling."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Container Apps uses KEDA-based custom scaling rules to scale on Azure Service Bus queue messages. Configuring a KEDA rule that monitors queue length starts replicas when messages are pending, and allowing all replicas to terminate permits the app to scale to zero when the queue is empty, eliminating idle compute consumption.\n\n**Learn more:** [Scaling in Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/scale-app)"
+    },
+    {
+      "number": 4,
+      "domain": "Develop containerized solutions on Azure",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You configure ACR Tasks to automate container image builds.  \n  \nContainer images must be rebuilt when:  \n  \n- Application updates occur.  \n- Base image updates occur, such as when the underlying OS image is updated.  \n- Regular scheduled rebuilds are needed.  \n  \nYou need to configure ACR Tasks to support automated image rebuilds.  \n  \nWhich three triggers should you configure? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Timer trigger"
+        },
+        {
+          "letter": "B",
+          "text": "Source code commit trigger"
+        },
+        {
+          "letter": "C",
+          "text": "Registry event trigger"
+        },
+        {
+          "letter": "D",
+          "text": "Base image update trigger"
+        },
+        {
+          "letter": "E",
+          "text": "Webhook notification trigger"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Container Registry Tasks can automatically run builds on source-code commits, base-image updates, and timer schedules. These triggers respectively handle application changes, updated parent images such as OS images, and recurring rebuilds.\n\n**Learn more:** [Automate container image builds and maintenance with Azure Container Registry tasks](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-tasks-overview) · [Schedule Azure Container Registry (ACR) Tasks](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-tasks-scheduled)"
+    },
+    {
+      "number": 5,
+      "domain": "Develop containerized solutions on Azure",
+      "question": "You need to increase throughput for simultaneous application requests to PostgreSQL.  \n  \nWhat should you implement?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Implement connection pooling."
+        },
+        {
+          "letter": "B",
+          "text": "Increase shared_buffers."
+        },
+        {
+          "letter": "C",
+          "text": "Enable read replicas."
+        },
+        {
+          "letter": "D",
+          "text": "Increase max_connections."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Connection pooling maintains and reuses a controlled set of PostgreSQL connections, reducing the overhead of repeatedly creating connections and supporting high-concurrency application traffic with lower latency. Azure Database for PostgreSQL documentation recommends a connection pooler such as PgBouncer to efficiently manage connections.\\\n\\\n**Learn more:** [Azure Database for PostgreSQL flexible server - Connection pooling concepts](https://learn.microsoft.com/en-us/azure/postgresql/flexible-server/concepts-connection-pooling)"
+    },
+    {
+      "number": 6,
+      "domain": "Connect to and consume Azure services",
+      "question": "You need to increase throughput for simultaneous application requests to PostgreSQL.  \n  \nWhat should you implement?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a B-tree index on metadata filter columns."
+        },
+        {
+          "letter": "B",
+          "text": "Increase the max_connections parameter."
+        },
+        {
+          "letter": "C",
+          "text": "Increase the shared_buffers setting."
+        },
+        {
+          "letter": "D",
+          "text": "Create an IVFFlat index on the embedding column."
+        }
+      ],
+      "answer": null,
+      "explanation": "An IVFFlat index on the embedding column enables pgvector approximate nearest-neighbor search, partitioning vectors into lists so a search evaluates likely candidates instead of performing an exact comparison against every embedding. This improves vector-search latency and should be created after bulk ingestion for faster, more optimal index construction. [Optimize Performance when Using pgvector in Azure Database for PostgreSQL Flexible Server](https://learn.microsoft.com/sk-sk/azure/postgresql/extensions/how-to-optimize-performance-pgvector)\n\n**Learn more:** [Optimize Performance when Using pgvector in Azure Database for PostgreSQL Flexible Server](https://learn.microsoft.com/sk-sk/azure/postgresql/extensions/how-to-optimize-performance-pgvector)"
+    },
+    {
+      "number": 7,
+      "domain": "Develop AI solutions by using Azure data management services",
+      "question": "You deploy multiple instances of a change feed processor to manage a high ingestion rate in Azure Cosmos DB for NoSQL.  \n  \nEach processor instance must handle a distinct subset of partitions. You need to make sure the workload is load-balanced across all processor instances.  \n  \nWhat should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "indexing precision"
+        },
+        {
+          "letter": "B",
+          "text": "strong consistency"
+        },
+        {
+          "letter": "C",
+          "text": "lease container"
+        },
+        {
+          "letter": "D",
+          "text": "autoscale throughput"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A lease container stores lease state and coordinates partition-range ownership among change feed processor instances. When the instances use the same lease-container configuration, the processor distributes leases across them and dynamically rebalances the workload as instances change.\\\n\\\n**Learn more:** [Change Feed Processor - Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/change-feed-processor)"
+    },
+    {
+      "number": 8,
+      "domain": "Develop AI solutions by using Azure data management services",
+      "question": "You deploy multiple instances of a change feed processor to manage a high ingestion rate in Azure Cosmos DB for NoSQL.  \n  \nEach processor instance must handle a distinct subset of partitions. You need to make sure the workload is load-balanced across all processor instances.  \n  \nWhat should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create B-tree indexes on frequently filtered metadata columns."
+        },
+        {
+          "letter": "B",
+          "text": "Store embeddings as JSON."
+        },
+        {
+          "letter": "C",
+          "text": "Increase embedding dimensionality."
+        },
+        {
+          "letter": "D",
+          "text": "Increase statement timeout."
+        }
+      ],
+      "answer": null,
+      "explanation": "A B-tree index on a frequently filtered scalar metadata column such as `department` can efficiently narrow the candidate rows before cosine-distance ranking. Reducing the rows that must be considered lowers CPU work and improves latency for this filter pattern. Azure guidance also recommends indexing and query-plan optimization to improve pgvector search performance.\n\n**Learn more:** [Optimize performance when using pgvector in Azure Database for PostgreSQL flexible server](https://learn.microsoft.com/sk-sk/azure/postgresql/extensions/how-to-optimize-performance-pgvector)"
+    },
+    {
+      "number": 9,
+      "domain": "Secure, monitor, troubleshoot Azure solutions",
+      "question": "You store embeddings in a property called `embedding` within an Azure Cosmos DB for NoSQL container.  \n  \nYou must retrieve the five documents most similar to an input embedding.  \n  \nYou need to build the similarity query. What should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use offset pagination."
+        },
+        {
+          "letter": "B",
+          "text": "Enforce strong consistency."
+        },
+        {
+          "letter": "C",
+          "text": "Group by embedding value."
+        },
+        {
+          "letter": "D",
+          "text": "Limit the number of results."
+        }
+      ],
+      "answer": "D",
+      "explanation": "Azure Cosmos DB for NoSQL vector queries order items by `VectorDistance` and use `TOP N` to return the required number of nearest matches. A `TOP 5` clause limits the result set to the five most similar documents; Microsoft recommends using `TOP N` for vector searches to avoid returning unnecessary results.\\\n\\\n**Learn more:** [Integrated Vector Store - Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/vector-search)"
+    },
+    {
+      "number": 10,
+      "domain": "Connect to and consume Azure services",
+      "question": "You store embeddings in a property called `embedding` within an Azure Cosmos DB for NoSQL container.  \n  \nYou must retrieve the five documents most similar to an input embedding.  \n  \nYou need to build the similarity query. What should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a customer-managed key (CMK) and store the key in a new Azure Key Vault instance."
+        },
+        {
+          "letter": "B",
+          "text": "Create a data encryption key (DEK) by using the Azure Cosmos DB SDK and store the key in Azure Cosmos DB."
+        },
+        {
+          "letter": "C",
+          "text": "Create a Microsoft Entra ID managed identity and assign the identity to a new Azure Key Vault instance."
+        },
+        {
+          "letter": "D",
+          "text": "Create a new container to include an encryption policy with the JSON properties to be encrypted."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Cosmos DB Always Encrypted encrypts data with a DEK that is created client-side and stored in Cosmos DB. Before that DEK can be stored, it must be wrapped with a CMK; the default CMK implementation uses Azure Key Vault. The container encryption policy is created only after the required DEK exists.\n\n**Learn more:** [Use client-side encryption with Always Encrypted for Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/how-to-always-encrypted)"
+    },
+    {
+      "number": 11,
+      "domain": "Connect to and consume Azure services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are building an AI search API that stores semantic-search results in Redis.  \n  \nSearch results must stay cached for 10 minutes. If the underlying data is modified, cached entries must **not** be returned.  \n  \nYou need to implement a cache-aside strategy that maintains data consistency.  \n  \nWhich two actions should you take? Each correct answer represents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure a cache notification for key space events."
+        },
+        {
+          "letter": "B",
+          "text": "Delete related cache keys when the source data changes."
+        },
+        {
+          "letter": "C",
+          "text": "Implement sliding expiration based on key access."
+        },
+        {
+          "letter": "D",
+          "text": "Configure a 10-minute Time to Live on each key."
+        }
+      ],
+      "answer": null,
+      "explanation": "Cache-aside stores entries with a TTL to bound their lifetime and explicitly invalidates affected cache keys when the source data is updated. A 10-minute TTL satisfies the required cache duration, and deleting related keys on a data change forces the next read to retrieve and cache current data rather than returning a stale value. Redis documents cache-aside as using a per-key TTL together with deletion on write for explicit invalidation.\n\n**Learn more:** [Redis cache-aside documentation](https://redis.io/docs/latest/develop/use-cases/cache-aside/)"
+    },
+    {
+      "number": 12,
+      "domain": "Develop AI solutions by using Azure data management services",
+      "question": "Embeddings are stored in Redis with keys formatted as `doc:(id)`. Some embeddings are accessed frequently, while others are rarely used.  \n  \nYou need to implement a caching strategy that retains only frequently accessed embeddings in memory.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "volatile-ttl"
+        },
+        {
+          "letter": "B",
+          "text": "allkeys-lru"
+        },
+        {
+          "letter": "C",
+          "text": "EXPIRE command"
+        },
+        {
+          "letter": "D",
+          "text": "time-window expiration"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Redis’s `allkeys-lru` eviction policy applies to all keys and evicts the least recently used ones when the configured memory limit is reached. This keeps frequently accessed embeddings in memory while allowing rarely used embeddings to be removed.\\\n\\\n**Learn more:** [Redis key eviction documentation](https://redis.io/docs/latest/develop/reference/eviction/)"
+    },
+    {
+      "number": 13,
+      "domain": "Develop AI solutions by using Azure data management services",
+      "question": "You deploy an AI application in multiple Azure regions.  \n  \nThe application must be able to see writes across every region within a predictable time window.  \n  \nYou need to identify the appropriate consistency level.  \n  \nWhich two consistency levels can you use to meet the goal? Each correct answer provides a complete solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Session"
+        },
+        {
+          "letter": "B",
+          "text": "Strong"
+        },
+        {
+          "letter": "C",
+          "text": "Bounded staleness"
+        },
+        {
+          "letter": "D",
+          "text": "Eventual"
+        }
+      ],
+      "answer": null,
+      "explanation": "Strong consistency guarantees that reads return the most recent committed version across regions, providing no replication staleness. Bounded staleness guarantees that reads lag writes by no more than a configured maximum time interval or number of versions, providing a predictable cross-region freshness window.\\\n\\\n**Learn more:** [Consistency level choices - Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/consistency-levels)"
+    },
+    {
+      "number": 14,
+      "domain": "Secure, monitor, troubleshoot Azure solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An ACA app handles messages from an Azure Storage queue.  \n  \nThe app must automatically scale according to messages in a particular Azure Storage queue by using a Kubernetes Event-driven Autoscaler (KEDA) custom scale rule.  \n  \nYou need to configure the required scale-rule values.  \n  \nWhich two values should you configure? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Queue name"
+        },
+        {
+          "letter": "B",
+          "text": "Polling interval"
+        },
+        {
+          "letter": "C",
+          "text": "Trigger type"
+        },
+        {
+          "letter": "D",
+          "text": "Maximum replicas"
+        }
+      ],
+      "answer": null,
+      "explanation": "A custom Azure Container Apps scale rule must specify the KEDA scaler type and the metadata required by that scaler. The Azure Storage Queue scaler uses the `azure-queue` trigger type and requires the target `queueName` as metadata. `pollingInterval` and `maxReplicas` are settings on the overall Container Apps scale configuration rather than values required within the custom rule.\n\n**Learn more:** [Scaling in Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/scale-app)"
+    },
+    {
+      "number": 15,
+      "domain": "Connect to and consume Azure services",
+      "question": "An Event Grid subscription triggers an Azure Function.  \n  \nYou need to avoid losing events when the endpoint returns an HTTP 400 response.  \n  \nWhich action should you take?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Implement optimistic batching."
+        },
+        {
+          "letter": "B",
+          "text": "Implement asynchronous handshake validation."
+        },
+        {
+          "letter": "C",
+          "text": "Configure a dead-letter destination."
+        },
+        {
+          "letter": "D",
+          "text": "Configure a retry policy."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Azure Event Grid does not retry an HTTP 400 (Bad Request) delivery failure. When a dead-letter destination is configured, Event Grid sends the undeliverable event there instead of dropping it, allowing it to be retained and processed later.\\\n\\\n**Learn more:** [Azure Event Grid message delivery and retry](https://learn.microsoft.com/en-us/azure/event-grid/delivery-and-retry)"
+    },
+    {
+      "number": 16,
+      "domain": "Connect to and consume Azure services",
+      "question": "You need to configure Azure Functions to generate vector embeddings in accordance with the planned application architecture.  \n  \nWhich trigger type should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Event Grid"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Cosmos DB"
+        },
+        {
+          "letter": "C",
+          "text": "HTTP"
+        },
+        {
+          "letter": "D",
+          "text": "Service Bus"
+        }
+      ],
+      "answer": "B",
+      "explanation": "An Azure Cosmos DB trigger uses the Azure Cosmos DB change feed to detect inserted and updated documents and invoke the function. This supports automatic generation of embeddings when Cosmos DB for NoSQL-hosted documents are created or updated.\\\n\\\n**Learn more:** [Azure Cosmos DB trigger for Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger) · [Serverless event-based architectures with Azure Cosmos DB and Azure Functions](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/change-feed-functions)"
+    },
+    {
+      "number": 26,
+      "domain": "Develop containerized solutions on Azure",
+      "question": "You need to deploy a batch embedding workload in accordance with the planned application architecture.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "YAML-formatted files"
+        },
+        {
+          "letter": "B",
+          "text": "kubectl run and create commands"
+        },
+        {
+          "letter": "C",
+          "text": "XML-formatted files"
+        },
+        {
+          "letter": "D",
+          "text": "az aks commands"
+        }
+      ],
+      "answer": "A",
+      "explanation": "AKS runs Kubernetes workloads defined declaratively in YAML manifest files. A YAML manifest can specify the required batch workload resources, such as a Kubernetes Job, and be applied to the cluster. Microsoft Learn documents deploying AKS applications by specifying a YAML manifest with `kubectl apply`.\\\n\\\n**Learn more:** [Deploy an application to Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-application)"
+    },
+    {
+      "number": 27,
+      "domain": "Develop AI solutions by using Azure data management services",
+      "question": "You need to deploy a batch embedding workload in accordance with the planned application architecture.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Include a dead-letter handling process."
+        },
+        {
+          "letter": "B",
+          "text": "Process orders by using an HTTP trigger."
+        },
+        {
+          "letter": "C",
+          "text": "Enable duplicate detection on the queue."
+        },
+        {
+          "letter": "D",
+          "text": "Enable sessions on Service Bus."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Service Bus duplicate detection records message IDs for a configured window and discards duplicate submissions, supporting effectively once-only delivery for that window. A dead-letter handling process preserves messages that cannot be processed in the dead-letter queue so they can be investigated.\n\n**Learn more:** [Duplicate detection in Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/duplicate-detection) · [Enable dead lettering for Azure Service Bus queues and subscriptions](https://learn.microsoft.com/en-us/azure/service-bus-messaging/enable-dead-letter)"
+    },
+    {
+      "number": 28,
+      "domain": "Connect to and consume Azure services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are designing an Azure Function app that exposes a public API.  \n  \nThe solution must:  \n  \n- Validate incoming request data and return results immediately to the caller.  \n- Support Microsoft Entra ID authentication.  \n- Guarantee idempotent processing when the same request is retried.  \n- Scale automatically under variable load.  \n- Avoid duplicate processing.  \n  \nYou need to implement a trigger. Which trigger should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Service Bus topic"
+        },
+        {
+          "letter": "B",
+          "text": "HTTP"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Event Grid"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Queue storage"
+        }
+      ],
+      "answer": null,
+      "explanation": "An Azure Functions HTTP trigger is designed to build serverless APIs: it receives an HTTP request and can return an HTTP response immediately. Azure Functions authentication can protect that endpoint with Microsoft Entra ID. Automatic scaling is provided by the selected Functions hosting plan, while idempotency and duplicate prevention must be implemented in the API’s processing logic by recording and recognizing a stable request identifier.\n\n**Learn more:** [Azure Functions HTTP trigger](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger) · [Azure Functions error handling and retry guidance](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages)"
+    },
+    {
+      "number": 29,
+      "domain": "Secure, monitor, troubleshoot Azure solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A large retail company runs online and physical stores. The company monitors inventory levels in real time to manage stock efficiently across every location. You develop an Azure Event Grid solution to process events produced by the inventory management system deployed in Azure.  \n  \nYou need to implement a subscription filter that can dynamically adapt to seasonal changes in product demand.  \n  \nWhich event filter should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An advanced filter using a Boolean condition that evaluates multiple data fields, including a season field within the event data"
+        },
+        {
+          "letter": "B",
+          "text": "A prefix filter on the event type field that matches the current season's name"
+        },
+        {
+          "letter": "C",
+          "text": "A subscription filter that uses a label filter to include events tagged with seasonal promotional codes"
+        },
+        {
+          "letter": "D",
+          "text": "A static subject filter that targets events with a subject ending in "
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Event Grid advanced filtering can evaluate values in event-data fields, including Boolean fields, and multiple advanced filters can be applied to an event subscription. This supports filtering seasonal inventory events based on a season-related data field together with other relevant event data. Subject and event-type prefix matching are static string-based filters, and Event Grid does not provide a label subscription filter.\n\n**Learn more:** [Understand event filtering for Event Grid subscriptions](https://learn.microsoft.com/en-us/azure/event-grid/event-filtering)"
+    },
+    {
+      "number": 30,
+      "domain": "Connect to and consume Azure services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],4d:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n4f:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n50:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3d:[\"$\",\"$L4d\",null,{\"questionNumber\":26,\"questionId\":\"ea47fa5e-e584-4463-b994-6b3bfdd604d5\",\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L4e\"}]}]\n3e:[\"$\",\"$L4f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":26,\"questionId\":\"ea47fa5e-e584-4463-b994-6b3bfdd604d5\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L50\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":26,\"questionId\":\"ea47fa5e-e584-4463-b994-6b3bfdd604d5\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-200/2\"}]}]\n3f:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Background\n\nProseware Inc. develops AI-driven knowledge management solutions for enterprise customers. The company is modernizing its platform to support semantic search, intelligent document retrieval, and real-time partner integrations.\n\nThe engineering team uses Python and Azure SDKs. The architecture is being redesigned to support containerized microservices, vector search workloads, and serverless backend processing.\n\n### Planned Application Architecture\n\n- Microservices are containerized by using Docker.\n- Code for containerized microservices and Azure Function apps is developed locally but stored in a GitHub repository.\n- Custom images for containerized microservices are stored in Azure Container Registry (ACR).\n- Base images are stored in Docker Hub. Custom images must be rebuilt automatically whenever their base images are updated.\n- Azure Cosmos DB for NoSQL stores documents, metadata, and vector embeddings.\n- Azure Functions generate vector embeddings of Azure Cosmos DB for NoSQL-hosted documents and send messages to Service Bus to trigger search index updates.\n- Azure Container Apps (ACA) apps host backend API services that provide semantic search across Azure Cosmos DB for NoSQL documents. API services process Service Bus messages and update search indexes.\n- Azure Kubernetes Service (AKS) processes batch vector embedding regeneration for existing Azure Cosmos DB for NoSQL documents (whenever the embedding model is changed).\n- An extranet-facing containerized webhook allows business partners to submit documents to be processed by internal AI workflows for semantic search and retrieval.\n\n## Monitoring\n\n- Telemetry generated by Azure resources is sent to Azure Monitor.\n- A Log Analytics workspace is used to collect ACA apps logs, AKS container logs, and Azure Functions apps logs.\n- Monitoring of Azure Functions is currently implemented by using Azure Application Insights SDK instrumentation.\n\n## Business Requirements\n\n- Embeddings for new or updated Azure Cosmos DB for NoSQL-hosted documents must be automatically generated.\n- Backend API services must scale automatically during business hours.\n- Cold start delay of backend APIs must be minimized.\n- Secrets must be stored outside of container images.\n- Developers must be able to correlate telemetry across Azure Functions hosts and apps.\n- All tracing must be implemented by using OpenTelemetry SDK instrumentation.\n- Development efforts must be minimized.\n\n## Technical Requirements\n\n- Container images must be built automatically and validated before code updates are merged into the main branch.\n- Image build automation must run inside the Azure Container Registry, eliminating dependency on local developer machines and external build services.\n- Dependency of image builds on local developer machines must be eliminated.\n- Event-driven scaling in ACA must occur based on the number of pending messages in the Azure Service Bus queue.\n- Azure Cosmos DB for NoSQL RU consumption must be minimized.\n- Vector similarity search must use embeddings stored in Azure Cosmos DB for NoSQL.\n- The partner-facing containerized webhook service must run on Azure App Service.\n- Secrets must NOT be stored in container images, source control, or application configuration directly. They must be accessed securely at runtime.\n- All secrets must be stored centrally in Azure Key Vault and accessed at runtime through a managed identity.\n- Azure App Service must supply secrets at runtime without relying on external services.\n- Resources and workloads must be deployed by using Bicep templates through an automated, version-controlled pipeline. Local and command-line deployments must be eliminated to ensure repeatable, auditable deployments.\n\n## Known Issues\n\n- RU consumption spikes during vector similarity queries.40:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L3b\",null,{\"group\":{\"id\":\"325b00f55cb6a592b4b35d557a36a6062af2e6b2f8c2b113d8c5d4fb8cd31bed\",\"type\":\"case_study\",\"title\":\"Proseware Knowledge Platform Modernization\",\"content\":\"$51\"}}],\"$L52\",\"$L53\"]}]\n42:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n43:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n44:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L4d\",null,{\"questionNumber\":28,\"questionId\":\"987753da-3101-4285-b01f-b1a8cd824133\",\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L54\"}]}],[\"$\",\"$L4f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":28,\"questionId\":\"987753da-3101-4285-b01f-b1a8cd824133\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L50\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":28,\"questionId\":\"987753da-3101-4285-b01f-b1a8cd824133\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-200/2\"}]}]]}]\n46:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n47:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n48:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L4d\",null,{\"questionNumber\":29,\"questionId\":\"3a598940-9988-4d72-83ab-9d80011df4a4\",\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L55\"}]}],[\"$\",\"$L4f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":29,\"questionId\":\"3a598940-9988-4d72-83ab-9d80011df4a4\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L50\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":29,\"questionId\":\"3a598940-9988-4d72-83ab-9d80011df4a4\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-200/2\"}]}]]}]\n4a:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n4b:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4c:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L4d\",null,{\"questionNumber\":30,\"questionId\":\"f0aad0a5-b73a-41fa-bceb-1fea11972b8b\",\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L56\"}]}],[\"$\",\"$L4f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":30,\"questionId\":\"f0aad0a5-b73a-41fa-bceb-1fea11972b8b\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L50\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":30,\"questionId\":\"f0aad0a5-b73a-41fa-bceb-1fea11972b8b\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-200/2\"}]}]]}]\n58:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Dropdown\"]\n59:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\n52:[\"$\",\"$L4d\",null,{\"questionNumber\":27,\"questionId\":\"1419a87b-d2d6-48e8-bd78-0734d8640193\",\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L57\"}]}]\n53:[\"$\",\"$L4f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":27,\"questionId\":\"1419a87b-d2d6-48e8-bd78-0734d8640193\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L50\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":27,\"questionId\":\"1419a87b-d2d6-48e8-bd78-0734d8640193\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-200/2\"}]}]\n4e:[[\"$\",\"p\",null,{\"children\":\"You need to configure image build automation in accordance with the technical requirements.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Which settings should you configure?\"}],\"\n\",[\"$\",\"$L58\",null,{\"blanks\":[{\"id\":\"trigger\",\"options\":[\"Commit\",\"Scheduled\",\"Base image update\"],\"answer\":\"Base image update\",\"label\":\"Trigger for container images build\"},{\"id\":\"implementation\",\"options\":[\"ACR Task\",\"GitHub workflow\",\"Docker Compose configuration\"],\"answer\":\"ACR Task\",\"label\":\"Implementation of image builds\"}],\"explanation\":\"ACR Tasks execute container image builds within Azure Container Registry and automatically rebuild dependent application images when a tracked base image, including one in Docker Hub, is updated. This meets both the registry-side automation and base-image rebuild requirements.\n\n**Learn more:** [Automate Container Builds with Azure Container Registry Tasks](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-tasks-overview) · [Azure CLI: az acr task](https://learn.microsoft.com/en-us/cli/azure/acr/task?view=azure-cli-latest)\",\"trackingInfo\":{\"questionId\":\"ea47fa5e-e584-4463-b994-6b3bfdd604d5\",\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"mode\":\"default\"}}]]\n54:[[\"$\",\"p\",null,{\"children\":\"You are designing an Azure Function to process orders from a new Azure Service Bus queue.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to ensure that messages are not processed more than once and that failed messages are retained for investigation.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Which two actions should you implement? Each correct answer presents part of the solution.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"NOTE: Each correct selection is worth one point.\"}],\"\n\",[\"$\",\"$L59\",null,{\"choices\":{\"A\":\"Include a dead-letter handling process.\",\"B\":\"Process orders by using an HTTP trigger.\",\"C\":\"Enable duplicate detection on the queue.\",\"D\":\"Enable sessions on Service Bus.\"},\"correctAnswer\":\"AC\",\"explanation\":\"Azure Service Bus duplicate detection records message IDs for a configured window and discards duplicate submissions, supporting effectively once-only delivery for that window. A dead-letter handling process preserves messages that cannot be processed in the dead-letter queue so they can be investigated.\n\n**Learn more:** [Duplicate detection in Azure Service Bus](https://learn.microsoft.com/en-us/azure/service-bus-messaging/duplicate-detection) · [Enable dead lettering for Azure Service Bus queues and subscriptions](https://learn.microsoft.com/en-us/azure/service-bus-messaging/enable-dead-letter)\",\"trackingInfo\":{\"questionId\":\"987753da-3101-4285-b01f-b1a8cd824133\",\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"mode\":\"default\"}}]]\n55:[[\"$\",\"p\",null,{\"children\":\"You are designing an Azure Function app that exposes a public API.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"The solution must:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":\"Validate incoming request data and return results immediately to the caller.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Support Microsoft Entra ID authentication.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Guarantee idempotent processing when the same request is retried.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Scale automatically under variable load.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Avoid duplicate processing.\"}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to implement a trigger. Which trigger should you use?\"}],\"\n\",[\"$\",\"$L59\",null,{\"choices\":{\"A\":\"Service Bus topic\",\"B\":\"HTTP\",\"C\":\"Azure Event Grid\",\"D\":\"Azure Queue storage\"},\"correctAnswer\":\"B\",\"explanation\":\"An Azure Functions HTTP trigger is designed to build serverless APIs: it receives an HTTP request and can return an HTTP response immediately. Azure Functions authentication can protect that endpoint with Microsoft Entra ID. Automatic scaling is provided by the selected Functions hosting plan, while idempotency and duplicate prevention must be implemented in the API’s processing logic by recording and recognizing a stable request identifier.\n\n**Learn more:** [Azure Functions HTTP trigger](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger) · [Azure Functions error handling and retry guidance](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-error-pages)\",\"trackingInfo\":{\"questionId\":\"3a598940-9988-4d72-83ab-9d80011df4a4\",\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"mode\":\"default\"}}]]\n56:[[\"$\",\"p\",null,{\"children\":\"A large retail company runs online and physical stores. The company monitors inventory levels in real time to manage stock efficiently across every location. You develop an Azure Event Grid solution to process events produced by the inventory management system deployed in Azure.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to implement a subscription filter that can dynamically adapt to seasonal changes in product demand.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Which event filter should you use?\"}],\"\n\",[\"$\",\"$L59\",null,{\"choices\":{\"A\":\"An advanced filter using a Boolean condition that evaluates multiple data fields, including a season field within the event data\",\"B\":\"A prefix filter on the event type field that matches the current season's name\",\"C\":\"A subscription filter that uses a label filter to include events tagged with seasonal promotional codes\",\"D\":\"A static subject filter that targets events with a subject ending in \"/seasonal/inventory\"\"},\"correctAnswer\":\"A\",\"explanation\":\"Azure Event Grid advanced filtering can evaluate values in event-data fields, including Boolean fields, and multiple advanced filters can be applied to an event subscription. This supports filtering seasonal inventory events based on a season-related data field together with other relevant event data. Subject and event-type prefix matching are static string-based filters, and Event Grid does not provide a label subscription filter.\n\n**Learn more:** [Understand event filtering for Event Grid subscriptions](https://learn.microsoft.com/en-us/azure/event-grid/event-filtering)\",\"trackingInfo\":{\"questionId\":\"f0aad0a5-b73a-41fa-bceb-1fea11972b8b\",\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"mode\":\"default\"}}]]\nYou are creating an Azure Function that calls external APIs by supplying an access token for the API. The access token is stored in a secret named `token` in an Azure Key Vault named `mykeyvault`.  \n  \nYou need to make sure that the Azure Function can access the token. Which value should you store in the Azure Functions app configuration?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "KeyVault:mykeyvault;Secret:token"
+        },
+        {
+          "letter": "B",
+          "text": "App:Settings:Secret:mykeyvault:token"
+        },
+        {
+          "letter": "C",
+          "text": "@Microsoft.KeyVault(SecretUri=https://mykeyvault.vault.azure.net/secrets/token/)"
+        },
+        {
+          "letter": "D",
+          "text": "AZUREKVCONNSTR_ https://mykeyvault.vault.azure.net/secrets/token/"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Functions app settings can use an Azure Key Vault reference in the form `@Microsoft.KeyVault(SecretUri=<secretUri>)`. The full data-plane URI for the `token` secret in `mykeyvault` is `https://mykeyvault.vault.azure.net/secrets/token/`; the function app’s configured identity must also have permission to read that secret.\n\n**Learn more:** [Use Key Vault references as app settings in Azure App Service, Azure Functions, and Azure Logic Apps (Standard)](https://learn.microsoft.com/en-us/azure/app-service/app-service-key-vault-references)"
+    },
+    {
+      "number": 31,
+      "domain": "Secure, monitor, troubleshoot Azure solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\",\"$L6a\",\"$L6b\",\"$L6c\",\"$L6d\",\"$L6e\",\"$L6f\",\"$L70\"]\n5b:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n5c:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n5d:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L4d\",null,{\"questionNumber\":31,\"questionId\":\"1bfdb962-25d6-4513-9ff0-f6a6bced4094\",\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L71\"}]}],[\"$\",\"$L4f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":31,\"questionId\":\"1bfdb962-25d6-4513-9ff0-f6a6bced4094\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L50\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-200\",\"questionNumber\":31,\"questionId\":\"1bfdb962-25d6-4513-9ff0-f6a6bced4094\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-200/2\"}]}]]}]\nYou process Azure Service Bus messages that require a dependent call to an external API.  \n  \nIf the API is temporarily unavailable, you must postpone processing the message without increasing its delivery count. You need a way to process the message once the API is available while keeping the message accessible.  \n  \nWhich message action should you take?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dead-letter"
+        },
+        {
+          "letter": "B",
+          "text": "Defer"
+        },
+        {
+          "letter": "C",
+          "text": "Abandon"
+        },
+        {
+          "letter": "D",
+          "text": "Complete"
+        }
+      ],
+      "answer": null,
+      "explanation": "Deferring sets a message aside in the main queue for later retrieval, typically by its sequence number, when processing is temporarily not possible. It avoids the redelivery behavior of abandoning a peek-locked message, which increments the delivery count; completion removes the message, and dead-lettering moves it to a dead-letter subqueue.\n\n**Learn more:** [Azure Service Bus message deferral](https://learn.microsoft.com/en-us/azure/service-bus-messaging/message-deferral) · [Azure Service Bus dead-letter queues](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues)"
+    },
+    {
+      "number": 32,
+      "domain": "Connect to and consume Azure services",
+      "question": "You need to implement a secret-management solution for the Recommendation API that meets Fabrikam Inc.'s security and identity requirements.  \n  \nWhich service should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Container environment variables"
+        },
+        {
+          "letter": "B",
+          "text": "Azure App Configuration"
+        },
+        {
+          "letter": "C",
+          "text": "Kubernetes secrets"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Key Vault"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Azure Key Vault centrally stores and controls access to secrets. The Recommendation API can authenticate to it by using a managed identity, eliminating hard-coded or plain-text credentials, and Key Vault supports automated secret-rotation patterns.\\\n\\\n**Learn more:** [Secure your Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/secure-key-vault) · [Understanding autorotation in Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/autorotation)"
+    },
+    {
+      "number": 33,
+      "domain": "Connect to and consume Azure services",
+      "question": "You need to configure event-driven scaling for the backend API services to meet the technical requirements.  \n  \nWhich settings should you use for each element? Each setting may be used once, more than once, or not at all.\n\n<DragDrop\n  items={[\"0\",\"1\",\"queueLength\",\"messageCount\",\"Azure Service Bus\",\"Azure Container Apps\"]}\n  slots={[{\"answer\":\"Azure Service Bus\",\"id\":\"scaler\",\"label\":\"Scaler\"},{\"answer\":\"messageCount\",\"id\":\"trigger_metadata\",\"label\":\"Trigger metadata\"},{\"answer\":\"1\",\"id\":\"min_replicas\",\"label\":\"min-replicas\"}]}\n  reuse={true}\n  explanation={\"Azure Container Apps supports an `azure-servicebus` scale rule for Service Bus queues, with `messageCount` as the message-threshold metadata. A minimum replica count of 1 keeps a backend API instance running, minimizing cold-start delay.\\\n\\\n**Learn more:** [Scaling in Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/scale-app)\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],A production Azure Function app connects to an Azure SQL Database. The solution must provide the following functionality:  \n  \n- Prevent secrets from being exposed in source control.  \n- Support secret rotation without redeploying the function app.  \n- Avoid downtime during credential updates.  \n  \nYou need to configure secure, maintainable secret management. What should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Application settings with Key Vault references"
+        },
+        {
+          "letter": "B",
+          "text": "Environment variables in local.settings.json"
+        },
+        {
+          "letter": "C",
+          "text": "Hard-coded connection string in the startup class"
+        },
+        {
+          "letter": "D",
+          "text": "Parameter file stored in source control"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Key Vault references in application settings store the Azure SQL credential centrally instead of in source-controlled files or application code. A versionless reference uses the latest Key Vault secret version after rotation, allowing the Function app to consume rotated credentials without redeployment; credential versions can remain valid during the transition to prevent interruption.\n\n**Learn more:** [Use Key Vault references as app settings in Azure App Service, Azure Functions, and Azure Logic Apps (Standard)](https://learn.microsoft.com/en-us/azure/app-service/app-service-key-vault-references)"
+    },
+    {
+      "number": 34,
+      "domain": "Connect to and consume Azure services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An AI platform uses App Configuration for feature flags and endpoint routing.  \n  \nThe platform keeps secrets together with configuration data and does **NOT** support dynamic refresh. The solution must enable dynamic configuration refresh while ensuring secrets are **NOT** stored in App Configuration.  \n  \nYou need to enable secure dynamic configuration management for the platform.  \n  \nWhich three actions should you take? Each correct answer is part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Allow configuration updates with a polling interval."
+        },
+        {
+          "letter": "B",
+          "text": "Use managed identity for both App Configuration and Key Vault access."
+        },
+        {
+          "letter": "C",
+          "text": "Store API keys in Key Vault."
+        },
+        {
+          "letter": "D",
+          "text": "Use a service principal secret for both App Configuration and Key Vault access."
+        },
+        {
+          "letter": "E",
+          "text": "Store configuration values in environment variables."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure App Configuration supports dynamic refresh through refresh checks governed by a configured interval. Secrets such as API keys should reside in Azure Key Vault and be accessed through Key Vault references or direct Key Vault integration, rather than being stored as App Configuration values. A managed identity provides passwordless authentication to both App Configuration and Key Vault, avoiding a stored service-principal secret.\n\n**Learn more:** [Azure App Configuration .NET Configuration Provider reference](https://learn.microsoft.com/en-us/azure/azure-app-configuration/reference-dotnet-provider) · [Reload Secrets and Certificates Automatically - Azure App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/reload-key-vault-secrets-dotnet)"
+    },
+    {
+      "number": 35,
+      "domain": "Connect to and consume Azure services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are developing an AI application. Its configuration will depend on a dynamically retrieved value for a designated key stored in an Azure App Configuration resource.  \n  \nYou must deploy the application to the test, staging, and production environments, and you need to set a different value in each environment.  \n  \nWhich Azure App Configuration resource feature should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Labels"
+        },
+        {
+          "letter": "B",
+          "text": "Resource tags"
+        },
+        {
+          "letter": "C",
+          "text": "Content types"
+        },
+        {
+          "letter": "D",
+          "text": "Key prefixes"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure App Configuration labels allow multiple key-values with the same key and different values. Assigning labels such as Test, Staging, and Production lets the application dynamically load the value that corresponds to its current environment.\n\n**Learn more:** [Understand Azure App Configuration key-value store](https://learn.microsoft.com/en-us/azure/azure-app-configuration/concept-key-value) · [Use labels to provide per-environment configuration values](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-labels-aspnet-core)"
+    },
+    {
+      "number": 36,
+      "domain": "Develop containerized solutions on Azure",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are building an AI-powered API that retrieves connection strings and API keys from Azure Key Vault.  \n  \nYou must configure a solution that provides the following security capabilities:  \n  \n- The API must authenticate to Key Vault without storing credentials in any application configuration files.  \n- The API identity must have only the minimum permissions required to read secrets.  \n- The configuration must limit the blast radius if an identity or credential is compromised.  \n  \nYou need to implement a secure access strategy for the API.  \n  \nWhich two actions should you take? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Assign the Key Vault Administrator role at subscription scope."
+        },
+        {
+          "letter": "B",
+          "text": "Grant the Key Vault Secrets User role at vault scope."
+        },
+        {
+          "letter": "C",
+          "text": "Use system-assigned managed identity."
+        },
+        {
+          "letter": "D",
+          "text": "Store a secret value in Azure App Configuration."
+        }
+      ],
+      "answer": null,
+      "explanation": "A system-assigned managed identity provides an application identity that can authenticate to Azure Key Vault without an application-managed credential. The Key Vault Secrets User role grants permission to read secret contents; assigning it at the vault scope limits access to that vault and follows least privilege. Key Vault Administrator at subscription scope grants excessive administrative access.\n\n**Learn more:** [Authenticate to Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/authentication) · [Grant permission to applications to access an Azure key vault using Azure RBAC](https://learn.microsoft.com/en-us/azure/key-vault/general/rbac-guide)"
+    },
+    {
+      "number": 37,
+      "domain": "Connect to and consume Azure services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are developing an AI API that is deployed to ACA. The API needs database credentials stored in Key Vault. Key Vault is configured to use Azure RBAC for access control.  \n  \nThe security team rotates the database credentials periodically. The application must always use the newest version of every credential without redeployment and without exposing secrets in code or configuration.  \n  \nYou need to implement a secure secret-access strategy that prevents credential exposure and retrieves the latest version of each secret at runtime without redeploying the container.  \n  \nWhich three actions should you perform? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure a Key Vault RBAC role assignment."
+        },
+        {
+          "letter": "B",
+          "text": "Configure a Key Vault access policy."
+        },
+        {
+          "letter": "C",
+          "text": "Export the secret during deployment."
+        },
+        {
+          "letter": "D",
+          "text": "Assign a system-assigned managed identity."
+        },
+        {
+          "letter": "E",
+          "text": "Retrieve the secret at runtime by using the SDK."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure RBAC authorization requires a Key Vault RBAC role assignment, such as Key Vault Secrets User, for the workload identity; a Key Vault access policy is not the authorization model in this configuration. A system-assigned managed identity lets the containerized application authenticate to Key Vault without storing credentials. Retrieving an unversioned secret URI through the Key Vault SDK at runtime obtains the current secret version, so credential rotation does not require a container redeployment.\n\n**Learn more:** [Manage secrets in Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/manage-secrets) · [Managed identities in Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/managed-identity)"
+    },
+    {
+      "number": 38,
+      "domain": "Secure, monitor, troubleshoot Azure solutions",
+      "question": "Solution: Hardcode the API key as an environment variable in the Dockerfile.  \n  \nDoes this solution achieve the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Hardcoding an API key in a Dockerfile exposes it through the source repository and Git commit history, and can embed it in the container image. For Azure App Service custom containers, externally configured app settings are injected into the container as runtime environment variables, allowing the secret to remain outside the repository.\\\n\\\n**Learn more:** [Configure a Custom Container - Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/configure-custom-container)"
+    },
+    {
+      "number": 39,
+      "domain": "Secure, monitor, troubleshoot Azure solutions",
+      "question": "Solution: Save the API key as a GitHub repository secret.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub repository secrets are intended for use by GitHub Actions workflows and are not injected into an Azure App Service container at runtime. A runtime-accessible secret store or App Service configuration mechanism is required."
+    },
+    {
+      "number": 40,
+      "domain": "Secure, monitor, troubleshoot Azure solutions",
+      "question": "Solution: Store the API key in Azure Key Vault and reference it through an App Service application setting.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Azure App Service can resolve an Azure Key Vault reference used as an application setting, allowing the container to consume the API key at runtime. The secret is stored in Key Vault rather than in source code or Git commit history.\\\n\\\n**Learn more:** [Use Key Vault references as app settings in Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/app-service-key-vault-references)"
+    },
+    {
+      "number": 41,
+      "domain": "Develop containerized solutions on Azure",
+      "question": "Solution: Store environment-specific settings and secrets by using App Configuration with Key Vault references, and access them from the function app through a managed identity.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Azure App Configuration supports centrally managed, environment-specific configuration, while Key Vault references keep secret values in Azure Key Vault instead of source control. A Function App managed identity can authenticate to App Configuration and be granted permission to read the referenced Key Vault secrets without storing credentials in code or configuration files.\\\n\\\n**Learn more:** [Use App Configuration references for Azure App Service and Azure Functions](https://learn.microsoft.com/en-us/azure/app-service/app-service-configuration-references) · [Azure App Configuration FAQ](https://learn.microsoft.com/en-us/azure/azure-app-configuration/faq)"
+    },
+    {
+      "number": 51,
+      "domain": "Secure, monitor, troubleshoot Azure solutions",
+      "question": "Solution: Save production secrets in environment variables defined by the Dockerfile.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Dockerfile-defined environment variables bake secret values into the container image or its build metadata, so they are not a secure mechanism for keeping secrets out of source control or for supplying distinct values per environment. Azure Functions supports configuration through application settings, which are exposed to the app as environment variables; secrets should be supplied through environment-specific app settings or a managed secret store at deployment/runtime.\\\n\\\n**Learn more:** [App settings reference for Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-app-settings) · [Configure function app settings in Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings)"
+    },
+    {
+      "number": 52,
+      "domain": "Secure, monitor, troubleshoot Azure solutions",
+      "question": "Solution: Save connection strings in the Function app application settings configured through the Azure portal.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Azure Function app connection strings and application settings are configured separately for each function app and exposed to the app as environment variables. Keeping the connection strings in Azure portal configuration supports per-environment values without committing the secrets to source control; app settings are encrypted at rest.\\\n\\\n**Learn more:** [Configure function app settings in Azure Functions](https://learn.microsoft.com/en-ie/azure/azure-functions/functions-how-to-use-azure-function-app-settings) · [Develop Azure Functions using Visual Studio](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-vs)"
+    }
+  ]
+}

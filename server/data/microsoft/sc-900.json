@@ -1,0 +1,2768 @@
+{
+  "provider": "microsoft",
+  "slug": "sc-900",
+  "fullSlug": "microsoft/sc-900",
+  "title": "Copy link to this question",
+  "totalQuestions": 252,
+  "totalPages": 10,
+  "crawledPages": 11,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which Microsoft Purview solution can be used to identify data leakage?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "insider risk management"
+        },
+        {
+          "letter": "B",
+          "text": "Compliance Manager"
+        },
+        {
+          "letter": "C",
+          "text": "communication compliance"
+        },
+        {
+          "letter": "D",
+          "text": "eDiscovery"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Insider Risk Management is the Microsoft Purview solution designed to detect and mitigate risks associated with data leakage from insider threats. It monitors and alerts on potentially risky user activities related to sensitive data."
+    },
+    {
+      "number": 2,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which three authentication methods can be used by Azure Multi-Factor Authentication (MFA)? Each correct answer presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "text message (SMS)"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Authenticator app"
+        },
+        {
+          "letter": "C",
+          "text": "email verification"
+        },
+        {
+          "letter": "D",
+          "text": "phone call"
+        },
+        {
+          "letter": "E",
+          "text": "security question"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure MFA supports text message (SMS) verification, Microsoft Authenticator app, and phone calls as second-factor authentication methods. Email verification and security questions are not supported by Azure AD MFA."
+    },
+    {
+      "number": 3,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L51\",\"$L52\",\"$L53\",\"$L54\",\"$L55\",\"$L56\",\"$L57\",\"$L58\",\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\"]\n4e:[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]\n4f:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n50:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L38\",null,{\"questionNumber\":6,\"questionId\":\"b75b3b05-47f9-46ed-803b-d0d50c6656b4\",\"examProvider\":\"microsoft\",\"examName\":\"sc-900\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L64\"}]}],[\"$\",\"$L3a\",null,{\"examProvider\":\"microsoft\",\"examName\":\"sc-900\",\"questionNumber\":6,\"questionId\":\"b75b3b05-47f9-46ed-803b-d0d50c6656b4\",\"initialCommentCount\":8,\"children\":[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"sc-900\",\"questionNumber\":6,\"questionId\":\"b75b3b05-47f9-46ed-803b-d0d50c6656b4\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/sc-900/1\"}]}]]}]\nWhich capability can be used to give a user a two-hour window in which to complete an administrative task in Azure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Multi-Factor Authentication (MFA)"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Active Directory (Azure AD) Identity Protection"
+        },
+        {
+          "letter": "D",
+          "text": "conditional access policies"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure AD Privileged Identity Management (PIM) enables just-in-time, time-bound activation of privileged roles. Administrators can configure a maximum activation duration (for example, two hours), so that when a user activates an eligible role, they are granted the privileged permissions only for that specified window, after which the elevated access is automatically revoked. This directly satisfies the need for a limited administrative access window, unlike MFA (authentication verification), Identity Protection (risk detection/remediation), or conditional access policies (context-based access enforcement).\n\n**Learn more:** [Configure Azure AD role settings in PIM](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-how-to-change-default-settings) · [What is Azure AD Privileged Identity Management?](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure)"
+    },
+    {
+      "number": 4,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which three authentication methods does Windows Hello for Business support? Each correct answer presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fingerprint"
+        },
+        {
+          "letter": "B",
+          "text": "facial recognition"
+        },
+        {
+          "letter": "C",
+          "text": "PIN"
+        },
+        {
+          "letter": "D",
+          "text": "email verification"
+        },
+        {
+          "letter": "E",
+          "text": "security question"
+        }
+      ],
+      "answer": null,
+      "explanation": "Windows Hello for Business supports fingerprint recognition, facial recognition, and PIN authentication. Email verification and security questions are not Windows Hello authentication methods."
+    },
+    {
+      "number": 5,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "To which type of resource can Azure Bastion provide secure access?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Files"
+        },
+        {
+          "letter": "B",
+          "text": "Azure SQL Managed Instances"
+        },
+        {
+          "letter": "C",
+          "text": "Azure virtual machines"
+        },
+        {
+          "letter": "D",
+          "text": "Azure App Service"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Azure Bastion provides secure remote access specifically to Azure virtual machines through RDP/SSH protocols via the Azure portal, without requiring public IP addresses on the VMs. Azure Files (A) are storage shares, SQL Managed Instances (B) are managed databases, and App Service (D) is a platform for hosting applications—Bastion does not directly secure these resources."
+    },
+    {
+      "number": 6,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which service includes the Attack simulation training feature?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Defender for Cloud Apps"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Defender for Identity"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Defender for SQL"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Defender for Office 365"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Attack simulation training is a feature available in Microsoft Defender for Office 365 Plan 2 (or included in Microsoft 365 E5). This capability allows organizations to run realistic cyberattack simulations to identify and train vulnerable users before actual threats occur."
+    },
+    {
+      "number": 7,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "Which Microsoft portal provides information about how Microsoft manages privacy, compliance, and security?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Service Trust Portal"
+        },
+        {
+          "letter": "B",
+          "text": "Compliance Manager"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft 365 compliance center"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Support"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The Microsoft Service Trust Portal is the dedicated portal providing detailed information about Microsoft's privacy practices, security controls, and compliance certifications. Compliance Manager (B) helps organizations assess compliance requirements, the M365 compliance center (C) manages organizational compliance workflows, and Microsoft Support (D) provides technical assistance."
+    },
+    {
+      "number": 8,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "You have an Azure subscription that contains a Log Analytics workspace.  \n  \nYou need to onboard Microsoft Sentinel.  \n  \nWhat should you do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a hunting query."
+        },
+        {
+          "letter": "B",
+          "text": "Correlate alerts into incidents."
+        },
+        {
+          "letter": "C",
+          "text": "Connect to your data sources."
+        },
+        {
+          "letter": "D",
+          "text": "Create a custom detection rule."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Before Sentinel can function, it must be connected to data sources—Azure resources, Office 365, third-party tools, or other telemetry sources. Without incoming data, creating hunting queries, detection rules, or correlating incidents is impossible. Connecting data sources is the prerequisite step."
+    },
+    {
+      "number": 9,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "In the Microsoft Cloud Adoption Framework for Azure, which two phases are addressed before the Ready phase? Each correct answer presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Plan"
+        },
+        {
+          "letter": "B",
+          "text": "Manage"
+        },
+        {
+          "letter": "C",
+          "text": "Adopt"
+        },
+        {
+          "letter": "D",
+          "text": "Govern"
+        },
+        {
+          "letter": "E",
+          "text": "Define Strategy"
+        }
+      ],
+      "answer": null,
+      "explanation": "The Microsoft Cloud Adoption Framework follows the sequence: Strategy, Plan, Ready, Adopt, Govern, Manage (SPRAGM). Strategy and Plan are the first two phases and must be completed before entering the Ready phase, where organizations prepare their Azure environment for migration and deployment."
+    },
+    {
+      "number": 10,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "You need to create a data loss prevention (DLP) policy.  \n\nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Microsoft 365 Compliance center"
+        },
+        {
+          "letter": "B",
+          "text": "the Microsoft Endpoint Manager admin center"
+        },
+        {
+          "letter": "C",
+          "text": "the Microsoft 365 admin center"
+        },
+        {
+          "letter": "D",
+          "text": "the Microsoft 365 Defender portal"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Data Loss Prevention (DLP) policies are created and managed in the Microsoft 365 Compliance Center (formerly known as the Security & Compliance Center and now part of Microsoft Purview). This is the central portal for configuring DLP policies across all Microsoft 365 workloads."
+    },
+    {
+      "number": 11,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "What are customers responsible for when evaluating security in a software as a service (SaaS) cloud services model?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "operating systems"
+        },
+        {
+          "letter": "B",
+          "text": "network controls"
+        },
+        {
+          "letter": "C",
+          "text": "applications"
+        },
+        {
+          "letter": "D",
+          "text": "accounts and identities"
+        }
+      ],
+      "answer": "D",
+      "explanation": "In a Software-as-a-Service (SaaS) model, the cloud provider manages the underlying infrastructure, platform, and applications. The customer's responsibility is limited to managing the identities and accounts that access the service, including user authentication, access control, and account lifecycle management. Operating systems, network controls, and applications are all provider-managed in SaaS."
+    },
+    {
+      "number": 12,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "You need to create a workflow that runs automatically when a user account is provisioned or when its properties are updated.  \n  \nWhich Microsoft Entra feature should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "entitlement management"
+        },
+        {
+          "letter": "B",
+          "text": "Conditional Access policies"
+        },
+        {
+          "letter": "C",
+          "text": "lifecycle workflows"
+        },
+        {
+          "letter": "D",
+          "text": "access reviews"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Microsoft Entra Lifecycle Workflows automates identity lifecycle tasks for joiner, mover, and leaver scenarios. Its automatic workflows can run based on user attributes, including when a configured attribute changes.\\\n\\\n**Learn more:** [Understanding lifecycle workflows - Microsoft Entra ID Governance](https://learn.microsoft.com/en-us/entra/id-governance/understanding-lifecycle-workflows) · [What are lifecycle workflows? - Microsoft Entra ID Governance](https://learn.microsoft.com/en-us/entra/id-governance/what-are-lifecycle-workflows)"
+    },
+    {
+      "number": 13,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "You need to create a workflow that runs automatically when a user account is provisioned or when its properties are updated.  \n  \nWhich Microsoft Entra feature should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Monitor metrics and alerts"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Application Gateway diagnostics"
+        },
+        {
+          "letter": "C",
+          "text": "an Azure DDoS Protection plan"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Network Watcher packet capture"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure DDoS Protection continuously monitors traffic to protected public IP resources in an enabled virtual network, supplies attack telemetry including SYN-related metrics, and supports alerts when an attack begins. Its automatically tuned DDoS detection and mitigation policies minimize ongoing administrative effort. [Azure DDoS Protection overview](https://learn.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview)\n\n**Learn more:** [Azure DDoS Protection overview](https://learn.microsoft.com/en-us/azure/ddos-protection/ddos-protection-overview) · [Monitor Azure DDoS Protection monitoring data reference](https://learn.microsoft.com/en-us/azure/ddos-protection/monitor-ddos-protection-reference)"
+    },
+    {
+      "number": 26,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "When you enable Azure AD Multi-Factor Authentication (MFA), how many factors are required for authentication?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "2"
+        },
+        {
+          "letter": "C",
+          "text": "3"
+        },
+        {
+          "letter": "D",
+          "text": "4"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Multi-Factor Authentication (MFA) by definition requires two factors for authentication. The term 'multi' indicates multiple factors, with the standard implementation requiring a password and a second verification method."
+    },
+    {
+      "number": 27,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "You have an Azure subscription.  \n\nYou need to implement approval-based, time-bound role activation.  \n\nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Windows Hello for Business"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Active Directory (Azure AD) Identity Protection"
+        },
+        {
+          "letter": "C",
+          "text": "access reviews in Azure Active Directory (Azure AD)"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Azure AD Privileged Identity Management (PIM) is specifically designed to provide approval-based, time-bound role activation. PIM enables just-in-time access to privileged roles with configurable approval workflows and expiration times. Windows Hello (A) is for authentication, Identity Protection (B) detects account risks, and access reviews (C) audit permissions periodically."
+    },
+    {
+      "number": 28,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "Which two types of resources can be protected by using Azure Firewall? Each correct answer presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure virtual machines"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Active Directory (Azure AD) users"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Exchange Online inboxes"
+        },
+        {
+          "letter": "D",
+          "text": "Azure virtual networks"
+        },
+        {
+          "letter": "E",
+          "text": "Microsoft SharePoint Online sites"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Firewall protects Azure virtual machines and virtual networks by filtering traffic at layers 3 through 7. It does not directly protect Azure AD users, Exchange Online services, or SharePoint Online sites."
+    },
+    {
+      "number": 29,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Which Azure Active Directory (Azure AD) feature can you use to evaluate group membership and automatically remove users who no longer need to be members of a group?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "access reviews"
+        },
+        {
+          "letter": "B",
+          "text": "managed identities"
+        },
+        {
+          "letter": "C",
+          "text": "conditional access policies"
+        },
+        {
+          "letter": "D",
+          "text": "Azure AD Identity Protection"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure AD Access Reviews let you set up recurring or one-time reviews of group memberships (as well as application access and role assignments). Reviewers can be automatically selected, and the review can be configured with an auto-apply setting so that users who are found not to need continued access are automatically removed from the group when the review completes. This makes access reviews the correct tool for periodically evaluating and cleaning up group membership. Managed identities provide an identity for Azure resources to authenticate to other services and have no role in membership review. Conditional access policies control sign-in access based on conditions such as location, device, or risk, not ongoing group membership cleanup. Azure AD Identity Protection focuses on detecting and remediating identity risk (e.g., leaked credentials, risky sign-ins), not group membership review.\n\n**Learn more:** [What are access reviews? - Azure AD](https://learn.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview) · [Create an access review of groups or applications](https://learn.microsoft.com/en-us/azure/active-directory/governance/create-access-review)"
+    },
+    {
+      "number": 30,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which Microsoft Purview data classification type supports the use of regular expressions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "exact data match (EDM)"
+        },
+        {
+          "letter": "B",
+          "text": "fingerprint classifier"
+        },
+        {
+          "letter": "C",
+          "text": "sensitive information types (SITs)"
+        },
+        {
+          "letter": "D",
+          "text": "trainable classifier"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Sensitive Information Types (SITs) support regular expression patterns to match complex data formats such as custom ID numbers, license plates, and domain-specific identifiers. Exact Data Match uses literal value lookup, fingerprint classifier uses statistical patterns, and trainable classifier relies on machine learning models."
+    },
+    {
+      "number": 31,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What can you use to scan email attachments and forward the attachments to recipients only if the attachments are free from malware?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Defender for Office 365"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Defender Antivirus"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Defender for Identity"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Defender for Endpoint"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Microsoft Defender for Office 365 includes Safe Attachments functionality, which scans email attachments in a sandboxed environment and only delivers the attachment to recipients if it is confirmed malware-free. Defender Antivirus (B) focuses on endpoint protection, Defender for Identity (C) protects against directory attacks, and Defender for Endpoint (D) secures devices."
+    },
+    {
+      "number": 32,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "You have an Azure subscription.  \n  \nYou need to implement approval-based, time-bound role activation.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "access reviews in Azure AD"
+        },
+        {
+          "letter": "B",
+          "text": "Azure AD Privileged Identity Management (PIM)"
+        },
+        {
+          "letter": "C",
+          "text": "Azure AD Identity Protection"
+        },
+        {
+          "letter": "D",
+          "text": "Conditional access in Azure AD"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Azure AD Privileged Identity Management (PIM) enables approval-based and time-bound role activation, allowing organizations to grant temporary elevated access only when needed and with appropriate authorization workflows."
+    },
+    {
+      "number": 33,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "You have an Azure subscription.  \n  \nYou need to implement approval-based, time-bound role activation.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Microsoft Endpoint Manager admin center"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Cost Management + Billing"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Service Trust Portal"
+        },
+        {
+          "letter": "D",
+          "text": "the Azure Active Directory admin center"
+        }
+      ],
+      "answer": null,
+      "explanation": "The Microsoft Service Trust Portal (STP) is the centralized resource where Microsoft publishes compliance, security, and privacy information for its cloud services, including third-party audit reports, certifications, and compliance guides covering standards such as ISO/IEC 27001, SOC 1/2/3, FedRAMP, GDPR, and HIPAA. It allows organizations to verify that Microsoft's cloud infrastructure and services meet specific regulatory and industry standards, which is not the function of the Endpoint Manager admin center (device/app management), Azure Cost Management + Billing (cost tracking), or the Azure Active Directory admin center (identity and access management).\n\n**Learn more:** [Get started with the Microsoft Service Trust Portal | Microsoft Learn](https://learn.microsoft.com/en-us/compliance/assurance/stp-get-started) · [ISO/IEC 27001:2013 Information Security Management Standards - Microsoft Compliance | Microsoft Learn](https://learn.microsoft.com/en-us/compliance/regulatory/offering-iso-27001)"
+    },
+    {
+      "number": 34,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "When security defaults are enabled for an Azure Active Directory (Azure AD) tenant, which two requirements are enforced? Each correct answer presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "All users must authenticate from a registered device."
+        },
+        {
+          "letter": "B",
+          "text": "Administrators must always use Azure Multi-Factor Authentication (MFA)."
+        },
+        {
+          "letter": "C",
+          "text": "Azure Multi-Factor Authentication (MFA) registration is required for all users."
+        },
+        {
+          "letter": "D",
+          "text": "All users must authenticate by using passwordless sign-in."
+        },
+        {
+          "letter": "E",
+          "text": "All users must authenticate by using Windows Hello."
+        }
+      ],
+      "answer": null,
+      "explanation": "When security defaults are enabled in Azure AD, two key requirements are enforced: administrators must always use Azure Multi-Factor Authentication (B), and all users must register for MFA (C). Device registration (A), passwordless sign-in (D), and Windows Hello (E) are not automatically enforced by security defaults alone."
+    },
+    {
+      "number": 35,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "<Dropdown\n  blanks={[{\"id\":\"blank1\",\"options\":[\"Azure AD Identity Protection\",\"Azure AD Privileged Identity Management (PIM)\",\"multi-factor authentication (MFA)\"],\"answer\":\"multi-factor authentication (MFA)\"}]}\n  template={\"When you enable security defaults in Azure Active Directory (Azure AD), {{blank1}} will be enabled for all Azure AD users.\"}\n  templateMode={\"prose\"}\n  explanation={\"Security defaults require users to register for Microsoft Entra multifactor authentication and enforce MFA when needed. Azure AD Identity Protection and Privileged Identity Management are separate services that security defaults do not enable for every user.\\\n\\\n**Learn more:** [Configure Security Defaults for Microsoft Entra ID](https://learn.microsoft.com/en-us/entra/fundamentals/security-defaults)\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],Which feature of Azure Active Directory (Azure AD) can be used to provide just-in-time (JIT) access for managing Azure resources?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "conditional access policies"
+        },
+        {
+          "letter": "B",
+          "text": "Azure AD Identity Protection"
+        },
+        {
+          "letter": "C",
+          "text": "Azure AD Privileged Identity Management (PIM)"
+        },
+        {
+          "letter": "D",
+          "text": "authentication method policies"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure AD Privileged Identity Management (PIM) enables just-in-time privileged access by allowing users to activate eligible role assignments for a limited time period, requiring justification or approval, rather than having standing (always-on) access. This applies to both Azure AD roles and Azure resource roles (such as Owner or Contributor on subscriptions, resource groups, or resources), directly fulfilling the JIT access requirement. Conditional access policies enforce access controls based on conditions like location or device compliance but do not provide time-bound role activation; Identity Protection focuses on risk detection and remediation; authentication method policies govern acceptable authentication methods, none of which provide JIT privileged access management.\n\n**Learn more:** [What is Azure AD Privileged Identity Management?](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure)"
+    },
+    {
+      "number": 36,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "What are three uses of Microsoft Cloud App Security? Each correct answer presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "to discover and control the use of shadow IT"
+        },
+        {
+          "letter": "B",
+          "text": "to provide secure connections to Azure virtual machines"
+        },
+        {
+          "letter": "C",
+          "text": "to protect sensitive information hosted anywhere in the cloud"
+        },
+        {
+          "letter": "D",
+          "text": "to provide pass-through authentication to on-premises applications"
+        },
+        {
+          "letter": "E",
+          "text": "to prevent data leaks to noncompliant apps and limit access to regulated data"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Defender for Cloud Apps (now Microsoft Cloud App Security/Defender for Cloud Apps) enables organizations to discover and control shadow IT applications, protect sensitive information in cloud applications through data loss prevention, and prevent data leaks to noncompliant apps while limiting access to regulated data."
+    },
+    {
+      "number": 37,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "You plan to move resources to the cloud.  \n  \nYou are evaluating the use of Infrastructure as a service (IaaS), Platform as a service (PaaS), and Software as a service (SaaS) cloud models.  \n  \nYou plan to manage only the data, user accounts, and user devices for a cloud-based app.  \n  \nWhich cloud model will you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SaaS"
+        },
+        {
+          "letter": "B",
+          "text": "PaaS"
+        },
+        {
+          "letter": "C",
+          "text": "IaaS"
+        }
+      ],
+      "answer": "A",
+      "explanation": "In SaaS, the customer retains responsibility for data, user accounts, and user devices while the cloud provider manages infrastructure, applications, and all underlying systems. This responsibility model aligns with the scenario described in the question."
+    },
+    {
+      "number": 51,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which two tasks can you implement by using data loss prevention (DLP) policies in Microsoft 365? Each correct answer presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Display policy tips to users who are about to violate your organization's policies."
+        },
+        {
+          "letter": "B",
+          "text": "Enable disk encryption on endpoints."
+        },
+        {
+          "letter": "C",
+          "text": "Protect documents in Microsoft OneDrive that contain sensitive information."
+        },
+        {
+          "letter": "D",
+          "text": "Apply security baselines to devices."
+        }
+      ],
+      "answer": null,
+      "explanation": "Data Loss Prevention policies display policy tips to warn users before violations occur and can protect documents in OneDrive containing sensitive information through classification-based restrictions."
+    },
+    {
+      "number": 52,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "What should you use to associate the same identity to more than one Azure virtual machine?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "an Azure AD user account"
+        },
+        {
+          "letter": "B",
+          "text": "a user-assigned managed identity"
+        },
+        {
+          "letter": "C",
+          "text": "a system-assigned managed identity"
+        },
+        {
+          "letter": "D",
+          "text": "an Azure AD security group"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A user-assigned managed identity is an Azure resource that can be created once and assigned to multiple Azure VMs, allowing them to share the same identity for authentication. System-assigned identities are tied to individual resources and cannot be shared."
+    },
+    {
+      "number": 53,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What should you use to associate the same identity to more than one Azure virtual machine?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Secure Score"
+        },
+        {
+          "letter": "B",
+          "text": "Productivity Score"
+        },
+        {
+          "letter": "C",
+          "text": "Secure score in Azure Security Center"
+        },
+        {
+          "letter": "D",
+          "text": "Compliance score"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Purview Compliance Manager calculates a compliance score that reflects how well an organization has implemented recommended actions (technical, non-technical, and Microsoft-managed) to reduce risks related to data protection and compliance with regulations and standards (such as GDPR, ISO, NIST, etc.). This score is specifically designed around regulatory and data-protection risk, unlike Secure Score (overall security posture), Productivity Score (usage/technology experience), or the Secure score in Azure Security Center/Defender for Cloud (cloud resource security posture).\n\n**Learn more:** [Microsoft Purview Compliance Manager - Compliance score calculation](https://learn.microsoft.com/en-us/purview/compliance-manager-scoring)"
+    },
+    {
+      "number": 54,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which portal contains the solution catalog?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Purview compliance portal"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft 365 Defender portal"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft 365 admin center"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft 365 Apps admin center"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The Microsoft Purview compliance portal contains the solution catalog, which provides a collection of compliance-focused solutions and integrated workflows. While the Microsoft 365 Defender portal exists for security, the compliance catalog resides in Purview."
+    },
+    {
+      "number": 55,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "What is an assessment in Compliance Manager?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A policy initiative that includes multiple policies."
+        },
+        {
+          "letter": "B",
+          "text": "A dictionary of words that are not allowed in company documents."
+        },
+        {
+          "letter": "C",
+          "text": "A grouping of controls from a specific regulation, standard or policy."
+        },
+        {
+          "letter": "D",
+          "text": "Recommended guidance to help organizations align with their corporate standards."
+        }
+      ],
+      "answer": "C",
+      "explanation": "In Microsoft Compliance Manager, an assessment is a grouping of controls from a specific regulation, standard, or policy. Assessments help organizations map their compliance requirements and track their implementation status across various frameworks like GDPR, HIPAA, and ISO 27001."
+    },
+    {
+      "number": 56,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What is Azure Key Vault used for?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "to deploy a cloud-based network security service that protects Azure virtual network resources"
+        },
+        {
+          "letter": "B",
+          "text": "to protect cloud-based applications from cyber threats and vulnerabilities"
+        },
+        {
+          "letter": "C",
+          "text": "to safeguard cryptographic keys and other secrets used by cloud apps and services"
+        },
+        {
+          "letter": "D",
+          "text": "to provide secure and seamless RDP/SSH connectivity to Azure virtual machines via TLS from the Azure portal"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Azure Key Vault is a secrets management service designed to store, rotate, and control access to cryptographic keys, certificates, and sensitive secrets such as connection strings and API keys. It is not for network security, general threat protection, or remote access."
+    },
+    {
+      "number": 57,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "Which pillar of identity relates to tracking the resources accessed by a user?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "authorization"
+        },
+        {
+          "letter": "B",
+          "text": "auditing"
+        },
+        {
+          "letter": "C",
+          "text": "administration"
+        },
+        {
+          "letter": "D",
+          "text": "authentication"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Auditing is the pillar of identity that tracks and logs the resources accessed by users. The four pillars of identity are authentication (verifying who you are), authorization (controlling what you can access), auditing (tracking what was accessed), and administration (managing identities and policies)."
+    },
+    {
+      "number": 58,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What can you use to protect against malicious links sent in email messages, chat messages, and channels?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Defender for Cloud Apps"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Defender for Office 365"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Defender for Endpoint"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Defender for Identity"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Microsoft Defender for Office 365 includes Safe Links, which scans URLs in email, Teams, and supported Office 365 applications both at mail flow and at click time. The other Defender variants protect different surfaces—Cloud Apps protects SaaS applications, Endpoint protects devices, and Identity protects hybrid cloud authentication."
+    },
+    {
+      "number": 59,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "You plan to implement a security strategy and place multiple layers of defense throughout a network infrastructure.  \n\nWhich security methodology does this represent?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "threat modeling"
+        },
+        {
+          "letter": "B",
+          "text": "identity as the security perimeter"
+        },
+        {
+          "letter": "C",
+          "text": "defense in depth"
+        },
+        {
+          "letter": "D",
+          "text": "the shared responsibility model"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Defense in depth is the security methodology of implementing multiple layers of defensive controls throughout a network infrastructure. Each layer provides protection if outer layers are compromised. Threat modeling (A) is an analysis technique, identity as perimeter (B) is a strategy principle, and the shared responsibility model (D) describes Azure responsibility divisions—none represent the concept of multiple defense layers."
+    },
+    {
+      "number": 60,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "What can you use to ensure that all the users in a specific group must use multi-factor authentication (MFA) to sign to Azure Active Directory (Azure AD)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Policy"
+        },
+        {
+          "letter": "B",
+          "text": "a communication compliance policy"
+        },
+        {
+          "letter": "C",
+          "text": "a Conditional Access policy"
+        },
+        {
+          "letter": "D",
+          "text": "a user risk policy"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A Conditional Access policy allows organizations to create rules that target specific groups and require multi-factor authentication at sign-in. Policies can be scoped to Azure AD users and configured with various conditions and grant controls."
+    },
+    {
+      "number": 61,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Microsoft 365 Endpoint data loss prevention (Endpoint DLP) can be used on which operating systems?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Windows 10 and newer only"
+        },
+        {
+          "letter": "B",
+          "text": "Windows 10 and newer and Android only"
+        },
+        {
+          "letter": "C",
+          "text": "Windows 10 and newer and macOS only"
+        },
+        {
+          "letter": "D",
+          "text": "Windows 10 and newer, Android, and macOS"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Microsoft 365 Endpoint DLP supports Windows 10, Windows 11, and macOS devices running any of the three latest released major versions. Android and iOS are not supported for Endpoint DLP deployments."
+    },
+    {
+      "number": 76,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "Which feature is included in Microsoft Entra ID Governance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Identity Protection"
+        },
+        {
+          "letter": "B",
+          "text": "Privileged Identity Management"
+        },
+        {
+          "letter": "C",
+          "text": "Permissions Management"
+        },
+        {
+          "letter": "D",
+          "text": "Verifiable credentials"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Privileged Identity Management (PIM) is a core component of Microsoft Entra ID Governance, providing just-in-time (JIT) access, approval workflows, and time-bound privilege elevation for administrative roles. Identity Protection focuses on risk detection; Permissions Management is a separate cloud infrastructure entitlement solution."
+    },
+    {
+      "number": 77,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "In a hybrid identity model, what can you use to sync identities between Active Directory Domain Services (AD DS) and Azure Active Directory (Azure AD)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Active Directory Federation Services (AD FS)"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Sentinel"
+        },
+        {
+          "letter": "C",
+          "text": "Azure AD Connect"
+        },
+        {
+          "letter": "D",
+          "text": "Azure AD Privileged Identity Management (PIM)"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Azure AD Connect (now branded as Microsoft Entra Connect) is the synchronization tool that replicates identities from on-premises Active Directory Domain Services to Azure Active Directory, enabling a hybrid identity model where users have a single identity across both environments."
+    },
+    {
+      "number": 78,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "In the shared responsibility model, for what is Microsoft responsible when managing Azure virtual machines?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Updating the firmware of the disk controller."
+        },
+        {
+          "letter": "B",
+          "text": "Updating installed applications."
+        },
+        {
+          "letter": "C",
+          "text": "Configuring the permissions for shared folders."
+        },
+        {
+          "letter": "D",
+          "text": "Updating the operating system."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Microsoft owns and maintains the underlying physical infrastructure for Azure virtual machines, which includes hardware-level maintenance such as updating the firmware on disk controllers, physical network devices, and datacenter equipment. In the IaaS shared responsibility model, the customer retains responsibility for the guest operating system, installed applications, and configuring access such as shared-folder permissions.\\\n\\\n**Learn more:** [Shared responsibility in the cloud](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)"
+    },
+    {
+      "number": 79,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure subscription containing a virtual network named VNet1. VNet1 has multiple subnets and virtual machines.  \n  \nYou deploy an Azure Firewall named FW1 in VNet1.  \n  \nYou need to make sure that FW1 can inspect and filter all internet traffic entering and leaving VNet1. The solution must minimize costs.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create and associate route tables."
+        },
+        {
+          "letter": "B",
+          "text": "Configure network peerings."
+        },
+        {
+          "letter": "C",
+          "text": "Create service endpoints."
+        },
+        {
+          "letter": "D",
+          "text": "Implement Azure Route Server."
+        }
+      ],
+      "answer": null,
+      "explanation": "Route tables with user-defined routes can be associated with the workload subnets and configured with a 0.0.0.0/0 route whose next hop is the Azure Firewall private IP address. This forces internet-bound traffic through the firewall for inspection and filtering without the additional service cost of Azure Route Server. Azure Firewall can handle internet ingress through its public IP and applicable DNAT or network rules.\n\n**Learn more:** [Azure Firewall and traffic inspection](https://learn.microsoft.com/en-us/azure/networking/design-guide/azure-firewall) · [Create, change, or delete an Azure route table](https://learn.microsoft.com/en-us/azure/virtual-network/manage-route-table)"
+    },
+    {
+      "number": 80,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "To which three locations can a data loss prevention (DLP) policy be applied? Each correct answer represents a complete solution.  \n  \n&gt; **NOTE:** Each correct answer is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Exchange Online email"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft OneDrive accounts"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Exchange Online public folders"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Teams chat and channel messages"
+        },
+        {
+          "letter": "E",
+          "text": "Microsoft Viva Engage"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Purview DLP policies can monitor and protect content in Exchange Online email, OneDrive for work or school accounts, and Teams chat and channel messages. Exchange Online public folders and Microsoft Viva Engage are not listed as supported DLP policy locations.\\\n\\\n**Learn more:** [Data Loss Prevention policy reference](https://learn.microsoft.com/en-us/purview/dlp-policy-reference) · [Learn about data loss prevention](https://learn.microsoft.com/en-us/purview/dlp-learn-about-dlp)"
+    },
+    {
+      "number": 81,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Your company is assessing various security products, including a security information and event management (SIEM) solution.  \n  \nYou need to provide information about the capabilities of SIEM solutions.  \n  \nWhat is one function of a SIEM solution?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the ability to review network activity and provide reports about which applications and services can communicate"
+        },
+        {
+          "letter": "B",
+          "text": "an alerting system that triggers an alert when users reach their Azure spending limit"
+        },
+        {
+          "letter": "C",
+          "text": "the ability to review logs and provide reports about malicious activity"
+        },
+        {
+          "letter": "D",
+          "text": "automated incident remediation"
+        }
+      ],
+      "answer": "C",
+      "explanation": "A SIEM ingests and analyzes logs from systems and security sources to identify malicious or suspicious activity and support security reporting and investigation. Microsoft Sentinel, a SIEM, analyzes system log data to detect security threats.\\\n\\\n**Learn more:** [What is Microsoft Sentinel SIEM?](https://learn.microsoft.com/en-us/azure/sentinel/overview)"
+    },
+    {
+      "number": 82,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which compliance feature should you use to identify documents that are employee resumes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pre-trained classifiers"
+        },
+        {
+          "letter": "B",
+          "text": "Activity explorer"
+        },
+        {
+          "letter": "C",
+          "text": "eDiscovery"
+        },
+        {
+          "letter": "D",
+          "text": "Content explorer"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Pre-trained classifiers in Microsoft Purview Compliance Center can automatically identify specific document types, including employee resumes. These classifiers are powered by machine learning models trained to recognize common document patterns and are available out-of-the-box for compliance and governance tasks."
+    },
+    {
+      "number": 83,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],What role does Microsoft Purview insider risk management play in maintaining a company's compliance status?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "to detect and prevent communication policy breaches"
+        },
+        {
+          "letter": "B",
+          "text": "to audit and assess the company's resources to ensure ongoing compliance with data regulations and standards"
+        },
+        {
+          "letter": "C",
+          "text": "to detect potentially harmful user activities and assign risk scores to the activities"
+        },
+        {
+          "letter": "D",
+          "text": "to find, preserve, and export content from various locations in response to legal, regulatory, and corporate requests for data"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Purview Insider Risk Management detects potentially risky user activity—whether malicious or inadvertent—and assigns risk scores through its policies and indicators so the organization can investigate and mitigate insider risks.\n\n**Learn more:** [Learn about Microsoft Purview Insider Risk Management](https://learn.microsoft.com/en-us/purview/insider-risk-management) · [Configure intelligent detections in Insider Risk Management](https://learn.microsoft.com/en-us/purview/insider-risk-management-settings-intelligent-detections)"
+    },
+    {
+      "number": 84,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What can you use to provide threat detection for Azure SQL Managed Instance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Secure Score"
+        },
+        {
+          "letter": "B",
+          "text": "application security groups"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Defender for Cloud"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Bastion"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Microsoft Defender for Cloud (formerly Azure Defender) provides threat detection for Azure SQL resources, including SQL Managed Instance. It surfaces potential database vulnerabilities and detects anomalous activities that could indicate threats to the database."
+    },
+    {
+      "number": 101,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which two cards are available in the Microsoft 365 Defender portal? Each correct answer presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Devices at risk"
+        },
+        {
+          "letter": "B",
+          "text": "Compliance Score"
+        },
+        {
+          "letter": "C",
+          "text": "Service Health"
+        },
+        {
+          "letter": "D",
+          "text": "User Management"
+        },
+        {
+          "letter": "E",
+          "text": "Users at risk"
+        }
+      ],
+      "answer": null,
+      "explanation": "The Microsoft 365 Defender portal home page displays information cards showing security metrics, including 'Devices at risk' and 'Users at risk.' These cards provide at-a-glance visibility into the number of threats detected and affected assets. Compliance Score, Service Health, and User Management are not default cards on this dashboard."
+    },
+    {
+      "number": 102,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "Which Microsoft portal provides information about how Microsoft cloud services comply with regulatory standard, such as International Organization for Standardization (ISO)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Microsoft 365 admin center"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Cost Management + Billing"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Service Trust Portal"
+        },
+        {
+          "letter": "D",
+          "text": "the Microsoft Purview compliance portal"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The Microsoft Service Trust Portal is the dedicated resource for viewing compliance documentation on how Microsoft cloud services align with regulatory standards such as ISO, SOC 2, HIPAA, and others. While the Purview compliance portal helps organizations implement their own compliance programs, the Service Trust Portal specifically documents Microsoft's compliance posture."
+    },
+    {
+      "number": 103,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which type of identity is created when you register an application with Active Directory (Azure AD)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a user account"
+        },
+        {
+          "letter": "B",
+          "text": "a user-assigned managed identity"
+        },
+        {
+          "letter": "C",
+          "text": "a system-assigned managed identity"
+        },
+        {
+          "letter": "D",
+          "text": "a service principal"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Registering an application with Azure AD creates a service principal, which is the security identity representing the application in Azure AD. This principal can be assigned permissions and credentials for API access. User accounts (A) are for people, user-assigned managed identity (B) is for resources, and system-assigned managed identity (C) is for Azure services."
+    },
+    {
+      "number": 104,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What does Conditional Access evaluate by using Azure Active Directory (Azure AD) Identity Protection?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "user actions"
+        },
+        {
+          "letter": "B",
+          "text": "group membership"
+        },
+        {
+          "letter": "C",
+          "text": "device compliance"
+        },
+        {
+          "letter": "D",
+          "text": "user risk"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Conditional Access uses Azure AD Identity Protection to evaluate user risk as one of its decision criteria. User risk is calculated by Identity Protection based on signals like anomalous sign-ins, leaked credentials, and unusual travel patterns. User actions (A), group membership (B), and device compliance (C) are separate conditional access factors."
+    },
+    {
+      "number": 105,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "What is a function of Conditional Access session controls?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "enforcing device compliance"
+        },
+        {
+          "letter": "B",
+          "text": "enforcing client app compliance"
+        },
+        {
+          "letter": "C",
+          "text": "enable limited experiences, such as blocking download of sensitive information"
+        },
+        {
+          "letter": "D",
+          "text": "prompting multi-factor authentication (MFA)"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Conditional Access session controls enable limited experiences by restricting or modifying user actions after successful authentication, such as blocking sensitive file downloads. This differs from grant controls (device compliance, client app compliance, MFA) which are evaluated before access is granted."
+    },
+    {
+      "number": 106,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "You have a Microsoft 365 E3 subscription.  \n\nYou plan to audit user activity by using the unified audit log and Basic Audit.  \n\nFor how long will the audit records be retained?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "15 days"
+        },
+        {
+          "letter": "B",
+          "text": "30 days"
+        },
+        {
+          "letter": "C",
+          "text": "90 days"
+        },
+        {
+          "letter": "D",
+          "text": "180 days"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Since the default audit-log retention change took effect on October 17, 2023, Basic Audit records for events generated on or after that date under a Microsoft 365 E3 subscription are retained for 180 days, superseding the earlier 90-day default that applied only to records generated before the change."
+    },
+    {
+      "number": 107,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which statement represents a Microsoft privacy principle?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft manages privacy settings for its customers."
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft respects the local privacy laws that are applicable to its customers."
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft uses hosted customer email and chat data for targeted advertising."
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft does not collect any customer data."
+        }
+      ],
+      "answer": "B",
+      "explanation": "A core Microsoft privacy principle is respecting the local privacy laws applicable to its customers, reflecting commitment to compliance with regional regulations like GDPR, CCPA, and others. Managing customer privacy settings (A) is a customer responsibility, using customer data for targeted advertising (C) contradicts privacy practices, and claiming no data collection (D) is inaccurate."
+    },
+    {
+      "number": 108,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "What feature in Microsoft Defender for Endpoint provides the first line of defense against cyberthreats by reducing the attack surface?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "automated remediation"
+        },
+        {
+          "letter": "B",
+          "text": "automated investigation"
+        },
+        {
+          "letter": "C",
+          "text": "advanced hunting"
+        },
+        {
+          "letter": "D",
+          "text": "network protection"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Network protection in Microsoft Defender for Endpoint provides the first line of defense by reducing the attack surface, blocking network-based exploits and preventing connections to malicious domains. Automated remediation (A) and investigation (B) respond after threats are detected, and advanced hunting (C) is an analysis tool."
+    },
+    {
+      "number": 109,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which type of alert can you manage from the Microsoft 365 Defender portal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Defender for Storage"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Defender for SQL"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Defender for Endpoint"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Defender for IoT"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Alerts from Microsoft Defender for Endpoint (along with other Microsoft Defender products like Defender for Office 365, Defender for Identity, and Defender for Cloud Apps) can be managed from the Microsoft 365 Defender portal, which serves as the central hub for security alerting."
+    },
+    {
+      "number": 110,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "What are two capabilities of Microsoft Defender for Endpoint? Each correct selection presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "automated investigation and remediation"
+        },
+        {
+          "letter": "B",
+          "text": "transport encryption"
+        },
+        {
+          "letter": "C",
+          "text": "shadow IT detection"
+        },
+        {
+          "letter": "D",
+          "text": "attack surface reduction"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Defender for Endpoint provides automated investigation and remediation capabilities that reduce alert volume at scale, and attack surface reduction as a first line of defense in the security stack."
+    },
+    {
+      "number": 111,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "You are examining rules in an Azure network security group (NSG).  \n  \nYou need to determine which NSG rules are default rules and which are custom rules.  \n  \nWhich property should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Source"
+        },
+        {
+          "letter": "B",
+          "text": "Protocol"
+        },
+        {
+          "letter": "C",
+          "text": "Priority"
+        },
+        {
+          "letter": "D",
+          "text": "Port"
+        }
+      ],
+      "answer": "C",
+      "explanation": "NSG default security rules have priority values of 65000, 65001, or 65500. Custom NSG rules use unique priority values from 100 through 4096, so the priority property distinguishes default rules from custom rules.\\\n\\\n**Learn more:** [Network security groups and application security groups](https://learn.microsoft.com/en-us/azure/networking/design-guide/network-application-security-groups) · [Create, change, or delete Azure network security groups](https://learn.microsoft.com/en-us/azure/virtual-network/manage-network-security-group)"
+    },
+    {
+      "number": 112,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What can you protect by using the information protection solution in the Microsoft 365 compliance center?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "computers from zero-day exploits"
+        },
+        {
+          "letter": "B",
+          "text": "users from phishing attempts"
+        },
+        {
+          "letter": "C",
+          "text": "files from malware and viruses"
+        },
+        {
+          "letter": "D",
+          "text": "sensitive data from being exposed to unauthorized users"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The information protection solution in Microsoft 365 compliance center protects sensitive data from exposure to unauthorized users through classification, labeling, and encryption. Protecting computers from zero-day exploits (A) is endpoint protection, defending against phishing (B) is threat protection, and malware/virus protection (C) is antivirus—these are different security functions."
+    },
+    {
+      "number": 113,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which Microsoft Defender for Cloud metric displays the overall security health of an Azure subscription?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "secure score"
+        },
+        {
+          "letter": "B",
+          "text": "resource health"
+        },
+        {
+          "letter": "C",
+          "text": "completed controls"
+        },
+        {
+          "letter": "D",
+          "text": "the status of recommendations"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Secure Score in Microsoft Defender for Cloud displays the overall security posture and health of an Azure subscription by aggregating security recommendations and their implementation status."
+    },
+    {
+      "number": 126,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "Which two types of devices can be managed by using Endpoint data loss prevention (Endpoint DLP)? Each correct answer presents a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Windows 11"
+        },
+        {
+          "letter": "B",
+          "text": "Linux"
+        },
+        {
+          "letter": "C",
+          "text": "iOS"
+        },
+        {
+          "letter": "D",
+          "text": "macOS"
+        },
+        {
+          "letter": "E",
+          "text": "Android"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Endpoint DLP supports Windows 10, Windows 11, and macOS devices. Mobile platforms (iOS, Android) and Linux are not currently supported by Endpoint DLP, though data loss protection may be available through other mechanisms such as Purview web access policies."
+    },
+    {
+      "number": 127,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which solution performs security assessments and automatically generates alerts when a vulnerability is found?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "cloud security posture management (CSPM)"
+        },
+        {
+          "letter": "B",
+          "text": "DevSecOps"
+        },
+        {
+          "letter": "C",
+          "text": "cloud workload protection platform (CWPP)"
+        },
+        {
+          "letter": "D",
+          "text": "security information and event management (SIEM)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Cloud Security Posture Management (CSPM) performs continuous security assessments of cloud environments and automatically generates alerts for discovered vulnerabilities and misconfigurations. SIEM tools focus on event aggregation rather than vulnerability assessment."
+    },
+    {
+      "number": 128,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "What should you create to search and export content preserved in an eDiscovery hold?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a Microsoft SharePoint Online site"
+        },
+        {
+          "letter": "B",
+          "text": "a case"
+        },
+        {
+          "letter": "C",
+          "text": "a Microsoft Exchange Online public folder"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Files"
+        }
+      ],
+      "answer": "B",
+      "explanation": "In eDiscovery (Premium), you must create a 'case' as the container for managing holds, searches, and exports of preserved content. SharePoint sites, Exchange folders, and Azure Files are data sources that can be placed on hold within a case, but they are not the mechanism for searching and exporting."
+    },
+    {
+      "number": 129,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "Which feature provides the extended detection and response (XDR) capability of Azure Sentinel?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "integration with the Microsoft 365 compliance center"
+        },
+        {
+          "letter": "B",
+          "text": "support for threat hunting"
+        },
+        {
+          "letter": "C",
+          "text": "integration with Microsoft 365 Defender"
+        },
+        {
+          "letter": "D",
+          "text": "support for Azure Monitor Workbooks"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Azure Sentinel provides extended detection and response (XDR) capabilities through integration with Microsoft 365 Defender, which unifies threat detection and response across endpoints, email, documents, identities, and cloud apps. This integration allows Sentinel to receive and correlate signals from Microsoft 365 Defender for comprehensive threat analysis."
+    },
+    {
+      "number": 130,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "Which two Azure resources can a network security group (NSG) be associated with? Each correct answer presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a virtual network subnet"
+        },
+        {
+          "letter": "B",
+          "text": "a network interface"
+        },
+        {
+          "letter": "C",
+          "text": "a resource group"
+        },
+        {
+          "letter": "D",
+          "text": "a virtual network"
+        },
+        {
+          "letter": "E",
+          "text": "an Azure App Service web app"
+        }
+      ],
+      "answer": null,
+      "explanation": "Network Security Groups (NSGs) can be associated with virtual network subnets and network interfaces on virtual machines. An NSG cannot be associated with a resource group (management container), the virtual network itself (only its subnets), or App Service web apps."
+    },
+    {
+      "number": 131,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "What can you use to deploy Azure resources across multiple subscriptions in a consistent manner?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Defender for Cloud"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Blueprints"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Sentinel"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Policy"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Azure Blueprints allows organizations to define a repeatable set of Azure resources that can be deployed consistently across multiple subscriptions. This enables rapid provisioning of environments while maintaining compliance with organizational standards and requirements."
+    },
+    {
+      "number": 132,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What can you use to deploy Azure resources across multiple subscriptions in a consistent manner?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "to restrict unauthenticated access to Microsoft 365"
+        },
+        {
+          "letter": "B",
+          "text": "to restrict Microsoft Teams chats between certain groups within an organization"
+        },
+        {
+          "letter": "C",
+          "text": "to restrict Microsoft Exchange Online email between certain groups within an organization"
+        },
+        {
+          "letter": "D",
+          "text": "to restrict data sharing to external email recipients"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Purview Information Barriers (IB) policies are designed specifically to restrict two-way communication and collaboration between defined groups and users in Microsoft Teams (as well as SharePoint, OneDrive, and Planner). When an IB policy is applied, users in a restricted segment cannot search for, chat with, call, add to a team, or share files with users in another restricted segment — this is commonly used in regulated industries to prevent conflicts of interest (e.g., separating trading desks from other departments) or to enforce ethical walls. By contrast, Microsoft's official documentation explicitly states that IB policies cannot restrict communication in Exchange Online email messages; organizations needing to control email communications must instead use Exchange mail flow rules. Restricting unauthenticated access is handled by identity and access management controls (e.g., Conditional Access), and restricting data sharing with external email recipients is a Data Loss Prevention (DLP) use case, not an Information Barriers use case.\n\n**Learn more:** [Learn about Information Barriers | Microsoft Learn](https://learn.microsoft.com/en-us/purview/information-barriers) · [Information Barriers in Microsoft Teams | Microsoft Learn](https://learn.microsoft.com/en-us/purview/information-barriers-teams)"
+    },
+    {
+      "number": 133,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What should you use in the Microsoft 365 Defender portal to view security trends and track the protection status of identities?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Attack simulator"
+        },
+        {
+          "letter": "B",
+          "text": "Reports"
+        },
+        {
+          "letter": "C",
+          "text": "Hunting"
+        },
+        {
+          "letter": "D",
+          "text": "Incidents"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The Reports section of the Microsoft 365 Defender portal presents security trend charts and dashboards, including the protection status of identities, across the tenant's connected workloads, which distinguishes it from Incidents (case management), Hunting (ad hoc query investigation), and Attack simulator (phishing/training simulations).\\\n\\\n**Learn more:** [Tenant-wide setup for increased security - view dashboards and reports](https://learn.microsoft.com/en-us/defender-office-365/tenant-wide-setup-for-increased-security#view-dashboards-and-reports-in-the-microsoft-defender-portal)"
+    },
+    {
+      "number": 134,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What is the maximum number of resources that Azure DDoS Protection Standard can protect without additional costs?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "50"
+        },
+        {
+          "letter": "B",
+          "text": "100"
+        },
+        {
+          "letter": "C",
+          "text": "500"
+        },
+        {
+          "letter": "D",
+          "text": "1000"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Azure DDoS Protection Standard includes protection for up to 100 public IP addresses under a fixed monthly plan at no additional cost. Beyond 100 addresses, additional protection is available at extra cost."
+    },
+    {
+      "number": 135,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "You need to ensure repeatability when creating new resources in an Azure subscription.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Sentinel"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Policy"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Batch"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Blueprints"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Azure Blueprints provides a repeatable mechanism for deploying standardized resource configurations. It maintains a lasting relationship between the blueprint definition and deployed resources, enabling consistent reproducibility across deployments."
+    },
+    {
+      "number": 151,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "You have an Azure subscription that contains a Log Analytics workspace.  \n  \nYou need to onboard Microsoft Sentinel.  \n  \nWhat should you do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a hunting query."
+        },
+        {
+          "letter": "B",
+          "text": "Correlate alerts into incidents."
+        },
+        {
+          "letter": "C",
+          "text": "Connect to your security sources."
+        },
+        {
+          "letter": "D",
+          "text": "Create a custom detection rule."
+        }
+      ],
+      "answer": "C",
+      "explanation": "The first step in onboarding Microsoft Sentinel is to connect data sources to ingest security events and logs. Hunting queries, alert correlation, and custom detection rules are subsequent activities performed after data connectivity is established."
+    },
+    {
+      "number": 152,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "Which three authentication methods can Microsoft Entra users use to reset their passwords? Each correct answer provides a complete solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fingerprint"
+        },
+        {
+          "letter": "B",
+          "text": "security questions"
+        },
+        {
+          "letter": "C",
+          "text": "picture password"
+        },
+        {
+          "letter": "D",
+          "text": "mobile app notification"
+        },
+        {
+          "letter": "E",
+          "text": "text message to a phone"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Entra self-service password reset supports security questions, mobile app push notifications through Microsoft Authenticator, and SMS text messages to a registered phone. Fingerprint and picture password are Windows device sign-in mechanisms rather than password-reset verification methods.\\\n\\\n**Learn more:** [Self-service password reset deep dive](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-sspr-howitworks) · [Security questions authentication method](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-security-questions)"
+    },
+    {
+      "number": 153,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "In a Core eDiscovery workflow, what should you do before you can search for content?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create an eDiscovery hold."
+        },
+        {
+          "letter": "B",
+          "text": "Run Express Analysis."
+        },
+        {
+          "letter": "C",
+          "text": "Configure attorney-client privilege detection."
+        },
+        {
+          "letter": "D",
+          "text": "Export and download results."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Creating an eDiscovery hold is the critical first step in Core eDiscovery workflow. The hold preserves relevant content at source locations before searching, preventing deletion or modification of potentially relevant data. Running analysis (B), configuring privilege detection (C), and exporting results (D) occur after hold establishment."
+    },
+    {
+      "number": 154,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which service includes Microsoft Secure Score for Devices?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Defender for IoT"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Defender for Endpoint"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Defender for Identity"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Defender for Office 365"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Microsoft Secure Score for Devices is part of Defender Vulnerability Management, which is included in Microsoft Defender for Endpoint. It provides a security configuration score reflecting the collective state of your devices' security posture and is also available in Defender XDR and Defender for Servers plans."
+    },
+    {
+      "number": 155,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "Which Microsoft 365 feature can you use to restrict users from sending email messages that contain lists of customers and their associated credit card numbers?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "retention policies"
+        },
+        {
+          "letter": "B",
+          "text": "data loss prevention (DLP) policies"
+        },
+        {
+          "letter": "C",
+          "text": "conditional access policies"
+        },
+        {
+          "letter": "D",
+          "text": "information barriers"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Data Loss Prevention (DLP) policies are specifically designed to detect and prevent transmission of sensitive information such as credit card numbers and customer lists. DLP scans content and can block messages that match defined patterns. Retention policies (A) manage preservation duration, conditional access (C) controls authentication, and information barriers (D) restrict communication between groups."
+    },
+    {
+      "number": 156,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "When a user authenticates by using passwordless sign-in, what should the user select in the Microsoft Authenticator app?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "an answer to a security question"
+        },
+        {
+          "letter": "B",
+          "text": "a number"
+        },
+        {
+          "letter": "C",
+          "text": "an alphanumeric key"
+        },
+        {
+          "letter": "D",
+          "text": "a passphrase"
+        }
+      ],
+      "answer": "B",
+      "explanation": "In passwordless sign-in via Microsoft Authenticator, users approve the login request by selecting a number that appears on their phone. This number-matching approach replaces traditional passwords and ensures the user is physically present with the authenticator app during approval."
+    },
+    {
+      "number": 157,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "Which component is used to enable real-time integration between Azure Sentinel and another security data source?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure AD Connect"
+        },
+        {
+          "letter": "B",
+          "text": "a Log Analytics workspace"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Information Protection"
+        },
+        {
+          "letter": "D",
+          "text": "a connector"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Microsoft Sentinel uses data connectors to bring data in from various sources, including Microsoft services and third-party solutions, enabling near real-time ingestion and integration of security data into Sentinel for analysis, detection, and response. While the data itself lands in a Log Analytics workspace, it is the connector that establishes and manages the live integration/data flow between Sentinel and the external source.\\\n\\\n**Learn more:** [Connect data sources - Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/connect-data-sources)"
+    },
+    {
+      "number": 158,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "Which three forms of verification can be used with Azure AD Multi-Factor Authentication (MFA)? Each correct answer presents a complete solution.  \n  \nNOTE: Each correct answer is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "security questions"
+        },
+        {
+          "letter": "B",
+          "text": "the Microsoft Authenticator app"
+        },
+        {
+          "letter": "C",
+          "text": "SMS messages"
+        },
+        {
+          "letter": "D",
+          "text": "a smart card"
+        },
+        {
+          "letter": "E",
+          "text": "Windows Hello for Business"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure AD MFA supports the Microsoft Authenticator app, SMS messages, and Windows Hello for Business as forms of additional verification. Security questions are restricted to self-service password reset (SSPR), and smart cards are not listed as standard MFA methods for Azure AD."
+    },
+    {
+      "number": 176,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which Microsoft 365 compliance center feature can you use to identify all the documents on a Microsoft SharePoint Online site that contain a specific key word?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Audit"
+        },
+        {
+          "letter": "B",
+          "text": "Compliance Manager"
+        },
+        {
+          "letter": "C",
+          "text": "Content Search"
+        },
+        {
+          "letter": "D",
+          "text": "Alerts"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Content Search in the Microsoft 365 compliance center enables searching across Microsoft 365 services including SharePoint Online for documents matching specific keywords."
+    },
+    {
+      "number": 177,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "What is an example of encryption at rest?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "encrypting communications by using a site-to-site VPN"
+        },
+        {
+          "letter": "B",
+          "text": "encrypting a virtual machine disk"
+        },
+        {
+          "letter": "C",
+          "text": "accessing a website by using an encrypted HTTPS connection"
+        },
+        {
+          "letter": "D",
+          "text": "sending an encrypted email"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Encryption at rest protects data stored on physical media and not actively transmitted. Encrypting a virtual machine disk is a textbook example of encryption at rest. Site-to-site VPN (A), HTTPS connections (C), and encrypted email (D) all represent encryption in transit, protecting data while being transmitted across networks."
+    },
+    {
+      "number": 178,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "Which file types can Microsoft Purview sensitive information type classifiers classify?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Documents"
+        },
+        {
+          "letter": "B",
+          "text": "Video files"
+        },
+        {
+          "letter": "C",
+          "text": "Audio files"
+        },
+        {
+          "letter": "D",
+          "text": "Images"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Purview sensitive information types are pattern-based classifiers that detect sensitive content in documents. When optical character recognition (OCR) is configured, existing sensitive information types can also scan supported images; audio and video files are not supported for this sensitive-information-type scanning.\\\n\\\n**Learn more:** [Learn about sensitive information types](https://learn.microsoft.com/en-us/purview/sit-sensitive-information-type-learn-about) · [Learn about optical character recognition in Microsoft Purview](https://learn.microsoft.com/en-us/purview/ocr-learn-about)"
+    },
+    {
+      "number": 179,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "Which score measures an organization’s progress in completing actions that help reduce risks associated to data protection and regulatory standards?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adoption Score"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Secure Score"
+        },
+        {
+          "letter": "C",
+          "text": "Secure score in Microsoft Defender for Cloud"
+        },
+        {
+          "letter": "D",
+          "text": "Compliance score"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Compliance Score measures organizational progress in completing actions related to data protection and regulatory compliance standards. Unlike Secure Score which focuses on security, Compliance Score tracks compliance-specific remediation efforts."
+    },
+    {
+      "number": 180,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "Which three statements accurately describe the guiding principles of Zero Trust? Each correct answer presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Define the perimeter by physical locations."
+        },
+        {
+          "letter": "B",
+          "text": "Use identity as the primary security boundary."
+        },
+        {
+          "letter": "C",
+          "text": "Always verify the permissions of a user explicitly."
+        },
+        {
+          "letter": "D",
+          "text": "Always assume that the user system can be breached."
+        },
+        {
+          "letter": "E",
+          "text": "Use the network as the primary security boundary."
+        }
+      ],
+      "answer": null,
+      "explanation": "Zero Trust is built on three core guiding principles: identity as the primary security boundary (B), explicitly verifying user permissions before granting access (C), and assuming that systems can be breached and acting with that assumption (D). Defining perimeters by physical location (A) and using the network as primary boundary (E) contradict Zero Trust's core approach."
+    },
+    {
+      "number": 181,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "<Dropdown\n  blanks={[{\"id\":\"b1\",\"options\":[\"deep investigation tools.\",\"hunting search-and-query tools.\",\"playbooks.\",\"workbooks.\"],\"answer\":\"playbooks.\"}]}\n  template={\"In Microsoft Sentinel, you can automate common tasks by using {{b1}}\"}\n  templateMode={\"prose\"}\n  explanation={\"Microsoft Sentinel playbooks automate and orchestrate response actions by using Azure Logic Apps. Hunting tools query for threats, workbooks visualize data, and investigation tools support analysis rather than automation.\\\n\\\n**Learn more:** [Microsoft Sentinel playbooks](https://learn.microsoft.com/en-us/azure/sentinel/automation/playbooks)\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"sc-900\",\"data-q\":188,\"data-question-id\":\"54249b0c-5584-48e0-8808-18ae23996ec9\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}],\"$L73\"]}]]}]]}],\"$L74\"]}],\"$L75\"]}]\nWithin the shared responsibility model as it applies to an Azure deployment, which area does Microsoft alone manage, regardless of the type of deployment?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the management of mobile devices"
+        },
+        {
+          "letter": "B",
+          "text": "the permissions for the user data stored in Azure"
+        },
+        {
+          "letter": "C",
+          "text": "the creation and management of user accounts"
+        },
+        {
+          "letter": "D",
+          "text": "the management of the physical hardware"
+        }
+      ],
+      "answer": null,
+      "explanation": "Under Microsoft's shared responsibility model, responsibility for resources such as identities, devices, and applications shifts between the customer and Microsoft depending on whether the service is SaaS, PaaS, IaaS, or on-premises. However, the physical layer — physical hosts, physical network, and physical datacenter — remains solely Microsoft's responsibility across all deployment types, since customers never have access to or control over the underlying physical hardware in Azure. By contrast, user accounts, data permissions, and mobile device management always remain at least partly (often fully) the customer's responsibility in every deployment model.\n\n**Learn more:** [Shared responsibility in the cloud - Microsoft Azure | Microsoft Learn](https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)"
+    },
+    {
+      "number": 182,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which Microsoft 365 feature can you use to restrict communication and the sharing of information between members of two departments at your organization?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sensitivity label policies"
+        },
+        {
+          "letter": "B",
+          "text": "Customer Lockbox"
+        },
+        {
+          "letter": "C",
+          "text": "information barriers"
+        },
+        {
+          "letter": "D",
+          "text": "Privileged Access Management (PAM)"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Microsoft Purview Information Barriers enable organizations to restrict two-way communication and collaboration between specific groups and users across Teams, SharePoint, and OneDrive."
+    },
+    {
+      "number": 183,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which three tasks can be performed by using Azure Active Directory (Azure AD) Identity Protection? Each correct answer presents a complete solution.  \n\nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure external access for partner organizations."
+        },
+        {
+          "letter": "B",
+          "text": "Export risk detection to third-party utilities."
+        },
+        {
+          "letter": "C",
+          "text": "Automate the detection and remediation of identity based-risks."
+        },
+        {
+          "letter": "D",
+          "text": "Investigate risks that relate to user authentication."
+        },
+        {
+          "letter": "E",
+          "text": "Create and automatically assign sensitivity labels to data."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure AD Identity Protection enables three key tasks: automating detection and remediation of identity-based risks (C), investigating risks through portal data and analysis (D), and exporting risk detection data to third-party utilities for further analysis (B). Configuring external access (A) and assigning sensitivity labels (E) are different functions outside Identity Protection's scope."
+    },
+    {
+      "number": 184,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "Which type of identity can be used with an Azure service and will be deleted automatically when the service is deleted?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "user-assigned managed identity"
+        },
+        {
+          "letter": "B",
+          "text": "service principal"
+        },
+        {
+          "letter": "C",
+          "text": "user"
+        },
+        {
+          "letter": "D",
+          "text": "system-assigned managed identity"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A system-assigned managed identity is created directly on an Azure resource and its lifecycle is tied to that resource, so Microsoft Entra ID automatically removes the identity when the resource itself is deleted. A user-assigned managed identity, service principal, or user account exists as an independent object and must be deleted separately.\\\n\\\n**Learn more:** [Managed identities for Azure resources](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview)"
+    },
+    {
+      "number": 185,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What should you use in the Microsoft 365 Defender portal to view security trends and track the protection status of identities?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reports"
+        },
+        {
+          "letter": "B",
+          "text": "Incidents"
+        },
+        {
+          "letter": "C",
+          "text": "Hunting"
+        },
+        {
+          "letter": "D",
+          "text": "Secure score"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The Reports section in the Microsoft 365 Defender portal provides visibility into security trends and identity protection status across the organization. Reports display historical and current security metrics and insights."
+    },
+    {
+      "number": 201,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "You have an Azure subscription that contains multiple resources.  \n  \nYou need to assess compliance and enforce standards for the existing resources.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Blueprints"
+        },
+        {
+          "letter": "B",
+          "text": "the Anomaly Detector service"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Sentinel"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Policy"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Azure Policy is the Azure service designed to assess compliance and enforce standards across existing resources in a subscription. It enables centralized governance through policy definitions and assignments."
+    },
+    {
+      "number": 202,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What can you use to view the Microsoft Secure Score for Devices?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Defender for Cloud Apps"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Defender for Endpoint"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Defender for Identity"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Defender for Office 365"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Microsoft Secure Score for Devices (endpoints) is viewable through Microsoft Defender for Endpoint's Defender Vulnerability Management dashboard within the Microsoft 365 Defender portal. This score reflects the security posture of managed devices in the organization."
+    },
+    {
+      "number": 203,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "What are two reasons to deploy multiple virtual networks instead of using just one virtual network? Each correct answer presents a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "to meet governance policies"
+        },
+        {
+          "letter": "B",
+          "text": "to connect multiple types of resources"
+        },
+        {
+          "letter": "C",
+          "text": "to separate the resources for budgeting"
+        },
+        {
+          "letter": "D",
+          "text": "to isolate the resources"
+        }
+      ],
+      "answer": null,
+      "explanation": "Network segmentation through multiple virtual networks serves two primary purposes: enforcing governance policies and isolating resources for security and operational boundaries. Governance policies and resource isolation are the core reasons for network segmentation, as outlined in Azure architecture best practices."
+    },
+    {
+      "number": 204,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "Which three authentication methods can Azure AD users use to reset their password? Each correct answer presents a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mobile app notification"
+        },
+        {
+          "letter": "B",
+          "text": "text message to a phone"
+        },
+        {
+          "letter": "C",
+          "text": "security questions"
+        },
+        {
+          "letter": "D",
+          "text": "certificate"
+        },
+        {
+          "letter": "E",
+          "text": "picture password"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Active Directory's self-service password reset (SSPR) supports mobile app notifications, text messages to phone numbers, and security questions as authentication methods for verifying user identity during password resets. Certificates and picture passwords are not standard SSPR authentication methods."
+    },
+    {
+      "number": 205,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which Microsoft 365 compliance feature can you use to encrypt content automatically based on specific conditions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Content Search"
+        },
+        {
+          "letter": "B",
+          "text": "sensitivity labels"
+        },
+        {
+          "letter": "C",
+          "text": "retention policies"
+        },
+        {
+          "letter": "D",
+          "text": "eDiscovery"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Sensitivity labels can be configured with automatic encryption rules that encrypt content based on specified conditions such as content classification, recipient, or department."
+    },
+    {
+      "number": 206,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What should you use to ensure that the members of an Azure Active Directory group use multi-factor authentication (MFA) when they sign in?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure role-based access control (Azure RBAC)"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Active Directory (Azure AD) Privileged Identity Management (PIM)"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Active Directory (Azure AD) Identity Protection"
+        },
+        {
+          "letter": "D",
+          "text": "a conditional access policy"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A Conditional Access policy is the recommended way to enforce multi-factor authentication for members of a specific group. Conditional Access policies allow fine-grained control over access conditions based on group membership, location, device state, and sign-in risk."
+    },
+    {
+      "number": 207,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which Azure Active Directory (Azure AD) feature can you use to restrict Microsoft Intune-managed devices from accessing corporate resources?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "network security groups (NSGs)"
+        },
+        {
+          "letter": "B",
+          "text": "Azure AD Privileged Identity Management (PIM)"
+        },
+        {
+          "letter": "C",
+          "text": "conditional access policies"
+        },
+        {
+          "letter": "D",
+          "text": "resource locks"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Azure AD conditional access policies evaluate device compliance state and can restrict or block access to corporate resources for Intune-managed devices that do not meet compliance requirements."
+    },
+    {
+      "number": 208,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What can be created in Active Directory Domain Services (AD DS)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "line-of-business (LOB) applications that require modern authentication"
+        },
+        {
+          "letter": "B",
+          "text": "computer accounts"
+        },
+        {
+          "letter": "C",
+          "text": "software as a service (SaaS) applications that require modern authentication"
+        },
+        {
+          "letter": "D",
+          "text": "mobile devices"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Active Directory Domain Services (AD DS) is designed to create and manage computer accounts and user accounts within an on-premises directory. It does not directly create or manage line-of-business applications, SaaS applications, or mobile devices."
+    },
+    {
+      "number": 209,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What can be used in Microsoft Purview Compliance Manager to make creating assessments easier?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jupyter notebooks"
+        },
+        {
+          "letter": "B",
+          "text": "workbooks"
+        },
+        {
+          "letter": "C",
+          "text": "Bicep files"
+        },
+        {
+          "letter": "D",
+          "text": "templates"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Regulatory templates provide the required controls and improvement actions for regulations and standards, allowing assessments to be created quickly from a ready-to-use framework.\\\n\\\n**Learn more:** [Build and manage assessments in Microsoft Purview Compliance Manager](https://learn.microsoft.com/en-us/purview/compliance-manager-assessments) · [Microsoft Purview Compliance Manager overview](https://learn.microsoft.com/en-us/purview/compliance-manager)"
+    },
+    {
+      "number": 210,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "Which capability is provided by Microsoft Defender for Cloud Apps?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "cloud workload protection platform (CWPP)"
+        },
+        {
+          "letter": "B",
+          "text": "automated investigation and response (AIR)"
+        },
+        {
+          "letter": "C",
+          "text": "SaaS security posture management (SSPM)"
+        },
+        {
+          "letter": "D",
+          "text": "cloud security posture management (CSPM)"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Microsoft Defender for Cloud Apps includes SaaS security posture management (SSPM), which assesses connected SaaS applications for security misconfigurations and provides recommendations to improve their security posture.\\\n\\\n**Learn more:** [Overview - Microsoft Defender for Cloud Apps](https://learn.microsoft.com/en-us/defender-cloud-apps/what-is-defender-for-cloud-apps) · [SaaS Security Posture Management (SSPM) overview](https://learn.microsoft.com/en-us/defender-cloud-apps/posture-overview)"
+    },
+    {
+      "number": 211,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Microsoft 365 Endpoint data loss prevention (Endpoint DLP) can be used on which operating systems?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Windows 10 and newer only"
+        },
+        {
+          "letter": "B",
+          "text": "Windows 10 and newer and Android only"
+        },
+        {
+          "letter": "C",
+          "text": "Windows 10 and newer and iOS only"
+        },
+        {
+          "letter": "D",
+          "text": "Windows 10 and newer, Android, and iOS"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Among the listed options, Windows 10 and newer is the only operating system explicitly supported for Endpoint DLP. While macOS (three latest versions) is also supported, it is not included in these choices. Answer A correctly reflects the Windows requirement present in all options."
+    },
+    {
+      "number": 226,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "What can you specify in Microsoft 365 sensitivity labels?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "how long files must be preserved"
+        },
+        {
+          "letter": "B",
+          "text": "when to archive an email message"
+        },
+        {
+          "letter": "C",
+          "text": "which watermark to add to files"
+        },
+        {
+          "letter": "D",
+          "text": "where to store files"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Microsoft 365 sensitivity labels allow administrators to specify visual markings such as watermarks to be applied to classified content, alerting users to the sensitivity level. Duration of file preservation (A) is controlled by retention policies, email archiving (B) is a retention function, and file storage location (D) is determined by storage policies and user actions."
+    },
+    {
+      "number": 227,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "What Microsoft Purview feature can use machine learning algorithms to detect and automatically protect sensitive items?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "eDiscovery"
+        },
+        {
+          "letter": "B",
+          "text": "Data loss prevention"
+        },
+        {
+          "letter": "C",
+          "text": "Information risks"
+        },
+        {
+          "letter": "D",
+          "text": "Communication compliance"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Data Loss Prevention (DLP) uses machine learning algorithms alongside pattern matching and user-defined rules to automatically detect sensitive items (credit cards, SSNs, health records) and enforce protection actions. eDiscovery, Communication Compliance, and Information Risks serve different purposes in the compliance toolkit."
+    },
+    {
+      "number": 228,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "What feature supports email as a method of authenticating users?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Entra ID Protection"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Entra Multi-Factor Authentication (MFA)"
+        },
+        {
+          "letter": "C",
+          "text": "self-service password reset (SSPR)"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Entra Password Protection"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Self-Service Password Reset (SSPR) allows users to verify their identity using email among other methods (security questions, phone) to reset their passwords without contacting IT. While Multi-Factor Authentication can use SMS, phone calls, and apps, it does not use email as a second-factor authentication method for sign-in."
+    },
+    {
+      "number": 229,
+      "domain": "Describe the capabilities of Microsoft Entra",
+      "question": "Which two actions can you perform by using Azure Key Vault? Each correct answer presents a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Store secrets."
+        },
+        {
+          "letter": "B",
+          "text": "Store Azure Resource Manager (ARM) templates."
+        },
+        {
+          "letter": "C",
+          "text": "Implement network security groups (NSGs)."
+        },
+        {
+          "letter": "D",
+          "text": "Implement Azure DDoS Protection."
+        },
+        {
+          "letter": "E",
+          "text": "Store keys."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Key Vault stores two core types of cryptographic material: keys (for encryption/decryption operations) and secrets (passwords, connection strings, API keys). It does not store ARM templates (which belong in source control or Azure Storage), implement network security, or manage DDoS protection."
+    },
+    {
+      "number": 230,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "You are comparing features between Microsoft Defender for Office 365 Plan 1 and Plan 2.  \n  \nWhich feature is only available in Defender for Office 365 Plan 2?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Attack simulation training"
+        },
+        {
+          "letter": "B",
+          "text": "zero-day malware detection"
+        },
+        {
+          "letter": "C",
+          "text": "anti-phishing protection"
+        },
+        {
+          "letter": "D",
+          "text": "volume-based attack protection"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Attack Simulation Training is an exclusive Plan 2 feature that allows organizations to run simulated phishing and social-engineering campaigns. Zero-day malware detection, anti-phishing protection, and volume-based attack protection are all available in Plan 1, making them baseline features."
+    },
+    {
+      "number": 231,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "You need to connect to an Azure virtual machine by using Azure Bastion.  \n\nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PowerShell remoting"
+        },
+        {
+          "letter": "B",
+          "text": "the Azure portal"
+        },
+        {
+          "letter": "C",
+          "text": "the Remote Desktop Connection client"
+        },
+        {
+          "letter": "D",
+          "text": "an SSH client"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Azure Bastion integrates into the Azure portal, allowing secure VM connections through the browser without requiring RDP/SSH clients or public IPs. PowerShell remoting (A) is for PowerShell-specific sessions, Remote Desktop Connection client (C) is a traditional local tool, and SSH clients (D) are used for traditional SSH—Bastion provides portal-based access instead."
+    },
+    {
+      "number": 232,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "What is a characteristic of a sensitivity label in Microsoft 365?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "encrypted"
+        },
+        {
+          "letter": "B",
+          "text": "restricted to predefined categories"
+        },
+        {
+          "letter": "C",
+          "text": "persistent"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Sensitivity labels in Microsoft 365 are persistent, meaning they remain associated with content as it moves between applications and systems. This ensures consistent protection and classification regardless of where the labeled content is used."
+    },
+    {
+      "number": 233,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "What is a characteristic of a sensitivity label in Microsoft 365?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "to control how often users must change their passwords"
+        },
+        {
+          "letter": "B",
+          "text": "to identify devices to which users can sign in without using multi-factor authentication (MFA)"
+        },
+        {
+          "letter": "C",
+          "text": "to encrypt a password by using globally recognized encryption standards"
+        },
+        {
+          "letter": "D",
+          "text": "to prevent users from using specific words in their passwords"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure AD Password Protection works by comparing user passwords against a global banned password list maintained by Microsoft, as well as any custom banned password list an organization configures, to prevent the use of easily guessed or commonly compromised words and their variants. This helps reduce the risk of successful password-guessing or brute-force attacks. It does not control password expiration intervals, manage MFA-exempt devices, or handle password encryption—those are separate features or standards.\n\n**Learn more:** [Eliminate bad passwords using Azure AD Password Protection](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-password-ban-bad)"
+    },
+    {
+      "number": 234,
+      "domain": "Describe the capabilities of Microsoft security solutions",
+      "question": "Which Microsoft Purview feature allows users to identify content that should be protected?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sensitivity Labels"
+        },
+        {
+          "letter": "B",
+          "text": "Data loss prevention"
+        },
+        {
+          "letter": "C",
+          "text": "eDiscovery"
+        },
+        {
+          "letter": "D",
+          "text": "Insider Risks"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Sensitivity labels in Microsoft Purview Information Protection let organizations classify content across files and emails so sensitive or regulated data can be identified and consistently protected wherever it is stored or shared. Data loss prevention instead enforces policies on content that has already been classified, while eDiscovery and Insider Risk Management focus on legal investigation and behavioral risk detection rather than on identifying content in the first place.\\\n\\\n**Learn more:** [Learn about sensitivity labels](https://learn.microsoft.com/en-us/purview/sensitivity-labels)"
+    },
+    {
+      "number": 235,
+      "domain": "Describe the concepts of security, compliance, and identity",
+      "question": "Which security feature is available in the free mode of Microsoft Defender for Cloud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "threat protection alerts"
+        },
+        {
+          "letter": "B",
+          "text": "just-in-time (JIT) VM access to Azure virtual machines"
+        },
+        {
+          "letter": "C",
+          "text": "vulnerability scanning of virtual machines"
+        },
+        {
+          "letter": "D",
+          "text": "secure score"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Secure Score is available in Microsoft Defender for Cloud's free tier and provides an overall metric of security health. In contrast, threat protection alerts, just-in-time VM access, and vulnerability scanning require the paid (Standard) tier."
+    },
+    {
+      "number": 251,
+      "domain": "Describe the capabilities of Microsoft compliance solutions",
+      "question": "You need to keep a copy of all files in a Microsoft SharePoint site for one year, even if users delete the files from the site.  \n\nWhat should you apply to the site?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a retention policy"
+        },
+        {
+          "letter": "B",
+          "text": "an insider risk policy"
+        },
+        {
+          "letter": "C",
+          "text": "a data loss prevention (DLP) policy"
+        },
+        {
+          "letter": "D",
+          "text": "a sensitivity label policy"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A retention policy is used to preserve data for a specified period. Applying a one-year retention policy to a SharePoint site ensures all files are retained for that duration, even when deleted by users, as the data is held in the compliance/archive location."
+    }
+  ]
+}

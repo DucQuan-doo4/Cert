@@ -1,0 +1,1193 @@
+{
+  "provider": "microsoft",
+  "slug": "ab-410",
+  "fullSlug": "microsoft/ab-410",
+  "title": "Copy link to this question",
+  "totalQuestions": 67,
+  "totalPages": 2,
+  "crawledPages": 3,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Create intelligent applications",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure an environment variable."
+        },
+        {
+          "letter": "B",
+          "text": "Use an AI Builder model."
+        },
+        {
+          "letter": "C",
+          "text": "Create a custom connector."
+        },
+        {
+          "letter": "D",
+          "text": "Use a classic workflow."
+        }
+      ],
+      "answer": null,
+      "explanation": "A custom connector exposes a custom or third-party API to Power Platform, with configurable authentication and actions for sending and receiving data. Its policies or custom code can alter request and response behavior, satisfying the required custom request handling.\n\n**Learn more:** [Configure custom connectors with authenticated APIs in Microsoft Power Platform](https://learn.microsoft.com/en-us/training/modules/configure-custom-connectors-api/) · [Specify connection parameters](https://learn.microsoft.com/en-us/connectors/custom-connectors/connection-parameters)"
+    },
+    {
+      "number": 2,
+      "domain": "Build business application logic and automation",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company is rolling out consistent data validation across multiple forms.  \n  \nThe company has the following business-logic requirements:  \n  \n- Enforce validation across multiple forms.  \n- Minimize duplication of logic.  \n  \nYou need to implement the business logic.  \n  \nWhich three approaches can you use? Each correct answer provides a complete solution. (Choose three.)  \n  \n&gt; NOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Business rules"
+        },
+        {
+          "letter": "B",
+          "text": "Power Fx functions"
+        },
+        {
+          "letter": "C",
+          "text": "Automated cloud flows"
+        },
+        {
+          "letter": "D",
+          "text": "Client scripting"
+        },
+        {
+          "letter": "E",
+          "text": "Instant cloud flows"
+        }
+      ],
+      "answer": null,
+      "explanation": "Business rules can be scoped so that the same rule applies across all forms and can validate data with error messages. Reusable Power Fx validation functions can centralize validation logic for forms that call them. Client-side JavaScript packaged as a script web resource can be attached to form events, so one implementation can apply validation behavior across forms. Automated and instant cloud flows do not provide the interactive, shared form-validation mechanism required here.\n\n**Learn more:** [Create a business rule for a table — Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-create-business-rule) · [Apply business logic using client scripting in model-driven apps with JavaScript — Power Apps](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/client-scripting)"
+    },
+    {
+      "number": 3,
+      "domain": "Build business application logic and automation",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company is developing prompts in Microsoft Copilot Studio to support multiple customer-service scenarios.  \n  \nThe company requires the prompts to:  \n  \n- Follow a consistent structure across use cases.  \n- Be reusable across multiple topics.  \n- Allow customization for different types of customer requests.  \n  \nYou need to create the prompts.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure prompt model settings to standardize response behavior across scenarios."
+        },
+        {
+          "letter": "B",
+          "text": "Store prompt text in variables and reuse the variables across topics."
+        },
+        {
+          "letter": "C",
+          "text": "Create prompts directly within each topic by using custom instructions for each scenario."
+        },
+        {
+          "letter": "D",
+          "text": "Create prompts by selecting templates from the prompt library and customizing them for each scenario."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Copilot Studio’s prompt library provides predesigned prompt templates that promote consistent prompt-engineering structure. Templates can be selected as a starting point and modified for organization-specific language, tone, detail, and requirements, supporting customized customer-service scenarios while retaining a reusable standardized pattern.\n\n**Learn more:** [Get started with prompt library - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/prompt-library)"
+    },
+    {
+      "number": 4,
+      "domain": "Create intelligent applications",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],52:I[68201,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n56:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\n40:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n41:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n42:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":2,\"questionId\":\"e94779b2-5dd0-403f-ab50-6461dae36822\",\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L4f\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"questionNumber\":2,\"questionId\":\"e94779b2-5dd0-403f-ab50-6461dae36822\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"questionNumber\":2,\"questionId\":\"e94779b2-5dd0-403f-ab50-6461dae36822\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-410/1\"}]}]]}]\n44:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n45:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n46:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":3,\"questionId\":\"8982da65-2a00-4961-b076-e5b71a03e67c\",\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L50\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"questionNumber\":3,\"questionId\":\"8982da65-2a00-4961-b076-e5b71a03e67c\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"questionNumber\":3,\"questionId\":\"8982da65-2a00-4961-b076-e5b71a03e67c\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-410/1\"}]}]]}]\n48:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n49:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4a:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":4,\"questionId\":\"e19be7f6-3641-41f9-ae40-1366d4c083ca\",\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L51\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"questionNumber\":4,\"questionId\":\"e19be7f6-3641-41f9-ae40-1366d4c083ca\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"questionNumber\":4,\"questionId\":\"e19be7f6-3641-41f9-ae40-1366d4c083ca\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-410/1\"}]}]]}]\n4c:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n4d:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Background\n\nContoso Ltd. is a global renewable energy provider that runs wind farms and solar installations. The company is modernizing its maintenance and operations platform and plans to implement a Microsoft Power Platform solution for the operations team. The implementation will include Microsoft Dataverse, a model-driven app, and Power Automate cloud flows.\n\nThe company is building and testing a new model-driven app named Operations. The solution will support operations managers, regional coordinators, and field technicians. The app must integrate with an external cloud-based system that manages onboarding of field technicians.\n\nContoso Ltd. plans to improve data quality and enforce consistent business logic across the app and automation processes.\n\n## Technical environment\n\nContoso Ltd. has an Identity and Access Management (IDAM) department that manages security. The company has one Power Platform environment named Production, where all building and configuration take place. Auditing is disabled.\n\nThe Production environment has the following security configurations:\n\n- IDAM has a Microsoft Entra security group named Contoso Ltd. QA. This security group will assign all members a Power Apps license.\n- IDAM created a Quality Assurance security role that grants read and write access to all custom tables.\n- IDAM also created a team named Testers in Dataverse, of a Microsoft Entra group team type. The team is configured for the Contoso Ltd. QA security group. The Testers team is assigned the Quality Assurance security role.\n\n## Microsoft 365 environment\n\n- All Contoso Ltd. managers are included in a Microsoft 365 group named Managers. The group is NOT enabled for email.\n- The company shares a SharePoint list with a key customer: Alpine Ski House. Alpine Ski House staff members can add new maintenance requests, which are then checked and marked as reviewed by Contoso Ltd.\n\n## Current issue\n\nA new QA tester joins Contoso Ltd. The IDAM department adds the new tester to the Contoso Ltd. QA security group. However, the new tester is not listed in the Testers team as a member.\n\n## Other applications\n\nA separate software-as a-service (SaaS) solution named TechCheck manages technician onboarding. The TechCheck solution is set up as follows:\n\n- TechCheck assigns a unique number named Ref to all technicians.\n- Users cannot make changes to the TechCheck data model.\n- Users cannot use the same TechCheck ref on more than one Technician row.\n\n## Automation requirements\n\nContoso plans to use Power Automate to develop a Maintenance Request Approval flow. The flow must meet the following requirements:\n\n- Create a Maintenance Request row in Dataverse when either of the following occurs:\n  - An item is added to the SharePoint list by the customer with the Priority property set to High.\n  - Any item is checked and marked as reviewed by a Contoso Ltd. representative.\n- Seek maintenance request approvals from managers through both email and a Microsoft Teams message after they have been reviewed:\n  - Requests require approval from all managers.\n  - If one manager rejects the request, approval must not be granted.\n  - The result of the approval request must be sent to the initial reviewer in an email. The subject line must set the response as either Approve or Reject.\n\nContoso Ltd. requires the following table logic:\n\n- If a user tries to enter a price greater than the cost on a new Asset row, the row must display an inline error message.\n- If a user tries to save changes to a Technician row where the TechCheck ref column is empty, the action must be prevented and a message explaining the action must be displayed.\n- Any updates made to Technician profiles in TechCheck must be mirrored in Dataverse by using a custom integration. The developers building the integration require an index for performant searches on the Technician table.\n\n## Data model and app design\n\nContoso Ltd. plans to use Dataverse as its central data platform. Log storage must be minimized.\n\n### Tables\n\nThe following tables are required for data modeling and the app design:\n\n- **Assets**: Stores information about solar panels and wind turbines\n- **Maintenance Requests**: Tracks issues and maintenance activities. The table must include the following columns:\n  - Request ID (auto-number)\n  - External Request Code (text)\n  - Assigned\n  - Technician (lookup to Technicians)\n  - Report (lookup to Maintenance Reports)\n  - Technician updated (Yes/No)\n- **Maintenance Reports**: Tracks the results of maintenance reports\n- **Technicians**: Stores technician assignment data. The table must include the following columns:\n  - Full Name (Text)\n  - Mobile phone number (Text)\n  - Email (Text)\n  - Seniority (Choice)\n  - TechCheck ref (Text)\n\n### Data modeling\n\nThe data model must provide the following functionality:\n\n- Maintenance Requests must:\n  - be uniquely identifiable across systems.\n  - have two inactive statuses, Cancelled and Duplicate.\n  - If a new option is added to an existing set of options, it must be made available automatically for selection on all columns that use the set.\n- A new column named Priority must be added to multiple tables. Users must be able to select only one option from the following set per row:\n  - Low\n  - Medium\n  - High\n  - Critical\n- Changes to the Technician column on Maintenance Requests must be tracked for compliance purposes. Rows must include the names of previous and current technicians and the time of the change.\n\n### Relationship requirements\n\n- One asset can be related to many maintenance requests. A maintenance request can have many assets.\n- A maintenance request can have only zero or one maintenance report.\n- Only one Technician can be related to a Maintenance Request at a time.\n- When a Maintenance Request is deleted, any Maintenance Reports associated with it must also be deleted, but this action should be prevented if there is value in the Technician lookup.\n- When a Maintenance Request is assigned to a different owner, the Maintenance Report associated with it must be reassigned to the new owner as well, but the associated Technician should stay with the current owner.\n\n### App design\n\nThe Technicians table contains the following public views:\n\n- Senior Technicians\n- Junior Technicians\n\nThe Senior Technician view must be available through the table list view selector to a set of specific users only.\n\nA tester creates a personal view named Hot Assets on the Assets table. The tester recognizes that the view is useful for the entire testing team. The view must be made accessible to the team.4e:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L52\",null,{\"group\":{\"id\":\"1234da83da90531749ae522ca59d648fbd3e0b5c06424f8e59d14e3c848c25ac\",\"type\":\"case_study\",\"title\":\"Contoso Renewable Operations Modernization\",\"content\":\"$53\"}}],\"$L54\",\"$L55\"]}]\n3c:[[\"$\",\"p\",null,{\"children\":\"A company uses Microsoft Dataverse.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You must integrate Dataverse with a third-party AI service. The solution needs authentication and custom request handling to send and receive data.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to enable the integration. What should you do?\"}],\"\n\",[\"$\",\"$L56\",null,{\"choices\":{\"A\":\"Configure an environment variable.\",\"B\":\"Use an AI Builder model.\",\"C\":\"Create a custom connector.\",\"D\":\"Use a classic workflow.\"},\"correctAnswer\":\"C\",\"explanation\":\"A custom connector exposes a custom or third-party API to Power Platform, with configurable authentication and actions for sending and receiving data. Its policies or custom code can alter request and response behavior, satisfying the required custom request handling.\n\n**Learn more:** [Configure custom connectors with authenticated APIs in Microsoft Power Platform](https://learn.microsoft.com/en-us/training/modules/configure-custom-connectors-api/) · [Specify connection parameters](https://learn.microsoft.com/en-us/connectors/custom-connectors/connection-parameters)\",\"trackingInfo\":{\"questionId\":\"443cd00a-407e-4d0e-82a7-8bb3d1a22a8e\",\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"mode\":\"default\"}}]]\n58:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"DragDrop\"]\n54:[\"$\",\"$L3b\",null,{\"questionNumber\":5,\"questionId\":\"b4a91889-a788-444d-bed3-ddbee5af68d0\",\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L57\"}]}]\n55:[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"questionNumber\":5,\"questionId\":\"b4a91889-a788-444d-bed3-ddbee5af68d0\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"questionNumber\":5,\"questionId\":\"b4a91889-a788-444d-bed3-ddbee5af68d0\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-410/1\"}]}]\n4f:[[\"$\",\"p\",null,{\"children\":\"A company uses a business process flow to manage case resolution.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"The business process flow must meet these requirements:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":\"Users must complete required data before moving to the next stage.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Before a stage is exited, a background process must create an approval, assign it to the record owner, and send the approval through Microsoft Teams.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Mandatory data-entry enforcement must be included only in the business process flow itself.\"}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to enforce the stage-progression requirements. You may use each configuration once, more than once, or not at all.\"}],\"\n\",[\"$\",\"$L58\",null,{\"items\":[\"Add a classic workflow step.\",\"Set the data step as Required.\",\"Set columns as business required.\",\"Add a Power Automate cloud flow.\"],\"slots\":[{\"id\":\"required_data\",\"label\":\"Require data completion before progressing.\",\"group\":\"\",\"answer\":\"Set the data step as Required.\"},{\"id\":\"send_approval\",\"label\":\"Send an approval.\",\"group\":\"\",\"answer\":\"Add a Power Automate cloud flow.\"}],\"reuse\":true,\"explanation\":\"A required business process flow step provides stage gating: users cannot proceed until the corresponding data is entered. This confines the mandatory-entry rule to the business process flow, unlike a business-required column, which is enforced at the column level. A Power Automate cloud flow can run the background approval process, including creating and assigning the approval and using Microsoft Teams for its delivery.\n\n**Learn more:** [Business process flows overview](https://learn.microsoft.com/en-us/power-automate/business-process-flows-overview) · [Create or customize a business process flow](https://learn.microsoft.com/en-us/dynamics365/sales/customize-business-process-flows)\",\"trackingInfo\":{\"questionId\":\"e94779b2-5dd0-403f-ab50-6461dae36822\",\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"mode\":\"default\"}}]]\n50:[[\"$\",\"p\",null,{\"children\":\"A company is rolling out consistent data validation across multiple forms.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"The company has the following business-logic requirements:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":\"Enforce validation across multiple forms.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Minimize duplication of logic.\"}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to implement the business logic.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"Which three approaches can you use? Each correct answer provides a complete solution.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"> NOTE: Each correct selection is worth one point.\"}],\"\n\",[\"$\",\"$L56\",null,{\"choices\":{\"A\":\"Business rules\",\"B\":\"Power Fx functions\",\"C\":\"Automated cloud flows\",\"D\":\"Client scripting\",\"E\":\"Instant cloud flows\"},\"correctAnswer\":\"ABD\",\"explanation\":\"Business rules can be scoped so that the same rule applies across all forms and can validate data with error messages. Reusable Power Fx validation functions can centralize validation logic for forms that call them. Client-side JavaScript packaged as a script web resource can be attached to form events, so one implementation can apply validation behavior across forms. Automated and instant cloud flows do not provide the interactive, shared form-validation mechanism required here.\n\n**Learn more:** [Create a business rule for a table — Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-create-business-rule) · [Apply business logic using client scripting in model-driven apps with JavaScript — Power Apps](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/client-scripting)\",\"trackingInfo\":{\"questionId\":\"8982da65-2a00-4961-b076-e5b71a03e67c\",\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"mode\":\"default\"}}]]\n51:[[\"$\",\"p\",null,{\"children\":\"A company is developing prompts in Microsoft Copilot Studio to support multiple customer-service scenarios.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"The company requires the prompts to:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":\"Follow a consistent structure across use cases.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Be reusable across multiple topics.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Allow customization for different types of customer requests.\"}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to create the prompts.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"What should you do?\"}],\"\n\",[\"$\",\"$L56\",null,{\"choices\":{\"A\":\"Configure prompt model settings to standardize response behavior across scenarios.\",\"B\":\"Store prompt text in variables and reuse the variables across topics.\",\"C\":\"Create prompts directly within each topic by using custom instructions for each scenario.\",\"D\":\"Create prompts by selecting templates from the prompt library and customizing them for each scenario.\"},\"correctAnswer\":\"D\",\"explanation\":\"Microsoft Copilot Studio’s prompt library provides predesigned prompt templates that promote consistent prompt-engineering structure. Templates can be selected as a starting point and modified for organization-specific language, tone, detail, and requirements, supporting customized customer-service scenarios while retaining a reusable standardized pattern.\n\n**Learn more:** [Get started with prompt library - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/prompt-library)\",\"trackingInfo\":{\"questionId\":\"e19be7f6-3641-41f9-ae40-1366d4c083ca\",\"examProvider\":\"microsoft\",\"examName\":\"ab-410\",\"mode\":\"default\"}}]]\nA company uses Microsoft Dataverse to manage prospects. The company has a business process flow named BPFA associated with the Prospect entity to streamline the prospect-management process.  \n  \nYou add a field named Category to the Prospect entity. You create additional business process flows and apply them to Prospect records according to the selected category. Users can switch to any of the other newly configured business process flows, but they must not use BPFA.  \n  \nYou need to configure the solution.  \n  \nWhat are two possible ways to achieve this goal? Each correct answer presents a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Change the display order of the business process flows to move BPFA to the bottom of the list."
+        },
+        {
+          "letter": "B",
+          "text": "Use a business rule."
+        },
+        {
+          "letter": "C",
+          "text": "Deactivate BPFA."
+        },
+        {
+          "letter": "D",
+          "text": "Remove all of the privileges for BPFA."
+        }
+      ],
+      "answer": null,
+      "explanation": "Deactivating a business process flow makes it unavailable for use. Access to an active business process flow is governed by the privileges assigned to it through users’ security roles, so removing all privileges for BPFA prevents those users from accessing it. Process-flow order controls only which accessible flow is assigned by default and does not prevent switching to BPFA.\n\n**Learn more:** [Create a business process flow in Power Apps](https://learn.microsoft.com/en-us/power-automate/create-business-process-flow) · [Work with business process flows using code](https://learn.microsoft.com/en-us/power-automate/developer/business-process-flows-code)"
+    },
+    {
+      "number": 5,
+      "domain": "Create a foundation for intelligent applications",
+      "question": "Solution: A cloud flow needs to integrate with an internal web service that is used by multiple flows and requires reusable actions.  \n  \nDoes the solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A custom connector registers a web service with Power Automate and defines its supported actions, authentication, parameters, and outputs. Those actions can be reused by multiple cloud flows, making it suitable for a shared internal web-service integration.\\\n\\\n**Learn more:** [Extend apps with Power Automate](https://learn.microsoft.com/en-us/power-automate/get-started-flow-dev) · [Build and certify custom connectors](https://learn.microsoft.com/en-us/power-automate/developer/register-custom-api)"
+    },
+    {
+      "number": 6,
+      "domain": "Build business application logic and automation",
+      "question": "Solution: A cloud flow needs to integrate with an internal web service that is used by multiple flows and requires reusable actions.  \n  \nDoes the solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AI Builder custom prompt"
+        },
+        {
+          "letter": "B",
+          "text": "Power Platform AI model"
+        },
+        {
+          "letter": "C",
+          "text": "Dataverse prompt column"
+        },
+        {
+          "letter": "D",
+          "text": "Dataverse business rule"
+        }
+      ],
+      "answer": null,
+      "explanation": "An AI Builder custom prompt stores reusable natural-language instructions for generative AI and can be invoked from a Power Apps app as a Power Fx function at runtime. This supports a consistent summary format across forms and tables. Dataverse prompt columns are tied to a specific table and persist the generated result in that table.\n\n**Learn more:** [Use your prompt in Power Apps](https://learn.microsoft.com/en-us/ai-builder/use-a-custom-prompt-in-app) · [Prompt columns in Microsoft Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/prompt-column)"
+    },
+    {
+      "number": 7,
+      "domain": "Build business application logic and automation",
+      "question": "Solution: Use JavaScript to dynamically show or hide columns.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Model-driven app client scripting can react to form events and use Client API methods to control what is displayed during user interaction. The `control.setVisible` method shows or hides a column’s control at runtime, satisfying dynamic client-side form behavior. [Microsoft Learn: Apply business logic using client scripting in model-driven apps](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/client-scripting)\\\n\\\n**Learn more:** [Apply business logic using client scripting in model-driven apps](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/client-scripting) · [control.setVisible (Client API reference) in model-driven apps](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/reference/controls/setvisible)"
+    },
+    {
+      "number": 8,
+      "domain": "Build business application logic and automation",
+      "question": "Solution: Use JavaScript to dynamically show or hide columns.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use a business rule to populate the value."
+        },
+        {
+          "letter": "B",
+          "text": "Create a JavaScript function."
+        },
+        {
+          "letter": "C",
+          "text": "Configure a dataflow."
+        },
+        {
+          "letter": "D",
+          "text": "Create a calculated column."
+        }
+      ],
+      "answer": null,
+      "explanation": "Dataverse calculated columns support mathematical expressions that use columns from the current table. Their values are calculated in real time when retrieved, so the derived value does not need to be stored as ordinary table data and no custom JavaScript is required.\n\n**Learn more:** [Automate calculations by defining calculated columns](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/define-calculated-fields) · [Query anti-patterns (Microsoft Dataverse)](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/query-antipatterns)"
+    },
+    {
+      "number": 9,
+      "domain": "Create intelligent applications",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses Microsoft Dataverse to store customer records in the Account table. A business process flow is configured for that table.  \n  \nThe company needs a Power Automate cloud flow that validates and corrects the customer account number format. The Power Automate flow must run whenever the data in this field changes.  \n  \nYou need to recommend a trigger for the cloud flow.  \n  \nWhich trigger should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "When a row is selected"
+        },
+        {
+          "letter": "B",
+          "text": "When a flow step is run from a business process flow"
+        },
+        {
+          "letter": "C",
+          "text": "When an action is performed"
+        },
+        {
+          "letter": "D",
+          "text": "When a row is added, modified or deleted"
+        }
+      ],
+      "answer": null,
+      "explanation": "The Microsoft Dataverse **When a row is added, modified or deleted** trigger supports running a cloud flow when a row is updated. Configure it for the Account table with the change type set to Modified and filter it to the customer account number column so the validation and correction flow runs when that field is updated.\n\n**Learn more:** [Trigger flows when a row is added, modified, or deleted - Power Automate](https://learn.microsoft.com/en-us/power-automate/dataverse/create-update-delete-trigger) · [Microsoft Dataverse connector reference](https://learn.microsoft.com/en-us/connectors/commondataservice/)"
+    },
+    {
+      "number": 10,
+      "domain": "Build business application logic and automation",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses a cloud flow to analyze incoming order-form PDFs attached to emails.  \n  \nThe cloud flow must use an AI model to extract information from each order. The extracted information must then be added to the enterprise resource planning (ERP) system.  \n  \nYou need to configure the flow.  \n  \nWhich two actions should you take? Each correct answer presents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add the Extract standard entities action."
+        },
+        {
+          "letter": "B",
+          "text": "Specify the language and text."
+        },
+        {
+          "letter": "C",
+          "text": "Specify the model, document type, and document."
+        },
+        {
+          "letter": "D",
+          "text": "Add the Classify into standard categories action."
+        },
+        {
+          "letter": "E",
+          "text": "Add the Process documents action."
+        }
+      ],
+      "answer": null,
+      "explanation": "AI Builder document extraction in Power Automate uses the **Process documents** action. Its required inputs include the document-processing model, the document type, and the document content; the action then exposes the extracted fields for later use, such as adding them to an ERP system.\n\n**Learn more:** [Use a document processing model in Power Automate](https://learn.microsoft.com/en-us/ai-builder/form-processing-model-in-flow)"
+    },
+    {
+      "number": 11,
+      "domain": "Build business application logic and automation",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company intends to implement an automated process for retrieving and analyzing customer feedback.  \n  \nThe company requires a solution that:  \n  \n- Analyzes feedback autonomously.  \n- Stores results for reporting.  \n- Triggers an escalation for negative sentiment.  \n  \nYou need to design the solution.  \n  \nWhich three components should you use? Each correct answer represents part of the solution. (Choose three.)  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AI builder prompt"
+        },
+        {
+          "letter": "B",
+          "text": "Cloud flow"
+        },
+        {
+          "letter": "C",
+          "text": "Canvas app"
+        },
+        {
+          "letter": "D",
+          "text": "Business rule"
+        },
+        {
+          "letter": "E",
+          "text": "Dataverse table"
+        }
+      ],
+      "answer": null,
+      "explanation": "An AI Builder prompt supplies AI-driven feedback analysis. A Power Automate cloud flow runs the automated workflow, uses the analysis output, and can trigger an escalation when the sentiment is negative. A Dataverse table provides structured storage for the results so they can be reported on. Microsoft documents that prompts can be used in cloud flows and that cloud flows can use AI Builder sentiment analysis.\n\n**Learn more:** [AI Builder in Power Automate overview](https://learn.microsoft.com/en-us/ai-builder/use-in-flow-overview) · [Use your prompt in Power Automate](https://learn.microsoft.com/lb-lu/ai-builder/use-a-custom-prompt-in-flow)"
+    },
+    {
+      "number": 12,
+      "domain": "Build business application logic and automation",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company creates a canvas app that support agents use to enter customer notes and generate a summarized response by using a custom prompt.  \n  \nThe company requires the following functionality in the prompt:  \n  \n- Generate the summary immediately when an agent selects a button in the app.  \n- Provide the prompt with the current user-entered data.  \n  \nYou need to run the prompt.  \n  \nWhich two actions should you take? Each correct answer presents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Run the prompt through a cloud flow from the button."
+        },
+        {
+          "letter": "B",
+          "text": "Pass user input as parameters to the prompt."
+        },
+        {
+          "letter": "C",
+          "text": "Invoke the prompt directly from app logic."
+        },
+        {
+          "letter": "D",
+          "text": "Publish the prompt for reuse in the environment."
+        },
+        {
+          "letter": "E",
+          "text": "Update the app settings."
+        }
+      ],
+      "answer": null,
+      "explanation": "Custom prompts can be called directly from a canvas app as Power Fx functions, such as from a button’s OnSelect property. The call accepts the prompt’s required arguments, allowing the current value from the agent’s input control to be supplied when the button is selected.\n\n**Learn more:** [Use your prompt in Power Apps](https://learn.microsoft.com/en-us/ai-builder/use-a-custom-prompt-in-app)"
+    },
+    {
+      "number": 13,
+      "domain": "Create intelligent applications",
+      "question": "Solution: In Dynamics 365 Settings, select **Email Configuration**. In the user's active mailbox, update the name.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A user's sign-in name is the User Principal Name (UPN), which must be changed in Microsoft 365 or Microsoft Entra ID. Editing a Dynamics 365 mailbox name affects email configuration rather than the identity used to sign in, so it does not update the sign-in name.\\\n\\\n**Learn more:** [Change a user name and email address](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address?view=o365-worldwide) · [How UPN changes affect OneDrive URL and features](https://learn.microsoft.com/en-us/sharepoint/upn-changes)"
+    },
+    {
+      "number": 14,
+      "domain": "Create a foundation for intelligent applications",
+      "question": "Solution: In Dynamics 365 Settings, select **Email Configuration**. In the user's active mailbox, update the name.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CONCAT(Number, “4”)"
+        },
+        {
+          "letter": "B",
+          "text": "TRIMLEFT(Number, 4)"
+        },
+        {
+          "letter": "C",
+          "text": "TRIMLEFT(Number, 5)"
+        },
+        {
+          "letter": "D",
+          "text": "TRIMRIGHT(Number, 5)"
+        },
+        {
+          "letter": "E",
+          "text": "TRIMRIGHT(Number, 4)"
+        }
+      ],
+      "answer": null,
+      "explanation": "`POS1-` and `POS2-` are both five-character leading prefixes. `TRIMLEFT` returns a text string with the first specified number of characters removed, so removing five characters from `Number` retains only the clean order number.\n\n**Learn more:** [Automate calculations by defining calculated columns - Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/define-calculated-fields)"
+    },
+    {
+      "number": 15,
+      "domain": "Create intelligent applications",
+      "question": "You need to address the issues with the canvas apps.  \n  \nWhich two configurations should you use? Each correct answer provides part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Named formula"
+        },
+        {
+          "letter": "B",
+          "text": "User-defined function"
+        },
+        {
+          "letter": "C",
+          "text": "Collection"
+        },
+        {
+          "letter": "D",
+          "text": "Component library"
+        },
+        {
+          "letter": "E",
+          "text": "Context variable"
+        }
+      ],
+      "answer": null,
+      "explanation": "User-defined functions encapsulate reusable, parameterized Power Fx logic, preventing repeated formula implementations. A component library is the recommended centralized repository for reusable canvas components across apps, enabling shared UI elements and controlled updates.\\\n\\\n**Learn more:** [Microsoft Power Fx overview](https://learn.microsoft.com/en-us/power-platform/power-fx/overview) · [Component library - Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/component-library)"
+    },
+    {
+      "number": 16,
+      "domain": "Create intelligent applications",
+      "question": "You need to address the issues with the canvas apps.  \n  \nWhich two configurations should you use? Each correct answer provides part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Restrict the view by assigning it to the manager security role."
+        },
+        {
+          "letter": "B",
+          "text": "Configure table-level permissions for managers only."
+        },
+        {
+          "letter": "C",
+          "text": "Remove the view from the app navigation."
+        },
+        {
+          "letter": "D",
+          "text": "Set up the quick find view."
+        }
+      ],
+      "answer": null,
+      "explanation": "Public views in Power Apps model-driven apps can be managed with specific security roles. Assigning the manager security role to the public view makes it visible only to users in that role, while users without that role do not see it in the view selector. Table-level permissions control data privileges, not access to an individual view.\n\n**Learn more:** [Manage access to public system views](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/manage-view-access)"
+    },
+    {
+      "number": 17,
+      "domain": "Build business application logic and automation",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You create a parent entity and a child entity. The parent entity has a 1:N relationship to the child entity.  \n  \nYou must ensure that when the owner of the parent record changes, all child records are assigned to the new owner.  \n  \nYou need to configure the relationship behavior type. What should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Referential, Restrict Delete"
+        },
+        {
+          "letter": "B",
+          "text": "Referential"
+        },
+        {
+          "letter": "C",
+          "text": "Restrict"
+        },
+        {
+          "letter": "D",
+          "text": "Parental"
+        }
+      ],
+      "answer": null,
+      "explanation": "A Parental relationship behavior uses Cascade All for relationship actions, including Assign. Changing the owner of the parent record therefore cascades the new owner to all related child records.\n\n**Learn more:** [Configure table relationship cascading behavior (Microsoft Dataverse)](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/configure-entity-relationship-cascading-behavior) · [Create 1:N relationships in Dynamics 365 Customer Engagement](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/create-and-edit-1n-relationships?view=op-9-1)"
+    },
+    {
+      "number": 18,
+      "domain": "Build business application logic and automation",
+      "question": "Solution: Use Power Automate cloud flows to update column values.  \n  \nDoes this solution satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Power Automate cloud flows can automate data updates, but they do not provide real-time client-side control of components on an active model-driven form as the user interacts with it. Model-driven app client scripting responds to form events and can control what is displayed on the form.\\\n\\\n**Learn more:** [Apply business logic using client scripting in model-driven apps: JavaScript](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/client-scripting) · [Understand the Client API object model in model-driven apps](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/clientapi/understand-clientapi-object-model)"
+    },
+    {
+      "number": 19,
+      "domain": "Build business application logic and automation",
+      "question": "Solution: Use Power Automate cloud flows to update column values.  \n  \nDoes this solution satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a formula column."
+        },
+        {
+          "letter": "B",
+          "text": "Use a real-time workflow to update the value."
+        },
+        {
+          "letter": "C",
+          "text": "Use a business rule to populate the value."
+        },
+        {
+          "letter": "D",
+          "text": "Use a plugin to calculate."
+        }
+      ],
+      "answer": null,
+      "explanation": "A Dataverse formula column uses a Power Fx expression to derive a value from columns in the same record. Formula column values are calculated dynamically during retrieval rather than persisted as table data, meeting the requirement without custom code.\n\n**Learn more:** [Work with Dataverse formula columns](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/formula-columns) · [Query anti-patterns (Microsoft Dataverse)](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/query-antipatterns)"
+    },
+    {
+      "number": 26,
+      "domain": "Create a foundation for intelligent applications",
+      "question": "You need to add the **Priority** column to the **Maintenance Request** table.  \n  \nWhich column type should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "local choice"
+        },
+        {
+          "letter": "B",
+          "text": "global choice"
+        },
+        {
+          "letter": "C",
+          "text": "status reason"
+        },
+        {
+          "letter": "D",
+          "text": "formula"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A global choice provides one reusable, centrally maintained set of selectable options for columns on multiple Dataverse tables. Adding an option to that global set makes it available to every column that uses the set, while still allowing only one Priority value per row. [Microsoft Learn: Create and edit choice columns overview](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-global-option-sets)\\\n\\\n**Learn more:** [Create and edit choice columns overview](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-global-option-sets)"
+    },
+    {
+      "number": 27,
+      "domain": "Create a foundation for intelligent applications",
+      "question": "A company creates a canvas app that processes user-submitted images and must classify them with an existing AI Builder model.  \n  \nThe app must produce predictions while users interact with it.  \n  \nYou need to consume the AI model natively. What should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Retrain the model for each submission."
+        },
+        {
+          "letter": "B",
+          "text": "Reuse a previously stored prediction."
+        },
+        {
+          "letter": "C",
+          "text": "Export the solution which contains the model."
+        },
+        {
+          "letter": "D",
+          "text": "Call the model from app logic."
+        }
+      ],
+      "answer": "D",
+      "explanation": "AI Builder models can be added to canvas apps and invoked from app controls or Power Fx logic by using the model’s `Predict` method. This enables a new image classification prediction during user interaction.\\\n\\\n**Learn more:** [Use AI Builder models in Power Apps](https://learn.microsoft.com/en-us/ai-builder/powerfx-in-powerapps)"
+    },
+    {
+      "number": 28,
+      "domain": "Create intelligent applications",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses a model-driven app to enforce data-quality standards.  \n  \nThe company requires the following app functionality:  \n  \n- Ensure that users provide a value in a specific column when a condition is met.  \n- Prevent users from saving the record until they complete the field.  \n- Implement the solution without using code or automation.  \n  \nYou need to configure a business rule to meet these requirements.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Show a recommendation."
+        },
+        {
+          "letter": "B",
+          "text": "Set field visibility."
+        },
+        {
+          "letter": "C",
+          "text": "Set a default value."
+        },
+        {
+          "letter": "D",
+          "text": "Set the requirement level."
+        }
+      ],
+      "answer": null,
+      "explanation": "A form-scope business rule can conditionally set a column’s requirement level to Business Required. In a model-driven app, a Business Required column must contain a value before the user can save the record. Microsoft Learn documents both the business-rule action to set column requirement levels and the save enforcement for Business Required columns.\n\n**Learn more:** [Create a business rule in Microsoft Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-create-business-rule) · [Create and edit columns in Dataverse using Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-field-portal)"
+    },
+    {
+      "number": 29,
+      "domain": "Build business application logic and automation",
+      "question": "Solution: Use business rules to display inline error messages.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Business rules in model-driven apps can apply client-side validation and show inline error messages as users interact with form fields, providing dynamic enforcement of form behavior."
+    },
+    {
+      "number": 30,
+      "domain": "Build business application logic and automation",
+      "question": "You need to implement a generative AI solution that fulfills the requirements.  \n  \nWhich two actions should you take? Each correct answer represents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use a pre-built model."
+        },
+        {
+          "letter": "B",
+          "text": "Use a custom model."
+        },
+        {
+          "letter": "C",
+          "text": "Start from a blank prompt."
+        },
+        {
+          "letter": "D",
+          "text": "Create a prompt from a template."
+        }
+      ],
+      "answer": null,
+      "explanation": "Pre-built AI Builder models add AI capabilities to Power Apps and Power Automate without collecting data or building, training, and publishing a custom model. Prompt templates provide a reusable, structured basis for generative tasks; prompts can define input variables for dynamic runtime content and can be used across Power Platform experiences.\\\n\\\n**Learn more:** [Overview of prebuilt AI models - AI Builder](https://learn.microsoft.com/en-us/ai-builder/prebuilt-overview) · [Create a prompt - Microsoft Learn](https://learn.microsoft.com/en-us/ai-builder/create-a-custom-prompt)"
+    },
+    {
+      "number": 31,
+      "domain": "Build business application logic and automation",
+      "question": "You need to run the App access checker.  \n  \nWhat should you provide as the input?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Contoso Ltd. QA security group"
+        },
+        {
+          "letter": "B",
+          "text": "Testers group team"
+        },
+        {
+          "letter": "C",
+          "text": "Email address of the new QA tester"
+        },
+        {
+          "letter": "D",
+          "text": "Username of the manager"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The App access checker searches model-driven app access for a specific user by using the user principal name (UPN) or email address. The new QA tester’s email address is therefore the appropriate input.\\\n\\\n**Learn more:** [App access checker for model-driven apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/app-access-checker)"
+    },
+    {
+      "number": 32,
+      "domain": "Build business application logic and automation",
+      "question": "Solution: A cloud flow needs to retrieve data from Microsoft Dataverse.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Microsoft Dataverse is supported by the built-in Microsoft Dataverse connector in Power Automate, which provides actions to retrieve data. A custom connector is therefore not required.\\\n\\\n**Learn more:** [Create a cloud flow that uses Microsoft Dataverse](https://learn.microsoft.com/en-us/power-automate/common-data-model-intro) · [Extend Dataverse with Power Automate](https://learn.microsoft.com/en-us/training/modules/extend-dataverse-power-automate/)"
+    },
+    {
+      "number": 33,
+      "domain": "Create intelligent applications",
+      "question": "Solution: A cloud flow needs to retrieve data from Microsoft Dataverse.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The summary should highlight key themes, product features, and recurring feedback."
+        },
+        {
+          "letter": "B",
+          "text": "Use the PDF and the business glossary stored in the SharePoint site."
+        },
+        {
+          "letter": "C",
+          "text": "Format the summary as a list of bullet points, which should be clear and use short sentences."
+        },
+        {
+          "letter": "D",
+          "text": "Create a Microsoft Word document summary."
+        }
+      ],
+      "answer": null,
+      "explanation": "Summary expectations define the content the generated summary must address. Highlighting key themes, product features, and recurring feedback specifies the substantive information that the summary should capture; the PDF and glossary are source materials, while Word output and bullet formatting are output or presentation requirements."
+    },
+    {
+      "number": 34,
+      "domain": "Create a foundation for intelligent applications",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company operates an AI-enabled Power Platform solution containing prompts, cloud flows, and Dataverse components. The solution is deployed in a production environment.  \n  \nThe company requires the following solution updates:  \n  \n- New features must be released regularly.  \n- Updates must be validated before release.  \n- Deployed updates must be removable from production when necessary.  \n  \nYou need to update the solution while retaining release control and following Microsoft best practices.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Update the development environment. Deploy the solution as managed."
+        },
+        {
+          "letter": "B",
+          "text": "Update the development environment. Run solution checker."
+        },
+        {
+          "letter": "C",
+          "text": "Update the development environment. Deploy the solution as unmanaged."
+        },
+        {
+          "letter": "D",
+          "text": "Modify the development customizations file. Deploy to production."
+        }
+      ],
+      "answer": null,
+      "explanation": "Power Platform components should be changed in a development environment and released to production as a managed solution. Managed solutions are the recommended deployment artifacts for nondevelopment environments and can be serviced, upgraded, patched, and deleted independently, supporting controlled releases and removal when required. Validation should be performed in a test environment before the managed solution is promoted to production.\n\n**Learn more:** [Application lifecycle management (ALM) basics with Microsoft Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/basics-alm) · [ALM environment strategy considerations](https://learn.microsoft.com/en-us/power-platform/alm/environment-strategy-alm)"
+    },
+    {
+      "number": 35,
+      "domain": "Build business application logic and automation",
+      "question": "You need to configure the alternate key for the **Technicians** table by using the **TechCheck ref** column.  \n  \nWhich setting should be applied to the **TechCheck ref** column?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Required"
+        },
+        {
+          "letter": "B",
+          "text": "Searchable"
+        },
+        {
+          "letter": "C",
+          "text": "Column security"
+        },
+        {
+          "letter": "D",
+          "text": "Auditing"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A Dataverse alternate key uses a business identifier to uniquely identify rows for external-system integration. Uniqueness is not enforced for null alternate-key values, so the TechCheck ref column must be required to ensure every Technician row has its unique external reference. Columns with column security enabled cannot be used as alternate keys.\\\n\\\n**Learn more:** [Define alternate keys to reference rows with Microsoft Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/define-alternate-keys-reference-records)"
+    },
+    {
+      "number": 36,
+      "domain": "Create intelligent applications",
+      "question": "You need to configure the generative AI reusability requirements.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use an input variable."
+        },
+        {
+          "letter": "B",
+          "text": "Call the prompt from a Power Automate cloud flow."
+        },
+        {
+          "letter": "C",
+          "text": "Output results as JSON."
+        },
+        {
+          "letter": "D",
+          "text": "Call the prompt from a canvas app."
+        }
+      ],
+      "answer": "A",
+      "explanation": "An AI Builder custom prompt uses input variables to accept dynamic values at runtime. The same prompt can then be invoked across Power Platform services, allowing it to adapt to different scenarios without duplicating prompt logic.\\\n\\\n**Learn more:** [Create a prompt - Microsoft Learn](https://learn.microsoft.com/en-us/ai-builder/create-a-custom-prompt?context=%2Fmicrosoft-365-copilot%2Fextensibility%2Fcontext)"
+    },
+    {
+      "number": 37,
+      "domain": "Create a foundation for intelligent applications",
+      "question": "You need to configure the generative AI reusability requirements.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure the approval type as Approve/Reject - First to respond."
+        },
+        {
+          "letter": "B",
+          "text": "Create separate approval actions for each approver in parallel branches."
+        },
+        {
+          "letter": "C",
+          "text": "Configure the approval type as Custom Responses - Wait for one response."
+        },
+        {
+          "letter": "D",
+          "text": "Evaluate the approval outcome by using a condition."
+        },
+        {
+          "letter": "E",
+          "text": "Assign multiple approvers in a single approval action."
+        }
+      ],
+      "answer": null,
+      "explanation": "A Custom Responses - Wait for one response approval supports an escalation response in addition to approval and rejection, and it completes when any assigned approver responds. Multiple people can be assigned within the same approval action. A condition can evaluate the approval Outcome and send the appropriate confirmation email to the purchasing team.\n\n**Learn more:** [How to - Top scenarios with approval flows - Power Automate](https://learn.microsoft.com/en-us/power-automate/approvals-howto) · [Create approval flows with custom responses - Power Automate](https://learn.microsoft.com/en-us/power-automate/create-approval-response-options)"
+    },
+    {
+      "number": 38,
+      "domain": "Build business application logic and automation",
+      "question": "A company uses Microsoft Dataverse.  \n  \nYou must integrate Dataverse with a third-party AI service. The solution requires authentication and custom request handling to send and receive data.  \n  \nYou need to enable the integration.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use Power Fx."
+        },
+        {
+          "letter": "B",
+          "text": "Create a custom connector."
+        },
+        {
+          "letter": "C",
+          "text": "Use Microsoft 365 Copilot chat."
+        },
+        {
+          "letter": "D",
+          "text": "Configure an environment variable."
+        }
+      ],
+      "answer": "B",
+      "explanation": "A custom connector enables Power Platform and Dataverse solutions to call a third-party API. It can define the service’s authentication method and its actions, requests, and responses, including custom handling needed to exchange data with the AI service.\\\n\\\n**Learn more:** [Specify connection parameters](https://learn.microsoft.com/en-us/connectors/custom-connectors/connection-parameters) · [Build and certify custom connectors](https://learn.microsoft.com/en-us/power-automate/developer/register-custom-api)"
+    },
+    {
+      "number": 39,
+      "domain": "Create a foundation for intelligent applications",
+      "question": "Solution: Have the Microsoft 365 administrator sign in to the admin portal and change the username.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A Microsoft 365 administrator can change an existing user’s username and email address in the Microsoft 365 admin center. Updating the sign-in name retains the existing user account rather than creating a new one, preserving the identity associated with the model-driven app’s historical data.\\\n\\\n**Learn more:** [Change a user name and email address - Microsoft 365 admin](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address?view=o365-worldwide)"
+    },
+    {
+      "number": 40,
+      "domain": "Create a foundation for intelligent applications",
+      "question": "You need to meet the extensibility requirements.  \n  \nWhich two options should you use? Each correct answer represents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sitemap"
+        },
+        {
+          "letter": "B",
+          "text": "JavaScript web resource"
+        },
+        {
+          "letter": "C",
+          "text": "Business rule"
+        },
+        {
+          "letter": "D",
+          "text": "Plugin"
+        },
+        {
+          "letter": "E",
+          "text": "Power Apps component framework control"
+        }
+      ],
+      "answer": null,
+      "explanation": "JavaScript web resources provide shared client-side libraries for form scripts and other client customizations. Power Apps component framework controls create reusable custom UI controls for model-driven and canvas apps, avoiding the need for server-side plug-in code for the UI requirement.\\\n\\\n**Learn more:** [JavaScript web resources (model-driven apps)](https://learn.microsoft.com/en-us/power-apps/developer/model-driven-apps/script-jscript-web-resources) · [Power Apps component framework overview](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/overview)"
+    },
+    {
+      "number": 41,
+      "domain": "Build business application logic and automation",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An accounting team has been assigned to a model-driven app for managing financial data.  \n  \nThe app appears in the app launcher but the accounting team cannot access it.  \n  \nUsers must be able to:  \n  \n- Open the app.  \n- Access and record financial data.  \n  \nYou need to fix the access issues.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure app visibility privileges for the users."
+        },
+        {
+          "letter": "B",
+          "text": "Set the app as the default app for the users."
+        },
+        {
+          "letter": "C",
+          "text": "Assign users the appropriate security roles."
+        },
+        {
+          "letter": "D",
+          "text": "Grant the users table-level permissions to the required tables."
+        }
+      ],
+      "answer": null,
+      "explanation": "Dataverse security roles control access to model-driven apps and define the table privileges that users have within those apps. Assigning accounting users an appropriate security role associated with the app enables them to open it and grants the required create, read, and write privileges for financial records.\n\n**Learn more:** [Sharing a model-driven app - assigning security roles and privileges](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/share-model-driven-app) · [Privileges required to view apps in Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/app-visibility-privileges)"
+    },
+    {
+      "number": 42,
+      "domain": "Create a foundation for intelligent applications",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses a model-driven app to track order-processing duration.  \n  \nThe company needs a system with the following functionality:  \n  \n- The order age, calculated from the created date, must appear on forms and views.  \n- The value must update dynamically when it is viewed, without storing the result.  \n- The value must **not** be stored in the database.  \n  \nYou need to configure the column types.  \n  \nWhich two column types should you use? Each correct answer provides part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Formula"
+        },
+        {
+          "letter": "B",
+          "text": "Calculated"
+        },
+        {
+          "letter": "C",
+          "text": "BigInt"
+        },
+        {
+          "letter": "D",
+          "text": "Prompt"
+        }
+      ],
+      "answer": null,
+      "explanation": "The requirements — a value computed dynamically each time the record is viewed and never persisted to the database — point to Dataverse's two computed column types. A formula column uses a Power Fx expression (for example, DateDiff(createdon, UTCNow())) that is evaluated at query time, so the order age is always current and no value is stored. A calculated column likewise performs its calculation in real time when the record is retrieved, can reference the created-on date, and displays the result on forms and views without persisting it. BigInt is a physical whole-number column whose value is stored in the database, and a prompt column produces AI-generated output rather than deterministic date arithmetic, so neither meets the requirements.\n\n**Learn more:** [Work with formula columns - Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/formula-columns) · [Define calculated columns - Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/define-calculated-fields)"
+    },
+    {
+      "number": 43,
+      "domain": "Build business application logic and automation",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses Dataverse to manage customer accounts and their related transaction records.  \n  \nThe company requires the following functionality:  \n  \n- Reference one related record without performing aggregations.  \n- Store the relationship in the table definition so that the platform automatically maintains the link between records.  \n  \nYou need to configure a column.  \n  \nWhich column type should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Formula"
+        },
+        {
+          "letter": "B",
+          "text": "Calculated"
+        },
+        {
+          "letter": "C",
+          "text": "Rollup"
+        },
+        {
+          "letter": "D",
+          "text": "Lookup"
+        }
+      ],
+      "answer": null,
+      "explanation": "A Dataverse Lookup column stores a reference to a related row and creates a many-to-one relationship as part of the table definition. It supports a single related-record reference without calculating or aggregating values.\n\n**Learn more:** [Create a relationship between tables by using a lookup column](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-entity-lookup) · [Column data types in Microsoft Dataverse](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/types-of-fields)"
+    },
+    {
+      "number": 44,
+      "domain": "Build business application logic and automation",
+      "question": "A company uses Power Apps.  \n  \nUsers must be able to view only the `address1` columns in the Account table.  \n  \nYou need to ensure that the other address columns are not visible to users when they create views and filters.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use column-level security to remove read access to all users."
+        },
+        {
+          "letter": "B",
+          "text": "Create business rules to hide the other address columns."
+        },
+        {
+          "letter": "C",
+          "text": "Delete the other address columns from the table."
+        },
+        {
+          "letter": "D",
+          "text": "Disable the Search option for the columns."
+        }
+      ],
+      "answer": "D",
+      "explanation": "The **Searchable** property determines whether a Dataverse column appears in Advanced Find and is available when users customize views. Disabling Search for the other address columns prevents their use in view creation and filters while retaining the columns in the Account table.\\\n\\\n**Learn more:** [Create and edit columns in Dataverse using Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-field-portal)"
+    },
+    {
+      "number": 51,
+      "domain": "Build business application logic and automation",
+      "question": "Solution: Change the username of Elizabeth in the app’s user record.  \n  \nDoes this solution achieve the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A Microsoft 365 sign-in name is the user principal name (UPN), which is managed in Microsoft 365 or Microsoft Entra ID. Dataverse user records correspond to that identity and do not control the Microsoft 365 sign-in name, so changing an app user record does not update the sign-in account while preserving the intended identity relationship.\\\n\\\n**Learn more:** [Create users - Power Platform](https://learn.microsoft.com/en-us/power-platform/admin/create-users) · [Change a user name and email address - Microsoft 365 admin](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/change-a-user-name-and-email-address?view=o365-worldwide)"
+    },
+    {
+      "number": 52,
+      "domain": "Build business application logic and automation",
+      "question": "Solution: A cloud flow needs to retrieve data from SharePoint Online lists.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The built-in SharePoint connector in Power Automate supports SharePoint Online and includes the **Get items** action for retrieving items from a SharePoint list; therefore, no custom connector is needed.\\\n\\\n**Learn more:** [SharePoint connector](https://learn.microsoft.com/en-us/connectors/sharepointonline/)"
+    },
+    {
+      "number": 53,
+      "domain": "Build business application logic and automation",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are creating a model-driven app that uses a Microsoft Dataverse table named Accounts. Sales representatives use the app to manage customer records.  \n  \nSales representatives report that an excessive number of records are displayed, including inactive and unrelated accounts for which the sales representative is not the record owner.  \n  \nYou need to ensure that users see only relevant records.  \n  \nWhat are two ways to achieve the goal? Each correct answer provides a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Define view columns."
+        },
+        {
+          "letter": "B",
+          "text": "Configure app settings."
+        },
+        {
+          "letter": "C",
+          "text": "Apply security roles to restrict view access."
+        },
+        {
+          "letter": "D",
+          "text": "Configure record status columns."
+        },
+        {
+          "letter": "E",
+          "text": "Configure view filters."
+        }
+      ],
+      "answer": null,
+      "explanation": "View filters define which records appear in a model-driven app view, so they can limit Accounts to active records and records owned by the current user. Security roles can also restrict access to public/system views, so users are presented only with views appropriate to their role instead of broad account views.\n\n**Learn more:** [Create or edit filters in model-driven app views](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-view-filters) · [Manage access to public system views](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/manage-view-access)"
+    },
+    {
+      "number": 54,
+      "domain": "Build business application logic and automation",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company maintains a Power Platform solution that contains prompts, cloud flows, and Dataverse components. Multiple development teams own different features in the solution.  \n  \nThe development teams have these requirements:  \n  \n- Teams must independently develop and update the same features.  \n- Updates must not overwrite changes made by other teams.  \n- Production deployments must stay controlled and predictable.  \n  \nYou need to recommend an ALM approach that enables independent development and controlled deployment according to Microsoft best practices.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create and maintain separate solutions in a single development environment. Deploy independently as managed solutions."
+        },
+        {
+          "letter": "B",
+          "text": "Make changes in a single solution. Deploy updates directly to production."
+        },
+        {
+          "letter": "C",
+          "text": "Create and maintain separate solutions in a separate development environment. Deploy independently as managed solutions."
+        },
+        {
+          "letter": "D",
+          "text": "Create unmanaged solutions in production. Merge changes during deployment."
+        }
+      ],
+      "answer": null,
+      "explanation": "Developing separate unmanaged solutions in isolated Dataverse development environments gives teams developer isolation, preventing changes in one team's environment from overwriting another team's work. Each solution can be independently released as a managed solution, which supports governed, predictable deployments to production. Microsoft recommends this multiple-solutions-with-dedicated-development-environments strategy for large projects, multiple teams, and strict governance or CI/CD requirements.\n\n**Learn more:** [Organize your solutions in Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/organize-solutions) · [ALM environment strategy considerations](https://learn.microsoft.com/en-us/power-platform/alm/environment-strategy-alm)"
+    },
+    {
+      "number": 55,
+      "domain": "Build business application logic and automation",
+      "question": "You need to provide field technicians with a solution to create custom inspection reports natively within the new app.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use a paginated report."
+        },
+        {
+          "letter": "B",
+          "text": "Create a Word template."
+        },
+        {
+          "letter": "C",
+          "text": "Use a custom prompt."
+        }
+      ],
+      "answer": "C",
+      "explanation": "AI Builder custom prompts support instructions and dynamic runtime inputs for generative output, and they can be invoked directly in Power Apps by using Power Fx. This enables reusable, low-code generation of inspection-report content that follows the defined template requirements.\\\n\\\n**Learn more:** [Create a prompt - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/ai-builder/create-a-custom-prompt) · [Use your prompt in Power Apps](https://learn.microsoft.com/en-us/ai-builder/use-a-custom-prompt-in-app)"
+    },
+    {
+      "number": 56,
+      "domain": "Build business application logic and automation",
+      "question": "A company is creating a prompt about product specifications and plans to use it in Power Automate.  \n  \nThe prompt must use Retrieval-Augmented Generation to ground the model with additional business information.  \n  \nYou need to choose an available knowledge source for the prompt.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PDF document"
+        },
+        {
+          "letter": "B",
+          "text": "PNG image"
+        },
+        {
+          "letter": "C",
+          "text": "Dataverse table columns"
+        },
+        {
+          "letter": "D",
+          "text": "Text"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Power Automate prompts can use Retrieval-Augmented Generation with business data by adding a data source and selecting one or more columns as knowledge. Dataverse table columns are therefore an available knowledge source for grounding the prompt.\\\n\\\n**Learn more:** [Add knowledge to your prompt - Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/use-your-own-prompt-data)"
+    },
+    {
+      "number": 57,
+      "domain": "Build business application logic and automation",
+      "question": "A company is creating a prompt about product specifications and plans to use it in Power Automate.  \n  \nThe prompt must use Retrieval-Augmented Generation to ground the model with additional business information.  \n  \nYou need to choose an available knowledge source for the prompt.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Business rules"
+        },
+        {
+          "letter": "B",
+          "text": "Copilot Studio agent"
+        },
+        {
+          "letter": "C",
+          "text": "Smart assist"
+        },
+        {
+          "letter": "D",
+          "text": "App assistant agent"
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot Studio agents can execute topics using model-driven-app record context and return generated responses for presentation within the app. An app assistant agent is the model-driven-app agent configuration that supplies topics, knowledge sources, and responses to in-app Copilot and agent-response experiences. These capabilities support contextual, interactive responses without requiring users to leave the model-driven app.\n\n**Learn more:** [Use Copilot Studio agents in model-driven apps](https://learn.microsoft.com/en-us/power-platform/architecture/reference-architectures/contextual-ai-model-driven-app) · [Add agents to your model-driven app](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/add-agents-to-app)"
+    },
+    {
+      "number": 58,
+      "domain": "Create intelligent applications",
+      "question": "Solution: A cloud flow needs to call a REST API by using a one-time HTTP action, with no reuse across flows.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Power Automate HTTP connectors can directly invoke REST endpoints through web requests. A custom connector is primarily a reusable wrapper that defines an API’s actions and triggers; it is not required for a single, nonreusable REST API call.\\\n\\\n**Learn more:** [Overview of HTTP connectors in Power Automate](https://learn.microsoft.com/en-us/training/modules/http-connectors/) · [Custom connectors overview](https://learn.microsoft.com/en-us/connectors/custom-connectors/)"
+    },
+    {
+      "number": 59,
+      "domain": "Create intelligent applications",
+      "question": "Solution: A cloud flow needs to call a REST API by using a one-time HTTP action, with no reuse across flows.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Move data transformation logic from the source to Power Fx."
+        },
+        {
+          "letter": "B",
+          "text": "Remove data retrieval calls from the App.OnStart."
+        },
+        {
+          "letter": "C",
+          "text": "Enable preloading in app settings."
+        },
+        {
+          "letter": "D",
+          "text": "Use the Concurrent() function for data retrieval calls."
+        },
+        {
+          "letter": "E",
+          "text": "Use the ClearCollect() function to cache data."
+        }
+      ],
+      "answer": null,
+      "explanation": "Avoiding unnecessary data retrieval in `App.OnStart` prevents startup from being blocked by those calls. App preloading reduces the wait experienced when the app is opened. The `Concurrent()` function starts independent connector or Dataverse retrieval calls at the same time, so load time is bounded by the longest call instead of the combined duration of sequential calls. Microsoft recommends `Concurrent()` specifically to improve data-loading performance in an app's `OnStart` property.\n\n**Learn more:** [Optimize app or page load for peak performance](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/fast-app-page-load) · [Concurrent function](https://learn.microsoft.com/en-us/power-platform/power-fx/reference/function-concurrent)"
+    },
+    {
+      "number": 60,
+      "domain": "Create a foundation for intelligent applications",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"ab-410\",\"data-q\":63,\"data-question-id\":\"8e759119-5c3a-485e-b017-d6fc41fc4606\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],\"$L77\"]}],\"$L78\"]}]]}]]}],\"$L79\"]}],\"$L7a\"]}]\nA company uses a prompt to generate responses from internal support knowledge.  \n  \nThe company requires the prompt to minimize unsupported and incorrect generated information while ensuring that responses remain useful.  \n  \nYou need to tune the prompt model settings.  \n  \nHow should the model settings be configured?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Decrease the content moderation level."
+        },
+        {
+          "letter": "B",
+          "text": "Increase the content moderation level."
+        },
+        {
+          "letter": "C",
+          "text": "Decrease the temperature."
+        },
+        {
+          "letter": "D",
+          "text": "Increase the temperature."
+        }
+      ],
+      "answer": null,
+      "explanation": "A lower temperature makes model output less random, more focused, and more deterministic. This is appropriate for answers grounded in internal support knowledge because it reduces creative variation that can introduce unsupported information; content-moderation levels address safety filtering rather than answer grounding or factual consistency.\n\n**Learn more:** [Microsoft Foundry REST Reference — Azure OpenAI Completions](https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/completions)"
+    },
+    {
+      "number": 61,
+      "domain": "Build business application logic and automation",
+      "question": "A company develops a canvas app that processes user-submitted images and must classify them with an existing AI Builder model.  \n  \nThe app must produce predictions during user interaction.  \n  \nYou need to consume the AI model natively.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Invoke the model by using Power Fx."
+        },
+        {
+          "letter": "B",
+          "text": "Replace the model with a static formula."
+        },
+        {
+          "letter": "C",
+          "text": "Refine the model with additional images."
+        },
+        {
+          "letter": "D",
+          "text": "Export the solution which contains the model."
+        }
+      ],
+      "answer": "A",
+      "explanation": "AI Builder models can be consumed directly in canvas apps with Power Fx. After adding the model to the app, a control formula can invoke its `Predict` method with the submitted image, returning a classification during user interaction.\\\n\\\n**Learn more:** [Use AI Builder models in Power Apps](https://learn.microsoft.com/en-au/ai-builder/powerfx-in-powerapps)"
+    }
+  ]
+}

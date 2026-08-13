@@ -1,0 +1,1669 @@
+{
+  "provider": "microsoft",
+  "slug": "gh-100",
+  "fullSlug": "microsoft/gh-100",
+  "title": "Copy link to this question",
+  "totalQuestions": 65,
+  "totalPages": 2,
+  "crawledPages": 3,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "How does CodeQL differ from other static-analysis tools?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It removes insecure code automatically."
+        },
+        {
+          "letter": "B",
+          "text": "It allows querying of code semantics using a database-like language."
+        },
+        {
+          "letter": "C",
+          "text": "It only works for open-source projects."
+        },
+        {
+          "letter": "D",
+          "text": "It runs analysis only after a security breach."
+        }
+      ],
+      "answer": "B",
+      "explanation": "CodeQL represents a codebase as a database and uses a dedicated query language to analyze code as data, allowing queries over code structure and semantics to identify vulnerabilities and errors. [GitHub Docs: Code scanning with CodeQL](https://docs.github.com/en/code-security/concepts/code-scanning/codeql/codeql-code-scanning)\\\n\\\n**Learn more:** [GitHub Docs: Code scanning with CodeQL](https://docs.github.com/en/code-security/concepts/code-scanning/codeql/codeql-code-scanning)"
+    },
+    {
+      "number": 2,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "How does CodeQL differ from other static-analysis tools?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The token's permissions and the geographic region of access"
+        },
+        {
+          "letter": "B",
+          "text": "The token expiration date"
+        },
+        {
+          "letter": "C",
+          "text": "The GitHub Actions runner name"
+        },
+        {
+          "letter": "D",
+          "text": "The token ID, requesting IP address, and associated user"
+        }
+      ],
+      "answer": null,
+      "explanation": "The token identifier links an event to the credential, the requesting IP address identifies the request origin, and the associated user or actor identifies the account connected to the activity. GitHub audit-log events include token and user/actor fields, and source IP addresses can be displayed for eligible events.\n\n**Learn more:** [Identifying audit log events performed by an access token](https://docs.github.com/en/enterprise-cloud@latest/admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/identifying-audit-log-events-performed-by-an-access-token) · [Displaying IP addresses in the audit log for your organization](https://docs.github.com/en/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/displaying-ip-addresses-in-the-audit-log-for-your-organization)"
+    },
+    {
+      "number": 3,
+      "domain": "Manage GitHub Actions",
+      "question": "Which factor influences GitHub Actions pricing for GitHub-hosted runners on GitHub Enterprise Cloud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Number of workflows defined in .github/workflows/"
+        },
+        {
+          "letter": "B",
+          "text": "Number of contributors to the repository Explanation:Incorrect. Contributor count does not impact billing for Actions"
+        },
+        {
+          "letter": "C",
+          "text": "Total number of repositories using Actions"
+        },
+        {
+          "letter": "D",
+          "text": "Operating system used in the runner environment"
+        }
+      ],
+      "answer": "D",
+      "explanation": "GitHub-hosted runner minutes have per-minute rates that vary by operating system (and runner processing power). For example, Linux, Windows, and macOS runners have different rates, so the runner environment’s operating system affects pricing.\\\n\\\n**Learn more:** [Actions runner pricing](https://docs.github.com/en/enterprise-cloud%40latest/billing/reference/actions-runner-pricing) · [GitHub Actions billing](https://docs.github.com/en/enterprise-cloud%40latest/billing/concepts/product-billing/github-actions)"
+    },
+    {
+      "number": 4,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "Which factor influences GitHub Actions pricing for GitHub-hosted runners on GitHub Enterprise Cloud?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GitHub provides configurable controls such as an audit log, SAML authentication, and enterprise rulesets."
+        },
+        {
+          "letter": "B",
+          "text": "GitHub disables all external collaboration features."
+        },
+        {
+          "letter": "C",
+          "text": "GitHub only allows those with repository owner (admin) permissions to write changes to repositories."
+        },
+        {
+          "letter": "D",
+          "text": "GitHub automatically encrypts user passwords in plaintext for quick access."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Enterprise supports compliance through configurable governance and security controls, including enterprise audit logs for monitored activity, SAML single sign-on for centralized authentication and access control, and enterprise rulesets that govern how users interact with repositories.\n\n**Learn more:** [Audit log for an enterprise](https://docs.github.com/en/enterprise-cloud%40latest/admin/concepts/security-and-compliance/audit-log-for-an-enterprise) · [Configuring SAML single sign-on for your enterprise](https://docs.github.com/en/enterprise-cloud%40latest/admin/managing-iam/using-saml-for-enterprise-iam/configuring-saml-single-sign-on-for-your-enterprise)"
+    },
+    {
+      "number": 5,
+      "domain": "Manage access and permissions based on membership",
+      "question": "Your organization is rolling out team synchronization. Which of the following should be prioritized during the setup process?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Disabling the audit log stream"
+        },
+        {
+          "letter": "B",
+          "text": "Setting an infrequent sync schedule to reduce performance impact"
+        },
+        {
+          "letter": "C",
+          "text": "Allowing manual updates to team memberships"
+        },
+        {
+          "letter": "D",
+          "text": "Clearly define how identity provider groups will align with GitHub teams and roles"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Team synchronization depends on deliberate mappings between identity-provider groups and GitHub teams so that membership and the resulting team access align with the organization’s intended roles. After a GitHub team is connected to an IdP group, membership changes are managed through the identity provider rather than manually in GitHub.\\\n\\\n**Learn more:** [Synchronizing a team with an identity provider group](https://docs.github.com/en/enterprise-cloud%40latest/organizations/organizing-members-into-teams/synchronizing-a-team-with-an-identity-provider-group)"
+    },
+    {
+      "number": 6,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "Your organization is rolling out team synchronization. Which of the following should be prioritized during the setup process?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GitHub-hosted larger runners with Azure private networking"
+        },
+        {
+          "letter": "B",
+          "text": "GitHub-hosted standard runners, using the IP addresses provided in "
+        },
+        {
+          "letter": "C",
+          "text": "GitHub-hosted standard runners, using the IP addresses provided in "
+        },
+        {
+          "letter": "D",
+          "text": "GitHub-hosted larger runners with static IP addresses"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub-hosted larger runners can be assigned static public IP address ranges that are unique to the runner pool. This provides an exclusive, predictable range for firewall allowlisting, unlike the broadly shared IP ranges published for standard GitHub-hosted runners.\n\n**Learn more:** [Managing larger runners](https://docs.github.com/en/actions/how-tos/manage-runners/larger-runners/manage-larger-runners) · [GitHub-hosted runners reference](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)"
+    },
+    {
+      "number": 7,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L55\",\"$L56\",\"$L57\",\"$L58\",\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\"]\n52:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n53:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n54:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L38\",null,{\"questionNumber\":6,\"questionId\":\"53e742c3-5b6e-4867-9015-fd01b555091d\",\"examProvider\":\"microsoft\",\"examName\":\"gh-100\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L68\"}]}],[\"$\",\"$L3a\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-100\",\"questionNumber\":6,\"questionId\":\"53e742c3-5b6e-4867-9015-fd01b555091d\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-100\",\"questionNumber\":6,\"questionId\":\"53e742c3-5b6e-4867-9015-fd01b555091d\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-100/1\"}]}]]}]\nYou are planning GitHub account management for a healthcare organization with stringent compliance requirements. Which **THREE** of the following statements correctly describe GitHub Enterprise Managed Users (EMU) accounts? *(Choose three.)*",
+      "options": [
+        {
+          "letter": "A",
+          "text": "EMU accounts can be used for both personal and enterprise repositories."
+        },
+        {
+          "letter": "B",
+          "text": "EMU accounts are managed through an identity provider such as Azure AD."
+        },
+        {
+          "letter": "C",
+          "text": "EMU accounts allow users to create and manage their own credentials."
+        },
+        {
+          "letter": "D",
+          "text": "EMU accounts restrict users to enterprise-related activities only."
+        },
+        {
+          "letter": "E",
+          "text": "EMU accounts are created and managed by individual users."
+        },
+        {
+          "letter": "F",
+          "text": "EMU accounts are owned by the organization and cannot be unlinked."
+        }
+      ],
+      "answer": null,
+      "explanation": "Enterprise Managed Users are provisioned and managed through an identity provider such as Microsoft Entra ID (formerly Azure AD). They authenticate through that identity provider, are restricted to enterprise resources rather than external GitHub collaboration, and remain organization-managed accounts that cannot be completely removed from the enterprise by the user.\n\n**Learn more:** [About Enterprise Managed Users](https://docs.github.com/en/enterprise-cloud@latest/admin/concepts/identity-and-access-management/enterprise-managed-users) · [Abilities and restrictions of managed user accounts](https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/abilities-and-restrictions-of-managed-user-accounts)"
+    },
+    {
+      "number": 8,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "What should be done first when sensitive data is inadvertently pushed to a public GitHub repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Revoke any exposed credentials immediately"
+        },
+        {
+          "letter": "B",
+          "text": "Force push a commit removing the data"
+        },
+        {
+          "letter": "C",
+          "text": "Open an issue to inform users"
+        },
+        {
+          "letter": "D",
+          "text": "Delete the repository"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Exposed credentials must be revoked or rotated immediately so they can no longer be used by anyone who obtained them. Removing data from a repository or its history cannot guarantee that copied credentials are invalidated."
+    },
+    {
+      "number": 9,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "What should be done first when sensitive data is inadvertently pushed to a public GitHub repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enterprise Managed Users can collaborate across both personal and enterprise repositories."
+        },
+        {
+          "letter": "B",
+          "text": "Personal Accounts are owned by users and can be used for both personal and professional work."
+        },
+        {
+          "letter": "C",
+          "text": "Personal Accounts provide stricter control over repositories and user activity."
+        },
+        {
+          "letter": "D",
+          "text": "Enterprise Managed Users require the organization to manage their own authentication server."
+        }
+      ],
+      "answer": null,
+      "explanation": "Personal Accounts are created and owned by individual users and may be used under one identity for personal, open-source, and professional projects. Enterprise Managed User accounts are instead provisioned and managed by an enterprise through its identity provider, with enterprise-controlled access and restrictions on activity outside the enterprise.\n\n**Learn more:** [GitHub Docs: Personal account management](https://docs.github.com/en/account-and-profile/concepts/account-management) · [GitHub Docs: About Enterprise Managed Users](https://docs.github.com/en/enterprise-cloud%40latest/admin/concepts/identity-and-access-management/enterprise-managed-users)"
+    },
+    {
+      "number": 10,
+      "domain": "Manage access and permissions based on membership",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Which statement is true about outside collaborators in a GitHub organization?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They are granted explicit access to specific repositories."
+        },
+        {
+          "letter": "B",
+          "text": "They inherit organization-wide policies, such as SSO requirements."
+        },
+        {
+          "letter": "C",
+          "text": "They have access to all private repositories by default."
+        },
+        {
+          "letter": "D",
+          "text": "They appear in the organization's internal member list."
+        }
+      ],
+      "answer": null,
+      "explanation": "An outside collaborator is not a member of the organization and is granted access to one or more specific organization repositories, with the access level chosen for that collaborator. [GitHub Docs: Adding outside collaborators to repositories in your organization](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization)\n\n**Learn more:** [Adding outside collaborators to repositories in your organization](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-outside-collaborators/adding-outside-collaborators-to-repositories-in-your-organization)"
+    },
+    {
+      "number": 11,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "What advantage does GitHub Advanced Security offer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "helps organization administrators analyze and configure permissions to the least privilege required"
+        },
+        {
+          "letter": "B",
+          "text": "helps developers improve and maintain the security and quality of code"
+        },
+        {
+          "letter": "C",
+          "text": "helps enterprise administrators improve and maintain network security for their GitHub Enterprise Server instances"
+        },
+        {
+          "letter": "D",
+          "text": "helps organization administrators manage security tokens"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub Advanced Security helps developers find and fix security issues in code, dependencies, and exposed secrets, improving the security and quality of the codebase.\\\n\\\n**Learn more:** [About GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security)"
+    },
+    {
+      "number": 12,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "What advantage does GitHub Advanced Security offer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enterprise-wide SAML SSO requires less initial administrative overhead than organization-level implementation."
+        },
+        {
+          "letter": "B",
+          "text": "Enterprise-wide SAML SSO allows different organizations to use different authentication methods."
+        },
+        {
+          "letter": "C",
+          "text": "Enterprise-wide SAML SSO immediately removes users who fail to authenticate via the IdP."
+        },
+        {
+          "letter": "D",
+          "text": "Enterprise-wide SAML SSO ensures users authenticate through the same IdP across all organizations."
+        }
+      ],
+      "answer": null,
+      "explanation": "Enterprise-wide SAML SSO centrally applies one SAML configuration and IdP across all organizations owned by the enterprise, enforcing a consistent authentication experience. Organization-level SAML SSO instead permits separate configurations for individual organizations, including different SAML authentication providers.\n\n**Learn more:** [Deciding whether to configure SAML for your enterprise or your organizations](https://docs.github.com/en/enterprise-cloud%40latest/admin/managing-iam/using-saml-for-enterprise-iam/deciding-whether-to-configure-saml-for-your-enterprise-or-your-organizations) · [Switching your SAML configuration from an organization to an enterprise account](https://docs.github.com/en/enterprise-cloud%40latest/admin/managing-iam/using-saml-for-enterprise-iam/switching-your-saml-configuration-from-an-organization-to-an-enterprise-account)"
+    },
+    {
+      "number": 13,
+      "domain": "Manage access and permissions based on membership",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team member cannot push to a repository because of a 403 error related to branch protection. What should the GitHub Enterprise administrator do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Remove the user from the team and re-add them"
+        },
+        {
+          "letter": "B",
+          "text": "Check the user's permissions and rulesets applied to the branch"
+        },
+        {
+          "letter": "C",
+          "text": "Raise a GitHub Support request for permissions issues"
+        },
+        {
+          "letter": "D",
+          "text": "Revert the branch to an earlier state"
+        }
+      ],
+      "answer": null,
+      "explanation": "Branch protection rules and rulesets can restrict who may push to matching branches; for example, a ruleset that restricts updates permits pushes only for actors with bypass permission. Confirming the user’s repository permissions and the branch’s applicable rulesets identifies the specific access restriction before any corrective change is made.\n\n**Learn more:** [Available rules for rulesets — GitHub Enterprise Cloud Docs](https://docs.github.com/en/enterprise-cloud%40latest/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets) · [Managing a branch protection rule — GitHub Docs](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule)"
+    },
+    {
+      "number": 14,
+      "domain": "Support GitHub Enterprise for users and key stakeholders",
+      "question": "You subscribe to GitHub Premium Support and need to open a support ticket. GitHub Premium Support can assist with:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "writing scripts."
+        },
+        {
+          "letter": "B",
+          "text": "installing GitHub Enterprise Server."
+        },
+        {
+          "letter": "C",
+          "text": "setting up hardware."
+        },
+        {
+          "letter": "D",
+          "text": "integrating with third-party applications."
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub Premium Support includes GitHub Enterprise Support benefits, which cover installing and using GitHub Enterprise Server. GitHub identifies writing scripts, hardware setup, and third-party integrations as requests that are generally outside its support scope.\\\n\\\n**Learn more:** [About GitHub Support](https://docs.github.com/en/enterprise-server@3.20/support/learning-about-github-support/about-github-support)"
+    },
+    {
+      "number": 15,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "Which practice helps prevent service disruptions when using GitHub APIs at scale?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Designing your application to work within GitHub's rate limits"
+        },
+        {
+          "letter": "B",
+          "text": "Using multiple tokens to bypass limits"
+        },
+        {
+          "letter": "C",
+          "text": "Caching all API responses permanently"
+        },
+        {
+          "letter": "D",
+          "text": "Ignoring secondary rate limits"
+        }
+      ],
+      "answer": "A",
+      "explanation": "GitHub API clients should operate within primary and secondary rate limits so requests are not throttled or rejected. Respecting rate limits and handling limit responses helps keep an integration available and avoids disruption.\\\n\\\n**Learn more:** [Rate limits for the REST API](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api?apiVersion=2022-11-28) · [Best practices for using the REST API](https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api)"
+    },
+    {
+      "number": 16,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "Which practice helps prevent service disruptions when using GitHub APIs at scale?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Machine accounts are required for webhook delivery."
+        },
+        {
+          "letter": "B",
+          "text": "GitHub Apps provide a higher rate limit ceiling than using a personal access token on a machine account, when they use an install token and are owned by a GitHub Enterprise Cloud licensed enterprise."
+        },
+        {
+          "letter": "C",
+          "text": "GitHub Apps are limited to a single repository."
+        },
+        {
+          "letter": "D",
+          "text": "Machine accounts are easier to audit than GitHub Apps."
+        }
+      ],
+      "answer": null,
+      "explanation": "A GitHub App authenticated with an installation access token on GitHub Enterprise Cloud has a higher API rate-limit ceiling—15,000 REST API requests per hour per installation—than the typical 5,000 requests per hour available to a personal access token used by a machine account. Installation limits are also independently budgeted per installation.\n\n**Learn more:** [Rate limits for GitHub Apps](https://docs.github.com/en/enterprise-cloud@latest/apps/creating-github-apps/registering-a-github-app/rate-limits-for-github-apps) · [Rate limits for the REST API](https://docs.github.com/en/enterprise-cloud@latest/rest/using-the-rest-api/rate-limits-for-the-rest-api)"
+    },
+    {
+      "number": 17,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Which THREE of the following correctly describe how the SCIM protocol improves user management in GitHub Enterprise Cloud? (Choose three.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SCIM synchronizes changes to user attributes from the identity provider to GitHub."
+        },
+        {
+          "letter": "B",
+          "text": "SCIM deactivates GitHub accounts when users are deleted from the identity provider."
+        },
+        {
+          "letter": "C",
+          "text": "SCIM automatically deletes organization repositories when administrators are removed."
+        },
+        {
+          "letter": "D",
+          "text": "SCIM automates user provisioning when new users are added to the identity provider."
+        },
+        {
+          "letter": "E",
+          "text": "SCIM generates authentication tokens for accessing GitHub's REST API."
+        },
+        {
+          "letter": "F",
+          "text": "SCIM configures repository permissions based on user roles within the organization."
+        }
+      ],
+      "answer": null,
+      "explanation": "SCIM lets an identity provider manage the GitHub user-account lifecycle. It provisions accounts for assigned users, updates GitHub accounts when identity attributes change in the identity provider, and deprovisions or disables accounts when users are removed or deleted from the identity provider.\n\n**Learn more:** [Configuring SCIM provisioning for Enterprise Managed Users](https://docs.github.com/en/enterprise-cloud%40latest/admin/managing-iam/provisioning-user-accounts-with-scim/configuring-scim-provisioning-for-users) · [Deprovisioning and reinstating users with SCIM](https://docs.github.com/en/enterprise-cloud%40latest/admin/managing-iam/provisioning-user-accounts-with-scim/deprovisioning-and-reinstating-users)"
+    },
+    {
+      "number": 18,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "How does Dependabot decide which security-update pull requests to open?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It waits for manual triage of all CVEs."
+        },
+        {
+          "letter": "B",
+          "text": "It uses the dependency graph and Dependabot alerts to open PRs for patched versions."
+        },
+        {
+          "letter": "C",
+          "text": "It reads the GitHub Issues and automatically suggests fixes."
+        },
+        {
+          "letter": "D",
+          "text": "It compares your codebase to the GitHub Trending list."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Dependabot security updates use the repository dependency graph and Dependabot alerts to identify vulnerable dependencies. When a patched version is available and the dependency can be updated safely, Dependabot opens a pull request to the minimum version containing the fix.\\\n\\\n**Learn more:** [Dependabot security updates - GitHub Docs](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-security-updates)"
+    },
+    {
+      "number": 19,
+      "domain": "Manage access and permissions based on membership",
+      "question": "Which of the following actions may a user with Write permissions take in a GitHub repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Manage repository settings, such as labels and GitHub Pages."
+        },
+        {
+          "letter": "B",
+          "text": "Push code to non-protected branches."
+        },
+        {
+          "letter": "C",
+          "text": "Configure branch protection rules."
+        },
+        {
+          "letter": "D",
+          "text": "Delete the repository."
+        }
+      ],
+      "answer": "B",
+      "explanation": "The Write repository role permits users to push to the repositories assigned to them. It does not grant permission to manage repository settings, configure branch protection rules, or delete a repository; protected branches also require elevated or explicit bypass permissions.\\\n\\\n**Learn more:** [Repository roles for an organization - GitHub Docs](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization)"
+    },
+    {
+      "number": 20,
+      "domain": "Manage GitHub Actions",
+      "question": "Which of the following actions may a user with Write permissions take in a GitHub repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enterprise policies and organization policies are independent, with organization policies taking precedence for repositories within the organization."
+        },
+        {
+          "letter": "B",
+          "text": "Enterprise policies configure mandatory settings for organizations."
+        },
+        {
+          "letter": "C",
+          "text": "Enterprise policies apply only to public repositories, while organization policies apply to public, internal, and private repositories."
+        },
+        {
+          "letter": "D",
+          "text": "Enterprise policies can block specific actions, while organization policies can only enable or disable actions entirely."
+        }
+      ],
+      "answer": null,
+      "explanation": "Enterprise owners can enforce GitHub Actions policies that control the options available to organizations in the enterprise. An enterprise-level policy can override an organization’s settings, making the enterprise configuration mandatory for the affected organizations.\n\n**Learn more:** [Enforcing policies for GitHub Actions in your enterprise](https://docs.github.com/enterprise-cloud@latest/admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise) · [Disabling or limiting GitHub Actions for your organization](https://docs.github.com/en/organizations/managing-organization-settings/disabling-or-limiting-github-actions-for-your-organization)"
+    },
+    {
+      "number": 21,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "What may occur when multiple rulesets that target the same branch are enabled in a repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Only organization-level rulesets are enforced over repository-level ones"
+        },
+        {
+          "letter": "B",
+          "text": "All applicable rulesets will be evaluated, and their combined rules enforced"
+        },
+        {
+          "letter": "C",
+          "text": "Only the most recently created ruleset will be enforced"
+        },
+        {
+          "letter": "D",
+          "text": "Rulesets will override each other, leading to unpredictable behavior"
+        }
+      ],
+      "answer": "B",
+      "explanation": "When multiple GitHub rulesets target the same branch, their rules are aggregated and all applicable rules are enforced. If equivalent rules impose different requirements, GitHub applies the most restrictive requirement.\\\n\\\n**Learn more:** [About rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets)"
+    },
+    {
+      "number": 22,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "When comparing fine-grained Personal Access Tokens (PATs) with classic PATs, which statement below is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fine-grained PATs automatically renew while classic PATs require manual renewal."
+        },
+        {
+          "letter": "B",
+          "text": "Fine-grained PATs permissions can be scoped to specific repositories."
+        },
+        {
+          "letter": "C",
+          "text": "Classic PATs offer more permission controls than fine-grained PATs."
+        },
+        {
+          "letter": "D",
+          "text": "Classic PATs can be restricted to specific organizations, but fine-grained PATs cannot."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Fine-grained PATs can be configured to access only selected repositories and granted repository-specific permissions. This provides more targeted access control than the broad scopes used by classic PATs.\\\n\\\n**Learn more:** [Managing your personal access tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)"
+    },
+    {
+      "number": 23,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "When comparing fine-grained Personal Access Tokens (PATs) with classic PATs, which statement below is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GitHub Apps always require two-factor authentication."
+        },
+        {
+          "letter": "B",
+          "text": "GitHub Apps can only be installed by organization owners."
+        },
+        {
+          "letter": "C",
+          "text": "GitHub Apps are limited to read-only access and cannot write to repositories."
+        },
+        {
+          "letter": "D",
+          "text": "GitHub Apps authenticate as an app with fine-grained permissions, not as a user."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Apps can authenticate independently as an app and use fine-grained, installation-specific permissions limited to selected repositories and required actions. This avoids relying on a user identity and reduces the impact of leaked credentials compared with OAuth Apps, which act on behalf of an authorizing user.\n\n**Learn more:** [Differences between GitHub Apps and OAuth apps](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/differences-between-github-apps-and-oauth-apps) · [About using GitHub Apps](https://docs.github.com/en/apps/using-github-apps/about-using-github-apps)"
+    },
+    {
+      "number": 24,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "Which audit-log events are exposed through the GraphQL API? Each answer provides a complete solution. (Choose three.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "changes in permissions"
+        },
+        {
+          "letter": "B",
+          "text": "promoting users to administrators"
+        },
+        {
+          "letter": "C",
+          "text": "pushes to repositories"
+        },
+        {
+          "letter": "D",
+          "text": "changes to permissions of a GitHub App"
+        },
+        {
+          "letter": "E",
+          "text": "cloning of repositories"
+        }
+      ],
+      "answer": null,
+      "explanation": "The audit-log GraphQL API exposes permission changes, promotions of users to administrator status, and changes to a GitHub App’s permissions. Git clone and push events are Git events and must be retrieved through the REST audit-log API rather than GraphQL.\\\n\\\n**Learn more:** [Reviewing the audit log for your organization](https://docs.github.com/en/enterprise-cloud@latest/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/reviewing-the-audit-log-for-your-organization)"
+    },
+    {
+      "number": 25,
+      "domain": "Manage GitHub Actions",
+      "question": "What must be configured to ensure that only specified repositories can access the runners in an organization runner group?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use GitHub's meta API to configure access."
+        },
+        {
+          "letter": "B",
+          "text": "Add a label to the runner group."
+        },
+        {
+          "letter": "C",
+          "text": "Configure repository access in the runner group settings."
+        },
+        {
+          "letter": "D",
+          "text": "Configure the Actions Policies to \\"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Organization runner groups support a repository-access policy that limits use of their self-hosted runners to a specified list of repositories. Configure that access policy in the runner group settings.\\\n\\\n**Learn more:** [Managing access to self-hosted runners using groups](https://docs.github.com/en/actions/how-tos/manage-runners/self-hosted-runners/manage-access)"
+    },
+    {
+      "number": 26,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It creates a pull request to update the direct dependency to a version that resolves the vulnerability."
+        },
+        {
+          "letter": "B",
+          "text": "It opens a pull request to update the affected package directly, regardless of version compatibility."
+        },
+        {
+          "letter": "C",
+          "text": "It automatically removes the package from the repository."
+        },
+        {
+          "letter": "D",
+          "text": "It sends an email to the repository owner but does not alter code."
+        }
+      ],
+      "answer": null,
+      "explanation": "Dependabot security updates open a pull request to upgrade dependencies to a secure version. When a vulnerable transitive dependency is constrained by its parent, the remediation can update the direct dependency to a compatible version that resolves the vulnerability.\n\n**Learn more:** [Dependabot security updates](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependabot-security-updates) · [Dependabot errors](https://docs.github.com/en/code-security/reference/supply-chain-security/troubleshoot-dependabot/dependabot-errors)"
+    },
+    {
+      "number": 27,
+      "domain": "Support GitHub Enterprise for users and key stakeholders",
+      "question": "You need to generate a support bundle for your GitHub Enterprise Server instance whose hostname is `ghe.avocado.corp`. Which command should you use to create the support bundle?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ssh -p 122 [email protected] -- 'ghe-support-bundle -o' > support-bundle.tgz"
+        },
+        {
+          "letter": "B",
+          "text": "ssh -p 122 [email protected] – 'ghe-diagnostics' > support-bundle.tgz"
+        },
+        {
+          "letter": "C",
+          "text": "curl -u admin https://ghe.avocado.corp/diagnostics/support-bundle.tgz -o"
+        },
+        {
+          "letter": "D",
+          "text": "ssh -p 122 [email protected] -- 'ghe-config generate-support-bundle' > support-bundle.tgz"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A standard GitHub Enterprise Server support bundle is generated with `ghe-support-bundle -o` over administrative SSH as `admin` on port 122. The `-o` option streams the tarball to standard output, allowing it to be redirected into `support-bundle.tgz`.\\\n\\\n**Learn more:** [Providing data to GitHub Support](https://docs.github.com/en/enterprise-server%40latest/support/contacting-github-support/providing-data-to-github-support)"
+    },
+    {
+      "number": 28,
+      "domain": "Manage access and permissions based on membership",
+      "question": "You manage a repository in your organization’s GitHub account. A team member asks you to confirm who can access the repository and each person’s permission level. Which tool should you use to review and manage repository access?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GitHub Pages Settings."
+        },
+        {
+          "letter": "B",
+          "text": "GitHub Actions Logs."
+        },
+        {
+          "letter": "C",
+          "text": "Repository Settings > Manage Access."
+        },
+        {
+          "letter": "D",
+          "text": "Branch Protection Rules."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Repository settings provide the access-management view for the teams and people who can access a repository, including their assigned roles and permissions.\\\n\\\n**Learn more:** [Managing teams and people with access to your repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository)"
+    },
+    {
+      "number": 29,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "How does GitHub respond to secrets detected through secret scanning in a public repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It alerts the service provider (e.g., AWS, Stripe)."
+        },
+        {
+          "letter": "B",
+          "text": "It immediately blocks the commit to protect the secret."
+        },
+        {
+          "letter": "C",
+          "text": "It deletes the secret from the repository automatically."
+        },
+        {
+          "letter": "D",
+          "text": "It notifies the admin via webhook."
+        }
+      ],
+      "answer": "A",
+      "explanation": "For a secret associated with a provider in GitHub’s secret-scanning partner program, GitHub sends a partner alert directly to the relevant service provider, such as AWS or Stripe. The provider can validate, revoke, or otherwise secure the exposed credential.\\\n\\\n**Learn more:** [About secret scanning alerts](https://docs.github.com/en/code-security/concepts/secret-security/about-alerts) · [Secret scanning partner program](https://docs.github.com/en/code-security/secret-scanning/secret-scanning-partnership-program)"
+    },
+    {
+      "number": 30,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "Which Git operation is not included in the Git activity audit log?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Delete branch"
+        },
+        {
+          "letter": "B",
+          "text": "Fetch"
+        },
+        {
+          "letter": "C",
+          "text": "Push"
+        },
+        {
+          "letter": "D",
+          "text": "Clone"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Git activity audit logging records Git transport operations such as clone, fetch, and push. Deleting a branch is not one of those Git activity events.\\\n\\\n**Learn more:** [Using the audit log API for your enterprise](https://docs.github.com/en/enterprise-cloud%40latest/admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/using-the-audit-log-api-for-your-enterprise)"
+    },
+    {
+      "number": 31,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "What is the primary advantage of using a GitHub security advisory in a repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It automatically reverts commits that introduced the vulnerability."
+        },
+        {
+          "letter": "B",
+          "text": "It allows maintainers to privately disclose, discuss, and publish vulnerabilities."
+        },
+        {
+          "letter": "C",
+          "text": "It flags all forks of the repository as vulnerable."
+        },
+        {
+          "letter": "D",
+          "text": "It prevents users from cloning the repository until issues are resolved."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Repository security advisories let maintainers privately discuss and address a security vulnerability before publishing the advisory to disclose it to the project community.\\\n\\\n**Learn more:** [Repository security advisories](https://docs.github.com/code-security/security-advisories/repository-security-advisories/about-repository-security-advisories)"
+    },
+    {
+      "number": 32,
+      "domain": "Manage access and permissions based on membership",
+      "question": "What is the primary advantage of using a GitHub security advisory in a repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Allow organization owners to administer the setting at the organization level."
+        },
+        {
+          "letter": "B",
+          "text": "Allow people who have access to private and internal repositories to fork these repositories."
+        },
+        {
+          "letter": "C",
+          "text": "Allow specific people or teams to fork private and internal repositories."
+        },
+        {
+          "letter": "D",
+          "text": "Disallow repository owners from administering the setting at the repository level."
+        },
+        {
+          "letter": "E",
+          "text": "Disallow forking of private and internal repositories."
+        }
+      ],
+      "answer": null,
+      "explanation": "At the enterprise level, GitHub can allow organization owners to manage the setting at the organization level, allow people with access to private or internal repositories to fork them, or never allow private or internal repositories to be forked. GitHub documents these as the three enterprise-level repository-forking policy options.\n\n**Learn more:** [Enforcing repository management policies in your enterprise](https://docs.github.com/en/enterprise-cloud%40latest/admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-repository-management-policies-in-your-enterprise)"
+    },
+    {
+      "number": 33,
+      "domain": "Manage GitHub Actions",
+      "question": "You need GitHub to automatically notify a third-party service whenever a new repository is created. You want to avoid writing custom code. The vendor says it offers a tool in the GitHub Marketplace. Which type of tool is required?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GitHub App"
+        },
+        {
+          "letter": "B",
+          "text": "GitHub Copilot Extension"
+        },
+        {
+          "letter": "C",
+          "text": "GitHub Models"
+        },
+        {
+          "letter": "D",
+          "text": "GitHub Action"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A GitHub App can be installed to integrate a third-party service with GitHub and can receive configured webhook events for the repositories or organizations it can access. This allows the vendor’s service to handle notifications without requiring a custom workflow or application.\\\n\\\n**Learn more:** [Types of webhooks - GitHub Docs](https://docs.github.com/en/webhooks/types-of-webhooks) · [Differences between GitHub Apps and OAuth apps - GitHub Docs](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/differences-between-github-apps-and-oauth-apps)"
+    },
+    {
+      "number": 34,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "You need GitHub to automatically notify a third-party service whenever a new repository is created. You want to avoid writing custom code. The vendor says it offers a tool in the GitHub Marketplace. Which type of tool is required?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Group SCIM requires less initial configuration than Team Sync."
+        },
+        {
+          "letter": "B",
+          "text": "Team Sync supports more identity providers than Group SCIM."
+        },
+        {
+          "letter": "C",
+          "text": "Team Sync provides more automated user deprovisioning than Group SCIM."
+        },
+        {
+          "letter": "D",
+          "text": "Group SCIM enables centralized user and group management through the IdP."
+        }
+      ],
+      "answer": null,
+      "explanation": "Group SCIM lets an identity provider centrally manage the lifecycle of enterprise user accounts and IdP groups, including organization and team membership through SCIM provisioning and group reconciliation.\n\n**Learn more:** [Managing team memberships with identity provider groups](https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/provisioning-user-accounts-with-scim/managing-team-memberships-with-identity-provider-groups) · [Provisioning accounts for Enterprise Managed Users](https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/provisioning-user-accounts-with-scim)"
+    },
+    {
+      "number": 35,
+      "domain": "Manage GitHub Actions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Which of the following correctly distinguishes a GitHub App from a GitHub Action?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GitHub Apps can only be used inside .github/workflows"
+        },
+        {
+          "letter": "B",
+          "text": "GitHub Actions are limited to reading repository content only"
+        },
+        {
+          "letter": "C",
+          "text": "GitHub Apps run only on GitHub-provided virtual machines, while GitHub Actions run only on customer-hosted machines"
+        },
+        {
+          "letter": "D",
+          "text": "GitHub Actions can only be used to respond to events within a single repository while GitHub Apps can respond to events from multiple repositories"
+        }
+      ],
+      "answer": null,
+      "explanation": "A GitHub Actions workflow is specific to one repository and responds to events associated with that workflow’s repository. A GitHub App can be installed with access to multiple repositories, and its webhook receives configured events from every repository it can access.\n\n**Learn more:** [Automating Projects using Actions](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/automating-projects-using-actions) · [Differences between GitHub Apps and OAuth apps](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/differences-between-github-apps-and-oauth-apps)"
+    },
+    {
+      "number": 36,
+      "domain": "Manage access and permissions based on membership",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Which of the following responsibilities belongs to a Team Maintainer in a GitHub organization? (Choose two.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Modifying organization-wide settings."
+        },
+        {
+          "letter": "B",
+          "text": "Managing nested sub-teams."
+        },
+        {
+          "letter": "C",
+          "text": "Adding or removing team members."
+        },
+        {
+          "letter": "D",
+          "text": "Deleting repositories assigned to the team."
+        }
+      ],
+      "answer": null,
+      "explanation": "A Team Maintainer can manage membership by adding or removing organization members from the team. Team maintainers can also manage nested-team relationships when they have maintainer permissions for the involved teams. Organization-wide settings and repository deletion are not general Team Maintainer responsibilities.\n\n**Learn more:** [Assigning the team maintainer role to a team member](https://docs.github.com/en/organizations/organizing-members-into-teams/assigning-the-team-maintainer-role-to-a-team-member) · [Moving a team in your organization's hierarchy](https://docs.github.com/en/organizations/organizing-members-into-teams/moving-a-team-in-your-organizations-hierarchy)"
+    },
+    {
+      "number": 37,
+      "domain": "Manage GitHub Actions",
+      "question": "What is the impact of enforcing a policy that limits GitHub Actions to those created by the enterprise?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Marketplace actions are allowed only with SSO enabled"
+        },
+        {
+          "letter": "B",
+          "text": "Actions can only be triggered by organization members"
+        },
+        {
+          "letter": "C",
+          "text": "Only actions created within the enterprise are allowed"
+        },
+        {
+          "letter": "D",
+          "text": "All public actions are allowed"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The enterprise-only Actions policy permits only actions and reusable workflows defined in repositories within the enterprise. Actions authored by GitHub, Marketplace actions, and other public actions are blocked unless an additional policy explicitly allows them.\\\n\\\n**Learn more:** [Enforcing policies for GitHub Actions in your enterprise](https://docs.github.com/en/enterprise-cloud%40latest/admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-policies-for-github-actions-in-your-enterprise)"
+    },
+    {
+      "number": 38,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "What is the impact of enforcing a policy that limits GitHub Actions to those created by the enterprise?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Contact GitHub Support to remove the secret from all forks and clones of the repository."
+        },
+        {
+          "letter": "B",
+          "text": "Revoke and/or rotate the secret to render it unusable, then assess whether history rewriting is necessary."
+        },
+        {
+          "letter": "C",
+          "text": "Rewrite the repository history using git filter-repo or BFG Repo-Cleaner to remove the secret from all commits."
+        },
+        {
+          "letter": "D",
+          "text": "Delete the repository and create a new one to ensure the secret is no longer accessible."
+        }
+      ],
+      "answer": null,
+      "explanation": "Revoking or rotating an exposed secret immediately prevents it from being used for access, including by anyone who obtained it before repository history is cleaned. Rewriting history has operational side effects and may not be necessary after the credential has been rendered unusable.\n\n**Learn more:** [Removing sensitive data from a repository](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)"
+    },
+    {
+      "number": 39,
+      "domain": "Manage GitHub Actions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"gh-100\",\"data-q\":38,\"data-question-id\":\"c3d9148e-a888-4a27-b0ed-074622ec36e7\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],\"$L7b\"]}],\"$L7c\"]}]]}]]}],\"$L7d\"]}],\"$L7e\"]}]\nWhich of the following are valid methods for passing data to a reusable workflow in a different repository?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use environment variables to pass data directly to the reusable workflow."
+        },
+        {
+          "letter": "B",
+          "text": "Define inputs in the reusable workflow and pass values from the calling workflow."
+        },
+        {
+          "letter": "C",
+          "text": "Define the secrets in the caller repository and call the reusable workflow using the ‘secrets’ keyword."
+        },
+        {
+          "letter": "D",
+          "text": "Define the secrets in the reusable workflow's repository and reference the secret using the ‘secrets’ context."
+        }
+      ],
+      "answer": null,
+      "explanation": "Reusable workflows can declare `on.workflow_call.inputs`, and a calling job supplies their values with `jobs.<job_id>.with`. They can also receive secrets from the caller through `jobs.<job_id>.secrets` when the called workflow declares the applicable secrets (or when supported secret inheritance is used). Workflow-level caller `env` variables do not propagate to the called workflow.\n\n**Learn more:** [Reusing workflow configurations](https://docs.github.com/en/actions/reference/workflows-and-actions/reusing-workflow-configurations) · [Reuse workflows](https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows)"
+    },
+    {
+      "number": 40,
+      "domain": "Support GitHub Enterprise for users and key stakeholders",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to contact GitHub Premium Support. Which are valid reasons to submit a support ticket? (Each answer presents a complete solution. Choose two.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "license renewal"
+        },
+        {
+          "letter": "B",
+          "text": "hardware setup issues or errors"
+        },
+        {
+          "letter": "C",
+          "text": "business impact from security issues within your organization"
+        },
+        {
+          "letter": "D",
+          "text": "outages on GitHub.com affecting core Git functionality"
+        }
+      ],
+      "answer": null,
+      "explanation": "Security-related matters, including incident notifications, account-compromise investigations, and credential exposure, are handled through written GitHub Support tickets. GitHub Premium Support also covers critical service errors or outages that directly affect business operations. License renewals belong with GitHub Sales, and hardware setup is potentially outside GitHub Support’s scope.\n\n**Learn more:** [About GitHub Support](https://docs.github.com/en/enterprise-server@3.20/support/learning-about-github-support/about-github-support) · [About ticket priority](https://docs.github.com/en/enterprise-cloud@latest/support/learning-about-github-support/about-ticket-priority)"
+    },
+    {
+      "number": 41,
+      "domain": "Manage access and permissions based on membership",
+      "question": "Which of the following is a primary benefit of establishing default read permissions across organizations?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Suits environments where all users need write access."
+        },
+        {
+          "letter": "B",
+          "text": "Improves collaboration by allowing users to modify content directly."
+        },
+        {
+          "letter": "C",
+          "text": "Increases efficiency in content creation and updates."
+        },
+        {
+          "letter": "D",
+          "text": "Enhances security by minimizing unintended modifications."
+        }
+      ],
+      "answer": "D",
+      "explanation": "Default read permissions provide access while preventing users from changing content, which reduces unintended modifications and strengthens security."
+    },
+    {
+      "number": 42,
+      "domain": "Describe how GitHub is deployed, distributed, and licensed",
+      "question": "How does metered billing operate in GitHub Enterprise Cloud with Enterprise Managed Users (EMU)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Billing is based on number of total users in the enterprise"
+        },
+        {
+          "letter": "B",
+          "text": "Billing is based on owners and members of GitHub organizations"
+        },
+        {
+          "letter": "C",
+          "text": "Billing is based on total users in the enterprise that are not dormant"
+        },
+        {
+          "letter": "D",
+          "text": "Billing is based on the number of users created in Azure AD"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub Enterprise Cloud bills for organization members, including organization owners. Users who are merely unaffiliated with the enterprise do not consume a license, while dormant organization members still consume one unless their managed account is suspended.\\\n\\\n**Learn more:** [People who consume a license in an organization](https://docs.github.com/en/billing/reference/github-license-users)"
+    },
+    {
+      "number": 43,
+      "domain": "Manage GitHub Actions",
+      "question": "You need to ensure that a secret is automatically available only to workflows in the organization’s internal and private repositories. Where do you configure the necessary access policy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Actions policies"
+        },
+        {
+          "letter": "B",
+          "text": "Runner groups"
+        },
+        {
+          "letter": "C",
+          "text": "Rulesets"
+        },
+        {
+          "letter": "D",
+          "text": "Organization secret"
+        }
+      ],
+      "answer": "D",
+      "explanation": "An organization secret has a repository access policy that controls which repositories can use it in GitHub Actions workflows. Configuring the secret at the organization level allows access to be limited by repository visibility or to selected repositories.\\\n\\\n**Learn more:** [Using secrets in GitHub Actions](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets) · [Secrets](https://docs.github.com/en/enterprise-cloud@latest/actions/concepts/security/secrets)"
+    },
+    {
+      "number": 44,
+      "domain": "Manage access and permissions based on membership",
+      "question": "You need to ensure that a secret is automatically available only to workflows in the organization’s internal and private repositories. Where do you configure the necessary access policy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The user will automatically have the same role across all organizations."
+        },
+        {
+          "letter": "B",
+          "text": "The user's repository access and/or team membership needs to be managed separately for each organization."
+        },
+        {
+          "letter": "C",
+          "text": "The user will need to authorize credentials separately for each SAML-enabled organization."
+        },
+        {
+          "letter": "D",
+          "text": "The user will have different permission levels in each organization."
+        },
+        {
+          "letter": "E",
+          "text": "The user's profile information becomes private to non-organization members."
+        },
+        {
+          "letter": "F",
+          "text": "The user's personal repositories will become accessible to all organizations."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub manages repository access, team membership, and organization roles within each individual organization, so a person’s access and permission level can differ between organizations. For an organization using SAML SSO, API and Git access requires a personal access token or SSH key authorized for that organization. [Viewing and managing a member's SAML access to your organization](https://docs.github.com/en/enterprise-cloud@latest/organizations/granting-access-to-your-organization-with-saml-single-sign-on/viewing-and-managing-a-members-saml-access-to-your-organization)\n\n**Learn more:** [Viewing and managing a member's SAML access to your organization](https://docs.github.com/en/enterprise-cloud@latest/organizations/granting-access-to-your-organization-with-saml-single-sign-on/viewing-and-managing-a-members-saml-access-to-your-organization) · [Enforcing repository management policies in your enterprise](https://docs.github.com/en/enterprise-cloud@latest/admin/enforcing-policies/enforcing-policies-for-your-enterprise/enforcing-repository-management-policies-in-your-enterprise)"
+    },
+    {
+      "number": 45,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],When comparing a partner identity-provider integration with a non-partner identity-management solution for GitHub Enterprise Managed Users, which statement is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The non-partner identity provider integrations can utilize OIDC for authentication."
+        },
+        {
+          "letter": "B",
+          "text": "The non-partner identity provider integrations require manual configuration of SAML 2.0 details."
+        },
+        {
+          "letter": "C",
+          "text": "The partner identity provider integrations support fewer GitHub-supported authentication methods."
+        },
+        {
+          "letter": "D",
+          "text": "The partner identity provider integrations rely on the partner to support the application on the partner IdP."
+        }
+      ],
+      "answer": null,
+      "explanation": "Non-partner identity-management systems for GitHub Enterprise Managed Users must use SAML 2.0 for authentication and SCIM 2.0 for provisioning. They are configured as a generic SAML 2.0 application, requiring the SAML configuration details to be set manually. Partner IdPs provide the paved-path integration and can support SAML or OIDC.\n\n**Learn more:** [About Enterprise Managed Users](https://docs.github.com/en/enterprise-cloud@latest/admin/concepts/identity-and-access-management/enterprise-managed-users) · [Configuring SAML single sign-on for Enterprise Managed Users](https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/configuring-authentication-for-enterprise-managed-users/configuring-saml-single-sign-on-for-enterprise-managed-users)"
+    },
+    {
+      "number": 46,
+      "domain": "Manage access and permissions based on membership",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Which of the following duties belongs to a GitHub Organization Owner? (Choose three.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "View and manage organization billing information."
+        },
+        {
+          "letter": "B",
+          "text": "Create repositories without approval from other members."
+        },
+        {
+          "letter": "C",
+          "text": "Manage organization settings, such as configuration and default permissions."
+        },
+        {
+          "letter": "D",
+          "text": "Access repositories only if explicitly granted by a team maintainer."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub organization owners can manage billing information and organization settings, including base/default repository permissions. They can always create repositories, even when repository-creation permissions are restricted for members. Organization owners also have admin access to every repository owned by the organization, rather than requiring an explicit grant from a team maintainer.\n\n**Learn more:** [Accessing your organization's settings](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/accessing-your-organizations-settings) · [Restricting repository creation in your organization](https://docs.github.com/en/organizations/managing-organization-settings/restricting-repository-creation-in-your-organization?apiVersion=2022-11-28)"
+    },
+    {
+      "number": 47,
+      "domain": "Describe how GitHub is deployed, distributed, and licensed",
+      "question": "What new capability does GitHub's billing dashboard provide?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Automatically removes unused users from billing"
+        },
+        {
+          "letter": "B",
+          "text": "Enables tracking of GitHub Copilot usage by user"
+        },
+        {
+          "letter": "C",
+          "text": "Allows self-service plan upgrades"
+        },
+        {
+          "letter": "D",
+          "text": "Offers real-time Slack alerts for billing overages"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub billing settings provide AI and Copilot usage data that can be examined at the individual-user level, enabling administrators to identify and track each user’s Copilot consumption.\\\n\\\n**Learn more:** [Viewing your usage of metered products and licenses](https://docs.github.com/en/billing/how-tos/products/view-productlicense-use) · [Copilot usage metrics dashboard and API in public preview](https://github.blog/changelog/2025-10-28-copilot-usage-metrics-dashboard-and-api-in-public-preview/)"
+    },
+    {
+      "number": 48,
+      "domain": "Manage GitHub Actions",
+      "question": "Which capability is exclusive to self-hosted runners?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Execute scripts before and after a job"
+        },
+        {
+          "letter": "B",
+          "text": "Dynamic scaling"
+        },
+        {
+          "letter": "C",
+          "text": "Automatic updates to the operating system"
+        },
+        {
+          "letter": "D",
+          "text": "GPU support"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Self-hosted GitHub Actions runners support job-management hook scripts that execute before and after each job, enabling custom setup and cleanup on the runner host.\\\n\\\n**Learn more:** [GitHub Docs — Running scripts before or after a job](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/running-scripts-before-or-after-a-job)"
+    },
+    {
+      "number": 49,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "Which of the following represents a key benefit of using GitHub Marketplace Apps in an enterprise?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They guarantee no downtime during enterprise GitHub maintenance windows"
+        },
+        {
+          "letter": "B",
+          "text": "They often include integrations with external services, reducing the need for custom code"
+        },
+        {
+          "letter": "C",
+          "text": "Apps eliminate the need for GitHub Actions entirely"
+        },
+        {
+          "letter": "D",
+          "text": "All apps come pre-approved by GitHub's internal security team"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub Marketplace Apps extend GitHub by connecting it with external applications and services, enabling teams to adopt existing integrations instead of writing and maintaining equivalent custom code.\\\n\\\n**Learn more:** [About GitHub integrations](https://docs.github.com/en/integrations/concepts/about-integrations)"
+    },
+    {
+      "number": 50,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "Which GitHub feature tracks dependencies and known vulnerabilities in those dependencies using an advisory database?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repository Insights"
+        },
+        {
+          "letter": "B",
+          "text": "Dependency Graph"
+        },
+        {
+          "letter": "C",
+          "text": "Security Policy"
+        },
+        {
+          "letter": "D",
+          "text": "CodeQL"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The dependency graph detects and maintains a repository’s dependency inventory and uses advisory data to identify dependencies with known vulnerabilities."
+    },
+    {
+      "number": 51,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "Why is a GitHub App favored over a PAT for machine authentication?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GitHub Apps are required to pass SAML assertions"
+        },
+        {
+          "letter": "B",
+          "text": "GitHub Apps have time-limited installation tokens with scoped access"
+        },
+        {
+          "letter": "C",
+          "text": "PATs cannot be used in GitHub Actions"
+        },
+        {
+          "letter": "D",
+          "text": "PATs support fewer GitHub APIs than Apps"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub App installation access tokens are short-lived (expiring after one hour) and can be constrained to granted permissions and selected repositories. This supports least-privilege, non-user machine authentication and limits the impact of credential exposure.\\\n\\\n**Learn more:** [Generating an installation access token for a GitHub App](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/generating-an-installation-access-token-for-a-github-app)"
+    },
+    {
+      "number": 52,
+      "domain": "Manage GitHub Actions",
+      "question": "Why is a GitHub App favored over a PAT for machine authentication?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Personal Access Tokens (PATs)"
+        },
+        {
+          "letter": "B",
+          "text": "GitHub App Installation Access Tokens"
+        },
+        {
+          "letter": "C",
+          "text": "Device Tokens"
+        },
+        {
+          "letter": "D",
+          "text": "OAuth tokens"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub App installation access tokens authenticate an application installation rather than an individual user. They can be restricted to specific repositories and to the app’s granted permissions, and are short-lived. GitHub recommends GitHub Apps over OAuth apps for their fine-grained permissions and repository access control, including for CI use cases.\n\n**Learn more:** [Differences between GitHub Apps and OAuth apps](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/differences-between-github-apps-and-oauth-apps) · [Generating an installation access token for a GitHub App](https://docs.github.com/en/apps/creating-github-apps/authenticating-with-a-github-app/generating-an-installation-access-token-for-a-github-app)"
+    },
+    {
+      "number": 53,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],What differentiates Enterprise Managed Users (EMUs) from standard GitHub accounts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "EMUs are fully controlled by an IdP and cannot log in with personal credentials"
+        },
+        {
+          "letter": "B",
+          "text": "EMUs can only be created using email invites"
+        },
+        {
+          "letter": "C",
+          "text": "EMUs are managed in GitHub and use GitHub authentication"
+        },
+        {
+          "letter": "D",
+          "text": "EMUs are only available for GitHub Enterprise Server"
+        }
+      ],
+      "answer": null,
+      "explanation": "Enterprise Managed Users are controlled through an organization’s identity provider (IdP): the IdP provisions the accounts and handles their authentication. Managed user accounts authenticate only through the IdP and do not have GitHub passwords or GitHub-stored two-factor authentication methods.\n\n**Learn more:** [About Enterprise Managed Users](https://docs.github.com/en/enterprise-cloud@latest/admin/concepts/identity-and-access-management/enterprise-managed-users) · [Abilities and restrictions of managed user accounts](https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/abilities-and-restrictions-of-managed-user-accounts)"
+    },
+    {
+      "number": 54,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Why might someone choose to configure a security policy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "To communicate corporate security and compliance policies for end users on a private repository."
+        },
+        {
+          "letter": "B",
+          "text": "To provide information on an open source repository for open source collaborators and researchers that may need to report and disclose sensitive security findings to maintainers securely."
+        },
+        {
+          "letter": "C",
+          "text": "To prevent anyone from pushing to the repository without approval."
+        },
+        {
+          "letter": "D",
+          "text": "To define which open source packages are permitted for use as part of that repository."
+        }
+      ],
+      "answer": null,
+      "explanation": "A repository security policy provides vulnerability-reporting instructions for a project, giving open source collaborators and security researchers a defined way to disclose sensitive security findings to maintainers securely. GitHub documents that a security policy can provide instructions for reporting security vulnerabilities in a repository.\n\n**Learn more:** [Adding a security policy to your repository](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/add-security-policy) · [Coordinated disclosure of security vulnerabilities](https://docs.github.com/en/code-security/concepts/vulnerability-reporting-and-management/coordinated-disclosure)"
+    },
+    {
+      "number": 55,
+      "domain": "Manage GitHub Actions",
+      "question": "An organization needs to share one API key for its Actions workflows. It must limit use of that key to only a subset of repositories. Where should the secrets be configured to minimize maintenance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Repository secrets"
+        },
+        {
+          "letter": "B",
+          "text": "Environment secrets"
+        },
+        {
+          "letter": "C",
+          "text": "Organization secrets"
+        },
+        {
+          "letter": "D",
+          "text": "Development environment secrets"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Organization secrets can be shared across multiple repositories while applying a repository-access policy that restricts the secret to a specified list of repositories. A single centrally managed secret therefore avoids duplicate per-repository configuration while limiting access appropriately.\\\n\\\n**Learn more:** [Using secrets in GitHub Actions](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets)"
+    },
+    {
+      "number": 56,
+      "domain": "Manage user identities and GitHub authentication",
+      "question": "An organization needs to share one API key for its Actions workflows. It must limit use of that key to only a subset of repositories. Where should the secrets be configured to minimize maintenance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Each API action made with the token generates a separate audit log entry"
+        },
+        {
+          "letter": "B",
+          "text": "Only the first repository accessed is recorded"
+        },
+        {
+          "letter": "C",
+          "text": "GitHub creates a ZIP archive of all token activity"
+        },
+        {
+          "letter": "D",
+          "text": "The audit log stores only the token name and not its actions"
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub audit logs contain an event for each action performed by a user or integration. For actions performed outside the GitHub web UI, each event includes authentication details, allowing the individual actions associated with an access token to be identified. [Identifying audit log events performed by an access token](https://docs.github.com/en/enterprise-cloud@latest/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/identifying-audit-log-events-performed-by-an-access-token)\n\n**Learn more:** [Identifying audit log events performed by an access token](https://docs.github.com/en/enterprise-cloud@latest/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/identifying-audit-log-events-performed-by-an-access-token)"
+    },
+    {
+      "number": 57,
+      "domain": "Describe how GitHub is deployed, distributed, and licensed",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L56\",\"$L57\",\"$L58\",\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\"]\n53:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n54:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n55:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":56,\"questionId\":\"cd7fa79a-d91b-465c-abd8-6fbdba49dd47\",\"examProvider\":\"microsoft\",\"examName\":\"gh-100\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L5f\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-100\",\"questionNumber\":56,\"questionId\":\"cd7fa79a-d91b-465c-abd8-6fbdba49dd47\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"gh-100\",\"questionNumber\":56,\"questionId\":\"cd7fa79a-d91b-465c-abd8-6fbdba49dd47\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/gh-100/3\"}]}]]}]\nWhat is a key difference between GitHub Enterprise Server (GHES) and GitHub Enterprise Cloud (GHEC)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GHES is hosted by GitHub and offers automatic scaling, while GHEC requires self-hosting."
+        },
+        {
+          "letter": "B",
+          "text": "GHEC offers data residency options in regions that GHES does not support."
+        },
+        {
+          "letter": "C",
+          "text": "GHES allows enterprises to have complete control over their hosting environment, including data storage and network security policies."
+        },
+        {
+          "letter": "D",
+          "text": "GHES users cannot integrate with external identity providers for authentication."
+        }
+      ],
+      "answer": null,
+      "explanation": "GitHub Enterprise Server is a self-hosted GitHub deployment that runs on enterprise-controlled infrastructure. The enterprise defines the access and security controls for that environment, including data storage and network policies, whereas GitHub Enterprise Cloud is hosted by GitHub.\n\n**Learn more:** [About GitHub Enterprise Server](https://docs.github.com/en/enterprise-server@3.19/admin/overview/about-github-enterprise-server) · [Getting started with GitHub Enterprise Cloud](https://docs.github.com/en/get-started/onboarding/getting-started-with-github-enterprise-cloud?apiVersion=2022-11-28)"
+    },
+    {
+      "number": 58,
+      "domain": "Describe how GitHub is deployed, distributed, and licensed",
+      "question": "Your organization wants to lower costs. Which of the following actions should you take?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Grant all users admin permissions"
+        },
+        {
+          "letter": "B",
+          "text": "Remove all outside collaborators"
+        },
+        {
+          "letter": "C",
+          "text": "Regularly audit for inactive users"
+        },
+        {
+          "letter": "D",
+          "text": "Disable SAML SSO for members"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Regular audits for inactive users identify accounts whose paid access can be removed or reassigned, helping reclaim unused licenses and reduce costs."
+    },
+    {
+      "number": 59,
+      "domain": "Describe how GitHub is deployed, distributed, and licensed",
+      "question": "Which product’s usage is excluded from GitHub Enterprise Cloud’s monthly metered billing report?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Git LFS bandwidth"
+        },
+        {
+          "letter": "B",
+          "text": "GitHub Actions minutes"
+        },
+        {
+          "letter": "C",
+          "text": "GitHub Discussions engagement"
+        },
+        {
+          "letter": "D",
+          "text": "GitHub Packages storage"
+        }
+      ],
+      "answer": "C",
+      "explanation": "GitHub’s metered billing covers products and usage types such as Git Large File Storage bandwidth, GitHub Actions minutes, and GitHub Packages storage. GitHub Discussions engagement is not a metered, billable usage category.\\\n\\\n**Learn more:** [Billing reports reference](https://docs.github.com/en/enterprise-cloud%40latest/billing/reference/billing-reports) · [Product usage included with each plan](https://docs.github.com/en/enterprise-cloud%40latest/billing/reference/product-usage-included)"
+    },
+    {
+      "number": 60,
+      "domain": "Manage access and permissions based on membership",
+      "question": "Which of the following represents a benefit of creating a new GitHub organization?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Automatic inheritance of policies from other organizations."
+        },
+        {
+          "letter": "B",
+          "text": "Reduced administrative overhead."
+        },
+        {
+          "letter": "C",
+          "text": "Clear separation of repos, projects, teams, billing, and organization-specific policies."
+        },
+        {
+          "letter": "D",
+          "text": "Simplified collaboration across all organizations."
+        }
+      ],
+      "answer": "C",
+      "explanation": "A separate GitHub organization establishes a distinct boundary for repositories, projects, teams, billing, access management, and organization-level policies. GitHub documents that billing settings are managed separately for each organization and that organizations can configure their own permissions and policies.\\\n\\\n**Learn more:** [Getting started with GitHub Team](https://docs.github.com/en/get-started/onboarding/getting-started-with-github-team) · [Organizations and teams documentation](https://docs.github.com/en/enterprise-cloud@latest/organizations)"
+    },
+    {
+      "number": 61,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "Which of the following represents a benefit of creating a new GitHub organization?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Outside collaborators for all repositories."
+        },
+        {
+          "letter": "B",
+          "text": "Organization-specific teams with custom policies."
+        },
+        {
+          "letter": "C",
+          "text": "Enterprise-level teams with inherited enterprise policies."
+        },
+        {
+          "letter": "D",
+          "text": "Assigning admin permissions to all team members."
+        }
+      ],
+      "answer": null,
+      "explanation": "Enterprise-level teams and policies centralize administration across the enterprise. Enterprise policies provide a single management point and can be enforced for all organizations owned by the enterprise, which supports consistent security governance across teams and organizations.\n\n**Learn more:** [Enterprise policies — GitHub Enterprise Cloud Docs](https://docs.github.com/en/enterprise-cloud%40latest/admin/concepts/security-and-compliance/enterprise-policies?learn=get_started_with_your_enterprise_account&learnProduct=admin) · [Teams in an enterprise — GitHub Enterprise Cloud Docs](https://docs.github.com/en/enterprise-cloud%40latest/admin/concepts/enterprise-fundamentals/teams-in-an-enterprise)"
+    },
+    {
+      "number": 62,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "Our organization is revising its enterprise policies. Which of the following actions should you take to ensure they align with security requirements?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Maintain clear documentation of existing policies and policy changes."
+        },
+        {
+          "letter": "B",
+          "text": "Implement the new enterprise policies across the organization first and then consult with the security team to identify any necessary adjustments or retrofits."
+        },
+        {
+          "letter": "C",
+          "text": "Implement changes without consulting stakeholders."
+        },
+        {
+          "letter": "D",
+          "text": "Regularly assess and adjust policies based on evolving risks."
+        }
+      ],
+      "answer": null,
+      "explanation": "Maintaining clear records of current policies and their changes supports governance, review, and accountability. Regularly evaluating and updating policies as risks evolve keeps policy controls aligned with the organization’s current security needs."
+    },
+    {
+      "number": 63,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "In a GitHub repository that uses Dependabot, which option best explains the purpose of the `.github/dependabot.yml` file?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It configures scheduling, package ecosystems, and target directories for update checks."
+        },
+        {
+          "letter": "B",
+          "text": "It lists commit SHAs to exclude from automatic pull requests."
+        },
+        {
+          "letter": "C",
+          "text": "It enables GitHub to scan for secrets in dependency files."
+        },
+        {
+          "letter": "D",
+          "text": "It encrypts dependency versions before storing them in the repo."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The `.github/dependabot.yml` file configures Dependabot version-update jobs, including the package ecosystems to monitor, the directories containing dependency manifests, and the schedules for update checks.\\\n\\\n**Learn more:** [About the dependabot.yml file](https://docs.github.com/en/code-security/concepts/supply-chain-security/about-the-dependabot-yml-file)"
+    },
+    {
+      "number": 64,
+      "domain": "Support GitHub Enterprise for users and key stakeholders",
+      "question": "What is required to successfully generate a support bundle on GitHub Enterprise Server?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Approval from GitHub Support"
+        },
+        {
+          "letter": "B",
+          "text": "A custom GitHub Action in the root repo"
+        },
+        {
+          "letter": "C",
+          "text": "Administrator SSH access to the appliance"
+        },
+        {
+          "letter": "D",
+          "text": "A GitHub App with read:org permissions"
+        }
+      ],
+      "answer": "C",
+      "explanation": "GitHub Enterprise Server uses the `ghe-support-bundle` command from the appliance’s administrative shell to create a support bundle. Administrative SSH access, using the `admin` user on port 122, provides access to these command-line utilities.\\\n\\\n**Learn more:** [GitHub Enterprise Server: Command-line utilities](https://docs.github.com/en/enterprise-server%403.18/admin/administering-your-instance/administering-your-instance-from-the-command-line/command-line-utilities) · [GitHub Enterprise Server: Accessing the administrative shell (SSH)](https://docs.github.com/enterprise-server/admin/configuration/configuring-your-enterprise/accessing-the-administrative-shell-ssh)"
+    },
+    {
+      "number": 65,
+      "domain": "Enable secure software development and ensure compliance",
+      "question": "What is required to successfully generate a support bundle on GitHub Enterprise Server?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Allows custom pattern definitions for internal secret formats."
+        },
+        {
+          "letter": "B",
+          "text": "Disables any code that contains a secret."
+        },
+        {
+          "letter": "C",
+          "text": "Rewrites history to remove secrets."
+        },
+        {
+          "letter": "D",
+          "text": "Revokes GitHub access tokens automatically."
+        }
+      ],
+      "answer": null,
+      "explanation": "Secret scanning can be customized with regular-expression patterns to detect organization-specific secret types that are not covered by GitHub’s default provider and partner patterns. [GitHub Docs: Defining custom patterns for secret scanning](https://docs.github.com/en/enterprise-cloud%40latest/code-security/how-tos/secure-your-secrets/customize-leak-detection/define-custom-patterns)\n\n**Learn more:** [Defining custom patterns for secret scanning](https://docs.github.com/en/enterprise-cloud%40latest/code-security/how-tos/secure-your-secrets/customize-leak-detection/define-custom-patterns) · [Secret scanning](https://docs.github.com/en/enterprise-cloud%40latest/code-security/concepts/secret-security/secret-scanning)"
+    }
+  ]
+}

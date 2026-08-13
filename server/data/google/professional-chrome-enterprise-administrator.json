@@ -1,0 +1,1262 @@
+{
+  "provider": "google",
+  "slug": "professional-chrome-enterprise-administrator",
+  "fullSlug": "google/professional-chrome-enterprise-administrator",
+  "title": "Copy link to this question",
+  "totalQuestions": 50,
+  "totalPages": 9037717,
+  "crawledPages": 2,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Manage user and device settings",
+      "question": "An administrator chooses to reduce the default period a browser can remain inactive before it is automatically deleted from the Google Admin console.  \n  \nWhich Device Token Management policy must be selected to permit devices to re-enroll in the Google Admin console?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Revoke Token"
+        },
+        {
+          "letter": "B",
+          "text": "Invalidate Token"
+        },
+        {
+          "letter": "C",
+          "text": "Renew Token"
+        },
+        {
+          "letter": "D",
+          "text": "Delete Token"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Selecting **Delete token** removes the device token when an inactive browser is deleted. If the device still has a valid enrollment token, it can automatically re-enroll the next time Chrome restarts. An invalidated token remains on the device and prevents automatic re-enrollment.\\\n\\\n**Learn more:** [Set Chrome policies for users or browsers](https://support.google.com/chrome/a/answer/2657289?hl=en-EN) · [Stop managing or delete Chrome browsers and profiles](https://support.google.com/chrome/a/answer/9844476?hl=en)"
+    },
+    {
+      "number": 2,
+      "domain": "Manage user and device settings",
+      "question": "An administrator is changing a policy at the top-level organizational unit (OU), but a lower OU must not accept that change.  \n  \nWhat can the administrator do to ensure this?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Set the policy to locally applied at the child OU"
+        },
+        {
+          "letter": "B",
+          "text": "Set the policy to locally applied at the parent OU"
+        },
+        {
+          "letter": "C",
+          "text": "Turn off inheritance for all policies"
+        },
+        {
+          "letter": "D",
+          "text": "Set policy precedence to Child > Parent"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A policy overridden and saved at a child organizational unit is marked **Locally applied**, rather than inherited. That child-level value takes precedence over the parent’s inherited value, so subsequent changes to the parent setting do not alter the child OU’s local policy value.\\\n\\\n**Learn more:** [Set Chrome policies for users or browsers](https://support.google.com/chrome/a/answer/2657289?hl=en_)"
+    },
+    {
+      "number": 3,
+      "domain": "Manage extensions and apps",
+      "question": "An administrator is changing a policy at the top-level organizational unit (OU), but a lower OU must not accept that change.  \n  \nWhat can the administrator do to ensure this?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The force-installed extension will be disabled for existing users only"
+        },
+        {
+          "letter": "B",
+          "text": "The force-installed extension will automatically be disabled"
+        },
+        {
+          "letter": "C",
+          "text": "The force-installed extension will observe no change"
+        },
+        {
+          "letter": "D",
+          "text": "The admin will receive an alert in the Google Admin console to remediate the conflict"
+        }
+      ],
+      "answer": null,
+      "explanation": "Chrome Enterprise’s setting to disable extensions unpublished from the Chrome Web Store does not apply to force-installed extensions. Force-installed extensions are excluded from that unpublished-extension policy, so this extension remains enabled without a change.\n\n**Learn more:** [Set app and extension policies](https://support.google.com/chrome/a/answer/9039146?hl=en)"
+    },
+    {
+      "number": 4,
+      "domain": "Manage extensions and apps",
+      "question": "Which operating system is required to self-host a Chrome extension?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Windows 11"
+        },
+        {
+          "letter": "B",
+          "text": "Linux"
+        },
+        {
+          "letter": "C",
+          "text": "macOS"
+        },
+        {
+          "letter": "D",
+          "text": "ChromeOS"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Linux is the only platform on which Chrome users can install extensions hosted outside the Chrome Web Store. On Windows and macOS, self-hosted extensions can be installed only through enterprise policies.\\\n\\\n**Learn more:** [Self-host for Linux | Chrome for Developers](https://developer.chrome.com/docs/extensions/how-to/distribute/host-on-linux)"
+    },
+    {
+      "number": 5,
+      "domain": "Manage Chrome browser updates",
+      "question": "An organization experiences a compatibility problem with an internal website after the most recent Chrome update. The organization decides to roll back updates to the working version and prevent Chrome from updating beyond that version. For security, Chrome must still update older versions to the latest compatible version.  \n  \nWhich configuration should an administrator configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Google Updater policy precedence"
+        },
+        {
+          "letter": "B",
+          "text": "Auto-update check period"
+        },
+        {
+          "letter": "C",
+          "text": "Target version and rollback"
+        },
+        {
+          "letter": "D",
+          "text": "Update to extended stable channel"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Target version and rollback combines a target-version prefix with rollback to that target. Chrome installations newer than the target are reverted, while installations below it can update to the latest release matching the specified compatible version prefix, preserving applicable security updates.\\\n\\\n**Learn more:** [Manage Chrome updates (Windows)](https://support.google.com/chrome/a/answer/6350036?rd=1)"
+    },
+    {
+      "number": 6,
+      "domain": "Manage extensions and apps",
+      "question": "An organization experiences a compatibility problem with an internal website after the most recent Chrome update. The organization decides to roll back updates to the working version and prevent Chrome from updating beyond that version. For security, Chrome must still update older versions to the latest compatible version.  \n  \nWhich configuration should an administrator configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add *.acme.com to runtime blocked hosts; Disable storage permission; Disable history permission"
+        },
+        {
+          "letter": "B",
+          "text": "Add *.acme.com to runtime blocked hosts; Enable storage permission; Enable history permission"
+        },
+        {
+          "letter": "C",
+          "text": "Add internal.acme.com to runtime blocked hosts; Disable storage permission; Disable history permission"
+        },
+        {
+          "letter": "D",
+          "text": "Add internal.acme.com to runtime blocked hosts; Enable storage permission; Enable history permission"
+        }
+      ],
+      "answer": null,
+      "explanation": "Chrome Enterprise extension settings support `runtime_blocked_hosts` to prevent extensions from accessing a specified host at runtime and `blocked_permissions` to disallow requested extension permissions. Blocking `internal.acme.com` protects that specific internal home page, while disabling the `storage` and `history` permissions removes both requested capabilities.\n\n**Learn more:** [ExtensionSettings: Extension management settings](https://chromeenterprise.google/policies/extension-settings/)"
+    },
+    {
+      "number": 7,
+      "domain": "Manage Chrome browser security",
+      "question": "Which policy and value offer the greatest protection against malicious websites?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Allow the user ability to bypass Safe Browsing warnings"
+        },
+        {
+          "letter": "B",
+          "text": "Set the Safe Browsing policy to Enhanced mode"
+        },
+        {
+          "letter": "C",
+          "text": "Set the site isolation policy to be required for all websites"
+        },
+        {
+          "letter": "D",
+          "text": "Enable site isolation for all websites"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Setting the Safe Browsing Protection Level policy to EnhancedProtection keeps Safe Browsing active in enhanced mode, which provides stronger protection against malicious and phishing websites than standard protection. [Chrome Enterprise: Safe Browsing Protection Level](https://chromeenterprise.google/policies/safe-browsing-protection-level/)\\\n\\\n**Learn more:** [Chrome Enterprise: Safe Browsing Protection Level](https://chromeenterprise.google/policies/safe-browsing-protection-level/)"
+    },
+    {
+      "number": 8,
+      "domain": "Manage Chrome browser updates",
+      "question": "What is the release schedule for major versions on Chrome’s Stable channel?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The second Tuesday of every month"
+        },
+        {
+          "letter": "B",
+          "text": "Once a quarter (every three months)"
+        },
+        {
+          "letter": "C",
+          "text": "Whenever new features are added"
+        },
+        {
+          "letter": "D",
+          "text": "Every 28 days (every four weeks)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Chrome’s Stable channel receives major releases every four weeks; 28 days is four weeks. Minor Stable updates may occur weekly, but major releases follow the four-week cadence.\\\n\\\n**Learn more:** [Chrome Release Channels](https://www.chromium.org/chrome-release-channels/)"
+    },
+    {
+      "number": 9,
+      "domain": "Manage Chrome browser updates",
+      "question": "What is the release schedule for major versions on Chrome’s Stable channel?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create different user groups for each department"
+        },
+        {
+          "letter": "B",
+          "text": "Create organizational units for each department"
+        },
+        {
+          "letter": "C",
+          "text": "Set device policies for each department"
+        },
+        {
+          "letter": "D",
+          "text": "Create active directory forest for each department"
+        }
+      ],
+      "answer": null,
+      "explanation": "Organizational units let administrators apply different Chrome update policies to separate departmental populations. Chrome update settings can be scoped to a child organizational unit rather than all enrolled browsers, allowing immediate updates for Engineering and a controlled, tested rollout for HR.\n\n**Learn more:** [Manage Chrome updates (Chrome Enterprise Core)](https://support.google.com/chrome/a/answer/9838774?hl=en) · [Set Chrome policies](https://support.google.com/chrome/a/answer/4601290?hl=en)"
+    },
+    {
+      "number": 10,
+      "domain": "Manage extensions and apps",
+      "question": "The security team has requested approval for two extensions that offer similar functionality. To prevent redundancy, they want to approve only one extension for use in the environment.  \n  \nWhat objective measurement can the security team use to help decide which extension may be safer to use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3rd Party Risk Score"
+        },
+        {
+          "letter": "B",
+          "text": "Permission Count"
+        },
+        {
+          "letter": "C",
+          "text": "Chrome Manifest Version"
+        },
+        {
+          "letter": "D",
+          "text": "Chrome Web Store Ratings"
+        }
+      ],
+      "answer": "B",
+      "explanation": "An extension’s permission count objectively reflects how much browser and data access it requests. Comparing requested permissions helps identify the extension with the smaller privilege footprint, which can reduce potential exposure."
+    },
+    {
+      "number": 11,
+      "domain": "Monitor and troubleshoot Chrome browser",
+      "question": "The security team has requested approval for two extensions that offer similar functionality. To prevent redundancy, they want to approve only one extension for use in the environment.  \n  \nWhat objective measurement can the security team use to help decide which extension may be safer to use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Another OU at the same hierarchical level as the Finance OU has the same policy configured with a different value"
+        },
+        {
+          "letter": "B",
+          "text": "The Finance OU has Inheritance for the policy set to “Locally applied”"
+        },
+        {
+          "letter": "C",
+          "text": "A user group has the same policy configured with a different value"
+        },
+        {
+          "letter": "D",
+          "text": "A sub-OU under the Finance OU has Inheritance for the same policy set to “Finance”"
+        }
+      ],
+      "answer": null,
+      "explanation": "For policies of the same type, a group-based Chrome policy overrides the policy configured for an organizational unit. Affected managed browsers that belong to a user group with a conflicting value can therefore receive that group’s value instead of the Finance OU value.\n\n**Learn more:** [Managing group-based policies](https://support.google.com/chrome/a/answer/13264197?hl=en-GB) · [Understand Chrome policy management](https://support.google.com/chrome/a/answer/9037717?hl=en)"
+    },
+    {
+      "number": 12,
+      "domain": "Monitor and troubleshoot Chrome browser",
+      "question": "Which data point can be found in the Chrome Versions report?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Active Browsers"
+        },
+        {
+          "letter": "B",
+          "text": "Inactive Browsers"
+        },
+        {
+          "letter": "C",
+          "text": "Total Browsers"
+        },
+        {
+          "letter": "D",
+          "text": "Last update"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The Chrome Versions report includes a **Total** field showing the total number of browsers or devices that have a particular Chrome version installed.\\\n\\\n**Learn more:** [View Chrome version details](https://support.google.com/chrome/a/answer/10025748)"
+    },
+    {
+      "number": 13,
+      "domain": "Manage extensions and apps",
+      "question": "Which data point can be found in the Chrome Versions report?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Collect the extension IDs and configure an installation policy of block."
+        },
+        {
+          "letter": "B",
+          "text": "Configure the Manifest V2 availability policy."
+        },
+        {
+          "letter": "C",
+          "text": "Configure the installation mode to reflect removed for each extension ID."
+        },
+        {
+          "letter": "D",
+          "text": "Auto-upgrade the extensions from MV2 to MV3."
+        }
+      ],
+      "answer": null,
+      "explanation": "The Manifest V2 availability policy can be set to disable Manifest V2 extensions, which blocks new MV2 installations and disables existing MV2 extensions. Migration to Manifest V3 must be performed by the extension developer; it cannot be automatically applied by an administrator.\n\n**Learn more:** [ExtensionManifestV2Availability: Control Manifest v2 extension availability](https://chromeenterprise.google/policies/extension-manifest-v2-availability/)"
+    },
+    {
+      "number": 14,
+      "domain": "Manage user and device settings",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An organization is rolling out 50 new devices that will be managed by a Mobile Device Management solution.  \n  \nWhich method should be used to enroll the Chrome browser on these devices in Chrome Enterprise Core?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use Google Admin to generate an enrollment token and distribute it using mobile device management software."
+        },
+        {
+          "letter": "B",
+          "text": "Use Google Admin console bulk enrollment feature to generate a set of unique tokens, and then distribute them via secure file sharing platform."
+        },
+        {
+          "letter": "C",
+          "text": "Generate a single device enrollment token and email it to all users, instructing them to enroll their devices individually."
+        },
+        {
+          "letter": "D",
+          "text": "Use Google Admin to generate 50 individual device registration keys and distribute them using mobile device management software."
+        }
+      ],
+      "answer": null,
+      "explanation": "Chrome Enterprise Core enrollment is performed by generating an enrollment token in the Google Admin console and deploying that token to managed devices through the MDM configuration. A single token can enroll browsers assigned to the relevant organizational unit; individual per-device registration keys are not required.\n\n**Learn more:** [Enroll cloud-managed Chrome browsers](https://support.google.com/chrome/a/answer/9301891?hl=en) · [Set up Chrome Enterprise Core for Android](https://support.google.com/chrome/a/answer/11480811?hl=en)"
+    },
+    {
+      "number": 15,
+      "domain": "Manage Chrome browser security",
+      "question": "In Chrome Safe Browsing settings, which option offers the strongest protection against online threats and is appropriate for a highly secure environment?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Advanced Threat Protection"
+        },
+        {
+          "letter": "B",
+          "text": "Proactive Defense"
+        },
+        {
+          "letter": "C",
+          "text": "Secure Browsing Mode"
+        },
+        {
+          "letter": "D",
+          "text": "Enhanced Protection"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Enhanced Protection is Chrome’s highest Safe Browsing level. It provides protection against known threats and potential new dangers, including stronger real-time checks for risky sites, downloads, and extensions.\\\n\\\n**Learn more:** [Choose your Safe Browsing protection level in Chrome](https://support.google.com/chrome/answer/9890866?hl=en-GB) · [How Chrome Safe Browsing keeps your browsing data private](https://support.google.com/chrome/answer/13844634?co=GENIE.Platform%3DDesktop&hl=en-en)"
+    },
+    {
+      "number": 16,
+      "domain": "Manage extensions and apps",
+      "question": "How frequently are extensions updated?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "When Chrome is not running, the update occurs within the first few minutes of OS loading and then again every few hours"
+        },
+        {
+          "letter": "B",
+          "text": "When a new version is available in the Chrome Web Store, even when Chrome is not running"
+        },
+        {
+          "letter": "C",
+          "text": "When Chrome is running, the update occurs within the first few minutes of launching Chrome and then again every few hours"
+        },
+        {
+          "letter": "D",
+          "text": "Updates occur when users sign into the Chrome Web Store"
+        }
+      ],
+      "answer": "C",
+      "explanation": "By default, Chrome checks installed extensions for updates when Chrome starts and again every few hours. An available update is installed once the extension is idle.\\\n\\\n**Learn more:** [The Chrome Extension update lifecycle](https://developer.chrome.com/docs/extensions/develop/concepts/extensions-update-lifecycle)"
+    },
+    {
+      "number": 17,
+      "domain": "Manage Chrome browser settings and policies",
+      "question": "How frequently are extensions updated?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Google\\Chrome\\CloudManagementEnrollmentToken"
+        },
+        {
+          "letter": "B",
+          "text": "/Library/Google/Chrome/CloudManagementEnrollmentToken"
+        },
+        {
+          "letter": "C",
+          "text": "/etc/opt/chrome/policies/enrollment/CloudManagementEnrollmentToken"
+        },
+        {
+          "letter": "D",
+          "text": "/Library/Google/Chrome/Enrollment/DeviceManagementToken"
+        }
+      ],
+      "answer": null,
+      "explanation": "For macOS devices enrolled without MDM, Chrome Enterprise Core uses a device-level text file named `CloudManagementEnrollmentToken` in `/Library/Google/Chrome/`. This lets the token be included in the Mac base image. [Enroll cloud-managed Chrome browsers](https://support.google.com/chrome/a/answer/9301891?hl=en)\n\n**Learn more:** [Enroll cloud-managed Chrome browsers](https://support.google.com/chrome/a/answer/9301891?hl=en)"
+    },
+    {
+      "number": 18,
+      "domain": "Manage Chrome browser settings and policies",
+      "question": "An organization is moving its management from Group Policy to Chrome Enterprise Core.  \n  \nWhen enrolling the browser in Chrome Enterprise Core, what happens to conflicting policies on Windows under the default precedence order?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cloud Machine policies will be ignored in favor of the Machine Policy"
+        },
+        {
+          "letter": "B",
+          "text": "Machine Policies will be ignored in favor of cloud machine policy"
+        },
+        {
+          "letter": "C",
+          "text": "OS User policies will be ignored in favor of the Cloud User policies"
+        },
+        {
+          "letter": "D",
+          "text": "Machine Policy will be ignored if the token was deployed through Group Policy"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Under Chrome’s default precedence order, platform policies have higher priority than machine cloud policies. On Windows, policies deployed through Group Policy are platform policies, so a conflicting cloud machine policy is ignored in favor of the Machine Policy.\\\n\\\n**Learn more:** [Understand Chrome policy management](https://support.google.com/chrome/a/answer/9037717?hl=en)"
+    },
+    {
+      "number": 19,
+      "domain": "Manage Chrome browser settings and policies",
+      "question": "A company deploys policies using a hybrid approach from both on-premises and the Google Admin console.  \n  \nHow are policies configured in Chrome Enterprise Core labeled in `chrome://policy`?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Level Mandatory"
+        },
+        {
+          "letter": "B",
+          "text": "Source Platform"
+        },
+        {
+          "letter": "C",
+          "text": "Applies To Machine"
+        },
+        {
+          "letter": "D",
+          "text": "Source Cloud"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Chrome Enterprise Core policies configured through the Google Admin console are cloud policies. Chrome identifies their policy source as Cloud in `chrome://policy`; on-premises policies are identified as Platform instead.\\\n\\\n**Learn more:** [View a device's current Chrome policies](https://support.google.com/chrome/a/answer/9024365?hl=en) · [Understand Chrome policy management](https://support.google.com/chrome/a/answer/9037717?hl=en)"
+    },
+    {
+      "number": 20,
+      "domain": "Manage Chrome browser security",
+      "question": "A company deploys policies using a hybrid approach from both on-premises and the Google Admin console.  \n  \nHow are policies configured in Chrome Enterprise Core labeled in `chrome://policy`?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Require a managed browser for work related browsing, applying the policies to all browser windows"
+        },
+        {
+          "letter": "B",
+          "text": "Require a managed profile for work related browsing, applying the policies to only that profile"
+        },
+        {
+          "letter": "C",
+          "text": "Use a single managed profile for all users, configuring separate work and personal bookmarks to manage access"
+        },
+        {
+          "letter": "D",
+          "text": "Use a managed browser and set exceptions for personal use in the enterprise policies"
+        }
+      ],
+      "answer": null,
+      "explanation": "A managed Chrome profile isolates the organization-managed work account and applies the required browser policies only within that work profile. Personal profiles remain unmanaged and unaffected, preserving unrestricted personal browsing. By contrast, a managed browser can enforce policies across all profiles and browsing contexts on the device.\n\n**Learn more:** [What's the difference between a managed profile and a managed browser?](https://support.google.com/chrome/a/answer/15591684?hl=en)"
+    },
+    {
+      "number": 21,
+      "domain": "Manage Chrome browser security",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An organization has recently seen an increase in account takeovers and suspicious activity. During its investigation, a security team finds that employees are being compromised by infostealer malware designed specifically to target Chrome browser cookies. The malware is distributed through phishing emails and compromised websites, and can steal session cookies, sign-in credentials, and other sensitive data stored in the browser.  \n  \nWhich measure can an administrator use through Chrome Enterprise Core to reduce the risks from cookie theft?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Block the use of third party cookies"
+        },
+        {
+          "letter": "B",
+          "text": "Require Enhanced Safe Browsing and enable Application Bound Encryption"
+        },
+        {
+          "letter": "C",
+          "text": "Invalidate user’s sign-in cookies and token by resetting the sign-in cookies from the Google Admin console"
+        },
+        {
+          "letter": "D",
+          "text": "Disallow Chrome Sync and Require Incognito mode"
+        }
+      ],
+      "answer": null,
+      "explanation": "Application Bound Encryption binds encryption keys used for Chrome’s locally stored data to the Chrome browser on Windows, reducing the ability of unknown or hostile applications to retrieve the keys and decrypt protected browser data. Enhanced Safe Browsing checks URLs against updated unsafe-resource lists, helping block phishing and sites that host malware.\n\n**Learn more:** [Set Chrome policies for users or browsers](https://support.google.com/chrome/a/answer/2657289?hl=en) · [Safe Browsing and your data](https://support.google.com/chrome/a/answer/13616206?hl=en)"
+    },
+    {
+      "number": 22,
+      "domain": "Manage extensions and apps",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses Chrome Enterprise Core to manage Chrome browsers for employees and contractors who share devices. It needs to ensure the following:  \n  \n- Full-Time Employees (FTEs) can see and use only the extensions assigned to them.  \n- Contractors can see and use only the extensions assigned to them.  \n- Both FTEs and contractors can access a shared set of extensions.  \n  \nHow should the Chrome administrator configure Chrome Enterprise Core to accomplish this?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create Organizational Units (OUs) for Shared devices, assign shared extensions to the OU. Use Group Policy Objects to assign specific extensions by user group."
+        },
+        {
+          "letter": "B",
+          "text": "Create separate groups in the Google Admin Console for FTEs and Contractors. Assign extensions to respective groups based on their needs."
+        },
+        {
+          "letter": "C",
+          "text": "Ask users to install all the extensions they need on the shared device."
+        },
+        {
+          "letter": "D",
+          "text": "Create Organizational Units (OUs) for Shared devices, assign shared extensions to the OU. Create a separate group in the Google Admin Console for FTEs. Assign extensions to the group based on their needs."
+        }
+      ],
+      "answer": null,
+      "explanation": "Google Admin Console groups can scope Chrome extension policies to specific user accounts, allowing FTEs and contractors on shared devices to receive only their respective extensions. Extensions common to both populations can be assigned to both groups, while each group receives only its distinct extensions.\n\n**Learn more:** [Allow or block apps and extensions](https://support.google.com/chrome/a/answer/6177431?hl=en) · [Managing group-based policies](https://support.google.com/chrome/a/answer/13264197?hl=en)"
+    },
+    {
+      "number": 23,
+      "domain": "Manage Chrome browser settings and policies",
+      "question": "An organization uses Chrome browser on Windows and receives policies from Group Policy and Chrome Enterprise Core. In which order are the policies applied?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "By the precedence hierarchy"
+        },
+        {
+          "letter": "B",
+          "text": "From least restrictive to most restrictive"
+        },
+        {
+          "letter": "C",
+          "text": "Cloud policy takes precedence"
+        },
+        {
+          "letter": "D",
+          "text": "Group policy takes precedence"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Chrome resolves policies according to a configured precedence hierarchy. By default, Windows platform policies, including Group Policy, rank above machine cloud policies from Chrome Enterprise Core, but Chrome Enterprise Core can change the precedence order; therefore neither source always takes precedence.\\\n\\\n**Learn more:** [Understand Chrome policy management](https://support.google.com/chrome/a/answer/9037717)"
+    },
+    {
+      "number": 24,
+      "domain": "Manage user and device settings",
+      "question": "An organization uses Chrome browser on Windows and receives policies from Group Policy and Chrome Enterprise Core. In which order are the policies applied?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a Managed Browsers OU nested under the Users OU"
+        },
+        {
+          "letter": "B",
+          "text": "Create a Managed Browsers OU nested under the Company OU"
+        },
+        {
+          "letter": "C",
+          "text": "Create a Managed Browsers OU nested under the Employees OU"
+        },
+        {
+          "letter": "D",
+          "text": "Create a Managed Browsers OU nested under the Contractors OU"
+        }
+      ],
+      "answer": null,
+      "explanation": "Managed Chrome profiles are tied to the OU of the managed user who signs in, whereas managed browsers are enrolled into an OU through an enrollment token. A separate Managed Browsers OU immediately under the top-level Company OU separates browser/device management from the existing user hierarchy while allowing managed-profile policies to remain scoped to users.\n\n**Learn more:** [Enroll cloud-managed Chrome browsers](https://support.google.com/chrome/a/answer/9301891?hl=en) · [View Chrome browser profile details](https://support.google.com/chrome/a/answer/14707830?hl=en)"
+    },
+    {
+      "number": 25,
+      "domain": "Monitor and troubleshoot Chrome browser",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An organization has configured Chrome to update automatically. The security team runs a compliance report in Chrome Enterprise Core and sees that some infrequently used machines show an older Chrome version. However, when an engineer signs in to those PCs and checks Chrome directly, the correct updated version is shown.  \n  \nWhat is the most likely cause of this discrepancy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The auto-update feature is malfunctioning and not updating Chrome until it is launched"
+        },
+        {
+          "letter": "B",
+          "text": "The display version does not update until Chrome is launched"
+        },
+        {
+          "letter": "C",
+          "text": "The machine has a different version of Chrome installed that is not managed via auto-update"
+        },
+        {
+          "letter": "D",
+          "text": "Network setting is blocking the unattended auto-update check"
+        }
+      ],
+      "answer": null,
+      "explanation": "Chrome Enterprise Core shows the last version reported by the managed browser. Managed-browser reporting is refreshed when Chrome restarts and subsequently reports to the Admin console, so a rarely launched browser can leave the console displaying an older version even though the updater has already installed the newer version.\n\n**Learn more:** [Turn on Chrome browser and profile reporting](https://support.google.com/chrome/a/answer/9301421?hl=en) · [View Chrome browser details](https://support.google.com/chrome/a/answer/9227157?hl=en)"
+    },
+    {
+      "number": 26,
+      "domain": "Manage extensions and apps",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The Add to Chrome button will be available to click and the user can install the extension."
+        },
+        {
+          "letter": "B",
+          "text": "A blue banner that says “This item’s installation is required by your organization” will appear and the Remove from Chrome button will be grayed out."
+        },
+        {
+          "letter": "C",
+          "text": "The Remove from Chrome button will be available because the extension is already installed."
+        },
+        {
+          "letter": "D",
+          "text": "A red banner that says “Your administrator has blocked this item (ID: fninibicajhgibfnjcgnimlmdhccodfl)” will appear and the Add to Chrome button will be grayed out."
+        }
+      ],
+      "answer": null,
+      "explanation": "The extension is listed in `ExtensionInstallForcelist`, which silently installs the extension and prevents users from uninstalling or disabling it through Chrome. Its organization-required status is therefore shown, and removal is unavailable. `ExtensionInstallForcelist` supersedes the blocklist policy.\n\n**Learn more:** [ExtensionInstallForcelist: Configure the list of force-installed apps and extensions](https://chromeenterprise.google/policies/extension-install-forcelist/)"
+    },
+    {
+      "number": 27,
+      "domain": "Manage Chrome browser updates",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L36\",\"$L37\",\"$L38\",\"$L39\"]\n27:[\"$\",\"$1a\",null,{\"fallback\":[[\"$\",\"div\",\"0\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"1\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"2\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}]],\"children\":\"$L3a\"}]\n28:[\"$\",\"$L3b\",null,{\"compact\":true,\"centered\":true,\"isLoggedIn\":true,\"isSubscriber\":false,\"currentTier\":null,\"returnTo\":\"/exams/google/professional-chrome-enterprise-administrator/2\",\"sidebarModal\":true}]\n29:[\"$\",\"nav\",null,{\"className\":\"pagination-container\",\"aria-label\":\"Exam pages\",\"children\":[[\"$\",\"p\",null,{\"className\":\"pagination-info\",\"children\":[\"Page \",[\"$\",\"strong\",null,{\"children\":2}],\" of \",2,[\"$\",\"span\",null,{\"className\":\"pagination-info-sep\",\"aria-hidden\":\"true\",\"children\":\"•\"}],\"Questions \",26,\"–\",50,\" of \",50]}],[\"$\",\"div\",null,{\"className\":\"pagination-nav\",\"children\":[[\"$\",\"$L21\",null,{\"href\":\"/exams/google/professional-chrome-enterprise-administrator/1\",\"className\":\"button link back-arrow pagination-arrow\",\"aria-label\":\"Previous page\",\"rel\":\"prev\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Prev\"}]}],[\"$\",\"div\",null,{\"className\":\"pagination-numbers\",\"children\":[[\"$\",\"$L21\",\"1\",{\"href\":\"/exams/google/professional-chrome-enterprise-administrator/1\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 1\",\"children\":1}],[\"$\",\"span\",\"2\",{\"className\":\"button primary sm pagination-page is-current\",\"aria-current\":\"page\",\"children\":2}]]}],[\"$\",\"span\",null,{\"className\":\"button link arrow pagination-arrow is-disabled\",\"aria-disabled\":\"true\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Next\"}]}]]}]]}]\n2a:[\"$\",\"div\",null,{\"className\":\"contribute-cta\",\"children\":[[\"$\",\"$L3c\",null,{\"src\":\"/icons/hand-holding-heart.svg\",\"alt\":\"\",\"width\":20,\"height\":20,\"aria-hidden\":\"true\"}],[\"$\",\"span\",null,{\"className\":\"contribute-cta-text\",\"children\":[\"Know a question that should be here?\",\" \",[\"$\",\"$L21\",null,{\"href\":\"/contribute/google/professional-chrome-enterprise-administrator\",\"children\":\"Contribute to this exam\"}]]}]]}]\n2b:[\"$\",\"$L3d\",null,{}]\n3e:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n40:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n41:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n33:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n34:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n35:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3e\",null,{\"questionNumber\":26,\"questionId\":\"7e551036-1918-475c-b3b1-2b5dcc9a48bc\",\"examProvider\":\"google\",\"examName\":\"professional-chrome-enterprise-administrator\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L3f\"}]}],[\"$\",\"$L40\",null,{\"examProvider\":\"google\",\"examName\":\"professional-chrome-enterprise-administrator\",\"questionNumber\":26,\"questionId\":\"7e551036-1918-475c-b3b1-2b5dcc9a48bc\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L41\",null,{\"examProvider\":\"google\",\"examName\":\"professional-chrome-enterprise-administrator\",\"questionNumber\":26,\"questionId\":\"7e551036-1918-475c-b3b1-2b5dcc9a48bc\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/google/professional-chrome-enterprise-administrator/2\"}]}]]}]\nTo reduce risk, an organization must maintain a minimum Chrome browser version. The organization permits updates but discovers that not all browsers are within one major version of the Stable release.  \n  \nWhich policy option would help an administrator enforce automatic Chrome browser updates to the latest major Stable version?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Auto-update check period"
+        },
+        {
+          "letter": "B",
+          "text": "Rollback to target version"
+        },
+        {
+          "letter": "C",
+          "text": "Component updates"
+        },
+        {
+          "letter": "D",
+          "text": "Relaunch notification"
+        }
+      ],
+      "answer": null,
+      "explanation": "A relaunch is required to apply a pending Chrome browser update. The Relaunch notification policy can be configured to require a relaunch and force it after a defined period, ensuring that downloaded browser updates take effect. Auto-update check timing only controls when updates are checked for; component updates do not update the full browser; rollback moves browsers to an earlier target version.\n\n**Learn more:** [Notify users to restart to apply pending updates](https://support.google.com/chrome/a/answer/7679871?hl=en) · [Manage Chrome updates (Chrome Enterprise Core)](https://support.google.com/chrome/a/answer/9838774?hl=en)"
+    },
+    {
+      "number": 28,
+      "domain": "Manage Chrome browser settings and policies",
+      "question": "A company has Chrome browser settings enforced through a ChromeOS user policy. The Chrome administrator must deploy a new setting that overrides the existing ChromeOS user setting when a conflict occurs.  \n  \nWhat should the administrator use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Machine Cloud level policy"
+        },
+        {
+          "letter": "B",
+          "text": "Enterprise Default policy"
+        },
+        {
+          "letter": "C",
+          "text": "Chrome Flags"
+        },
+        {
+          "letter": "D",
+          "text": "Chrome component updates"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Machine cloud policies have higher precedence than OS-user policies in Chrome’s default policy order, so a conflicting machine-cloud setting is applied instead of the ChromeOS user-level setting.\\\n\\\n**Learn more:** [Understand Chrome policy management](https://support.google.com/chrome/a/answer/9037717)"
+    },
+    {
+      "number": 29,
+      "domain": "Monitor and troubleshoot Chrome browser",
+      "question": "A company has Chrome browser settings enforced through a ChromeOS user policy. The Chrome administrator must deploy a new setting that overrides the existing ChromeOS user setting when a conflict occurs.  \n  \nWhat should the administrator use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chromium browsers, Devices that need to be purchased, Devices that have been used by family members"
+        },
+        {
+          "letter": "B",
+          "text": "Devices that need attention, Devices that need to be purchased, Devices that have been used by family members"
+        },
+        {
+          "letter": "C",
+          "text": "Device Fleet Hardware report, Browsers that need attention, Chromium browsers"
+        },
+        {
+          "letter": "D",
+          "text": "Browsers pending updates, Browsers without activity in the past 28 days, Browsers that have been recently enrolled"
+        }
+      ],
+      "answer": null,
+      "explanation": "Chrome Insights includes the Device Fleet Hardware Report and the Browsers that need attention report. Pending updates, no activity in the past 28 days, and recent enrollment are conditions reported within the browser-attention report, not separate report types. [Google: View Chrome insights report](https://support.google.com/chrome/a/answer/10564947?hl=en)\n\n**Learn more:** [View Chrome insights report](https://support.google.com/chrome/a/answer/10564947?hl=en)"
+    },
+    {
+      "number": 30,
+      "domain": "Manage user and device settings",
+      "question": "An administrator uses Organizational Units (OUs) to apply different Chrome browser settings to different device types. The administrator must ensure that browsers are placed in the appropriate OU.  \n  \nWhich token must the administrator create and apply?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Device Management Token"
+        },
+        {
+          "letter": "B",
+          "text": "Enrollment Token"
+        },
+        {
+          "letter": "C",
+          "text": "Browser Policy Token"
+        },
+        {
+          "letter": "D",
+          "text": "Cloud Management Token"
+        }
+      ],
+      "answer": "B",
+      "explanation": "An enrollment token enrolls a Chrome browser in Chrome Browser Cloud Management and assigns it to the intended organizational unit, allowing that OU’s browser policies to apply."
+    },
+    {
+      "number": 31,
+      "domain": "Manage Chrome browser updates",
+      "question": "An administrator uses Organizational Units (OUs) to apply different Chrome browser settings to different device types. The administrator must ensure that browsers are placed in the appropriate OU.  \n  \nWhich token must the administrator create and apply?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Implement a policy in the Google Admin console to force automatic updates and recommend Chrome relaunches to apply updates within the required timeframe."
+        },
+        {
+          "letter": "B",
+          "text": "Rely on users to manually update their browsers within the required timeframe."
+        },
+        {
+          "letter": "C",
+          "text": "Disable automatic updates and manually check all managed browsers for updates every 48 hours to comply with the new security requirements."
+        },
+        {
+          "letter": "D",
+          "text": "Implement a policy in the Google Admin console to force automatic updates and ensure Chrome relaunches to apply updates within the required timeframe."
+        }
+      ],
+      "answer": null,
+      "explanation": "Chrome updates are not fully applied until the browser relaunches. Enterprise policy can enable automatic updating and require a Chrome relaunch at the end of a configured notification period; setting that period within 48 hours ensures pending security updates are applied within the required timeframe. A relaunch recommendation alone does not ensure compliance.\n\n**Learn more:** [Relaunch Notification Period](https://chromeenterprise.google/intl/en_uk/policies/relaunch-notification-period/) · [Relaunch Window](https://chromeenterprise.google/intl/en_uk/policies/relaunch-window/)"
+    },
+    {
+      "number": 32,
+      "domain": "Manage Chrome browser updates",
+      "question": "An administrator discovers that the next major Chrome release, Chrome 130, has a problem with one of the organization’s critical business applications. The company’s Chrome browsers are currently running version 129.0.6568.91. The administrator must stop browsers from updating to Chrome 130 while still allowing updates within the Chrome 129 major version.  \n  \nWhich target version prefix should the administrator configure in the updates setting to accomplish this?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "129(.+)"
+        },
+        {
+          "letter": "B",
+          "text": "129."
+        },
+        {
+          "letter": "C",
+          "text": "129.0."
+        },
+        {
+          "letter": "D",
+          "text": "129.*.*.*"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A target version prefix of `129.` pins Chrome to the highest available release in major version 129. The trailing period denotes the major-version prefix, allowing security and maintenance updates within version 129 while excluding version 130.\\\n\\\n**Learn more:** [Manage Chrome updates (Chrome Enterprise Core)](https://support.google.com/chrome/a/answer/9838774?hl=en)"
+    },
+    {
+      "number": 33,
+      "domain": "Manage Chrome browser updates",
+      "question": "An administrator discovers that the next major Chrome release, Chrome 130, has a problem with one of the organization’s critical business applications. The company’s Chrome browsers are currently running version 129.0.6568.91. The administrator must stop browsers from updating to Chrome 130 while still allowing updates within the Chrome 129 major version.  \n  \nWhich target version prefix should the administrator configure in the updates setting to accomplish this?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chrome browser updates"
+        },
+        {
+          "letter": "B",
+          "text": "Relaunch notification"
+        },
+        {
+          "letter": "C",
+          "text": "Google updater policy precedence"
+        },
+        {
+          "letter": "D",
+          "text": "Auto-update check period"
+        }
+      ],
+      "answer": null,
+      "explanation": "The Relaunch notification policy can require users to relaunch Chrome within a configured period so that pending updates are applied. A forced relaunch after that period directly helps bring browsers onto the patched version and meet patching SLAs.\n\n**Learn more:** [Notify users to restart to apply pending updates](https://support.google.com/chrome/a/answer/7679871?hl=en)"
+    },
+    {
+      "number": 34,
+      "domain": "Manage extensions and apps",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Company A relies on an extension that is critical to business operations. The company currently pins the extension version. It received an updated version of the extension that provides new functionality. The Chrome administrator observes that the new version now requests all available permissions, whereas the earlier version requested only four permissions.  \n  \nWhich action should the Chrome administrator recommend to address this security concern?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use the extension’s blocked hosts list to block access to risky websites."
+        },
+        {
+          "letter": "B",
+          "text": "Block the extension until a new version is available that requires fewer permissions."
+        },
+        {
+          "letter": "C",
+          "text": "Customize permissions for the extension to match the permissions of the previous version."
+        },
+        {
+          "letter": "D",
+          "text": "Continue using version pining until the company contacts the developer for more information on the code change."
+        }
+      ],
+      "answer": null,
+      "explanation": "Chrome Enterprise can block extensions that request permissions the organization does not allow. When an extension requires a blocked permission, it cannot be installed or run; therefore, an extension whose updated version requests an excessive set of permissions should remain blocked until a version with an acceptable permission set is available. Required extension permissions cannot simply be reduced by an administrator to reproduce the prior version’s permission set.\n\n**Learn more:** [Configure ExtensionSettings policy](https://support.google.com/chrome/a/answer/9867568?hl=en) · [Allow or block apps and extensions](https://support.google.com/chrome/a/answer/6177431?hl=en)"
+    },
+    {
+      "number": 35,
+      "domain": "Manage Chrome browser settings and policies",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A Chrome administrator uses both Cloud policies and Local policies to configure Chrome browsers. The administrator wants Cloud policies to take precedence on Windows computers when Cloud and Local policies conflict.  \n  \nWhich Registry value can be created under `HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Google\\Chrome` to accomplish this?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "“Value: LocalPolicyOverride Type: REG_DWORD Data: 0”"
+        },
+        {
+          "letter": "B",
+          "text": "“Value: PolicyOverridePreference Type: REG_SZ Data: Cloud”"
+        },
+        {
+          "letter": "C",
+          "text": "“Value: CloudPolicyOverridesPlatformPolicy Type: REG_DWORD Data: 1”"
+        },
+        {
+          "letter": "D",
+          "text": "“Value: PolicySupercedence Type: REG_SZ Data: Cloud”"
+        }
+      ],
+      "answer": null,
+      "explanation": "Enabling the `CloudPolicyOverridesPlatformPolicy` policy makes cloud machine policies take precedence over conflicting platform (local) machine policies. On Windows, it is a Boolean `REG_DWORD`; a value of `1` enables it.\n\n**Learn more:** [Cloud Policy Overrides Platform Policy](https://chromeenterprise.google/policies/cloud-policy-overrides-platform-policy/)"
+    },
+    {
+      "number": 36,
+      "domain": "Manage extensions and apps",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],The cyber risk team is reviewing software permissions. It needs an export of every installed browser extension that has a medium or high risk score and more than five permissions.  \n  \nWhere in the Google Admin console can an administrator generate this list?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chrome Browser -> Reports -> Apps & extensions usage"
+        },
+        {
+          "letter": "B",
+          "text": "Reporting -> Audit and Investigation -> Chrome Insights Report"
+        },
+        {
+          "letter": "C",
+          "text": "Chrome Browser -> Apps & Extensions -> All Browsers"
+        },
+        {
+          "letter": "D",
+          "text": "Chrome Browser -> Managed Browser -> All Browsers"
+        }
+      ],
+      "answer": null,
+      "explanation": "The **Apps & extensions usage** report provides details for installed extensions, including third-party risk assessment and the number of requested permissions, and it supports exporting the report as a CSV. This makes it the appropriate location for filtering extensions by medium/high risk and more than five permissions before exporting.\n\n**Learn more:** [View app and extension usage details](https://support.google.com/chrome/a/answer/9902456?hl=en)"
+    },
+    {
+      "number": 37,
+      "domain": "Monitor and troubleshoot Chrome browser",
+      "question": "When a cloud-managed Chrome browser visits a potentially risky website, under which event type is the activity logged in the Audit and Investigation Report?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SSL Error"
+        },
+        {
+          "letter": "B",
+          "text": "Site Warning"
+        },
+        {
+          "letter": "C",
+          "text": "Unsafe Site Visit"
+        },
+        {
+          "letter": "D",
+          "text": "Untrusted Site Visit"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Chrome log events record an **Unsafe site visit** when a user visits a URL considered deceptive or malicious. This event applies to managed Chrome browsers and is available in the Audit and investigation tool.\\\n\\\n**Learn more:** [Chrome log events](https://support.google.com/a/answer/9393909?hl=en-EN) · [Chrome log events—Events and attributes](https://support.google.com/chrome/a/table/13465257?hl=en)"
+    },
+    {
+      "number": 38,
+      "domain": "Manage extensions and apps",
+      "question": "When a cloud-managed Chrome browser visits a potentially risky website, under which event type is the activity logged in the Audit and Investigation Report?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chrome Webstore: Block all apps, admin manages allowlist: Block extensions by permission: Sync File System"
+        },
+        {
+          "letter": "B",
+          "text": "Chrome Webstore: Allow all apps, admin manages blocklist Runtime Blocked Hosts: file://*"
+        },
+        {
+          "letter": "C",
+          "text": "Chrome Webstore: Allow all apps, admin manages blocklist Block extensions by permission: File System"
+        },
+        {
+          "letter": "D",
+          "text": "Chrome Webstore: Allow all apps, admin manages blocklist Runtime Blocked Hosts: C:\\"
+        }
+      ],
+      "answer": null,
+      "explanation": "Chrome Web Store’s **Allow all apps, admin manages blocklist** setting lets users install extensions except those prohibited by policy. Blocking extensions by the **File System** permission prevents installation of extensions that request that local-file capability. Chrome Enterprise documents that blocked permissions prevent users from installing or running extensions that request those permissions.\n\n**Learn more:** [Allow or block apps and extensions](https://support.google.com/chrome/a/answer/6177431?hl=en) · [Configure ExtensionSettings policy](https://support.google.com/chrome/a/answer/9867568?hl=en)"
+    },
+    {
+      "number": 39,
+      "domain": "Manage Chrome browser updates",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"google\",\"data-exam\":\"professional-chrome-enterprise-administrator\",\"data-q\":38,\"data-question-id\":\"fde1cbb9-0364-4c93-b66f-0ae529763af5\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],\"$L81\"]}],\"$L82\"]}]]}]]}],\"$L83\"]}],\"$L84\"]}]\nThe security team needs Chrome updated on computers that have intranet-only access and no internet connectivity. The computers cannot be restarted, and Chrome is not updating.  \n  \nHow can Chrome be updated?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Run auto-update."
+        },
+        {
+          "letter": "B",
+          "text": "Use a target version."
+        },
+        {
+          "letter": "C",
+          "text": "Use force relaunch after period."
+        },
+        {
+          "letter": "D",
+          "text": "Run the Chrome installer."
+        }
+      ],
+      "answer": null,
+      "explanation": "A current Chrome installer can be transferred to an intranet-only computer and run locally. Chrome’s Enterprise MSI updates an existing Chrome installation for all users when the installer version is the same as or newer than the installed version; offline installation does not require an internet connection. Auto-update requires access to an update source, target-version settings only govern the version requested by the update mechanism, and force relaunch requires Chrome to restart.\n\n**Learn more:** [Manage Chrome updates (Windows)](https://support.google.com/chrome/a/answer/6350036) · [Download installer](https://support.google.com/chrome/a/answer/9020580?hl=en)"
+    },
+    {
+      "number": 40,
+      "domain": "Manage Chrome browser updates",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An IT administrator supports a large organization that uses the Chrome browser on multiple platforms, including Windows, macOS, and Linux. The organization has varied user needs and different risk levels across departments, so the administrator must identify the most efficient way to manage Chrome updates throughout the organization.  \n  \nWhy is managing Chrome update policies through the Google Admin console advantageous over using the Group Policy Management Console (GPMC)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The Google Admin console does not allow administrators to view the browser version of any given managed device as Group Policy does."
+        },
+        {
+          "letter": "B",
+          "text": "Group Policy does not support Chrome update policies."
+        },
+        {
+          "letter": "C",
+          "text": "The Google Admin console is only applicable to devices with ChromeOS, making it more secure."
+        },
+        {
+          "letter": "D",
+          "text": "Group Policy does not support platforms other than Windows."
+        }
+      ],
+      "answer": null,
+      "explanation": "The Google Admin console can centrally manage Chrome browser policies across Windows, macOS, and Linux, whereas Windows Group Policy is a Windows-specific management mechanism. Chrome update policies are supported in Group Policy for Windows, but GPMC does not extend that management method to macOS or Linux.\n\n**Learn more:** [Start managing Chrome browser](https://support.google.com/chrome/a/answer/188446?hl=en) · [Manage Chrome updates (Windows)](https://support.google.com/chrome/a/answer/6350036?rd=1)"
+    },
+    {
+      "number": 41,
+      "domain": "Manage Chrome browser updates",
+      "question": "What percentage of Chrome users is recommended to use the Beta channel before general availability?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10%"
+        },
+        {
+          "letter": "B",
+          "text": "2%"
+        },
+        {
+          "letter": "C",
+          "text": "1%"
+        },
+        {
+          "letter": "D",
+          "text": "5%"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Google recommends keeping 5% of users on the Chrome Beta channel so they can preview upcoming Stable-channel changes and identify potential release issues before the wider rollout.\\\n\\\n**Learn more:** [Chrome browser release channels](https://support.google.com/chrome/a/answer/9027636?hl=en)"
+    },
+    {
+      "number": 42,
+      "domain": "Manage Chrome browser settings and policies",
+      "question": "What percentage of Chrome users is recommended to use the Beta channel before general availability?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Restart the computer to apply the policy changes"
+        },
+        {
+          "letter": "B",
+          "text": "Adjust the policy merge list setting"
+        },
+        {
+          "letter": "C",
+          "text": "Check and configure the precedence order"
+        },
+        {
+          "letter": "D",
+          "text": "Re-enroll the Chrome browser to reset the policy"
+        }
+      ],
+      "answer": null,
+      "explanation": "Chrome platform policies delivered through Group Policy have higher default precedence than machine cloud policies from Chrome Enterprise Core. Configuring the policy precedence order allows the cloud policy to override the legacy platform policy. Policy merging is limited to supported list and dictionary policies and is not the general remedy for this precedence conflict.\n\n**Learn more:** [Understand Chrome policy management](https://support.google.com/chrome/a/answer/9037717) · [Set Chrome policies for users or browsers](https://support.google.com/chrome/a/answer/2657289)"
+    },
+    {
+      "number": 43,
+      "domain": "Monitor and troubleshoot Chrome browser",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A Chrome administrator observes that a Chrome browser is checking in with the Google Admin console but has not received a newly deployed cloud computer policy setting. During the investigation, the administrator deletes the Chrome browser from the Google Admin console.  \n  \nWhat action can be taken to re-enroll the browser in the Google Admin console?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Delete the device management token from the device and relaunch Chrome"
+        },
+        {
+          "letter": "B",
+          "text": "Delete the enrollment token from the device and relaunch Chrome"
+        },
+        {
+          "letter": "C",
+          "text": "Delete the Chrome Policies from the device and reboot"
+        },
+        {
+          "letter": "D",
+          "text": "Delete the Chrome Browser Cache and sign back in to Chrome"
+        }
+      ],
+      "answer": null,
+      "explanation": "A deleted cloud-managed browser can re-enroll when its device-management token is removed while its valid enrollment token remains in place. On the next Chrome launch, the browser performs enrollment again. Google specifically cautions against deleting the enrollment token for this procedure.\n\n**Learn more:** [Enroll cloud-managed Chrome browsers](https://support.google.com/chrome/a/answer/9301891?hl=en)"
+    },
+    {
+      "number": 44,
+      "domain": "Manage Chrome browser security",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An organization depends heavily on the Chrome browser for its daily operations. News reports reveal two critical hardware vulnerabilities. They could allow attackers to access sensitive data held in the browser’s memory, including across different websites and processes.  \n  \nWhich specific Chrome Enterprise Core policy should an administrator implement to help mitigate these risks?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Require Site Isolation for every site"
+        },
+        {
+          "letter": "B",
+          "text": "Update devices to the latest firmware versions"
+        },
+        {
+          "letter": "C",
+          "text": "Manage Chrome Extensions by blocking all and setting an allowlist"
+        },
+        {
+          "letter": "D",
+          "text": "Enforce timely Chrome browser updates"
+        }
+      ],
+      "answer": null,
+      "explanation": "Chrome’s `SitePerProcess` policy requires Site Isolation for all websites. Site Isolation runs each site in its own process, helping limit cross-site access to browser-memory data associated with hardware side-channel vulnerabilities.\n\n**Learn more:** [SitePerProcess: Require Site Isolation for every site](https://chromeenterprise.google/intl/en_au/policies/site-per-process/)"
+    },
+    {
+      "number": 45,
+      "domain": "Monitor and troubleshoot Chrome browser",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A user reports frequent problems accessing corporate pages and signing in to corporate applications. After reviewing user reports, it is found that other users have experienced similar problems over the past few months.  \n  \nWhile a broader investigation is initiated to identify and resolve the root cause, which Google Admin remote actions for managed Chrome browsers can be used to help alleviate these issues for the user?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clear Cache; Clear Cookies; Clear Cache and Cookies"
+        },
+        {
+          "letter": "B",
+          "text": "Clear Cookies; Restart Browser; Logout User"
+        },
+        {
+          "letter": "C",
+          "text": "Clear Cache and Cookies; Delete Temporary Files; Restart User Session"
+        },
+        {
+          "letter": "D",
+          "text": "Clear Cache; Delete Temporary Files; Delete Swap File"
+        }
+      ],
+      "answer": null,
+      "explanation": "Google Admin remote commands for managed Chrome browsers can clear the browser cache, clear cookies except Google Services cookies, or clear both cache and cookies. These actions can remediate page-access and sign-in problems caused by stale cached content or cookies; restarting browsers, logging out users, and deleting operating-system files are not available remote commands for managed browsers.\n\n**Learn more:** [Use remote commands for Chrome browser](https://support.google.com/chrome/a/answer/10254282?hl=en)"
+    },
+    {
+      "number": 46,
+      "domain": "Manage user and device settings",
+      "question": "An end user is returning after an extended leave of absence and discovers that their browser is no longer active. The administrator is unsure whether the inactivity policy was violated.  \n  \nWhat is the minimum action required to re-enroll this browser?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Verify the policy has been violated and then wipe the browser"
+        },
+        {
+          "letter": "B",
+          "text": "Close and reopen Chrome"
+        },
+        {
+          "letter": "C",
+          "text": "Delete the device management token and reopen Chrome"
+        },
+        {
+          "letter": "D",
+          "text": "Delete the browser from CEC and reopen Chrome"
+        }
+      ],
+      "answer": "C",
+      "explanation": "For a Chrome browser that has become unmanaged after inactivity, the device-management token is invalid. Deleting the device token while retaining a valid enrollment token lets Chrome automatically re-enroll when it restarts; the enrollment token itself should not be deleted.\\\n\\\n**Learn more:** [Enroll cloud-managed Chrome browsers](https://support.google.com/chrome/a/answer/9301891?hl=en)"
+    },
+    {
+      "number": 47,
+      "domain": "Manage Chrome browser updates",
+      "question": "Users in the organization report that browsers force a restart after a new update is downloaded, interrupting their workday.  \n  \nWhat could an engineer do to improve the experience while maintaining security?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Change Chrome browser updates to only occur when a user checks."
+        },
+        {
+          "letter": "B",
+          "text": "Add a quiet period to the Relaunch notification."
+        },
+        {
+          "letter": "C",
+          "text": "Set the auto-update check policy to occur during core work hours."
+        },
+        {
+          "letter": "D",
+          "text": "Create a relaunch window in Relaunch notification."
+        }
+      ],
+      "answer": "D",
+      "explanation": "Chrome Enterprise’s RelaunchWindow policy sets a target interval for the end of a required-relaunch notification period. This can defer a forced relaunch into a non-working-hours window while keeping the required update and relaunch enforcement in place.\\\n\\\n**Learn more:** [Chrome Enterprise: Relaunch Window policy](https://chromeenterprise.google/intl/en_uk/policies/relaunch-window/)"
+    },
+    {
+      "number": 48,
+      "domain": "Manage extensions and apps",
+      "question": "Users in the organization report that browsers force a restart after a new update is downloaded, interrupting their workday.  \n  \nWhat could an engineer do to improve the experience while maintaining security?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Set permission policy in the Google Admin console to block such extensions."
+        },
+        {
+          "letter": "B",
+          "text": "Remotely connect to each device and delete the extension from the browser."
+        },
+        {
+          "letter": "C",
+          "text": "Set policy in the Google Admin console to block all extensions from being installed on the browser."
+        },
+        {
+          "letter": "D",
+          "text": "Send an email to the users notifying them that they must uninstall the detected extensions."
+        }
+      ],
+      "answer": null,
+      "explanation": "Chrome Enterprise administrators can use the Google Admin console’s app and extension permission settings to prevent extensions that request prohibited permissions from being installed or run. Blocking the proxy-related permission enforces the stated policy without blocking all extensions.\n\n**Learn more:** [Allow or block apps and extensions](https://support.google.com/chrome/a/answer/6177431?hl=en) · [Chrome app and extension permissions](https://support.google.com/chrome/a/answer/7515036?hl=en)"
+    },
+    {
+      "number": 49,
+      "domain": "Manage Chrome browser security",
+      "question": "Which of the following is a security event captured by Google Chrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Unauthorized file downloads"
+        },
+        {
+          "letter": "B",
+          "text": "Password complexity"
+        },
+        {
+          "letter": "C",
+          "text": "User inactivity"
+        },
+        {
+          "letter": "D",
+          "text": "Malware detection"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Chrome’s managed-browser security event reporting includes malware-related threat events, such as Malware Transfer, when uploaded or downloaded content is considered malicious, dangerous, or unwanted.\\\n\\\n**Learn more:** [Chrome log events](https://support.google.com/a/answer/9393909?hl=en-EN) · [Manage Chrome Enterprise reporting connectors](https://support.google.com/chrome/a/answer/11375053?hl=en)"
+    },
+    {
+      "number": 50,
+      "domain": "Manage user and device settings",
+      "question": "Where can details about every profile associated with a browser be found?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chrome log events"
+        },
+        {
+          "letter": "B",
+          "text": "Managed devices"
+        },
+        {
+          "letter": "C",
+          "text": "Chrome Insights report"
+        },
+        {
+          "letter": "D",
+          "text": "Managed browsers detail"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The Managed browsers detail page contains a Browsers & profiles section that lists the profiles configured for a browser and provides information for each installed profile, such as profile name, signed-in user, directory, reporting time, policies, and extensions.\\\n\\\n**Learn more:** [View Chrome browser details](https://support.google.com/chrome/a/answer/9227157?hl=en)"
+    }
+  ]
+}

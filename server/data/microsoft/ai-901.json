@@ -1,0 +1,562 @@
+{
+  "provider": "microsoft",
+  "slug": "ai-901",
+  "fullSlug": "microsoft/ai-901",
+  "title": "Copy link to this question",
+  "totalQuestions": 52,
+  "totalPages": 2,
+  "crawledPages": 3,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Implement AI solutions by using Microsoft Foundry",
+      "question": "You need to transform written customer notifications into natural-sounding spoken audio for playback through a phone system.  \n  \nWhich Azure Speech in Foundry Tools capability should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "speech recognition"
+        },
+        {
+          "letter": "B",
+          "text": "speech synthesis"
+        },
+        {
+          "letter": "C",
+          "text": "speaker recognition"
+        },
+        {
+          "letter": "D",
+          "text": "speech translation"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Speech synthesis, also called text to speech, converts written text into human-like synthesized spoken audio, including for application and phone-system playback.\\\n\\\n**Learn more:** [Text to speech overview - Speech service - Foundry Tools](https://learn.microsoft.com/en-us/azure/ai-services/Speech-Service/text-to-speech)"
+    },
+    {
+      "number": 2,
+      "domain": "Implement AI solutions by using Microsoft Foundry",
+      "question": "You have a Microsoft Foundry project containing a vision-enabled model deployment.  \n  \nYou use the Azure OpenAI Responses API to send a prompt to the model. You need to supply an image for analysis.  \n  \nWhich content item should be included in the request?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "image_generation"
+        },
+        {
+          "letter": "B",
+          "text": "output_image"
+        },
+        {
+          "letter": "C",
+          "text": "input_image"
+        },
+        {
+          "letter": "D",
+          "text": "image_base64"
+        }
+      ],
+      "answer": "C",
+      "explanation": "For a vision-enabled model, the Azure OpenAI Responses API uses an `input_image` content item to provide an image for analysis. Its `image_url` field can contain either an image URL or a Base64-encoded image as a data URL.\\\n\\\n**Learn more:** [Use the Azure OpenAI Responses API](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/responses) · [Microsoft Foundry REST Reference – Azure OpenAI Responses](https://learn.microsoft.com/en-us/rest/api/microsoft-foundry/azureopenai/responses)"
+    },
+    {
+      "number": 3,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "You are building an application that analyzes voicemail recordings by using Azure Content Understanding in Foundry Tools.  \n  \nYou need to extract a transcript and structured data from the recordings.  \n  \nWhich analyzer type should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "document analyzer"
+        },
+        {
+          "letter": "B",
+          "text": "video analyzer"
+        },
+        {
+          "letter": "C",
+          "text": "audio analyzer"
+        },
+        {
+          "letter": "D",
+          "text": "image analyzer"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Audio analyzers in Azure Content Understanding transcribe conversational audio and extract structured fields from audio files, making them suitable for voicemail recordings.\\\n\\\n**Learn more:** [Azure Content Understanding in Foundry Tools audio overview](https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/audio/overview)"
+    },
+    {
+      "number": 4,
+      "domain": "Implement AI solutions by using Microsoft Foundry",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L52\",\"$L53\",\"$L54\",\"$L55\",\"$L56\",\"$L57\",\"$L58\",\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\"]\n4f:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n50:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n51:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L36\",null,{\"questionNumber\":6,\"questionId\":\"0697eee7-5f0a-40ea-8840-d151c755741d\",\"examProvider\":\"microsoft\",\"examName\":\"ai-901\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L65\"}]}],[\"$\",\"$L38\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-901\",\"questionNumber\":6,\"questionId\":\"0697eee7-5f0a-40ea-8840-d151c755741d\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L39\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-901\",\"questionNumber\":6,\"questionId\":\"0697eee7-5f0a-40ea-8840-d151c755741d\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-901/1\"}]}]]}]\nWhat are two purposes of instructions when you prompt a generative AI model? Each correct answer represents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "defines the agent’s role and behavior"
+        },
+        {
+          "letter": "B",
+          "text": "selects which model to use"
+        },
+        {
+          "letter": "C",
+          "text": "defines the Azure region where inference occurs"
+        },
+        {
+          "letter": "D",
+          "text": "defines the tokens per minute (TPM) allocation for the model"
+        },
+        {
+          "letter": "E",
+          "text": "defines constraints on the model’s responses"
+        }
+      ],
+      "answer": null,
+      "explanation": "Prompt instructions provide persistent guidance for an assistant’s role, behavior, and boundaries, and they can specify constraints that control or limit its responses. Model choice, Azure inference region, and tokens-per-minute allocation are configured outside the prompt.\n\n**Learn more:** [System message design for Azure OpenAI](https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/advanced-prompt-engineering?view=foundry-classic) · [Write effective prompts for agents in Microsoft Discovery](https://learn.microsoft.com/en-us/azure/microsoft-discovery/how-to-prompt-engineering)"
+    },
+    {
+      "number": 5,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "You have a Microsoft Foundry project with a generative AI model deployment.  \n  \nYou need to ensure that responses generated by the model minimize costs and stay within a defined length.  \n  \nWhich parameter should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Top P"
+        },
+        {
+          "letter": "B",
+          "text": "Temperature"
+        },
+        {
+          "letter": "C",
+          "text": "Max Completion Tokens"
+        },
+        {
+          "letter": "D",
+          "text": "Model version settings"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Max Completion Tokens sets an upper bound on the tokens generated for a completion, including visible output and reasoning tokens. Limiting generated tokens constrains response length and helps control token-based generation costs.\\\n\\\n**Learn more:** [Azure OpenAI in Microsoft Foundry Models REST API reference](https://learn.microsoft.com/en-us/azure/foundry/openai/reference)"
+    },
+    {
+      "number": 6,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "You have a Microsoft Foundry project with a generative AI model deployment.  \n  \nYou need to ensure that responses generated by the model minimize costs and stay within a defined length.  \n  \nWhich parameter should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a system message that includes both a text item and an image item in the content array"
+        },
+        {
+          "letter": "B",
+          "text": "a system message that includes only a text item and sends an image item in a separate request"
+        },
+        {
+          "letter": "C",
+          "text": "a user message that includes only a text item and sends an image item in a separate request"
+        },
+        {
+          "letter": "D",
+          "text": "a user message that includes both a text item and an image item in the content array"
+        }
+      ],
+      "answer": null,
+      "explanation": "A vision-enabled chat request can place text and an image URL together as typed content items in a user message’s content array. Combining them in one request avoids the additional round trip required when the image is sent separately, minimizing response time. System messages provide model instructions; the text-and-image input belongs in the user message.\n\n**Learn more:** [Use image and audio in chat completions with Microsoft Foundry models](https://learn.microsoft.com/pt-pt/azure/ai-foundry/foundry-models/how-to/use-chat-multi-modal?view=foundry-classic)"
+    },
+    {
+      "number": 7,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "You have a Microsoft Foundry project that includes a generative AI model deployment.  \n  \nYou test the model by using the Foundry playground.  \n  \nYou need to build an application that submits requests to the deployed model.  \n  \nWhich information must the application include to call the model?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The exported playground session history"
+        },
+        {
+          "letter": "B",
+          "text": "The model training dataset"
+        },
+        {
+          "letter": "C",
+          "text": "The Foundry project display name"
+        },
+        {
+          "letter": "D",
+          "text": "The model endpoint and authentication credentials"
+        }
+      ],
+      "answer": "D",
+      "explanation": "An application calls a deployed model by sending an authenticated inference request to the deployment’s endpoint. Authentication credentials authorize that request; playground history, the training data, and the project display name do not provide the required invocation target and authorization.\\\n\\\n**Learn more:** [Azure AI Foundry Models inference API reference](https://learn.microsoft.com/en-us/azure/ai-foundry/model-inference/reference/reference)"
+    },
+    {
+      "number": 8,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "Select the answer that correctly finishes the sentence.\n\n<Dropdown\n  blanks={[{\"id\":\"principle\",\"options\":[\"accountability\",\"fairness\",\"privacy and security\",\"transparency\"],\"answer\":\"accountability\"}]}\n  template={\"Ensuring that human reviewers oversee AI-generated decisions and remain responsible for the final output is an example of the Microsoft responsible AI principle of {{principle}}.\"}\n  templateMode={\"prose\"}\n  explanation={\"Accountability means people and organizations remain responsible for AI systems and their outcomes, including appropriate human oversight of AI-generated decisions.\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],Your company stores thousands of recorded customer-support calls in multiple languages as audio files in Azure Storage.  \n  \nYou need to create text transcripts for all of the recordings.  \n  \nWhich Azure Speech in Foundry Tools capability should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "speech to text batch transcription"
+        },
+        {
+          "letter": "B",
+          "text": "speech to text real-time transcription"
+        },
+        {
+          "letter": "C",
+          "text": "text to speech"
+        },
+        {
+          "letter": "D",
+          "text": "speech translation"
+        }
+      ],
+      "answer": null,
+      "explanation": "Speech to text batch transcription is intended for large volumes of audio data held in storage. It can process multiple files or an Azure Blob Storage container, making it suitable for thousands of previously recorded calls.\n\n**Learn more:** [Batch transcription overview - Speech service - Foundry Tools](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/batch-transcription) · [Locate audio files for batch transcription - Speech service - Foundry Tools](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/batch-transcription-audio-data)"
+    },
+    {
+      "number": 9,
+      "domain": "Implement AI solutions by using Microsoft Foundry",
+      "question": "You need to create an AI agent in Microsoft Foundry that adheres to a specific role and behavior when responding to users.  \n  \nWhat should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "system instructions"
+        },
+        {
+          "letter": "B",
+          "text": "temperature"
+        },
+        {
+          "letter": "C",
+          "text": "tokens per minute (TPM)"
+        },
+        {
+          "letter": "D",
+          "text": "max completion tokens"
+        }
+      ],
+      "answer": "A",
+      "explanation": "System instructions define an AI agent’s goals, constraints, role, and expected behavior. Temperature controls output randomness, tokens per minute is a capacity limit, and maximum completion tokens controls the maximum response length. Microsoft Foundry identifies instructions as the component that defines an agent’s goals, constraints, and behavior.\\\n\\\n**Learn more:** [What is Microsoft Foundry Agent Service?](https://learn.microsoft.com/en-us/azure/foundry/agents/overview)"
+    },
+    {
+      "number": 10,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "You need to compare the costs of large language models (LLMs) for a generative AI solution.  \n  \nWhat should you use in the Microsoft Foundry portal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Compliance"
+        },
+        {
+          "letter": "B",
+          "text": "Evaluator catalog"
+        },
+        {
+          "letter": "C",
+          "text": "Tools"
+        },
+        {
+          "letter": "D",
+          "text": "Model leaderboard"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The Model leaderboard compares models by estimated cost, along with quality, safety, and throughput. It supports cost benchmarking and side-by-side comparison of LLMs for model selection.\\\n\\\n**Learn more:** [Compare models using the model leaderboard — Microsoft Learn](https://learn.microsoft.com/en-us/azure/foundry/how-to/benchmark-model-in-catalog) · [Model benchmarks and leaderboards in Microsoft Foundry — Microsoft Learn](https://learn.microsoft.com/en-us/azure/foundry/concepts/model-benchmarks)"
+    },
+    {
+      "number": 11,
+      "domain": "Implement AI solutions by using Microsoft Foundry",
+      "question": "You have an Azure subscription.  \n  \nYou need to use Azure Content Understanding in Foundry Tools to extract structured information from invoices.  \n  \nWhat should you provision?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A Microsoft Foundry project"
+        },
+        {
+          "letter": "B",
+          "text": "an Azure OpenAI resource"
+        },
+        {
+          "letter": "C",
+          "text": "a Microsoft Foundry resource"
+        },
+        {
+          "letter": "D",
+          "text": "an Azure AI Search service"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Azure Content Understanding in Foundry Tools is available through a Microsoft Foundry resource and can extract schema-defined structured data from documents such as invoices.\\\n\\\n**Learn more:** [Create a Microsoft Foundry resource](https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/how-to/create-multi-service-resource) · [What is Azure Content Understanding in Foundry Tools?](https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/overview)"
+    },
+    {
+      "number": 12,
+      "domain": "Implement AI solutions by using Microsoft Foundry",
+      "question": "You have a Microsoft Foundry project that includes a vision-enabled chat model deployment.  \n  \nYou are developing a Python application that sends a request with a user prompt and a local JPEG image.  \n  \nYou need to include the image as binary data in the request. What should the `image_url.ur1` field be set to?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "data:image/jpeg;base64,<binary_image_data>"
+        },
+        {
+          "letter": "B",
+          "text": "file:///C:/images/photo.jpg"
+        },
+        {
+          "letter": "C",
+          "text": "C:\\\\images\\\\photo.jpg"
+        },
+        {
+          "letter": "D",
+          "text": "https://<your-storage-account>.blob.core.windows.net/<container>/<file>.jpg"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A local JPEG must be encoded as Base64 and supplied as a data URL using the `data:image/jpeg;base64,` prefix. This embeds the image data directly in the request payload; local file paths are not service-accessible URLs.\\\n\\\n**Learn more:** [How to use vision-enabled chat models - Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/gpt-with-vision)"
+    },
+    {
+      "number": 13,
+      "domain": "Implement AI solutions by using Microsoft Foundry",
+      "question": "You have a Microsoft Foundry project that includes a vision-enabled chat model deployment.  \n  \nYou are developing a Python application that sends a request with a user prompt and a local JPEG image.  \n  \nYou need to include the image as binary data in the request. What should the `image_url.ur1` field be set to?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AudioOutputConfig"
+        },
+        {
+          "letter": "B",
+          "text": "SpeechSynthesizer"
+        },
+        {
+          "letter": "C",
+          "text": "AudioConfig"
+        },
+        {
+          "letter": "D",
+          "text": "SpeechConfig"
+        }
+      ],
+      "answer": null,
+      "explanation": "`SpeechConfig` configures access to the Azure Speech service by supplying connection and authentication details such as the subscription key plus region or endpoint. `AudioConfig` and `AudioOutputConfig` configure audio sources or destinations, and `SpeechSynthesizer` consumes the service configuration to synthesize speech.\n\n**Learn more:** [How to recognize speech - Speech service](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-recognize-speech) · [SpeechConfig class (Azure Speech SDK for Python)](https://learn.microsoft.com/en-us/python/api/azure-cognitiveservices-speech/azure.cognitiveservices.speech.speechconfig?view=azure-python)"
+    },
+    {
+      "number": 26,
+      "domain": "Implement AI solutions by using Microsoft Foundry",
+      "question": "You have a Microsoft Foundry project that includes an agent named Agent1.  \n  \nYou need to ensure that Agent1 always invokes an Azure function when it responds to user input.  \n  \nWhat should you set `tool_choice` to for Agent1?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "required"
+        },
+        {
+          "letter": "B",
+          "text": "auto"
+        },
+        {
+          "letter": "C",
+          "text": "none"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Setting `tool_choice` to `required` requires the model to call one or more configured tools. `auto` permits the model to answer without a tool call, and `none` prevents tool calls. [Microsoft Foundry Agent Service tool best practices](https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/tool-best-practice)\\\n\\\n**Learn more:** [Tool best practices for Microsoft Foundry Agent Service](https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/tool-best-practice)"
+    },
+    {
+      "number": 27,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "You are building an application that processes voicemail recordings by using Azure Content Understanding in Foundry Tools.  \n  \nWhich Azure Content Understanding feature converts audio into text?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "key phrase extraction"
+        },
+        {
+          "letter": "B",
+          "text": "transcription"
+        },
+        {
+          "letter": "C",
+          "text": "Voice Live"
+        },
+        {
+          "letter": "D",
+          "text": "optical character recognition (OCR)"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Azure Content Understanding audio analyzers use transcription to convert conversational audio into searchable, analyzable text-based transcripts. Key phrase extraction analyzes existing text, OCR extracts text from visual content, and Voice Live is not the audio-to-text conversion feature.\\\n\\\n**Learn more:** [Azure Content Understanding in Foundry Tools audio solutions](https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/audio/overview)"
+    },
+    {
+      "number": 28,
+      "domain": "Implement AI solutions by using Microsoft Foundry",
+      "question": "You need to create an AI solution that produces marketing email drafts from a brief description of a product and its intended audience.  \n  \nWhich AI workload should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "speech recognition"
+        },
+        {
+          "letter": "B",
+          "text": "text classification"
+        },
+        {
+          "letter": "C",
+          "text": "generative AI"
+        },
+        {
+          "letter": "D",
+          "text": "computer vision"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Generative AI creates new content, including tailored marketing-email text, from prompts that describe a product and its target audience."
+    },
+    {
+      "number": 29,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "You are building an AI-powered customer support application.  \n  \nWhich task exemplifies the Microsoft responsible AI principle of inclusiveness?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Encrypt stored customer data and restrict access by using role-based controls."
+        },
+        {
+          "letter": "B",
+          "text": "Evaluate model outputs across demographic groups to reduce bias."
+        },
+        {
+          "letter": "C",
+          "text": "Design the interface to support multiple languages and screen readers."
+        },
+        {
+          "letter": "D",
+          "text": "Provide explanations about how predictions are generated."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Inclusiveness requires designing systems that can be accessed and used by people with diverse languages, abilities, and needs. Supporting multiple languages and screen readers makes the interface more accessible to a broader range of users."
+    },
+    {
+      "number": 30,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "For each of the following statements, select **Yes** if it is true. Otherwise, select **No**.\n\n<Statements\n  statements={[{\"text\":\"Fairness can be achieved by focusing solely on improving the overall accuracy of an AI model.\",\"answer\":\"No\"},{\"text\":\"Evaluating AI system outputs to identify and reduce bias across demographic groups supports fairness.\",\"answer\":\"Yes\"},{\"text\":\"Ensuring fairness for an AI system means that all users always receive the same output from the system.\",\"answer\":\"No\"}]}\n  columns={[\"Yes\",\"No\"]}\n  explanation={\"Overall accuracy alone can mask unequal performance or harmful disparities across demographic groups, so it is insufficient to ensure fairness. Evaluating outputs by demographic group helps identify and reduce bias. Fairness concerns equitable treatment and outcomes under an appropriate fairness definition; it does not require every user to receive the identical output.\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],You are building a web app that processes invoices to calculate expenses.  \n  \nYou need to extract structured fields, including nested values, from the invoices by using a defined schema.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "an optical character recognition (OCR)-only document processing pipeline"
+        },
+        {
+          "letter": "B",
+          "text": "a transcription workflow in Azure Speech in Foundry Tools"
+        },
+        {
+          "letter": "C",
+          "text": "an analyzer in Azure Content Understanding in Foundry Tools"
+        },
+        {
+          "letter": "D",
+          "text": "an Azure AI Search service"
+        }
+      ],
+      "answer": null,
+      "explanation": "An analyzer in Azure Content Understanding in Foundry Tools defines a field schema for extracting structured document data. Its schema supports nested object and array fields, which accommodates invoice details such as line items and their associated values.\n\n**Learn more:** [What is a Content Understanding analyzer?](https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/concepts/analyzer-reference) · [Azure Content Understanding overview](https://learn.microsoft.com/en-us/azure/ai-services/content-understanding/overview)"
+    },
+    {
+      "number": 31,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "A company processes customer-support emails.  \n  \nAn AI solution must automatically recognize mentions of people, organizations, and locations in those emails. Which text-analysis technique should be used?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Named Entity Recognition (NER)"
+        },
+        {
+          "letter": "B",
+          "text": "key phrase extraction"
+        },
+        {
+          "letter": "C",
+          "text": "sentiment analysis"
+        },
+        {
+          "letter": "D",
+          "text": "summarization"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Named Entity Recognition (NER) detects named entities in unstructured text and categorizes them into types such as person, organization, and location.\\\n\\\n**Learn more:** [What is named entity recognition (NER) in Azure Language?](https://learn.microsoft.com/mt-mt/azure/ai-services/language-service/named-entity-recognition/overview?tabs=version-3)"
+    },
+    {
+      "number": 32,
+      "domain": "Implement AI solutions by using Microsoft Foundry",
+      "question": "You have a Microsoft Foundry project that includes a vision-enabled model deployment.  \n  \nYou are developing an application that sends images to the model. You need to ensure the model can analyze those images.  \n  \nIn which two formats can you supply the images? Each correct answer presents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a base64-encoded image data string"
+        },
+        {
+          "letter": "B",
+          "text": "a JSON document that describes the image content"
+        },
+        {
+          "letter": "C",
+          "text": "a UTF-8 encoded text description of the image"
+        },
+        {
+          "letter": "D",
+          "text": "a publicly accessible URL of the image"
+        }
+      ],
+      "answer": null,
+      "explanation": "Vision-enabled model inputs support an image reference using a publicly accessible URL and an embedded Base64-encoded image data string. These formats provide the actual image resource or image bytes needed for visual analysis.\\\n\\\n**Learn more:** [Use vision-enabled chat models - Microsoft Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/openai/how-to/gpt-with-vision)"
+    },
+    {
+      "number": 33,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "You need to build an AI solution that creates new product images from written descriptions supplied by users.  \n  \nWhich AI workload should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "image analysis"
+        },
+        {
+          "letter": "B",
+          "text": "image generation"
+        },
+        {
+          "letter": "C",
+          "text": "object detection"
+        },
+        {
+          "letter": "D",
+          "text": "optical character recognition (OCR)"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Image generation workloads create new images from textual prompts or descriptions. Image analysis interprets existing images, object detection identifies objects within them, and OCR extracts text from images."
+    },
+    {
+      "number": 51,
+      "domain": "Identify AI concepts and capabilities",
+      "question": "For each statement below, select **Yes** if it is true. Otherwise, select **No**.\n\n<Statements\n  statements={[{\"text\":\"In Microsoft Foundry Agent Service, setting tool_choice to auto for an agent enables the agent to decide whether to call a tool.\",\"answer\":\"Yes\"},{\"text\":\"In Microsoft Foundry Agent Service, setting tool_choice to none for an agent means that the model decides whether to call a tool.\",\"answer\":\"No\"},{\"text\":\"In Microsoft Foundry Agent Service, setting tool_choice to required for an agent ensures that the agent must call one or more tools during each run.\",\"answer\":\"Yes\"}]}\n  columns={[\"Yes\",\"No\"]}\n  explanation={\"`tool_choice: auto` lets the model decide whether to invoke a tool. `tool_choice: none` prevents tool invocation, rather than leaving the decision to the model. `tool_choice: required` requires one or more tool calls.\\\n\\\n**Learn more:** [Tool best practices for Microsoft Foundry Agent Service](https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/tool-best-practice)\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"ai-901\",\"data-q\":51,\"data-question-id\":\"3fcc9092-1de3-427d-b48e-1ac613631767\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}],\"$L2e\"]}]]}]]}],\"$L2f\"]}]\nYou are building an application that extracts fields from PDFs by using Azure Content Understanding in Foundry Tools.  \n  \nYou need to use the Python SDK to submit a PDF for analysis and retrieve the extraction results.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Call analyze() to return the extracted fields synchronously in the same request."
+        },
+        {
+          "letter": "B",
+          "text": "Submit the PDF to an analyzer and read the results from the request headers."
+        },
+        {
+          "letter": "C",
+          "text": "Call begin_analyze(), and then call poller.result() to retrieve the results."
+        },
+        {
+          "letter": "D",
+          "text": "Use optical character recognition (OCR) to extract text from the PDF and map the fields in the code."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Content Understanding analysis uses a long-running operation. The Python SDK's `begin_analyze()` starts analysis and returns a poller, and `poller.result()` waits for the operation to finish and returns the structured `AnalysisResult` containing extracted fields.\n\n**Learn more:** [Azure AI Content Understanding client library for Python](https://learn.microsoft.com/en-us/python/api/overview/azure/ai-contentunderstanding-readme?view=azure-python) · [ContentUnderstandingClient class](https://learn.microsoft.com/en-us/python/api/azure-ai-contentunderstanding/azure.ai.contentunderstanding.contentunderstandingclient?view=azure-python)"
+    }
+  ]
+}

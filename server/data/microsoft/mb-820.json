@@ -1,0 +1,1450 @@
+{
+  "provider": "microsoft",
+  "slug": "mb-820",
+  "fullSlug": "microsoft/mb-820",
+  "title": "Copy link to this question",
+  "totalQuestions": 122,
+  "totalPages": 4,
+  "crawledPages": 5,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Develop by using AL objects",
+      "question": "You create a page whose `PageType` property is set to `RoleCenter`.  \n  \nYou move through the page’s different sections.  \n  \nYou need to add functionality to the page.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Define actions in the area(reporting) before actions in the area(creation)."
+        },
+        {
+          "letter": "B",
+          "text": "Define the navigation menu in the area(processing)."
+        },
+        {
+          "letter": "C",
+          "text": "Define the navigation bar in the area(embedding)."
+        },
+        {
+          "letter": "D",
+          "text": "Add a source table on the Role Center page."
+        }
+      ],
+      "answer": "C",
+      "explanation": "On a Role Center page, the navigation bar is the second-level navigation containing links to other pages. It is defined by adding actions under `area(embedding)` in AL.\\\n\\\n**Learn more:** [Adding Menus to the Navigation and Actions Area](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane)"
+    },
+    {
+      "number": 2,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses Business Central.  \n  \nThe company plans to use a translation file in an extension. The extension includes a caption that must not be translated.  \n  \nYou need to prevent translation of the caption.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use the CaptionML property and copy the same caption for each language used."
+        },
+        {
+          "letter": "B",
+          "text": "Set the GenerateLockedTranslations feature in the app.json file."
+        },
+        {
+          "letter": "C",
+          "text": "Add the Locked = true parameter to the Caption."
+        },
+        {
+          "letter": "D",
+          "text": "Delete the Caption property."
+        },
+        {
+          "letter": "E",
+          "text": "Copy the same caption for each language in the translation file."
+        }
+      ],
+      "answer": null,
+      "explanation": "The `Locked` parameter on an AL `Caption` property marks the caption as locked, so it should not be translated. `GenerateLockedTranslations` controls whether locked labels are generated as XLIFF translation units; it does not lock a caption itself.\n\n**Learn more:** [Caption property - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-caption-property) · [Working with translation files - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-work-with-translation-files)"
+    },
+    {
+      "number": 3,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses Business Central.  \n  \nYou plan to assist users with the installation process by using Assisted Setup.  \n  \nYou need to create a wizard page.  \n  \nWhich two actions should you take? Each correct answer provides a complete solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Set the PageType property to NavigatePage."
+        },
+        {
+          "letter": "B",
+          "text": "For each step needed in the guide, add a group() control to the root-level of the layout > area(Content) control."
+        },
+        {
+          "letter": "C",
+          "text": "Set the PageType property to Worksheet."
+        },
+        {
+          "letter": "D",
+          "text": "For each step needed in the guide, add a repeater() control to the root-level of the layout > area(Content) control."
+        }
+      ],
+      "answer": null,
+      "explanation": "In Business Central, an Assisted Setup wizard is implemented with a page whose `PageType` is `NavigatePage`. Each wizard step is defined by a root-level `group()` control within `layout > area(Content)`; visibility logic determines which step is displayed.\n\n**Learn more:** [Designing assisted setup guides - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-designing-navigate-pages)"
+    },
+    {
+      "number": 4,
+      "domain": "Develop by using AL",
+      "question": "You must add a property to the **Description** and **Comments** fields with the corresponding values for the control department manager.  \n  \nWhich property should you add?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "InstructionalText"
+        },
+        {
+          "letter": "B",
+          "text": "ToolTip"
+        },
+        {
+          "letter": "C",
+          "text": "Description"
+        },
+        {
+          "letter": "D",
+          "text": "Caption"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The `InstructionalText` property supplies placeholder guidance for a page field, such as an example or brief description of the expected input. Placeholder text is displayed only while the field is empty, so it disappears after a user enters a value.\\\n\\\n**Learn more:** [InstructionalText property - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-instructionaltext-property) · [Design the prompt mode of prompt dialog page - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/copilot-design-prompt-mode)"
+    },
+    {
+      "number": 5,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to modify the code to satisfy the Control department’s formatting requirements for the Subcontract Document List.  \n  \nWhich formatting should you use?",
+      "options": [],
+      "answer": null,
+      "explanation": "`Strong` is the bold page-field style, and `StyleExpr` conditionally applies that style when its Boolean expression is true. Applying `Style = Strong` to `Amount` with `StyleExpr = Rec.Posted = true` makes Amount bold only for posted records.\n\n**Learn more:** [StyleExpr Property — Business Central](https://learn.microsoft.com/da-dk/dynamics365/business-central/dev-itpro/developer/properties/devenv-styleexpr-property) · [Style Property — Business Central](https://learn.microsoft.com/de-de/dynamics365/business-central/dev-itpro/developer/properties/devenv-style-property)"
+    },
+    {
+      "number": 6,
+      "domain": "Develop by using AL",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are developing a test codeunit for a company that uses Business Central.  \n  \nThe company requires the following options when posting a sales order:  \n  \n- Ship  \n- Invoice  \n- Ship &amp; Invoice  \n  \nYou must create a test codeunit that automatically selects one of these options.  \n  \nYou need to create the test codeunit.  \n  \nWhich handler should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SendNotificationHandler"
+        },
+        {
+          "letter": "B",
+          "text": "SessionSettingsHandler"
+        },
+        {
+          "letter": "C",
+          "text": "StrMenuHandler"
+        },
+        {
+          "letter": "D",
+          "text": "RecallNotificationHandler"
+        }
+      ],
+      "answer": null,
+      "explanation": "A `StrMenuHandler` automates a `StrMenu` interaction. It receives the menu options and sets the integer `Choice` value for the option that the test should select, which supports selecting Ship, Invoice, or Ship & Invoice during sales-order posting.\n\n**Learn more:** [Create handler methods - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-handler-methods) · [HandlerFunctions attribute - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/attributes/devenv-handlerfunctions-attribute)"
+    },
+    {
+      "number": 7,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You develop an extension for the latest release of Business Central online.  \n  \nA customer uses an earlier on-premises release of Business Central, and the extension must be deployed to that customer's environment.  \n  \nYou need to deploy the extension to the earlier Business Central version.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Replace the latest version of the AL Language extension with the needed earlier version."
+        },
+        {
+          "letter": "B",
+          "text": "Uninstall the AL Language extension and install the AL Language extension from the Business Central on-premises installation pack."
+        },
+        {
+          "letter": "C",
+          "text": "Change the Runtime property value of the app.json file of the app."
+        }
+      ],
+      "answer": null,
+      "explanation": "The `runtime` property in `app.json` specifies the Business Central runtime targeted by an extension. To publish to an earlier on-premises server, the extension's runtime must be no higher than the runtime supported by that server; setting it to the appropriate earlier version prevents use of unsupported platform capabilities.\n\n**Learn more:** [Choose runtime version in AL - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-choosing-runtime)"
+    },
+    {
+      "number": 8,
+      "domain": "Develop by using AL",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company intends to set up a local Business Central Development Docker container.  \n  \nThe environment will be used to test new project ideas.  \n  \nYou need to ensure that the latest Business Central artifact URL is selected. Which command should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Get-BcArtifactUrl -type sandbox -select Current"
+        },
+        {
+          "letter": "B",
+          "text": "Get-BcArtifactUrl -type sandbox -select Closest"
+        },
+        {
+          "letter": "C",
+          "text": "Get-BcArtifactUrl -type sandbox -select NextMinor"
+        },
+        {
+          "letter": "D",
+          "text": "Get-BcArtifactUrl -type sandbox -select NextMajor"
+        }
+      ],
+      "answer": null,
+      "explanation": "The `Current` selector retrieves the currently active Business Central sandbox release. `Closest` is for selecting an artifact near a specified version, and `NextMinor` and `NextMajor` are intended for upcoming Insider releases rather than the current stable sandbox artifact.\n\n**Learn more:** [BCContainerHelper Get-BCArtifactUrl script](https://www.powershellgallery.com/packages/BcContainerHelper/4.0.7/Content/Misc%5CGet-BCArtifactUrl.ps1) · [Running a container-based development environment - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-container-development)"
+    },
+    {
+      "number": 9,
+      "domain": "Develop by using AL",
+      "question": "You create a page whose `PageType` property is set to `RoleCenter`.  \n  \nYou move through the page’s various sections.  \n  \nYou need to add functionality to the page.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Define actions in the area(reporting) before actions in the area(creation)."
+        },
+        {
+          "letter": "B",
+          "text": "Add an Activity page to display data in a graphical way."
+        },
+        {
+          "letter": "C",
+          "text": "Define the navigation bar in the area(embedding)."
+        },
+        {
+          "letter": "D",
+          "text": "Add a source table on the Role Center page."
+        }
+      ],
+      "answer": "C",
+      "explanation": "On a Business Central Role Center, the navigation bar is the second-level navigation that provides a flat list of links to other pages. It is defined by placing actions in `area(embedding)`. The `creation`, `processing`, and `reporting` areas are for action-bar commands, not the navigation bar.\\\n\\\n**Learn more:** [Designing Role Centers - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-designing-role-centers)"
+    },
+    {
+      "number": 26,
+      "domain": "Develop by using AL objects",
+      "question": "A company uses Business Central.  \n  \nThe company plans to use the AL object model in Business Central to extend the Base Application.  \n  \nYou need to extend the objects.  \n  \nWhich two objects can be extended? Each correct answer provides a complete solution. (Choose two.)  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Codeunit"
+        },
+        {
+          "letter": "B",
+          "text": "Report"
+        },
+        {
+          "letter": "C",
+          "text": "Query"
+        },
+        {
+          "letter": "D",
+          "text": "API page"
+        },
+        {
+          "letter": "E",
+          "text": "Enum"
+        }
+      ],
+      "answer": null,
+      "explanation": "AL provides report extensions to add to an existing report and enum extensions to add values to an existing extensible enumeration. Business Central does not support extending API pages or queries, and codeunits do not have a codeunit-extension object type.\\\n\\\n**Learn more:** [Extensibility overview - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extensibility-overview)"
+    },
+    {
+      "number": 27,
+      "domain": "Develop by using AL",
+      "question": "Solution: Set the `ExcludedPermissionSets` property to Permission Set A.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Excluding a permission set removes all permissions contributed by that set from the composite permission set. Excluding Permission Set A therefore removes its Read permission, while Permission Set B still grants Insert, Modify, and Delete access to the Job table. This does not result in read-only access.\\\n\\\n**Learn more:** [ExcludedPermissionSets Property - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-excludedpermissionsets-property) · [Define granular permissions - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-define-granular-permissions)"
+    },
+    {
+      "number": 28,
+      "domain": "Develop by using AL objects",
+      "question": "Solution: Configure the `IncludedPermissionSets` property to Permission Set A and the `ExcludedPermissionSets` property to Permission Set B.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "For composite Business Central permission sets, excluded permissions override included permissions defined at the same level. Including `RIMD` for the Job table and excluding `IMD` removes insert, modify, and delete access, leaving only read access.\\\n\\\n**Learn more:** [Composing Permission Sets from Other Permission Sets](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing)"
+    },
+    {
+      "number": 29,
+      "domain": "Develop by using AL",
+      "question": "Solution: Configure the `ExcludedPermissionSets` property as Permission Set B.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Excluding Permission Set B removes all permissions contributed by that set, but Permission Set A remains included and grants direct Modify and Delete permissions on the Job table. Consequently, the resulting permission set does not provide only read access. Direct and indirect permission letters are defined by the Business Central Permissions property.\\\n\\\n**Learn more:** [ExcludedPermissionSets Property — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-excludedpermissionsets-property) · [Permissions Property — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property)"
+    },
+    {
+      "number": 30,
+      "domain": "Install, develop, and deploy for Business Central",
+      "question": "Solution: Configure the `IncludedPermissionSets` property as Permission Set B and the `ExcludedPermissionSets` property as Permission Set A.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Excluded permissions override included permissions at the same composition level. Permission Set B does not include read access to the Job table, and excluding Permission Set A cannot grant that missing permission; it only removes permissions. The composite permission set therefore does not provide read-only access.\\\n\\\n**Learn more:** [Composing Permission Sets from Other Permission Sets](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing)"
+    },
+    {
+      "number": 31,
+      "domain": "Develop by using AL objects",
+      "question": "Solution: Configure the `IncludedPermissionSets` property as Permission Set B and the `ExcludedPermissionSets` property as Permission Set A.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PerUserServicePlan"
+        },
+        {
+          "letter": "B",
+          "text": "Implicit"
+        },
+        {
+          "letter": "C",
+          "text": "Unlicensed"
+        },
+        {
+          "letter": "D",
+          "text": "Role"
+        }
+      ],
+      "answer": null,
+      "explanation": "`PerUserServicePlan` maps an entitlement to a Microsoft Entra service plan licensed to specific users. For a transactable Business Central Marketplace app, the Partner Center plan’s Service ID is used in the entitlement to map that plan to the app functionality. `Unlicensed` is reserved for side-by-side/custom licensing of users who have no plan defined in the app’s entitlements, and `Role` maps an Entra role rather than a Partner Center plan. [Type (Entitlement) Property — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-type-entitlement-property)\n\n**Learn more:** [Type (Entitlement) Property - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-type-entitlement-property) · [Selling Business Central apps through Marketplace](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-sell-apps-through-marketplace)"
+    },
+    {
+      "number": 32,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are customizing Business Central by using Visual Studio Code. You create a project that extends Business Central. The AL extension includes automatically generated JSON files that store configuration data.  \n  \nFor testing, you plan to make these changes to the files:  \n  \n- Specify that page 27 opens after publishing.  \n- Enable debugging.  \n- Disable the ability to download the source code.  \n  \nYou need to add the configurations to the JSON files.  \n  \nWhich two configurations should you add? Each correct answer presents a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Set “startupObjectId”: 27 on launch.json."
+        },
+        {
+          "letter": "B",
+          "text": "In the “resourceExposurePolicy” tag, set “allowDebugging”: true and “allowDownloadingSource”: false on launch.json."
+        },
+        {
+          "letter": "C",
+          "text": "Set “startupObjectId”: 27 on app.json."
+        },
+        {
+          "letter": "D",
+          "text": "In the “resourceExposurePolicy” tag, set “allowDebugging”: true and “allowDownloadingSource”: true on app.json."
+        },
+        {
+          "letter": "E",
+          "text": "In the “resourceExposurePolicy” tag, set “allowDebugging”: true and “allowDownloadingSource”: false on app.json."
+        }
+      ],
+      "answer": null,
+      "explanation": "The `startupObjectId` setting in `launch.json` specifies the object that opens when an AL project is published or run, so it must be set to page ID 27. The extension manifest, `app.json`, contains `resourceExposurePolicy`; `allowDebugging: true` permits debugging and `allowDownloadingSource: false` prevents downloading the extension source.\n\n**Learn more:** [Resource exposure policy setting - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection) · [Build your first sample extension that uses new objects and extension objects](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-example)"
+    },
+    {
+      "number": 33,
+      "domain": "Describe Business Central",
+      "question": "You must simulate a user selecting a posting option. The available options must include:  \n  \n- Ship  \n- Invoice  \n- Ship &amp; Invoice  \n  \nYou need to create a test codeunit to execute the test.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Normal attribute"
+        },
+        {
+          "letter": "B",
+          "text": "Handler method"
+        },
+        {
+          "letter": "C",
+          "text": "Test attribute"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A handler method automates required user interaction during an AL test. For a posting menu, a `StrMenuHandler` handler method receives the menu options and sets the selected choice, allowing the test to simulate the selection without displaying the user interface.\\\n\\\n**Learn more:** [Test codeunits and test methods - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-test-codeunits-and-test-methods) · [StrMenuHandler attribute - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/attributes/devenv-strmenuhandler-attribute)"
+    },
+    {
+      "number": 34,
+      "domain": "Develop by using AL objects",
+      "question": "You must simulate a user selecting a posting option. The available options must include:  \n  \n- Ship  \n- Invoice  \n- Ship &amp; Invoice  \n  \nYou need to create a test codeunit to execute the test.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Change the TelemetryScope parameter to extensionpublisher."
+        },
+        {
+          "letter": "B",
+          "text": "Remove the Application Insights 2 connection string from the customer environment."
+        },
+        {
+          "letter": "C",
+          "text": "Change the Verbosity parameter to Normal."
+        },
+        {
+          "letter": "D",
+          "text": "Remove the Application Insights 1 connection string from the app.json file of the app."
+        }
+      ],
+      "answer": null,
+      "explanation": "`TelemetryScope::All` emits a custom telemetry signal to both the Application Insights resource specified in the extension’s `app.json` and the resource configured on the environment. `TelemetryScope::ExtensionPublisher` emits the signal only to the extension publisher’s resource, which is Application Insights 1.\n\n**Learn more:** [TelemetryScope option type — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/telemetryscope/telemetryscope-option) · [Creating custom telemetry events for Azure Application Insights — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-instrument-application-for-telemetry-app-insights)"
+    },
+    {
+      "number": 35,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$L88\"]}]]}],\"$L89\"]}],false]}]\nYou need to identify why the extension no longer appears in the tenant.  \n  \nWhat are two possible reasons for its disappearance? Each correct answer provides a complete solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The extension was published as a DEV extension."
+        },
+        {
+          "letter": "B",
+          "text": "The extension was not compatible with the new version within 60 days of the first notification."
+        },
+        {
+          "letter": "C",
+          "text": "The extension was published as PTE, and the Platform parameter was not updated in the app.json file."
+        },
+        {
+          "letter": "D",
+          "text": "The extension was published as PTE, and the Platform and Runtime parameters were not updated in the app.json file."
+        },
+        {
+          "letter": "E",
+          "text": "The extension was not compatible with the new version within 90 days of the first notification."
+        }
+      ],
+      "answer": null,
+      "explanation": "DEV extensions are automatically uninstalled when their sandbox environment is upgraded or relocated, although the extension data remains. A per-tenant extension that prevents a production environment from upgrading because it is incompatible can also be uninstalled after 90 days from the initial notification so that Microsoft can force the tenant upgrade. [Extension types and scope](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-types-and-scope), [Deploying a tenant customization](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-deploy-tenant-customization)\n\n**Learn more:** [Extension types and scope](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extension-types-and-scope) · [Deploying a tenant customization](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-deploy-tenant-customization)"
+    },
+    {
+      "number": 36,
+      "domain": "Develop by using AL",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to identify why the debugger fails to start correctly.  \n  \nWhat is causing the problem?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The "
+        },
+        {
+          "letter": "B",
+          "text": "The "
+        },
+        {
+          "letter": "C",
+          "text": "The "
+        },
+        {
+          "letter": "D",
+          "text": "The "
+        }
+      ],
+      "answer": null,
+      "explanation": "For snapshot debugging in a Business Central cloud environment, the `userId` setting must contain the GUID of the user whose session is to be captured. A username does not identify that cloud user session, so the snapshot debugger cannot attach as intended. `WebClient` is the correct session type for a Business Central web-client session, and `DebugAndProfile` permits debugging as well as profiling.\n\n**Learn more:** [Snapshot debugging - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-snapshot-debugging)"
+    },
+    {
+      "number": 37,
+      "domain": "Work with development tools",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to invoke the Issue API action from the mobile application.  \n  \nWhich action should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "POST /issues(88122e0e-5796-ec11-bb87-000d3a392eb5)/Microsoft.NAV.copy"
+        },
+        {
+          "letter": "B",
+          "text": "PATCH /issues(88122e0e-5796-ec11-bb87-000d3a392eb5)/Microsoft.NAV.Copy"
+        },
+        {
+          "letter": "C",
+          "text": "POST /issues(88122e0e-5796-ec11-bb87-000d3a392eb5)/Copy"
+        },
+        {
+          "letter": "D",
+          "text": "POST /issues(88122e0e-5796-ec11-bb87-000d3a392eb5)/copy"
+        },
+        {
+          "letter": "E",
+          "text": "POST /issues(88122e0e-5796-ec11-bb87-000d3a392eb5)/Microsoft.NAV.Copy"
+        }
+      ],
+      "answer": null,
+      "explanation": "A Business Central API procedure marked with `[ServiceEnabled]` is invoked as a bound action by using an HTTP `POST` request against the target entity and the fully qualified action name. With a procedure named `Copy`, the action segment is `Microsoft.NAV.Copy`; its capitalization must match the procedure name.\n\n**Learn more:** [ServiceEnabled attribute — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/attributes/devenv-serviceenabled-attribute) · [Introduction to automation APIs — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis)"
+    },
+    {
+      "number": 38,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to identify whether unwanted incoming web service calls have occurred in your tenant during the past seven days.  \n  \nWhich two KQL queries should you use? Each correct answer provides a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785600940098-n9nsf85k.png)"
+        },
+        {
+          "letter": "B",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785600942874-fobir2lp.png)"
+        },
+        {
+          "letter": "C",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785600945319-yoyoatmh.png)"
+        },
+        {
+          "letter": "D",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785600948315-ci99ogbi.png)"
+        },
+        {
+          "letter": "E",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785600950862-1o0ss0oj.png)"
+        }
+      ],
+      "answer": null,
+      "explanation": "Incoming Business Central web-service telemetry is identified by event ID `RT0008`, and its `category` dimension identifies the endpoint type as API, ODataV3, ODataV4, or SOAP. Because SOAP usage is being phased out, a query that filters specifically to `SOAP`, or one that excludes API, ODataV3, and ODataV4, identifies the unwanted SOAP calls during the seven-day window.\n\n**Learn more:** [Analyzing Incoming Web Service Request Telemetry — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/telemetry-webservices-trace)"
+    },
+    {
+      "number": 39,
+      "domain": "Integrate Business Central with other applications",
+      "question": "You need to create the access modifier for `IssueTotal`.  \n  \nWhich variable declaration should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Internal var IssueTotal: Decimal"
+        },
+        {
+          "letter": "B",
+          "text": "Var IssueTotal: Decimal"
+        },
+        {
+          "letter": "C",
+          "text": "Public var IssueTotal: Decimal"
+        },
+        {
+          "letter": "D",
+          "text": "Local var IssueTotal: Decimal"
+        },
+        {
+          "letter": "E",
+          "text": "Protected var IssueTotal: Decimal"
+        }
+      ],
+      "answer": "E",
+      "explanation": "In AL, variables declared in a `protected var` section are accessible from extensions of the same table, including table extensions in dependent extensions. This permits ISSUE EXT to access `IssueTotal` on the Issue table while limiting that exposure to the table-extension context.\\\n\\\n**Learn more:** [Protected variables - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-protected-variables)"
+    },
+    {
+      "number": 51,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are developing an app that will be published to Microsoft AppSource.  \n  \nThe app needs code analyzers to enforce certain rules. You plan to add the analyzers to the `settings.json` file.  \n  \nYou need to activate the analyzers for the project.  \n  \nWhich three code analyzers should you activate to develop the app for AppSource? Each correct answer presents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CodeCop"
+        },
+        {
+          "letter": "B",
+          "text": "UICop"
+        },
+        {
+          "letter": "C",
+          "text": "a custom rule set"
+        },
+        {
+          "letter": "D",
+          "text": "PerTenantExtensionCop"
+        },
+        {
+          "letter": "E",
+          "text": "AppSourceCop"
+        }
+      ],
+      "answer": null,
+      "explanation": "Apps published through AppSource should enable CodeCop for general AL coding guidelines, UICop for web-client UI best practices, and AppSourceCop for AppSource submission rules. PerTenantExtensionCop is for extensions installed for an individual tenant and is not used with AppSourceCop.\n\n**Learn more:** [Use GitHub Codespaces for AL development](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-code-spaces-al) · [Using the code analysis tool](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-using-code-analysis-tool)"
+    },
+    {
+      "number": 52,
+      "domain": "Develop by using AL objects",
+      "question": "A company has a task that is completed infrequently. Users frequently need to look up the procedure to perform the task.  \n  \nThe company requires a wizard that guides users through a sequence of steps to complete the task.  \n  \nYou need to create the page that enables creation of the wizard.  \n  \nWhich page type should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "NavigatePage"
+        },
+        {
+          "letter": "B",
+          "text": "Card"
+        },
+        {
+          "letter": "C",
+          "text": "RoleCenter"
+        },
+        {
+          "letter": "D",
+          "text": "List"
+        }
+      ],
+      "answer": "A",
+      "explanation": "In Business Central, a `NavigatePage` creates an assisted setup guide, also known as a wizard, that leads users through a sequence of steps for completing a task. This is designed for infrequently performed configuration or business tasks.\\\n\\\n**Learn more:** [Designing assisted setup guides](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-designing-navigate-pages) · [Pages overview - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-pages-overview)"
+    },
+    {
+      "number": 53,
+      "domain": "Develop by using AL objects",
+      "question": "A company has a task that is completed infrequently. Users frequently need to look up the procedure to perform the task.  \n  \nThe company requires a wizard that guides users through a sequence of steps to complete the task.  \n  \nYou need to create the page that enables creation of the wizard.  \n  \nWhich page type should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Change the “al.enableCodeAnalysis” property value to “false”."
+        },
+        {
+          "letter": "B",
+          "text": "Open the Visual Studio Code user settings.json file."
+        },
+        {
+          "letter": "C",
+          "text": "Add the “al.ruleSetPath” property with a path to the ruleset.json file."
+        },
+        {
+          "letter": "D",
+          "text": "Open the Visual Studio Code project settings,json file."
+        }
+      ],
+      "answer": null,
+      "explanation": "A project-specific ruleset changes code-analysis diagnostic severity only for that app when its path is configured in the project `settings.json` through `al.ruleSetPath`. The ruleset’s `rules` array can override the `AA0XYZ` diagnostic with the `Info` action. User settings would apply more broadly, disabling code analysis does not set a severity, and `Hidden` suppresses rather than marks the diagnostic as informational.\n\n**Learn more:** [Ruleset for the code analysis tool](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-rule-set-syntax-for-code-analysis-tools) · [Using the code analysis tools with the ruleset](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-using-code-analysis-tool-with-rule-set)"
+    },
+    {
+      "number": 54,
+      "domain": "Develop by using AL objects",
+      "question": "You create a Business Central report.  \n  \nYou need values entered on the Request page to be saved for the next time the report runs.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Set the TransactionType property to Update."
+        },
+        {
+          "letter": "B",
+          "text": "Declare a ‘SaveValues’ variable and assign it to true on the OnOpenPage() trigger."
+        },
+        {
+          "letter": "C",
+          "text": "Set the UseRequestPage property to true."
+        },
+        {
+          "letter": "D",
+          "text": "Set the SaveValues property to true."
+        }
+      ],
+      "answer": "D",
+      "explanation": "Setting the request page’s `SaveValues` property to `true` saves user-entered request-page options and filters so they can be reused when the report is run again. [Microsoft Learn: Using request pages with reports](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-request-pages-for-reports)\\\n\\\n**Learn more:** [Using request pages with reports — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-request-pages-for-reports)"
+    },
+    {
+      "number": 55,
+      "domain": "Work with development tools",
+      "question": "You create a page whose `PageType` property is set to `RoleCenter`.  \n  \nYou navigate among the page’s different sections.  \n  \nYou need to add functionality to the page.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Define an action with the plus icon in the area(creation)."
+        },
+        {
+          "letter": "B",
+          "text": "Add an Activity page to display data in a graphical way."
+        },
+        {
+          "letter": "C",
+          "text": "Create headlines using the Cuegroup control."
+        },
+        {
+          "letter": "D",
+          "text": "Add a source table on the Role Center page."
+        }
+      ],
+      "answer": "A",
+      "explanation": "On a Business Central Role Center, actions defined in `area(creation)` appear first in the action area and display with a plus (+) icon. This area is intended for actions that open pages used to create new entities.\\\n\\\n**Learn more:** [Designing Role Centers - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-designing-role-centers)"
+    },
+    {
+      "number": 56,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are developing a view for a Business Central app.  \n  \nThe view needs a custom layout that shows only customer records whose balance exceeds 500 in local currency.  \n  \nYou need to configure the view to indicate that it uses a custom layout.  \n  \nWhich property combination should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SharedLayout = false; Filters = where (Balance = filter (> 500), “Currency Code” = filter (‘LCY’));"
+        },
+        {
+          "letter": "B",
+          "text": "SharedLayout = true; Filters = where (Balance = filter (> 500), “Currency Code” = filter (‘LCY’));"
+        },
+        {
+          "letter": "C",
+          "text": "SharedLayout = false; Filters = where (“Balance (LCY)” = filter (> 500));"
+        },
+        {
+          "letter": "D",
+          "text": "SharedLayout = true; Filters = where (“Balance (LCY)” = filter (> 500));"
+        }
+      ],
+      "answer": null,
+      "explanation": "A Business Central view must set `SharedLayout = false` to define and use its own custom layout. The local-currency balance is filtered through the `\"Balance (LCY)\"` field, using `filter(> 500)`.\n\n**Learn more:** [SharedLayout Property - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-sharedlayout-property) · [Views - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-views)"
+    },
+    {
+      "number": 57,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You intend to call a web service by using the `HttpClient` data type from a Business Central AL extension.  \n  \nYou must implement the web service call as follows:  \n  \n- The web service must authenticate the client by using a certificate.  \n- The certificate must have a password.  \n- The password must be concealed when debugging the code.  \n  \nYou need to add the certificate to the web service call.  \n  \nWhich instruction should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "HttpClient.AddCertificate(Certificate: SecretText, Password: SecretText);"
+        },
+        {
+          "letter": "B",
+          "text": "HttpClient.AddCertificate(Certificate: Blob, Password: SecretText);"
+        },
+        {
+          "letter": "C",
+          "text": "HttpClient.AddCertificate(Password: SecretText);"
+        },
+        {
+          "letter": "D",
+          "text": "HttpClient.AddCertificate(Certificate: Text, Password: Text);"
+        }
+      ],
+      "answer": null,
+      "explanation": "`HttpClient.AddCertificate` supports a `SecretText` certificate and a `SecretText` password. `SecretText` prevents sensitive values from being exposed in the AL debugger, and the certificate is used for client authentication. [Microsoft Learn: HttpClient.AddCertificate(SecretText [, SecretText])](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-addcertificate-secrettext-secrettext-method)\n\n**Learn more:** [HttpClient.AddCertificate(SecretText , SecretText) Method — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-addcertificate-secrettext-secrettext-method) · [Protecting sensitive values with the SecretText data type — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-secret-text)"
+    },
+    {
+      "number": 58,
+      "domain": "Develop by using AL objects",
+      "question": "You intend to write unit-test functions for newly developed functionality in an app.  \n  \nYou must create a test codeunit in which to write the functions.  \n  \nWhich property should you select for the test codeunit to ensure the requirements are met?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SubType"
+        },
+        {
+          "letter": "B",
+          "text": "Access"
+        },
+        {
+          "letter": "C",
+          "text": "Description"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Business Central test codeunits require the `SubType` property to be set to `Test`; this enables test methods within the codeunit. The `Access` and `Description` properties do not designate a codeunit as a test codeunit.\\\n\\\n**Learn more:** [Test codeunits and test methods - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-test-codeunits-and-test-methods) · [SubType Property (Codeunit) - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-subtype-codeunit-property)"
+    },
+    {
+      "number": 59,
+      "domain": "Develop by using AL objects",
+      "question": "You intend to write unit-test functions for newly developed functionality in an app.  \n  \nYou must create a test codeunit in which to write the functions.  \n  \nWhich property should you select for the test codeunit to ensure the requirements are met?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": null,
+      "explanation": "`R` grants read permission only; it does not permit inserting records into `MyTable`. Inherent permissions apply only while the annotated method or event executes, so this setting neither supplies the required insert permission for sales-order posting nor grants the access required to open the list page. [InherentPermissions attribute — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/attributes/devenv-inherentpermissions-attribute)\n\n**Learn more:** [InherentPermissions attribute — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/attributes/devenv-inherentpermissions-attribute) · [Permissions on Objects — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-permissions-on-database-objects)"
+    },
+    {
+      "number": 60,
+      "domain": "Work with development tools",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Solution: Add the `InherentPermissions = RI` property to the `MyTable` object.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": null,
+      "explanation": "`InherentPermissions = RI` on a table inherently grants Read and Insert access to that table. Read access enables access to the list page’s data, and Insert access enables creation of MyTable records during sales-order posting. These are the minimum permissions needed for the stated operations, without a new permission set or unnecessary Modify/Delete access. [InherentPermissions property — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-inherentpermissions-property)\n\n**Learn more:** [InherentPermissions property — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-inherentpermissions-property) · [Inherent Permissions — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inherent-permissions)"
+    },
+    {
+      "number": 61,
+      "domain": "Develop by using AL",
+      "question": "Solution: Assign the **SUPER** permission set.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The SUPER permission set grants all permissions. Assigning it would give users far more access than is required to use MyTable, post sales orders, and open the related list page, so it does not satisfy least privilege.\\\n\\\n**Learn more:** [PermissionSet SUPER](https://learn.microsoft.com/en-us/dynamics365/business-central/application/system-application/permissionset/system.security.accesscontrol.super) · [Define granular permissions - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-define-granular-permissions)"
+    },
+    {
+      "number": 62,
+      "domain": "Develop by using AL objects",
+      "question": "Solution: Assign the **SUPER** permission set.  \n  \nDoes this solution achieve the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The SUPER permission set grants read, use, update, and delete access to all data and all application objects within the license scope. Assigning it to regular users provides excessive privileges rather than the minimum permissions required to post sales orders and access MyTable, so it does not satisfy least privilege.\\\n\\\n**Learn more:** [Special permission sets - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/administration-special-permission-sets)"
+    },
+    {
+      "number": 63,
+      "domain": "Develop by using AL objects",
+      "question": "A company has a Business Central online environment.  \n  \nYou are exporting a file from a client by using the `DownloadFromStream` method.  \n  \nYou need to create an `InStream` data type to send the data.  \n  \nWhich solution should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use CreateInStream method from codeunit \\"
+        },
+        {
+          "letter": "B",
+          "text": "Use CreateInStream method for BLOB field of \\"
+        },
+        {
+          "letter": "C",
+          "text": "Use CreateInStream method for File type variable."
+        }
+      ],
+      "answer": "A",
+      "explanation": "For Business Central online, the `Temp Blob` codeunit provides in-memory BLOB storage and its `CreateInStream` method creates the `InStream` consumed by `DownloadFromStream`. Microsoft’s cloud example uses `TempBlob.CreateInStream(ins)` immediately before calling `DownloadFromStream`.\\\n\\\n**Learn more:** [File.DownloadFromStream(InStream, Text, Text, Text, var Text) Method](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/file/file-downloadfromstream-method)"
+    },
+    {
+      "number": 76,
+      "domain": "Develop by using AL objects",
+      "question": "A company has a Business Central online environment.  \n  \nYou need to create an HTTP GET request that connects to an external REST service.  \n  \nWhich solution should be used?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "HttpContent data type variable"
+        },
+        {
+          "letter": "B",
+          "text": "Codeunit 1299 \\"
+        },
+        {
+          "letter": "C",
+          "text": "Codeunit 5459 \\"
+        },
+        {
+          "letter": "D",
+          "text": "Codeunit 1297 \\"
+        },
+        {
+          "letter": "E",
+          "text": "HttpClient data type variable"
+        }
+      ],
+      "answer": "E",
+      "explanation": "The `HttpClient` data type is used in AL to call external services, and `HttpClient.Get` sends an HTTP GET request to the specified resource URI.\\\n\\\n**Learn more:** [HttpClient.Get(Text, var HttpResponseMessage) Method - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/httpclient/httpclient-get-method) · [Call external services with the HttpClient data type](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-httpclient)"
+    },
+    {
+      "number": 77,
+      "domain": "Develop by using AL objects",
+      "question": "You are exporting data from Business Central.  \n  \nYou must export the data in CSV format with non-fixed lengths and widths.  \n  \nYou need to create an XMLport to export the data in the required format.  \n  \nWhich value should you use for the **Format** property?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "XML"
+        },
+        {
+          "letter": "B",
+          "text": "VariableText"
+        },
+        {
+          "letter": "C",
+          "text": "FixedText"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Business Central XMLports use `VariableText` for variable-length text files, including CSV exports. `FixedText` is intended for fixed-width fields, while `XML` produces XML documents.\\\n\\\n**Learn more:** [Format Property (XMLports) — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-format-property)"
+    },
+    {
+      "number": 78,
+      "domain": "Install, develop, and deploy for Business Central",
+      "question": "You are exporting data from Business Central.  \n  \nYou must export the data in CSV format with non-fixed lengths and widths.  \n  \nYou need to create an XMLport to export the data in the required format.  \n  \nWhich value should you use for the **Format** property?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "custom object within the range 50000 to 59999"
+        },
+        {
+          "letter": "B",
+          "text": "custom object within the range 50000 to 99999"
+        },
+        {
+          "letter": "C",
+          "text": "divided by countries and use specific a country within the range 100000 to 999999"
+        },
+        {
+          "letter": "D",
+          "text": "an object range within the range of 7000000 to 74999999 that is requested from Microsoft"
+        },
+        {
+          "letter": "E",
+          "text": "free object within the standard range 1 to 49999"
+        }
+      ],
+      "answer": null,
+      "explanation": "Business Central extensions distributed through Microsoft AppSource use an App Object Range assigned by Microsoft. This range is 70,000,000–74,999,999; it provides unique object IDs and avoids conflicts between marketplace apps.\n\n**Learn more:** [Object ranges in Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-object-ranges) · [Get started building apps for Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/readiness/get-started)"
+    },
+    {
+      "number": 79,
+      "domain": "Integrate Business Central with other applications",
+      "question": "You are cleaning up a company’s sandbox environments.  \n  \nThe company requires that data be cleared from the environments whenever an extension is published.  \n  \nYou need to configure the `launch.json` file. Which `schemaUpdateMode` property should you set?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ForceUpgrade"
+        },
+        {
+          "letter": "B",
+          "text": "ForceSync"
+        },
+        {
+          "letter": "C",
+          "text": "Synchronize"
+        },
+        {
+          "letter": "D",
+          "text": "Recreate"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The `Recreate` schema update mode recreates extension tables and table extensions each time the extension is published, causing the data in those tables to be lost and leaving empty records.\\\n\\\n**Learn more:** [Synchronizing extension test data - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-retaining-data-after-publishing)"
+    },
+    {
+      "number": 80,
+      "domain": "Develop by using AL objects",
+      "question": "You have a query object called Items Query.  \n  \nYou write code that uses an Items Query query variable.  \n  \nYou need to export the Items Query data to a file.  \n  \nWhich SaveAs function should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SaveAsCsv"
+        },
+        {
+          "letter": "B",
+          "text": "SaveAsHtml"
+        },
+        {
+          "letter": "C",
+          "text": "SaveAsExcel"
+        },
+        {
+          "letter": "D",
+          "text": "SaveAsJson"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The Query.SaveAsCsv method saves the resulting data set of a query variable as a comma-separated values (CSV) file. Microsoft Learn documents this method for Query instances and specifies a file name as the destination.\\\n\\\n**Learn more:** [Query.SaveAsCsv(Text , Integer , Text) Method — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/query/queryinstance-saveascsv-string-integer-string-method)"
+    },
+    {
+      "number": 81,
+      "domain": "Develop by using AL objects",
+      "question": "You have a query object called Items Query.  \n  \nYou write code that uses an Items Query query variable.  \n  \nYou need to export the Items Query data to a file.  \n  \nWhich SaveAs function should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Define actions in the area(reporting) before actions in the area(creation)."
+        },
+        {
+          "letter": "B",
+          "text": "Add an Activity page to display data in a graphical way."
+        },
+        {
+          "letter": "C",
+          "text": "Define the navigation bar in the area(embedding)."
+        },
+        {
+          "letter": "D",
+          "text": "Integrate Charts to display information in cues."
+        }
+      ],
+      "answer": null,
+      "explanation": "For a Business Central RoleCenter, the navigation bar is defined by adding actions in `area(embedding)`. This second-level navigation provides a flat list of links to relevant pages.\n\n**Learn more:** [Designing Role Centers - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-designing-role-centers) · [Actions overview - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview)"
+    },
+    {
+      "number": 82,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You create a page with its `PageType` property set to `RoleCenter`.  \n  \nYou navigate through the page’s different sections.  \n  \nYou need to add functionality to the page.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Define an action with the plus icon in the area(creation)."
+        },
+        {
+          "letter": "B",
+          "text": "Create headlines using the Cuegroup control."
+        },
+        {
+          "letter": "C",
+          "text": "Define the navigation bar in the area(processing)."
+        },
+        {
+          "letter": "D",
+          "text": "Integrate Charts to display information in cues."
+        }
+      ],
+      "answer": null,
+      "explanation": "The `area(creation)` action area on a Role Center is intended for actions that create new documents or entities. These actions appear in the New document group and use the plus icon. The navigation bar is defined with `area(embedding)`, while `area(processing)` contains task-oriented actions.\n\n**Learn more:** [Actions overview — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview) · [Adding Menus to the Navigation and Actions Area — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-adding-menus-to-navigation-pane)"
+    },
+    {
+      "number": 83,
+      "domain": "Work with development tools",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"mb-820\",\"data-q\":88,\"data-question-id\":\"9f77663d-ed32-4ef4-99e4-6f9187539a71\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],\"$L84\"]}],\"$L85\"]}]]}]]}],\"$L86\"]}],\"$L87\"]}]\nYou have a decimal variable called `AmountLCY`.  \n  \nYou must round the variable up to four decimal places.  \n  \nWhich result value should be used?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785601634181-9u4dzyi4.png)"
+        },
+        {
+          "letter": "B",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785601636323-q0lode3p.png)"
+        },
+        {
+          "letter": "C",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785601638416-n30gguhg.png)"
+        },
+        {
+          "letter": "D",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785601640514-cuml9bud.png)"
+        }
+      ],
+      "answer": null,
+      "explanation": "The AL `Round` method uses `0.0001` as the precision for four decimal places, and the direction parameter `'>'` rounds the value up. [System.Round(Decimal [, Decimal] [, Text]) Method — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-round-method)\n\n**Learn more:** [System.Round(Decimal , Decimal , Text) Method — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/system/system-round-method)"
+    },
+    {
+      "number": 84,
+      "domain": "Develop by using AL",
+      "question": "You need to enable debugging in an extension so that its source code can be viewed.  \n  \nIn which file should you set the value of the `allowDebugging` property?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "settings.json"
+        },
+        {
+          "letter": "B",
+          "text": "rad.json"
+        },
+        {
+          "letter": "C",
+          "text": "app.json"
+        },
+        {
+          "letter": "D",
+          "text": "launch.json"
+        }
+      ],
+      "answer": "C",
+      "explanation": "For a Business Central AL extension, `allowDebugging` is configured in the extension manifest’s `resourceExposurePolicy` in `app.json`. Setting it to `true` permits debugging into the extension to view its source code and variables.\\\n\\\n**Learn more:** [Resource exposure policy setting - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-security-settings-and-ip-protection)"
+    },
+    {
+      "number": 85,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company is deploying Business Central on-premises.  \n  \nThe company intends to use a single-tenant deployment architecture.  \n  \nYou need to describe how the data is stored and how the Business Central Server is configured.  \n  \nIn which two ways should you describe the single-tenant architecture? Each correct answer provides a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Each customer has their own Business Central Server."
+        },
+        {
+          "letter": "B",
+          "text": "The application and the business data are stored in the same database."
+        },
+        {
+          "letter": "C",
+          "text": "Multiple customers share a single Business Central Server."
+        },
+        {
+          "letter": "D",
+          "text": "The application and business data are stored in separate databases."
+        },
+        {
+          "letter": "E",
+          "text": "Multiple customers share multiple Business Central Server instances."
+        }
+      ],
+      "answer": null,
+      "explanation": "In a single-tenant Business Central deployment, the application and business data are stored in the same database, and each customer solution uses its own Business Central Server and database. Separate application and business databases, or a shared server for multiple customers, are characteristics of multitenant deployments.\n\n**Learn more:** [Planning Your Dynamics 365 Business Central Deployment](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/plan-for-deployment) · [Creating databases in Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/devenv-create-databases)"
+    },
+    {
+      "number": 86,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has an on-premises Business Central instance named TEST. The instance uses Windows authorization and has a developer services port of 7149. Visual Studio Code is installed on that same server.  \n  \nYou create a new AL project but are unable to download the symbols.  \n  \nThe `launch.json` file contains the following code:  \n  \n![Question Image](https://cdn.examcademy.com/images/questions/1784216510453-r1djq1a5.png)  \n  \nYou need to download the symbols.  \n  \nWhich two actions should you take? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Check which server the instance is installed on and replace http://localhost with the correct IP address."
+        },
+        {
+          "letter": "B",
+          "text": "Add the port: 7149 parameter."
+        },
+        {
+          "letter": "C",
+          "text": "Change the name parameter to TEST."
+        },
+        {
+          "letter": "D",
+          "text": "Change the authentication parameter to UserPassword."
+        },
+        {
+          "letter": "E",
+          "text": "Change the serverInstance parameter to TEST."
+        }
+      ],
+      "answer": null,
+      "explanation": "For an on-premises AL connection, `serverInstance` must name the Business Central Server instance and `port` must specify the Developer Services port. The configured instance is TEST and its Developer Services port is 7149; `localhost` and Windows authentication already match the stated environment.\n\n**Learn more:** [Download AL symbol packages - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/al-agent-tools/al-tool-download-symbols) · [Configure Business Central Server](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance)"
+    },
+    {
+      "number": 87,
+      "domain": "Develop by using AL",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You create a page whose `PageType` property is set to `RoleCenter`.  \n  \nYou navigate among the page’s different sections.  \n  \nYou need to add functionality to the page.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Define actions in the area(reporting) before actions in the area(creation)."
+        },
+        {
+          "letter": "B",
+          "text": "Define the navigation menu in the area(processing)."
+        },
+        {
+          "letter": "C",
+          "text": "Define the navigation bar in the area(embedding)."
+        },
+        {
+          "letter": "D",
+          "text": "Integrate Charts to display information in cues."
+        }
+      ],
+      "answer": null,
+      "explanation": "On a Business Central RoleCenter, the navigation bar is the second-level navigation that presents links to other pages. It is defined by adding actions under `area(embedding)` in the page code.\n\n**Learn more:** [Designing Role Centers - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-designing-role-centers) · [Actions overview - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-actions-overview)"
+    },
+    {
+      "number": 88,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses Business Central. Users in DepartmentA have been assigned a base application permission set.  \n  \nThe company finds that DepartmentA can view a critical page that should not be available to the department.  \n  \nYou need to remediate the system control issue.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a different role center page that excludes the critical page and assign it to the users."
+        },
+        {
+          "letter": "B",
+          "text": "Create a permission set object that excludes the critical table and assign it to the users."
+        },
+        {
+          "letter": "C",
+          "text": "Create an entitlement object that excludes the base application permission set."
+        },
+        {
+          "letter": "D",
+          "text": "Extend the base application permission set and configure the IncludedPermissionSets property."
+        },
+        {
+          "letter": "E",
+          "text": "Extend the base application permission set and configure the ExcludedPermissionSets property."
+        }
+      ],
+      "answer": null,
+      "explanation": "Business Central permission sets provide object-level access control and can explicitly exclude an access level for a table. A tailored permission set that excludes the critical table, when assigned to the department’s users, enforces the restriction. Role Center configuration only affects navigation, entitlements do not provide this object-level permission control, and permission-set extensions can add permissions but cannot remove permissions from an existing base application permission set.\n\n**Learn more:** [Define granular permissions - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-define-granular-permissions) · [Permission Set Extension Object - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-ext-object)"
+    },
+    {
+      "number": 89,
+      "domain": "Develop by using AL",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has a test application.  \n  \nA user sees the following error messages while running the test:  \n  \n- “Unhandled UI: Message”  \n- “Unhandled UI: Confirm”  \n  \nYou need to fix the errors.  \n  \nWhich action should you take?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a separate test codeunit that has Message Handler and Confirm Handler methods."
+        },
+        {
+          "letter": "B",
+          "text": "Create the Message Handler and Confirm Handler methods in the test runner codeunit."
+        },
+        {
+          "letter": "C",
+          "text": "Create a separate test runner codeunit that has Message Handler and Confirm Handler methods."
+        },
+        {
+          "letter": "D",
+          "text": "Create the Message Handler and Confirm Handler methods in the test codeunit."
+        }
+      ],
+      "answer": null,
+      "explanation": "Business Central UI interactions in automated tests require handler methods. A MessageHandler handles `Message` calls and a ConfirmHandler handles `Confirm` calls; handler methods used by a test must be defined in the same test codeunit as that test method and registered through `HandlerFunctions`.\n\n**Learn more:** [HandlerFunctions attribute - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/attributes/devenv-handlerfunctions-attribute) · [Create handler methods - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-creating-handler-methods)"
+    },
+    {
+      "number": 90,
+      "domain": "Work with development tools",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You must define the data types for the fields in the Non-conformity table.  \n  \nWhich two data types should be used? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Integer for the Non-conformity Number field"
+        },
+        {
+          "letter": "B",
+          "text": "DateTime for the Non-conformity Date field"
+        },
+        {
+          "letter": "C",
+          "text": "Char for the Non-conformity Number field"
+        },
+        {
+          "letter": "D",
+          "text": "Date for the Non-conformity Date field"
+        },
+        {
+          "letter": "E",
+          "text": "Code for the Non-conformity Number field"
+        }
+      ],
+      "answer": null,
+      "explanation": "A `Code` field supports a multi-character alphanumeric identifier such as `NC24-001`. A `Date` field stores a calendar date without a time component, which matches a creation-date-only requirement.\n\n**Learn more:** [Code data type - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/code/code-data-type) · [Data types and methods in AL - Business Central](https://learn.microsoft.com/en-gb/dynamics365/business-central/dev-itpro/developer/methods-auto/library)"
+    },
+    {
+      "number": 101,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to access the RoomsAPI API from the canvas app.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use the default API configuration in Business Central."
+        },
+        {
+          "letter": "B",
+          "text": "Enable the APIs for the Business Central online environment."
+        },
+        {
+          "letter": "C",
+          "text": "Open the Web Services page and publish the RoomsAPI page as a web service."
+        },
+        {
+          "letter": "D",
+          "text": "Include in the extension a codeunit of type Install that publishes RoomsAPI."
+        }
+      ],
+      "answer": null,
+      "explanation": "A Business Central online API page is exposed as a custom REST API when its extension is installed. Its `APIPublisher`, `APIGroup`, `APIVersion`, and entity properties determine the endpoint. API pages do not require publication through the Web Services page, which is used for legacy OData or SOAP web services; enabling built-in APIs is relevant to on-premises deployments.\n\n**Learn more:** [API endpoint structure - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/webservices/api-endpoint-structure) · [Enabling Power BI integration with Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/admin-powerbi-setup)"
+    },
+    {
+      "number": 102,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to improve performance when **ticketAPI** is used to analyze POS data.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Set the ODataReadonlyGetEnabled parameter to True in the Business Central admin center."
+        },
+        {
+          "letter": "B",
+          "text": "Set the AccessByPermission property to Read on the ticketAPI API page."
+        },
+        {
+          "letter": "C",
+          "text": "Enable read scale-out on the Business Central database."
+        },
+        {
+          "letter": "D",
+          "text": "Set the DataAccessIntent property to ReadOnly on the ticketAPI API page"
+        }
+      ],
+      "answer": null,
+      "explanation": "For an API page used only to read analytics data, setting `DataAccessIntent = ReadOnly` allows Business Central to route eligible requests to a read-only database replica, reducing load on the primary database. In Business Central online, read scale-out is already automatically enabled.\n\n**Learn more:** [DataAccessIntent property - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataaccessintent-property) · [Extract data from Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-extract-data)"
+    },
+    {
+      "number": 103,
+      "domain": "Integrate Business Central with other applications",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],4f:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n51:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n52:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3d:[\"$\",\"$L4f\",null,{\"questionNumber\":101,\"questionId\":\"8855291a-b063-4209-8f49-3d3d7b60ed48\",\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L50\"}]}]\n3e:[\"$\",\"$L51\",null,{\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"questionNumber\":101,\"questionId\":\"8855291a-b063-4209-8f49-3d3d7b60ed48\",\"initialCommentCount\":2,\"children\":[\"$\",\"$L52\",null,{\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"questionNumber\":101,\"questionId\":\"8855291a-b063-4209-8f49-3d3d7b60ed48\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/mb-820/5\"}]}]\n40:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n41:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Company Background\n\nAlpine Ski House is a company that owns and operates hotels, restaurants, and stores.\n\nCurrently, the company uses the following software and interface:\n\n- Property management software (PMS) to manage hotel rooms\n- On-premises accounting software to generate sales invoices and create purchase orders\n- An API that allows restaurants and stores to obtain necessary information\n- Restaurants and stores use standalone software for point of sale (POS) devices. Each day, the POS terminals generate a text file of sales data and save the files in a server folder. An account assistant must manually import the files to the current software tables to be processed by the system.\n- The general manager receives several reports monthly from department managers. The reports take too much time to prepare.\n\n## Planned improvements\n\nThe company is moving from a different system to Business Central online to manage the whole company.\n\nThe company plans to improve efficiency in every department by using APIs to obtain or share information between the different systems.\n\nEach department involved in purchasing must be able to create purchase requests automatically and easily. The departments do not need access to the full ERP management system.\n\n## Technical specifications\n\nAlpine Ski House requires several extensions to be developed for the planned improvements. Business Central design patterns must be used to develop all extensions.\n\nAlpine Ski House must develop the following pages:\n\n- Pages that provide multiple configurations in a multistep dialog, like a wizard, to provide required information when the extensions are first installed\n- Department-specific Role Center pages to show relevant information and pages with additional information\n\nThe IT department plans to use Power BI to analyze departmental information. The database must be configured to provide optimal performance.\n\n## Department-specific requirements. Housekeeping department\n\nThe housekeeping department requires the following to improve efficiency and help avoid data entry errors:\n\n- A Housekeeping Role Center to reduce navigation to relevant areas in Business Central online and to show relevant information in it\n- Pages to embed into a new Room page to show additional information about the Room entity\n- A table named Room Incident for the housekeeping team to enter room issue information\n- A Housekeeping canvas app that connects to an extension\n\nThe department requires the development of an extension with a new API page named RoomsAPI.\n\nThe housekeeping team will use RoomsAPI to publish room details, update when work is complete, or provide repair notifications from the canvas app.\n\nThis custom API page must expose a custom table named Rooms and have an ID 50000. The table must be able to update from the PMS. The PMS team must know the endpoint to connect to the custom API.\n\nA developer provides the following details for the API page:\n\n![Scenario Image](https://cdn.examcademy.com/images/questions/1784083176268-izkyltnr.png)\n\nThe extension must be published in Business Central online and include a list page named Room List that includes all hotel rooms.\n\nInstallation or updates to this extension must meet the following requirements:\n\n- Some web services must be published automatically.\n- The version of the specified application's metadata must be obtained in AL language.\n- The code required to perform tasks cannot be accessible from other parts of the application.\n\nThe Room Incident table information must include the following fields:\n\n- Incident entry: An incremental number\n- Room No.: A room from the Room table\n- Incident Date: The work date\n\nThe table definition in the Room Incident table must autofill the Incident Date when the housekeeping team inserts a new record.\n\nThe value for Incident Date must be the work date configured in the Business Central online client.\n\n- Status: Includes the following options to identify the status of the incident:\n  - Open: When the Room Incident is created\n  - In Progress: When someone starts repair work\n  - Closed: When the incident is solved\n- Incident Closing Date: Auto-updating field (when the status passes to Closed, the field will update with the work date)\n- Incident Description: Text\n- Image: Media data type\n\nThe stored picture must be downloadable from a menu action.\n\nA Room Incident page must be developed to contain the download action.\n\n## Department-specific requirements. Restaurants and stores\n\nTo improve efficiency, the new system must handle the generated data from the restaurants and stores directly by using the API on the POS terminals.\n\nThe company requires a codeunit called from a job queue to read the information from the POS terminal APIs.\n\nThe POS terminal information must be stored in a table named POS Information, have an ID 50100, and be editable on a page.\n\nThe account manager requires an option on the page menu to run the process manually.\n\nTo analyze the information received from the POS terminals, the company requires:\n\n- A custom API named ticketAPI to export the information to Power BI\n- Use of the Read Scale-Out feature to improve database performance\n\n## Department-specific requirements and non-conformity handling\n\nThe purchasing department requires a new entity in Business Central online to log non-conformities of goods received from vendors. The entity must be set up as follows:\n\n- The non-conformity entity must have two tables:\n  - a header with common information\n  - one or more lines with the detailed received items that are non-conforming\n- The entity requires a page named Non-conformity and a subpage named Non-conformity Lines to store the information.\n\nWhen a purchase order with incorrect quantity or quality issues is received, the entity must create a non-conformity document in the system. The following information must be included in the document:\n\n- Non-conformity Number: must use the No. Series table from Business Central online to manage this field and use these features:\n  - Alphanumeric values\n  - Number format that includes “NC” and the year as part of the number; for example, NC24-001\n- Non-conformity Date: stores only the creation date\n- Vendor No.: stores the number of the vendor that sent the items; only vendors from the company must be included\n- Owner: code of an employee defined in the company\n- Receipt No.: must meet the following conditions:\n  - Be an existing receipt No.\n  - Be received from the vendor indicated in the Vendor No. field\n- Comments: can include comments with rich text and pictures to illustrate quality problems\n- Status: includes non-conformity statuses, such as:\n  - Open\n  - Notified\n  - Closed\n\nLines must contain the following details:\n\n- Item No.: item received (for existing inventory items only)\n- Description: item description\n- Quantity: non-conforming quantity\n- Non-conformity Type:\n  - Quality\n  - Quantity\n- Delivery date\n\nThe serial numbers of the non-conformities and the period in which they can be created must be in a configuration table and its corresponding page so that users can modify them.42:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L3b\",null,{\"group\":{\"id\":\"25fe0f939563a6a715491ac094aaba8ee2773e957675668a3ce231f98aa800a6\",\"type\":\"case_study\",\"title\":\"Alpine Ski House Business Central Migration\",\"content\":\"$53\"}}],\"$L54\",\"$L55\"]}]\n44:[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]\n45:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Company Background\n\nAlpine Ski House is a company that owns and operates hotels, restaurants, and stores.\n\nCurrently, the company uses the following software and interface:\n\n- Property management software (PMS) to manage hotel rooms\n- On-premises accounting software to generate sales invoices and create purchase orders\n- An API that allows restaurants and stores to obtain necessary information\n- Restaurants and stores use standalone software for point of sale (POS) devices. Each day, the POS terminals generate a text file of sales data and save the files in a server folder. An account assistant must manually import the files to the current software tables to be processed by the system.\n- The general manager receives several reports monthly from department managers. The reports take too much time to prepare.\n\n## Planned improvements\n\nThe company is moving from a different system to Business Central online to manage the whole company.\n\nThe company plans to improve efficiency in every department by using APIs to obtain or share information between the different systems.\n\nEach department involved in purchasing must be able to create purchase requests automatically and easily. The departments do not need access to the full ERP management system.\n\n## Technical specifications\n\nAlpine Ski House requires several extensions to be developed for the planned improvements. Business Central design patterns must be used to develop all extensions.\n\nAlpine Ski House must develop the following pages:\n\n- Pages that provide multiple configurations in a multistep dialog, like a wizard, to provide required information when the extensions are first installed\n- Department-specific Role Center pages to show relevant information and pages with additional information\n\nThe IT department plans to use Power BI to analyze departmental information. The database must be configured to provide optimal performance.\n\n## Department-specific requirements. Housekeeping department\n\nThe housekeeping department requires the following to improve efficiency and help avoid data entry errors:\n\n- A Housekeeping Role Center to reduce navigation to relevant areas in Business Central online and to show relevant information in it\n- Pages to embed into a new Room page to show additional information about the Room entity\n- A table named Room Incident for the housekeeping team to enter room issue information\n- A Housekeeping canvas app that connects to an extension\n\nThe department requires the development of an extension with a new API page named RoomsAPI.\n\nThe housekeeping team will use RoomsAPI to publish room details, update when work is complete, or provide repair notifications from the canvas app.\n\nThis custom API page must expose a custom table named Rooms and have an ID 50000. The table must be able to update from the PMS. The PMS team must know the endpoint to connect to the custom API.\n\nA developer provides the following details for the API page:\n\n![Scenario Image](https://cdn.examcademy.com/images/questions/1784083176268-izkyltnr.png)\n\nThe extension must be published in Business Central online and include a list page named Room List that includes all hotel rooms.\n\nInstallation or updates to this extension must meet the following requirements:\n\n- Some web services must be published automatically.\n- The version of the specified application's metadata must be obtained in AL language.\n- The code required to perform tasks cannot be accessible from other parts of the application.\n\nThe Room Incident table information must include the following fields:\n\n- Incident entry: An incremental number\n- Room No.: A room from the Room table\n- Incident Date: The work date\n\nThe table definition in the Room Incident table must autofill the Incident Date when the housekeeping team inserts a new record.\n\nThe value for Incident Date must be the work date configured in the Business Central online client.\n\n- Status: Includes the following options to identify the status of the incident:\n  - Open: When the Room Incident is created\n  - In Progress: When someone starts repair work\n  - Closed: When the incident is solved\n- Incident Closing Date: Auto-updating field (when the status passes to Closed, the field will update with the work date)\n- Incident Description: Text\n- Image: Media data type\n\nThe stored picture must be downloadable from a menu action.\n\nA Room Incident page must be developed to contain the download action.\n\n## Department-specific requirements. Restaurants and stores\n\nTo improve efficiency, the new system must handle the generated data from the restaurants and stores directly by using the API on the POS terminals.\n\nThe company requires a codeunit called from a job queue to read the information from the POS terminal APIs.\n\nThe POS terminal information must be stored in a table named POS Information, have an ID 50100, and be editable on a page.\n\nThe account manager requires an option on the page menu to run the process manually.\n\nTo analyze the information received from the POS terminals, the company requires:\n\n- A custom API named ticketAPI to export the information to Power BI\n- Use of the Read Scale-Out feature to improve database performance\n\n## Department-specific requirements and non-conformity handling\n\nThe purchasing department requires a new entity in Business Central online to log non-conformities of goods received from vendors. The entity must be set up as follows:\n\n- The non-conformity entity must have two tables:\n  - a header with common information\n  - one or more lines with the detailed received items that are non-conforming\n- The entity requires a page named Non-conformity and a subpage named Non-conformity Lines to store the information.\n\nWhen a purchase order with incorrect quantity or quality issues is received, the entity must create a non-conformity document in the system. The following information must be included in the document:\n\n- Non-conformity Number: must use the No. Series table from Business Central online to manage this field and use these features:\n  - Alphanumeric values\n  - Number format that includes “NC” and the year as part of the number; for example, NC24-001\n- Non-conformity Date: stores only the creation date\n- Vendor No.: stores the number of the vendor that sent the items; only vendors from the company must be included\n- Owner: code of an employee defined in the company\n- Receipt No.: must meet the following conditions:\n  - Be an existing receipt No.\n  - Be received from the vendor indicated in the Vendor No. field\n- Comments: can include comments with rich text and pictures to illustrate quality problems\n- Status: includes non-conformity statuses, such as:\n  - Open\n  - Notified\n  - Closed\n\nLines must contain the following details:\n\n- Item No.: item received (for existing inventory items only)\n- Description: item description\n- Quantity: non-conforming quantity\n- Non-conformity Type:\n  - Quality\n  - Quantity\n- Delivery date\n\nThe serial numbers of the non-conformities and the period in which they can be created must be in a configuration table and its corresponding page so that users can modify them.46:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L3b\",null,{\"group\":{\"id\":\"25fe0f939563a6a715491ac094aaba8ee2773e957675668a3ce231f98aa800a6\",\"type\":\"case_study\",\"title\":\"Alpine Ski House Business Central Migration\",\"content\":\"$56\"}}],\"$L57\",\"$L58\"]}]\n48:[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]\n49:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Company Background\n\nAlpine Ski House is a company that owns and operates hotels, restaurants, and stores.\n\nCurrently, the company uses the following software and interface:\n\n- Property management software (PMS) to manage hotel rooms\n- On-premises accounting software to generate sales invoices and create purchase orders\n- An API that allows restaurants and stores to obtain necessary information\n- Restaurants and stores use standalone software for point of sale (POS) devices. Each day, the POS terminals generate a text file of sales data and save the files in a server folder. An account assistant must manually import the files to the current software tables to be processed by the system.\n- The general manager receives several reports monthly from department managers. The reports take too much time to prepare.\n\n## Planned improvements\n\nThe company is moving from a different system to Business Central online to manage the whole company.\n\nThe company plans to improve efficiency in every department by using APIs to obtain or share information between the different systems.\n\nEach department involved in purchasing must be able to create purchase requests automatically and easily. The departments do not need access to the full ERP management system.\n\n## Technical specifications\n\nAlpine Ski House requires several extensions to be developed for the planned improvements. Business Central design patterns must be used to develop all extensions.\n\nAlpine Ski House must develop the following pages:\n\n- Pages that provide multiple configurations in a multistep dialog, like a wizard, to provide required information when the extensions are first installed\n- Department-specific Role Center pages to show relevant information and pages with additional information\n\nThe IT department plans to use Power BI to analyze departmental information. The database must be configured to provide optimal performance.\n\n## Department-specific requirements. Housekeeping department\n\nThe housekeeping department requires the following to improve efficiency and help avoid data entry errors:\n\n- A Housekeeping Role Center to reduce navigation to relevant areas in Business Central online and to show relevant information in it\n- Pages to embed into a new Room page to show additional information about the Room entity\n- A table named Room Incident for the housekeeping team to enter room issue information\n- A Housekeeping canvas app that connects to an extension\n\nThe department requires the development of an extension with a new API page named RoomsAPI.\n\nThe housekeeping team will use RoomsAPI to publish room details, update when work is complete, or provide repair notifications from the canvas app.\n\nThis custom API page must expose a custom table named Rooms and have an ID 50000. The table must be able to update from the PMS. The PMS team must know the endpoint to connect to the custom API.\n\nA developer provides the following details for the API page:\n\n![Scenario Image](https://cdn.examcademy.com/images/questions/1784083176268-izkyltnr.png)\n\nThe extension must be published in Business Central online and include a list page named Room List that includes all hotel rooms.\n\nInstallation or updates to this extension must meet the following requirements:\n\n- Some web services must be published automatically.\n- The version of the specified application's metadata must be obtained in AL language.\n- The code required to perform tasks cannot be accessible from other parts of the application.\n\nThe Room Incident table information must include the following fields:\n\n- Incident entry: An incremental number\n- Room No.: A room from the Room table\n- Incident Date: The work date\n\nThe table definition in the Room Incident table must autofill the Incident Date when the housekeeping team inserts a new record.\n\nThe value for Incident Date must be the work date configured in the Business Central online client.\n\n- Status: Includes the following options to identify the status of the incident:\n  - Open: When the Room Incident is created\n  - In Progress: When someone starts repair work\n  - Closed: When the incident is solved\n- Incident Closing Date: Auto-updating field (when the status passes to Closed, the field will update with the work date)\n- Incident Description: Text\n- Image: Media data type\n\nThe stored picture must be downloadable from a menu action.\n\nA Room Incident page must be developed to contain the download action.\n\n## Department-specific requirements. Restaurants and stores\n\nTo improve efficiency, the new system must handle the generated data from the restaurants and stores directly by using the API on the POS terminals.\n\nThe company requires a codeunit called from a job queue to read the information from the POS terminal APIs.\n\nThe POS terminal information must be stored in a table named POS Information, have an ID 50100, and be editable on a page.\n\nThe account manager requires an option on the page menu to run the process manually.\n\nTo analyze the information received from the POS terminals, the company requires:\n\n- A custom API named ticketAPI to export the information to Power BI\n- Use of the Read Scale-Out feature to improve database performance\n\n## Department-specific requirements and non-conformity handling\n\nThe purchasing department requires a new entity in Business Central online to log non-conformities of goods received from vendors. The entity must be set up as follows:\n\n- The non-conformity entity must have two tables:\n  - a header with common information\n  - one or more lines with the detailed received items that are non-conforming\n- The entity requires a page named Non-conformity and a subpage named Non-conformity Lines to store the information.\n\nWhen a purchase order with incorrect quantity or quality issues is received, the entity must create a non-conformity document in the system. The following information must be included in the document:\n\n- Non-conformity Number: must use the No. Series table from Business Central online to manage this field and use these features:\n  - Alphanumeric values\n  - Number format that includes “NC” and the year as part of the number; for example, NC24-001\n- Non-conformity Date: stores only the creation date\n- Vendor No.: stores the number of the vendor that sent the items; only vendors from the company must be included\n- Owner: code of an employee defined in the company\n- Receipt No.: must meet the following conditions:\n  - Be an existing receipt No.\n  - Be received from the vendor indicated in the Vendor No. field\n- Comments: can include comments with rich text and pictures to illustrate quality problems\n- Status: includes non-conformity statuses, such as:\n  - Open\n  - Notified\n  - Closed\n\nLines must contain the following details:\n\n- Item No.: item received (for existing inventory items only)\n- Description: item description\n- Quantity: non-conforming quantity\n- Non-conformity Type:\n  - Quality\n  - Quantity\n- Delivery date\n\nThe serial numbers of the non-conformities and the period in which they can be created must be in a configuration table and its corresponding page so that users can modify them.4a:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L3b\",null,{\"group\":{\"id\":\"25fe0f939563a6a715491ac094aaba8ee2773e957675668a3ce231f98aa800a6\",\"type\":\"case_study\",\"title\":\"Alpine Ski House Business Central Migration\",\"content\":\"$59\"}}],\"$L5a\",\"$L5b\"]}]\n4c:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n4d:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Company Background\n\nAlpine Ski House is a company that owns and operates hotels, restaurants, and stores.\n\nCurrently, the company uses the following software and interface:\n\n- Property management software (PMS) to manage hotel rooms\n- On-premises accounting software to generate sales invoices and create purchase orders\n- An API that allows restaurants and stores to obtain necessary information\n- Restaurants and stores use standalone software for point of sale (POS) devices. Each day, the POS terminals generate a text file of sales data and save the files in a server folder. An account assistant must manually import the files to the current software tables to be processed by the system.\n- The general manager receives several reports monthly from department managers. The reports take too much time to prepare.\n\n## Planned improvements\n\nThe company is moving from a different system to Business Central online to manage the whole company.\n\nThe company plans to improve efficiency in every department by using APIs to obtain or share information between the different systems.\n\nEach department involved in purchasing must be able to create purchase requests automatically and easily. The departments do not need access to the full ERP management system.\n\n## Technical specifications\n\nAlpine Ski House requires several extensions to be developed for the planned improvements. Business Central design patterns must be used to develop all extensions.\n\nAlpine Ski House must develop the following pages:\n\n- Pages that provide multiple configurations in a multistep dialog, like a wizard, to provide required information when the extensions are first installed\n- Department-specific Role Center pages to show relevant information and pages with additional information\n\nThe IT department plans to use Power BI to analyze departmental information. The database must be configured to provide optimal performance.\n\n## Department-specific requirements. Housekeeping department\n\nThe housekeeping department requires the following to improve efficiency and help avoid data entry errors:\n\n- A Housekeeping Role Center to reduce navigation to relevant areas in Business Central online and to show relevant information in it\n- Pages to embed into a new Room page to show additional information about the Room entity\n- A table named Room Incident for the housekeeping team to enter room issue information\n- A Housekeeping canvas app that connects to an extension\n\nThe department requires the development of an extension with a new API page named RoomsAPI.\n\nThe housekeeping team will use RoomsAPI to publish room details, update when work is complete, or provide repair notifications from the canvas app.\n\nThis custom API page must expose a custom table named Rooms and have an ID 50000. The table must be able to update from the PMS. The PMS team must know the endpoint to connect to the custom API.\n\nA developer provides the following details for the API page:\n\n![Scenario Image](https://cdn.examcademy.com/images/questions/1784083176268-izkyltnr.png)\n\nThe extension must be published in Business Central online and include a list page named Room List that includes all hotel rooms.\n\nInstallation or updates to this extension must meet the following requirements:\n\n- Some web services must be published automatically.\n- The version of the specified application's metadata must be obtained in AL language.\n- The code required to perform tasks cannot be accessible from other parts of the application.\n\nThe Room Incident table information must include the following fields:\n\n- Incident entry: An incremental number\n- Room No.: A room from the Room table\n- Incident Date: The work date\n\nThe table definition in the Room Incident table must autofill the Incident Date when the housekeeping team inserts a new record.\n\nThe value for Incident Date must be the work date configured in the Business Central online client.\n\n- Status: Includes the following options to identify the status of the incident:\n  - Open: When the Room Incident is created\n  - In Progress: When someone starts repair work\n  - Closed: When the incident is solved\n- Incident Closing Date: Auto-updating field (when the status passes to Closed, the field will update with the work date)\n- Incident Description: Text\n- Image: Media data type\n\nThe stored picture must be downloadable from a menu action.\n\nA Room Incident page must be developed to contain the download action.\n\n## Department-specific requirements. Restaurants and stores\n\nTo improve efficiency, the new system must handle the generated data from the restaurants and stores directly by using the API on the POS terminals.\n\nThe company requires a codeunit called from a job queue to read the information from the POS terminal APIs.\n\nThe POS terminal information must be stored in a table named POS Information, have an ID 50100, and be editable on a page.\n\nThe account manager requires an option on the page menu to run the process manually.\n\nTo analyze the information received from the POS terminals, the company requires:\n\n- A custom API named ticketAPI to export the information to Power BI\n- Use of the Read Scale-Out feature to improve database performance\n\n## Department-specific requirements and non-conformity handling\n\nThe purchasing department requires a new entity in Business Central online to log non-conformities of goods received from vendors. The entity must be set up as follows:\n\n- The non-conformity entity must have two tables:\n  - a header with common information\n  - one or more lines with the detailed received items that are non-conforming\n- The entity requires a page named Non-conformity and a subpage named Non-conformity Lines to store the information.\n\nWhen a purchase order with incorrect quantity or quality issues is received, the entity must create a non-conformity document in the system. The following information must be included in the document:\n\n- Non-conformity Number: must use the No. Series table from Business Central online to manage this field and use these features:\n  - Alphanumeric values\n  - Number format that includes “NC” and the year as part of the number; for example, NC24-001\n- Non-conformity Date: stores only the creation date\n- Vendor No.: stores the number of the vendor that sent the items; only vendors from the company must be included\n- Owner: code of an employee defined in the company\n- Receipt No.: must meet the following conditions:\n  - Be an existing receipt No.\n  - Be received from the vendor indicated in the Vendor No. field\n- Comments: can include comments with rich text and pictures to illustrate quality problems\n- Status: includes non-conformity statuses, such as:\n  - Open\n  - Notified\n  - Closed\n\nLines must contain the following details:\n\n- Item No.: item received (for existing inventory items only)\n- Description: item description\n- Quantity: non-conforming quantity\n- Non-conformity Type:\n  - Quality\n  - Quantity\n- Delivery date\n\nThe serial numbers of the non-conformities and the period in which they can be created must be in a configuration table and its corresponding page so that users can modify them.4e:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L3b\",null,{\"group\":{\"id\":\"25fe0f939563a6a715491ac094aaba8ee2773e957675668a3ce231f98aa800a6\",\"type\":\"case_study\",\"title\":\"Alpine Ski House Business Central Migration\",\"content\":\"$5c\"}}],\"$L5d\",\"$L5e\"]}]\n63:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Dropdown\"]\n54:[\"$\",\"$L4f\",null,{\"questionNumber\":102,\"questionId\":\"4fc73521-e47d-4383-a6e2-51e3bc9cdbcb\",\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L5f\"}]}]\n55:[\"$\",\"$L51\",null,{\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"questionNumber\":102,\"questionId\":\"4fc73521-e47d-4383-a6e2-51e3bc9cdbcb\",\"initialCommentCount\":2,\"children\":[\"$\",\"$L52\",null,{\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"questionNumber\":102,\"questionId\":\"4fc73521-e47d-4383-a6e2-51e3bc9cdbcb\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/mb-820/5\"}]}]\n57:[\"$\",\"$L4f\",null,{\"questionNumber\":103,\"questionId\":\"7345c484-7f56-4c0c-918c-45386512a588\",\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L60\"}]}]\n58:[\"$\",\"$L51\",null,{\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"questionNumber\":103,\"questionId\":\"7345c484-7f56-4c0c-918c-45386512a588\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L52\",null,{\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"questionNumber\":103,\"questionId\":\"7345c484-7f56-4c0c-918c-45386512a588\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/mb-820/5\"}]}]\n5a:[\"$\",\"$L4f\",null,{\"questionNumber\":104,\"questionId\":\"a288f896-ac36-4111-9a1d-ffc0d6bb061e\",\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L61\"}]}]\n5b:[\"$\",\"$L51\",null,{\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"questionNumber\":104,\"questionId\":\"a288f896-ac36-4111-9a1d-ffc0d6bb061e\",\"initialCommentCount\":3,\"children\":[\"$\",\"$L52\",null,{\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"questionNumber\":104,\"questionId\":\"a288f896-ac36-4111-9a1d-ffc0d6bb061e\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/mb-820/5\"}]}]\n5d:[\"$\",\"$L4f\",null,{\"questionNumber\":105,\"questionId\":\"1fa6ff5f-a9cd-45e9-b0b3-11a0f8dd5a3f\",\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L62\"}]}]\n5e:[\"$\",\"$L51\",null,{\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"questionNumber\":105,\"questionId\":\"1fa6ff5f-a9cd-45e9-b0b3-11a0f8dd5a3f\",\"initialCommentCount\":4,\"children\":[\"$\",\"$L52\",null,{\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"questionNumber\":105,\"questionId\":\"1fa6ff5f-a9cd-45e9-b0b3-11a0f8dd5a3f\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/mb-820/5\"}]}]\n50:[[\"$\",\"p\",null,{\"children\":\"You need to create the Install codeunit required by the extension used to install or update the Housekeeping app. Which data type or declaration should you use?\"}],\"\n\",[\"$\",\"$L63\",null,{\"blanks\":[{\"id\":\"data_type\",\"options\":[\"ModuleDependencyInfo\",\"ModuleInfo\",\"SessionInformation\"],\"answer\":\"ModuleInfo\",\"label\":\"Data type for information\"},{\"id\":\"declaration\",\"options\":[\"global procedure\",\"local procedure\",\"procedure\"],\"answer\":\"local procedure\",\"label\":\"Start of the declaration of the method or procedure to perform the tasks\"}],\"explanation\":\"The ModuleInfo data type exposes metadata for an installed extension, including its application version. A local procedure has object-local scope in AL, preventing other application objects from calling the installation task code.\",\"trackingInfo\":{\"questionId\":\"8855291a-b063-4209-8f49-3d3d7b60ed48\",\"examProvider\":\"microsoft\",\"examName\":\"mb-820\",\"mode\":\"default\"}}]]\nYou need to assess the Quality Control extension’s version values to determine how the quality department should update it.  \n  \nWhich two values can be obtained during the evaluation? Each correct answer represents part of the solution. (Choose two.)  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AppVersion = 1.0.0.1"
+        },
+        {
+          "letter": "B",
+          "text": "AppVersion = 1.0.0.2"
+        },
+        {
+          "letter": "C",
+          "text": "DataVersion = 0.0.0.0"
+        },
+        {
+          "letter": "D",
+          "text": "DataVersion = 1.0.0.1"
+        },
+        {
+          "letter": "E",
+          "text": "DataVersion = 1.0.0.2"
+        }
+      ],
+      "answer": null,
+      "explanation": "During an extension upgrade, `AppVersion` is the version being upgraded to, and `DataVersion` is the version from which the extension data is being upgraded. For an upgrade from 1.0.0.1 to 1.0.0.2, these values are `AppVersion = 1.0.0.2` and `DataVersion = 1.0.0.1`.\n\n**Learn more:** [Upgrading Extensions - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-upgrading-extensions) · [ModuleInfo.DataVersion() Method - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/moduleinfo/moduleinfo-dataversion-method)"
+    },
+    {
+      "number": 104,
+      "domain": "Integrate Business Central with other applications",
+      "question": "You need to define the tables that are used for the non-conformity entity.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "document history table to introduce the non-conformity entities"
+        },
+        {
+          "letter": "B",
+          "text": "document table to introduce the non-conformity entities"
+        },
+        {
+          "letter": "C",
+          "text": "supplemental table to introduce the non-conformity lines"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A non-conformity is a transaction that has shared document-level information and one or more detail lines. Business Central document tables use a document header for information common to all lines and document lines for the detailed transaction data. Supplemental tables are supporting reference tables rather than transaction-line tables.\\\n\\\n**Learn more:** [Create document tables - Business Central](https://learn.microsoft.com/en-us/training/modules/identify-table-types/9-create-document-tables) · [Create supplemental tables - Business Central](https://learn.microsoft.com/en-us/training/modules/identify-table-types/4-create-supplemental-tables)"
+    },
+    {
+      "number": 105,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company intends to modify a field on the Resource Card page in a Base Application.  \n  \nYou need to hide the “Unit Price” field on the Resource Card page.  \n  \nWhich code snippet should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785601659246-hbhm5jhu.png)"
+        },
+        {
+          "letter": "B",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785601661412-30cm6jrg.png)"
+        },
+        {
+          "letter": "C",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785601663569-7dxwc7wl.png)"
+        },
+        {
+          "letter": "D",
+          "text": "![](https://cdn.examcademy.com/images/questions/1785601665699-t0hyg0my.png)"
+        }
+      ],
+      "answer": null,
+      "explanation": "In an AL page extension, `modify(\"Unit Price\")` targets the existing field control, and `Visible = false;` hides that control. `Enabled = false;` leaves the field visible but unavailable for editing. [Microsoft Learn: Page extension object](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object) [Microsoft Learn: Visible Property](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-visible-property)\n\n**Learn more:** [Page extension object — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object) · [Visible Property — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-visible-property)"
+    },
+    {
+      "number": 106,
+      "domain": "Install, develop, and deploy for Business Central",
+      "question": "You have an XMLport that exports items from a database into an XML file.  \n  \nYou need to change the export file format from XML to CSV.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Change the Direction property to Both."
+        },
+        {
+          "letter": "B",
+          "text": "Change the FormatEvaluate property to Legacy."
+        },
+        {
+          "letter": "C",
+          "text": "Change the XmlVersionNo property to 1.1."
+        },
+        {
+          "letter": "D",
+          "text": "Fill the FileName property with the Items.csv value."
+        },
+        {
+          "letter": "E",
+          "text": "Change the Format property to VariableText."
+        }
+      ],
+      "answer": "E",
+      "explanation": "For an XMLport, the `Format` property controls the output format. `VariableText` produces variable-text output and is the setting used for CSV files; separators and delimiters can be configured separately as needed.\\\n\\\n**Learn more:** [Format property - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-format-property)"
+    },
+    {
+      "number": 107,
+      "domain": "Develop by using AL objects",
+      "question": "A company intends to comply with new regulatory requirements.  \n  \nThe regulator has introduced new tax tiers.  \n  \nYou need to update the base application table by using a table extension.  \n  \nWhich table field property can you modify?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CalcFormula"
+        },
+        {
+          "letter": "B",
+          "text": "DecimalPlaces"
+        },
+        {
+          "letter": "C",
+          "text": "BlankZero"
+        },
+        {
+          "letter": "D",
+          "text": "AutoFormatType"
+        }
+      ],
+      "answer": "C",
+      "explanation": "`BlankZero` is an extensible table-field property, so a table extension can change it on a field in a base application table. The other listed properties are not marked extensible for table fields.\\\n\\\n**Learn more:** [Table, Table Fields, and Table Extension Properties — Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-table-properties)"
+    },
+    {
+      "number": 108,
+      "domain": "Develop by using AL objects",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has extended Business Central.  \n  \nYou plan to submit the extension to AppSource.  \n  \nYou need to make sure that an application fulfills the technical requirements before submitting it for validation.  \n  \nWhich three actions should you take? Each correct answer presents a complete solution. (Choose three.)  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ensure the .app file is digitally signed."
+        },
+        {
+          "letter": "B",
+          "text": "Use the OnBeforeCompanyOpen event for improved sign in time."
+        },
+        {
+          "letter": "C",
+          "text": "Use data classification on all tables and extension fields."
+        },
+        {
+          "letter": "D",
+          "text": "Include extension translation files with the submission."
+        },
+        {
+          "letter": "E",
+          "text": "Code all date fields in the mm-dd-yyyy format."
+        }
+      ],
+      "answer": null,
+      "explanation": "Business Central AppSource technical validation requires the .app package to be digitally signed, DataClassification to be set for fields in tables and table extensions, and translation files to be used in the submitted extension. The OnBeforeCompanyOpen event is not permitted because it can impair performance, and AL date literals must use the nonregional `yyyymmddD` format rather than `mm-dd-yyyy`.\n\n**Learn more:** [Technical validation checklist - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) · [Rules and guidelines for AL code - Business Central](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/compliance/apptest-overview)"
+    }
+  ]
+}

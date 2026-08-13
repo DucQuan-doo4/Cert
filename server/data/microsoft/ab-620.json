@@ -1,0 +1,970 @@
+{
+  "provider": "microsoft",
+  "slug": "ab-620",
+  "fullSlug": "microsoft/ab-620",
+  "title": "Copy link to this question",
+  "totalQuestions": 84,
+  "totalPages": 3,
+  "crawledPages": 4,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Plan and configure agent solutions",
+      "question": "Solution: Configure **run-after** conditions for failure paths.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Run-after settings allow a flow to continue on a failure or timeout through a designated error-handling path. That path can send a notification with the failed action’s error details, providing controlled, non-silent failure handling.\\\n\\\n**Learn more:** [Employ robust error handling - Power Automate](https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling)"
+    },
+    {
+      "number": 2,
+      "domain": "Test and manage agents",
+      "question": "Solution: Send a notification that includes relevant error details.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A failure-notification action that includes the error details prevents a flow failure from being silent and provides the required information to recipients. Power Automate supports configuring an action to run after a preceding action fails or times out, enabling this controlled error-handling path.\\\n\\\n**Learn more:** [Employ robust error handling - Power Automate](https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling) · [Fix connection failures in cloud flows - Power Automate](https://learn.microsoft.com/en-us/power-automate/fix-connection-failures)"
+    },
+    {
+      "number": 3,
+      "domain": "Plan and configure agent solutions",
+      "question": "Solution: Configure the custom prompt tool at the topic level to ensure that other topics are unaffected.  \n  \nDoes this solution achieve the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A custom prompt tool is separate from a generative answers node and does not automatically use that node’s configured knowledge sources. Topic-specific response formatting should be configured through custom instructions on the relevant generative answers node, which preserves the node-level knowledge-source configuration and associated connector security controls.\\\n\\\n**Learn more:** [Use prompt modification to provide custom instructions to your agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-generative-answers-prompt-modification) · [Add knowledge to your prompt](https://learn.microsoft.com/en-us/microsoft-copilot-studio/use-your-own-prompt-data)"
+    },
+    {
+      "number": 4,
+      "domain": "Plan and configure agent solutions",
+      "question": "Solution: Configure the custom prompt tool at the topic level to ensure that other topics are unaffected.  \n  \nDoes this solution achieve the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use a Microsoft Graph connector to index the partner's travel advisory content."
+        },
+        {
+          "letter": "B",
+          "text": "Write individual Q&A pairs for each document as separate topics."
+        },
+        {
+          "letter": "C",
+          "text": "Enable unrestricted web search for the agent."
+        },
+        {
+          "letter": "D",
+          "text": "Add the internal policy documents as a knowledge source."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Graph connectors ingest content from external and partner data sources into the Microsoft Graph index, making that content available as a governed, searchable knowledge source inside Copilot Studio without hand-authoring a Q&A topic for every document, satisfying the requirement for a scalable knowledge-integration method. Documents already stored in an internal SharePoint library are added directly as a knowledge source in Copilot Studio, letting the agent's generative answers draw on that unstructured content automatically. Writing individual Q&A topics per document does not scale and is explicitly disallowed, and enabling unrestricted web search would bypass the required Power Platform DLP and Responsible AI content controls."
+    },
+    {
+      "number": 5,
+      "domain": "Integrate and extend agents in Copilot Studio",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to enable Operations Concierge to delegate shipment tracking inquiries in accordance with Fabrikam Inc.'s defined architecture and technical requirements.  \n  \nWhich integration approach should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure the partner capability as an enterprise knowledge source with indexed retrieval enabled."
+        },
+        {
+          "letter": "B",
+          "text": "Configure the partner capability as an MCP tool and invoke it as a transactional operation."
+        },
+        {
+          "letter": "C",
+          "text": "Configure the partner capability as an A2A integration and supply its endpoint information."
+        },
+        {
+          "letter": "D",
+          "text": "Configure the primary agent to handle shipment tracking through generative responses after publishing."
+        }
+      ],
+      "answer": null,
+      "explanation": "An A2A integration connects the primary agent to an external agent through its Agent2Agent endpoint, enabling task delegation to the partner-provided shipment-tracking agent. Microsoft Copilot Studio uses A2A to orchestrate with external agents rather than treating them as knowledge sources or MCP tools.\n\n**Learn more:** [Connect to an agent over the Agent2Agent (A2A) protocol](https://learn.microsoft.com/en-us/microsoft-copilot-studio/add-agent-agent-to-agent)"
+    },
+    {
+      "number": 6,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],52:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\n3e:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n3f:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L30\",null,{\"group\":{\"id\":\"3865355b6e0c7a9c4ada9e16fd079c908d56a0f8f48e54d9e79c79a9bf4127fe\",\"type\":\"scenario\",\"title\":\"External Service Failure Handling\",\"content\":\"An agent uses a flow that calls an external service which can occasionally fail or time out.\n\nWhen a failure occurs, the agent must meet the following requirements:\n\n- Must not terminate silently.\n- Must send a notification containing the error details.\n- You need to configure the agent flow so that failures are handled in a controlled and predictable way.\"}}],[\"$\",\"$L3a\",null,{\"questionNumber\":2,\"questionId\":\"62a13479-4225-4b26-9e93-6e438d7f6984\",\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L4a\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":2,\"questionId\":\"62a13479-4225-4b26-9e93-6e438d7f6984\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":2,\"questionId\":\"62a13479-4225-4b26-9e93-6e438d7f6984\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-620/1\"}]}]]}]\n40:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n41:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L30\",null,{\"group\":{\"id\":\"6a542422d38f91b198d10ed21e04edc7ea7b8c506d67b9682be8c139c3dead0d\",\"type\":\"scenario\",\"title\":\"Copilot Studio Topic Prompt Governance\",\"content\":\"A company is configuring an agent in Copilot Studio that uses a generative answers node inside multiple topics.\n\nThe company requires responses to meet the following requirements:\n\n- Must use an executive summary format.\n- Must apply only within a specific topic.\n- Must continue using configured knowledge sources.\n- Must comply with connector security controls.\n- You need to configure a custom prompt to meet the formatting requirements.\"}}],[\"$\",\"$L3a\",null,{\"questionNumber\":3,\"questionId\":\"c34890b6-18da-420f-9271-3f73744f8f5c\",\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L4b\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":3,\"questionId\":\"c34890b6-18da-420f-9271-3f73744f8f5c\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":3,\"questionId\":\"c34890b6-18da-420f-9271-3f73744f8f5c\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-620/1\"}]}]]}]\n43:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n44:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Background\n\nBlue Yonder Airlines is a global carrier headquartered in Los Angeles, California, operating domestic and international flights. The company serves millions of passengers annually through its website, mobile app, and call centers. To improve customer service efficiency and reduce call center volume, Blue Yonder is deploying an AI agent in Microsoft Copilot Studio.\n\nThe agent will handle customer inquiries across multiple channels – web chat, mobile app, and Microsoft Teams (for internal support staff). It will answer questions, retrieve data from enterprise systems, and escalate to human agents when needed.\n\nThe project is led by a cross-function team:\n\n- Product manager: Defines requirements and success metrics.\n- Lead agent author: Designs topics, intents, and generative behavior.\n- Flow designers: Build agent flows and integrations.\n- IT/security and compliance: Oversees identity, data protection, and Responsible AI (RAI) compliance.\n\n## Current environment\n\n### Channels\n\nPublic website: Embedded web chat\n\nMobile app: In-app chatbot -\n\nMicrosoft Teams: Internal support agent access\n\n### Identity and access\n\nCustomers: Anonymous access for general inquiries (e.g., flight status, baggage policy).\n\nAuthentication is required for personal data access (e.g., bookings, loyalty points).\n\nInternal staff: Authenticate via Microsoft Entra ID.\n\n### Data sources\n\nReservation and Ticketing System (internal): REST API, no prebuilt connector with custom enterprise database.\n\nFlight Status and Weather APIs (external): REST APIs with API keys.\n\nCustomer Support Knowledge Base: SharePoint library with PDFs and policy documents.\n\nLoyalty Program Data: Stored in Dynamics 365 and Dataverse.\n\nTravel Advisory Content: Uses REST API with partner services.\n\n### Integration mechanisms\n\nCustom connectors must be used for internal APIs that lack prebuilt connectors.\n\nHTTP request nodes may be used for lightweight external APIs.\n\nKnowledge sources must be used for unstructured content.\n\nAgent flows must be used to encapsulate reusable logic (e.g., rebooking).\n\n### Business requirements\n\n### Omnichannel support\n\nDeploy the agent across web, mobile, and Teams with a consistent user experience. The Teams deployment must also support internal staff.\n\n### Self-service capabilities\n\nThe agent must handle common inquiries such as:\n\n### Flight status\n\n### Booking and rebooking\n\n### Loyalty program questions\n\nTravel policies and baggage rules\n\n### Human escalation\n\nIf the agent cannot resolve an issue or the user requests help, it must:\n\n- Escalate to a human agent.\n- Transfer the conversation transcript and relevant context.\n- Redact any sensitive personal data before escalation.\n\n### Knowledge integration\n\nThe agent must use scalable methods for knowledge integration and must not rely on manually authored Q&A topics for each document.\n\n### Performance metrics\n\nFirst-contact resolution: +25%\n\nTier-1 call deflection: ≥20%\n\nResponse time: 90% of queries answered within 30 seconds\n\nAccuracy: ≥95% for known FAQs -\n\nCSAT: ≥85% for AI-handled interactions\n\n### Technical requirements\n\n### Platform constraints\n\nNo custom code is permitted; only Copilot Studio's built-in tools may be used.\n\nAll backend logic must be implemented using agent flows.\n\nMarkdown must be used for formatting (e.g., bold, bullet points); HTML is not supported.\n\n### Authentication\n\nSign-in is required for personal data access.\n\nAnonymous access is allowed for general inquiries.\n\nUser identity must be used for data access; shared or builder credentials must not be used.\n\n### Compliance and security\n\nPower Platform DLP policies must be enforced to block unauthorized data flows.\n\nResponsible AI content moderation filters must be enabled.\n\nPrompt modifications must be added to enforce tone, disclaimers, and refusal behavior.\n\nDisclaimers must be applied consistently across all generative responses. Manual edits to individual topics must be avoided.\n\n### Monitoring and maintenance\n\nAll conversations and actions must be logged for auditing.\n\nWeekly reviews of transcripts and metrics must be conducted.\n\n### Issues and constraints\n\nAPI rate limits: External APIs (e.g., flight status) have usage limits. Agent flows must handle retries and caching to avoid exceeding quotas.\n\nKnowledge base limits: Copilot Studio has limits on the number and size of indexed documents. Large files must be split or summarized.\n\nGenerative answer risks: Generative responses must be constrained to avoid policy violations. Prompt modifications and filters must be used to enforce tone, safety, and compliance.\n\nUser input variability: Users phrase questions in diverse ways. Topics must include varied trigger phrases and fallback handling.\n\nAuthentication UX: The agent must clearly explain when sign-in is required and handle transitions smoothly across channels.\n\n## Problem statement\n\nBlue Yonder Airlines must deploy a secure, scalable, and policy-compliant AI agent using Microsoft Copilot Studio. The agent must deliver accurate, helpful, and safe responses across multiple channels, integrate with enterprise systems, and support both anonymous and authenticated users. It must adhere to strict data protection and Responsible AI standards while improving customer service efficiency and satisfaction.45:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L30\",null,{\"group\":{\"id\":\"89279c068fab48206a681a4d82df96da32bb9d389cc17ef57f6ac2b036c9ce89\",\"type\":\"case_study\",\"title\":\"Blue Yonder Airlines Omnichannel AI Agent\",\"content\":\"$4c\"}}],\"$L4d\",\"$L4e\"]}]\n47:[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]\n48:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Background\n\nFabrikam Inc. is a Canada-based manufacturer with a growing service organization that supports field technicians and internal operations teams. Fabrikam Inc. plans to launch a new internal agent solution named Operations Concierge to reduce time spent searching policy content, retrieving operational metrics, and executing routine transactions.\n\nThe agent will be used by three groups:\n\n- Service coordinators who triage incoming service requests\n- Field technicians who need guided procedures and parts availability\n- Operations managers who monitor KPIs and exceptions\n\nThe agent solution must work in real-world operational conditions. Users often ask questions mid-call with a customer or while coordinating parts shipments. The agents require quick, reliable outcomes. As a result, Fabrikam Inc. requires the solution to:\n\n- Provide grounded answers with traceability when it provides guidance.\n- Retrieve real-time metrics when users ask for operational status.\n- Execute authenticated updates when users initiate a flow (such as creating a parts request).\n\nFabrikam Inc. also expects the solution to be maintained by multiple makers and developers across the year. The company has experienced duplicated logic and inconsistent behavior across different agents. This project emphasizes reuse, governance, and maintainability across teams.\n\n## Current environment\n\nFabrikam Inc. runs three Microsoft Power Platform environments for agent development and release: Dev, Test, and Prod.\n\nThe team plans to build the agent and validate it in Dev and Test, then promote to Prod by using a controlled release process that supports repeatable deployments.\n\nFabrikam Inc. already has two assets the team wants to reuse:\n\n- A partially completed Copilot Studio agent named Service Desk Agent, used by IT to create internal tickets and route requests\n\nA Microsoft Foundry agent created by a central AI team that performs specialized summarization and classification for long-form text (for example, summarizing call transcripts into an incident narrative)\n\nFabrikam Inc. also has operational and knowledge data sources:\n\n- A curated policy library (internal SOPs, service warranty rules, escalation criteria, and standard operating procedures)\n- A set of indexed documents and procedures in an Azure AI Search service that supports vector search for the policy library\n- A Microsoft Fabric workspace that includes a semantic model used by operations leadership for reporting\n\n### Business requirements\n\nFabrikam Inc. requires Operations Concierge to meet the following business requirements:\n\n- Traceability requirement: When the agent provides policy guidance or procedural recommendations, users must be able to see where the answer came from.\n\nMetrics requirement: When users ask about service performance (backlog, SLA risk, parts shortages, dispatch delays), the solution must return up-to-date metrics in a structured format that operations managers can use in weekly reviews.\n\nTransaction requirement: The solution must support authenticated updates initiated during conversations, including creating a parts request and updating a service case status.\n\nIn addition, Fabrikam Inc. wants to avoid duplicating common assets across agents:\n\n- The team must reuse the same set of escalation topics, MCP tool definitions, and a standard safety disclaimer across three different agents.\n\nOnly the platform engineering group as allowed to edit shared assets. However, all agent authors must be able to use them.\n\n### Technical requirements\n\nThe Fabrikam Inc. solution architecture uses a multi-agent approach so that specialist responsibilities are isolated and can evolve independently.\n\nThe Operations Concierge (primary agent) must coordinate the following specialist capabilities:\n\n- Policy and procedure Q&A: Use an enterprise knowledge source that supports indexed retrieval across the curated policy library and service procedures.\n- Operational metrics: Delegate metric queries to a Fabric Data Agent that reads governed business data through the Fabric semantic model.\n- Authenticated updates: Use tools exposed by an existing internal Model Context Protocol (MCP) server that provides transactional operations for the service organization.\n- Specialized processing: Delegate summarization and classification requests to an existing Microsoft Foundry agent.\n\nFabrikam Inc. will onboard two MCP servers as tools:\n\nPartsOps MCP server: exposes tools for parts availability checks and parts request creation. The server requires per-user authentication because actions must be traceable to the requesting user.\n\nWarrantyRules MCP server: exposes a read-only tool for validating warranty coverage. The server uses an API key shared by the agent team.\n\nFabrikam Inc. has also defined a collaboration requirement with the existing Service Desk Agent:\n\n- The primary agent must delegate IT-specific requests to the existing Service Desk Agent rather than reimplement ticket creation logic.\n\nFinally, Fabrikarn Inc. plans to support a partner integration:\n\nFor shipment tracking inquiries, Fabrikam Inc. will delegate to a partner-provided agent that is only available through a standardized agent-to-agent endpoint.\n\n### Issues and constraints\n\nDuring early testing, Fabrikam Inc. found three recurring problems:\n\n- Makers are copying and modifying the same components across agents, resulting in inconsistent disclaimers and duplicated tools.\n- Users can obtain a correct answer, but the response is not consistently traceable to a source when the agent uses knowledge.\n\nThe primary agent can route some requests, but specialist capabilities are not consistently delegated (for example, some metric questions are answered generatively instead of being routed to the Fabric Data Agent).\n\nYou are part of the engineering team responsible for correcting the design and configuration to meet the preceding requirements and constraints.49:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L30\",null,{\"group\":{\"id\":\"ee0a5e48b1f1a3ab1378436d98b9f311b6d50ac6fa11af02267547801ec89c20\",\"type\":\"case_study\",\"title\":\"Fabrikam Multi-Agent Operations Concierge\",\"content\":\"$4f\"}}],\"$L50\",\"$L51\"]}]\n3b:[[\"$\",\"p\",null,{\"children\":[\"Solution: Configure \",[\"$\",\"strong\",null,{\"children\":\"run-after\"}],\" conditions for failure paths.\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Does this solution meet the goal?\"}],\"\n\",[\"$\",\"$L52\",null,{\"choices\":{\"A\":\"Yes\",\"B\":\"No\"},\"correctAnswer\":\"A\",\"explanation\":\"Run-after settings allow a flow to continue on a failure or timeout through a designated error-handling path. That path can send a notification with the failed action’s error details, providing controlled, non-silent failure handling.\n\n**Learn more:** [Employ robust error handling - Power Automate](https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling)\",\"trackingInfo\":{\"questionId\":\"927a1542-f35b-4947-84f7-b787431bd0fd\",\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"mode\":\"default\"}}]]\nYou need to deploy the Blue Yonder Copilot agent to the public website and Microsoft Teams while meeting the company’s security and Responsible AI requirements.  \n  \nWhich two actions should you take before making the agent available on both channels? Each correct answer presents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure prompt modifications to enforce tone, disclaimers, and refusal behavior at the system level."
+        },
+        {
+          "letter": "B",
+          "text": "Manually add disclaimers to each topic before publishing."
+        },
+        {
+          "letter": "C",
+          "text": "Embed the web channel and then rely on channel-level settings to enforce content moderation."
+        },
+        {
+          "letter": "D",
+          "text": "Configure Power Platform DLP policies to restrict unauthorized data connectors."
+        },
+        {
+          "letter": "E",
+          "text": "Publish the agent and then enable Responsible AI filters individually for each channel."
+        }
+      ],
+      "answer": null,
+      "explanation": "Prompt modifications provide centralized instructions for generative behavior, enabling consistent tone, disclaimers, and refusal behavior across responses. Power Platform DLP policies govern and restrict the connectors and data flows an agent can use, helping prevent unauthorized data exposure before the agent is published to its channels.\n\n**Learn more:** [Use prompt modification to provide custom instructions to your agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-generative-answers-prompt-modification) · [Configure data policies for agents](https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-data-loss-prevention)"
+    },
+    {
+      "number": 7,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L57\",\"$L58\",\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\"]\n4d:[\"$\",\"$L3a\",null,{\"questionNumber\":4,\"questionId\":\"6b05cfce-5d01-4d0c-a28e-ae45741fae92\",\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6a\"}]}]\n4e:[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":4,\"questionId\":\"6b05cfce-5d01-4d0c-a28e-ae45741fae92\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":4,\"questionId\":\"6b05cfce-5d01-4d0c-a28e-ae45741fae92\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-620/1\"}]}]\n50:[\"$\",\"$L3a\",null,{\"questionNumber\":5,\"questionId\":\"d1c78039-586e-4d98-96fb-edafb12304d6\",\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6b\"}]}]\n51:[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":5,\"questionId\":\"d1c78039-586e-4d98-96fb-edafb12304d6\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":5,\"questionId\":\"d1c78039-586e-4d98-96fb-edafb12304d6\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-620/1\"}]}]\n54:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n55:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n## Background\n\nBlue Yonder Airlines is a global carrier headquartered in Los Angeles, California, operating domestic and international flights. The company serves millions of passengers annually through its website, mobile app, and call centers. To improve customer service efficiency and reduce call center volume, Blue Yonder is deploying an AI agent in Microsoft Copilot Studio.\n\nThe agent will handle customer inquiries across multiple channels – web chat, mobile app, and Microsoft Teams (for internal support staff). It will answer questions, retrieve data from enterprise systems, and escalate to human agents when needed.\n\nThe project is led by a cross-function team:\n\n- Product manager: Defines requirements and success metrics.\n- Lead agent author: Designs topics, intents, and generative behavior.\n- Flow designers: Build agent flows and integrations.\n- IT/security and compliance: Oversees identity, data protection, and Responsible AI (RAI) compliance.\n\n## Current environment\n\n### Channels\n\nPublic website: Embedded web chat\n\nMobile app: In-app chatbot -\n\nMicrosoft Teams: Internal support agent access\n\n### Identity and access\n\nCustomers: Anonymous access for general inquiries (e.g., flight status, baggage policy).\n\nAuthentication is required for personal data access (e.g., bookings, loyalty points).\n\nInternal staff: Authenticate via Microsoft Entra ID.\n\n### Data sources\n\nReservation and Ticketing System (internal): REST API, no prebuilt connector with custom enterprise database.\n\nFlight Status and Weather APIs (external): REST APIs with API keys.\n\nCustomer Support Knowledge Base: SharePoint library with PDFs and policy documents.\n\nLoyalty Program Data: Stored in Dynamics 365 and Dataverse.\n\nTravel Advisory Content: Uses REST API with partner services.\n\n### Integration mechanisms\n\nCustom connectors must be used for internal APIs that lack prebuilt connectors.\n\nHTTP request nodes may be used for lightweight external APIs.\n\nKnowledge sources must be used for unstructured content.\n\nAgent flows must be used to encapsulate reusable logic (e.g., rebooking).\n\n### Business requirements\n\n### Omnichannel support\n\nDeploy the agent across web, mobile, and Teams with a consistent user experience. The Teams deployment must also support internal staff.\n\n### Self-service capabilities\n\nThe agent must handle common inquiries such as:\n\n### Flight status\n\n### Booking and rebooking\n\n### Loyalty program questions\n\nTravel policies and baggage rules\n\n### Human escalation\n\nIf the agent cannot resolve an issue or the user requests help, it must:\n\n- Escalate to a human agent.\n- Transfer the conversation transcript and relevant context.\n- Redact any sensitive personal data before escalation.\n\n### Knowledge integration\n\nThe agent must use scalable methods for knowledge integration and must not rely on manually authored Q&A topics for each document.\n\n### Performance metrics\n\nFirst-contact resolution: +25%\n\nTier-1 call deflection: ≥20%\n\nResponse time: 90% of queries answered within 30 seconds\n\nAccuracy: ≥95% for known FAQs -\n\nCSAT: ≥85% for AI-handled interactions\n\n### Technical requirements\n\n### Platform constraints\n\nNo custom code is permitted; only Copilot Studio's built-in tools may be used.\n\nAll backend logic must be implemented using agent flows.\n\nMarkdown must be used for formatting (e.g., bold, bullet points); HTML is not supported.\n\n### Authentication\n\nSign-in is required for personal data access.\n\nAnonymous access is allowed for general inquiries.\n\nUser identity must be used for data access; shared or builder credentials must not be used.\n\n### Compliance and security\n\nPower Platform DLP policies must be enforced to block unauthorized data flows.\n\nResponsible AI content moderation filters must be enabled.\n\nPrompt modifications must be added to enforce tone, disclaimers, and refusal behavior.\n\nDisclaimers must be applied consistently across all generative responses. Manual edits to individual topics must be avoided.\n\n### Monitoring and maintenance\n\nAll conversations and actions must be logged for auditing.\n\nWeekly reviews of transcripts and metrics must be conducted.\n\n### Issues and constraints\n\nAPI rate limits: External APIs (e.g., flight status) have usage limits. Agent flows must handle retries and caching to avoid exceeding quotas.\n\nKnowledge base limits: Copilot Studio has limits on the number and size of indexed documents. Large files must be split or summarized.\n\nGenerative answer risks: Generative responses must be constrained to avoid policy violations. Prompt modifications and filters must be used to enforce tone, safety, and compliance.\n\nUser input variability: Users phrase questions in diverse ways. Topics must include varied trigger phrases and fallback handling.\n\nAuthentication UX: The agent must clearly explain when sign-in is required and handle transitions smoothly across channels.\n\n## Problem statement\n\nBlue Yonder Airlines must deploy a secure, scalable, and policy-compliant AI agent using Microsoft Copilot Studio. The agent must deliver accurate, helpful, and safe responses across multiple channels, integrate with enterprise systems, and support both anonymous and authenticated users. It must adhere to strict data protection and Responsible AI standards while improving customer service efficiency and satisfaction.56:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L30\",null,{\"group\":{\"id\":\"89279c068fab48206a681a4d82df96da32bb9d389cc17ef57f6ac2b036c9ce89\",\"type\":\"case_study\",\"title\":\"Blue Yonder Airlines Omnichannel AI Agent\",\"content\":\"$6c\"}}],\"$L6d\",\"$L6e\"]}]\nYou need to configure Operations Concierge so that its prompt-based summarization behavior meets Fabrikam Inc.'s architectural requirements.  \n  \nWhich two actions should you take? Each correct answer represents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure Azure AI Search as the grounding source for summarization prompts."
+        },
+        {
+          "letter": "B",
+          "text": "Publish the agent to ensure the selected model is enforced for summarization."
+        },
+        {
+          "letter": "C",
+          "text": "Select a model from the Foundry model catalog in the custom prompt configuration."
+        },
+        {
+          "letter": "D",
+          "text": "Enable citations to control how summarization output is generated."
+        },
+        {
+          "letter": "E",
+          "text": "Create a reusable custom prompt template and apply it where summarization responses are generated."
+        }
+      ],
+      "answer": null,
+      "explanation": "A reusable custom prompt template centralizes the summarization instructions so the same behavior can be applied consistently wherever summaries are generated. Selecting a model from the Microsoft Foundry model catalog in that custom prompt determines the model used whenever the prompt runs.\n\n**Learn more:** [Bring your own model for your prompts](https://learn.microsoft.com/en-us/microsoft-copilot-studio/bring-your-own-model-prompts) · [Use prompts to make your agent or agent flow perform specific tasks](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-prompt-node)"
+    },
+    {
+      "number": 8,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company is developing an agent in Copilot Studio.  \n  \nThe agent must satisfy these requirements:  \n  \n- Responses must be grounded in approved internal content.  \n- The agent must be able to retrieve information from configured data sources within a topic.  \n  \nYou need to configure the agent so that responses in a topic are grounded using custom data sources.  \n  \nWhat should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable analytics to review which topics users trigger most often."
+        },
+        {
+          "letter": "B",
+          "text": "Add a custom prompt that tells the agent to answer only from company data."
+        },
+        {
+          "letter": "C",
+          "text": "Configure knowledge sources in a generative answers node."
+        },
+        {
+          "letter": "D",
+          "text": "Add SharePoint as a knowledge source only at the agent level."
+        },
+        {
+          "letter": "E",
+          "text": "Increase the response length limit to improve answer completeness."
+        }
+      ],
+      "answer": null,
+      "explanation": "A generative answers node lets a topic retrieve and ground responses in configured knowledge sources, including custom data. Knowledge sources configured at the node level take precedence over agent-level knowledge sources, enabling topic-specific grounding.\n\n**Learn more:** [Use a custom data source for generative answers nodes](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-generative-answers-custom-data) · [Add a generative answers node](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-boost-node)"
+    },
+    {
+      "number": 9,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You must ensure that every AI-generated response from the Copilot Studio agent contains a disclaimer that complies with the company's security and governance policies.  \n  \nWhich two actions should you take? Each correct answer presents part of the solution.  \n  \n&gt; **NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add a greeting message that includes the disclaimer."
+        },
+        {
+          "letter": "B",
+          "text": "Add a prompt modification in the generative answers node settings."
+        },
+        {
+          "letter": "C",
+          "text": "Create a disclaimer topic that always runs first."
+        },
+        {
+          "letter": "D",
+          "text": "Disable generative answers and use only pre-authored responses."
+        },
+        {
+          "letter": "E",
+          "text": "Edit every topic's first message to include the disclaimer."
+        }
+      ],
+      "answer": null,
+      "explanation": "Prompt modification supplies custom instructions that control the content and format of generated answers, so it can require the disclaimer in generated output. A disclaimer topic that runs first presents the required disclosure consistently at the beginning of the agent interaction, without manually changing individual topics. Microsoft documents that prompt modification adds custom instructions to generative answers and can define what the agent should include in its responses.\n\n**Learn more:** [Use prompt modification to provide custom instructions to your agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-generative-answers-prompt-modification) · [Use system topics](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-system-topics)"
+    },
+    {
+      "number": 10,
+      "domain": "Test and manage agents",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An agent invokes a flow that intermittently yields unexpected results while it runs. The agent’s behavior is inconsistent.  \n  \nYou need to investigate the agent flow executions in order to diagnose the issue. Which two actions should you take? Each correct answer provides a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inspect failed run details."
+        },
+        {
+          "letter": "B",
+          "text": "Update the flow trigger definition."
+        },
+        {
+          "letter": "C",
+          "text": "Check the Error column in the Activity tab."
+        },
+        {
+          "letter": "D",
+          "text": "Review flow analytics summary."
+        },
+        {
+          "letter": "E",
+          "text": "Review flow run history."
+        },
+        {
+          "letter": "F",
+          "text": "Increase the connector timeout."
+        }
+      ],
+      "answer": null,
+      "explanation": "Agent-flow run history exposes individual executions and their statuses. Opening a failed run supplies the detailed activity needed to troubleshoot the execution; the Activity tab is intended for viewing run history and selecting a run to troubleshoot. Analytics summarizes aggregate activity and performance trends rather than providing execution-level diagnostic details.\n\n**Learn more:** [Monitor your agent flows](https://learn.microsoft.com/en-us/microsoft-copilot-studio/flow-manage-monitor) · [Troubleshoot a cloud flow](https://learn.microsoft.com/en-my/power-automate/fix-flow-failures)"
+    },
+    {
+      "number": 11,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team is standardizing ALM for agents in Copilot Studio.  \n  \nThe team requires a custom solution that contains agents. The solution must support ALM scenarios, including managing and moving agent assets between environments and pipeline deployments.  \n  \nYou need to create an ALM-ready custom solution in Copilot Studio.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Publish the agent to a channel and use that channel configuration as the ALM container."
+        },
+        {
+          "letter": "B",
+          "text": "Create a new custom solution from the Solutions area."
+        },
+        {
+          "letter": "C",
+          "text": "Export the custom solution as a managed solution and import it into production."
+        },
+        {
+          "letter": "D",
+          "text": "Export the agent directly and then import it into another environment."
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot Studio agents are managed for cross-environment ALM and pipeline deployment through Power Platform custom solutions. Create the solution in the Copilot Studio Solutions area; it becomes the container for the agents and their assets, which can subsequently be exported, imported, and deployed through pipelines.\n\n**Learn more:** [Create and manage solutions in Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-overview)"
+    },
+    {
+      "number": 12,
+      "domain": "Test and manage agents",
+      "question": "Solution: Retry the failing action without handling the failure.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A retry policy can recover from temporary service or network faults, but it does not itself handle an action that still fails after its retry attempts. Controlled handling requires a failure path—such as a run-after or catch scope—that captures the error details and sends the required notification.\\\n\\\n**Learn more:** [Employ robust error handling - Power Automate](https://learn.microsoft.com/en-us/power-automate/guidance/coding-guidelines/error-handling)"
+    },
+    {
+      "number": 13,
+      "domain": "Test and manage agents",
+      "question": "Solution: In the specific topic, create a custom prompt tool that directs the model to respond using an executive-summary structure.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A custom prompt tool is a separate AI action and does not inherently use the knowledge sources configured on a generative answers node. Formatting instructions that must apply only to a particular topic while retaining the node’s configured knowledge sources should be configured as custom instructions on that topic’s generative answers node.\\\n\\\n**Learn more:** [Use prompt modification to provide custom instructions to your agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-generative-answers-prompt-modification) · [Use generative answers in a topic](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-boost-node)"
+    },
+    {
+      "number": 14,
+      "domain": "Test and manage agents",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company must enable an agent in Copilot Studio to execute operations exposed by an external MCP server.  \n\nThe MCP server publishes callable tools and requires authentication.  \n\nThe agent must be able to invoke MCP tools during conversations.  \n\nYou need to configure MCP tools so the agent can execute MCP tool calls.  \n\nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable generative answers so the model can automatically invoke MCP tools."
+        },
+        {
+          "letter": "B",
+          "text": "Add a Power Platform connector as real-time knowledge to replace MCP tools."
+        },
+        {
+          "letter": "C",
+          "text": "Add the MCP server output as an indexed knowledge source."
+        },
+        {
+          "letter": "D",
+          "text": "Configure authentication for the MCP server connection used by the agent."
+        }
+      ],
+      "answer": null,
+      "explanation": "In Copilot Studio, connecting an agent to an external MCP server as a callable tool source requires configuring authentication for that MCP server connection, such as an API key or OAuth credential, so the platform can establish an authenticated session; without a properly configured authentication method the connection cannot be established and the agent cannot invoke the server's published tools during a conversation."
+    },
+    {
+      "number": 15,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An agent in Copilot Studio must complete tasks by automating interactions with a legacy desktop application that has no APIs.  \n  \nDuring testing, the builder must verify that the automation runs in a supported execution context and can inspect how every automation step executes during conversations.  \n  \nTo meet the business requirements, the solution must:  \n  \n- Execute UI automation in a supported, platform-managed environment.  \n- Provide visibility into how automation steps execute during agent conversations.  \n  \nYou need to configure the agent according to the requirements.  \n  \nWhich two actions should you perform? Each correct answer presents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Publish the agent so automation settings are applied at runtime."
+        },
+        {
+          "letter": "B",
+          "text": "Inspect automation execution details by using the agent runtime view."
+        },
+        {
+          "letter": "C",
+          "text": "Enable computer use for the agent so UI automation runs in the supported execution environment."
+        },
+        {
+          "letter": "D",
+          "text": "Add the desktop application as a knowledge source so the agent can reference its UI structure."
+        },
+        {
+          "letter": "E",
+          "text": "Configure a custom connector to simulate UI interactions through REST calls."
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot Studio computer use automates websites and desktop applications through UI interactions, including scenarios where no API exists, and it runs on supported Windows execution options. Agent activity/run details provide an activity map and transcript that expose the automation's step-by-step execution during a conversation.\n\n**Learn more:** [Configure where computer use runs - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/configure-where-computer-use-runs) · [Monitor computer use - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/monitor-computer-use)"
+    },
+    {
+      "number": 16,
+      "domain": "Integrate and extend agents in Copilot Studio",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team is building an agent in Copilot Studio and wants to assess its behavior before extending access.  \n  \nThe team requires a repeatable, consistent way to test the agent through predefined interactions. You must ensure that agent responses can be assessed consistently across multiple test runs.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Review evaluation scores from previous production sessions."
+        },
+        {
+          "letter": "B",
+          "text": "Enable telemetry and analytics to monitor intent matches, fallback usage, and response frequency."
+        },
+        {
+          "letter": "C",
+          "text": "Define test sets of prompts and expectations."
+        },
+        {
+          "letter": "D",
+          "text": "Change the evaluation method to a qualitative approach."
+        },
+        {
+          "letter": "E",
+          "text": "Publish the agent to additional channels for broader usage."
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot Studio test sets group predefined test cases, such as prompts or conversations, with expected responses or other evaluation criteria. Running the same test set repeatedly sends the same cases to the agent and produces comparable scored results, enabling consistent evaluation across test runs.\n\n**Learn more:** [About agent evaluation - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-agent-evaluation-intro) · [Run evaluations and view results - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-agent-evaluation-results)"
+    },
+    {
+      "number": 26,
+      "domain": "Plan and configure agent solutions",
+      "question": "Solution: Remove the generative answers node and rely only on the custom prompt to produce formatted responses.  \n\nDoes the solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The generative answers node in Copilot Studio is the mechanism that both retrieves data from configured knowledge sources and enforces the tenant's connector and data-loss-prevention security controls when generating a response; it is also where a topic-scoped custom prompt (for example, requesting an executive-summary format) is applied. Removing the node eliminates the governed integration with those knowledge sources and security controls, so relying on a standalone custom prompt without the generative answers node would not continue to use the configured knowledge sources or comply with connector security controls."
+    },
+    {
+      "number": 27,
+      "domain": "Test and manage agents",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An agent in a Copilot Studio solution is moved between environments. The agent depends on configuration values that differ by environment and are managed as environment variables.  \n  \nYou must ensure the following:  \n  \n- Configuration values are managed through environment variables that support ALM.  \n- Runtime behavior reflects updates to environment-variable values.  \n  \nYou need to implement environment-variable use that supports ALM and ensures correct runtime behavior.  \n  \nWhich three actions should you take? Each correct answer presents part of the solution.  \n  \n&gt; NOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Replace environment variables with hard-coded values inside the agent so that runtime behavior is always consistent across environments."
+        },
+        {
+          "letter": "B",
+          "text": "Allow builders to change environment variable values directly in Copilot Studio during topic authoring to speed deployment."
+        },
+        {
+          "letter": "C",
+          "text": "Use environment variables as read-only in Copilot Studio and change their values in the appropriate administrative authoring experience."
+        },
+        {
+          "letter": "D",
+          "text": "Store external reference values as environment variables so the agent solution can move between environments while keeping the agent definition the same."
+        },
+        {
+          "letter": "E",
+          "text": "Assume that all environment variable updates take effect immediately at runtime for all variable types without republishing."
+        },
+        {
+          "letter": "F",
+          "text": "After an administrator updates a non-secret environment variable, republish any agents that use the variable so the change is effective at runtime."
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot Studio environment variables are read-only in Copilot Studio and are changed by administrators in Power Apps. They support ALM by keeping environment-specific external references separate from the agent definition during solution migration. Non-secret environment-variable values are included when an agent is published; after an administrator changes one, each affected agent must be republished for the new value to take effect at runtime.\n\n**Learn more:** [Variables overview - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-variables-about)"
+    },
+    {
+      "number": 28,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A Copilot Studio agent is assessed with a fixed test set and an automated evaluation method.  \n  \nAfter the evaluation runs, the team finds that the same three interactions fail on every run, whereas all other interactions pass consistently.  \n  \nYou need to use the evaluation results to identify an accurate conclusion.  \n  \nWhat should you conclude from the evaluation results?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The agent's overall design is flawed and requires a full redesign."
+        },
+        {
+          "letter": "B",
+          "text": "The failing interactions are caused by an issue in the underlying language model."
+        },
+        {
+          "letter": "C",
+          "text": "The outcomes isolate which portions of the agent's functional scope require remediation."
+        },
+        {
+          "letter": "D",
+          "text": "The agent should not be deployed."
+        }
+      ],
+      "answer": null,
+      "explanation": "Consistent failures in particular test cases localize the problem to the corresponding portions of the agent’s functional scope, enabling targeted triage and remediation. Copilot Studio records pass/fail results for each test case and provides the response, analysis, and resources used, so isolated failures do not by themselves prove a language-model issue, require a complete redesign, or preclude deployment.\n\n**Learn more:** [Run evaluations and view results - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-agent-evaluation-results) · [Improve agents using evaluation-driven triage and remediation - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/evaluation-triage-overview)"
+    },
+    {
+      "number": 29,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\",\"$L6a\",\"$L6b\"]\n56:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n57:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n58:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L37\",null,{\"questionNumber\":31,\"questionId\":\"779b2581-702e-40bd-946f-09974d2addaa\",\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6c\"}]}],[\"$\",\"$L39\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":31,\"questionId\":\"779b2581-702e-40bd-946f-09974d2addaa\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L3a\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":31,\"questionId\":\"779b2581-702e-40bd-946f-09974d2addaa\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-620/2\"}]}]]}]\nA company uses a Copilot Studio agent to coordinate interactions with users.  \n  \nThe company wants the agent to delegate requests to a Microsoft Fabric Data Agent that accesses governed business data. The agent must retrieve structured analytical data while enforcing data-security and scope controls.  \n  \nYou need to choose the integration approach that fulfills the requirements. What should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A Microsoft Fabric Data Agent and bind it to the model."
+        },
+        {
+          "letter": "B",
+          "text": "A REST API action that queries Fabric tables directly."
+        },
+        {
+          "letter": "C",
+          "text": "A Power Automate flow and call it from a topic."
+        },
+        {
+          "letter": "D",
+          "text": "A Copilot connector knowledge source that indexes Fabric data."
+        }
+      ],
+      "answer": null,
+      "explanation": "A Microsoft Fabric Data Agent connected to the Copilot Studio agent provides agent-to-agent delegation for natural-language access to structured Fabric data. It remains focused on read-only governed data access, and Microsoft Purview data-access controls and sensitivity policies apply to the underlying data sources the agent queries.\n\n**Learn more:** [Connect to a Microsoft Fabric Data agent (preview)](https://learn.microsoft.com/en-us/microsoft-copilot-studio/add-agent-fabric-data-agent) · [Fabric data agent creation](https://learn.microsoft.com/en-us/fabric/data-science/concept-data-agent)"
+    },
+    {
+      "number": 30,
+      "domain": "Test and manage agents",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$L72\"]}]]}],\"$L73\"]}],false]}]\nA team has an existing agent in Copilot Studio that must be moved to another target location without rebuilding the agent. Some builders use Copilot Studio in the web app, while others use Copilot Studio in Microsoft Teams.  \n  \nYou need a supported ALM approach for moving the existing agent to the target location without rebuilding it.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Remove agent components directly from the solution so that export and import will succeed."
+        },
+        {
+          "letter": "B",
+          "text": "Duplicate the agent in the source and manually recreate the changes in the target to avoid solution dependencies."
+        },
+        {
+          "letter": "C",
+          "text": "Create a custom solution, add the existing agent to the solution, export the solution with the agent, and import the solution into the target environment."
+        },
+        {
+          "letter": "D",
+          "text": "Publish the agent to a channel and use the channel configuration as the transport mechanism to the target environment."
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot Studio moves existing agents between environments through Power Platform solutions: create a custom solution, add the existing agent, export the solution, and import it into the target environment. This preserves the agent for an ALM deployment rather than requiring recreation.\n\n**Learn more:** [Export and import agents using solutions - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-import-export)"
+    },
+    {
+      "number": 31,
+      "domain": "Test and manage agents",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An agent in Copilot Studio needs to retrieve real-time data from an external system that exposes a REST API. The API returns structured JSON data and requires authentication. The agent must invoke the API during conversations to fulfill user requests.  \n  \nThe agent must obtain real-time data from the external system by calling an authenticated REST API during a conversation. The solution must use a supported mechanism that executes the REST API call, and the call must be explicitly configured to run at runtime.  \n  \nYou need to identify which approaches add the REST API to the agent.  \n  \nWhich two solutions meet the goal? Each correct answer is a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure an HTTP action and invoke it from a topic during the conversation."
+        },
+        {
+          "letter": "B",
+          "text": "Create a topic variable and use a Formula to parse the API endpoint string."
+        },
+        {
+          "letter": "C",
+          "text": "Add the REST API as a tool and call it either by using a topic or agent instruction."
+        },
+        {
+          "letter": "D",
+          "text": "Add the REST API as a knowledge source so the agent can query it during conversations."
+        },
+        {
+          "letter": "E",
+          "text": "Enable generative answers and rely on the model to fetch the REST API data automatically."
+        },
+        {
+          "letter": "F",
+          "text": "Create a global variable to store the API URL and call it using a Redirect node."
+        }
+      ],
+      "answer": null,
+      "explanation": "An HTTP Request node can be placed in a topic and configured with the REST endpoint, method, headers, and authentication so that the topic executes the call during the conversation. A REST API can also be added as an agent tool using an API specification and authentication, then invoked explicitly from a topic or used by the agent at runtime. Knowledge sources and variables do not execute API operations, and generative answers do not automatically make authenticated REST calls.\n\n**Learn more:** [Make HTTP requests - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-http-node) · [Add tools to custom agents - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/add-tools-custom-agent)"
+    },
+    {
+      "number": 32,
+      "domain": "Integrate and extend agents in Copilot Studio",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You must configure the Blue Yonder Copilot agent’s responses to meet the company’s content-control and platform requirements.  \n  \nWhich two actions should you take? Each correct answer represents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add required disclaimer text inside each individual topic."
+        },
+        {
+          "letter": "B",
+          "text": "Configure prompt instructions that include disclaimer text."
+        },
+        {
+          "letter": "C",
+          "text": "Use Markdown syntax within response content."
+        },
+        {
+          "letter": "D",
+          "text": "Insert HTML formatting directly into topic responses."
+        },
+        {
+          "letter": "E",
+          "text": "Duplicate disclaimer text across reusable topics."
+        }
+      ],
+      "answer": null,
+      "explanation": "Prompt instructions can centrally direct generative responses to include required disclaimer text, which supports consistent application without manually editing individual topics. Markdown is the required supported formatting method; HTML formatting is not supported.\n\n**Learn more:** [Use prompt modification to provide custom instructions to your agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-generative-answers-prompt-modification) · [Configure high-quality instructions for generative orchestration](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/generative-mode-guidance)"
+    },
+    {
+      "number": 33,
+      "domain": "Integrate and extend agents in Copilot Studio",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses multiple Copilot Studio agents that carry out specialized tasks.  \n  \nThe company must allow one agent to directly delegate to and invoke another agent within Copilot Studio by using a standard Copilot Studio interface.  \n  \nYou need to configure collaboration between agents by using Copilot Studio.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add the target agent as a Microsoft Fabric Data Agent."
+        },
+        {
+          "letter": "B",
+          "text": "Provide A2A endpoint information for the target agent."
+        },
+        {
+          "letter": "C",
+          "text": "Upload documentation about the target agent for referencing."
+        },
+        {
+          "letter": "D",
+          "text": "Add the target agent as an indexed knowledge source."
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot Studio uses an Agent2Agent (A2A) connection to delegate tasks to another agent. Creating this connection requires the target agent’s A2A communication endpoint URL; knowledge sources, uploaded documentation, and Fabric Data Agents do not configure agent invocation.\n\n**Learn more:** [Connect to an agent over the Agent2Agent (A2A) protocol - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/add-agent-agent-to-agent)"
+    },
+    {
+      "number": 34,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You create a test set in Copilot Studio to evaluate an agent that answers policy questions and retrieves data from connected knowledge sources.  \n  \nYou run the evaluation and review this result for one test case:  \n  \nExpected response: Digital products are non-refundable after download.  \n  \nActual response: Digital products cannot be refunded once downloaded.  \n  \nResult: Pass -  \n  \nScore: 0.92 -  \n  \nReasoning: The actual response semantically matches the expected response.  \n  \nKnowledge sources used: RefundPolicy_KB  \n  \nTools invoked: None -  \n  \nYou need to decide whether further corrective action is required based on the evaluation results.  \n  \nWhich two actions should you perform? Each correct answer presents a complete solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Investigate external tool configuration for this test case."
+        },
+        {
+          "letter": "B",
+          "text": "Rerun the evaluation because the score is below 1.00."
+        },
+        {
+          "letter": "C",
+          "text": "Accept the result because semantic matching is sufficient for a passing evaluation."
+        },
+        {
+          "letter": "D",
+          "text": "Confirm that the connected knowledge source is functioning as expected."
+        },
+        {
+          "letter": "E",
+          "text": "Modify the test case because the response is not an exact match."
+        }
+      ],
+      "answer": null,
+      "explanation": "A passing semantic evaluation accepts meaning-equivalent wording rather than requiring an exact textual match. The response correctly conveys that downloaded digital products cannot be refunded. The reported use of RefundPolicy_KB should be confirmed because evaluation results identify the knowledge resources used by the agent; no tool-configuration investigation is warranted when no tool was invoked.\n\n**Learn more:** [Run evaluations and view results - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-agent-evaluation-results) · [Change the details of a test set - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-agent-evaluation-edit)"
+    },
+    {
+      "number": 35,
+      "domain": "Integrate and extend agents in Copilot Studio",
+      "question": "Solution: Builders can directly modify environment variable values in Copilot Studio to finish ALM configuration without using administrative tools.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Environment variables enable ALM across Power Platform environments, but they are read-only in Copilot Studio. Builders cannot modify their values directly in Copilot Studio; administrators change the values through Power Apps.\\\n\\\n**Learn more:** [Environment variables overview — Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-variables-about)"
+    },
+    {
+      "number": 51,
+      "domain": "Plan and configure agent solutions",
+      "question": "Solution: Add instructions to the custom prompt tool that restrict connector access at runtime.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Custom-prompt instructions are used to shape generated output, such as requiring an executive-summary format. Connector access is governed by tool configuration, authentication, and platform security controls, not by natural-language instructions in a custom prompt. The proposed configuration therefore does not meet the formatting requirement.\\\n\\\n**Learn more:** [Add tools to custom agents - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/add-tools-custom-agent) · [Key concepts - Copilot Studio security and governance](https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance)"
+    },
+    {
+      "number": 52,
+      "domain": "Plan and configure agent solutions",
+      "question": "Solution: Add instructions to the custom prompt tool that restrict connector access at runtime.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Publish the agent to apply the Foundry model selection automatically."
+        },
+        {
+          "letter": "B",
+          "text": "Configure Azure AI Search as the grounding source, so the model choice is enforced."
+        },
+        {
+          "letter": "C",
+          "text": "Allow topic authors to define tone and structure directly in topic steps."
+        },
+        {
+          "letter": "D",
+          "text": "Select a model from the Foundry model catalog for the custom prompt configuration."
+        },
+        {
+          "letter": "E",
+          "text": "Create a custom prompt template and apply it where the agent generates the structured response."
+        },
+        {
+          "letter": "F",
+          "text": "Enable citations, so the model is restricted to approved outputs."
+        }
+      ],
+      "answer": null,
+      "explanation": "A custom prompt provides reusable instructions that govern the structure and tone of generated output and can be applied at the point where the structured response is generated. Copilot Studio lets a prompt be connected to and configured with a model from the Microsoft Foundry/Azure AI Foundry model catalog; each execution of that prompt uses the selected model.\n\n**Learn more:** [Bring your own model for your prompts - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/bring-your-own-model-prompts) · [Generate AI-Powered Agent Responses Using Generative Answers in Microsoft Copilot Studio](https://learn.microsoft.com/en-us/training/modules/generate-ai-powered-responses-generative-answers-copilot-studio/)"
+    },
+    {
+      "number": 53,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company is configuring generative answers for an agent in Copilot Studio.  \n  \nThe agent must use Azure AI Search to retrieve enterprise content, and every response must be generated by a Microsoft Foundry model. The agent sometimes produces answers that are not grounded in Azure AI Search content. The company requires the agent to generate responses only when relevant indexed content is retrieved.  \n  \nYou need to configure the agent so its generative-answer behavior meets the organization’s requirements.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use Azure AI Search as a tailback source and enable answer expansion."
+        },
+        {
+          "letter": "B",
+          "text": "Upload documents into the agent and disable fallback responses."
+        },
+        {
+          "letter": "C",
+          "text": "Require grounding for generative answers and use Azure AI Search as the retrieval source."
+        },
+        {
+          "letter": "D",
+          "text": "Enable citations and configure a public model endpoint."
+        },
+        {
+          "letter": "E",
+          "text": "Enable conversational boosting and select a Foundry-approved model."
+        }
+      ],
+      "answer": null,
+      "explanation": "Requiring grounding prevents the agent from returning a generative response when no knowledge source is used for that turn; the fallback behavior is triggered instead. Configuring Azure AI Search as the retrieval source supplies the required indexed enterprise content, while the Azure OpenAI connection in Microsoft Foundry supplies the model used to generate grounded answers.\n\n**Learn more:** [Knowledge sources summary - Microsoft Copilot Studio](https://learn.microsoft.com/en-in/microsoft-copilot-studio/knowledge-copilot-studio) · [Connect your data to Azure OpenAI for generative answers (preview)](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-generative-answers-azure-openai)"
+    },
+    {
+      "number": 54,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company is deploying an agent for its employees.  \n  \nThe company has these requirements:  \n  \n- Access must be limited to internal employees only.  \n- End-user authentication must be required.  \n  \nYou need to configure the agent to meet the company requirements.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Select Authenticate with Microsoft Entra ID for the agent."
+        },
+        {
+          "letter": "B",
+          "text": "Enable Require Secure Access in the Web channel security."
+        },
+        {
+          "letter": "C",
+          "text": "Publish the agent as a public website experience."
+        },
+        {
+          "letter": "D",
+          "text": "Select Authenticate with personal account for the agent."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Entra ID authentication requires users to sign in with their organization-managed identities, enabling authenticated access for internal employees. Copilot Studio documents Microsoft authentication as Microsoft Entra ID authentication for agent users and recommends authentication when an agent is used within an organization or for specified users.\n\n**Learn more:** [Configure user authentication in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-end-user-authentication) · [Configure user authentication with Microsoft Entra ID](https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-authentication-azure-ad?tabs=fic-auth)"
+    },
+    {
+      "number": 55,
+      "domain": "Integrate and extend agents in Copilot Studio",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An agent invokes a flow and requires structured output values in return. The agent receives unexpected or blank values. You need to configure the agent so data is exchanged correctly between the agent and the flow.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Validate parameter definitions."
+        },
+        {
+          "letter": "B",
+          "text": "Change the trigger schema."
+        },
+        {
+          "letter": "C",
+          "text": "Review the flow run history."
+        },
+        {
+          "letter": "D",
+          "text": "Add a Parse JSON inside the flow."
+        },
+        {
+          "letter": "E",
+          "text": "Republish the agent."
+        }
+      ],
+      "answer": null,
+      "explanation": "Input and output parameter definitions form the contract between an agent and its flow. The flow must expose compatible parameters and map output values through the **Respond to the agent** action; mismatched names, types, or mappings can produce blank or unexpected results. [Create an agent flow as a tool — Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-flow-create)\n\n**Learn more:** [Create an agent flow as a tool — Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-flow-create) · [Call an agent flow from an agent — Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-use-flow)"
+    },
+    {
+      "number": 56,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L58\",\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\",\"$L6a\"]\n54:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}]\n55:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n56:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n57:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L35\",null,{\"questionNumber\":56,\"questionId\":\"9187d148-0be3-488d-9305-443421798adc\",\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6b\"}]}],[\"$\",\"$L37\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":56,\"questionId\":\"9187d148-0be3-488d-9305-443421798adc\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L38\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-620\",\"questionNumber\":56,\"questionId\":\"9187d148-0be3-488d-9305-443421798adc\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-620/3\"}]}]]}]\nA company uses a Copilot Studio agent that generates structured responses by using a reusable instruction template. The responses follow the mandated tone and format. During a compliance review, the team finds that the responses were generated by a model that is not on the approved list.  \n  \nThe company requires that the reusable instruction template remain in use and that the model used for prompt-driven responses satisfies governance requirements. The solution must ensure that prompt-driven responses are generated by an approved model.  \n  \nYou need to configure a solution that meets the requirements.  \n  \nWhich two actions should you perform? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Publish the agent so that the model used by prompt-driven responses is updated automatically."
+        },
+        {
+          "letter": "B",
+          "text": "Enable citations so generated responses can be traced and comply with governance requirements."
+        },
+        {
+          "letter": "C",
+          "text": "Add a line to the instruction template that requires the agent to use only approved models when generating responses."
+        },
+        {
+          "letter": "D",
+          "text": "Configure Azure AI Search as the grounding source so the approved model requirement is enforced during response generation."
+        },
+        {
+          "letter": "E",
+          "text": "Ensure the reusable instruction template is the one applied to the agent that generates the structured response."
+        }
+      ],
+      "answer": null,
+      "explanation": "A reusable prompt or instruction template must be applied to the agent that generates the structured response, preserving its required tone and output format. Publishing deploys the agent configuration so its prompt-driven behavior is used by the deployed agent. Model governance is implemented through prompt model selection; citations, prompt wording, and an Azure AI Search grounding source do not themselves control the model used for generation.\n\n**Learn more:** [Change the model version and settings - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/prompt-model-settings) · [Bring your own model for your prompts - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/bring-your-own-model-prompts)"
+    },
+    {
+      "number": 57,
+      "domain": "Plan and configure agent solutions",
+      "question": "Solution: To export, import, and manage agents across environments, you must create and use a custom solution.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Custom Power Platform solutions provide the ALM mechanism for Copilot Studio agents. An agent can be added to a custom solution, which can then be exported and imported into another environment to manage and transport the agent and its included components.\\\n\\\n**Learn more:** [Export and import agents using solutions](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-import-export) · [Create and manage solutions in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-overview)"
+    },
+    {
+      "number": 58,
+      "domain": "Integrate and extend agents in Copilot Studio",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An agent already exists in a Copilot Studio development environment.  \n  \nYou must prepare the agent for transfer to a production environment by using the supported solution-based method.  \n  \nYou need to create an exportable package that includes the existing agent.  \n  \nWhich two actions should you take? Each correct answer represents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Remove agent topics directly from the solution to prevent export errors."
+        },
+        {
+          "letter": "B",
+          "text": "Convert the solution to a managed solution so it can be exported."
+        },
+        {
+          "letter": "C",
+          "text": "Export the unmanaged solution that contains the agent."
+        },
+        {
+          "letter": "D",
+          "text": "Publish the agent to a channel and export the channel configuration."
+        },
+        {
+          "letter": "E",
+          "text": "Create a custom solution and add the existing agent to the solution."
+        }
+      ],
+      "answer": null,
+      "explanation": "To move an existing Copilot Studio agent across environments, create a custom solution and add the agent to it, then export the unmanaged solution that contains the agent. Copilot Studio does not support exporting managed solutions that contain agents.\n\n**Learn more:** [Export and import agents using solutions - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-import-export)"
+    },
+    {
+      "number": 59,
+      "domain": "Plan and configure agent solutions",
+      "question": "Solution: Publishing an agent to a channel is the required ALM container to transport agents between environments.  \n  \nDoes the solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A custom Power Platform solution is the ALM container used to manage, export, and import Copilot Studio agents across environments. Publishing to a channel is a distribution action and does not package or transport agent assets between environments.\\\n\\\n**Learn more:** [Create and manage solutions in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-overview)"
+    },
+    {
+      "number": 60,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team uses an agent in Copilot Studio to handle user intake. For certain requests, the team wants the agent to delegate work to a Microsoft Foundry agent that performs specialized processing. The Foundry agent already exists.  \n  \nTo fulfill the business requirements, the solution must satisfy the following requirements:  \n  \n- The primary agent must be able to call the Foundry agent.  \n- The external-agent connection must reference the correct Foundry project and agent.  \n  \nYou need to integrate the primary agent with the Foundry agent.  \n  \nWhich two actions should you take? Each correct answer represents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add an external agent."
+        },
+        {
+          "letter": "B",
+          "text": "Configure the Copilot Studio endpoint URL."
+        },
+        {
+          "letter": "C",
+          "text": "Configure the project endpoint URL."
+        },
+        {
+          "letter": "D",
+          "text": "Add an indexed knowledge source."
+        },
+        {
+          "letter": "E",
+          "text": "Publish the Copilot Studio agent."
+        }
+      ],
+      "answer": null,
+      "explanation": "A Microsoft Foundry agent is connected to a Copilot Studio agent by adding an external agent and choosing Microsoft Foundry. Creating that connection requires the Microsoft Foundry project endpoint URL, which targets the appropriate Foundry project before the existing agent is selected.\n\n**Learn more:** [Connect to a Microsoft Foundry agent (preview)](https://learn.microsoft.com/en-us/microsoft-copilot-studio/add-agent-foundry-agent)"
+    },
+    {
+      "number": 61,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company needs a Copilot Studio agent to complete tasks by interacting with a legacy desktop application that has no APIs. The builder must validate that UI automation can run in the supported execution context and requires a way to examine how the automation behaves during test conversations.  \n  \nTo satisfy the business needs, the solution must meet these requirements:  \n  \n- Enable the agent to perform UI automation against the legacy application.  \n- Inspect automation execution details during conversations.  \n  \nYou need to configure the agent to meet the requirements.  \n  \nWhich two actions should you take? Each correct answer is part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure a custom connector for the desktop app so the agent can automate the UI through authenticated calls."
+        },
+        {
+          "letter": "B",
+          "text": "Add a Power Platform Desktop flow to control the desktop app."
+        },
+        {
+          "letter": "C",
+          "text": "Access the remote session within the testing pane to monitor the real-time execution of the agent's desktop interactions."
+        },
+        {
+          "letter": "D",
+          "text": "Publish the agent so the automation runs in the supported environment automatically."
+        },
+        {
+          "letter": "E",
+          "text": "Enable the Computer use capability."
+        }
+      ],
+      "answer": null,
+      "explanation": "Computer use enables a Copilot Studio agent to interact with desktop applications through the graphical interface, including systems that have no API. Its test experience presents a step-by-step action log and a live preview of activity on the configured machine, allowing execution to be inspected during testing.\n\n**Learn more:** [Configure where computer use runs - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/configure-where-computer-use-runs) · [Automate web and desktop apps with computer use (preview) - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/computer-use)"
+    },
+    {
+      "number": 62,
+      "domain": "Plan and configure agent solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company needs to enable a Copilot Studio agent to perform operations exposed through an external MCP server.  \n  \nThe MCP server publishes callable tools and requires authentication. The agent must be able to call MCP tools during conversations.  \n  \nYou need to configure the MCP tools so that the agent can execute MCP tool calls. What should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Upload documentation about the MCP server so the agent can answer questions about it."
+        },
+        {
+          "letter": "B",
+          "text": "Enable generative answers so the model can automatically invoke MCP tools."
+        },
+        {
+          "letter": "C",
+          "text": "Publish the agent and rely on default settings for tool availability."
+        },
+        {
+          "letter": "D",
+          "text": "Add the MCP server to the agent's tool configuration."
+        }
+      ],
+      "answer": null,
+      "explanation": "An external MCP server must be added to the agent as a tool and its connection authorized. This makes the MCP server’s published tools available to the agent for runtime invocation during conversations.\n\n**Learn more:** [Connect your agent to an existing Model Context Protocol (MCP) server](https://learn.microsoft.com/en-us/microsoft-copilot-studio/mcp-add-existing-server-to-agent) · [Add tools and resources from a Model Context Protocol (MCP) server to your agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/mcp-add-components-to-agent)"
+    }
+  ]
+}

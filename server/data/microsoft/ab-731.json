@@ -1,0 +1,1153 @@
+{
+  "provider": "microsoft",
+  "slug": "ab-731",
+  "fullSlug": "microsoft/ab-731",
+  "title": "Copy link to this question",
+  "totalQuestions": 100,
+  "totalPages": 3,
+  "crawledPages": 4,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Which of the following correctly explains the difference between a pretrained generative AI model and a fine-tuned generative AI model?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A pretrained model requires labeled data, while a fine-tuned model does not."
+        },
+        {
+          "letter": "B",
+          "text": "A pretrained model is faster to train than a fine-tuned model because the pretrained model uses fewer parameters."
+        },
+        {
+          "letter": "C",
+          "text": "A pretrained model is trained on broad datasets, while a fine-tuned model is adapted to perform well on a narrower, domain-specific dataset."
+        },
+        {
+          "letter": "D",
+          "text": "A pretrained model is optimized for a specific task, while a fine-tuned model is designed for general-purpose use."
+        }
+      ],
+      "answer": null,
+      "explanation": "A pretrained generative AI model is trained on a large, broad, general-purpose dataset to learn general patterns, language structure, and knowledge. Fine-tuning takes that pretrained model and continues training it on a smaller, narrower, domain- or task-specific dataset so it performs better on specialized tasks. This is why option C is correct: it accurately reflects that pretraining establishes broad general capability while fine-tuning adapts the model to a specific domain or use case."
+    },
+    {
+      "number": 2,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your organization stores thousands of reports and documents across multiple systems. You are recommending the use of Azure AI Search as part of a new generative AI solution to enhance information discovery.  \n  \nWhat is a key benefit of using Azure AI Search in this scenario?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "generates responses to customer questions without referencing the existing data"
+        },
+        {
+          "letter": "B",
+          "text": "queries and retrieves information from large collections of data by using natural language"
+        },
+        {
+          "letter": "C",
+          "text": "automates document workflows based on the document content"
+        },
+        {
+          "letter": "D",
+          "text": "improves model accuracy by fine-tuning organizational data"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure AI Search is designed to index and query large volumes of content, enabling users to retrieve relevant information using natural language queries. In generative AI solutions, it commonly serves as the retrieval component in Retrieval-Augmented Generation (RAG) patterns, allowing the AI system to search across large collections of documents and reports and return the most relevant results based on natural language input, which can then be used to ground AI-generated responses in organizational data.\n\n**Learn more:** [What is Azure AI Search?](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search)"
+    },
+    {
+      "number": 3,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company intends to use an AI-driven solution to analyze customer feedback in order to gain insights that will inform future product designs.  \n  \nThe goal is to mitigate the privacy risks associated with this solution.  \n  \nWhat is the best approach to achieve this goal? (More than one answer choice may achieve the goal — select the BEST answer.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Delete all the feedback data immediately after analysis."
+        },
+        {
+          "letter": "B",
+          "text": "Ensure that feedback is attributable to the customer so that it can be deleted upon request."
+        },
+        {
+          "letter": "C",
+          "text": "Limit privacy reviews to the final stage of the AI project lifecycle."
+        },
+        {
+          "letter": "D",
+          "text": "Anonymize the source data to remove customer Personally Identifiable Information (PII) from the feedback."
+        }
+      ],
+      "answer": null,
+      "explanation": "Anonymizing the source data to strip out Personally Identifiable Information before it is processed by the AI solution directly reduces privacy risk at its source, since the system can no longer expose or misuse identifiable customer data while still allowing the underlying feedback content to be analyzed for product design insights. This aligns with core privacy-by-design and data minimization principles (e.g., GDPR data minimization requirements and Microsoft's Responsible AI \"privacy and security\" pillar), which call for reducing exposure of personal data as early as possible in a system's lifecycle rather than relying on later remediation such as deletion after the fact, keeping data attributable (which increases rather than decreases exposure), or deferring privacy reviews to the end of the project.\n\n**Learn more:** [What is Responsible AI - Azure Machine Learning | Microsoft Learn](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai)"
+    },
+    {
+      "number": 4,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],34:[\"$\",\"$19\",null,{\"fallback\":[[\"$\",\"div\",\"0\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"1\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"2\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}]],\"children\":\"$L4d\"}]\n35:[\"$\",\"nav\",null,{\"className\":\"pagination-container\",\"aria-label\":\"Exam pages\",\"children\":[[\"$\",\"p\",null,{\"className\":\"pagination-info\",\"children\":[\"Page \",[\"$\",\"strong\",null,{\"children\":1}],\" of \",4,[\"$\",\"span\",null,{\"className\":\"pagination-info-sep\",\"aria-hidden\":\"true\",\"children\":\"•\"}],\"Questions \",1,\"–\",25,\" of \",100]}],[\"$\",\"div\",null,{\"className\":\"pagination-nav\",\"children\":[[\"$\",\"span\",null,{\"className\":\"button link back-arrow pagination-arrow is-disabled\",\"aria-disabled\":\"true\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Prev\"}]}],[\"$\",\"div\",null,{\"className\":\"pagination-numbers\",\"children\":[[\"$\",\"span\",\"1\",{\"className\":\"button primary sm pagination-page is-current\",\"aria-current\":\"page\",\"children\":1}],[\"$\",\"$L20\",\"2\",{\"href\":\"/exams/microsoft/ab-731/2\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 2\",\"children\":2}],[\"$\",\"$L20\",\"3\",{\"href\":\"/exams/microsoft/ab-731/3\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 3\",\"children\":3}],[\"$\",\"$L20\",\"4\",{\"href\":\"/exams/microsoft/ab-731/4\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 4\",\"children\":4}]]}],[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ab-731/2\",\"className\":\"button link arrow pagination-arrow\",\"aria-label\":\"Next page\",\"rel\":\"next\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Next\"}]}]]}]]}]\n36:[\"$\",\"div\",null,{\"className\":\"contribute-cta\",\"children\":[[\"$\",\"$L4e\",null,{\"src\":\"/icons/hand-holding-heart.svg\",\"alt\":\"\",\"width\":20,\"height\":20,\"aria-hidden\":\"true\"}],[\"$\",\"span\",null,{\"className\":\"contribute-cta-text\",\"children\":[\"Know a question that should be here?\",\" \",[\"$\",\"$L20\",null,{\"href\":\"/contribute/microsoft/ab-731\",\"children\":\"Contribute to this exam\"}]]}]]}]\n37:[\"$\",\"$L4f\",null,{}]\n54:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Dropdown\"]\n3d:[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]\n3e:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n3f:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n40:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L38\",null,{\"questionNumber\":2,\"questionId\":\"336fdffc-ea0c-43b0-b9d3-9aa9c09ea067\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L50\"}]}],[\"$\",\"$L3a\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":2,\"questionId\":\"336fdffc-ea0c-43b0-b9d3-9aa9c09ea067\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":2,\"questionId\":\"336fdffc-ea0c-43b0-b9d3-9aa9c09ea067\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/1\"}]}]]}]\n42:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n43:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n44:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L38\",null,{\"questionNumber\":3,\"questionId\":\"2674338f-41cd-4576-8301-ba4eaa8ce0c0\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L51\"}]}],[\"$\",\"$L3a\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":3,\"questionId\":\"2674338f-41cd-4576-8301-ba4eaa8ce0c0\",\"initialCommentCount\":3,\"children\":[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":3,\"questionId\":\"2674338f-41cd-4576-8301-ba4eaa8ce0c0\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/1\"}]}]]}]\n46:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n47:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n48:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L38\",null,{\"questionNumber\":4,\"questionId\":\"59fb08bf-20e2-497b-96c1-825e40546c56\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L52\"}]}],[\"$\",\"$L3a\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":4,\"questionId\":\"59fb08bf-20e2-497b-96c1-825e40546c56\",\"initialCommentCount\":2,\"children\":[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":4,\"questionId\":\"59fb08bf-20e2-497b-96c1-825e40546c56\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/1\"}]}]]}]\n4a:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n4b:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4c:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L38\",null,{\"questionNumber\":5,\"questionId\":\"1ec219fa-1a71-415f-9c3d-0eb39fe68e9b\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L53\"}]}],[\"$\",\"$L3a\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":5,\"questionId\":\"1ec219fa-1a71-415f-9c3d-0eb39fe68e9b\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":5,\"questionId\":\"1ec219fa-1a71-415f-9c3d-0eb39fe68e9b\",\"initialReactions\":{\"likes\":1,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/1\"}]}]]}]\n39:[\"$\",\"$L54\",null,{\"blanks\":[{\"id\":\"goal\",\"options\":[\"to analyze trends and classify data sources.\",\"to create new content, such as text, images, or code.\",\"to make predictions based on historical data.\"],\"answer\":\"to create new content, such as text, images, or code.\"}],\"template\":\"The primary goal of generative AI is {{goal}}\",\"templateMode\":\"prose\",\"explanation\":\"Generative AI creates new content, including text, images, and code. Classification, trend analysis, and predictions from historical data are primarily analytical or predictive AI functions.\",\"trackingInfo\":{\"questionId\":\"f4f989db-bbf1-4360-a3d5-abc13504202e\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"mode\":\"default\"}}]\n55:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Statements\"]\n57:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\nMicrosoft's Responsible AI Standard is built on six principles: fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability. The Accountability principle specifically states that AI systems should not be the final authority on decisions affecting people's lives, and that humans must maintain meaningful control over highly autonomous systems — so granting AI full autonomous decision-making authority actually conflicts with, rather than supports, accountability. The Fairness and Inclusiveness principles require that AI systems treat all groups equitably and avoid bias; regularly testing models against these criteria (e.g., via fairness assessment tools) is a core practice for ensuring alignment with these principles. The Privacy and Security principle requires AI systems to protect personal and business data through measures such as restricting access, encrypting data, and complying with privacy laws — protecting user data and limiting access to personal information directly fulfills this principle.\n\n**Learn more:** [What is Responsible AI - Azure Machine Learning | Microsoft Learn](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2)50:[[\"$\",\"p\",null,{\"children\":[\"For each of the following statements, select \",[\"$\",\"strong\",null,{\"children\":\"Yes\"}],\" if the statement is true. Otherwise, select \",[\"$\",\"strong\",null,{\"children\":\"No\"}],\".\"]}],\"\n\",[\"$\",\"$L55\",null,{\"statements\":[{\"text\":\"Allowing AI models to make autonomous decisions supports the Microsoft responsible AI principle of accountability.\",\"answer\":\"No\"},{\"text\":\"Regularly testing AI models for fairness and inclusiveness helps ensure they align with Microsoft's Responsible AI principles.\",\"answer\":\"Yes\"},{\"text\":\"Protecting user data and limiting access to personal information supports the Microsoft responsible AI principles of privacy and security.\",\"answer\":\"Yes\"}],\"columns\":[\"Yes\",\"No\"],\"explanation\":\"$56\",\"trackingInfo\":{\"questionId\":\"336fdffc-ea0c-43b0-b9d3-9aa9c09ea067\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"mode\":\"default\"}}]]\n51:[[\"$\",\"p\",null,{\"children\":\"Which of the following correctly explains the difference between a pretrained generative AI model and a fine-tuned generative AI model?\"}],\"\n\",[\"$\",\"$L57\",null,{\"choices\":{\"A\":\"A pretrained model requires labeled data, while a fine-tuned model does not.\",\"B\":\"A pretrained model is faster to train than a fine-tuned model because the pretrained model uses fewer parameters.\",\"C\":\"A pretrained model is trained on broad datasets, while a fine-tuned model is adapted to perform well on a narrower, domain-specific dataset.\",\"D\":\"A pretrained model is optimized for a specific task, while a fine-tuned model is designed for general-purpose use.\"},\"correctAnswer\":\"C\",\"explanation\":\"A pretrained generative AI model is trained on a large, broad, general-purpose dataset to learn general patterns, language structure, and knowledge. Fine-tuning takes that pretrained model and continues training it on a smaller, narrower, domain- or task-specific dataset so it performs better on specialized tasks. This is why option C is correct: it accurately reflects that pretraining establishes broad general capability while fine-tuning adapts the model to a specific domain or use case.\",\"trackingInfo\":{\"questionId\":\"2674338f-41cd-4576-8301-ba4eaa8ce0c0\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"mode\":\"default\"}}]]\n52:[[\"$\",\"p\",null,{\"children\":\"Your organization stores thousands of reports and documents across multiple systems. You are recommending the use of Azure AI Search as part of a new generative AI solution to enhance information discovery.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"What is a key benefit of using Azure AI Search in this scenario?\"}],\"\n\",[\"$\",\"$L57\",null,{\"choices\":{\"A\":\"generates responses to customer questions without referencing the existing data\",\"B\":\"queries and retrieves information from large collections of data by using natural language\",\"C\":\"automates document workflows based on the document content\",\"D\":\"improves model accuracy by fine-tuning organizational data\"},\"correctAnswer\":\"B\",\"explanation\":\"Azure AI Search is designed to index and query large volumes of content, enabling users to retrieve relevant information using natural language queries. In generative AI solutions, it commonly serves as the retrieval component in Retrieval-Augmented Generation (RAG) patterns, allowing the AI system to search across large collections of documents and reports and return the most relevant results based on natural language input, which can then be used to ground AI-generated responses in organizational data.\n\n**Learn more:** [What is Azure AI Search?](https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search)\",\"trackingInfo\":{\"questionId\":\"59fb08bf-20e2-497b-96c1-825e40546c56\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"mode\":\"default\"}}]]\n53:[[\"$\",\"p\",null,{\"children\":\"A company intends to use an AI-driven solution to analyze customer feedback in order to gain insights that will inform future product designs.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"The goal is to mitigate the privacy risks associated with this solution.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"What is the best approach to achieve this goal? (More than one answer choice may achieve the goal — select the BEST answer.)\"}],\"\n\",[\"$\",\"$L57\",null,{\"choices\":{\"A\":\"Delete all the feedback data immediately after analysis.\",\"B\":\"Ensure that feedback is attributable to the customer so that it can be deleted upon request.\",\"C\":\"Limit privacy reviews to the final stage of the AI project lifecycle.\",\"D\":\"Anonymize the source data to remove customer Personally Identifiable Information (PII) from the feedback.\"},\"correctAnswer\":\"D\",\"explanation\":\"Anonymizing the source data to strip out Personally Identifiable Information before it is processed by the AI solution directly reduces privacy risk at its source, since the system can no longer expose or misuse identifiable customer data while still allowing the underlying feedback content to be analyzed for product design insights. This aligns with core privacy-by-design and data minimization principles (e.g., GDPR data minimization requirements and Microsoft's Responsible AI \"privacy and security\" pillar), which call for reducing exposure of personal data as early as possible in a system's lifecycle rather than relying on later remediation such as deletion after the fact, keeping data attributable (which increases rather than decreases exposure), or deferring privacy reviews to the end of the project.\n\n**Learn more:** [What is Responsible AI - Azure Machine Learning | Microsoft Learn](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai)\",\"trackingInfo\":{\"questionId\":\"1ec219fa-1a71-415f-9c3d-0eb39fe68e9b\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"mode\":\"default\"}}]]\nYour organization is assessing Microsoft Copilot Studio for supporting business process automation and employee self-service.  \n  \nWhich two capabilities are directly supported in Copilot Studio? Each correct answer presents a complete solution.  \n  \n(Choose two. Each correct selection is worth one point.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "drafting and summarizing files in Microsoft Word and PowerPoint"
+        },
+        {
+          "letter": "B",
+          "text": "customizing agent behavior and responses"
+        },
+        {
+          "letter": "C",
+          "text": "using agents to identify and respond to security incidents"
+        },
+        {
+          "letter": "D",
+          "text": "building agents that connect to business data and automate user interactions"
+        },
+        {
+          "letter": "E",
+          "text": "configuring document security"
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot Studio is a low-code authoring tool designed to let makers customize an agent's topics, conversation flow, tone, and responses, and to build agents that connect to enterprise data sources (through connectors, plugins, and knowledge sources) and automate multi-step user interactions using topics and Power Automate actions. Drafting/summarizing content in Word and PowerPoint is a Microsoft 365 Copilot feature, responding to security incidents is a Microsoft Security Copilot capability, and configuring document security belongs to Microsoft Purview Information Protection — none of these are native Copilot Studio functions.\n\n**Learn more:** [What is Microsoft Copilot Studio?](https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) · [Copilot Studio agent capabilities overview](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-fundamentals-agents-overview)"
+    },
+    {
+      "number": 5,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\",\"$L6a\",\"$L6b\",\"$L6c\",\"$L6d\",\"$L6e\"]\n59:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n5a:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n5b:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L38\",null,{\"questionNumber\":6,\"questionId\":\"be45a36d-bf1c-4c9e-88b3-c51159958909\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6f\"}]}],[\"$\",\"$L3a\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":6,\"questionId\":\"be45a36d-bf1c-4c9e-88b3-c51159958909\",\"initialCommentCount\":4,\"children\":[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":6,\"questionId\":\"be45a36d-bf1c-4c9e-88b3-c51159958909\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/1\"}]}]]}]\nYour company wants to make sure AI solutions are used responsibly and that they align with company values and compliance requirements. You need to establish governance principles for AI use.  \n  \nWhich two actions should you perform? Select the two BEST answers. Each correct answer presents a complete solution.  \n  \n*NOTE: Each correct selection is worth one point.*",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Allow each department to tailor governance processes for its own AI initiatives."
+        },
+        {
+          "letter": "B",
+          "text": "Define accountability norms for AI decisions across business and technical teams."
+        },
+        {
+          "letter": "C",
+          "text": "Create a process to review AI initiatives for responsible AI alignment."
+        },
+        {
+          "letter": "D",
+          "text": "Assign governance ownership primarily to the AI engineering and data science teams."
+        },
+        {
+          "letter": "E",
+          "text": "Focus governance efforts on AI systems that handle regulated or sensitive data."
+        }
+      ],
+      "answer": null,
+      "explanation": "Effective AI governance requires clear accountability that spans both business and technical stakeholders, since responsible AI decisions (data use, fairness, transparency, compliance) are not purely technical concerns — business leaders must also be accountable for outcomes. It also requires a formal, repeatable review process so that every AI initiative is checked against responsible AI principles (fairness, reliability, privacy, security, inclusiveness, transparency, accountability) before and during deployment, rather than relying on ad hoc or team-specific practices. Allowing each department to define its own governance process (A) leads to inconsistent standards across the organization, assigning ownership solely to engineering/data science teams (D) excludes necessary business and compliance oversight, and restricting governance only to systems handling regulated or sensitive data (E) leaves other AI systems ungoverned even though responsible AI principles should apply broadly across all AI initiatives.\n\n**Learn more:** [Microsoft Responsible AI Standard](https://www.microsoft.com/en-us/ai/responsible-ai) · [Govern your AI applications and services - Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/scenarios/ai/govern)"
+    },
+    {
+      "number": 6,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company stores hundreds of internal business reports.  \n  \nYou need to recommend a generative AI solution that uses an agent to answer questions based on the content in the reports.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "natural language processing"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Machine Learning"
+        },
+        {
+          "letter": "C",
+          "text": "Retrieval Augmented Generation (RAG)"
+        },
+        {
+          "letter": "D",
+          "text": "Generative Adversarial Network (GAN)"
+        }
+      ],
+      "answer": null,
+      "explanation": "Retrieval Augmented Generation (RAG) is the pattern designed for exactly this scenario: it retrieves relevant passages from an organization's own content (such as the internal business reports) and feeds them into a generative model's prompt so that the agent's answers are grounded in and traceable to that specific content, rather than relying solely on the model's pretrained knowledge. This is the standard approach for building agents that answer questions over a private document set, as described in Microsoft's guidance on RAG in Azure AI Search and Copilot Studio.\n\n**Learn more:** [Retrieval Augmented Generation (RAG) in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview) · [Enhance AI responses with Retrieval Augmented Generation - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/retrieval-augmented-generation)"
+    },
+    {
+      "number": 7,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company has purchased Microsoft 365 Copilot for its sales department. The sales team needs to quickly find and summarize information contained in internal documents.  \n  \nFrom which **two** data sources can the sales department obtain results by default? (Each correct answer presents part of the solution.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft OneDrive"
+        },
+        {
+          "letter": "B",
+          "text": "an on-premises file share"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft SharePoint"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Sway"
+        },
+        {
+          "letter": "E",
+          "text": "a custom customer relationship management (CRM) system"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft 365 Copilot uses Microsoft Graph to ground its responses in content that a user already has permission to access within core Microsoft 365 services — including files stored in OneDrive for Business and SharePoint Online — without any extra configuration. On-premises file shares and custom CRM systems are external data sources that require setting up Microsoft Graph connectors before Copilot can index and surface their content, so they are not available by default. Sway is not a document storage location searched by Copilot.\n\n**Learn more:** [Microsoft 365 Copilot overview](https://learn.microsoft.com/en-us/microsoft-365-copilot/microsoft-365-copilot-overview) · [Microsoft Graph connectors overview](https://learn.microsoft.com/en-us/microsoftsearch/connectors-overview)"
+    },
+    {
+      "number": 8,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company plans to build a generative AI solution based on internal data. You recommend using Microsoft Foundry as a starting point to develop and manage the solution.  \n  \nWhat is a key benefit of using Microsoft Foundry for this project?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Provides a scalable platform for developing and deploying generative AI solutions."
+        },
+        {
+          "letter": "B",
+          "text": "Removes the need to select or configure the underlying AI model."
+        },
+        {
+          "letter": "C",
+          "text": "Enables business users to build generative AI solutions."
+        },
+        {
+          "letter": "D",
+          "text": "Offers a low-code platform for developing generative AI solutions."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Foundry is a unified Azure platform-as-a-service that combines production-grade infrastructure with developer tooling, giving teams a scalable environment to build, deploy, monitor, and govern generative AI solutions — from proof of concept through enterprise-scale production — using a broad catalog of models, agent orchestration, evaluation, and monitoring capabilities. It does not eliminate model selection (users choose and configure from a catalog of 1,900+ models), it is not restricted to or targeted specifically at business users, and it is not positioned as a low-code development tool; it primarily serves application developers, ML engineers/data scientists, and IT administrators with code-first and API-driven development experiences.\n\n**Learn more:** [What is Microsoft Foundry? - Microsoft Foundry | Microsoft Learn](https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry) · [Microsoft Foundry | Microsoft Azure](https://azure.microsoft.com/en-us/products/ai-foundry/)"
+    },
+    {
+      "number": 9,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "Select the answer that correctly finishes the sentence.\n\n<Dropdown\n  blanks={[{\"id\":\"blank1\",\"options\":[\"uses a smaller dataset.\",\"produces more accurate results.\",\"can produce new and original content.\"],\"answer\":\"can produce new and original content.\"}]}\n  template={\"The main difference between generative AI and predictive AI is that generative AI {{blank1}}\"}\n  templateMode={\"prose\"}\n  explanation={\"Generative AI creates new outputs such as text, images, audio, or code. Predictive AI uses existing data to forecast, classify, or estimate an outcome rather than generate original content.\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],You need to create a custom Azure Machine Learning model, and the data that will be used to train the model is consistent and uniform.  \n  \nWhat should you do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prepare the training data."
+        },
+        {
+          "letter": "B",
+          "text": "Evaluate the model."
+        },
+        {
+          "letter": "C",
+          "text": "Train the model."
+        },
+        {
+          "letter": "D",
+          "text": "Tune hyperparameters."
+        },
+        {
+          "letter": "E",
+          "text": "Deploy the model."
+        }
+      ],
+      "answer": null,
+      "explanation": "In the standard machine learning model development lifecycle, data preparation always precedes training, hyperparameter tuning, evaluation, and deployment. Even when data is consistent and uniform, it must first be gathered, formatted, and prepared (e.g., split into training/validation sets, cleaned, transformed) before it can be fed into a training algorithm. Only after the data is prepared can the model be trained, its hyperparameters tuned, its performance evaluated, and finally deployed for use.\n\n**Learn more:** [What is Azure Machine Learning?](https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning) · [Set up AutoML for tabular data](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train)"
+    },
+    {
+      "number": 10,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "<Dropdown\n  blanks={[{\"id\":\"blank1\",\"options\":[\"monitor network traffic and alerts in real time.\",\"create a Microsoft Word document.\",\"create a list in Microsoft SharePoint.\",\"modify administrative permissions for Microsoft SharePoint files.\"],\"answer\":\"create a Microsoft Word document.\"}]}\n  template={\"Microsoft 365 Copilot can be used to {{blank1}}\"}\n  templateMode={\"prose\"}\n  explanation={\"Microsoft 365 Copilot works within Word to help users create and draft documents. It is not a real-time network-monitoring tool or a mechanism for changing SharePoint administrative permissions.\\\n\\\n**Learn more:** [What is Microsoft 365 Copilot?](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview)\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],You are exploring how Microsoft 365 Copilot uses Microsoft Graph to deliver AI-powered experiences.  \n  \nWhich information in Microsoft Graph can Copilot use by default?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "emails, files, meetings, and chats in Microsoft 365"
+        },
+        {
+          "letter": "B",
+          "text": "data stored in a file share"
+        },
+        {
+          "letter": "C",
+          "text": "social media activity"
+        },
+        {
+          "letter": "D",
+          "text": "content from public websites"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft 365 Copilot is grounded in the Microsoft Graph, which by default provides access to the organizational content a user is authorized to see within Microsoft 365 — including emails, files, meetings, and chats (as well as calendar items and other Microsoft 365 data). Access to external sources such as file shares, social media, or public websites requires additional configuration, such as Microsoft Graph connectors or plugins, and is not available by default.\n\n**Learn more:** [Microsoft 365 Copilot overview - Microsoft Learn](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-overview)"
+    },
+    {
+      "number": 11,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your organization is rolling out Microsoft 365 Copilot. As part of the deployment, users must be able to use the Researcher agent to search across data stored in Microsoft SharePoint.  \n  \nYou need to recommend a licensing plan for this solution.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a Microsoft 365 Copilot per-user add-on license"
+        },
+        {
+          "letter": "B",
+          "text": "pay-as-you-go"
+        },
+        {
+          "letter": "C",
+          "text": "a Microsoft 365 subscription entitlement"
+        },
+        {
+          "letter": "D",
+          "text": "a usage-based consumption license in Azure"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft 365 Copilot, including its built-in Researcher and Analyst reasoning agents, is sold as a per-user add-on license that is layered on top of an eligible base Microsoft 365 subscription (such as Microsoft 365 E3/E5, Office 365 E3/E5, Business Standard/Premium, and others). Only users assigned this dedicated Microsoft 365 Copilot add-on license can run the Researcher agent, which searches across a user's accessible work content — emails, chats, files, and SharePoint data — plus the web. A plain Microsoft 365 subscription entitlement only unlocks the free, web-grounded Copilot Chat experience, not full agents like Researcher; pay-as-you-go/usage-based billing applies to scenarios such as SharePoint agents and Copilot Chat working with shared tenant data rather than the full per-user Researcher experience; and Azure consumption-based licensing is unrelated to Microsoft 365 Copilot user licensing.\n\n**Learn more:** [License Options for Microsoft 365 Copilot | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-licensing) · [Researcher and Analyst are now generally available in Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2025/06/02/researcher-and-analyst-are-now-generally-available-in-microsoft-365-copilot/)"
+    },
+    {
+      "number": 12,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company operates a website that publishes news articles every day.  \n  \nAn AI solution needs to be recommended that can analyze the text of these articles and identify the main people, locations, and companies mentioned in them.  \n  \nWhat should be included in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Language in Foundry Tools"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Vision in Foundry Tools"
+        },
+        {
+          "letter": "C",
+          "text": "Content Safety in Foundry Control Plane"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Speech in Foundry Tools"
+        }
+      ],
+      "answer": null,
+      "explanation": "Named Entity Recognition (NER) is a feature of Azure Language (part of Foundry Tools, formerly Azure AI Language / Text Analytics) that analyzes unstructured text and identifies and categorizes entities such as people, locations, organizations, dates, and quantities. This directly matches the requirement to identify the main people, locations, and companies mentioned in news articles. Azure Vision analyzes images rather than text, Content Safety in Foundry Control Plane detects harmful or inappropriate content rather than extracting entities, and Azure Speech processes spoken audio rather than performing entity extraction on text.\n\n**Learn more:** [What is the named entity recognition (NER) feature in Azure Language? - Foundry Tools | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/language-service/named-entity-recognition/overview) · [What is Azure Language in Foundry Tools - Foundry Tools | Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/language-service/overview)"
+    },
+    {
+      "number": 13,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company intends to use generative AI to help summarize and analyze its internal business documents.  \n  \nYou need to recommend a solution that prevents the generative AI from accessing confidential or classified information.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "an information barrier (IB) policy"
+        },
+        {
+          "letter": "B",
+          "text": "communication monitoring"
+        },
+        {
+          "letter": "C",
+          "text": "a data retention policy"
+        },
+        {
+          "letter": "D",
+          "text": "data governance"
+        }
+      ],
+      "answer": null,
+      "explanation": "Preventing an AI system such as Microsoft 365 Copilot from surfacing confidential or classified content requires data governance controls — specifically data classification and sensitivity labeling combined with permission-based access enforcement. When documents are classified and protected through a data governance framework, the AI can only access and reference content that the requesting user is already authorized to view; labeled/restricted files are excluded from AI-generated responses for users without the necessary permissions. Information barrier policies instead restrict communication and collaboration between defined groups of users, communication monitoring reviews conversations for compliance/conduct issues, and data retention policies control the lifecycle (how long data is kept), none of which govern whether AI can read and process classified content the way data governance (classification and access control) does.\n\n**Learn more:** [Microsoft Purview data security and compliance protections for Microsoft 365 Copilot and other generative AI apps](https://learn.microsoft.com/en-us/purview/ai-microsoft-purview)"
+    },
+    {
+      "number": 14,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company sells hiking and camping gear online. You need a generative AI solution that can interact with customers and ask questions about their needs. What should you include in the solution?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a chatbot"
+        },
+        {
+          "letter": "B",
+          "text": "predictive AI"
+        },
+        {
+          "letter": "C",
+          "text": "computer vision"
+        },
+        {
+          "letter": "D",
+          "text": "a recommendation engine"
+        }
+      ],
+      "answer": null,
+      "explanation": "A chatbot built on generative AI (conversational AI) can hold a natural-language dialogue with customers, asking clarifying questions to understand their needs and responding dynamically based on context. This distinguishes it from predictive AI (which forecasts outcomes from historical data), computer vision (which analyzes images or video), and a recommendation engine (which suggests items based on behavioral or purchase data rather than conducting an interactive conversation). Because the requirement is specifically two-way conversational interaction with customers, a chatbot is the component that fulfills it.\n\n**Learn more:** [AI-900: Microsoft Azure AI Fundamentals Study Guide](https://techcommunity.microsoft.com/blog/educatordeveloperblog/ai-900-microsoft-azure-ai-fundamentals-study-guide/3737182)"
+    },
+    {
+      "number": 15,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company that manages an online catalog of office supplies plans to use a generative AI solution to create product descriptions for its website. The solution must meet the following requirements:  \n  \n- The descriptions must be able to be posted immediately after they are created.  \n- The solution must allow selection and inclusion of specific product details in each description.  \n- The solution must be fast and simple for non-technical staff to use.  \n  \nWhat is the best type of solution to use? More than one answer choice may achieve the goal. Select the BEST answer.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "custom Azure Machine Learning model"
+        },
+        {
+          "letter": "B",
+          "text": "the Researcher agent in Microsoft 365 Copilot"
+        },
+        {
+          "letter": "C",
+          "text": "an interactive AI agent"
+        },
+        {
+          "letter": "D",
+          "text": "a fine-tuned large language model (LLM)"
+        }
+      ],
+      "answer": null,
+      "explanation": "An interactive AI agent is built for user-driven, conversational use: a non-technical staff member can provide or select product details directly in the interaction, receive a generated description immediately, and publish it right away without any additional technical setup. This directly satisfies all three requirements — immediate usability, selection/inclusion of product details, and simplicity for non-technical users. In contrast, a custom Azure Machine Learning model requires data science skills to build and deploy, a fine-tuned LLM requires technical fine-tuning and integration work before it can be used, and the Researcher agent in Microsoft 365 Copilot is purpose-built for research and analysis tasks rather than quick, detail-driven content generation for immediate publishing.\n\n**Learn more:** [Design autonomous agent capabilities - Microsoft Copilot Studio | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/autonomous-agents)"
+    },
+    {
+      "number": 26,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company sells hiking and camping gear online.  \n  \nYou need a generative AI solution that can:  \n  \n- Interact with customers  \n- Ask questions about their needs  \n- Escalate to a human agent if necessary  \n  \nWhat solution should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a chatbot"
+        },
+        {
+          "letter": "B",
+          "text": "predictive AI"
+        },
+        {
+          "letter": "C",
+          "text": "a recommendation engine"
+        },
+        {
+          "letter": "D",
+          "text": "computer vision"
+        }
+      ],
+      "answer": null,
+      "explanation": "A chatbot built on generative AI is designed to hold natural-language conversations with users, ask follow-up questions to clarify their needs, and hand off (escalate) the conversation to a human agent when the request exceeds its capabilities. This matches the requirement for interactive dialogue, needs discovery, and escalation. Predictive AI focuses on forecasting future outcomes from historical data, a recommendation engine suggests items based on user/item similarity or behavior patterns, and computer vision analyzes visual data — none of these are designed for conversational, question-driven customer interaction with human escalation."
+    },
+    {
+      "number": 27,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L58\",\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\",\"$L6a\"]\nba:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Statements\"]\nbb:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\nbc:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Dropdown\"]\n54:[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]\n55:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n56:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n57:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":31,\"questionId\":\"41429948-c0df-4216-86be-9e377b1a41f5\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6b\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":31,\"questionId\":\"41429948-c0df-4216-86be-9e377b1a41f5\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":31,\"questionId\":\"41429948-c0df-4216-86be-9e377b1a41f5\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/2\"}]}]]}]\nYour company is evaluating a new AI solution prior to deployment and wants to make sure the solution adheres to Microsoft's responsible AI principles.  \n  \nWhich approach best achieves this goal? More than one answer choice may achieve the goal — select the BEST answer.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Design the AI solution to automatically approve or reject customer loan applications."
+        },
+        {
+          "letter": "B",
+          "text": "Test the AI solution to identify and mitigate potential unfair or inconsistent outcomes in its outputs."
+        },
+        {
+          "letter": "C",
+          "text": "Prioritize model performance when tuning the AI solution."
+        },
+        {
+          "letter": "D",
+          "text": "Enable the AI solution to collect and store personal data."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft's responsible AI framework includes fairness as a core principle, requiring that AI systems be evaluated so they treat all groups of people equitably and do not produce biased or inconsistent outcomes. Testing an AI solution to identify and mitigate unfair or inconsistent results directly implements this fairness principle. In contrast, fully automating high-stakes decisions like loan approvals without human oversight undermines reliability and safety, focusing solely on model performance without considering fairness or transparency goes against balanced responsible AI practice, and collecting/storing personal data without proper safeguards conflicts with the privacy and security principle.\n\n**Learn more:** [Microsoft responsible AI principles](https://www.microsoft.com/en-us/ai/principles-and-approach) · [What is Responsible AI - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai)"
+    },
+    {
+      "number": 28,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company implements an AI-driven loan approval system that allows applicants to request an explanation for why their loan application was rejected.  \n  \nWhich Microsoft responsible AI principle does this scenario illustrate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fairness"
+        },
+        {
+          "letter": "B",
+          "text": "privacy and security"
+        },
+        {
+          "letter": "C",
+          "text": "transparency"
+        },
+        {
+          "letter": "D",
+          "text": "inclusiveness"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft's transparency principle states that AI systems should be understandable, and that people should be given meaningful explanations of the AI system's behavior, especially when the system informs decisions that significantly affect people's lives, such as loan approvals. Enabling applicants to request an explanation for a denied loan directly reflects the interpretability aspect of transparency, as opposed to fairness (avoiding bias/discrimination), privacy and security (protecting data), or inclusiveness (empowering people regardless of ability or circumstance).\n\n**Learn more:** [What is Responsible AI - Azure Machine Learning | Microsoft Learn](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2) · [Responsible AI Principles and Approach | Microsoft AI](https://www.microsoft.com/en-us/ai/principles-and-approach)"
+    },
+    {
+      "number": 29,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to recommend a service that supports indexing information and knowledge mining by extracting insights from documents. What should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Foundry"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Vision in Foundry Tools"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Document Intelligence in Foundry Tools"
+        },
+        {
+          "letter": "D",
+          "text": "Azure AI Search"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure AI Search is Microsoft's knowledge mining service. It ingests content from various data sources, enriches it using AI skills (such as OCR, key phrase extraction, entity recognition, and language detection) to extract insights from unstructured content like documents, and then indexes the enriched content so it can be explored through search, bots, or other applications. This end-to-end ingest-enrich-explore workflow, combined with the creation of a searchable index, is specifically what defines knowledge mining, distinguishing Azure AI Search from Document Intelligence (which focuses on extracting structured data from specific form/document types without indexing) and Azure Vision (which analyzes images only).\n\n**Learn more:** [Create a knowledge mining solution with Azure AI Search - Training | Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/ai-knowldge-mining/) · [Knowledge Mining | Microsoft Azure](https://azure.microsoft.com/en-us/solutions/knowledge-mining)"
+    },
+    {
+      "number": 30,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have a historical dataset containing 1,000 records. You need an AI solution capable of analyzing this data to identify patterns and predict future outcomes. What should you include in the solution?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Foundry"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Document Intelligence in Foundry Tools"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Machine Learning"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Content Understanding in Foundry Tools"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning is the Azure service designed for building, training, and deploying machine learning models that learn patterns from historical data (such as a 1,000-record dataset) and use those learned patterns to predict future outcomes, whether through regression, classification, or other supervised learning techniques. Microsoft Foundry is oriented toward building generative AI applications on top of foundation models rather than training custom predictive models from structured historical data. Azure Document Intelligence and Azure Content Understanding, as Foundry Tools, are designed for extracting structured information from documents and multimodal content, not for statistical pattern discovery and outcome prediction from historical datasets.\n\n**Learn more:** [What is Azure Machine Learning?](https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning)"
+    },
+    {
+      "number": 31,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A generative AI solution used by your company has been fine-tuned on data that reflects the general population. You notice that some of the responses it generates contain inappropriate or exclusionary language stemming from ableist assumptions.  \n  \nYou need to stop these inappropriate responses from being generated, and your solution must minimize costs.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Apply a newer version of the generative AI model."
+        },
+        {
+          "letter": "B",
+          "text": "Apply a content-moderation filter."
+        },
+        {
+          "letter": "C",
+          "text": "Create a new version of the solution that is trained on only inclusive and representative content."
+        },
+        {
+          "letter": "D",
+          "text": "Create a new version of the solution that is trained on only exclusionary content."
+        }
+      ],
+      "answer": null,
+      "explanation": "A content-moderation filter can be layered on top of the existing model to detect and block harmful, exclusionary, or ableist language in real time, without the need to retrain or replace the underlying model. This approach directly addresses the harmful output while avoiding the significant cost and time investment associated with retraining the solution (as would be required by creating a new fine-tuned version) or upgrading to a different model version, neither of which guarantees the specific issue is resolved and both of which are more costly. Content moderation/filtering is a standard responsible-AI mitigation for controlling generated output content cost-effectively.\n\n**Learn more:** [Content filtering in Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/content-filter) · [Content safety and responsible AI practices](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/overview)"
+    },
+    {
+      "number": 32,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your organization has a Microsoft 365 subscription and makes use of Microsoft 365 Copilot Chat. Some users need to be able to build and use declarative agents that can access work data.  \n  \nWhich type of license should you recommend for these users?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a Microsoft 365 Copilot add-on license"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Copilot Studio user license"
+        },
+        {
+          "letter": "C",
+          "text": "a Copilot Chat pay-as-you-go plan"
+        }
+      ],
+      "answer": null,
+      "explanation": "Declarative agents that are grounded in shared tenant/work data (such as SharePoint or Copilot connectors) require users to have either a Microsoft 365 Copilot add-on license or access to Copilot Chat through an eligible Microsoft 365 license; without an add-on license, usage of such agents triggers usage-based (Copilot Credits) billing. The Microsoft 365 Copilot add-on license unlocks both web-based and work-based Copilot Chat plus embedded Copilot features across Word, Excel, Outlook, and Teams, and it allows building and using declarative agents that access work data without incurring extra consumption charges — making it the appropriate license for users who need to build and use declarative agents against work data on an ongoing basis. This is documented in Microsoft's licensing and cost considerations guidance for Copilot extensibility.\n\n**Learn more:** [Licensing and Cost Considerations for Copilot Extensibility Options](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/cost-considerations)"
+    },
+    {
+      "number": 33,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company is planning to build a proof-of-concept (PoC) agent that uses Azure OpenAI. The solution needs to start small while allowing flexibility to scale usage as demand increases.  \n  \nWhich pricing model should you choose?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft 365 Copilot"
+        },
+        {
+          "letter": "B",
+          "text": "Batch API"
+        },
+        {
+          "letter": "C",
+          "text": "Provisioned (PTUs)"
+        },
+        {
+          "letter": "D",
+          "text": "Standard (On-Demand)"
+        }
+      ],
+      "answer": null,
+      "explanation": "Standard (On-Demand) pricing in Azure OpenAI is a consumption-based, pay-as-you-go model that charges per token processed with no upfront capacity commitment. This makes it well suited to proof-of-concept and development scenarios where usage patterns are not yet established, since it lets a solution start with minimal, low-volume usage and scale elastically as demand grows, without the need to reserve fixed throughput capacity as required by the Provisioned (PTU) model, which is intended for steady, high-volume, predictable production workloads.\n\n**Learn more:** [Azure OpenAI Service - Pricing | Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/azure-openai/) · [Provisioned throughput for Foundry Models - Microsoft Foundry | Microsoft Learn](https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/provisioned-throughput)"
+    },
+    {
+      "number": 34,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company has learned that a number of employees are using their personal ChatGPT accounts to help with work-related tasks, and you are concerned that this could result in proprietary company data being exposed externally.  \n  \nYou need to assess the business value of deploying Microsoft 365 Copilot across the organization.  \n  \nWhich capability represents a key advantage of using Copilot rather than a personal ChatGPT account?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "analyzing and producing reports based on complex data"
+        },
+        {
+          "letter": "B",
+          "text": "generating ideas and solving issues"
+        },
+        {
+          "letter": "C",
+          "text": "drafting documents, emails, presentations, and marketing materials"
+        },
+        {
+          "letter": "D",
+          "text": "accessing internal data in accordance with existing Microsoft 365 policies"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft 365 Copilot runs inside the organization's Microsoft 365 tenant and therefore inherits and enforces the organization's existing security and compliance controls—permission boundaries, sensitivity labels, and data loss prevention (DLP) policies—when it retrieves and reasons over internal content such as SharePoint sites, emails, and Teams chats. This means a user only sees Copilot responses built from data they are already authorized to access, and confidential information never leaves the tenant's trust boundary. A personal ChatGPT account has no connection to, or governance over, company data and policies, so any proprietary information shared with it escapes the organization's security controls entirely. This tenant-bound, policy-respecting access to internal data is the core differentiator that makes Copilot the safer choice for handling proprietary information, as documented in Microsoft's official Copilot vs. ChatGPT Enterprise comparison.\n\n**Learn more:** [Compare Copilot vs. ChatGPT Enterprise | Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365-copilot/copilot-vs-chatgpt-enterprise)"
+    },
+    {
+      "number": 51,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Automatically approves AI-generated content for company-wide publishing."
+        },
+        {
+          "letter": "B",
+          "text": "Removes the need for a human to review AI-generated outputs."
+        },
+        {
+          "letter": "C",
+          "text": "Provides grounded, verifiable responses based on organizational data."
+        },
+        {
+          "letter": "D",
+          "text": "Enables users to select from an authorized catalog of AI models."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft 365 Copilot grounds its AI-generated content in the organization's own data—drawing on Microsoft Graph and content the user is authorized to access—rather than relying purely on generic model training data. This grounding process anchors responses in real, verifiable organizational information and supports citing sources, which directly advances transparency (users can trace where an answer came from), reliability (responses reflect accurate, current business data instead of fabricated content), and safety (grounding is a key mitigation Microsoft uses to reduce the risk of AI models generating ungrounded or harmful content). This is documented in Microsoft's guidance on data, privacy, and security for Microsoft 365 Copilot and its responsible AI overview.\n\n**Learn more:** [Data, Privacy, and Security for Microsoft 365 Copilot | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy) · [What is Microsoft 365 Copilot? | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview)"
+    },
+    {
+      "number": 52,
+      "domain": "Identify the business value of generative AI solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L33\",\"$L34\",\"$L35\",\"$L36\"]\n26:[\"$\",\"$19\",null,{\"fallback\":[[\"$\",\"div\",\"0\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"1\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"2\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}]],\"children\":\"$L37\"}]\n27:[\"$\",\"$L38\",null,{\"compact\":true,\"centered\":true,\"isLoggedIn\":true,\"isSubscriber\":false,\"currentTier\":null,\"returnTo\":\"/exams/microsoft/ab-731/3\",\"sidebarModal\":true}]\n28:[\"$\",\"nav\",null,{\"className\":\"pagination-container\",\"aria-label\":\"Exam pages\",\"children\":[[\"$\",\"p\",null,{\"className\":\"pagination-info\",\"children\":[\"Page \",[\"$\",\"strong\",null,{\"children\":3}],\" of \",4,[\"$\",\"span\",null,{\"className\":\"pagination-info-sep\",\"aria-hidden\":\"true\",\"children\":\"•\"}],\"Questions \",51,\"–\",75,\" of \",100]}],[\"$\",\"div\",null,{\"className\":\"pagination-nav\",\"children\":[[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ab-731/2\",\"className\":\"button link back-arrow pagination-arrow\",\"aria-label\":\"Previous page\",\"rel\":\"prev\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Prev\"}]}],[\"$\",\"div\",null,{\"className\":\"pagination-numbers\",\"children\":[[\"$\",\"$L20\",\"1\",{\"href\":\"/exams/microsoft/ab-731/1\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 1\",\"children\":1}],[\"$\",\"$L20\",\"2\",{\"href\":\"/exams/microsoft/ab-731/2\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 2\",\"children\":2}],[\"$\",\"span\",\"3\",{\"className\":\"button primary sm pagination-page is-current\",\"aria-current\":\"page\",\"children\":3}],[\"$\",\"$L20\",\"4\",{\"href\":\"/exams/microsoft/ab-731/4\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 4\",\"children\":4}]]}],[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ab-731/4\",\"className\":\"button link arrow pagination-arrow\",\"aria-label\":\"Next page\",\"rel\":\"next\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Next\"}]}]]}]]}]\n29:[\"$\",\"div\",null,{\"className\":\"contribute-cta\",\"children\":[[\"$\",\"$L39\",null,{\"src\":\"/icons/hand-holding-heart.svg\",\"alt\":\"\",\"width\":20,\"height\":20,\"aria-hidden\":\"true\"}],[\"$\",\"span\",null,{\"className\":\"contribute-cta-text\",\"children\":[\"Know a question that should be here?\",\" \",[\"$\",\"$L20\",null,{\"href\":\"/contribute/microsoft/ab-731\",\"children\":\"Contribute to this exam\"}]]}]]}]\n2a:[\"$\",\"$L3a\",null,{}]\n3b:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3d:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3e:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n30:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n31:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n32:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":51,\"questionId\":\"21786cb6-bca9-4867-834e-fcfc48343cf2\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L3c\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":51,\"questionId\":\"21786cb6-bca9-4867-834e-fcfc48343cf2\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":51,\"questionId\":\"21786cb6-bca9-4867-834e-fcfc48343cf2\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/3\"}]}]]}]\nYour company uses generative AI to assist with content creation and customer interactions.  \n  \nYou need to evaluate whether Azure Machine Learning can add value to the current customer management.  \n  \nFor which use case should you use Machine Learning?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "predicting customer retention"
+        },
+        {
+          "letter": "B",
+          "text": "creating product descriptions from images"
+        },
+        {
+          "letter": "C",
+          "text": "generating marketing campaigns"
+        },
+        {
+          "letter": "D",
+          "text": "summarizing customer service transcripts"
+        }
+      ],
+      "answer": null,
+      "explanation": "Predicting customer retention (churn) is a predictive analytics task: it uses historical customer data to train a classification or regression model that forecasts a future outcome (whether a customer will stay or leave). This is the kind of structured-data, outcome-prediction task that Azure Machine Learning is designed for, as opposed to generative AI, which creates new content such as descriptions, campaigns, or summaries from prompts and existing unstructured data.\n\n**Learn more:** [AI vs. Machine Learning | Microsoft Azure](https://azure.microsoft.com/en-us/overview/artificial-intelligence-ai-vs-machine-learning) · [Generative AI versus Different Types of AI | Microsoft AI](https://www.microsoft.com/en-us/ai/ai-101/generative-ai-vs-other-types-of-ai)"
+    },
+    {
+      "number": 53,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Each month your organization processes thousands of scanned invoices. You need to recommend an AI solution that can automatically pull out key details from these invoices, such as invoice numbers, vendor names, and total amounts.  \n  \nWhat is the best solution to recommend? More than one answer choice may achieve the goal. Select the BEST answer.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Document Intelligence in Foundry Tools"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Vision in Foundry Tools"
+        },
+        {
+          "letter": "C",
+          "text": "Azure AI Search"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Machine Learning"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Document Intelligence (part of Azure AI Foundry Tools, formerly Form Recognizer) includes a prebuilt invoice model specifically designed to automatically extract structured data such as invoice number, vendor name, line items, and total amounts from scanned or photographed invoices. This makes it the purpose-built, best-fit solution compared to Azure Vision (which performs general image analysis/OCR but not structured invoice field extraction), Azure AI Search (used for indexing and querying content, not extraction), or Azure Machine Learning (a general-purpose ML platform that would require building a custom model rather than using an out-of-the-box invoice extraction capability).\n\n**Learn more:** [Azure AI Document Intelligence documentation](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview) · [Prebuilt invoice model - Document Intelligence](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/prebuilt/invoice)"
+    },
+    {
+      "number": 54,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company is planning to roll out AI initiatives across several business units. You need to make sure that every AI project stays aligned with the company's overall business strategy and is carried out responsibly.  \n  \nWhat is the best approach to achieve this goal? More than one answer choice may achieve the goal. Select the BEST answer.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Allow each department to deploy its own AI tools and workflows."
+        },
+        {
+          "letter": "B",
+          "text": "Delegate AI decision-making to the company’s IT department."
+        },
+        {
+          "letter": "C",
+          "text": "Outsource AI development to an external vendor."
+        },
+        {
+          "letter": "D",
+          "text": "Establish an AI council to provide guidance, oversight, and coordination."
+        }
+      ],
+      "answer": null,
+      "explanation": "An AI council (or similar cross-functional governance body) is the recommended approach because it provides centralized guidance, oversight, and coordination for AI initiatives across the organization. Such a council typically includes representatives from business, legal, risk, ethics, and technology functions, enabling it to ensure that AI projects are aligned with overall business strategy while also enforcing responsible AI principles such as fairness, transparency, privacy, and accountability. Allowing departments to act independently (A) leads to inconsistent governance and misalignment with corporate strategy. Delegating decisions solely to IT (B) narrows the scope to technical execution rather than strategic and ethical oversight. Outsourcing to an external vendor (C) cedes strategic control and does not guarantee alignment with internal business goals or responsible AI practices. This governance approach is consistent with responsible AI frameworks such as Microsoft's Responsible AI Standard and the NIST AI Risk Management Framework, which emphasize establishing organizational oversight structures for AI governance.\n\n**Learn more:** [Microsoft Responsible AI Standard](https://www.microsoft.com/en-us/ai/responsible-ai) · [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)"
+    },
+    {
+      "number": 55,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],54:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\n40:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n41:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n42:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":52,\"questionId\":\"de25276d-b470-4a8c-aec1-74dc060a8e57\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L50\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":52,\"questionId\":\"de25276d-b470-4a8c-aec1-74dc060a8e57\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":52,\"questionId\":\"de25276d-b470-4a8c-aec1-74dc060a8e57\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/3\"}]}]]}]\n44:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n45:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n46:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":53,\"questionId\":\"14aab40e-b6c9-4a2c-be44-f5e6dff447e8\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L51\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":53,\"questionId\":\"14aab40e-b6c9-4a2c-be44-f5e6dff447e8\",\"initialCommentCount\":2,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":53,\"questionId\":\"14aab40e-b6c9-4a2c-be44-f5e6dff447e8\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/3\"}]}]]}]\n48:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}]\n49:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n4a:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4b:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":54,\"questionId\":\"84c871cb-4917-4e7e-a008-c2fe6c618909\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L52\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":54,\"questionId\":\"84c871cb-4917-4e7e-a008-c2fe6c618909\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":54,\"questionId\":\"84c871cb-4917-4e7e-a008-c2fe6c618909\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/3\"}]}]]}]\n4d:[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}]\n4e:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4f:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":55,\"questionId\":\"efeba21e-6b6c-48af-b218-3e6997998381\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L53\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":55,\"questionId\":\"efeba21e-6b6c-48af-b218-3e6997998381\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":55,\"questionId\":\"efeba21e-6b6c-48af-b218-3e6997998381\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/3\"}]}]]}]\nMicrosoft 365 Copilot grounds its AI-generated content in the organization's own data—drawing on Microsoft Graph and content the user is authorized to access—rather than relying purely on generic model training data. This grounding process anchors responses in real, verifiable organizational information and supports citing sources, which directly advances transparency (users can trace where an answer came from), reliability (responses reflect accurate, current business data instead of fabricated content), and safety (grounding is a key mitigation Microsoft uses to reduce the risk of AI models generating ungrounded or harmful content). This is documented in Microsoft's guidance on data, privacy, and security for Microsoft 365 Copilot and its responsible AI overview.\n\n**Learn more:** [Data, Privacy, and Security for Microsoft 365 Copilot | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-privacy) · [What is Microsoft 365 Copilot? | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-overview)3c:[[\"$\",\"p\",null,{\"children\":\"Which capability of Microsoft 365 Copilot best supports Microsoft's responsible AI principles of transparency, reliability, and safety?\"}],\"\n\",[\"$\",\"$L54\",null,{\"choices\":{\"A\":\"Automatically approves AI-generated content for company-wide publishing.\",\"B\":\"Removes the need for a human to review AI-generated outputs.\",\"C\":\"Provides grounded, verifiable responses based on organizational data.\",\"D\":\"Enables users to select from an authorized catalog of AI models.\"},\"correctAnswer\":\"C\",\"explanation\":\"$55\",\"trackingInfo\":{\"questionId\":\"21786cb6-bca9-4867-834e-fcfc48343cf2\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"mode\":\"default\"}}]]\nYour company has built a custom Azure Machine Learning model that incorporates a generative AI assistant.  \n  \nThe model performs well when first deployed, but after six months, its predictions become noticeably less accurate.  \n  \nWhat is a possible cause of this issue?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The model requires additional compute resources."
+        },
+        {
+          "letter": "B",
+          "text": "The input data changed over time."
+        },
+        {
+          "letter": "C",
+          "text": "The model was trained incorrectly."
+        }
+      ],
+      "answer": null,
+      "explanation": "A gradual decline in model accuracy after a period of strong performance is a hallmark of data drift, where the statistical properties of incoming input data shift over time relative to the data the model was originally trained on. Since the model's learned patterns are based on historical data, changes in the real-world input distribution (e.g., shifting user behavior, seasonal trends, or evolving data sources) cause the model's predictions to become less aligned with current reality. Azure Machine Learning provides data drift monitoring capabilities specifically to detect this kind of degradation. Insufficient compute would affect training/inference speed rather than accuracy, and incorrect training would typically produce poor results from the outset rather than a delayed decline.\n\n**Learn more:** [Detect data drift on datasets (preview) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/v1/how-to-monitor-datasets) · [Model monitoring for data drift and model performance - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-model-monitoring)"
+    },
+    {
+      "number": 56,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\",\"$L6a\",\"$L6b\",\"$L6c\"]\naf:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Statements\"]\n57:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n58:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n59:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":56,\"questionId\":\"d2a97811-fdef-4a2d-97f7-240a6519806a\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6d\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":56,\"questionId\":\"d2a97811-fdef-4a2d-97f7-240a6519806a\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":56,\"questionId\":\"d2a97811-fdef-4a2d-97f7-240a6519806a\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/3\"}]}]]}]\nYour organization uses a generative AI solution, and you need to improve the quality of its responses by applying grounding. Which statement correctly explains how grounding increases the accuracy and relevancy of the responses?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "references a diverse set of people, disciplines, and perspectives"
+        },
+        {
+          "letter": "B",
+          "text": "explains how and why AI models generate content"
+        },
+        {
+          "letter": "C",
+          "text": "anchors the responses in specific data sources"
+        },
+        {
+          "letter": "D",
+          "text": "specifies the strengths and weaknesses of the AI model"
+        }
+      ],
+      "answer": null,
+      "explanation": "Grounding is the technique of connecting a generative AI model's responses to specific, authoritative, or current data sources—such as enterprise documents, databases, or retrieval systems—rather than relying only on the model's static training data. By anchoring outputs to concrete, verifiable data sources, grounding reduces hallucinations and ensures the generated responses are more accurate, relevant, and contextually appropriate for the intended use case. This is distinct from concepts like diversity of perspectives, explainability of model behavior, or documenting a model's strengths and weaknesses, none of which define grounding.\n\n**Learn more:** [Grounding LLMs - Microsoft Learn](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/grounding-llms)"
+    },
+    {
+      "number": 57,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "<Dropdown\n  blanks={[{\"id\":\"service\",\"options\":[\"Azure Machine Learning\",\"Azure AI Search\",\"Azure OpenAI\",\"Microsoft Foundry\"],\"answer\":\"Azure Machine Learning\"}]}\n  template={\"You use {{service}} to train a model that will forecast product demand based on historical sales data.\"}\n  templateMode={\"prose\"}\n  explanation={\"Azure Machine Learning is the Azure service for training, validating, and deploying predictive machine-learning models, including demand-forecasting models trained from historical sales data.\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],Your company uses Microsoft 365 Copilot.  \n  \nYou have identified several business processes that require custom workflows and specialized automation.  \n  \nYou need to recommend a solution that extends Copilot's capabilities while minimizing development effort and cost.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create an agent by using Microsoft Foundry."
+        },
+        {
+          "letter": "B",
+          "text": "Deploy a Copilot connector."
+        },
+        {
+          "letter": "C",
+          "text": "Build a custom agent by using the full experience of Microsoft Copilot Studio."
+        },
+        {
+          "letter": "D",
+          "text": "Build a declarative agent by using the lite experience of Microsoft Copilot Studio."
+        }
+      ],
+      "answer": null,
+      "explanation": "Building a custom agent with the full experience of Microsoft Copilot Studio provides a low-code platform for creating agents with topics, actions, and flows/workflows, including the ability to orchestrate complex, multi-step logic, integrate enterprise data, call external APIs, and trigger automation in response to events. This satisfies the need for custom workflows and specialized automation while keeping development effort and cost lower than a pro-code solution such as Microsoft Foundry. Declarative agents built with the lite experience only add instructions, knowledge, and simple actions on top of Copilot's existing orchestrator and explicitly cannot implement complex custom workflow orchestration, and Copilot connectors only supply grounding data rather than automation logic.\n\n**Learn more:** [Overview - Microsoft Copilot Studio | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) · [Declarative Agents for Microsoft 365 Copilot | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/overview-declarative-agent)"
+    },
+    {
+      "number": 58,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],When building an AI adoption team within an enterprise, what practice is generally recommended?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Include primarily IT and project management staff initially to streamline deployment, adding governance and compliance roles later."
+        },
+        {
+          "letter": "B",
+          "text": "Include procurement and vendor management specialists early to evaluate AI tools, involving business teams once a platform is selected."
+        },
+        {
+          "letter": "C",
+          "text": "Include representatives from legal, leadership, and business units to align AI initiatives with organizational priorities."
+        },
+        {
+          "letter": "D",
+          "text": "Include only data scientists and engineers at first to validate technical feasibility, then add other stakeholders later."
+        }
+      ],
+      "answer": null,
+      "explanation": "Effective AI adoption requires cross-functional collaboration from the outset. Including legal, leadership, and business unit representatives ensures that AI initiatives are aligned with organizational priorities, regulatory obligations, and risk management from the start, rather than treating governance, compliance, or business alignment as an afterthought. Limiting initial team composition to a single function (such as IT, procurement, or data science/engineering) and adding other stakeholders later risks misalignment with business goals, compliance failures, and costly rework once broader input is finally incorporated."
+    },
+    {
+      "number": 59,
+      "domain": "Identify the business value of generative AI solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your company has an AI solution that relies on a prebuilt Azure OpenAI model to generate content.  \n  \nYou need to reduce the cost of the solution while minimizing the impact on the quality of the generated output.  \n  \nWhich two actions should you perform? Each correct answer presents part of the solution.  \n  \n*Note: Each correct selection is worth one point.*",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Switch to an alternate model."
+        },
+        {
+          "letter": "B",
+          "text": "Apply content moderation."
+        },
+        {
+          "letter": "C",
+          "text": "Optimize the prompts."
+        },
+        {
+          "letter": "D",
+          "text": "Decrease the number of hosting hours for the model."
+        },
+        {
+          "letter": "E",
+          "text": "Fine-tune the existing model."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure OpenAI usage costs are driven primarily by the model tier selected and the number of tokens processed. Choosing a less expensive but still capable model reduces per-call cost, and refining/shortening prompts reduces the token count charged for each request-response cycle — both approaches lower spend without materially degrading the quality of generated content. Content moderation is a built-in safety feature and does not affect billing; reducing hosting hours applies to dedicated/provisioned throughput deployments rather than typical prebuilt consumption-based usage and can reduce availability rather than target cost efficiently; fine-tuning adds training and hosting costs and is intended to improve output relevance, not reduce expense.\n\n**Learn more:** [Azure OpenAI Service pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/) · [Azure OpenAI Service models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models)"
+    },
+    {
+      "number": 60,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "<Dropdown\n  blanks={[{\"id\":\"ai_type\",\"options\":[\"prescriptive\",\"predictive\",\"generative\"],\"answer\":\"generative\"}]}\n  template={\"{{ai_type}} AI solution recognizes patterns in large and complex datasets to create new and original content.\"}\n  templateMode={\"prose\"}\n  explanation={\"Generative AI learns patterns from large datasets and uses them to create new, original content.\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],Your organization is getting ready to roll out Microsoft 365 Copilot and wants to align with Microsoft's responsible AI principles. As a business leader, you suggest forming an AI governance council to help ensure this alignment.  \n  \nWhat is the primary purpose of this council? Note that more than one answer choice could help achieve the goal, so select the BEST answer.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "to monitor user behavior and enforce compliance with internal IT policies"
+        },
+        {
+          "letter": "B",
+          "text": "to train employees on how to use Copilot features effectively"
+        },
+        {
+          "letter": "C",
+          "text": "to oversee implementation, manage technical performance, and ensure successful AI deployment"
+        },
+        {
+          "letter": "D",
+          "text": "to guide strategy, provide oversight, and ensure cross-functional alignment for responsible AI adoption"
+        }
+      ],
+      "answer": null,
+      "explanation": "An AI governance council is intended to function as a cross-functional leadership body that connects business strategy with responsible AI adoption. Its core purpose is to guide overall AI strategy, provide ongoing oversight of AI use and risk, and ensure alignment across business, IT, legal/compliance, and change-management stakeholders — moving the organization from ad hoc experimentation to intentional, scalable, and responsible adoption of Copilot. This is distinct from narrower operational roles such as day-to-day technical implementation and performance monitoring, enforcing IT policy compliance, or delivering end-user training, which are supporting activities rather than the council's defining mission.\n\n**Learn more:** [Creating an AI Council – Microsoft Adoption](https://adoption.microsoft.com/en-us/copilot/ai-council/)"
+    },
+    {
+      "number": 76,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L33\",\"$L34\",\"$L35\",\"$L36\"]\n26:[\"$\",\"$19\",null,{\"fallback\":[[\"$\",\"div\",\"0\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"1\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"2\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}]],\"children\":\"$L37\"}]\n27:[\"$\",\"$L38\",null,{\"compact\":true,\"centered\":true,\"isLoggedIn\":true,\"isSubscriber\":false,\"currentTier\":null,\"returnTo\":\"/exams/microsoft/ab-731/4\",\"sidebarModal\":true}]\n28:[\"$\",\"nav\",null,{\"className\":\"pagination-container\",\"aria-label\":\"Exam pages\",\"children\":[[\"$\",\"p\",null,{\"className\":\"pagination-info\",\"children\":[\"Page \",[\"$\",\"strong\",null,{\"children\":4}],\" of \",4,[\"$\",\"span\",null,{\"className\":\"pagination-info-sep\",\"aria-hidden\":\"true\",\"children\":\"•\"}],\"Questions \",76,\"–\",100,\" of \",100]}],[\"$\",\"div\",null,{\"className\":\"pagination-nav\",\"children\":[[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ab-731/3\",\"className\":\"button link back-arrow pagination-arrow\",\"aria-label\":\"Previous page\",\"rel\":\"prev\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Prev\"}]}],[\"$\",\"div\",null,{\"className\":\"pagination-numbers\",\"children\":[[\"$\",\"$L20\",\"1\",{\"href\":\"/exams/microsoft/ab-731/1\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 1\",\"children\":1}],[\"$\",\"$L20\",\"2\",{\"href\":\"/exams/microsoft/ab-731/2\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 2\",\"children\":2}],[\"$\",\"$L20\",\"3\",{\"href\":\"/exams/microsoft/ab-731/3\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 3\",\"children\":3}],[\"$\",\"span\",\"4\",{\"className\":\"button primary sm pagination-page is-current\",\"aria-current\":\"page\",\"children\":4}]]}],[\"$\",\"span\",null,{\"className\":\"button link arrow pagination-arrow is-disabled\",\"aria-disabled\":\"true\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Next\"}]}]]}]]}]\n29:[\"$\",\"div\",null,{\"className\":\"contribute-cta\",\"children\":[[\"$\",\"$L39\",null,{\"src\":\"/icons/hand-holding-heart.svg\",\"alt\":\"\",\"width\":20,\"height\":20,\"aria-hidden\":\"true\"}],[\"$\",\"span\",null,{\"className\":\"contribute-cta-text\",\"children\":[\"Know a question that should be here?\",\" \",[\"$\",\"$L20\",null,{\"href\":\"/contribute/microsoft/ab-731\",\"children\":\"Contribute to this exam\"}]]}]]}]\n2a:[\"$\",\"$L3a\",null,{}]\n3b:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3d:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3e:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n30:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n31:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n32:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":76,\"questionId\":\"86439885-dac1-4dff-bbbc-1a585880f31e\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L3c\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":76,\"questionId\":\"86439885-dac1-4dff-bbbc-1a585880f31e\",\"initialCommentCount\":2,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":76,\"questionId\":\"86439885-dac1-4dff-bbbc-1a585880f31e\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/4\"}]}]]}]\nYour company plans to use generative AI to help build a website that will showcase various existing products.  \n  \nWhich capability best describes a benefit of using generative AI for this project? More than one answer choice may achieve the goal. Select the BEST answer.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "creating product descriptions based on product specifications"
+        },
+        {
+          "letter": "B",
+          "text": "designing a new product based on customer requirements"
+        },
+        {
+          "letter": "C",
+          "text": "translating product descriptions into a different language"
+        },
+        {
+          "letter": "D",
+          "text": "analyzing product sales to identify patterns and trends"
+        }
+      ],
+      "answer": null,
+      "explanation": "Generative AI models are designed to produce new, coherent content from structured or unstructured input, making them particularly well suited to automatically writing product descriptions from a set of product specifications. This directly supports the goal of populating a product showcase website with informative, human-readable text at scale. Designing new products from customer requirements is a product-design/ideation task rather than content generation for an existing catalog. Translating descriptions is a valid but secondary generative AI use case, less central to the core task described. Analyzing sales data to find patterns and trends is a predictive analytics task, which relies on statistical/ML pattern recognition rather than the generative (content-creation) capability of generative AI."
+    },
+    {
+      "number": 77,
+      "domain": "Identify the business value of generative AI solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your organization intends to use generative AI to assist project managers and engineers in working with construction blueprints that are stored as PDF files. You need to recommend a generative AI solution that satisfies the following business requirements:  \n  \n- Processes both images and text  \n- Summarizes the design of a building  \n- Answers user questions about a building's design  \n- Extracts information from blueprints, such as the location of electrical, heating, and plumbing systems  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a multi-modal solution"
+        },
+        {
+          "letter": "B",
+          "text": "an optical character recognition (OCR) solution"
+        },
+        {
+          "letter": "C",
+          "text": "a text completion solution"
+        },
+        {
+          "letter": "D",
+          "text": "a document summarization solution"
+        }
+      ],
+      "answer": null,
+      "explanation": "A multi-modal generative AI solution can jointly process both visual content (images of blueprints) and textual content, enabling it to interpret diagrams, layouts, and symbols alongside any accompanying text. This capability allows it to summarize building designs, answer natural-language questions about the design, and extract specific information (such as the locations of electrical, heating, and plumbing systems) directly from the visual blueprint data — none of which is possible with OCR alone (which only extracts text), a text-completion model (which only continues text prompts), or a document summarization tool (which only condenses existing text content)."
+    },
+    {
+      "number": 78,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\",\"$L6a\",\"$L6b\",\"$L6c\"]\n57:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n58:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n59:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":81,\"questionId\":\"cc6dc572-716a-4259-b590-b5d5df3dc22c\",\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6d\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":81,\"questionId\":\"cc6dc572-716a-4259-b590-b5d5df3dc22c\",\"initialCommentCount\":2,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-731\",\"questionNumber\":81,\"questionId\":\"cc6dc572-716a-4259-b590-b5d5df3dc22c\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-731/4\"}]}]]}]\nA business unit uses an AI solution to process loan applications.  \n  \nIt is discovered that the solution rejects the applications of all applicants who are older than 60 years of age.  \n  \nWhich Microsoft responsible AI principle is being violated?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "accountability"
+        },
+        {
+          "letter": "B",
+          "text": "transparency"
+        },
+        {
+          "letter": "C",
+          "text": "reliability and safety"
+        },
+        {
+          "letter": "D",
+          "text": "fairness"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft's Responsible AI Standard defines fairness as requiring AI systems to treat everyone fairly and avoid affecting similar groups differently — explicitly noting that for use cases like loan applications, the system should make the same recommendations to people with similar financial circumstances regardless of characteristics such as age. A system that automatically rejects every applicant over age 60, regardless of their actual financial qualifications, is discriminating based on a protected attribute (age) rather than evaluating individuals on their merits, which is a direct violation of the fairness principle. This differs from accountability (human oversight and governance of AI decisions), transparency (explainability of how decisions are made), and reliability and safety (consistent, safe technical operation of the system).\n\n**Learn more:** [What is Responsible AI - Azure Machine Learning | Microsoft Learn](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2)"
+    },
+    {
+      "number": 79,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your organization is assembling a set of AI-driven business solutions.  \n  \nCompany leadership wants to know how Microsoft's responsible AI principles can help support the organization's long-term objectives.  \n  \nWhich benefit best illustrates why responsible AI matters? More than one answer choice may seem to achieve the goal. Select the BEST answer.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "reduces the need for executive oversight in AI decision-making"
+        },
+        {
+          "letter": "B",
+          "text": "enhances stakeholder trust and fosters sustainable AI adoption throughout the organization"
+        },
+        {
+          "letter": "C",
+          "text": "guarantees that AI models provide accurate and relevant responses"
+        },
+        {
+          "letter": "D",
+          "text": "reduces the need for data protection policies and governance"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft's responsible AI framework centers on principles such as fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability. The core purpose of these principles is to build and maintain trust among stakeholders (customers, employees, regulators, and the public) so that AI systems can be adopted responsibly and sustained over time as part of long-term business strategy. Responsible AI does not eliminate the need for human/executive oversight, does not guarantee that model outputs are always accurate, and does not reduce the need for data protection and governance—rather, it strengthens and requires ongoing governance and oversight.\n\n**Learn more:** [Microsoft responsible AI principles and approach](https://www.microsoft.com/en-us/ai/principles-and-approach) · [What is responsible AI - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai)"
+    },
+    {
+      "number": 80,
+      "domain": "Identify the business value of generative AI solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Which scenario represents the best opportunity for Azure Machine Learning to provide meaningful strategic value to a business?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Using historical sales data to forecast demand across product categories."
+        },
+        {
+          "letter": "B",
+          "text": "Digitizing a paper-based process to reduce errors."
+        },
+        {
+          "letter": "C",
+          "text": "Entering customer feedback into a spreadsheet to understand sentiment."
+        },
+        {
+          "letter": "D",
+          "text": "Sending personalized emails to customers based on the customer location."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning provides the greatest strategic value when applied to problems that require identifying patterns in historical data to make predictions that inform business decisions — such as using historical sales data to forecast demand across product categories. This is a classic machine learning (regression/time-series forecasting) scenario, where a trained model can uncover trends and relationships in data that are too complex for manual analysis, enabling better inventory, supply chain, and business planning decisions. In contrast, digitizing a paper process, manually entering feedback into a spreadsheet, or sending emails based on simple location rules do not require predictive modeling and can be accomplished through basic automation or business rules rather than machine learning, so they do not represent the same level of strategic value from an AI/ML investment.\n\n**Learn more:** [Introduction to Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning)"
+    },
+    {
+      "number": 81,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your organization is building an AI-powered customer support agent and must ensure the solution adheres to Microsoft's responsible AI principles.  \n  \nWhich two actions should you take? Select the two best answers, where each correct answer represents part of the overall solution.  \n  \n(Choose two.)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Retain all customer conversations."
+        },
+        {
+          "letter": "B",
+          "text": "Test the agent to ensure that responses are inclusive and culturally sensitive."
+        },
+        {
+          "letter": "C",
+          "text": "Enable the agent to operate independently."
+        },
+        {
+          "letter": "D",
+          "text": "Ensure that the agent can be used for multiple purposes."
+        },
+        {
+          "letter": "E",
+          "text": "Provide a clear disclaimer that users are interacting with an AI solution."
+        }
+      ],
+      "answer": null,
+      "explanation": "Testing the agent's responses for inclusivity and cultural sensitivity supports the Fairness and Inclusiveness principles, which require that AI systems treat all people fairly and avoid biased, offensive, or exclusionary outputs across different groups and cultures. Providing a clear disclaimer that users are interacting with an AI system supports the Transparency principle, which requires that people understand when they are engaging with an AI system, how it works, and its limitations, so they can make informed choices about using it. In contrast, retaining all conversations indefinitely conflicts with the Privacy and Security principle (data minimization), allowing the agent to act fully autonomously conflicts with Accountability (requiring human oversight), and designing the agent for many unrelated purposes conflicts with best practice guidance to scope AI systems to well-defined use cases so risks can be properly assessed and mitigated.\n\n**Learn more:** [Responsible AI Principles and Approach | Microsoft AI](https://www.microsoft.com/en-us/ai/principles-and-approach) · [What is Responsible AI - Azure Machine Learning | Microsoft Learn](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2)"
+    },
+    {
+      "number": 82,
+      "domain": "Identify an implementation and adoption strategy for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],The HR department at your company spends a significant amount of time answering repetitive questions and updating policy documents.  \n  \nYou need to recommend a solution that can:  \n  \n- Automate employee interactions  \n- Respond to HR-related questions  \n- Connect to internal business data sources  \n  \nWhich solution should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Security Copilot"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Copilot Studio"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft 365 Copilot"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Copilot in Azure"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Copilot Studio is the platform designed for building and managing custom AI agents that automate repetitive interactions, answer domain-specific questions, and ground their responses in an organization's own data. Agents built in Copilot Studio can be connected to internal knowledge sources—such as SharePoint, Dataverse, and HR systems of record like Workday, SAP, or ServiceNow—and can trigger Power Automate flows to handle tasks like leave requests, policy Q&A, and onboarding, all without requiring custom application development. This directly matches the requirement to automate HR employee interactions while connecting to internal business data, whereas Microsoft 365 Copilot, Microsoft Security Copilot, and Microsoft Copilot in Azure serve different purposes (general productivity assistance, security operations, and Azure cloud management, respectively) and are not designed for building custom connected conversational agents for a specific business function.\n\n**Learn more:** [Knowledge sources summary - Microsoft Copilot Studio | Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio) · [Transform HR with AI-powered agents | Microsoft Copilot Blog](https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/transform-hr-with-ai-powered-agents/)"
+    },
+    {
+      "number": 83,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Which business requirement is most closely associated with grounding a generative AI model?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "supporting multiple languages"
+        },
+        {
+          "letter": "B",
+          "text": "measuring the number of user interactions per day"
+        },
+        {
+          "letter": "C",
+          "text": "enabling users to interact by using natural language queries"
+        },
+        {
+          "letter": "D",
+          "text": "ensuring that verified company data sources are used for response generation"
+        }
+      ],
+      "answer": null,
+      "explanation": "Grounding in generative AI is the process of connecting a model to authoritative, verified external data sources—such as an organization's internal documents, databases, or knowledge bases—so that the model's outputs are based on accurate, current, and trustworthy information rather than relying solely on its static training data. This directly addresses issues like hallucination and outdated knowledge. The business requirement of ensuring verified company data sources are used for response generation is therefore the one most directly tied to grounding, as opposed to requirements like multilingual support, usage metrics, or natural language interaction, which relate to other aspects of a generative AI solution.\n\n**Learn more:** [Grounding LLMs - Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/ai/conceptual/grounding-llms) · [What is grounding in generative AI? - Google Cloud](https://cloud.google.com/use-cases/grounding-ai)"
+    },
+    {
+      "number": 84,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "<Dropdown\n  blanks={[{\"id\":\"platform\",\"options\":[\"Microsoft Foundry\",\"Microsoft Power Platform\",\"Azure Machine Learning\"],\"answer\":\"Microsoft Foundry\"}]}\n  template={\"{{platform}} is a unified platform for enterprise AI development, where you can build, customize, evaluate, and manage AI apps and models.\"}\n  templateMode={\"prose\"}\n  explanation={\"Microsoft Foundry is Microsoft’s unified enterprise AI development platform for building, customizing, evaluating, and managing AI applications and models.\\\n\\\n**Learn more:** [Microsoft Foundry documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/)\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],You have a large language model (LLM) that was pretrained using public data. You want the LLM to generate responses that incorporate frequently updated proprietary content, such as internal documents and knowledge bases. You need to recommend a solution that ensures the LLM uses the most current information without retraining the model.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Retrieval Augmented Generation (RAG)"
+        },
+        {
+          "letter": "B",
+          "text": "prompt engineering"
+        },
+        {
+          "letter": "C",
+          "text": "content filtering"
+        },
+        {
+          "letter": "D",
+          "text": "model fine-tuning"
+        }
+      ],
+      "answer": null,
+      "explanation": "Retrieval Augmented Generation (RAG) lets an LLM ground its responses on external, frequently changing data sources—such as internal documents and knowledge bases—by retrieving relevant content at query time and adding it to the model's context/prompt. This provides access to the most current, proprietary information without any need to fine-tune or retrain the underlying model, satisfying the stated requirement. Prompt engineering only shapes instructions and cannot supply new factual content; content filtering addresses responsible AI/moderation concerns, not knowledge freshness; and fine-tuning requires retraining, which is explicitly excluded.\n\n**Learn more:** [Retrieval Augmented Generation (RAG) in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)"
+    },
+    {
+      "number": 85,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "Choose the answer that correctly finishes the sentence.\n\n<Dropdown\n  blanks={[{\"id\":\"blank1\",\"options\":[\"integrating AI-powered tools into business workflows.\",\"identifying and fixing errors in AI-generated content.\",\"designing, developing, and training generative AI models to produce contextually relevant content.\",\"crafting clear instructions to guide generative AI solutions in generating context-appropriate content.\"],\"answer\":\"crafting clear instructions to guide generative AI solutions in generating context-appropriate content.\"}]}\n  template={\"Prompt engineering is the process of {{blank1}}\"}\n  templateMode={\"prose\"}\n  explanation={\"Prompt engineering involves crafting clear, effective instructions that guide a generative AI model to produce contextually appropriate responses.\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],You are preparing to meet with a group of stakeholders to discuss how generative AI could benefit your company. During this meeting, you need to give the stakeholders an accurate description of generative AI.  \n  \nWhich description should you provide?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Generative AI is designed to generate responses based on a user’s natural language prompts."
+        },
+        {
+          "letter": "B",
+          "text": "Generative AI is designed to translate documents into other languages."
+        },
+        {
+          "letter": "C",
+          "text": "Generative AI is designed to predict future trends based on historical data."
+        },
+        {
+          "letter": "D",
+          "text": "Generative AI is designed to recommend products based on user behavior."
+        }
+      ],
+      "answer": null,
+      "explanation": "Generative AI refers to a category of artificial intelligence models that create new content—such as text, images, or code—by generating responses to natural language prompts provided by users. This distinguishes it from other AI types such as predictive analytics (which forecasts trends from historical data) or recommendation engines (which suggest products based on user behavior). Microsoft's official learning materials describe generative AI as AI that can generate original content in response to natural language input, making option A the accurate general description.\n\n**Learn more:** [Fundamentals of Generative AI - Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/)"
+    },
+    {
+      "number": 86,
+      "domain": "Identify benefits, capabilities, and opportunities for Microsoft’s AI apps and services",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Your organization relies on a non-reasoning generative AI model to produce text content. You have noticed that the model's outputs are inconsistent and fail to meet expectations, and you need to improve the prompts used.  \n  \nWhat should you do? More than one answer choice may achieve the goal. Select the BEST answer.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Provide the prompts with extensive examples of the expected output."
+        },
+        {
+          "letter": "B",
+          "text": "Add the context, sources, and expectations to the prompts."
+        },
+        {
+          "letter": "C",
+          "text": "Use technical terms in the prompts to enhance AI comprehension."
+        },
+        {
+          "letter": "D",
+          "text": "Add only a single concise requirement to the prompts."
+        }
+      ],
+      "answer": null,
+      "explanation": "Inconsistent outputs from a generative AI model are typically caused by prompts that are too ambiguous or under-specified. Best practice in prompt engineering is to supply the model with adequate context, relevant sources or reference information, and clearly defined expectations (such as required format, scope, tone, and level of detail). Doing so narrows the space of plausible responses and guides the model toward outputs that reliably match what is desired, directly addressing inconsistency and unmet expectations. Simply adding many examples, using technical jargon, or reducing the prompt to a single vague requirement do not reliably resolve the underlying ambiguity that causes inconsistent results.\n\n**Learn more:** [What is Prompt Engineering? - AWS](https://aws.amazon.com/what-is/prompt-engineering/)"
+    }
+  ]
+}

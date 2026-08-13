@@ -1,0 +1,1959 @@
+{
+  "provider": "microsoft",
+  "slug": "ab-100",
+  "fullSlug": "microsoft/ab-100",
+  "title": "Copy link to this question",
+  "totalQuestions": 112,
+  "totalPages": 4,
+  "crawledPages": 5,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L30\",\"$L31\",\"$L32\",\"$L33\"],\"$L34\",false,false,\"$L35\",\"$L36\",\"$L37\"]}]\n38:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3a:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3b:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n4a:I[10489,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"Image\"]\n4b:I[11077,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n2d:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n2e:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n2f:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L38\",null,{\"questionNumber\":1,\"questionId\":\"8c1be32c-f612-41de-abf9-ce922a3d669c\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L39\"}]}],[\"$\",\"$L3a\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":1,\"questionId\":\"8c1be32c-f612-41de-abf9-ce922a3d669c\",\"initialCommentCount\":2,\"children\":[\"$\",\"$L3b\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":1,\"questionId\":\"8c1be32c-f612-41de-abf9-ce922a3d669c\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-100/1\"}]}]]}]\nA company uses Microsoft Copilot Studio agents.  \n  \nThe company plans to deploy custom connectors across development, test, and production environments.  \n  \nYou need to design an application lifecycle management (ALM) process that ensures consistency and prevents direct editing in production.  \n  \nWhich two actions should you include in the design? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deploy managed solutions to production."
+        },
+        {
+          "letter": "B",
+          "text": "Deploy unmanaged solutions to production."
+        },
+        {
+          "letter": "C",
+          "text": "Manually rebuild the agents in each environment."
+        },
+        {
+          "letter": "D",
+          "text": "Move the agents between the environments by using data export and import."
+        },
+        {
+          "letter": "E",
+          "text": "Include agents and connectors in a solution."
+        }
+      ],
+      "answer": null,
+      "explanation": "Managed solutions are intended for production deployment and help prevent direct changes to deployed components. Power Platform solutions package components for transport between environments and can include custom connectors; Copilot Studio agents are managed and deployed across environments by using solutions.\n\n**Learn more:** [ALM basics with Microsoft Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/basics-alm) · [Create and manage solutions in Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-overview)"
+    },
+    {
+      "number": 2,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has Microsoft Foundry agents that generate responses by using Azure OpenAI resources. The agents are deployed in both the United States and Europe.  \n  \nA company mandate requires that the agents and their grounding data comply with data-residency and data-movement regulations.  \n  \nYou need to recommend a governance solution for the agents.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Defender for Cloud"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Policy"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Monitor"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Purview"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Purview provides data-governance and compliance controls for Microsoft Foundry agents, including data classification, sensitivity labels, data loss prevention, and compliance management for AI interactions. These capabilities help govern grounding data and its regulated handling across regional deployments.\n\n**Learn more:** [Use Microsoft Purview to manage data security & compliance for AI agents](https://learn.microsoft.com/en-us/purview/ai-agents) · [Microsoft Foundry Agent Service overview](https://learn.microsoft.com/en-us/azure/foundry/agents/overview)"
+    },
+    {
+      "number": 3,
+      "domain": "Design AI-powered business solutions",
+      "question": "Which tool should be used for the prospect-communication requirements in Dynamics 365 Sales?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure AI Search"
+        },
+        {
+          "letter": "B",
+          "text": "Copilot email assist"
+        },
+        {
+          "letter": "C",
+          "text": "the Voice template Microsoft Copilot Studio"
+        },
+        {
+          "letter": "D",
+          "text": "Deep Research in Microsoft Foundry Agent Service"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Copilot email assist helps Dynamics 365 Sales sellers compose customer-specific email content and is supported for lead and opportunity records through Dynamics 365 email, directly enabling faster prospect correspondence.\\\n\\\n**Learn more:** [Enable Copilot email assist](https://learn.microsoft.com/en-us/dynamics365/sales/enable-copilot-email-assist)"
+    },
+    {
+      "number": 4,
+      "domain": "Plan AI-powered business solutions",
+      "question": "What should you recommend to help the CEO fulfill their specific responsibilities?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Microsoft Service Trust Portal"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Foundry Tools"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Purview"
+        },
+        {
+          "letter": "D",
+          "text": "the Responsible AI dashboard"
+        },
+        {
+          "letter": "E",
+          "text": "Compliance Center"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The Responsible AI dashboard provides a unified assessment of model performance, fairness, interpretability, and error analysis. These capabilities support evaluating reliability, interpretability, fairness, and compliance as part of responsible AI practices.\\\n\\\n**Learn more:** [Assess AI systems by using the Responsible AI dashboard](https://learn.microsoft.com/lb-lu/azure/machine-learning/concept-responsible-ai-dashboard?view=azureml-api-2) · [What is Responsible AI?](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2)"
+    },
+    {
+      "number": 5,
+      "domain": "Design AI-powered business solutions",
+      "question": "What should you recommend to help the CEO fulfill their specific responsibilities?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "an Azure package"
+        },
+        {
+          "letter": "B",
+          "text": "a ZIP package"
+        },
+        {
+          "letter": "C",
+          "text": "a Microsoft Power Platform solution"
+        },
+        {
+          "letter": "D",
+          "text": "a Cloud Scale Unit (CSU) package"
+        },
+        {
+          "letter": "E",
+          "text": "an X++model"
+        }
+      ],
+      "answer": null,
+      "explanation": "A Microsoft Power Platform solution is the ALM container for a Copilot Studio agent and its low-code components across environments. An X++ model is required to manage the Dynamics 365 Supply Chain Management extension and externalized business logic that the agent must use. A ZIP file is an export format for a solution, not a separate application component.\n\n**Learn more:** [Create and manage solutions in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-overview) · [Export and import agents using solutions](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-import-export)"
+    },
+    {
+      "number": 6,
+      "domain": "Plan AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses a Microsoft Foundry agent that summarizes customer feedback and suggests products to customers. The agent accesses data from multiple knowledge sources.  \n  \nUsers report slow agent response times.  \n  \nTelemetry indicates that the agent frequently hits its token-usage limit.  \n  \nYou need to recommend a solution that reduces token usage without reducing the quality of generated responses.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chunk documents during indexing."
+        },
+        {
+          "letter": "B",
+          "text": "Reduce the number of knowledge sources used by the agent."
+        },
+        {
+          "letter": "C",
+          "text": "Reconfigure the prompts to limit the amount of retrieved content from the knowledge sources."
+        },
+        {
+          "letter": "D",
+          "text": "Lower the maximum token usage limit for the responses."
+        }
+      ],
+      "answer": null,
+      "explanation": "Chunk documents during indexing so retrieval returns smaller, relevant passages rather than entire or oversized documents. In RAG and agentic retrieval, retrieved passages are included in the model input; appropriate chunking helps meet input-token limits and prevents truncation while retaining relevant grounding content.\n\n**Learn more:** [Chunk large documents for RAG and vector search in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-chunk-documents) · [Retrieval augmented generation (RAG) and indexes in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/concepts/retrieval-augmented-generation?view=foundry-classic)"
+    },
+    {
+      "number": 7,
+      "domain": "Plan AI-powered business solutions",
+      "question": "A company intends to deploy a Microsoft Copilot Studio agent that analyzes historical business data to predict customer behavior.  \n  \nThe data is presently stored in an Azure SQL database, flat files, APIs, and logs.  \n  \nYou need to organize the data into a format that Copilot Studio can use as a knowledge source.  \n  \nWhat should the solution include?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure AI Search"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Data Lake Storage"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Cosmos DB"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Translator in Foundry Tools"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Azure AI Search creates a searchable index over enterprise content and is supported by Microsoft Copilot Studio as a knowledge source. It provides the retrieval layer needed to organize heterogeneous content for agent grounding, rather than merely storing the data.\\\n\\\n**Learn more:** [Add Azure AI Search as a knowledge source - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-azure-ai-search)"
+    },
+    {
+      "number": 8,
+      "domain": "Design AI-powered business solutions",
+      "question": "What should be configured for the custom AI agent?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AI-assisted evaluators"
+        },
+        {
+          "letter": "B",
+          "text": "classic orchestration"
+        },
+        {
+          "letter": "C",
+          "text": "generative orchestration"
+        },
+        {
+          "letter": "D",
+          "text": "Azure OpenAI reasoning models"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Generative orchestration selects topics, tools, knowledge sources, and other agents using their descriptions and the user’s intent. It supports conversational routing without relying on authored trigger phrases, and can select connected agents based on their descriptions.\\\n\\\n**Learn more:** [Orchestrate agent behavior with generative AI](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-generative-actions) · [Set topic triggers - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-triggers)"
+    },
+    {
+      "number": 9,
+      "domain": "Plan AI-powered business solutions",
+      "question": "What should be recommended to help the CTO select a prebuilt agent?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Agent management"
+        },
+        {
+          "letter": "B",
+          "text": "Copilot Studio"
+        },
+        {
+          "letter": "C",
+          "text": "Lifecycle Services (LCS)"
+        },
+        {
+          "letter": "D",
+          "text": "Immersive Home"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Agent management provides a Library for discovering and activating agents, and it supports previewing an agent’s capabilities before activation. This enables evaluation of available prebuilt agents and a stakeholder demonstration before deployment.\\\n\\\n**Learn more:** [Responsible AI FAQ for agent management in finance and operations apps](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/copilot/faq-agent-mgmt)"
+    },
+    {
+      "number": 10,
+      "domain": "Design AI-powered business solutions",
+      "question": "Solution: Recommend Microsoft 365 Copilot for Sales.  \n  \nDoes this fulfill the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Microsoft 365 Copilot for Sales provides Outlook capabilities to summarize email threads and generate reply drafts, while its Microsoft 365 Copilot meeting-preparation experience supplies insights from CRM opportunity data. These capabilities cover email summarization, suggested replies, and CRM-informed meeting preparation.\\\n\\\n**Learn more:** [Sales agent FAQ](https://learn.microsoft.com/en-us/microsoft-sales-copilot/sales-m365-copilot-faq) · [FAQs for customer communication feature in Outlook and Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-sales-copilot/faqs-customer-communication)"
+    },
+    {
+      "number": 11,
+      "domain": "Design AI-powered business solutions",
+      "question": "Solution: Recommend a classic Microsoft Dataverse workflow.  \n  \nDoes this satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A classic Microsoft Dataverse workflow provides rule-based process automation; it does not provide generative AI capabilities to summarize Outlook email threads, create suggested replies, or generate meeting-preparation summaries enriched with CRM data. Microsoft’s Copilot and Sales agent capabilities provide those Outlook and Dynamics 365-integrated features.\\\n\\\n**Learn more:** [Agents, Copilot, and AI capabilities in Dynamics 365 apps](https://learn.microsoft.com/en-us/dynamics365/copilot/ai-get-started) · [Boost sales efficiency with CRM-enriched email summaries in Outlook](https://learn.microsoft.com/en-us/microsoft-sales-copilot/email-summary-premium)"
+    },
+    {
+      "number": 12,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "Solution: Recommend a Microsoft 365 Copilot agent template.  \n  \nDoes this satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A Microsoft 365 Copilot agent template is a starting point for building a declarative agent; it does not, on its own, deliver the required Outlook email-thread summaries and suggested replies together with meeting-preparation summaries grounded in Dynamics 365 CRM data. Those capabilities require the appropriate built-in Outlook Copilot and Dynamics/Sales integration, or an agent specifically configured with the necessary CRM connection and instructions.\\\n\\\n**Learn more:** [Templates for agents for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/microsoft-365/copilot/extensibility/agent-templates-overview) · [Microsoft 365 Copilot application card](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-application-card)"
+    },
+    {
+      "number": 13,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has an AI solution that uses Azure OpenAI models.  \n  \nYou need to recommend a governance solution that monitors and audits changes to model configurations and data usage. The solution must minimize administrative effort.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Monitor"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Stream Analytics"
+        },
+        {
+          "letter": "C",
+          "text": "Azure API Management"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Policy"
+        },
+        {
+          "letter": "E",
+          "text": "Microsoft Purview"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Purview provides centralized AI and data governance capabilities, including audit records and monitoring of AI interactions and data use. Its integrated governance and compliance features reduce the administrative overhead of building separate telemetry, policy, and audit processes.\n\n**Learn more:** [Develop and deploy secure and compliant AI apps in Microsoft Foundry with Microsoft Purview](https://learn.microsoft.com/en-us/purview/developer/secure-ai-with-purview) · [Azure AI security best practices](https://learn.microsoft.com/en-us/azure/security/fundamentals/ai-security-best-practices)"
+    },
+    {
+      "number": 14,
+      "domain": "Plan AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company intends to deploy a Microsoft Dynamics 365 Contact Center agent.  \n  \nYou must ensure that the agent can transfer a conversation to a live customer service representative.  \n  \nWhich two components should be included in the solution? Each correct answer presents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Foundry"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Copilot Studio"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft 365 Agents Toolkit"
+        },
+        {
+          "letter": "D",
+          "text": "an Azure AI Bot Service skill"
+        },
+        {
+          "letter": "E",
+          "text": "Customer engagement hub"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Copilot Studio provides the agent and its Transfer conversation capability. A connected Customer engagement hub—specifically Dynamics 365 Customer Service—receives the escalation, routes it to an appropriate queue, and lets a live customer service representative resume the conversation with its context.\n\n**Learn more:** [Configure handoff to Dynamics 365 Customer Service](https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-hand-off-omnichannel) · [Hand off to a live agent](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-hand-off)"
+    },
+    {
+      "number": 15,
+      "domain": "Plan AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has an Azure environment that supports several business units.  \n  \nThe company intends to implement an AI solution that will perform sentiment analysis on customer product reviews.  \n  \nYou need to assess the solution’s potential cost to support return on AI investment (ROAI) analysis.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Total Cost of Ownership (TCO) Calculator"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Reservations"
+        },
+        {
+          "letter": "C",
+          "text": "Azure pricing calculator"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Monitor"
+        }
+      ],
+      "answer": null,
+      "explanation": "The Azure pricing calculator converts anticipated Azure service usage and configuration into estimated costs, enabling cost planning and return-on-investment analysis for a proposed AI solution. The Total Cost of Ownership Calculator is intended for comparing on-premises infrastructure costs with Azure costs, while reservations provide discounted pricing commitments and Azure Monitor collects operational telemetry.\n\n**Learn more:** [Estimate costs with the Azure pricing calculator](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator)"
+    },
+    {
+      "number": 26,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company uses multiple Microsoft Copilot Studio agents in different channels.  \n  \nYou need to recommend a monitoring solution that delivers comprehensive telemetry data and performance insights for the agents.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Application Insights"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Advisor"
+        },
+        {
+          "letter": "C",
+          "text": "Azure DevOps"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Dynamics 365 Customer Voice"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Application Insights provides telemetry and diagnostic monitoring for Copilot Studio agents. Its agent-monitoring experience consolidates telemetry across sources, enabling performance analysis, error troubleshooting, and optimization.\\\n\\\n**Learn more:** [Monitor AI agents with Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/agents-view) · [Capture telemetry with Application Insights](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-bot-framework-composer-capture-telemetry)"
+    },
+    {
+      "number": 27,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company uses multiple Microsoft Copilot Studio agents in different channels.  \n  \nYou need to recommend a monitoring solution that delivers comprehensive telemetry data and performance insights for the agents.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a central model registry that uses version history."
+        },
+        {
+          "letter": "B",
+          "text": "Establish a promotion process by using a quality gate."
+        },
+        {
+          "letter": "C",
+          "text": "Implement version control for all the AI system components."
+        },
+        {
+          "letter": "D",
+          "text": "Track model retirement schedules to prevent service disruptions."
+        }
+      ],
+      "answer": null,
+      "explanation": "Version control for all AI system components creates an audit trail of changes and enables rapid identification and rollback of problematic models, data pipelines, and system configurations. This supports security and compliance review of previous states and improves business continuity by allowing restoration of a known-good configuration.\n\n**Learn more:** [Manage AI — Cloud Adoption Framework](https://learn.microsoft.com/ar-sa/azure/cloud-adoption-framework/scenarios/ai/manage)"
+    },
+    {
+      "number": 28,
+      "domain": "Plan AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has an AI agent that automates reviewing customer feedback stored in a cloud database.  \n  \nYou plan to create monthly reports from the agent's output to gain insight into customer sentiment and inform product development and marketing.  \n  \nYou must ensure the data ingested by the agent is clean and appropriate for its intended use.  \n  \nWhat should you do to prepare the data?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a workflow in Microsoft Power Automate."
+        },
+        {
+          "letter": "B",
+          "text": "Identify and address biased data."
+        },
+        {
+          "letter": "C",
+          "text": "Create an agent flow in Microsoft Copilot Studio."
+        },
+        {
+          "letter": "D",
+          "text": "Sort the database by customer last name."
+        }
+      ],
+      "answer": null,
+      "explanation": "Biased data can lead an AI system to produce unfair, inaccurate, or misleading sentiment insights. Data preparation should identify bias and correct imbalances so the input is representative and suitable for the reporting purpose. Microsoft guidance recommends auditing data for biases and imbalances and taking corrective action.\n\n**Learn more:** [Apply responsible AI principles - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/responsible-ai)"
+    },
+    {
+      "number": 29,
+      "domain": "Design AI-powered business solutions",
+      "question": "You are designing an AI business solution that includes the following components:  \n  \n- A Microsoft Power Automate workflow  \n- A Microsoft Copilot Studio agent  \n- A Microsoft Dataverse database  \n- A Microsoft Power Apps app  \n  \nAs part of the application lifecycle management (ALM) process, you plan to package these components so they can be deployed together to other environments.  \n  \nYou need to recommend a solution that supports versioning, dependencies, and deployments.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GitHub Actions"
+        },
+        {
+          "letter": "B",
+          "text": "Azure DevOps"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Power Platform solutions"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Microsoft Power Platform solutions package Dataverse components and related Power Apps, Power Automate flows, and Copilot Studio agents into a deployable unit. Solutions track versions, manage component dependencies, and support moving the grouped application between environments as part of ALM."
+    },
+    {
+      "number": 30,
+      "domain": "Design AI-powered business solutions",
+      "question": "You are designing an AI business solution that includes the following components:  \n  \n- A Microsoft Power Automate workflow  \n- A Microsoft Copilot Studio agent  \n- A Microsoft Dataverse database  \n- A Microsoft Power Apps app  \n  \nAs part of the application lifecycle management (ALM) process, you plan to package these components so they can be deployed together to other environments.  \n  \nYou need to recommend a solution that supports versioning, dependencies, and deployments.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Computer Use in Copilot Studio"
+        },
+        {
+          "letter": "B",
+          "text": "custom models in Azure AI Studio"
+        },
+        {
+          "letter": "C",
+          "text": "conversation topics in Copilot Studio"
+        },
+        {
+          "letter": "D",
+          "text": "an agent flow in Copilot Studio"
+        }
+      ],
+      "answer": null,
+      "explanation": "Computer Use in Copilot Studio performs GUI automation using visual reasoning and natural-language instructions. It can adapt to user-interface changes such as shifted buttons or layouts, reducing the need to revise the agent’s automation when a web application UI changes.\n\n**Learn more:** [Automate web and desktop apps with computer use](https://learn.microsoft.com/en-us/power-platform/release-plan/2026wave1/microsoft-copilot-studio/automate-web-desktop-apps-computer-use)"
+    },
+    {
+      "number": 31,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company uses Microsoft Dynamics 365 Sales to manage leads stored in a Microsoft Dataverse table named **Lead**, using non-standard terminology and custom columns.  \n  \nYou need to configure business terms for the **Lead** table so Microsoft Copilot controls can summarize the leads efficiently. The solution must minimize administrative effort.  \n  \nHow should you configure the business terms?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Combine all the fields into one custom field."
+        },
+        {
+          "letter": "B",
+          "text": "Map the field display names as business terms."
+        },
+        {
+          "letter": "C",
+          "text": "Add the schema names as business terms."
+        },
+        {
+          "letter": "D",
+          "text": "Create new business terms for each field."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Mapping field display names as business terms gives Microsoft Copilot user-facing semantic labels for the custom Lead columns without requiring separate business-term records to be created for each field. Schema names are technical identifiers rather than the appropriate business terminology."
+    },
+    {
+      "number": 32,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company is extending Copilot in Microsoft Dynamics 365 Customer Service.  \n  \nYou need to recommend an automated application lifecycle management (ALM) process that enables the Copilot components to be developed safely, tested, and promoted to production.  \n  \nWhich two actions should be included in the ALM process? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use an unmanaged solution in production."
+        },
+        {
+          "letter": "B",
+          "text": "Rebuild the agents in each environment."
+        },
+        {
+          "letter": "C",
+          "text": "Use Microsoft Power Platform pipelines."
+        },
+        {
+          "letter": "D",
+          "text": "Include the components in a solution."
+        },
+        {
+          "letter": "E",
+          "text": "Store the agent transcripts in source control."
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot Studio agents and components are created and managed within Power Platform solutions, which support moving the same packaged components across environments. Power Platform pipelines automate deployment of those solutions through development, test, and production stages.\n\n**Learn more:** [Create and manage solutions in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-overview) · [Application lifecycle management (ALM) with Microsoft Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/)"
+    },
+    {
+      "number": 33,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],Which two components of the custom AI agent design should the CFO assess in the quarterly agent analysis? Each correct answer represents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the GPT models used for the agent"
+        },
+        {
+          "letter": "B",
+          "text": "the average characters in a chat message"
+        },
+        {
+          "letter": "C",
+          "text": "the agent orchestration method"
+        },
+        {
+          "letter": "D",
+          "text": "the average session time per agent"
+        }
+      ],
+      "answer": null,
+      "explanation": "A CFO's quarterly review of a custom agent is a cost/ROI exercise, and the Copilot Studio / Foundry usage analytics center that review on how the agent behaves and how much it is used. The agent orchestration method (C) drives how many model calls, tool invocations, and knowledge-source retrievals occur, which directly shapes consumption and cost, while average session time per agent (D) indicates engagement and whether sessions (and the credits/tokens they consume) are being used efficiently. The specific GPT model list (A) and average characters per message (B) are low-level implementation details rather than the components a CFO assesses for the quarterly cost analysis.\n\n**Learn more:** [Plan and manage costs for Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/concepts/manage-costs) · [AB-100 Study Guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ab-100)"
+    },
+    {
+      "number": 34,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has two Microsoft Power Platform environments, named Dev1 and Prod1. A Microsoft Copilot Studio agent named Agent1 is created within a solution in the Dev1 environment.  \n  \nYou plan to deploy Agent1 to Prod1.  \n  \nYou need to make Agent1 available to users in Prod1 while minimizing administrative effort.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Share Agent1 with the users in Prod1."
+        },
+        {
+          "letter": "B",
+          "text": "Export the solution as an unmanaged solution and import the solution into Prod1."
+        },
+        {
+          "letter": "C",
+          "text": "Export the solution as a managed solution and import the solution into Prod1."
+        },
+        {
+          "letter": "D",
+          "text": "Create a new Copilot Studio agent in Prod1 by replicating the configuration of Agent1."
+        }
+      ],
+      "answer": null,
+      "explanation": "Managed solutions are the recommended deployment artifact for Power Platform production environments. Exporting the unmanaged development solution as managed and importing it into Prod1 transfers Agent1 as a governed production deployment, rather than requiring manual recreation or leaving production components as unmanaged customizations. An imported Copilot Studio agent must be published before it can be shared with users.\n\n**Learn more:** [Solution concepts with Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/solution-concepts-alm) · [Export and import agents using solutions](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-solutions-import-export)"
+    },
+    {
+      "number": 35,
+      "domain": "Plan AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"ab-100\",\"data-q\":38,\"data-question-id\":\"62b9e29c-4277-46bf-9248-d988bbc3c0ba\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],\"$L81\"]}],\"$L82\"]}]]}]]}],\"$L83\"]}],\"$L84\"]}]\nA company has an Azure environment that supports multiple business units.  \n  \nThe company plans to implement an AI solution to perform sentiment analysis on customer product reviews.  \n  \nYou need to assess the solution’s potential cost to support return on AI investment (ROAI) analysis.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cost Management + Billing"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Fabric SKU Estimator"
+        },
+        {
+          "letter": "C",
+          "text": "Total Cost of Ownership (TCO) Calculator"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Reservations"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Cost Management + Billing provides cost analysis, reporting, monitoring, and optimization across Azure billing and resource scopes. These capabilities let an organization assess and track the AI solution’s costs in support of ROAI analysis. [Microsoft Cost Management overview](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/overview-cost-management)\n\n**Learn more:** [Overview of Cost Management - Microsoft Cost Management](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/overview-cost-management)"
+    },
+    {
+      "number": 36,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses Microsoft Dynamics 365 to manage its service operations. Dispatchers coordinate service requests, while technicians carry out scheduled onsite work.  \n  \nYou need to design a solution that uses Microsoft Copilot to increase the efficiency of service operations. The solution must meet these requirements:  \n  \n- Provide AI-driven assistance that helps staff organize and resolve work orders.  \n- Provide contextual AI support to frontline workers as they prepare for and complete customer appointments.  \n  \nWhich two components should you include in the design? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Copilot Service workspace"
+        },
+        {
+          "letter": "B",
+          "text": "Copilot in Outlook"
+        },
+        {
+          "letter": "C",
+          "text": "Dynamics 365 Customer Service"
+        },
+        {
+          "letter": "D",
+          "text": "Copilot in Customer Service"
+        },
+        {
+          "letter": "E",
+          "text": "Copilot in Field Service"
+        },
+        {
+          "letter": "F",
+          "text": "the Dynamics 365 Field Service mobile app"
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot in Dynamics 365 Field Service provides AI assistance for work-order work, including summaries, natural-language queries, and work-order updates. The Dynamics 365 Field Service mobile app is used by frontline technicians for onsite jobs and exposes contextual work-order information and Copilot capabilities as they prepare for and perform appointments.\n\n**Learn more:** [Copilot features in Dynamics 365 Field Service](https://learn.microsoft.com/en-us/dynamics365/field-service/copilot-overview) · [Overview of Dynamics 365 Field Service](https://learn.microsoft.com/en-us/dynamics365/field-service/overview)"
+    },
+    {
+      "number": 37,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company plans to deploy a Microsoft Copilot Studio agent to improve customer support.  \n  \nThe company stores customer data across ServiceNow, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, and Excel files in SharePoint Online.  \n  \nYou need to recommend a solution that ensures the agent can provide accurate and timely responses.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Implement a model router for query handling."
+        },
+        {
+          "letter": "B",
+          "text": "Create custom prompts."
+        },
+        {
+          "letter": "C",
+          "text": "Implement Microsoft Power Platform connectors."
+        },
+        {
+          "letter": "D",
+          "text": "Enable incremental indexing in Azure AI Search."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Power Platform connectors provide Copilot Studio with live, authenticated access to enterprise data sources, including ServiceNow, Dynamics 365, and SharePoint. As real-time knowledge sources, they process requests against the target systems at runtime, allowing responses to use current source data rather than stale copied data.\n\n**Learn more:** [Add Power Platform connectors as knowledge (preview)](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-real-time-connectors) · [Copilot connectors versus Power Platform connectors as knowledge sources](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-graph-vs-power-platform-connectors)"
+    },
+    {
+      "number": 38,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "You are designing a low-code AI business solution by using Microsoft Copilot Studio.  \n  \nThe solution must include an agent that automates tasks by simulating user interactions across third-party apps and websites, such as clicking buttons, entering text, and extracting information from screens.  \n  \nYou need to recommend what to include in the agent.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Model Context Protocol (MCP)"
+        },
+        {
+          "letter": "B",
+          "text": "a natural language understanding + (NLU+) model in Copilot Studio"
+        },
+        {
+          "letter": "C",
+          "text": "Computer Use in Copilot Studio"
+        },
+        {
+          "letter": "D",
+          "text": "Copilot skills"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Computer Use in Copilot Studio enables agents to automate user-interface interactions with third-party applications and websites, including clicking controls, typing text, and extracting information displayed on screens.\\\n\\\n**Learn more:** [Use computer use in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/computer-use)"
+    },
+    {
+      "number": 39,
+      "domain": "Plan AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You must recommend a security solution for agents in a Microsoft Power Platform environment.  \n  \nThe agents must use only approved connectors and services. The solution must prevent the agents from accessing sensitive data.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure Azure Monitor to capture connector activity logs."
+        },
+        {
+          "letter": "B",
+          "text": "Enable a Microsoft Dataverse audit."
+        },
+        {
+          "letter": "C",
+          "text": "Deploy data loss prevention (DLP) policies in Power Platform."
+        },
+        {
+          "letter": "D",
+          "text": "Enable customer-managed keys in Microsoft Dataverse."
+        }
+      ],
+      "answer": null,
+      "explanation": "Power Platform data loss prevention (DLP) policies enforce connector governance by allowing, grouping, or blocking connectors and controlling which connectors can exchange data. They act as guardrails that reduce unauthorized exposure of organizational data, including for agents. [Microsoft Learn: Data policies](https://learn.microsoft.com/en-us/power-platform/admin/wp-data-loss-prevention)\n\n**Learn more:** [Data policies - Power Platform | Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/wp-data-loss-prevention) · [Implement a data policy strategy - Power Platform | Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/guidance/adoption/dlp-strategy)"
+    },
+    {
+      "number": 40,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to design a Microsoft 365 Copilot solution that optimizes employee productivity. The solution must meet these requirements:  \n  \n- Ensure employees can use natural language-based prompt actions to query content stored in a subset of Microsoft SharePoint Online sites and in Teams.  \n- Ensure employees receive contextually relevant responses in Microsoft 365 Copilot.  \n  \nWhat should be included in the design?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Build a Microsoft Power Automate desktop flow to read the SharePoint content and post the responses to Teams."
+        },
+        {
+          "letter": "B",
+          "text": "Modify SharePoint settings."
+        },
+        {
+          "letter": "C",
+          "text": "Create a custom REST API that crawls the SharePoint content."
+        },
+        {
+          "letter": "D",
+          "text": "Configure Microsoft Graph access."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft 365 Copilot uses Microsoft Graph to access organizational content and the user's working context, including SharePoint documents and Teams chats, to ground natural-language prompts and produce relevant, contextual responses. It honors the user's existing permissions when retrieving that data.\n\n**Learn more:** [How Microsoft 365 Copilot works](https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-architecture) · [Data, Privacy, and Security for Microsoft 365 Copilot](https://learn.microsoft.com/en-us/copilot/microsoft-365/microsoft-365-copilot-privacy)"
+    },
+    {
+      "number": 41,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A financial services company uses Microsoft Dynamics 365 Finance.  \n  \nAt present, the company’s support staff manually review customer transaction histories to identify potential fraud cases before escalating them.  \n  \nYou need to recommend an automation solution for the review process. The solution must ensure that escalations are sent to a human analyst for the final decision. What should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deploy an autonomous agent that closes non-fraud cases automatically."
+        },
+        {
+          "letter": "B",
+          "text": "Use Microsoft 365 Copilot in Word to automatically finalize fraud detection policies."
+        },
+        {
+          "letter": "C",
+          "text": "Configure a task agent to generate fraud risk scores for the human analyst to review."
+        },
+        {
+          "letter": "D",
+          "text": "Export the data to a data lake for analysis in Microsoft Power BI."
+        }
+      ],
+      "answer": null,
+      "explanation": "A task agent can automate analysis of customer transaction histories and produce fraud-risk scores for a human analyst. This preserves human-in-the-loop final decision-making for escalated cases while reducing the manual review effort. Microsoft guidance describes agent-based workflows that surface agent-generated tasks for people to review, validate, and complete.\n\n**Learn more:** [Supervise agents in model-driven apps with agent feed](https://learn.microsoft.com/en-us/dynamics365/customer-insights/journeys/supervise-agents-with-agent-feed)"
+    },
+    {
+      "number": 42,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company has an Azure environment that supports multiple business units.  \n  \nThe company plans to implement an AI solution that will perform sentiment analysis on customer product reviews.  \n  \nYou need to assess the solution’s potential cost to support return on AI investment (ROAI) analysis.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Reservations"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Fabric SKU Estimator"
+        },
+        {
+          "letter": "C",
+          "text": "Anomaly Detection in Azure Cost Management"
+        },
+        {
+          "letter": "D",
+          "text": "Azure pricing calculator"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The Azure pricing calculator estimates expected costs for selected Azure services and usage levels before deployment, enabling projected-cost analysis for an AI sentiment-analysis solution and ROAI calculations.\\\n\\\n**Learn more:** [Use the Azure pricing calculator](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator)"
+    },
+    {
+      "number": 43,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company has an Azure environment that supports multiple business units.  \n  \nThe company plans to implement an AI solution that will perform sentiment analysis on customer product reviews.  \n  \nYou need to assess the solution’s potential cost to support return on AI investment (ROAI) analysis.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Purview"
+        },
+        {
+          "letter": "B",
+          "text": "Azure AI Content Safety"
+        },
+        {
+          "letter": "C",
+          "text": "role-based access control (RBAC) in Microsoft Foundry"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Defender"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Purview manages AI-related data security and compliance for Microsoft 365 Copilot agents, including risk management, sensitive-data protection, auditing, retention, communication-compliance policy detection, and eDiscovery investigations. Microsoft Defender secures AI agents and applications by assessing exposure, detecting and blocking AI-specific threats, and supporting incident investigation and response.\n\n**Learn more:** [Use Microsoft Purview to manage data security and compliance for AI agents](https://learn.microsoft.com/en-us/purview/ai-agents) · [Step 4: Govern interactions for Microsoft 365 Copilot agents](https://learn.microsoft.com/en-us/purview/deploymentmodels/depmod-sc-agents-step4)"
+    },
+    {
+      "number": 51,
+      "domain": "Design AI-powered business solutions",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Document Intelligence in Foundry Tools and Azure Logic Apps"
+        },
+        {
+          "letter": "B",
+          "text": "a SharePoint agent"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Copilot Studio and AI Builder"
+        },
+        {
+          "letter": "D",
+          "text": "Azure OpenAI and Azure Functions"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Copilot Studio supports low-code agents and workflows that can automate multistep business processes, include human-review actions, and integrate with Microsoft Teams. AI Builder supplies AI document-processing capabilities for extracting and validating information from documents such as invoices. This combination provides the required Teams interaction, workflow customization, document analysis, validation, and approval routing with minimal custom development.\n\n**Learn more:** [Microsoft Copilot Studio workflows overview](https://learn.microsoft.com/en-us/microsoft-copilot-studio/workflows-experience/flows-overview) · [Streamline document processing with AI Builder](https://learn.microsoft.com/en-us/power-platform/architecture/reference-architectures/ai-document-processing)"
+    },
+    {
+      "number": 52,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L33\",\"$L34\",\"$L35\",\"$L36\"]\n26:[\"$\",\"$19\",null,{\"fallback\":[[\"$\",\"div\",\"0\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"1\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"2\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}]],\"children\":\"$L37\"}]\n27:[\"$\",\"$L38\",null,{\"compact\":true,\"centered\":true,\"isLoggedIn\":true,\"isSubscriber\":false,\"currentTier\":null,\"returnTo\":\"/exams/microsoft/ab-100/3\",\"sidebarModal\":true}]\n28:[\"$\",\"nav\",null,{\"className\":\"pagination-container\",\"aria-label\":\"Exam pages\",\"children\":[[\"$\",\"p\",null,{\"className\":\"pagination-info\",\"children\":[\"Page \",[\"$\",\"strong\",null,{\"children\":3}],\" of \",5,[\"$\",\"span\",null,{\"className\":\"pagination-info-sep\",\"aria-hidden\":\"true\",\"children\":\"•\"}],\"Questions \",51,\"–\",75,\" of \",112]}],[\"$\",\"div\",null,{\"className\":\"pagination-nav\",\"children\":[[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ab-100/2\",\"className\":\"button link back-arrow pagination-arrow\",\"aria-label\":\"Previous page\",\"rel\":\"prev\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Prev\"}]}],[\"$\",\"div\",null,{\"className\":\"pagination-numbers\",\"children\":[[\"$\",\"$L20\",\"1\",{\"href\":\"/exams/microsoft/ab-100/1\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 1\",\"children\":1}],[\"$\",\"$L20\",\"2\",{\"href\":\"/exams/microsoft/ab-100/2\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 2\",\"children\":2}],[\"$\",\"span\",\"3\",{\"className\":\"button primary sm pagination-page is-current\",\"aria-current\":\"page\",\"children\":3}],[\"$\",\"$L20\",\"4\",{\"href\":\"/exams/microsoft/ab-100/4\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 4\",\"children\":4}],[\"$\",\"$L20\",\"5\",{\"href\":\"/exams/microsoft/ab-100/5\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 5\",\"children\":5}]]}],[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ab-100/4\",\"className\":\"button link arrow pagination-arrow\",\"aria-label\":\"Next page\",\"rel\":\"next\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Next\"}]}]]}]]}]\n29:[\"$\",\"div\",null,{\"className\":\"contribute-cta\",\"children\":[[\"$\",\"$L39\",null,{\"src\":\"/icons/hand-holding-heart.svg\",\"alt\":\"\",\"width\":20,\"height\":20,\"aria-hidden\":\"true\"}],[\"$\",\"span\",null,{\"className\":\"contribute-cta-text\",\"children\":[\"Know a question that should be here?\",\" \",[\"$\",\"$L20\",null,{\"href\":\"/contribute/microsoft/ab-100\",\"children\":\"Contribute to this exam\"}]]}]]}]\n2a:[\"$\",\"$L3a\",null,{}]\n3b:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3d:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3e:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n30:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n31:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n32:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":51,\"questionId\":\"43feddde-dcdd-420a-b2d7-84d2b2ed03d5\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L3c\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":51,\"questionId\":\"43feddde-dcdd-420a-b2d7-84d2b2ed03d5\",\"initialCommentCount\":2,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":51,\"questionId\":\"43feddde-dcdd-420a-b2d7-84d2b2ed03d5\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-100/3\"}]}]]}]\nA company has an AI business solution that uses Microsoft Copilot Studio agents.  \n  \nYou need to recommend prompt best practices to improve the effectiveness of agent interactions.  \n  \nWhich two actions should be included in the recommendation? Each correct answer presents part of the solution.  \n  \n&gt; **NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Track the duration of the average user session."
+        },
+        {
+          "letter": "B",
+          "text": "Analyze the prompt length distribution."
+        },
+        {
+          "letter": "C",
+          "text": "Regularly test and refine the prompts based on user input."
+        },
+        {
+          "letter": "D",
+          "text": "Use clear and specific instructions in the prompts."
+        },
+        {
+          "letter": "E",
+          "text": "Measure system resource usage during prompt processing."
+        }
+      ],
+      "answer": null,
+      "explanation": "Effective Copilot Studio prompts use clear, specific instructions so the agent can interpret the intended task reliably. Prompts should also be tested regularly and refined based on results and user feedback to improve response quality and agent effectiveness.\n\n**Learn more:** [Use prompt modification to provide custom instructions in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-generative-answers-prompt-modification) · [Optimize prompts with custom instructions](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/optimize-prompts-custom-instructions)"
+    },
+    {
+      "number": 53,
+      "domain": "Plan AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has a Microsoft 365 tenant in Canada and several Microsoft Power Platform environments in Canada and the United States.  \n  \nThe company intends to deploy a Microsoft Copilot Studio agent to the Canadian environment that will use:  \n  \n- Microsoft Dataverse data stored in Canada  \n- A connector that connects to an Azure OpenAI instance in the United States  \n  \nYou need to ensure that the agent complies with data residency and data-movement policies before deployment.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ensure that the data processed by Azure OpenAI is stored in the United States."
+        },
+        {
+          "letter": "B",
+          "text": "From the Microsoft Purview portal, validate the Data loss prevention settings."
+        },
+        {
+          "letter": "C",
+          "text": "Migrate the tenant to the United States."
+        },
+        {
+          "letter": "D",
+          "text": "Ensure that cross-region data movement is enabled for the Canadian environment and connector dependencies."
+        }
+      ],
+      "answer": null,
+      "explanation": "Using Copilot Studio generative AI from an environment outside the United States can move data across regional boundaries when Azure OpenAI processing occurs in another region. The Canadian environment and its connector dependencies must therefore have cross-region data movement enabled before the agent is deployed.\n\n**Learn more:** [Configure data movement across geographic locations for generative AI - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/manage-data-movement-outside-us)"
+    },
+    {
+      "number": 54,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses a Microsoft Copilot Studio agent to provide customer-support answers from a knowledge base.  \n  \nUsers report that the agent occasionally gives inaccurate answers. You need to use metrics from the Analytics tab in Copilot Studio to determine the cause of the inaccuracies.  \n  \nWhich two options should you use? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "survey results"
+        },
+        {
+          "letter": "B",
+          "text": "session information and session outcomes"
+        },
+        {
+          "letter": "C",
+          "text": "topic usage and topics with low resolution"
+        },
+        {
+          "letter": "D",
+          "text": "engagement, resolution, and escalation rates"
+        },
+        {
+          "letter": "E",
+          "text": "quality of generated answers"
+        }
+      ],
+      "answer": null,
+      "explanation": "Quality of generated answers identifies sampled responses rated poor and provides quality reasons such as relevance, completeness, or groundedness, helping reveal knowledge-base answer problems. Session information and session outcomes provide the detailed conversation context and outcome data needed to investigate the conditions surrounding those responses.\n\n**Learn more:** [Explore user questions, session, and feedback data - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-questions-sessions) · [Analytics overview - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-overview)"
+    },
+    {
+      "number": 55,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses Microsoft Dynamics 365 Finance to manage its accounts payable.  \n  \nYou are designing an AI-based invoice-processing solution.  \n  \nYou need to recommend the prerequisites for configuring a prebuilt copilot for accounts payable.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "From Microsoft Copilot Studio, create an accounts payable agent."
+        },
+        {
+          "letter": "B",
+          "text": "Extend Microsoft 365 Copilot for Sales to an accounts payable agent."
+        },
+        {
+          "letter": "C",
+          "text": "Build an AI tool in Microsoft Foundry."
+        },
+        {
+          "letter": "D",
+          "text": "From the Power Platform admin center, assign the Finance and Operations AI security role to users."
+        }
+      ],
+      "answer": null,
+      "explanation": "Access to Copilot capabilities in Dynamics 365 Finance requires assigning the **Finance and Operations AI** security role in the associated Dataverse environment. This role is assigned to users or teams through the Power Platform admin center.\n\n**Learn more:** [Enable Copilot in Dynamics 365 Finance](https://learn.microsoft.com/en-us/dynamics365/finance/accounts-receivable/enable-copilot-in-finance)"
+    },
+    {
+      "number": 56,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],53:I[34659,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"MCQuestion\"]\n40:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n41:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n42:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":52,\"questionId\":\"d5f78b38-01e3-4062-95fc-75b7791054d7\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L4f\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":52,\"questionId\":\"d5f78b38-01e3-4062-95fc-75b7791054d7\",\"initialCommentCount\":1,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":52,\"questionId\":\"d5f78b38-01e3-4062-95fc-75b7791054d7\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-100/3\"}]}]]}]\n44:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n45:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n46:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":53,\"questionId\":\"1a1294bb-83c4-4ed4-8a6e-dd3caa8867e2\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L50\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":53,\"questionId\":\"1a1294bb-83c4-4ed4-8a6e-dd3caa8867e2\",\"initialCommentCount\":2,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":53,\"questionId\":\"1a1294bb-83c4-4ed4-8a6e-dd3caa8867e2\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-100/3\"}]}]]}]\n48:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n49:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4a:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":54,\"questionId\":\"a9191e49-84dc-4895-88a9-d57e55cab751\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L51\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":54,\"questionId\":\"a9191e49-84dc-4895-88a9-d57e55cab751\",\"initialCommentCount\":7,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":54,\"questionId\":\"a9191e49-84dc-4895-88a9-d57e55cab751\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-100/3\"}]}]]}]\n4c:[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]\n4d:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n4e:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3b\",null,{\"questionNumber\":55,\"questionId\":\"b8e4b79e-66e1-46e7-b3dd-ecb7189b005f\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L52\"}]}],[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":55,\"questionId\":\"b8e4b79e-66e1-46e7-b3dd-ecb7189b005f\",\"initialCommentCount\":4,\"children\":[\"$\",\"$L3e\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":55,\"questionId\":\"b8e4b79e-66e1-46e7-b3dd-ecb7189b005f\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-100/3\"}]}]]}]\n3c:[[\"$\",\"p\",null,{\"children\":\"A company processes invoices that are stored in multiple systems and formats.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to implement an AI solution to automate invoice processing. The solution must meet the following requirements:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":\"Automate multi-step invoice-processing tasks, including document analysis, data validation, and approval routing.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Allow users to interact directly in Microsoft Teams to review and approve invoices.\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"Minimize the development effort needed to define and customize approval workflows.\"}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"What should you include in the solution?\"}],\"\n\",[\"$\",\"$L53\",null,{\"choices\":{\"A\":\"Azure Document Intelligence in Foundry Tools and Azure Logic Apps\",\"B\":\"a SharePoint agent\",\"C\":\"Microsoft Copilot Studio and AI Builder\",\"D\":\"Azure OpenAI and Azure Functions\"},\"correctAnswer\":\"C\",\"explanation\":\"Microsoft Copilot Studio supports low-code agents and workflows that can automate multistep business processes, include human-review actions, and integrate with Microsoft Teams. AI Builder supplies AI document-processing capabilities for extracting and validating information from documents such as invoices. This combination provides the required Teams interaction, workflow customization, document analysis, validation, and approval routing with minimal custom development.\n\n**Learn more:** [Microsoft Copilot Studio workflows overview](https://learn.microsoft.com/en-us/microsoft-copilot-studio/workflows-experience/flows-overview) · [Streamline document processing with AI Builder](https://learn.microsoft.com/en-us/power-platform/architecture/reference-architectures/ai-document-processing)\",\"trackingInfo\":{\"questionId\":\"43feddde-dcdd-420a-b2d7-84d2b2ed03d5\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"mode\":\"default\"}}]]\n4f:[[\"$\",\"p\",null,{\"children\":\"A company has an AI business solution that uses Microsoft Copilot Studio agents.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to recommend prompt best practices to improve the effectiveness of agent interactions.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Which two actions should be included in the recommendation? Each correct answer presents part of the solution.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":[\"> \",[\"$\",\"strong\",null,{\"children\":\"NOTE:\"}],\" Each correct selection is worth one point.\"]}],\"\n\",[\"$\",\"$L53\",null,{\"choices\":{\"A\":\"Track the duration of the average user session.\",\"B\":\"Analyze the prompt length distribution.\",\"C\":\"Regularly test and refine the prompts based on user input.\",\"D\":\"Use clear and specific instructions in the prompts.\",\"E\":\"Measure system resource usage during prompt processing.\"},\"correctAnswer\":\"CD\",\"explanation\":\"Effective Copilot Studio prompts use clear, specific instructions so the agent can interpret the intended task reliably. Prompts should also be tested regularly and refined based on results and user feedback to improve response quality and agent effectiveness.\n\n**Learn more:** [Use prompt modification to provide custom instructions in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/nlu-generative-answers-prompt-modification) · [Optimize prompts with custom instructions](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/optimize-prompts-custom-instructions)\",\"trackingInfo\":{\"questionId\":\"d5f78b38-01e3-4062-95fc-75b7791054d7\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"mode\":\"default\"}}]]\n50:[[\"$\",\"p\",null,{\"children\":\"A company has a Microsoft 365 tenant in Canada and several Microsoft Power Platform environments in Canada and the United States.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"The company intends to deploy a Microsoft Copilot Studio agent to the Canadian environment that will use:\"}],\"\n\",[\"$\",\"ul\",null,{\"children\":[\"\n\",[\"$\",\"li\",null,{\"children\":\"Microsoft Dataverse data stored in Canada\"}],\"\n\",[\"$\",\"li\",null,{\"children\":\"A connector that connects to an Azure OpenAI instance in the United States\"}],\"\n\"]}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to ensure that the agent complies with data residency and data-movement policies before deployment.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"What should you do?\"}],\"\n\",[\"$\",\"$L53\",null,{\"choices\":{\"A\":\"Ensure that the data processed by Azure OpenAI is stored in the United States.\",\"B\":\"From the Microsoft Purview portal, validate the Data loss prevention settings.\",\"C\":\"Migrate the tenant to the United States.\",\"D\":\"Ensure that cross-region data movement is enabled for the Canadian environment and connector dependencies.\"},\"correctAnswer\":\"D\",\"explanation\":\"Using Copilot Studio generative AI from an environment outside the United States can move data across regional boundaries when Azure OpenAI processing occurs in another region. The Canadian environment and its connector dependencies must therefore have cross-region data movement enabled before the agent is deployed.\n\n**Learn more:** [Configure data movement across geographic locations for generative AI - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/manage-data-movement-outside-us)\",\"trackingInfo\":{\"questionId\":\"1a1294bb-83c4-4ed4-8a6e-dd3caa8867e2\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"mode\":\"default\"}}]]\n51:[[\"$\",\"p\",null,{\"children\":\"A company uses a Microsoft Copilot Studio agent to provide customer-support answers from a knowledge base.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Users report that the agent occasionally gives inaccurate answers. You need to use metrics from the Analytics tab in Copilot Studio to determine the cause of the inaccuracies.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"Which two options should you use? Each correct answer presents part of the solution.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"NOTE: Each correct selection is worth one point.\"}],\"\n\",[\"$\",\"$L53\",null,{\"choices\":{\"A\":\"survey results\",\"B\":\"session information and session outcomes\",\"C\":\"topic usage and topics with low resolution\",\"D\":\"engagement, resolution, and escalation rates\",\"E\":\"quality of generated answers\"},\"correctAnswer\":\"BE\",\"explanation\":\"Quality of generated answers identifies sampled responses rated poor and provides quality reasons such as relevance, completeness, or groundedness, helping reveal knowledge-base answer problems. Session information and session outcomes provide the detailed conversation context and outcome data needed to investigate the conditions surrounding those responses.\n\n**Learn more:** [Explore user questions, session, and feedback data - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-questions-sessions) · [Analytics overview - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-overview)\",\"trackingInfo\":{\"questionId\":\"a9191e49-84dc-4895-88a9-d57e55cab751\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"mode\":\"default\"}}]]\n52:[[\"$\",\"p\",null,{\"children\":\"A company uses Microsoft Dynamics 365 Finance to manage its accounts payable.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You are designing an AI-based invoice-processing solution.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"You need to recommend the prerequisites for configuring a prebuilt copilot for accounts payable.\"}],\"\n\",[\"$\",\"p\",null,{\"children\":\"What should you recommend?\"}],\"\n\",[\"$\",\"$L53\",null,{\"choices\":{\"A\":\"From Microsoft Copilot Studio, create an accounts payable agent.\",\"B\":\"Extend Microsoft 365 Copilot for Sales to an accounts payable agent.\",\"C\":\"Build an AI tool in Microsoft Foundry.\",\"D\":\"From the Power Platform admin center, assign the Finance and Operations AI security role to users.\"},\"correctAnswer\":\"D\",\"explanation\":\"Access to Copilot capabilities in Dynamics 365 Finance requires assigning the **Finance and Operations AI** security role in the associated Dataverse environment. This role is assigned to users or teams through the Power Platform admin center.\n\n**Learn more:** [Enable Copilot in Dynamics 365 Finance](https://learn.microsoft.com/en-us/dynamics365/finance/accounts-receivable/enable-copilot-in-finance)\",\"trackingInfo\":{\"questionId\":\"b8e4b79e-66e1-46e7-b3dd-ecb7189b005f\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"mode\":\"default\"}}]]\nA company has an AI solution called Solution1 deployed in the production environment. Solution1 uses an Azure OpenAI model to generate marketing emails for existing customers.  \n  \nDuring an internal review, you discover that Solution1 generates different emails based on customers’ traits.  \n  \nYou need to recommend a bias-mitigation strategy. The strategy must comply with Microsoft responsible AI principles.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Modify Solution1 to randomly generate emails for different traits."
+        },
+        {
+          "letter": "B",
+          "text": "Modify the system instructions of Solution1."
+        },
+        {
+          "letter": "C",
+          "text": "Retrain the model by using a larger dataset."
+        },
+        {
+          "letter": "D",
+          "text": "Modify the contents of the training dataset."
+        }
+      ],
+      "answer": null,
+      "explanation": "System instructions can steer an Azure OpenAI model’s behavior and add explicit safety and fairness constraints. Prompt engineering, including metaprompt or system-message tuning, is an application-level mitigation Microsoft recommends for potential Responsible AI harms; instructions can require consistent treatment of customers and prohibit differential content based on protected or otherwise inappropriate traits.\n\n**Learn more:** [Overview of Responsible AI practices for Azure OpenAI in Foundry Models](https://learn.microsoft.com/en-us/azure/ai-foundry/responsible-ai/openai/overview?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext&view=foundry-classic) · [Safety system messages](https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/system-message)"
+    },
+    {
+      "number": 57,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has an Azure environment that supports multiple business units.  \n  \nThe company intends to implement an AI solution to perform sentiment analysis on customer product reviews.  \n  \nYou need to assess the solution’s potential cost to support return on AI investment (ROAI) analysis.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure savings plans"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Fabric SKU Estimator"
+        },
+        {
+          "letter": "C",
+          "text": "Cost Management + Billing"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Monitor"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Cost Management + Billing provides pricing and estimation capabilities, including the Azure Pricing Calculator, to convert anticipated Azure service usage into estimated costs for planning and investment analysis. It can also use an organization’s negotiated pricing when applicable.\n\n**Learn more:** [Estimate costs with the Azure pricing calculator](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/pricing-calculator) · [Plan to manage Azure costs](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/plan-manage-costs)"
+    },
+    {
+      "number": 58,
+      "domain": "Plan AI-powered business solutions",
+      "question": "Which template should be used for the AI agent to satisfy the sales executives’ requirements?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "IT Helpdesk in Microsoft Copilot Studio"
+        },
+        {
+          "letter": "B",
+          "text": "AI agents in Microsoft Foundry"
+        },
+        {
+          "letter": "C",
+          "text": "Voice in Microsoft Copilot Studio"
+        },
+        {
+          "letter": "D",
+          "text": "AI chat in Microsoft Foundry"
+        }
+      ],
+      "answer": "C",
+      "explanation": "The Microsoft Copilot Studio Voice template provides a voice-enabled, hands-free agent experience, matching the requirement for sales executives to use headsets when asking about internal policies or customer data. It includes voice-oriented capabilities such as speech modality and voice system topics.\\\n\\\n**Learn more:** [Configure voice capabilities - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/voice-configuration) · [Voice - Microsoft Copilot Studio](https://learn.microsoft.com/is-is/microsoft-copilot-studio/voice-build-from-template)"
+    },
+    {
+      "number": 59,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company has an AI business solution.  \n  \nYou need to extend the solution so Microsoft 365 Copilot can call external logic hosted in Azure services.  \n  \nWhat should the solution include?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Copilot Studio skills"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Power Platform connectors"
+        },
+        {
+          "letter": "C",
+          "text": "custom engine agents"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Custom engine agents extend Microsoft 365 Copilot with custom orchestration and calls to external services, including logic hosted in Azure."
+    },
+    {
+      "number": 60,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"ab-100\",\"data-q\":63,\"data-question-id\":\"25d3100b-7079-4e15-8016-2c29cf1af9f6\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],\"$L81\"]}],\"$L82\"]}]]}]]}],\"$L83\"]}],\"$L84\"]}]\nA company has a Microsoft Power Platform solution containing the following components:  \n  \n- Microsoft Dataverse tables  \n- A Microsoft Power BI workspace named WS1  \n- A canvas app named App1 that uses Dataverse  \n- A Power BI semantic model that connects to Dataverse by using DirectQuery  \n  \nThe company plans to use generative AI to answer queries based on a subset of corporate data.  \n  \nYou need to ensure that the data is available as a grounding data source for AI systems.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Populate a Dataverse table."
+        },
+        {
+          "letter": "B",
+          "text": "Share WS1."
+        },
+        {
+          "letter": "C",
+          "text": "Endorse the semantic model."
+        },
+        {
+          "letter": "D",
+          "text": "Export the semantic model."
+        }
+      ],
+      "answer": null,
+      "explanation": "An endorsed Power BI semantic model is designated as a trusted, quality data source. The semantic model provides the curated subset and its business semantics for AI to use when answering data questions, while DirectQuery keeps the model connected to the Dataverse source. Workspace sharing only grants access; it does not establish the semantic model as the trusted data asset.\n\n**Learn more:** [Semantic model discoverability - Power BI](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-discovery) · [Use Copilot with semantic models in Power BI](https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-semantic-models)"
+    },
+    {
+      "number": 61,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has a Microsoft Copilot Studio agent that uses custom connectors to communicate with enterprise APIs.  \n  \nYou need to recommend an application lifecycle management (ALM) process that ensures the connectors are deployed consistently across development, test, and production environments while satisfying governance and traceability requirements.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deploy the APIs as Azure Functions."
+        },
+        {
+          "letter": "B",
+          "text": "Manage the connectors as solution components and deploy the components by using ALM pipelines."
+        },
+        {
+          "letter": "C",
+          "text": "Maintain connector definitions in environment variables."
+        },
+        {
+          "letter": "D",
+          "text": "Export and import the connectors between the environments as unmanaged solutions."
+        }
+      ],
+      "answer": null,
+      "explanation": "Custom connectors can be included as Power Platform solution components. Managing them in solutions and deploying those solutions through ALM pipelines enables repeatable promotion across environments, with centralized deployment controls and traceability. Microsoft recommends managed solutions for non-development environments.\n\n**Learn more:** [Application lifecycle management (ALM) basics with Microsoft Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/basics-alm) · [Overview of pipelines in Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/pipelines)"
+    },
+    {
+      "number": 62,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company intends to deploy a Microsoft Foundry agent.  \n  \nYou need to recommend an application lifecycle management (ALM) process that ensures the agent is evaluated against baseline accuracy metrics before deployment.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure GitHub Actions for new agent versions."
+        },
+        {
+          "letter": "B",
+          "text": "Deploy each new agent version directly to production."
+        },
+        {
+          "letter": "C",
+          "text": "Use Observability in Foundry Control Plane with evaluation and drift monitoring."
+        },
+        {
+          "letter": "D",
+          "text": "Enable Application Insights and use Azure Monitor."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Foundry Control Plane observability supports evaluation results and pre-deployment insights, while Foundry monitoring supports continuous or scheduled evaluations against benchmarks and drift detection. This enables an agent version to be validated against baseline accuracy metrics as part of its lifecycle before release.\n\n**Learn more:** [What is Microsoft Foundry Control Plane?](https://learn.microsoft.com/en-us/azure/foundry/control-plane/overview) · [Observability in Generative AI](https://learn.microsoft.com/en-us/azure/foundry/concepts/observability)"
+    },
+    {
+      "number": 63,
+      "domain": "Design AI-powered business solutions",
+      "question": "Which tool should be recommended to address concerns about sensitive information in the sales process?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Analytics tab in Microsoft Copilot Studio"
+        },
+        {
+          "letter": "B",
+          "text": "Model Context Protocol (MCP)"
+        },
+        {
+          "letter": "C",
+          "text": "Application Insights"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Foundry Tracing UI"
+        },
+        {
+          "letter": "E",
+          "text": "Monitoring in Microsoft Foundry"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Microsoft Foundry monitoring can continuously evaluate production traffic for safety risks. Its Sensitive Data Leakage evaluator assesses whether an agent exposes sensitive information, including financial data, personal identifiers, and health data, allowing teams to identify and address disclosure risks in a sales workflow.\\\n\\\n**Learn more:** [Observability in generative AI — Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/concepts/observability) · [Risk and safety evaluators — Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/concepts/evaluation-evaluators/risk-safety-evaluators)"
+    },
+    {
+      "number": 64,
+      "domain": "Plan AI-powered business solutions",
+      "question": "A company uses multiple Microsoft Copilot Studio agents across various channels.  \n  \nYou need to recommend a monitoring solution that delivers comprehensive telemetry data and performance insights for the agents.  \n  \nWhat should be included in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Power BI"
+        },
+        {
+          "letter": "B",
+          "text": "the Analytics tab in Copilot Studio"
+        },
+        {
+          "letter": "C",
+          "text": "Log Analytics"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Advisor"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The Analytics tab in Microsoft Copilot Studio provides comprehensive data about agent performance, from key metrics to detailed usage analytics, enabling analysis of engagement, outcomes, and performance across agent interactions.\\\n\\\n**Learn more:** [Analytics overview - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-overview)"
+    },
+    {
+      "number": 65,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "A company uses multiple Microsoft Copilot Studio agents across various channels.  \n  \nYou need to recommend a monitoring solution that delivers comprehensive telemetry data and performance insights for the agents.  \n  \nWhat should be included in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Cloud Adoption Framework for Azure"
+        },
+        {
+          "letter": "B",
+          "text": "Success by Design"
+        },
+        {
+          "letter": "C",
+          "text": "Microsoft Power Platform Center of Excellence (CoE)"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Power Platform Project Setup Wizard"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Cloud Adoption Framework for Azure is Microsoft’s structured methodology for adopting Azure, including planning and preparing an Azure environment, migrating existing workloads, and governing, securing, and managing the resulting cloud estate. It directly meets the requirement to use Azure and follow Microsoft-recommended cloud-migration methodologies. [Microsoft’s Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview)\n\n**Learn more:** [Microsoft's Cloud Adoption Framework](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/overview) · [Prepare your organization for the cloud](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/prepare-organization-for-cloud)"
+    },
+    {
+      "number": 66,
+      "domain": "Plan AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has a generative AI model in Microsoft Foundry.  \n  \nYou need to evaluate the model output to assess the overall quality and coherence of generated responses. The evaluation must use GPT-4o as a judge and return a numeric score for each output.  \n  \nWhich metric type should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AI quality (NLP)"
+        },
+        {
+          "letter": "B",
+          "text": "risk and safety"
+        },
+        {
+          "letter": "C",
+          "text": "Groundedness"
+        },
+        {
+          "letter": "D",
+          "text": "AI quality (AI assisted)"
+        }
+      ],
+      "answer": null,
+      "explanation": "AI quality (AI assisted) metrics use a deployed GPT model as an LLM judge to score the overall quality and coherence of generated responses. AI quality (NLP) metrics are mathematical measurements that often require ground-truth data, while risk and safety metrics assess harmful content and groundedness measures a narrower factual-support dimension.\n\n**Learn more:** [Run evaluations from the Microsoft Foundry portal](https://learn.microsoft.com/en-us/azure/foundry/how-to/evaluate-generative-ai-app) · [Evaluate Generative AI Models and Apps with Microsoft Foundry](https://learn.microsoft.com/en-za/azure/ai-foundry/how-to/evaluate-generative-ai-app?view=foundry-classic)"
+    },
+    {
+      "number": 67,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$L9f\"]}]]}],\"$La0\"]}],false]}]\nA company uses an AI agent to automate reviews of customer feedback held in a cloud database.  \n  \nYou plan to create monthly reports from the agent’s output to gain insight into customer sentiment and inform product development and marketing.  \n  \nYou must ensure that the data ingested by the agent is clean and appropriate for its intended use.  \n  \nWhat should you do to prepare the data?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ensure that the size of the database does not exceed 100 GB."
+        },
+        {
+          "letter": "B",
+          "text": "Translate the data into a single language."
+        },
+        {
+          "letter": "C",
+          "text": "Identify and address biased data."
+        },
+        {
+          "letter": "D",
+          "text": "Sort the database by customer last name."
+        }
+      ],
+      "answer": null,
+      "explanation": "Biased feedback data can produce unfair or systematically distorted sentiment insights, which can mislead product-development and marketing decisions. Data preparation should therefore include detecting bias or representation imbalances and taking corrective action to improve fairness and suitability for the AI workload.\n\n**Learn more:** [Apply responsible AI principles - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/responsible-ai) · [Machine learning fairness - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-fairness-ml?view=azureml-api-2)"
+    },
+    {
+      "number": 68,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "You must design a Microsoft Copilot Studio agent for customer support.  \n  \nThe agent needs to securely retrieve product warranty data from a REST API while minimizing development effort.  \n  \nWhat should the design include?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Export the agent as a managed solution and customize the agent in Power Apps."
+        },
+        {
+          "letter": "B",
+          "text": "Create a custom connector in Copilot Studio and use the connector to call the API."
+        },
+        {
+          "letter": "C",
+          "text": "Use a Microsoft Power Automate desktop flow to screen scrape the warranty data."
+        },
+        {
+          "letter": "D",
+          "text": "Add the warranty data to the Fallback topic."
+        }
+      ],
+      "answer": "B",
+      "explanation": "A custom connector provides a reusable, low-code way for a Copilot Studio agent to call a REST API and configure its authentication. This supports secure retrieval of warranty data with minimal development effort."
+    },
+    {
+      "number": 76,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "Solution: Build Microsoft Power Automate flows that trigger customized Copilot summaries.  \n  \nDoes this fulfill the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Microsoft Power Automate can orchestrate business workflows, but it does not provide a supported mechanism to tailor the built-in Dynamics 365 Sales Copilot opportunity-summary content or its presentation. Copilot summary behavior is configured through Dynamics 365 Sales Copilot settings, including the fields used to generate summaries.\\\n\\\n**Learn more:** [Configure fields for generating summaries and recent changes](https://learn.microsoft.com/en-us/dynamics365/sales/copilot-configure-summary-fields) · [Copilot in Dynamics 365 Sales overview](https://learn.microsoft.com/en-us/dynamics365/sales/copilot-overview)"
+    },
+    {
+      "number": 77,
+      "domain": "Design AI-powered business solutions",
+      "question": "Solution: You add fields to the opportunity summary.  \n  \nDoes this fulfill the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Opportunity-summary fields are configurable at the organization level. Adding fields changes the information Copilot uses to generate the opportunity summary and makes those fields available in the resulting summary.\\\n\\\n**Learn more:** [Get information from Copilot](https://learn.microsoft.com/en-gb/dynamics365/sales/copilot-get-information)"
+    },
+    {
+      "number": 78,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "Solution: Configure AI Builder lead-scoring models to affect opportunity summaries.  \n  \nDoes this satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Lead scoring is a predictive capability for prioritizing leads based on their likelihood of qualification or conversion. Copilot record summarization is a separate capability that generates summaries of opportunity records; configuring lead-scoring models does not customize either the generated opportunity-summary content or how that summary is displayed.\\\n\\\n**Learn more:** [Lead and opportunity scoring](https://learn.microsoft.com/en-us/dynamics365/sales/digital-selling-scoring) · [Summarize records with Copilot](https://learn.microsoft.com/en-us/dynamics365/sales/copilot-summarize-records)"
+    },
+    {
+      "number": 79,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "Solution: Add the opportunity summary widget to the Opportunity form.  \n  \nDoes this satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The opportunity summary widget embeds Copilot-generated opportunity insights directly in the Opportunity form, allowing users to view the summary in that tailored form location. This customizes the presentation of opportunity summaries.\\\n\\\n**Learn more:** [Get information from Copilot](https://learn.microsoft.com/en-us/dynamics365/sales/copilot-get-information) · [Copilot in Dynamics 365 Sales overview](https://learn.microsoft.com/en-us/dynamics365/sales/copilot-overview)"
+    },
+    {
+      "number": 80,
+      "domain": "Deploy AI-powered business solutions",
+      "question": "A company uses several Microsoft Copilot Studio agents across different channels.  \n  \nYou need to recommend a monitoring solution that delivers comprehensive telemetry and performance insights for the agents.  \n  \nWhat should the recommendation include?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Application Insights"
+        },
+        {
+          "letter": "B",
+          "text": "Microsoft Dynamics 365 Customer Voice"
+        },
+        {
+          "letter": "C",
+          "text": "Log Analytics"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Purview"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Application Insights captures Microsoft Copilot Studio agent telemetry, including logged messages and events, triggered topics, and custom telemetry events. As an Azure Monitor application performance management service, it supports monitoring live agents and analyzing their performance and usage.\\\n\\\n**Learn more:** [Capture telemetry with Application Insights - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-bot-framework-composer-capture-telemetry)"
+    },
+    {
+      "number": 81,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],\"$L4b\"]}]]}],\"$L4c\"]}],false]}],\"$L4d\",\"$L4e\",\"$L4f\",\"$L50\",\"$L51\",\"$L52\",\"$L53\",\"$L54\",\"$L55\",\"$L56\",\"$L57\",\"$L58\",\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\"]\n4b:[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"ab-100\",\"data-q\":81,\"data-question-id\":\"0624e679-67fb-486b-a2cb-6261bc4461c4\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]]}],[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]]}]\n4c:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3a\",null,{\"questionNumber\":81,\"questionId\":\"0624e679-67fb-486b-a2cb-6261bc4461c4\",\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L60\"}]}],[\"$\",\"$L3c\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":81,\"questionId\":\"0624e679-67fb-486b-a2cb-6261bc4461c4\",\"initialCommentCount\":5,\"children\":[\"$\",\"$L3d\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ab-100\",\"questionNumber\":81,\"questionId\":\"0624e679-67fb-486b-a2cb-6261bc4461c4\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ab-100/4\"}]}]]}]\nA company is designing a Microsoft Power Platform solution to reduce the manual steps in a business process by deploying an existing AI model.  \n  \nYou need to calculate the return on AI investment (ROAI) by identifying the solution’s metadata and telemetry.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Power Platform admin center"
+        },
+        {
+          "letter": "B",
+          "text": "Success by Design"
+        },
+        {
+          "letter": "C",
+          "text": "the Business value toolkit"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Cloud Adoption Framework for Azure"
+        }
+      ],
+      "answer": null,
+      "explanation": "The Business value toolkit is the Power Platform tool for capturing and communicating solution value and supporting ROI measurement. Microsoft’s guidance specifically associates metadata and telemetry with the Business value toolkit when measuring business value at scale.\n\n**Learn more:** [Choose the best methods and tools to measure business value - Power Platform](https://learn.microsoft.com/en-us/power-platform/guidance/adoption/business-value-methods) · [Capture and communicate value with the Business value toolkit - Power Platform](https://learn.microsoft.com/en-us/power-platform/guidance/coe/business-value-toolkit)"
+    },
+    {
+      "number": 82,
+      "domain": "Plan AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses a fine-tuned Microsoft Foundry model that needs frequent updates as new customer feedback is received.  \n  \nYou need to design an application lifecycle management (ALM) process that satisfies these requirements:  \n  \n- Data changes must be tracked and versioned.  \n- The model must be retrained consistently by using approved training data.  \n  \nWhich two actions should be included in the design? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Associate the storage location to the fine-tuning job."
+        },
+        {
+          "letter": "B",
+          "text": "Create a content filter."
+        },
+        {
+          "letter": "C",
+          "text": "Store the training data in Azure Files."
+        },
+        {
+          "letter": "D",
+          "text": "Upload the training data to Microsoft Foundry data files"
+        },
+        {
+          "letter": "E",
+          "text": "Store the training data in Azure Blob Storage that has version control enabled."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Blob Storage versioning preserves prior blob versions when training data changes, enabling the approved dataset version to be retained and reused. Microsoft Foundry fine-tuning uses uploaded training data files as the input to the fine-tuning job, so uploading the approved data to Microsoft Foundry supports consistent retraining.\n\n**Learn more:** [Customize a model with fine-tuning - Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/fine-tuning) · [Blob versioning - Azure Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/versioning-overview)"
+    },
+    {
+      "number": 83,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has an AI solution built using Microsoft Copilot Studio and Power Platform. The solution is used by the company’s sales, marketing, and customer service teams.  \n  \nYou are conducting a return on AI investment (ROAI) analysis to assess the solution’s impact.  \n  \nYou need to identify the measurable business drivers to include in the analysis.  \n  \nWhich two business drivers should you identify? Each correct answer presents part of the solution.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the reduced average case resolution time"
+        },
+        {
+          "letter": "B",
+          "text": "market capitalization"
+        },
+        {
+          "letter": "C",
+          "text": "economic market predictability"
+        },
+        {
+          "letter": "D",
+          "text": "increased employee productivity"
+        },
+        {
+          "letter": "E",
+          "text": "brand awareness"
+        }
+      ],
+      "answer": null,
+      "explanation": "Reduced average case resolution time is a measurable customer-service efficiency outcome, and increased employee productivity is a measurable workforce-efficiency outcome. Both can be baselined and compared after deployment to quantify the solution’s business value and return on AI investment. Microsoft guidance identifies average handle time and productivity-related measures as relevant agent-value metrics.\n\n**Learn more:** [Use case blueprints for measuring agent value](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/agent-business-value-use-case-blueprints) · [Agent metrics reference](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/agent-business-value-metrics-reference)"
+    },
+    {
+      "number": 84,
+      "domain": "Plan AI-powered business solutions",
+      "question": "A company intends to deploy an AI-based customer service application that will autonomously handle interactions, escalate complex cases, and learn from historical ticket data.  \n  \nYou need to conduct a return on AI investment (ROAI) analysis for deploying the application. The solution must ensure the analysis is accurate.  \n  \nWhat should you do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Establish the AI performance metrics."
+        },
+        {
+          "letter": "B",
+          "text": "Conduct an AI market benchmarking study."
+        },
+        {
+          "letter": "C",
+          "text": "Model the customer experience."
+        },
+        {
+          "letter": "D",
+          "text": "Identify and quantify all the development, deployment, and operating costs."
+        }
+      ],
+      "answer": "D",
+      "explanation": "An accurate ROAI calculation begins with the complete cost of the AI solution. Development, deployment, and ongoing operating costs establish the investment baseline needed to assess whether benefits such as reduced support effort or improved service outcomes produce a positive return."
+    },
+    {
+      "number": 85,
+      "domain": "Plan AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to recommend a Microsoft Power Platform business solution that brings together data from multiple internal and external data sources. The solution must meet these requirements:  \n  \n- Make the data available as a centralized source for multiple AI systems, including Microsoft Copilot Studio agents, Dynamics 365 applications, and external AI models.  \n- Support built-in data-classification and protection policies.  \n- Supply data for grounding and analytics.  \n  \nWhat should you include in the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Dataverse"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Data Lake Storage"
+        },
+        {
+          "letter": "C",
+          "text": "a Microsoft Power BI semantic model"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Cosmos DB"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Dataverse is the centralized business-data platform for Power Platform and the underlying data platform for Dynamics 365 applications. Dataverse tables can be used as Copilot Studio knowledge sources to ground agents, and Dataverse can also be accessed by external AI applications through Model Context Protocol tools. Power Platform data policies provide governance and protection for data access and movement, while Dataverse data can support analytics.\n\n**Learn more:** [Add Dataverse tables as a knowledge source - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-add-dataverse) · [Connect to Dataverse with model context protocol (MCP) - Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-mcp)"
+    },
+    {
+      "number": 86,
+      "domain": "Plan AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A retail company intends to deploy Microsoft Copilot Studio agents to support:  \n  \n- Microsoft Dynamics 365 Commerce scenarios.  \n- A Microsoft Power Apps inventory-management solution.  \n  \nYou need to recommend a solution for organizing product catalog data as a consistent source for multiple AI systems.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Let each agent scrape product details from Microsoft SharePoint Online libraries."
+        },
+        {
+          "letter": "B",
+          "text": "Store the product catalog data in a separate custom table for each agent."
+        },
+        {
+          "letter": "C",
+          "text": "Configure prompts to pull product details from the PDFs of external vendors."
+        },
+        {
+          "letter": "D",
+          "text": "Centralize the product catalog data in Microsoft Dataverse and expose the data to both agents."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Dataverse provides a centralized, structured business-data store that Power Apps can use and that Copilot Studio agents can access through Dataverse tables as knowledge sources. Maintaining one product catalog there supplies consistent data to both solutions and avoids per-agent duplication or unreliable document-based retrieval.\n\n**Learn more:** [Add Dataverse tables as a knowledge source - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-add-dataverse) · [Dataverse data in Microsoft 365 Copilot - Power Apps](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-data-copilot)"
+    },
+    {
+      "number": 87,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company uses Microsoft Dynamics 365 finance and operations apps.  \n  \nThe company plans to use Microsoft Copilot in-app help and guidance to generate responses for internal business processes.  \n  \nYou need to add an extra knowledge source for the business processes. The solution must **not** add new topics to the Copilot agent for the finance and operations apps.  \n  \nWhich knowledge source should you add?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microsoft Dataverse"
+        },
+        {
+          "letter": "B",
+          "text": "a public website"
+        },
+        {
+          "letter": "C",
+          "text": "Azure AI Search"
+        },
+        {
+          "letter": "D",
+          "text": "a file upload"
+        }
+      ],
+      "answer": null,
+      "explanation": "For generative help and guidance in finance and operations apps, files such as PDF, RTF, and Word documents can be uploaded directly as additional Copilot knowledge. Other types of knowledge sources require adding a custom topic to the Copilot for finance and operations apps agent, so a file upload meets the stated constraint.\n\n**Learn more:** [Add knowledge to generative help and guidance with Copilot](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/copilot/extend-copilot-generative-help)"
+    },
+    {
+      "number": 88,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company has a Microsoft Copilot Studio agent that uses generative AI to help Microsoft Dynamics 365 Customer Service representatives.  \n  \nThe agent currently has a low resolution rate and a high escalation rate.  \n  \nYou need to identify the issue.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the Agent dashboard of Dynamics 365 Customer Service historical analytics"
+        },
+        {
+          "letter": "B",
+          "text": "the Insights tab from the Search & intelligence settings of the Microsoft 365 admin center"
+        },
+        {
+          "letter": "C",
+          "text": "the Copilot hub in the Power Platform admin center"
+        },
+        {
+          "letter": "D",
+          "text": "the Analytics tab in Copilot Studio"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The Analytics tab in Copilot Studio provides agent-performance data, including resolution and escalation outcomes, enabling investigation of why the agent is not resolving conversations and is escalating them frequently."
+    },
+    {
+      "number": 89,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company has a Microsoft Copilot Studio agent that uses generative AI to help Microsoft Dynamics 365 Customer Service representatives.  \n  \nThe agent currently has a low resolution rate and a high escalation rate.  \n  \nYou need to identify the issue.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a break-even analysis only"
+        },
+        {
+          "letter": "B",
+          "text": "adopting prebuilt agents to reduce the deployment time"
+        },
+        {
+          "letter": "C",
+          "text": "training a custom model"
+        },
+        {
+          "letter": "D",
+          "text": "a return on AI investment (ROAI) analysis"
+        }
+      ],
+      "answer": null,
+      "explanation": "A return on AI investment (ROAI) analysis compares the full cost of owning, deploying, operating, and extending an AI solution with its expected financial benefits, including automation savings. It therefore supports decisions about affordability, potential budget overruns, and whether further investment in AI capabilities is justified. Microsoft guidance for AI agents similarly recommends ROI frameworks to quantify financial impact and guide investment decisions.\n\n**Learn more:** [Forecast the return on investment (ROI) of AI agents](https://learn.microsoft.com/en-us/training/modules/forecast-agent-return-investment/)"
+    },
+    {
+      "number": 90,
+      "domain": "Design AI-powered business solutions",
+      "question": "Which tool should you recommend to help obtain funding for future AI agent development?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Evaluations in Microsoft Foundry"
+        },
+        {
+          "letter": "B",
+          "text": "the Azure Cost Optimization workbook"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Operator Insights"
+        },
+        {
+          "letter": "D",
+          "text": "the Analytics tab in Microsoft Copilot Studio"
+        },
+        {
+          "letter": "E",
+          "text": "Direct Preference Optimization (DPO)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The Analytics tab in Microsoft Copilot Studio provides usage and adoption metrics for an agent. Those metrics enable monthly reporting that demonstrates month-over-month adoption growth to stakeholders, supporting the case for funding future AI-agent development."
+    },
+    {
+      "number": 91,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has a customer-order system in which sales orders are created manually.  \n  \nYou need to design an AI solution that automates these tasks as part of the system:  \n  \n- Save order details to a database.  \n- Update the order status in the database.  \n- Extract order details from an order file.  \n- Prepare and send a confirmation email to customers.  \n  \nThe solution must minimize development effort and support intelligent automation and solution integration.  \n  \nWhat should you include in the design?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a workflow in Azure Logic Apps"
+        },
+        {
+          "letter": "B",
+          "text": "a multi-agent solution that uses the Semantic Kernel SDK"
+        },
+        {
+          "letter": "C",
+          "text": "a multi-agent solution that uses Microsoft Foundry Agent Service"
+        },
+        {
+          "letter": "D",
+          "text": "a Microsoft Copilot Studio agent that uses Microsoft Power Automate workflows"
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Copilot Studio provides low-code intelligent agent capabilities for interpreting order files and drafting customer communications. Power Automate workflows provide low-code connectors and actions to integrate with databases and email services, enabling reliable persistence, status updates, and message delivery. Copilot Studio agents can invoke flows as tools, combining intelligent automation with end-to-end system integration.\n\n**Learn more:** [Add an agent flow to an agent — Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/flow-agent) · [Use agent flows with your agent — Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-flow)"
+    },
+    {
+      "number": 92,
+      "domain": "Design AI-powered business solutions",
+      "question": "You are designing a Microsoft Copilot Studio agent that uses a custom Microsoft Foundry model to generate responses.  \n  \nYou need to ensure the agent can securely connect to and invoke the custom model during user interactions.  \n  \nWhat should you include in the design?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure the agent to use classic orchestration."
+        },
+        {
+          "letter": "B",
+          "text": "Create a connection to Microsoft Foundry in the agent."
+        },
+        {
+          "letter": "C",
+          "text": "Add the Microsoft Foundry model as a Copilot Studio skill."
+        },
+        {
+          "letter": "D",
+          "text": "Create a custom engine agent."
+        }
+      ],
+      "answer": "B",
+      "explanation": "A Microsoft Foundry connection provides the configured, authenticated link that enables a Copilot Studio agent to access and invoke the custom Foundry model during interactions.\\\n\\\n**Learn more:** [Bring your own model for your prompts - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/bring-your-own-model-prompts)"
+    },
+    {
+      "number": 93,
+      "domain": "Plan AI-powered business solutions",
+      "question": "You are designing a Microsoft Copilot Studio agent that uses a custom Microsoft Foundry model to generate responses.  \n  \nYou need to ensure the agent can securely connect to and invoke the custom model during user interactions.  \n  \nWhat should you include in the design?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Track resolution, deflection, and accuracy by using dashboards and use scripts to ensure consistent responses."
+        },
+        {
+          "letter": "B",
+          "text": "Perform load testing to validate how the agent scales under a high chat volume."
+        },
+        {
+          "letter": "C",
+          "text": "Review historical tickets to find agents that have the shortest resolution times."
+        },
+        {
+          "letter": "D",
+          "text": "Measure uptime and page load times."
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot Studio analytics tracks conversation sessions and their outcomes, including resolution and escalation/deflection-related measures, through analytics dashboards. Its KPIs and analytics are intended to measure agent performance, assess response quality, and expose gaps that can drive continuous improvement. [Measure agent outcomes — Microsoft Learn](https://learn.microsoft.com/en-in/microsoft-copilot-studio/guidance/measuring-outcomes) [Measure and improve agent performance with KPIs and analytics — Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/analytics)\n\n**Learn more:** [Measure agent outcomes — Microsoft Learn](https://learn.microsoft.com/en-in/microsoft-copilot-studio/guidance/measuring-outcomes) · [Measure and improve agent performance with KPIs and analytics — Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/analytics)"
+    },
+    {
+      "number": 101,
+      "domain": "Design AI-powered business solutions",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Modify the data sources of App1 to make them compatible with Copilot."
+        },
+        {
+          "letter": "B",
+          "text": "Duplicate App1 and republish the app in Env1."
+        },
+        {
+          "letter": "C",
+          "text": "Enable Copilot features for Env1."
+        },
+        {
+          "letter": "D",
+          "text": "Move App1 to a new environment that uses Microsoft-managed keys."
+        }
+      ],
+      "answer": null,
+      "explanation": "Copilot controls in Power Apps canvas apps do not work in environments that use a customer-managed key. Moving the app to an environment that uses Microsoft-managed keys enables the Copilot capability without changing Env1’s security or encryption configuration.\n\n**Learn more:** [Add a Copilot control to a canvas app (preview)](https://learn.microsoft.com/ga-ie/power-apps/maker/canvas-apps/add-ai-copilot)"
+    },
+    {
+      "number": 102,
+      "domain": "Plan AI-powered business solutions",
+      "question": "Solution: You recommend using GitHub Copilot.  \n  \nDoes this meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub Copilot is designed to assist with software development, rather than provide a customer-analysis agent platform with built-in AI-performance analytics and demographic identification while minimizing custom development."
+    },
+    {
+      "number": 103,
+      "domain": "Plan AI-powered business solutions",
+      "question": "Solution: You recommend Microsoft Security Copilot.  \n  \nDoes this satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Microsoft Security Copilot is intended for security and IT professionals to investigate threats, manage security posture, and automate security workflows. It is not designed as a customer-analysis agent platform that identifies customer demographics and provides performance analytics for answers to common customer questions with minimal custom development.\\\n\\\n**Learn more:** [What is Microsoft Security Copilot?](https://learn.microsoft.com/en-us/copilot/security/microsoft-security-copilot) · [Microsoft Security Copilot Frequently Asked Questions](https://learn.microsoft.com/en-us/copilot/security/faq-security-copilot)"
+    },
+    {
+      "number": 104,
+      "domain": "Plan AI-powered business solutions",
+      "question": "Solution: Microsoft Copilot Studio is recommended.  \n  \nDoes this satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Microsoft Copilot Studio provides generative answers, low-code agent development, and built-in analytics for agent usage, outcomes, and user feedback. Its standard analytics focus on agent and conversation performance rather than identifying customer demographics; therefore, Copilot Studio alone does not satisfy every stated requirement.\\\n\\\n**Learn more:** [Explore AI capabilities in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/ai-capabilities) · [Analytics overview - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/analytics-overview)"
+    },
+    {
+      "number": 105,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company uses Microsoft Foundry agents.  \n  \nYou need to ensure that an agent can dynamically use external tools at runtime without modifying the agent.  \n  \nWhat should you include in the solution?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a Microsoft Foundry hub"
+        },
+        {
+          "letter": "B",
+          "text": "a Model Context Protocol (MCP) server"
+        },
+        {
+          "letter": "C",
+          "text": "Azure AI Search"
+        },
+        {
+          "letter": "D",
+          "text": "Microsoft Copilot Studio"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A Model Context Protocol (MCP) server exposes externally hosted tools through a standard interface that Microsoft Foundry Agent Service can connect to and invoke at runtime. This extends an agent with external tools and data sources without embedding each tool implementation in the agent.\\\n\\\n**Learn more:** [Connect agents to Model Context Protocol servers](https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/model-context-protocol) · [Agent tools overview for Microsoft Foundry Agent Service](https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/tool-catalog)"
+    },
+    {
+      "number": 106,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company uses Microsoft Foundry agents.  \n  \nYou need to ensure that an agent can dynamically use external tools at runtime without modifying the agent.  \n  \nWhat should you include in the solution?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Retrain Agent1."
+        },
+        {
+          "letter": "B",
+          "text": "Verify and cleanse the Dataverse data."
+        },
+        {
+          "letter": "C",
+          "text": "Use an adaptive card in Agent1."
+        },
+        {
+          "letter": "D",
+          "text": "Add example user inputs to the training data of Agent1."
+        }
+      ],
+      "answer": null,
+      "explanation": "Grounded responses are only as reliable as the Dataverse data and its modeling. Validating and cleansing the records improves the relevance and accuracy of information retrieved for the agent’s responses. Microsoft notes that results based on Dataverse data depend on data quality and on how tables and relationships are modeled.\n\n**Learn more:** [Dataverse data in Microsoft 365 Copilot](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-data-copilot) · [Explore AI capabilities in Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/ai-capabilities)"
+    },
+    {
+      "number": 107,
+      "domain": "Design AI-powered business solutions",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You must design an application lifecycle management (ALM) process for a Microsoft Power Platform environment that contains a solution named Solution1.  \n  \nSolution1 must include a custom connector for Copilot in Microsoft Dynamics 365 Customer Service. Solution1 must satisfy these requirements:  \n  \n- Ensure the custom connector can be deployed consistently across environments as part of the ALM process.  \n- Permit the custom connector to be edited only in the development environment.  \n  \nWhat should you include in the design?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Add the custom connector to GitHub."
+        },
+        {
+          "letter": "B",
+          "text": "Share the custom connector."
+        },
+        {
+          "letter": "C",
+          "text": "Create the custom connector in the default solution."
+        },
+        {
+          "letter": "D",
+          "text": "Add the custom connector to Solution1."
+        }
+      ],
+      "answer": null,
+      "explanation": "Solutions can contain custom connectors and are packaged for export and import across environments. Developing the connector in the unmanaged Solution1 and deploying it to nondevelopment environments as a managed solution provides consistent deployment while limiting changes to the development environment.\n\n**Learn more:** [Application lifecycle management basics with Microsoft Power Platform](https://learn.microsoft.com/en-us/power-platform/alm/basics-alm) · [Use a solution to customize](https://learn.microsoft.com/en-us/power-platform/alm/use-solutions-for-your-customizations)"
+    },
+    {
+      "number": 108,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company has a portfolio of AI initiatives at varying stages of development.  \n  \nYou need to recommend a structured approach for evaluating return on AI investment (ROAI) across all initiatives. The solution must balance immediate results with long-term value and strategic innovation.  \n  \nWhat should the recommendation include?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a simple cost and benefit analysis"
+        },
+        {
+          "letter": "B",
+          "text": "a horizon-based framework"
+        },
+        {
+          "letter": "C",
+          "text": "the internal rate of return (IRR) function"
+        },
+        {
+          "letter": "D",
+          "text": "a prioritization grid"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A horizon-based framework assesses AI initiatives by their expected value across near-term, medium-term, and longer-term horizons. It supports balancing immediate measurable outcomes with sustained business value and more strategic innovation investments."
+    },
+    {
+      "number": 109,
+      "domain": "Design AI-powered business solutions",
+      "question": "A company has a portfolio of AI initiatives at varying stages of development.  \n  \nYou need to recommend a structured approach for evaluating return on AI investment (ROAI) across all initiatives. The solution must balance immediate results with long-term value and strategic innovation.  \n  \nWhat should the recommendation include?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Build an agent flow."
+        },
+        {
+          "letter": "B",
+          "text": "Configure the Conversation Start topic."
+        },
+        {
+          "letter": "C",
+          "text": "Configure a skill."
+        },
+        {
+          "letter": "D",
+          "text": "Call a Microsoft Power Automate connector."
+        },
+        {
+          "letter": "E",
+          "text": "Configure the Escalate topic."
+        }
+      ],
+      "answer": null,
+      "explanation": "The Escalate system topic is the Copilot Studio mechanism for human handoff. When configured with a Transfer conversation node and connected to Dynamics 365 Customer Service or Contact Center, it routes the escalated chat to an appropriate queue so a live customer service representative can continue the conversation.\n\n**Learn more:** [Hand off to a live agent - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-hand-off) · [Integrate a Copilot agent in Dynamics 365 Contact Center](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-bot-virtual-agent)"
+    },
+    {
+      "number": 110,
+      "domain": "Plan AI-powered business solutions",
+      "question": "You are developing validation criteria for a custom generative AI model that creates business reports from internal enterprise data.  \n  \nYou need to evaluate whether the model’s outputs are suitable and meaningful for the business reports.  \n  \nWhich metric should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the number of active users interacting with the model"
+        },
+        {
+          "letter": "B",
+          "text": "alignment of the output to domain-specific tasks"
+        },
+        {
+          "letter": "C",
+          "text": "the average system resource usage during inference"
+        },
+        {
+          "letter": "D",
+          "text": "the model training duration"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Output alignment with domain-specific tasks measures whether generated business reports satisfy the relevant business context, requirements, and intended use. Active-user counts, inference resource use, and training duration do not assess the appropriateness or meaningfulness of generated content."
+    }
+  ]
+}

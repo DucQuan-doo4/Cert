@@ -1,0 +1,1761 @@
+{
+  "provider": "microsoft",
+  "slug": "ai-300",
+  "fullSlug": "microsoft/ai-300",
+  "title": "Copy link to this question",
+  "totalQuestions": 142,
+  "totalPages": 5,
+  "crawledPages": 6,
+  "isComplete": true,
+  "questions": [
+    {
+      "number": 1,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "A team is validating a generative AI assistant for an organization. The assistant generates responses using internal knowledge sources.  \n  \nThe organization requires assurance that responses are accurate, source-supported, and relevant to user prompts before production access is enabled.  \n  \nYou need to implement quality metrics that verify the assistant produces dependable and meaningful responses.  \n  \nWhich two evaluation metrics should you use? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Groundedness"
+        },
+        {
+          "letter": "B",
+          "text": "Relevance"
+        },
+        {
+          "letter": "C",
+          "text": "Harmfulness"
+        },
+        {
+          "letter": "D",
+          "text": "Tone"
+        },
+        {
+          "letter": "E",
+          "text": "Fairness"
+        }
+      ],
+      "answer": null,
+      "explanation": "Groundedness evaluates whether generated content is supported by the supplied knowledge sources, helping verify factual, source-backed responses. Relevance evaluates whether the response addresses the user’s prompt. Together, these metrics measure the required source support and prompt alignment."
+    },
+    {
+      "number": 2,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team is experimenting with traditional models for a classification workflow in Azure Machine Learning.  \n  \nThe team needs a consistent method to manage assets created during experimentation.  \n  \nYou need to ensure that artifacts can be reused and governed across projects.  \n  \nWhich asset should you register?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Model"
+        },
+        {
+          "letter": "B",
+          "text": "Component"
+        },
+        {
+          "letter": "C",
+          "text": "Environment"
+        },
+        {
+          "letter": "D",
+          "text": "Pipeline"
+        }
+      ],
+      "answer": null,
+      "explanation": "A registered model stores and versions the trained classification artifact as an Azure Machine Learning asset. Models can be centrally organized, tracked, governed, and shared through an Azure Machine Learning registry across workspaces and projects.\n\n**Learn more:** [Register and work with models - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-models?view=azureml-api-2) · [Machine Learning registries - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-machine-learning-registries-mlops?view=azureml-api-2)"
+    },
+    {
+      "number": 3,
+      "domain": "Design and implement a GenAIOps infrastructure",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A Retrieval-Augmented Generation (RAG) solution produces incomplete answers because relevant content is retrieved inconsistently from the knowledge source.  \n  \nYou need to increase RAG accuracy without changing the embedding model that is currently used. You must meet this goal while minimizing operational costs.  \n  \nWhich two actions should you take? Each correct answer represents part of the solution. Choose two.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tune chunk size and overlap to match content structure."
+        },
+        {
+          "letter": "B",
+          "text": "Implement an optimized re-ranker."
+        },
+        {
+          "letter": "C",
+          "text": "Increase token limits for all requests."
+        },
+        {
+          "letter": "D",
+          "text": "Optimize the length of embedding vectors."
+        }
+      ],
+      "answer": null,
+      "explanation": "Chunking content at an appropriate size with overlap preserves semantic context across chunk boundaries and improves the likelihood that relevant passages are retrieved. A reranker performs a second relevance evaluation of retrieved candidates against the query, improving the ordering and selection of context provided to the RAG model. Microsoft Learn recommends tuning chunk size and overlap for vector-search relevance and describes reranking as a way to evaluate candidate documents that initial vector or keyword searches might otherwise rank inaccurately.\n\n**Learn more:** [Vector Relevance and Ranking - Azure AI Search](https://learn.microsoft.com/en-us/azure/search/vector-search-ranking) · [Develop a RAG Solution—Information-Retrieval Phase](https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/rag/rag-information-retrieval)"
+    },
+    {
+      "number": 4,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "A team provisions an Azure Machine Learning environment by initiating pull requests.  \n  \nDeployments must be automated, auditable, and need approval before they run.  \n  \nYou need to choose a deployment automation tool.  \n  \nWhich tool should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Monitor"
+        },
+        {
+          "letter": "B",
+          "text": "GitHub Actions"
+        },
+        {
+          "letter": "C",
+          "text": "MLflow"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Machine Learning pipelines"
+        }
+      ],
+      "answer": "B",
+      "explanation": "GitHub Actions automates deployment workflows from pull-request events and records workflow runs for auditing. Its protected environments can require designated reviewers to approve a deployment before the associated job runs."
+    },
+    {
+      "number": 5,
+      "domain": "Optimize generative AI systems and model performance",
+      "question": "A team provisions an Azure Machine Learning environment by initiating pull requests.  \n  \nDeployments must be automated, auditable, and need approval before they run.  \n  \nYou need to choose a deployment automation tool.  \n  \nWhich tool should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fairiearn.reductions.ExponentiatedGradient"
+        },
+        {
+          "letter": "B",
+          "text": "fairlearn.preprocessing.CorrelationRemover"
+        },
+        {
+          "letter": "C",
+          "text": "fairlearn.reductions.GridSearch"
+        },
+        {
+          "letter": "D",
+          "text": "fairlearn.postprocessing.ThresholdOptimizer"
+        }
+      ],
+      "answer": null,
+      "explanation": "`fairlearn.postprocessing.ThresholdOptimizer` postprocesses the outputs of an existing estimator by applying group-specific decision thresholds that optimize a performance objective subject to fairness constraints. Setting `prefit=True` avoids refitting the supplied estimator, so the original model does not need to be retrained.\n\n**Learn more:** [Fairlearn ThresholdOptimizer API reference](https://fairlearn.org/main/api_reference/generated/fairlearn.postprocessing.ThresholdOptimizer.html) · [Fairlearn postprocessing guide](https://fairlearn.org/main/user_guide/mitigation/postprocessing.html)"
+    },
+    {
+      "number": 6,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "Solution: Delete the **Python 3.6 - AzureML** kernel.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A new Azure Machine Learning Jupyter kernel is added by creating and activating an environment, installing `ipykernel`, and registering its kernelspec. Deleting an existing AzureML kernel is not required; Microsoft advises against deleting Conda environments or Jupyter kernels that were not created by the user because doing so can damage Jupyter or JupyterLab functionality.\\\n\\\n**Learn more:** [Access a compute instance terminal - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-access-terminal?view=azureml-api-2)"
+    },
+    {
+      "number": 7,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "Solution: Delete the **Python 3.8 - AzureML** kernel.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A new Jupyter kernel is added by creating and activating an environment, installing `pip` and `ipykernel`, and registering that environment as a kernelspec. Azure Machine Learning guidance warns against deleting Jupyter kernels that were not created by the user because doing so can damage Jupyter or JupyterLab functionality; deleting the existing Python 3.8 - AzureML kernel is not required.\\\n\\\n**Learn more:** [Access a compute instance terminal - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-access-terminal?view=azureml-api-2)"
+    },
+    {
+      "number": 8,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "Solution: Create an environment.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A new Jupyter kernel is registered for a Conda environment. Azure Machine Learning’s documented procedure first creates and activates the environment, then installs `ipykernel` and registers that environment as the kernel.\\\n\\\n**Learn more:** [Access a compute instance terminal — Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-access-terminal?view=azureml-api-2)"
+    },
+    {
+      "number": 9,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "Solution: Create an environment.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Analyze error rates across the global cohort."
+        },
+        {
+          "letter": "B",
+          "text": "Measure endpoint latency under load."
+        },
+        {
+          "letter": "C",
+          "text": "Validate inference schema compatibility."
+        },
+        {
+          "letter": "D",
+          "text": "Evaluate feature importance for prediction transparency."
+        },
+        {
+          "letter": "E",
+          "text": "Analyze error rates across defined demographic cohorts."
+        }
+      ],
+      "answer": null,
+      "explanation": "Fairness assessment compares prediction outcomes and performance metrics, including error rates, across cohorts defined by sensitive demographic attributes to identify disparate impact. Feature-importance analysis supports the Responsible AI transparency principle by explaining which features influence predictions. Aggregate error analysis alone can conceal subgroup disparities.\n\n**Learn more:** [What is Responsible AI in Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2) · [Machine learning fairness in Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-fairness-ml?view=azureml-api-2)"
+    },
+    {
+      "number": 10,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team is using Microsoft Foundry in a development environment to test and compare large language model (LLM) prompt variants.  \n  \nThe team needs consistent inputs to assess prompt variants without depending on live user traffic.  \n  \nYou need to create a controlled input-data evaluation. Which action should you take first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Generate synthetic interaction data."
+        },
+        {
+          "letter": "B",
+          "text": "Configure content filters."
+        },
+        {
+          "letter": "C",
+          "text": "Apply a blocklist."
+        },
+        {
+          "letter": "D",
+          "text": "Enable observability metrics."
+        }
+      ],
+      "answer": null,
+      "explanation": "Synthetic interaction data supplies a controlled, repeatable evaluation dataset when live production traffic is unavailable. Microsoft Foundry can generate synthetic test queries and store them as a reusable dataset, enabling consistent comparison of prompt variants. Content filters, blocklists, and observability metrics do not create the required input data.\n\n**Learn more:** [Run evaluations from the Microsoft Foundry portal](https://learn.microsoft.com/en-us/azure/foundry/how-to/evaluate-generative-ai-app) · [Cloud Evaluation with the Microsoft Foundry SDK](https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/cloud-evaluation)"
+    },
+    {
+      "number": 11,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A product team is creating a customer-support assistant that must provide consistent responses through multiple channels.  \n  \nEarly tests reveal that minor wording differences in prompts lead to major changes in tone and factual accuracy.  \n  \nThe team requires prompts that are dependable, reusable, and adaptable for multiple use cases without retraining the underlying model.  \n  \nYou need to create prompts that improve response quality while preserving flexibility for future changes.  \n  \nWhich two actions should you take? Each correct answer represents part of the solution. (Choose two.)  \n  \nNOTE: Each correct choice is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fine-tune the model for each conversational variation."
+        },
+        {
+          "letter": "B",
+          "text": "Apply prompt transformations to separate system instructions from user input."
+        },
+        {
+          "letter": "C",
+          "text": "Use the system prompt to establish the role, tone, and style."
+        },
+        {
+          "letter": "D",
+          "text": "Increase the temperature setting to encourage creativity."
+        },
+        {
+          "letter": "E",
+          "text": "Repeat the instructions at the end of the system prompt."
+        }
+      ],
+      "answer": null,
+      "explanation": "System prompts provide persistent, high-priority guidance for an assistant’s role, tone, style, and behavioral constraints. Separating those trusted system instructions from user-supplied input creates clear instruction boundaries, making prompts safer to reuse and easier to adapt across use cases without changing or retraining the model. Higher temperature increases output variability, and fine-tuning each variation is neither necessary nor flexible for this requirement.\n\n**Learn more:** [System message design for Azure OpenAI](https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/advanced-prompt-engineering?view=foundry-classic) · [Prompt engineering in .NET](https://learn.microsoft.com/en-us/dotnet/ai/conceptual/prompt-engineering-dotnet)"
+    },
+    {
+      "number": 12,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "A team develops and manages a conversational assistant using Microsoft Foundry.  \n  \nThe team must be able to validate that the assistant does not generate hateful responses before the application is exposed to any users.  \n  \nYou need to evaluate the model output for hateful responses as part of a repeatable validation process.  \n  \nWhich evaluator should you configure first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Protected material"
+        },
+        {
+          "letter": "B",
+          "text": "Groundedness"
+        },
+        {
+          "letter": "C",
+          "text": "Indirect attacks"
+        },
+        {
+          "letter": "D",
+          "text": "Content safety"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The Content safety evaluator measures harmful output categories, including hate-related content, so it supports repeatable validation that the assistant does not generate hateful responses before release."
+    },
+    {
+      "number": 13,
+      "domain": "Optimize generative AI systems and model performance",
+      "question": "You manage an Azure Machine Learning workspace.  \n  \nYou need to define an environment from a Docker image by using the Azure Machine Learning Python SDK v2.  \n  \nWhich parameter should be used?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "conda_file"
+        },
+        {
+          "letter": "B",
+          "text": "properties"
+        },
+        {
+          "letter": "C",
+          "text": "build"
+        },
+        {
+          "letter": "D",
+          "text": "image"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The `image` parameter specifies the URI of the Docker image used for an Azure Machine Learning environment. `build` instead specifies a Docker build context; `conda_file` supplies Conda dependencies; and `properties` is metadata.\\\n\\\n**Learn more:** [Manage Azure Machine Learning environments with the CLI and SDK (v2)](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-environments-v2?tabs=cli&view=azureml-api-2) · [Troubleshoot environment images - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-troubleshoot-environments?view=azureml-api-2)"
+    },
+    {
+      "number": 14,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You train machine learning models in Azure Machine Learning and use Hyperdrive to tune hyperparameters.  \n  \nIn earlier model-training and tuning runs, many models delivered similar performance.  \n  \nYou need to choose an early-termination policy that meets these requirements:  \n  \n- accounts for the performance of all prior runs when assessing the current run  \n- does not compare the current run only with the best-performing run so far  \n  \nWhich two early-termination policies should you use? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bandit"
+        },
+        {
+          "letter": "B",
+          "text": "Default"
+        },
+        {
+          "letter": "C",
+          "text": "Median stopping"
+        },
+        {
+          "letter": "D",
+          "text": "Truncation selection"
+        }
+      ],
+      "answer": null,
+      "explanation": "Median stopping computes running averages across all training runs and terminates a run when its primary metric is worse than the median of those averages. Truncation selection compares runs by their primary metric and cancels a specified percentage of the lowest-performing runs at each evaluation interval. Both evaluate performance relative to the group of runs, whereas Bandit policy uses the most successful run as its reference.\n\n**Learn more:** [Hyperparameter tuning a model (v1) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters?view=azureml-api-1) · [MedianStoppingPolicy class - Azure Machine Learning Python](https://learn.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.medianstoppingpolicy?view=azure-ml-py)"
+    },
+    {
+      "number": 26,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L35\",\"$L36\",\"$L37\",\"$L38\"]\n26:[\"$\",\"$19\",null,{\"fallback\":[[\"$\",\"div\",\"0\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"1\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"2\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}]],\"children\":\"$L39\"}]\n27:[\"$\",\"$L3a\",null,{\"compact\":true,\"centered\":true,\"isLoggedIn\":true,\"isSubscriber\":false,\"currentTier\":null,\"returnTo\":\"/exams/microsoft/ai-300/2\",\"sidebarModal\":true}]\n28:[\"$\",\"nav\",null,{\"className\":\"pagination-container\",\"aria-label\":\"Exam pages\",\"children\":[[\"$\",\"p\",null,{\"className\":\"pagination-info\",\"children\":[\"Page \",[\"$\",\"strong\",null,{\"children\":2}],\" of \",6,[\"$\",\"span\",null,{\"className\":\"pagination-info-sep\",\"aria-hidden\":\"true\",\"children\":\"•\"}],\"Questions \",26,\"–\",50,\" of \",142]}],[\"$\",\"div\",null,{\"className\":\"pagination-nav\",\"children\":[[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ai-300/1\",\"className\":\"button link back-arrow pagination-arrow\",\"aria-label\":\"Previous page\",\"rel\":\"prev\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Prev\"}]}],[\"$\",\"div\",null,{\"className\":\"pagination-numbers\",\"children\":[[\"$\",\"$L20\",\"1\",{\"href\":\"/exams/microsoft/ai-300/1\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 1\",\"children\":1}],[\"$\",\"span\",\"2\",{\"className\":\"button primary sm pagination-page is-current\",\"aria-current\":\"page\",\"children\":2}],[\"$\",\"$L20\",\"3\",{\"href\":\"/exams/microsoft/ai-300/3\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 3\",\"children\":3}],[\"$\",\"$L20\",\"4\",{\"href\":\"/exams/microsoft/ai-300/4\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 4\",\"children\":4}],[\"$\",\"span\",\"divider-4\",{\"className\":\"pagination-divider\",\"aria-hidden\":\"true\"}],[\"$\",\"$L20\",\"6\",{\"href\":\"/exams/microsoft/ai-300/6\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 6\",\"children\":6}]]}],[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ai-300/3\",\"className\":\"button link arrow pagination-arrow\",\"aria-label\":\"Next page\",\"rel\":\"next\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Next\"}]}]]}]]}]\n29:[\"$\",\"div\",null,{\"className\":\"contribute-cta\",\"children\":[[\"$\",\"$L3b\",null,{\"src\":\"/icons/hand-holding-heart.svg\",\"alt\":\"\",\"width\":20,\"height\":20,\"aria-hidden\":\"true\"}],[\"$\",\"span\",null,{\"className\":\"contribute-cta-text\",\"children\":[\"Know a question that should be here?\",\" \",[\"$\",\"$L20\",null,{\"href\":\"/contribute/microsoft/ai-300\",\"children\":\"Contribute to this exam\"}]]}]]}]\n2a:[\"$\",\"$L3c\",null,{}]\n3d:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3f:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n40:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n32:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n33:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n34:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3d\",null,{\"questionNumber\":26,\"questionId\":\"79e9222f-ec0c-4495-809b-736d901a8ceb\",\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L3e\"}]}],[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"questionNumber\":26,\"questionId\":\"79e9222f-ec0c-4495-809b-736d901a8ceb\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L40\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"questionNumber\":26,\"questionId\":\"79e9222f-ec0c-4495-809b-736d901a8ceb\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-300/2\"}]}]]}]\nYou are preparing training data for a fine-tuning job in Microsoft Foundry.  \n  \nReal production conversations cannot be used because of compliance requirements.  \n  \nYou need to generate synthetic interaction data for fine-tuning a generative model.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Export model evaluation logs and use them directly as training data."
+        },
+        {
+          "letter": "B",
+          "text": "Use a simulator to generate prompt-response interaction data that matches the target task."
+        },
+        {
+          "letter": "C",
+          "text": "Enable A/B testing and capture live user traffic for data generation."
+        },
+        {
+          "letter": "D",
+          "text": "Run a simulator to produce telemetry logs and trace data from user interactions."
+        }
+      ],
+      "answer": null,
+      "explanation": "A simulator can generate synthetic, task-specific prompt-response conversations without using production data. Microsoft Foundry guidance identifies simulators as a way to create synthetic conversations and task-based interactions, including diverse datasets for training and fine-tuning models.\n\n**Learn more:** [Generate synthetic and simulated data for evaluation (preview)](https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/develop/simulator-interaction-data) · [Generate synthetic data for fine-tuning in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/fine-tuning/data-generation)"
+    },
+    {
+      "number": 27,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have created a workspace by using Azure Machine Learning Studio.  \n  \nYou must run a Python SDK v2 notebook in that workspace by using Azure Machine Learning Studio.  \n  \nYou need to reset the notebook’s state.  \n  \nWhich three actions should you take? Each correct answer provides a complete solution.  \n  \n&gt; **NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Navigate to another section of the workspace."
+        },
+        {
+          "letter": "B",
+          "text": "stop the current kernel."
+        },
+        {
+          "letter": "C",
+          "text": "Reset the compute."
+        },
+        {
+          "letter": "D",
+          "text": "Change the current kernel."
+        },
+        {
+          "letter": "E",
+          "text": "Change the compute."
+        }
+      ],
+      "answer": null,
+      "explanation": "In Azure Machine Learning Studio, resetting the compute, changing the kernel, and switching to different compute each reset the notebook state and all notebook variables. Stopping the kernel or navigating to another workspace section only stops running cells and does not reset the notebook state.\n\n**Learn more:** [Run Jupyter notebooks in your workspace - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2)"
+    },
+    {
+      "number": 28,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A company has several data science teams working on distinct machine learning projects.  \n  \nThe company requires models to be auditable, reusable, and centrally governed across teams. The models must support team-level isolation for billing.  \n  \nYou need to set up the foundation for governed machine learning operations.  \n  \nWhich action should you take first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Register shared datasets in a central storage account."
+        },
+        {
+          "letter": "B",
+          "text": "Create a shared hub workspace and project workspaces for each team."
+        },
+        {
+          "letter": "C",
+          "text": "Create a resource group for shared machine learning assets."
+        },
+        {
+          "letter": "D",
+          "text": "Create a shared Azure Machine Learning workspace."
+        }
+      ],
+      "answer": null,
+      "explanation": "An Azure Machine Learning hub workspace provides centralized governance through shared security settings, connections, compute resources, and quota. Hub-based project workspaces inherit those shared configurations while retaining separate access, data isolation, and project-level cost-management boundaries, supporting team-specific billing isolation.\n\n**Learn more:** [What is an Azure Machine Learning hub workspace?](https://learn.microsoft.com/en-us/azure/machine-learning/concept-hub-workspace?view=azureml-api-2) · [What is an Azure Machine Learning workspace?](https://learn.microsoft.com/en-us/azure/machine-learning/concept-workspace?view=azureml-api-2)"
+    },
+    {
+      "number": 29,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A financial services company is deploying Microsoft Foundry to host generative AI workloads that handle regulated customer data. The Microsoft Foundry environment must eliminate public network exposure while continuing to allow Microsoft Foundry-managed services to communicate with dependent Azure resources.  \n  \nSecurity auditors require all traffic to and from the Microsoft Foundry resource to stay on private networks, with no public endpoints available.  \n  \nYou need to configure the Microsoft Foundry environment to restrict network access while preserving full platform functionality.  \n  \nWhich two actions should you take? Each correct answer presents part of the solution. Choose two.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Configure a managed virtual network for the Microsoft Foundry resource."
+        },
+        {
+          "letter": "B",
+          "text": "Use API key authentication for all model endpoints."
+        },
+        {
+          "letter": "C",
+          "text": "Deploy the Microsoft Foundry resource in a separate Azure subscription."
+        },
+        {
+          "letter": "D",
+          "text": "Disable public network access to the Microsoft Foundry resource."
+        },
+        {
+          "letter": "E",
+          "text": "Disable all inbound network access."
+        }
+      ],
+      "answer": null,
+      "explanation": "A managed virtual network provides an isolated network boundary for Microsoft Foundry-managed services and supports managed private endpoints to dependent Azure resources. Disabling public network access removes public exposure; access can instead occur through private endpoints. Authentication method and subscription placement do not establish private network isolation, and blocking all inbound access would not provide the necessary private-endpoint connectivity.\n\n**Learn more:** [Configure managed virtual network for Microsoft Foundry projects](https://learn.microsoft.com/en-us/azure/foundry/how-to/managed-virtual-network) · [How to configure network isolation for Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/how-to/configure-private-link)"
+    },
+    {
+      "number": 30,
+      "domain": "Design and implement an MLOps infrastructure",
+      "question": "You have an Azure OpenAI Service base-model deployment and plan to fine-tune the model.  \n  \nYou need to prepare a file containing multi-turn chat training data. Which file-encoding method should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ISO-8859-1"
+        },
+        {
+          "letter": "B",
+          "text": "UTF-16"
+        },
+        {
+          "letter": "C",
+          "text": "UTF-8"
+        },
+        {
+          "letter": "D",
+          "text": "ASCII"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Azure OpenAI fine-tuning training data must be supplied as a JSON Lines file encoded in UTF-8. UTF-8 supports the required JSON text format and multilingual chat content.\\\n\\\n**Learn more:** [Fine-tune Azure OpenAI models](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning)"
+    },
+    {
+      "number": 31,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An organization operates separate Azure Machine Learning workspaces for development and production.  \n  \nBoth environments must use the same validated assets without duplicating those assets. Assets must be shared across workspaces while preserving centralized governance and version control.  \n  \nYou need to enable asset reuse across workspaces without copying the assets.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable workspace-level Git integration and sync assets between repositories."
+        },
+        {
+          "letter": "B",
+          "text": "Publish the asset as a pipeline component."
+        },
+        {
+          "letter": "C",
+          "text": "Create a shared Azure Machine Learning environment that includes the asset."
+        },
+        {
+          "letter": "D",
+          "text": "Publish the asset to an Azure Machine Learning registry."
+        }
+      ],
+      "answer": null,
+      "explanation": "An Azure Machine Learning registry is a centralized, versioned repository for durable machine learning assets such as models, components, environments, and data. Assets published to a registry can be reused from multiple workspaces, supporting controlled promotion from development to production without maintaining separate workspace copies.\n\n**Learn more:** [Machine Learning registries - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-machine-learning-registries-mlops?view=azureml-api-2) · [Create and manage registries - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-registries?view=azureml-api-2)"
+    },
+    {
+      "number": 32,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team deploys a model to a real-time endpoint in Azure Machine Learning and then deploys updates to that endpoint.  \n  \nThe endpoint begins returning errors after the new deployment is released. You need to restore the service as quickly as possible.  \n  \nWhat should you do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Roll back traffic to the previous deployment."
+        },
+        {
+          "letter": "B",
+          "text": "Delete the endpoint and immediately redeploy it."
+        },
+        {
+          "letter": "C",
+          "text": "Change the authentication type to Azure Machine Learning token-based authentication."
+        },
+        {
+          "letter": "D",
+          "text": "Increase the compute size."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning online endpoints support traffic allocation across deployments. Redirecting traffic to the prior, known-good deployment immediately removes the faulty release from live request handling, making rollback the fastest service-restoration action.\n\n**Learn more:** [Safe rollout for online endpoints - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-safely-rollout-online-endpoints?view=azureml-api-2)"
+    },
+    {
+      "number": 33,
+      "domain": "Design and implement a GenAIOps infrastructure",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You create an Azure Machine Learning workspace and train an MLflow-formatted regression model using structured tabular data.  \n  \nYou must assess the model by using a Responsible AI dashboard.  \n  \nYou need to generate the Responsible AI dashboard by using the Azure Machine Learning studio UI.  \n  \nWhat should you do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Register the model with the workspace."
+        },
+        {
+          "letter": "B",
+          "text": "Create the model explanations."
+        },
+        {
+          "letter": "C",
+          "text": "Convert the model from the MLflow format to a custom format."
+        },
+        {
+          "letter": "D",
+          "text": "Deploy the model to a managed online endpoint."
+        }
+      ],
+      "answer": null,
+      "explanation": "The Azure Machine Learning studio no-code workflow for generating Responsible AI insights starts by registering the model in the workspace. The dashboard is created from the registered model’s details; explainability can be selected as a dashboard component, while format conversion and managed online deployment are not prerequisites.\n\n**Learn more:** [Generate Responsible AI insights in the studio UI](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-responsible-ai-insights-ui?view=azureml-api-2) · [Work with registered models in Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-models?view=azureml-api-2)"
+    },
+    {
+      "number": 34,
+      "domain": "Optimize generative AI systems and model performance",
+      "question": "You use Azure Machine Learning to deploy a model as a real-time web service.  \n  \nYou must create an entry script that loads the model when the service starts and uses it to score incoming new data.  \n  \nWhich functions should the script include? Each function can be used once, more than once, or not at all.\n\n<DragDrop\n  items={[\"main()\",\"init()\",\"score()\",\"predict()\",\"run()\"]}\n  slots={[{\"answer\":\"init()\",\"id\":\"load_model\",\"label\":\"Load the model when the service starts.\"},{\"answer\":\"run()\",\"id\":\"score_data\",\"label\":\"Use the model to score new data.\"}]}\n  reuse={true}\n  explanation={\"Azure Machine Learning invokes `init()` when the scoring container starts, so it is the place to load the deployed model. It invokes `run()` for each inference request, so it receives and scores new data.\\\n\\\n**Learn more:** [Deploy Machine Learning Models to Online Endpoints - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-online-endpoints?view=azureml-api-2)\"}\n/>\",\"className\":\"button hollow icon-accent icon-only question-actions\"}],You manage an Azure Machine Learning workspace and have an environment for training jobs that uses an existing Docker image.  \n  \nA new version of that Docker image is available.  \n  \nYou need to use the latest Docker image version in the environment configuration by using the Azure Machine Learning SDK v2.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Change the description parameter of the environment configuration."
+        },
+        {
+          "letter": "B",
+          "text": "Modify the conda_file to specify the new version of the Docker image."
+        },
+        {
+          "letter": "C",
+          "text": "Use the create_or_update method to change the tag of the image."
+        },
+        {
+          "letter": "D",
+          "text": "Use the Environment class to create a new version of the environment."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning treats environment definitions as versioned assets. Changing the Docker image or its tag changes the Docker configuration and creates a new environment version; the `Environment` class is used to define that new version before registering it with the SDK client. A Conda file specifies package dependencies, not the Docker image.\n\n**Learn more:** [Manage environments in Azure Machine Learning studio](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-environments-in-studio?view=azureml-api-2) · [Environment Versions - Create Or Update](https://learn.microsoft.com/en-us/rest/api/azureml/environment-versions/create-or-update?view=rest-azureml-2026-03-01)"
+    },
+    {
+      "number": 35,
+      "domain": "Design and implement an MLOps infrastructure",
+      "question": "A team is building a generative AI assistant and is testing multiple prompt variants to enhance the user experience.  \n  \nWhen comparing prompt variants, the team intends to assess whether generated responses are grammatically correct.  \n  \nYou need to evaluate the language quality of the generated responses. Which evaluator should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coherence"
+        },
+        {
+          "letter": "B",
+          "text": "Textual similarity"
+        },
+        {
+          "letter": "C",
+          "text": "Grounded ness"
+        },
+        {
+          "letter": "D",
+          "text": "Fluency"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Fluency evaluates language mastery, including grammatical correctness, appropriate vocabulary, and natural, smooth text flow.\\\n\\\n**Learn more:** [Metric prompt templates for model-based evaluation](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/eval-python-sdk/metrics-templates?hl=it)"
+    },
+    {
+      "number": 36,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team builds and manages a conversational assistant by using Microsoft Foundry.  \n  \nThe team needs generative AI to automatically evaluate every pull request for an agentic application and fail the build when safety thresholds are exceeded.  \n  \nYou need to automate evaluations as part of CI.  \n  \nWhat should you configure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Blocklist applied to the model endpoint"
+        },
+        {
+          "letter": "B",
+          "text": "Content filter configured in warning mode"
+        },
+        {
+          "letter": "C",
+          "text": "Retrieval chunking strategy"
+        },
+        {
+          "letter": "D",
+          "text": "GitHub Actions workflow that executes the runs"
+        }
+      ],
+      "answer": null,
+      "explanation": "A GitHub Actions workflow can run Microsoft Foundry agent evaluations within a CI/CD pipeline. Risk and safety evaluators apply configured thresholds to produce pass or fail results, allowing the workflow to enforce pull-request build gates when safety limits are exceeded. A blocklist or warning-mode content filter controls runtime content handling, while retrieval chunking only affects retrieval processing.\n\n**Learn more:** [How to run an evaluation in GitHub Action - Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/how-to/evaluation-github-action?view=foundry-classic) · [Risk and Safety Evaluators for Generative AI - Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/concepts/evaluation-evaluators/risk-safety-evaluators)"
+    },
+    {
+      "number": 37,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You have an Azure subscription named Sub1 that includes an Azure Machine Learning workspace named Workspace1. Workspace1 contains these assets:  \n  \n- A registered MLflow model named Model1  \n- An online endpoint named Endpoint1  \n  \nOutbound network connectivity from Endpoint1 is blocked.  \n  \nYou need to deploy Model1 to Endpoint1.  \n  \nWhat should you do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In Sub1, create an Azure Machine Learning registry."
+        },
+        {
+          "letter": "B",
+          "text": "In Workspace1, create a linked service."
+        },
+        {
+          "letter": "C",
+          "text": "In Workspace1, create a package."
+        },
+        {
+          "letter": "D",
+          "text": "In Sub1, create a private endpoint."
+        }
+      ],
+      "answer": null,
+      "explanation": "MLflow no-code deployments normally install Python dependencies during container runtime. When outbound connectivity is blocked, the model must first be packaged with its inference environment and dependencies so the endpoint does not need to retrieve them at runtime. Azure Machine Learning model packaging creates a Docker image or Dockerfile containing the model and its dependencies.\n\n**Learn more:** [Deploy MLflow models to real-time endpoints — Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-mlflow-models-online-endpoints?view=azureml-api-2) · [ModelPackage Class — Azure Machine Learning Python SDK](https://learn.microsoft.com/en-us/python/api/azureml-core/azureml.core.model.modelpackage?view=azure-ml-py)"
+    },
+    {
+      "number": 38,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A data science team intends to automatically evaluate multiple hyperparameter values while training a model in Azure Machine Learning.  \n  \nThe tuning process must execute multiple training trials without manually changing the training script for every run.  \n  \nYou need to automate hyperparameter tuning for the training job.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Run a single training job with fixed hyperparameters."
+        },
+        {
+          "letter": "B",
+          "text": "Adjust hyperparameters after model deployment."
+        },
+        {
+          "letter": "C",
+          "text": "Select hyperparameters based only on default model settings."
+        },
+        {
+          "letter": "D",
+          "text": "Create a tuning job that runs multiple trials with different parameter values."
+        }
+      ],
+      "answer": null,
+      "explanation": "An Azure Machine Learning tuning (sweep) job defines a hyperparameter search space and runs multiple trial training jobs with different parameter values. It automates the evaluation of configurations while reusing the training script.\n\n**Learn more:** [Hyperparameter tuning a model (v2) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters?view=azureml-api-2)"
+    },
+    {
+      "number": 51,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "An Azure Machine Learning workspace handles sensitive training data.  \n  \nThe workspace must **not** be reachable from the public internet. You need to restrict network access.  \n  \nWhich configuration should you implement?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Firewall rules"
+        },
+        {
+          "letter": "B",
+          "text": "Private endpoints"
+        },
+        {
+          "letter": "C",
+          "text": "Network security groups"
+        },
+        {
+          "letter": "D",
+          "text": "Service endpoints"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Private endpoints use Azure Private Link to give an Azure Machine Learning workspace private connectivity from a virtual network, restricting data-plane access to private IP addresses. Disabling the workspace's public network access prevents internet exposure.\\\n\\\n**Learn more:** [Configure a private endpoint for an Azure Machine Learning workspace](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-configure-private-link?view=azureml-api-2)"
+    },
+    {
+      "number": 52,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "An Azure Machine Learning workspace handles sensitive training data.  \n  \nThe workspace must **not** be reachable from the public internet. You need to restrict network access.  \n  \nWhich configuration should you implement?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "traffic splitting between deployments"
+        },
+        {
+          "letter": "B",
+          "text": "the model asset version in the registry"
+        },
+        {
+          "letter": "C",
+          "text": "deployment to a separate staging endpoint"
+        },
+        {
+          "letter": "D",
+          "text": "an evaluation script in Azure Machine Learning"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning online endpoints can use a blue-green deployment strategy that assigns specified percentages of incoming traffic to multiple deployments. Sending a small percentage to the new deployment allows controlled validation while the existing deployment continues to serve the remaining users.\n\n**Learn more:** [Perform safe rollout of new deployments for real-time inference](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-safely-rollout-online-endpoints?view=azureml-api-2) · [Online endpoints for real-time inference](https://learn.microsoft.com/en-us/azure/machine-learning/concept-endpoints-online?view=azureml-api-2)"
+    },
+    {
+      "number": 53,
+      "domain": "Design and implement an MLOps infrastructure",
+      "question": "You have a Microsoft Foundry project.  \n  \nYou plan to use the Microsoft Foundry portal to fine-tune a base Azure OpenAI Service model that accepts both text and images as inputs.  \n  \nYou need to select the suitable model.  \n  \nWhich model should you choose?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "davinci-002"
+        },
+        {
+          "letter": "B",
+          "text": "gpt-4o"
+        },
+        {
+          "letter": "C",
+          "text": "gpt-35-turbo"
+        },
+        {
+          "letter": "D",
+          "text": "gpt-4"
+        }
+      ],
+      "answer": "B",
+      "explanation": "`gpt-4o` supports fine-tuning with text-and-image inputs (vision fine-tuning) in Microsoft Foundry. The supported-model table identifies its modality as text and vision to text.\\\n\\\n**Learn more:** [Customize a model with fine-tuning - Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/fine-tuning) · [Vision fine-tuning - Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/fine-tuning-vision)"
+    },
+    {
+      "number": 54,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "Solution: `python train.py --training_data training_data`  \n  \nDoes this solution fulfill the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Azure Machine Learning command jobs reference a declared input in the command by using `${{inputs.training_data}}`, which resolves to the input data path at runtime. Passing `training_data` without that expression supplies a literal string rather than the dataset path; the command also does not invoke the identified `script.py` file.\\\n\\\n**Learn more:** [CLI (v2) command job YAML schema - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/reference-yaml-job-command?view=azureml-api-2) · [Train ML models - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-train-model?view=azureml-api-2)"
+    },
+    {
+      "number": 55,
+      "domain": "Optimize generative AI systems and model performance",
+      "question": "Solution: `python script.py --trainingdata $\\{\\{inputs.training_data\\}\\}`  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A Python script that reads the `training_data` argument must receive the matching `--training_data` command-line parameter. Using `--trainingdata` omits the underscore and therefore does not provide the expected argument."
+    },
+    {
+      "number": 56,
+      "domain": "Design and implement an MLOps infrastructure",
+      "question": "Proposed solution: `python script.py dataset1.csv`  \n  \nDoes this solution satisfy the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Azure Machine Learning command-job inputs are passed to a script by referencing the input path in the command and supplying the script’s named parameter, such as `python script.py --training_data ${{inputs.training_data}}`. A positional `dataset1.csv` value does not populate an argument named `training_data`.\\\n\\\n**Learn more:** [CLI (v2) command job YAML schema - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/reference-yaml-job-command?view=azureml-api-2)"
+    },
+    {
+      "number": 57,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An Azure Machine Learning workspace has multiple registered versions of a model used in production.  \n  \nAn older model version must no longer be deployable, while remaining available for compliance review and possible rollback.  \n  \nYou need to change the model version's state to meet these requirements.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Archive the training dataset for the model version."
+        },
+        {
+          "letter": "B",
+          "text": "Delete the model version."
+        },
+        {
+          "letter": "C",
+          "text": "Archive the model version."
+        },
+        {
+          "letter": "D",
+          "text": "Unregister the model version."
+        }
+      ],
+      "answer": null,
+      "explanation": "Archiving a registered Azure Machine Learning model version marks that version inactive while retaining it for later reference and restoration. This supports compliance retention and possible rollback without leaving the older version as an active model version.\n\n**Learn more:** [Register and work with models - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-models?view=azureml-api-2) · [az ml model archive](https://learn.microsoft.com/en-za/cli/azure/ml/model?view=azure-cli-latest)"
+    },
+    {
+      "number": 58,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],[\"$\",\"button\",null,{\"type\":\"button\",\"className\":\"button hollow icon-accent icon-only fav-question\",\"data-provider\":\"microsoft\",\"data-exam\":\"ai-300\",\"data-q\":63,\"data-question-id\":\"3ffa780e-af6b-4f53-abc7-df5d6058f42c\",\"data-favourited\":\"false\",\"title\":\"Save question\",\"aria-label\":\"Save question\",\"aria-pressed\":\"false\",\"children\":[[\"$\",\"span\",null,{\"className\":\"fav-question-icons\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-outline\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M6.852,23.438a3.612,3.612,0,0,1-2.121-.7A3.57,3.57,0,0,1,3.4,18.684L4.57,15.065,1.49,12.813A3.625,3.625,0,0,1,3.63,6.261H7.4l1.145-3.57a3.627,3.627,0,0,1,6.906,0h0L16.6,6.261H20.37a3.625,3.625,0,0,1,2.139,6.552L19.43,15.065,20.6,18.684A3.626,3.626,0,0,1,15,22.719l-3-2.206L9,22.72A3.619,3.619,0,0,1,6.852,23.438ZM3.63,9.261a.626.626,0,0,0-.37,1.131l3.956,2.891a1.5,1.5,0,0,1,.542,1.672l-1.5,4.65a.626.626,0,0,0,.966.7l3.889-2.861a1.5,1.5,0,0,1,1.778,0l3.889,2.86a.625.625,0,0,0,.966-.7l-1.5-4.65a1.5,1.5,0,0,1,.542-1.672l3.955-2.891a.626.626,0,0,0-.369-1.131H15.5a1.5,1.5,0,0,1-1.428-1.042L12.6,3.607a.626.626,0,0,0-1.192,0L9.925,8.219A1.5,1.5,0,0,1,8.5,9.261Z\"}]]}],[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,\"$L7f\"]}]]}],\"$L80\"]}]]}]]}],\"$L81\"]}],\"$L82\"]}]\nA team intends to deploy a large foundation model in Microsoft Foundry as part of a new enterprise AI capability.  \n  \nDifferent business units throughout the team's organization will access the model through various internal applications.  \n  \nYou need to deploy a foundation model while minimizing latency.  \n  \nWhich deployment type should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Developer"
+        },
+        {
+          "letter": "B",
+          "text": "Data Zone Batch"
+        },
+        {
+          "letter": "C",
+          "text": "Data Zone Standard"
+        },
+        {
+          "letter": "D",
+          "text": "Global Batch"
+        }
+      ],
+      "answer": null,
+      "explanation": "Data Zone Standard is an online, pay-per-token deployment that dynamically routes traffic to datacenters within the applicable Microsoft-defined data zone. This supports low-latency access for distributed internal applications. Batch deployments are asynchronous and trade real-time responsiveness for cost savings, while Developer deployments are for fine-tuned-model evaluation only.\n\n**Learn more:** [Deployment types for Microsoft Foundry Models](https://learn.microsoft.com/en-us/azure/ai-foundry/foundry-models/concepts/deployment-types?view=foundry-classic)"
+    },
+    {
+      "number": 59,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An organization is deploying several generative AI workloads using Microsoft Foundry. Each workload must satisfy distinct requirements for data governance, task specialization, and operational cost control.  \n  \nThe organization requires models that meet the following requirements:  \n  \n- Model behavior aligns with the task being performed.  \n- Data handling aligns with internal governance policies.  \n- Operational complexity and cost are justified by workload needs.  \n  \nYou need to select the foundation model options that meet the requirements.  \n  \nWhich three models can you select? Each correct answer presents a complete solution. Choose three.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A model that is optimized for conversational reasoning when deploying an interactive assistant"
+        },
+        {
+          "letter": "B",
+          "text": "The largest available model to simplify operational management"
+        },
+        {
+          "letter": "C",
+          "text": "The smallest available model to minimize the usage cost"
+        },
+        {
+          "letter": "D",
+          "text": "A model that supports multiple input types when workloads require combined text and image analysis"
+        },
+        {
+          "letter": "E",
+          "text": "A model that offers enterprise governance controls when workloads process regulated business data"
+        }
+      ],
+      "answer": null,
+      "explanation": "Appropriate foundation-model selection matches the model to the workload’s required capability, supported modalities, compliance requirements, and cost/performance trade-offs. Conversational reasoning is appropriate for an interactive assistant, multimodal input support is required for text-and-image analysis, and enterprise governance controls are appropriate for regulated business data. Choosing the largest or smallest model solely on size does not ensure task fit, compliant data handling, or a justified operational trade-off.\n\n**Learn more:** [Microsoft Foundry Models overview](https://learn.microsoft.com/en-us/azure/foundry/concepts/foundry-models-overview) · [Compare models using the model leaderboard](https://learn.microsoft.com/en-us/azure/foundry/how-to/benchmark-model-in-catalog)"
+    },
+    {
+      "number": 60,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team manages an Azure Machine Learning workspace in which it deploys models to online endpoints.  \n  \nThe team needs to introduce a new model version into production without disrupting existing users. The team must validate the new version before a full rollout.  \n  \nYou need to reduce deployment risk. What should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deploy the model to a batch endpoint."
+        },
+        {
+          "letter": "B",
+          "text": "Split traffic between deployments."
+        },
+        {
+          "letter": "C",
+          "text": "Replace the existing endpoint."
+        },
+        {
+          "letter": "D",
+          "text": "Route all traffic to the new deployment."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning online endpoints support blue-green rollouts by allocating a percentage of incoming traffic between deployments. This permits the new model version to be validated with a limited audience while the existing deployment continues serving most users, before traffic is fully shifted.\n\n**Learn more:** [Perform safe rollout of new deployments for real-time inference](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-safely-rollout-online-endpoints?view=azureml-api-2)"
+    },
+    {
+      "number": 61,
+      "domain": "Design and implement a GenAIOps infrastructure",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are fine-tuning a base language model to analyze customer feedback.  \n  \nYou label support-ticket examples and must improve classification accuracy by configuring and fine-tuning the base model in Microsoft Foundry.  \n  \nYou need to configure and run fine-tuning. What should you do first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Use prompt flow to generate multiple prompt templates for evaluation."
+        },
+        {
+          "letter": "B",
+          "text": "Deploy the base model to an online endpoint before starting fine-tuning."
+        },
+        {
+          "letter": "C",
+          "text": "Enable tracing for all inference calls in the evaluation pipeline."
+        },
+        {
+          "letter": "D",
+          "text": "Format the dataset as a JSONL file with prompt-completion pairs and upload the file."
+        }
+      ],
+      "answer": null,
+      "explanation": "Fine-tuning starts with prepared labeled training data. Microsoft Foundry requires training examples in a JSONL file uploaded for the `fine-tune` purpose before a fine-tuning job can be created; deployment is a later step after the customized model has been trained.\n\n**Learn more:** [Customize a model with fine-tuning - Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/fine-tuning)"
+    },
+    {
+      "number": 62,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to standardize the way Fabrikam Inc. manages machine learning assets.  \n  \nWhich action should you take first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Register assets in the Azure Machine Learning registry."
+        },
+        {
+          "letter": "B",
+          "text": "Create a shared Azure Machine Learning workspace."
+        },
+        {
+          "letter": "C",
+          "text": "Deploy a managed online endpoint."
+        },
+        {
+          "letter": "D",
+          "text": "Create a new Microsoft Foundry project."
+        }
+      ],
+      "answer": null,
+      "explanation": "An Azure Machine Learning workspace is the centralized collaboration and management boundary for machine learning artifacts, including data assets, models, environments, experiments, jobs, and endpoints. Creating the shared workspace establishes the required foundation for centralized asset management; assets can subsequently be registered and, when cross-workspace sharing is needed, promoted to a registry.\n\n**Learn more:** [What is an Azure Machine Learning workspace?](https://learn.microsoft.com/en-us/azure/machine-learning/concept-workspace?view=azureml-api-2) · [Machine Learning registries](https://learn.microsoft.com/en-us/azure/machine-learning/concept-machine-learning-registries-mlops?view=azureml-api-2)"
+    },
+    {
+      "number": 63,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You need to isolate training workloads while staying cost-aware to address Fabrikam Inc.’s issues, constraints, and technical requirements.  \n  \nWhat should you implement?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Training jobs that run on a single shared compute cluster"
+        },
+        {
+          "letter": "B",
+          "text": "Fixed-size compute cluster"
+        },
+        {
+          "letter": "C",
+          "text": "Dedicated compute clusters per experiment"
+        },
+        {
+          "letter": "D",
+          "text": "Managed compute targets with autoscaling"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning managed compute targets with autoscaling allocate capacity dynamically for training jobs, reducing resource contention while avoiding the cost of permanently provisioned, dedicated clusters. Compute clusters scale in response to submitted jobs, and setting the minimum node count appropriately helps avoid idle-compute charges.\n\n**Learn more:** [Manage and optimize costs in Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-optimize-cost?view=azureml-api-2) · [What are compute targets in Azure Machine Learning?](https://learn.microsoft.com/en-us/azure/machine-learning/concept-compute-target?view=azureml-api-1)"
+    },
+    {
+      "number": 64,
+      "domain": "Optimize generative AI systems and model performance",
+      "question": "You need to recommend an experiment-tracking strategy that provides consistent experiment results.  \n  \nWhat should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Machine Learning job output logs"
+        },
+        {
+          "letter": "B",
+          "text": "MLflow experiment tracking"
+        },
+        {
+          "letter": "C",
+          "text": "Application Insights logs"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Monitor alerts"
+        }
+      ],
+      "answer": "B",
+      "explanation": "MLflow experiment tracking centrally records training-run parameters, metrics, models, and artifacts in an Azure Machine Learning workspace. This enables consistent comparison and reproduction of experiments, supporting auditable training results.\\\n\\\n**Learn more:** [MLflow and Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-mlflow?view=azureml-api-2)"
+    },
+    {
+      "number": 76,
+      "domain": "Design and implement a GenAIOps infrastructure",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L35\",\"$L36\",\"$L37\",\"$L38\"]\n26:[\"$\",\"$19\",null,{\"fallback\":[[\"$\",\"div\",\"0\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"1\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"2\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}]],\"children\":\"$L39\"}]\n27:[\"$\",\"$L3a\",null,{\"compact\":true,\"centered\":true,\"isLoggedIn\":true,\"isSubscriber\":false,\"currentTier\":null,\"returnTo\":\"/exams/microsoft/ai-300/4\",\"sidebarModal\":true}]\n28:[\"$\",\"nav\",null,{\"className\":\"pagination-container\",\"aria-label\":\"Exam pages\",\"children\":[[\"$\",\"p\",null,{\"className\":\"pagination-info\",\"children\":[\"Page \",[\"$\",\"strong\",null,{\"children\":4}],\" of \",6,[\"$\",\"span\",null,{\"className\":\"pagination-info-sep\",\"aria-hidden\":\"true\",\"children\":\"•\"}],\"Questions \",76,\"–\",100,\" of \",142]}],[\"$\",\"div\",null,{\"className\":\"pagination-nav\",\"children\":[[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ai-300/3\",\"className\":\"button link back-arrow pagination-arrow\",\"aria-label\":\"Previous page\",\"rel\":\"prev\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Prev\"}]}],[\"$\",\"div\",null,{\"className\":\"pagination-numbers\",\"children\":[[\"$\",\"$L20\",\"1\",{\"href\":\"/exams/microsoft/ai-300/1\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 1\",\"children\":1}],[\"$\",\"span\",\"divider-1\",{\"className\":\"pagination-divider\",\"aria-hidden\":\"true\"}],[\"$\",\"$L20\",\"3\",{\"href\":\"/exams/microsoft/ai-300/3\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 3\",\"children\":3}],[\"$\",\"span\",\"4\",{\"className\":\"button primary sm pagination-page is-current\",\"aria-current\":\"page\",\"children\":4}],[\"$\",\"$L20\",\"5\",{\"href\":\"/exams/microsoft/ai-300/5\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 5\",\"children\":5}],[\"$\",\"$L20\",\"6\",{\"href\":\"/exams/microsoft/ai-300/6\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 6\",\"children\":6}]]}],[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ai-300/5\",\"className\":\"button link arrow pagination-arrow\",\"aria-label\":\"Next page\",\"rel\":\"next\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Next\"}]}]]}]]}]\n29:[\"$\",\"div\",null,{\"className\":\"contribute-cta\",\"children\":[[\"$\",\"$L3b\",null,{\"src\":\"/icons/hand-holding-heart.svg\",\"alt\":\"\",\"width\":20,\"height\":20,\"aria-hidden\":\"true\"}],[\"$\",\"span\",null,{\"className\":\"contribute-cta-text\",\"children\":[\"Know a question that should be here?\",\" \",[\"$\",\"$L20\",null,{\"href\":\"/contribute/microsoft/ai-300\",\"children\":\"Contribute to this exam\"}]]}]]}]\n2a:[\"$\",\"$L3c\",null,{}]\n3d:I[68201,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n32:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n33:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\nBackground\n\nFabrikam Inc. is a mid-sized healthcare analytics company that delivers population health dashboards and predictive insights to regional hospital systems across the United States. Fabrikam Inc. customers depend on near real-time analytics to monitor patient flow, staffing needs, and readmission risks. They use multiple traditional forecasting machine learning models for predictions.\n\nFabrikam Inc. has an established Microsoft Azure footprint. The company uses Jupyter Notebooks running on a local server as the main development environment. The data science team is experiencing scalability, asset management, and code management issues with the current development platform. Fabrikam Inc. plans to move to a cloud-based development environment to reduce these issues.\n\nIn addition, the company plans to implement a Retrieval-Augmented Generation (RAG)-based chat application for client support. Leadership requires the application to be developed and deployed with low operational risk.\n\nCurrent Environment\n\nFabrikam Inc. operates a single Azure subscription that includes the following components:\n\n- Azure Data Lake Storage Gen2 that contains de-identified clinical and operational datasets\n- Azure AI Search indexing curated analytical documents and reference materials\n- A small set of Python-based training scripts maintained by data scientists\n- Azure OpenAI Service with deployed foundational models\n- A Microsoft Foundry resource for building a RAG-based solution\n- Evaluation data with manually defined expected responses\n\nThe current challenges faced by the data science team include the following:\n\n- Model training jobs are run manually from notebooks.\n- Experiment tracking is inconsistent.\n- Model versions are registered without standardized metadata.\n- Deployment is performed manually by data scientists, with limited rollback capability.\n- The team has no standardized evaluation process for generative AI outputs.\n- The environment currently allows public network access.\n- Authentication relies on user accounts rather than managed identities.\n- Compute targets are manually created and shared across experiments. This has led to resource contention during peak usage.\n\nBusiness Requirements\n\nFabrikam Inc. has the following business requirements for the modernization initiative:\n\n- Provide a conversational interface that answers analytics questions by using internal documents and datasets.\n- Ensure that sensitive healthcare-related data is not exposed outside the Fabrikam Inc. Azure tenant.\n- Enable repeatable and auditable model training and deployment processes.\n- Support experimentation to compare prompt strategies and fine-tuned models.\n- Align the model with the ranked preferences and optimize behavior for the long term.\n- Minimize disruption to existing analytics workloads during rollout.\n\nTechnical Requirements\n\nTo support the business goals, Fabrikam Inc. identifies these technical requirements:\n\n- Use Azure Machine Learning workspaces to centrally manage data assets, models, and environments.\n- Implement experiment tracking and model versioning for all training jobs.\n- Orchestrate training and evaluation by using pipelines rather than manually running notebooks.\n- Deploy traditional machine learning models with support for staged rollout and rollback.\n- Improve RAG-based solution output quality.\n- Use the existing evaluation datasets that are based on real data with input-output pairs.\n- Apply advanced fine-tuning techniques only when prompt engineering is insufficient.\n\nIssues and Constraints\n\nFabrikam Inc. must comply with internal security policies that require the company to restrict network access and avoid long-lived secrets. The data science team has limited Azure DevOps experience, so solutions must favor managed services and automation over custom infrastructure. Cost predictability is important. Leadership prefers serverless or managed compute options where possible but is willing to approve dedicated compute for stable production workloads.\n\nProblem Statement\n\nFabrikam Inc. must design and implement an Azure-based AI operations solution that enables reliable training, evaluation, deployment, and iteration of generative AI models. The solution must support experimentation and gradual rollout while ensuring governance, security, and operational stability. The data science and platform teams must collaborate to deliver this solution by using Azure Machine Learning and Microsoft Foundry capabilities.34:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[[\"$\",\"$L3d\",null,{\"group\":{\"id\":\"684969e5ac3a2d428b20b22f0e194a9e979ad8fb32a156b8d52a44313c364cd9\",\"type\":\"case_study\",\"title\":\"Healthcare AI Operations Modernization\",\"content\":\"$3e\"}}],\"$L3f\",\"$L40\"]}]\nYou need to recommend a solution that addresses Fabrikam Inc.’s limited capability to roll back deployments.  \n  \nWhich deployment approach should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "VM-hosted REST APIs"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Kubernetes Service with blue-green switching"
+        },
+        {
+          "letter": "C",
+          "text": "Managed online endpoints with traffic splitting"
+        },
+        {
+          "letter": "D",
+          "text": "Batch endpoints"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning managed online endpoints support multiple deployments behind a single real-time endpoint and percentage-based traffic routing. A new model version can receive a small share of traffic for staged validation, and rollback is performed by returning traffic to the prior deployment. This delivers gradual rollout and rollback with managed operational overhead.\n\n**Learn more:** [Online endpoints for real-time inference - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-endpoints-online?view=azureml-api-2) · [Safe rollout for online endpoints - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-safely-rollout-online-endpoints?view=azureml-api-2)"
+    },
+    {
+      "number": 77,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "You need to improve the performance of a GPT-5 model based on Fabrikam Inc.’s technical requirements.  \n  \nWhich action should you take first?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deploy the model to production to gather real-world feedback."
+        },
+        {
+          "letter": "B",
+          "text": "Evaluate the model output."
+        },
+        {
+          "letter": "C",
+          "text": "Fine-tune the model to improve accuracy."
+        },
+        {
+          "letter": "D",
+          "text": "Generate synthetic interaction data."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Model evaluation establishes a measurable baseline by comparing generated outputs with the existing expected input-output pairs. The results identify whether prompt changes are sufficient or whether fine-tuning is justified; fine-tuning is an advanced technique to use only after that assessment.\\\n\\\n**Learn more:** [Run evaluations from the Microsoft Foundry portal](https://learn.microsoft.com/en-us/azure/foundry/how-to/evaluate-generative-ai-app) · [View evaluation results in the Microsoft Foundry portal](https://learn.microsoft.com/en-us/azure/foundry/how-to/evaluate-results)"
+    },
+    {
+      "number": 78,
+      "domain": "Optimize generative AI systems and model performance",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You manage an Azure Machine Learning workspace and develop a machine learning model.  \n  \nYou must deploy the model by using a low-priority VM with discounted pricing.  \n  \nWhich compute target should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Container Instances (ACI)"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Machine Learning compute clusters"
+        },
+        {
+          "letter": "C",
+          "text": "Local deployment"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Kubernetes Service (AKS)"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning compute clusters can be configured with the `low_priority` tier, which uses preemptible surplus VM capacity at a reduced cost. Batch deployments consume low-priority VMs through an Azure Machine Learning compute cluster configured for that tier.\n\n**Learn more:** [Use low priority VMs in batch deployments - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-use-low-priority-batch?view=azureml-api-2) · [Create an Azure Machine Learning compute cluster](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-create-attach-compute-cluster?view=azureml-api-2)"
+    },
+    {
+      "number": 79,
+      "domain": "Optimize generative AI systems and model performance",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team is building multiple AI applications in Microsoft Foundry that use shared prompt templates.  \n  \nThe team needs a centralized method to track, version, and reuse prompt content across projects.  \n  \nYou need to recommend a solution for tracking and reusing prompt content.  \n  \nWhich approach should you recommend?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Store prompts as versioned files in a Git repository."
+        },
+        {
+          "letter": "B",
+          "text": "Register prompts as datasets in the Azure Machine Learning workspace."
+        },
+        {
+          "letter": "C",
+          "text": "Embed prompts directly in application configuration files."
+        },
+        {
+          "letter": "D",
+          "text": "Persist prompts in Azure Blob Storage with folder-level organization."
+        }
+      ],
+      "answer": null,
+      "explanation": "Prompt templates should be managed as code assets in a shared Git repository. Git provides centralized collaboration, explicit version history, review workflows, branching, and rollback, enabling the same prompt content to be reused consistently across Microsoft Foundry projects.\n\n**Learn more:** [Manage prompts for agents in Microsoft Foundry with GitHub](https://learn.microsoft.com/en-us/training/modules/prompt-versioning-genaiops/)"
+    },
+    {
+      "number": 80,
+      "domain": "Design and implement an MLOps infrastructure",
+      "question": "You have deployed an Azure OpenAI Service base model and plan to fine-tune it. You need to prepare a file containing training data. Which file format should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CSV"
+        },
+        {
+          "letter": "B",
+          "text": "TSV"
+        },
+        {
+          "letter": "C",
+          "text": "JSONL"
+        },
+        {
+          "letter": "D",
+          "text": "JSON"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Azure OpenAI fine-tuning requires training and validation datasets to be formatted as JSON Lines (JSONL) documents. Each line represents a JSON training example; the files must also meet the service’s encoding and schema requirements.\\\n\\\n**Learn more:** [Customize a model with fine-tuning - Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/openai/how-to/fine-tuning)"
+    },
+    {
+      "number": 81,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "A team is developing a Retrieval-Augmented Generation (RAG) system.  \n  \nThe team observes that retrieved documents are often irrelevant or incomplete.  \n  \nYou need to improve retrieval accuracy.  \n  \nWhat should you adjust?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chunk size and overlap"
+        },
+        {
+          "letter": "B",
+          "text": "Temperature parameter"
+        },
+        {
+          "letter": "C",
+          "text": "Token limits"
+        },
+        {
+          "letter": "D",
+          "text": "Embedding strategy"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Chunk size and overlap control the context contained in each indexed passage and preserve information that spans chunk boundaries. Tuning them can make retrieved passages more relevant and complete; temperature and token limits affect generation rather than retrieval."
+    },
+    {
+      "number": 82,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "Solution: Create prompt variants and compare their outputs in the Evaluation experience.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Microsoft Foundry prompt flow supports creating prompt variants to test alternatives and compare their performance. Its evaluation results experience supports comparing runs and inspecting individual evaluation data and metrics, enabling manual comparison of each variant’s inputs, outputs, token usage, and latency.\\\n\\\n**Learn more:** [Prompt flow in Microsoft Foundry portal (classic)](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/prompt-flow) · [See evaluation results in Microsoft Foundry portal](https://learn.microsoft.com/en-us/azure/foundry/how-to/evaluate-results)"
+    },
+    {
+      "number": 83,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "Solution: Before executing runs, use the prompt flow SDK to enable tracing for the flow. Then run the flow to produce traceable results.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Prompt flow tracing captures flow and node inputs and outputs, and the trace view provides execution duration and token cost. Enabling tracing before running the flow therefore provides the telemetry needed to compare prompt-variant runs manually.\\\n\\\n**Learn more:** [How to build with prompt flow (classic)](https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/flow-develop) · [Tracing and data handling](https://learn.microsoft.com/en-us/azure/foundry/observability/concepts/trace-data)"
+    },
+    {
+      "number": 84,
+      "domain": "Design and implement a GenAIOps infrastructure",
+      "question": "Solution: In Microsoft Foundry, enable Tracing for the project's prompt flow and run tests to generate trace data.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Prompt flow tracing records the inputs and outputs for the flow and its nodes. Its trace view also provides execution duration and token cost, allowing manual comparison of test runs across prompt variants.\\\n\\\n**Learn more:** [How to build with prompt flow (classic) - Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/flow-develop)"
+    },
+    {
+      "number": 85,
+      "domain": "Optimize generative AI systems and model performance",
+      "question": "Solution: Configure Azure Monitor to gather logs from the workspace. Use those logs to perform prompt evaluation.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Prompt flow batch evaluation provides the evaluation workflow: it displays inputs, outputs, system metrics, total tokens, and run duration, and it supports comparing metrics and outputs across multiple batch runs. Azure Monitor is for operational and production monitoring rather than manually evaluating prompt variants and comparing their flow-run results.\\\n\\\n**Learn more:** [Submit batch run and evaluate a flow (classic)](https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/flow-bulk-test-evaluation) · [Monitor Quality and Token Usage of Deployed Prompt Flow Applications (Preview) (classic)](https://learn.microsoft.com/en-us/azure/foundry-classic/how-to/monitor-quality-safety)"
+    },
+    {
+      "number": 86,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You manage a Microsoft Foundry project and build a multi-turn chatbot application.  \n  \nYou intend to filter traces to identify issues while monitoring how the application responds. The solution must not use an external knowledge base.  \n  \nYou need to choose an evaluation metric.  \n  \nWhich built-in evaluator should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RelevanceEvaluator"
+        },
+        {
+          "letter": "B",
+          "text": "SimilarityEvaluator"
+        },
+        {
+          "letter": "C",
+          "text": "QAEvaluator"
+        },
+        {
+          "letter": "D",
+          "text": "CoherenceEvaluator"
+        }
+      ],
+      "answer": null,
+      "explanation": "CoherenceEvaluator measures the logical flow and consistency of responses across a conversation. It supports conversation-level evaluation and does not require an external knowledge base, retrieved context, or ground-truth response.\n\n**Learn more:** [Built-in evaluators reference — Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/concepts/built-in-evaluators) · [CoherenceEvaluator class — Azure AI Evaluation SDK](https://learn.microsoft.com/en-us/python/api/azure-ai-evaluation/azure.ai.evaluation.coherenceevaluator?view=azure-python)"
+    },
+    {
+      "number": 87,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team manages an Azure Machine Learning workspace and deploys a model to an endpoint.  \n  \nA deployed online endpoint has inconsistent response times during periods of high traffic.  \n  \nYou need to identify potential performance degradation.  \n  \nWhich three metrics should be monitored? Each correct answer provides part of the solution. Choose three.  \n  \n&gt; NOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Feature count"
+        },
+        {
+          "letter": "B",
+          "text": "Requests per minute"
+        },
+        {
+          "letter": "C",
+          "text": "Connections active"
+        },
+        {
+          "letter": "D",
+          "text": "Dataset size"
+        },
+        {
+          "letter": "E",
+          "text": "Request latency"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning online endpoints publish Azure Monitor traffic metrics for request volume, concurrent client TCP connections, and request-response duration. Monitoring Requests Per Minute and Connections Active reveals traffic and connection pressure, while Request Latency directly measures the time required to respond and exposes degradation under load.\n\n**Learn more:** [Supported metrics for Azure Machine Learning online endpoints](https://learn.microsoft.com/en-us/azure/azure-monitor/reference/supported-metrics/microsoft-machinelearningservices-workspaces-onlineendpoints-metrics)"
+    },
+    {
+      "number": 88,
+      "domain": "Optimize generative AI systems and model performance",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],An organization validates generative AI applications during CI/CD in Microsoft Foundry.  \n  \nEvaluation must execute automatically and block releases when quality thresholds are **not** met. Manual evaluation is no longer acceptable.  \n  \nEvaluation must use both predefined quality metrics and custom safety checks.  \n  \nYou need to implement an automated evaluation workflow that supports both built-in and custom metrics. What should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enable application tracing to collect runtime telemetry."
+        },
+        {
+          "letter": "B",
+          "text": "Review evaluation results manually after deployment."
+        },
+        {
+          "letter": "C",
+          "text": "Monitor latency metrics during model inference."
+        },
+        {
+          "letter": "D",
+          "text": "Implement an evaluation step by using GitHub Actions."
+        }
+      ],
+      "answer": null,
+      "explanation": "A Microsoft Foundry evaluation step in GitHub Actions automates pre-production evaluation within a CI/CD pipeline and can serve as a quality gate that prevents a release when configured thresholds fail. The Foundry evaluator catalog includes built-in quality and safety evaluators, while custom evaluators support application-specific safety checks.\n\n**Learn more:** [How to run an evaluation in GitHub Action](https://learn.microsoft.com/en-us/azure/foundry/how-to/evaluation-github-action?view=foundry-classic) · [Run evaluations from the Microsoft Foundry portal](https://learn.microsoft.com/en-us/azure/foundry/how-to/evaluate-generative-ai-app)"
+    },
+    {
+      "number": 101,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A data science team uses MLflow to complete multiple training runs within an experiment.  \n  \nThe team wants to store a chosen model in Azure Machine Learning so it can be versioned and deployed later. The model must be centrally versioned for reuse across environments.  \n  \nYou need to version the trained model.  \n  \nWhich two actions should you take? Each correct answer represents part of the solution. Choose two.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Locate and capture the model artifacts from the outputs of the training run."
+        },
+        {
+          "letter": "B",
+          "text": "Register the model in the Azure Machine Learning workspace."
+        },
+        {
+          "letter": "C",
+          "text": "Tag the training experiment with a name."
+        },
+        {
+          "letter": "D",
+          "text": "Export the model files to local storage."
+        }
+      ],
+      "answer": null,
+      "explanation": "An MLflow model logged during a training run is stored in that run’s artifact location. Selecting its artifact path and registering it in the Azure Machine Learning workspace creates a registered model asset, which Azure Machine Learning stores and versions centrally for later reuse and deployment. Registering from the MLflow run also preserves lineage to the originating run.\n\n**Learn more:** [Register and work with models - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-models?view=azureml-api-2) · [Manage models registry with MLflow - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-models-mlflow?view=azureml-api-2)"
+    },
+    {
+      "number": 102,
+      "domain": "Design and implement a GenAIOps infrastructure",
+      "question": "You are creating a notebook in Azure Machine Learning studio.  \n  \nYou must install packages from the notebook into the kernel that is currently running. The installation must be restricted to that current kernel only.  \n  \nYou need to install the packages.  \n  \nWhich magic function should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "!pip"
+        },
+        {
+          "letter": "B",
+          "text": "!conda"
+        },
+        {
+          "letter": "C",
+          "text": "%load"
+        },
+        {
+          "letter": "D",
+          "text": "%pip"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The `%pip` IPython magic installs packages in the environment used by the currently running notebook kernel, ensuring the installation is scoped to that kernel."
+    },
+    {
+      "number": 103,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L59\",\"$L5a\",\"$L5b\",\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\",\"$L67\",\"$L68\",\"$L69\",\"$L6a\",\"$L6b\"]\n56:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n57:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n58:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3d\",null,{\"questionNumber\":106,\"questionId\":\"e487db0b-9ff2-44dd-a52f-163056a379f4\",\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L6c\"}]}],[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"questionNumber\":106,\"questionId\":\"e487db0b-9ff2-44dd-a52f-163056a379f4\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L40\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"questionNumber\":106,\"questionId\":\"e487db0b-9ff2-44dd-a52f-163056a379f4\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-300/5\"}]}]]}]\nA company’s platform engineers administer the resource settings and governance for Microsoft Foundry.  \n  \nDevelopers must be able to create and update project assets, but they must not be able to modify resource-level configurations.  \n  \nYou need to enforce least-privilege access for the engineers and developers. Which two actions should you take? Each correct answer is part of the solution. Choose two.  \n  \n**NOTE:** Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Assign a resource-level Azure AI Administrator role to the platform engineers."
+        },
+        {
+          "letter": "B",
+          "text": "Disable Microsoft Entra ID authentication for the Microsoft Foundry resource."
+        },
+        {
+          "letter": "C",
+          "text": "Assign the Azure AI Developer role to the developers."
+        },
+        {
+          "letter": "D",
+          "text": "Share a single API key across all teams."
+        }
+      ],
+      "answer": null,
+      "explanation": "The Azure AI Administrator role provides control-plane permissions to manage Azure AI resources and their dependencies, which supports resource-level settings and governance. The Azure AI Developer role permits actions within an Azure AI resource but does not allow management of the resource itself, enabling developers to work with project assets without changing resource-level configuration. Microsoft Entra ID authentication supports granular Azure RBAC; disabling it or sharing API keys would undermine least-privilege access control.\n\n**Learn more:** [Azure built-in roles - Azure RBAC](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)"
+    },
+    {
+      "number": 104,
+      "domain": "Optimize generative AI systems and model performance",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A team executes training and inference jobs in Azure Machine Learning.  \n  \nThe team has inconsistent runtime dependencies that result in varying outcomes.  \n  \nYou need to make sure that every job uses identical execution dependencies.  \n  \nWhich asset should you define?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Azure Machine Learning job configuration"
+        },
+        {
+          "letter": "B",
+          "text": "Azure Machine Learning job input/output bindings"
+        },
+        {
+          "letter": "C",
+          "text": "Azure Monitor alert"
+        },
+        {
+          "letter": "D",
+          "text": "Azure Machine Learning environment"
+        }
+      ],
+      "answer": null,
+      "explanation": "An Azure Machine Learning environment defines the execution environment and encapsulates the code dependencies used by training and inference jobs. Reusing the same versioned environment keeps runtime packages and software settings consistent, supporting reproducible results.\n\n**Learn more:** [What are Azure Machine Learning environments?](https://learn.microsoft.com/en-us/azure/machine-learning/concept-environments?view=azureml-api-2) · [Manage Azure Machine Learning environments with the CLI and SDK (v2)](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-manage-environments-v2?tabs=cli&view=azureml-api-2)"
+    },
+    {
+      "number": 105,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You run Azure Machine Learning training experiments. The training scripts directory contains 100 files, including a file named `.amlignore`. The directory also contains subdirectories named `./outputs` and `./logs`.  \n  \nTwenty files in the training scripts directory must be excluded from the snapshot sent to the compute targets. You create a file named `.gitignore` in the root of the directory and add the names of the 20 files to it. The 20 files continue to be copied to the compute targets.  \n  \nYou need to exclude the 20 files.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Move the file named .gitignore to the ./logs directory."
+        },
+        {
+          "letter": "B",
+          "text": "Move the file named .gitignore to the ./outputs directory."
+        },
+        {
+          "letter": "C",
+          "text": "Add the contents of the file named .amlignore to the file named .gitignore."
+        },
+        {
+          "letter": "D",
+          "text": "Copy the contents of the file named .gitignore to the file named .amlignore."
+        }
+      ],
+      "answer": null,
+      "explanation": "When both `.amlignore` and `.gitignore` exist in an Azure Machine Learning training-script directory, Azure Machine Learning uses `.amlignore` and ignores `.gitignore` for the source snapshot. `.amlignore` uses the same ignore-pattern syntax, so it must contain the 20 file patterns.\n\n**Learn more:** [Configure a training job - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-set-up-training-targets?view=azureml-api-1)"
+    },
+    {
+      "number": 106,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "You need to make model training repeatable and auditable to resolve Fabrikam Inc.'s current-environment challenges and technical requirements.  \n  \nWhat should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Workflow automation by using Azure Logic Apps"
+        },
+        {
+          "letter": "B",
+          "text": "Training pipelines in Azure Machine Learning"
+        },
+        {
+          "letter": "C",
+          "text": "Serverless execution by using Azure Functions"
+        },
+        {
+          "letter": "D",
+          "text": "Scheduled notebook runs by using Azure Machine Learning jobs"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Azure Machine Learning training pipelines orchestrate reusable training and evaluation steps as a managed machine learning workflow. They support consistent, traceable runs and integrate with Azure Machine Learning experiment tracking, assets, and model versioning, which enables repeatable and auditable training.\\\n\\\n**Learn more:** [Automate machine learning workflows — Microsoft Learn](https://learn.microsoft.com/en-us/training/modules/automate-machine-learning-workflows/)"
+    },
+    {
+      "number": 107,
+      "domain": "Design and implement a GenAIOps infrastructure",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A data science team registers an MLflow model in Azure Machine Learning.  \n  \nThe model must provide low-latency predictions and automatically scale according to incoming request volume.  \n  \nYou need to deploy the model.  \n  \nWhich deployment option should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Batch endpoint"
+        },
+        {
+          "letter": "B",
+          "text": "Managed online endpoint"
+        },
+        {
+          "letter": "C",
+          "text": "Server less endpoint"
+        },
+        {
+          "letter": "D",
+          "text": "Azure OpenAI endpoint"
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning managed online endpoints provide real-time, low-latency inference for MLflow models and support automatic scaling through Azure Monitor autoscale. This meets both the synchronous prediction and request-volume scaling requirements.\n\n**Learn more:** [Online endpoints for real-time inference - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-endpoints-online?view=azureml-api-2) · [Deploy MLflow models to real-time endpoints - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-deploy-mlflow-models-online-endpoints?view=azureml-api-2)"
+    },
+    {
+      "number": 108,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You manage an Azure Machine Learning workspace and build a model for which you need to configure a Responsible AI dashboard.  \n  \nBased on insights from the dashboard, you must perform these activities:  \n  \n- Determine the actions needed to obtain a desirable outcome from the model.  \n- Identify the features with the most direct effect on the outcome of interest.  \n  \nYou need to choose the components to use in the Responsible AI dashboard configuration.  \n  \nWhich two components should you add? Each correct answer presents part of the solution.  \n  \nNOTE: Each correct selection is worth one point.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "counterfactuals"
+        },
+        {
+          "letter": "B",
+          "text": "error analysis"
+        },
+        {
+          "letter": "C",
+          "text": "causal"
+        },
+        {
+          "letter": "D",
+          "text": "explanation"
+        }
+      ],
+      "answer": null,
+      "explanation": "The counterfactuals component produces examples of the minimum feature changes that would lead to a desired prediction, helping determine what actions can achieve a desirable model outcome. The causal component estimates the effect of features on an outcome of interest and identifies features with the most direct effect.\n\n**Learn more:** [Counterfactuals analysis and what-if - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-counterfactual-analysis?view=azureml-api-2) · [Make data-driven policies and influence decision-making - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/concept-causal-inference?view=azureml-api-2)"
+    },
+    {
+      "number": 109,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],A data science team intends to automatically evaluate multiple hyperparameter values while training a model in Azure Machine Learning.  \n  \nThe tuning process must execute multiple training trials without manually changing the training script for every run.  \n  \nYou need to automate hyperparameter tuning for the training job.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Manually change hyperparameter values between training runs."
+        },
+        {
+          "letter": "B",
+          "text": "Create a tuning job that runs multiple trials with different parameter values."
+        },
+        {
+          "letter": "C",
+          "text": "Duplicate the training script for each parameter combination."
+        },
+        {
+          "letter": "D",
+          "text": "Adjust hyperparameters after model deployment."
+        }
+      ],
+      "answer": null,
+      "explanation": "An Azure Machine Learning tuning (sweep) job defines a hyperparameter search space and runs multiple trial jobs with different parameter values. This automates the evaluation of training configurations without manually altering or duplicating the training script for each trial.\n\n**Learn more:** [Hyperparameter tuning a model (v2) - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters?view=azureml-api-2)"
+    },
+    {
+      "number": 110,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "You create a workspace using Azure Machine Learning Studio.  \n  \nYou must run a Python SDK v2 notebook in that workspace through Azure Machine Learning Studio. For the current instance, you must retain the present values of variables set in the notebook.  \n  \nYou need to preserve the notebook state.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Change the compute."
+        },
+        {
+          "letter": "B",
+          "text": "Change the current kernel."
+        },
+        {
+          "letter": "C",
+          "text": "Stop the current kernel."
+        },
+        {
+          "letter": "D",
+          "text": "Stop the compute."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Stopping the current kernel stops running cells without changing the notebook state or the values of variables. In contrast, changing the kernel or compute resets notebook state and variables, and stopping compute prevents cells from running.\\\n\\\n**Learn more:** [Run Jupyter notebooks in your workspace - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks?view=azureml-api-2)"
+    },
+    {
+      "number": 126,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Convert the data into the JSONL format and upload into Blob Storage."
+        },
+        {
+          "letter": "B",
+          "text": "Schedule training using an Azure Data Factory pipeline."
+        },
+        {
+          "letter": "C",
+          "text": "Configure an Azure Machine Learning compute cluster for model training."
+        },
+        {
+          "letter": "D",
+          "text": "Register the data as a tabular dataset in the Azure Machine Learning workspace."
+        },
+        {
+          "letter": "E",
+          "text": "Configure an Azure Machine Learning compute instance for model training."
+        }
+      ],
+      "answer": null,
+      "explanation": "Azure Machine Learning compute clusters are fully managed, autoscaling compute targets for training jobs and can support large-scale or distributed training. Registering CSV-based structured data from Azure Data Lake as a tabular dataset makes it available as a reusable, managed training input across experiments and development iterations.\n\n**Learn more:** [Train ML models - Azure Machine Learning](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-train-model?view=azureml-api-2) · [Create Azure Machine Learning datasets](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-create-register-datasets?view=azureml-api-1)"
+    },
+    {
+      "number": 127,
+      "domain": "Design and implement a GenAIOps infrastructure",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L35\",\"$L36\",\"$L37\",\"$L38\"]\n26:[\"$\",\"$19\",null,{\"fallback\":[[\"$\",\"div\",\"0\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"1\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}],[\"$\",\"div\",\"2\",{\"className\":\"exam-row skeleton\",\"aria-hidden\":\"true\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top\",\"children\":[[\"$\",\"div\",null,{\"className\":\"exam-top-left\",\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":140,\"height\":22,\"margin\":0,\"borderRadius\":8}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":96,\"height\":22,\"margin\":0,\"borderRadius\":999}}]]}],[\"$\",\"div\",null,{\"className\":\"exam-options\",\"style\":{\"gap\":8},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":22,\"height\":22,\"margin\":0,\"borderRadius\":6}}]]}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"82%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"94%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"66%\",\"height\":16,\"margin\":0,\"borderRadius\":4}}]]}],[\"$\",\"div\",null,{\"style\":{\"display\":\"grid\",\"gap\":\"0.75rem\",\"marginTop\":\"1rem\"},\"children\":[[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}],[\"$\",\"div\",null,{\"className\":\"skeleton-line\",\"style\":{\"width\":\"100%\",\"height\":44,\"margin\":0,\"borderRadius\":10}}]]}]]}]],\"children\":\"$L39\"}]\n27:[\"$\",\"$L3a\",null,{\"compact\":true,\"centered\":true,\"isLoggedIn\":true,\"isSubscriber\":false,\"currentTier\":null,\"returnTo\":\"/exams/microsoft/ai-300/6\",\"sidebarModal\":true}]\n28:[\"$\",\"nav\",null,{\"className\":\"pagination-container\",\"aria-label\":\"Exam pages\",\"children\":[[\"$\",\"p\",null,{\"className\":\"pagination-info\",\"children\":[\"Page \",[\"$\",\"strong\",null,{\"children\":6}],\" of \",6,[\"$\",\"span\",null,{\"className\":\"pagination-info-sep\",\"aria-hidden\":\"true\",\"children\":\"•\"}],\"Questions \",126,\"–\",142,\" of \",142]}],[\"$\",\"div\",null,{\"className\":\"pagination-nav\",\"children\":[[\"$\",\"$L20\",null,{\"href\":\"/exams/microsoft/ai-300/5\",\"className\":\"button link back-arrow pagination-arrow\",\"aria-label\":\"Previous page\",\"rel\":\"prev\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Prev\"}]}],[\"$\",\"div\",null,{\"className\":\"pagination-numbers\",\"children\":[[\"$\",\"$L20\",\"1\",{\"href\":\"/exams/microsoft/ai-300/1\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 1\",\"children\":1}],[\"$\",\"span\",\"divider-1\",{\"className\":\"pagination-divider\",\"aria-hidden\":\"true\"}],[\"$\",\"$L20\",\"3\",{\"href\":\"/exams/microsoft/ai-300/3\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 3\",\"children\":3}],[\"$\",\"$L20\",\"4\",{\"href\":\"/exams/microsoft/ai-300/4\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 4\",\"children\":4}],[\"$\",\"$L20\",\"5\",{\"href\":\"/exams/microsoft/ai-300/5\",\"className\":\"button hollow sm pagination-page\",\"aria-label\":\"Page 5\",\"children\":5}],[\"$\",\"span\",\"6\",{\"className\":\"button primary sm pagination-page is-current\",\"aria-current\":\"page\",\"children\":6}]]}],[\"$\",\"span\",null,{\"className\":\"button link arrow pagination-arrow is-disabled\",\"aria-disabled\":\"true\",\"children\":[\"$\",\"span\",null,{\"className\":\"pagination-arrow-label\",\"children\":\"Next\"}]}]]}]]}]\n29:[\"$\",\"div\",null,{\"className\":\"contribute-cta\",\"children\":[[\"$\",\"$L3b\",null,{\"src\":\"/icons/hand-holding-heart.svg\",\"alt\":\"\",\"width\":20,\"height\":20,\"aria-hidden\":\"true\"}],[\"$\",\"span\",null,{\"className\":\"contribute-cta-text\",\"children\":[\"Know a question that should be here?\",\" \",[\"$\",\"$L20\",null,{\"href\":\"/contribute/microsoft/ai-300\",\"children\":\"Contribute to this exam\"}]]}]]}]\n2a:[\"$\",\"$L3c\",null,{}]\n3d:I[26159,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n3f:I[67504,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n40:I[53311,[\"803\",\"static/chunks/cd24890f-1feeec4de1aff190.js\",\"9664\",\"static/chunks/9664-cf87fcda7d803fda.js\",\"8812\",\"static/chunks/8812-47ca7a418f20231d.js\",\"9509\",\"static/chunks/9509-d8ac1c5a1b823334.js\",\"6251\",\"static/chunks/6251-9567fd41a9fe91a6.js\",\"2536\",\"static/chunks/2536-67345f383d1d3f28.js\",\"2872\",\"static/chunks/2872-c4a437aa9a0311f5.js\",\"2685\",\"static/chunks/2685-fdc51c3c7ed913c5.js\",\"572\",\"static/chunks/572-28cb83ecf20953e3.js\",\"1810\",\"static/chunks/1810-adc9ea220320080d.js\",\"4447\",\"static/chunks/4447-7b50d8057a0124db.js\",\"3732\",\"static/chunks/3732-e11a19273e05d225.js\",\"4659\",\"static/chunks/4659-357b593ce79153e9.js\",\"2263\",\"static/chunks/2263-8fb45ce7fd4b5638.js\",\"2447\",\"static/chunks/2447-2378a6ba66db1bc5.js\",\"8322\",\"static/chunks/app/exams/%5Bprovider%5D/%5Bname%5D/%5Bpagenumber%5D/page-91056866c05aad06.js\"],\"default\"]\n32:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n33:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n34:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3d\",null,{\"questionNumber\":126,\"questionId\":\"5b839c4a-327b-4ed8-927a-185f841cd277\",\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L3e\"}]}],[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"questionNumber\":126,\"questionId\":\"5b839c4a-327b-4ed8-927a-185f841cd277\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L40\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"questionNumber\":126,\"questionId\":\"5b839c4a-327b-4ed8-927a-185f841cd277\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-300/6\"}]}]]}]\nA team manages prompts used by a generative AI application built on Microsoft Foundry. Prompt changes occur frequently, and earlier changes have led to unexpected production behavior.  \n  \nThe team requires that new prompt versions can be tested and reviewed without changing production behavior.  \n  \nYou need to implement a source-control practice that enables safe prompt experimentation.  \n  \nWhat should you do?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Create a GitHub Action workflow."
+        },
+        {
+          "letter": "B",
+          "text": "Revert the prompt in the production environment to a previous commit."
+        },
+        {
+          "letter": "C",
+          "text": "Create a feature git branch for each prompt change."
+        }
+      ],
+      "answer": null,
+      "explanation": "A separate feature Git branch isolates each proposed prompt version from the production branch. The team can test and review the change, typically through a pull request, before merging it into the branch that drives production. Microsoft Foundry documentation identifies version control and iterative prompt development as collaboration capabilities.\n\n**Learn more:** [Prompt flow in Microsoft Foundry portal (classic)](https://learn.microsoft.com/en-us/azure/foundry-classic/concepts/prompt-flow)"
+    },
+    {
+      "number": 128,
+      "domain": "Design and implement a GenAIOps infrastructure",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],,\"$L5c\",\"$L5d\",\"$L5e\",\"$L5f\",\"$L60\",\"$L61\",\"$L62\",\"$L63\",\"$L64\",\"$L65\",\"$L66\"]\n59:[\"$\",\"svg\",null,{\"viewBox\":\"0 0 24 24\",\"width\":22,\"height\":22,\"className\":\"icon-svg fav-question-icon fav-question-icon-filled\",\"fill\":\"currentColor\",\"stroke\":\"$undefined\",\"strokeWidth\":\"$undefined\",\"strokeLinecap\":\"$undefined\",\"strokeLinejoin\":\"$undefined\",\"role\":\"$undefined\",\"aria-hidden\":true,\"focusable\":\"false\",\"children\":[null,[\"$\",\"path\",null,{\"d\":\"M1.327,12.4,4.887,15,3.535,19.187A3.178,3.178,0,0,0,4.719,22.8a3.177,3.177,0,0,0,3.8-.019L12,20.219l3.482,2.559a3.227,3.227,0,0,0,4.983-3.591L19.113,15l3.56-2.6a3.227,3.227,0,0,0-1.9-5.832H16.4L15.073,2.432a3.227,3.227,0,0,0-6.146,0L7.6,6.568H3.231a3.227,3.227,0,0,0-1.9,5.832Z\"}]]}]\n5a:[\"$\",\"span\",null,{\"className\":\"tooltip\",\"children\":\"Save question\"}]\n5b:[\"$\",\"div\",null,{\"className\":\"exam-content\",\"children\":[null,[\"$\",\"$L3d\",null,{\"questionNumber\":131,\"questionId\":\"69d7d987-49cb-494e-8a0a-7325e714a252\",\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"children\":[\"$\",\"div\",null,{\"className\":\"question-content\",\"children\":\"$L67\"}]}],[\"$\",\"$L3f\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"questionNumber\":131,\"questionId\":\"69d7d987-49cb-494e-8a0a-7325e714a252\",\"initialCommentCount\":0,\"children\":[\"$\",\"$L40\",null,{\"examProvider\":\"microsoft\",\"examName\":\"ai-300\",\"questionNumber\":131,\"questionId\":\"69d7d987-49cb-494e-8a0a-7325e714a252\",\"initialReactions\":{\"likes\":0,\"dislikes\":0},\"initialUserReaction\":null,\"returnTo\":\"/exams/microsoft/ai-300/6\"}]}]]}]\nAn organization operates a customer-facing generative AI application built using Microsoft Foundry. The application uses multiple prompts connected to multiple workflows to generate production responses.  \n  \nThe application occasionally produces incomplete responses. Although the model call succeeds, the final message sometimes ends early.  \n  \nThe issue cannot be reproduced consistently in development.  \n  \nYou need to determine where and why response generation is ending early in production.  \n  \nWhich approach should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Run a pre-release evaluation workflow to score groundedness and relevance on a test dataset."
+        },
+        {
+          "letter": "B",
+          "text": "Enable tracing and logging so that each workflow can be inspected."
+        },
+        {
+          "letter": "C",
+          "text": "Increase max_tokens and temperature to reduce the chance of early termination."
+        },
+        {
+          "letter": "D",
+          "text": "Replace the deployed model with a smaller model to reduce variability across responses."
+        }
+      ],
+      "answer": null,
+      "explanation": "Microsoft Foundry tracing and logging capture request-level telemetry across agent and workflow execution, including model inputs and outputs, intermediate operations, timing, token usage, and errors. Inspecting these production traces identifies the workflow or operation at which the final response is truncated and supplies the context needed to determine why it terminated. [Set up tracing in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/trace-agent-setup)\n\n**Learn more:** [Set up tracing in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/observability/how-to/trace-agent-setup) · [Tracing and data handling — Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/observability/concepts/trace-data)"
+    },
+    {
+      "number": 129,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "You create an Azure Machine Learning workspace.  \n  \nYou must use the Python SDK v2 to implement an experiment from a Jupyter notebook in the workspace. The experiment must record a list of numerical metrics.  \n  \nYou need to implement a method that logs a list of numerical metrics.  \n  \nWhich method should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mlflow.log_batch()"
+        },
+        {
+          "letter": "B",
+          "text": "mlflow.log_metric()"
+        },
+        {
+          "letter": "C",
+          "text": "mlflow.log_artifact()"
+        },
+        {
+          "letter": "D",
+          "text": "mlflow.log_image()"
+        }
+      ],
+      "answer": "A",
+      "explanation": "`mlflow.log_batch()` logs multiple metric records in a single operation. `mlflow.log_metric()` is for one metric value, whereas artifact and image methods log non-metric data.\\\n\\\n**Learn more:** [MLflow Python Client API](https://mlflow.org/docs/latest/api_reference/python_api/mlflow.client.html)"
+    },
+    {
+      "number": 130,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "You create an Azure Machine Learning workspace.  \n  \nYou must use the Python SDK v2 to implement an experiment from a Jupyter notebook in the workspace. The experiment must record a list of numerical metrics.  \n  \nYou need to implement a method that logs a list of numerical metrics.  \n  \nWhich method should you use?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Supervised fine-tuning"
+        },
+        {
+          "letter": "B",
+          "text": "Evaluations"
+        },
+        {
+          "letter": "C",
+          "text": "Guardrails"
+        },
+        {
+          "letter": "D",
+          "text": "Synthetic data generation"
+        }
+      ],
+      "answer": null,
+      "explanation": "Supervised fine-tuning uses input-output examples to teach a model the desired responses, making it appropriate for improving task performance and response behavior from the existing paired data. Foundry evaluations run a model against a test dataset and measure its quality and safety, enabling repeatable comparison of prompt strategies and fine-tuned models against the defined expected responses. [Fine-tune models with Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry-classic/concepts/fine-tuning-overview) [Run evaluations from the Microsoft Foundry portal](https://learn.microsoft.com/en-us/azure/foundry/how-to/evaluate-generative-ai-app)\n\n**Learn more:** [Fine-tune models with Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry-classic/concepts/fine-tuning-overview) · [Run evaluations from the Microsoft Foundry portal](https://learn.microsoft.com/en-us/azure/foundry/how-to/evaluate-generative-ai-app)"
+    },
+    {
+      "number": 131,
+      "domain": "Implement machine learning model lifecycle and operations",
+      "question": "lassName\":\"button hollow icon-accent icon-only question-actions\"}],You are implementing hyperparameter tuning with Bayesian sampling for Azure ML Python SDK v2–based model training from a notebook. The notebook is in an Azure Machine Learning workspace. It uses a training script that runs on a compute cluster with 20 nodes.  \n  \nThe code implements a Bandit termination policy with `slackjactor` set to `0.2` and a sweep job with `max_concurrent_trials` set to `10`.  \n  \nYou must increase the effectiveness of the tuning process by improving sampling convergence.  \n  \nYou need to choose which sampling convergence setting to use.  \n  \nWhat should you select?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Set the value of max_concurrent_trials to 20."
+        },
+        {
+          "letter": "B",
+          "text": "Set the value of slack_factor of early_termination policy to 0.9."
+        },
+        {
+          "letter": "C",
+          "text": "Set the value of max_concurrent_trials to 4."
+        },
+        {
+          "letter": "D",
+          "text": "Set the value of slack_factor of early_termination policy to 0.1."
+        }
+      ],
+      "answer": null,
+      "explanation": "Bayesian sampling uses results from completed trials to choose promising later configurations. Limiting the number of concurrently running trials allows more completed-trial feedback to inform each new configuration, improving convergence. The Bandit policy’s slack factor controls how aggressively underperforming trials are terminated; it does not improve Bayesian sampling convergence.\n\n**Learn more:** [Azure Machine Learning sweep job: Bayesian sampling](https://learn.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters?view=azureml-api-2#bayesian-sampling)"
+    },
+    {
+      "number": 132,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "Solution: Examine user-feedback comments gathered after deployment to determine whether answers seem more accurate.  \n  \nDoes the solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Post-deployment feedback comments are subjective and do not directly measure whether generated claims are supported by the retrieved documents. A groundedness evaluator provides a measurable assessment of whether a RAG response aligns with its retrieved context and avoids fabricated content.\\\n\\\n**Learn more:** [Retrieval-Augmented Generation (RAG) Evaluators for Generative AI](https://learn.microsoft.com/en-us/azure/foundry/concepts/evaluation-evaluators/rag-evaluators)"
+    },
+    {
+      "number": 133,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "Solution: Compare the embedding vector dimensions used by the retrieval pipeline before and after the change.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Embedding-vector dimensionality is a retrieval-pipeline configuration, not a measure of whether generated content is supported by retrieved documents. Groundedness evaluation measures whether a generated response aligns with the provided context without fabricating information, which directly addresses unsupported RAG answers.\\\n\\\n**Learn more:** [Retrieval-Augmented Generation (RAG) evaluators for generative AI](https://learn.microsoft.com/en-us/azure/foundry/concepts/evaluation-evaluators/rag-evaluators)"
+    },
+    {
+      "number": 134,
+      "domain": "Implement generative AI quality assurance and observability",
+      "question": "Solution: Measure token throughput and mean response latency before and after implementing the proposed change.  \n  \nDoes this solution meet the goal?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yes"
+        },
+        {
+          "letter": "B",
+          "text": "No"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Token throughput and average response latency are performance metrics; they do not measure whether a generated response is consistent with the retrieved documents. RAG answer support must be assessed with a groundedness metric that evaluates alignment between the response and its retrieved context without fabricated content.\\\n\\\n**Learn more:** [Retrieval-Augmented Generation (RAG) Evaluators for Generative AI](https://learn.microsoft.com/en-us/azure/foundry/concepts/evaluation-evaluators/rag-evaluators)"
+    }
+  ]
+}
