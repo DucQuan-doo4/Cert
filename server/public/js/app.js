@@ -14,6 +14,7 @@ const state = {
   totalQuestions: 712,
   questions: [],
   userAnswers: {}, // { questionNum: 'A' }
+  revealedAnswers: {}, // { questionKey: boolean }
   translations: {}, // { questionNum: { question, options, explanation } }
   activeTranslation: {}, // { questionNum: boolean }
   mode: 'practice', // 'practice' or 'exam'
@@ -328,7 +329,7 @@ function setupEventListeners() {
   elements.modeToggleBtn.addEventListener('click', () => {
     state.mode = state.mode === 'practice' ? 'exam' : 'practice';
     elements.modeLabel.textContent = state.mode === 'practice' ? 'Luyện tập' : 'Thi thử';
-    showToast(`Đã chuyển sang chế độ: ${state.mode === 'practice' ? 'Luyện tập (Xem đáp án ngay)' : 'Thi thử'}`);
+    showToast(`Đã chuyển sang chế độ: ${state.mode === 'practice' ? 'Luyện tập' : 'Thi thử'}`);
     renderQuestions();
   });
 
@@ -439,6 +440,7 @@ function renderQuestions() {
     const qKey = `${state.currentExam}:${q.number}`;
     const selectedAns = state.userAnswers[qKey];
     const isAnsSubmitted = !!selectedAns;
+    const isRevealed = !!state.revealedAnswers[qKey];
     
     const isTranslated = !!state.activeTranslation[qKey];
     const trans = state.translations[qKey];
@@ -447,12 +449,17 @@ function renderQuestions() {
     const rawExplanation = isTranslated && trans ? trans.explanation : q.explanation;
     const displayExplanation = cleanExplanationText(rawExplanation);
 
+    const showExplanationBox = isAnsSubmitted || isRevealed;
+
     html += `
       <div class="question-card glass-panel" id="question-${q.number}">
         <div class="question-header">
           <div class="question-number"><i class="bi bi-hash"></i> Câu hỏi ${q.number}</div>
           <div class="question-actions">
-            <button class="btn btn-outline btn-sm" onclick="translateQuestion(${q.number})" title="Dịch sang Tiếng Việt">
+            <button class="btn btn-outline btn-sm" onclick="toggleRevealAnswer(${q.number})" title="Xem hoặc ẩn đáp án">
+              <i class="bi ${isRevealed ? 'bi-eye-slash' : 'bi-eye'}"></i> ${isRevealed ? 'Ẩn đáp án' : 'Xem đáp án'}
+            </button>
+            <button class="btn btn-outline btn-sm" onclick="translateQuestion(${q.number})" title="Dịch siêu tốc Tiếng Việt">
               <i class="bi bi-translate"></i> ${isTranslated ? 'Xem gốc' : 'Dịch Việt'}
             </button>
             <button class="btn btn-purple btn-sm" onclick="openAiTutor(${q.number})" title="Hỏi Trợ lý AI">
@@ -474,9 +481,9 @@ function renderQuestions() {
             }
 
             let optClass = 'option-item';
-            if (isAnsSubmitted) {
+            if (isAnsSubmitted || isRevealed) {
               if (optLetter === q.answer) {
-                optClass += state.mode === 'practice' || isAnsSubmitted ? ' correct' : '';
+                optClass += ' correct';
               }
               if (selectedAns === optLetter && selectedAns !== q.answer) {
                 optClass += ' incorrect';
@@ -495,7 +502,7 @@ function renderQuestions() {
           }).join('')}
         </div>
 
-        ${(state.mode === 'practice' && isAnsSubmitted) || (state.mode === 'practice' && displayExplanation) ? `
+        ${showExplanationBox ? `
           <div class="explanation-box">
             <div class="explanation-title"><i class="bi bi-lightbulb-fill"></i> Đáp án đúng: ${formatAnswerBadge(q.answer)}</div>
             <div class="explanation-content">${marked.parse(displayExplanation || 'Không có giải thích chi tiết.')}</div>
@@ -509,6 +516,13 @@ function renderQuestions() {
   updateStats();
 }
 
+// Toggle Reveal Answer without picking an option
+window.toggleRevealAnswer = function(qNum) {
+  const qKey = `${state.currentExam}:${qNum}`;
+  state.revealedAnswers[qKey] = !state.revealedAnswers[qKey];
+  renderQuestions();
+};
+
 // Handle Answer Selection
 window.selectAnswer = function(qNum, letter) {
   const qKey = `${state.currentExam}:${qNum}`;
@@ -517,7 +531,7 @@ window.selectAnswer = function(qNum, letter) {
   renderQuestions();
 };
 
-// Translate Question using AI / Proxy Endpoint
+// Translate Question using Fast Google Translate API
 window.translateQuestion = async function(qNum) {
   const qKey = `${state.currentExam}:${qNum}`;
   
@@ -536,7 +550,7 @@ window.translateQuestion = async function(qNum) {
   const q = state.questions.find(item => item.number === qNum);
   if (!q) return;
 
-  showToast(`Đang dịch câu hỏi ${qNum} sang Tiếng Việt...`);
+  showToast(`⚡ Đang dịch câu hỏi ${qNum} siêu tốc...`);
 
   try {
     const res = await fetch('/api/ai/translate', {
@@ -560,7 +574,7 @@ window.translateQuestion = async function(qNum) {
     }
   } catch (err) {
     console.error('Translation error:', err);
-    showToast('Lỗi khi gọi dịch vụ AI Translate', 'error');
+    showToast('Lỗi khi gọi dịch vụ Dịch Tiếng Việt', 'error');
   }
 };
 
@@ -601,7 +615,9 @@ async function sendTutorQuery() {
     });
     const data = await res.json();
 
-    if (data.success && data.answer) {
+    if (data.success && data.data && data.data.text) {
+      updateChatBubble(aiBubbleId, data.data.text);
+    } else if (data.success && data.answer) {
       updateChatBubble(aiBubbleId, data.answer);
     } else {
       updateChatBubble(aiBubbleId, data.error || 'AstroTutor không thể trả lời lúc này.');

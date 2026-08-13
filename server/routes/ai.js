@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const { translateQuestion, askTutor } = require('../lib/gemini');
+const { askTutor } = require('../lib/gemini');
+const { translateQuestionFast } = require('../lib/translator');
 
 /**
  * POST /api/ai/translate
- * Body: { question, options, explanation }
- * Returns translated JSON
+ * Fast translation via Google Translate (100ms) with Gemini fallback
  */
 router.post('/translate', async (req, res) => {
   try {
@@ -14,8 +14,8 @@ router.post('/translate', async (req, res) => {
       return res.status(400).json({ success: false, error: 'Missing question or options in request body' });
     }
 
-    const translated = await translateQuestion({ question, options, explanation });
-    res.json({ success: true, data: translated });
+    const translated = await translateQuestionFast({ question, options, explanation });
+    res.json({ success: true, data: translated, engine: 'google_translate_fast' });
   } catch (err) {
     console.error('[Route /api/ai/translate]', err.message);
     res.status(500).json({ success: false, error: err.message });
@@ -24,8 +24,7 @@ router.post('/translate', async (req, res) => {
 
 /**
  * POST /api/ai/tutor
- * Body: { questionData: { question, options, answer, explanation }, userQuery }
- * Returns markdown AI tutor response
+ * Returns markdown AI tutor response via Gemini
  */
 router.post('/tutor', async (req, res) => {
   try {
