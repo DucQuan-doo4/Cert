@@ -454,7 +454,7 @@ function renderQuestions() {
     html += `
       <div class="question-card glass-panel" id="question-${q.number}">
         <div class="question-header">
-          <div class="question-number"><i class="bi bi-hash"></i> Câu hỏi ${q.number}</div>
+          <div class="question-number"><i class="bi bi-patch-question-fill" style="color: var(--accent-cyan); margin-right: 0.35rem;"></i> Câu ${q.number}</div>
           <div class="question-actions">
             <button class="btn btn-outline btn-sm" onclick="toggleRevealAnswer(${q.number})" title="Xem hoặc ẩn đáp án">
               <i class="bi ${isRevealed ? 'bi-eye-slash' : 'bi-eye'}"></i> ${isRevealed ? 'Ẩn đáp án' : 'Xem đáp án'}

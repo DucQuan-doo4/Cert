@@ -497,27 +497,37 @@ body {
   padding-top: 2px;
 }
 
-/* Correct / Incorrect Option States */
+/* Correct / Incorrect Option States with High Contrast Styling */
+.option-item.correct,
 .option-item.selected-correct {
-  background: var(--success-bg) !important;
-  border-color: var(--success-border) !important;
+  background: rgba(16, 185, 129, 0.18) !important;
+  border-color: #10b981 !important;
+  box-shadow: 0 0 14px rgba(16, 185, 129, 0.25);
 }
 
+.option-item.correct .option-radio,
+.option-item.correct .option-letter,
 .option-item.selected-correct .option-letter {
-  background: var(--success-border);
-  color: #fff;
-  border-color: var(--success-border);
+  background: #10b981 !important;
+  color: #ffffff !important;
+  border-color: #10b981 !important;
+  font-weight: 800;
 }
 
+.option-item.incorrect,
 .option-item.selected-incorrect {
-  background: var(--danger-bg) !important;
-  border-color: var(--danger-border) !important;
+  background: rgba(239, 68, 68, 0.18) !important;
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 14px rgba(239, 68, 68, 0.25);
 }
 
+.option-item.incorrect .option-radio,
+.option-item.incorrect .option-letter,
 .option-item.selected-incorrect .option-letter {
-  background: var(--danger-border);
-  color: #fff;
-  border-color: var(--danger-border);
+  background: #ef4444 !important;
+  color: #ffffff !important;
+  border-color: #ef4444 !important;
+  font-weight: 800;
 }
 
 .option-item.reveal-correct {
