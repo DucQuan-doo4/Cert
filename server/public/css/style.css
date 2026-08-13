@@ -472,6 +472,192 @@ body {
   white-space: nowrap;
 }
 
+.statement-badge {
+  background: rgba(127, 0, 255, 0.15);
+  color: #c084fc;
+  border-color: rgba(127, 0, 255, 0.3);
+}
+
+.dragdrop-badge {
+  background: rgba(0, 242, 254, 0.15);
+  color: var(--accent-cyan);
+  border-color: rgba(0, 242, 254, 0.3);
+}
+
+.dropdown-badge {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+/* Interactive Widgets Common */
+.interactive-statements-widget,
+.interactive-dragdrop-widget,
+.interactive-dropdown-widget {
+  margin: 1.25rem 0;
+  padding: 1.25rem;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 14px;
+}
+
+.widget-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent-cyan);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Statements Table */
+.statements-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.stmt-header-row {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.stmt-col-text { flex: 1; }
+.stmt-col-opt { width: 110px; text-align: center; }
+
+.stmt-row {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0.85rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  gap: 1rem;
+}
+
+.stmt-text {
+  flex: 1;
+  font-size: 0.92rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.stmt-opt {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+}
+
+.stmt-btn {
+  padding: 0.4rem 0.85rem;
+  border-radius: 8px;
+  border: 1.5px solid var(--border-color);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.stmt-btn:hover {
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+}
+
+.stmt-btn.picked {
+  background: rgba(79, 172, 254, 0.15);
+  border-color: var(--accent-blue);
+  color: #fff;
+}
+
+.stmt-btn.correct {
+  background: rgba(16, 185, 129, 0.25) !important;
+  border-color: #10b981 !important;
+  color: #fff !important;
+  box-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+}
+
+.stmt-btn.incorrect {
+  background: rgba(239, 68, 68, 0.25) !important;
+  border-color: #ef4444 !important;
+  color: #fff !important;
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.3);
+}
+
+/* DragDrop & Dropdown Slots */
+.dd-slots-list, .dd-blanks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.dd-slot-item, .dropdown-blank-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.9rem 1.1rem;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1.5px solid var(--border-color);
+  border-radius: 12px;
+  transition: all 0.25s ease;
+}
+
+.dd-slot-item.correct, .dropdown-blank-item.correct {
+  border-color: #10b981;
+  background: rgba(16, 185, 129, 0.08);
+}
+
+.dd-slot-item.incorrect, .dropdown-blank-item.incorrect {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.08);
+}
+
+.dd-slot-label, .blank-label {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.dd-select, .blank-select {
+  width: 100%;
+  padding: 0.6rem 0.85rem;
+  border-radius: 8px;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  font-size: 0.9rem;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.dd-select:focus, .blank-select:focus {
+  border-color: var(--accent-cyan);
+}
+
+.dd-correct-badge {
+  font-size: 0.82rem;
+  color: #34d399;
+  margin-top: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
 /* Compact Icon Action Buttons */
 .question-actions {
   display: flex;

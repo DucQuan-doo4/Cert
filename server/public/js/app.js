@@ -66,25 +66,86 @@ const elements = {
   toastContainer: document.getElementById('toastContainer'),
 };
 
-// Clean explanation text from broken markdown links or RSC object artifacts
-function cleanExplanationText(text) {
-  if (!text) return '';
-  let cleaned = String(text);
-  // Strip garbage scraping prefix (e.g. lassName":"button hollow...}], )
-  cleaned = cleaned.replace(/^[\s\S]*?\}\]\s*,?\s*/, function(match) {
-    // Only strip if it looks like scraping garbage (contains className/button patterns)
-    if (match.includes('lassName') || match.includes('button') || match.includes('icon-accent')) {
+function parseJsObj(str) {
+  if (!str) return null;
+  try {
+    return JSON.parse(str);
+  } catch (e) {
+    try {
+      return (new Function('return (' + str + ')'))();
+    } catch (e2) {
+      return null;
+    }
+  }
+}
+
+// Full parser for question content & interactive tags (<Statements/>, <Dropdown/>, <DragDrop/>)
+function parseQuestionContent(rawText) {
+  if (!rawText) return { cleanText: '', statements: null, dropdown: null, dragDrop: null };
+
+  let text = String(rawText);
+
+  // 1. Extract <Statements .../> BEFORE cleaning text
+  let statements = null;
+  const stmtMatch = text.match(/statements=\{([\s\S]*?\]\s*)\}/);
+  if (stmtMatch) {
+    statements = parseJsObj(stmtMatch[1]);
+  }
+
+  // 2. Extract <Dropdown .../>
+  let dropdown = null;
+  const dropMatch = text.match(/blanks=\{([\s\S]*?\]\s*)\}/);
+  if (dropMatch) {
+    dropdown = parseJsObj(dropMatch[1]);
+  }
+
+  // 3. Extract <DragDrop .../>
+  let dragDrop = null;
+  const itemsMatch = text.match(/items=\{([\s\S]*?\]\s*)\}/);
+  const slotsMatch = text.match(/slots=\{([\s\S]*?\]\s*)\}/);
+  if (itemsMatch && slotsMatch) {
+    const items = parseJsObj(itemsMatch[1]);
+    const slots = parseJsObj(slotsMatch[1]);
+    if (items && slots) dragDrop = { items, slots };
+  }
+
+  // Clean up body text
+  let clean = text;
+
+  // Remove JSX component tags from body text
+  clean = clean.replace(/<Statements[\s\S]*?\/>/g, '');
+  clean = clean.replace(/<Dropdown[\s\S]*?\/>/g, '');
+  clean = clean.replace(/<DragDrop[\s\S]*?\/>/g, '');
+
+  // Strip RSC Stream payload
+  clean = clean.replace(/",\s*"className"\s*:\s*"[^"]*\}[\s\S]*/gi, '');
+  clean = clean.replace(/^[a-z0-9]+:(?:I\[|\[)[\s\S]*?(?=[A-Z][a-z])/gm, '');
+  clean = clean.replace(/^[,\s"\$0-9a-zA-Z_:\[\]\{\}\-\.]+(?=[A-Z][a-z]\s)/gm, '');
+  clean = clean.replace(/^[\s\S]*?\}\]\s*,?\s*/, (match) => {
+    if (match.includes('lassName') || match.includes('button') || match.includes('icon-accent') || match.includes('static/chunks')) {
       return '';
     }
     return match;
   });
-  cleaned = cleaned.replace(/\[\s*undefined\s*\]\([^)]*\)/gi, '');
-  cleaned = cleaned.replace(/\[\s*\[object\s+Object\]\s*\]\([^)]*\)/gi, '');
-  cleaned = cleaned.replace(/http:\/\/localhost:\d+\/\[object%20Object\]/gi, '');
-  cleaned = cleaned.replace(/\[object%20Object\]/gi, '');
-  cleaned = cleaned.replace(/Learn more:\s*·\s*$/gi, '');
-  cleaned = cleaned.replace(/Learn more:\s*$/gi, '');
-  return cleaned.trim();
+
+  // Keep only from first real paragraph
+  const realStart = clean.search(/(?:For |Select |Match |Which |What |Your |You |A |An |In |To |How |The |This |Choose |If |When |Note)/i);
+  if (realStart > 0 && realStart < 300) {
+    clean = clean.slice(realStart);
+  }
+
+  clean = clean.replace(/\[\s*undefined\s*\]\([^)]*\)/gi, '');
+  clean = clean.replace(/\[\s*\[object\s+Object\]\s*\]\([^)]*\)/gi, '');
+  clean = clean.replace(/http:\/\/localhost:\d+\/\[object%20Object\]/gi, '');
+  clean = clean.replace(/\[object%20Object\]/gi, '');
+  clean = clean.replace(/Learn more:\s*·\s*$/gi, '');
+  clean = clean.replace(/Learn more:\s*$/gi, '');
+
+  return { cleanText: clean.trim(), statements, dropdown, dragDrop };
+}
+
+function cleanExplanationText(text) {
+  return parseQuestionContent(text).cleanText;
 }
 
 // Detect if a question requires multiple answers
@@ -467,6 +528,149 @@ function showLoading() {
   `;
 }
 
+// Interactive Component Renderers
+function renderStatementsWidget(qNum, statements, isRevealed, selectedState = {}) {
+  if (!statements || !statements.length) return '';
+  return `
+    <div class="interactive-statements-widget glass-panel">
+      <div class="widget-title"><i class="bi bi-ui-checks-grid"></i> Đánh giá các câu phát biểu dưới đây:</div>
+      <div class="statements-table">
+        <div class="stmt-header-row">
+          <div class="stmt-col-text">Câu phát biểu</div>
+          <div class="stmt-col-opt">Đúng (Yes)</div>
+          <div class="stmt-col-opt">Sai (No)</div>
+        </div>
+        ${statements.map((st, idx) => {
+          const userChoice = selectedState[idx];
+          const isYesCorrect = st.answer && st.answer.toLowerCase() === 'yes';
+          const isNoCorrect = st.answer && st.answer.toLowerCase() === 'no';
+
+          let yesClass = 'stmt-btn';
+          let noClass = 'stmt-btn';
+
+          if (userChoice === 'Yes') yesClass += ' picked';
+          if (userChoice === 'No') noClass += ' picked';
+
+          if (isRevealed) {
+            if (isYesCorrect) yesClass += ' correct';
+            else if (userChoice === 'Yes') yesClass += ' incorrect';
+
+            if (isNoCorrect) noClass += ' correct';
+            else if (userChoice === 'No') noClass += ' incorrect';
+          }
+
+          return `
+            <div class="stmt-row">
+              <div class="stmt-text">${marked.parse(st.text || '')}</div>
+              <div class="stmt-opt">
+                <button class="${yesClass}" onclick="selectStmtChoice(${qNum}, ${idx}, 'Yes')">
+                  <i class="bi bi-check-lg"></i> Yes
+                </button>
+              </div>
+              <div class="stmt-opt">
+                <button class="${noClass}" onclick="selectStmtChoice(${qNum}, ${idx}, 'No')">
+                  <i class="bi bi-x-lg"></i> No
+                </button>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderDragDropWidget(qNum, dragDrop, isRevealed, userMatches = {}) {
+  if (!dragDrop || !dragDrop.slots) return '';
+  return `
+    <div class="interactive-dragdrop-widget glass-panel">
+      <div class="widget-title"><i class="bi bi-arrow-left-right"></i> Kéo thả / Ghép nối các khái niệm tương ứng:</div>
+      <div class="dd-slots-list">
+        ${dragDrop.slots.map((slot, idx) => {
+          const matchedVal = userMatches[idx] || '';
+          const isCorrect = isRevealed && matchedVal === slot.answer;
+          const isIncorrect = isRevealed && matchedVal && matchedVal !== slot.answer;
+          let slotClass = 'dd-slot-item';
+          if (isCorrect) slotClass += ' correct';
+          if (isIncorrect) slotClass += ' incorrect';
+
+          return `
+            <div class="${slotClass}">
+              <div class="dd-slot-label">${marked.parse(slot.label || '')}</div>
+              <div class="dd-slot-select">
+                <select class="dd-select" onchange="selectDragDropMatch(${qNum}, ${idx}, this.value)">
+                  <option value="">-- Chọn đáp án tương ứng --</option>
+                  ${dragDrop.items.map(item => `
+                    <option value="${item}" ${matchedVal === item ? 'selected' : ''}>${item}</option>
+                  `).join('')}
+                </select>
+                ${isRevealed && slot.answer ? `<div class="dd-correct-badge"><i class="bi bi-check2"></i> Đúng: <strong>${slot.answer}</strong></div>` : ''}
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
+}
+
+function renderDropdownWidget(qNum, dropdown, isRevealed, userSelections = {}) {
+  if (!dropdown || !dropdown.length) return '';
+  return `
+    <div class="interactive-dropdown-widget glass-panel">
+      <div class="widget-title"><i class="bi bi-menu-button-wide-fill"></i> Chọn đáp án hoàn thành câu:</div>
+      <div class="dd-blanks-list">
+        ${dropdown.map((blank, idx) => {
+          const userVal = userSelections[idx] || '';
+          const isCorrect = isRevealed && userVal === blank.answer;
+          const isIncorrect = isRevealed && userVal && userVal !== blank.answer;
+          let blankClass = 'dropdown-blank-item';
+          if (isCorrect) blankClass += ' correct';
+          if (isIncorrect) blankClass += ' incorrect';
+
+          return `
+            <div class="${blankClass}">
+              <div class="blank-label">${blank.label ? marked.parse(blank.label) : `Mục ${idx + 1}`}</div>
+              <select class="blank-select" onchange="selectDropdownBlank(${qNum}, ${idx}, this.value)">
+                <option value="">-- Chọn đáp án --</option>
+                ${blank.options.map(opt => `
+                  <option value="${opt}" ${userVal === opt ? 'selected' : ''}>${opt}</option>
+                `).join('')}
+              </select>
+              ${isRevealed && blank.answer ? `<div class="dd-correct-badge"><i class="bi bi-check2"></i> Đúng: <strong>${blank.answer}</strong></div>` : ''}
+            </div>
+          `;
+        }).join('')}
+      </div>
+    </div>
+  `;
+}
+
+// Global Event Handlers for Interactive Question Widgets
+window.selectStmtChoice = function(qNum, idx, choice) {
+  const qKey = `${state.currentExam}:${qNum}:stmt`;
+  if (!state.userAnswers[qKey]) state.userAnswers[qKey] = {};
+  state.userAnswers[qKey][idx] = choice;
+  saveUserProgress();
+  renderQuestions();
+};
+
+window.selectDragDropMatch = function(qNum, idx, val) {
+  const qKey = `${state.currentExam}:${qNum}:dd`;
+  if (!state.userAnswers[qKey]) state.userAnswers[qKey] = {};
+  state.userAnswers[qKey][idx] = val;
+  saveUserProgress();
+  renderQuestions();
+};
+
+window.selectDropdownBlank = function(qNum, idx, val) {
+  const qKey = `${state.currentExam}:${qNum}:drop`;
+  if (!state.userAnswers[qKey]) state.userAnswers[qKey] = {};
+  state.userAnswers[qKey][idx] = val;
+  saveUserProgress();
+  renderQuestions();
+};
+
 // Render Questions List
 function renderQuestions() {
   if (!state.questions || state.questions.length === 0) return;
@@ -474,27 +678,43 @@ function renderQuestions() {
   let html = '';
   state.questions.forEach((q) => {
     const qKey = `${state.currentExam}:${q.number}`;
+    const parsed = parseQuestionContent(q.question);
+
     const isMulti = detectMultiSelect(q);
     const expectedCount = isMulti ? getExpectedCount(q) : 1;
     const rawSelected = state.userAnswers[qKey];
-    // Normalize selected answers to array for multi-select
     const selectedArr = isMulti
       ? (Array.isArray(rawSelected) ? rawSelected : (rawSelected ? [rawSelected] : []))
       : (rawSelected ? [rawSelected] : []);
-    const isAnsSubmitted = selectedArr.length > 0;
+
+    const stmtState = state.userAnswers[`${qKey}:stmt`] || {};
+    const ddState = state.userAnswers[`${qKey}:dd`] || {};
+    const dropState = state.userAnswers[`${qKey}:drop`] || {};
+
+    const isAnsSubmitted = selectedArr.length > 0 || Object.keys(stmtState).length > 0 || Object.keys(ddState).length > 0 || Object.keys(dropState).length > 0;
     const isRevealed = !!state.revealedAnswers[qKey];
-    
+
     const isTranslated = !!state.activeTranslation[qKey];
     const trans = state.translations[qKey];
 
-    const displayQuestion = isTranslated && trans ? trans.question : q.question;
+    const rawDisplay = isTranslated && trans ? trans.question : q.question;
+    const parsedDisplay = parseQuestionContent(rawDisplay);
     const rawExplanation = isTranslated && trans ? trans.explanation : q.explanation;
     const displayExplanation = cleanExplanationText(rawExplanation);
 
     const showExplanationBox = isAnsSubmitted || isRevealed;
 
-    // Multi-select badge
-    const multiLabel = isMulti ? `<span class="multi-badge"><i class="bi bi-ui-checks"></i> Chọn ${expectedCount} đáp án</span>` : '';
+    // Badges
+    let badgeLabel = '';
+    if (parsed.statements) {
+      badgeLabel = `<span class="multi-badge statement-badge"><i class="bi bi-ui-checks-grid"></i> Câu hỏi Đúng / Sai</span>`;
+    } else if (parsed.dragDrop) {
+      badgeLabel = `<span class="multi-badge dragdrop-badge"><i class="bi bi-arrow-left-right"></i> Câu hỏi Kéo thả / Ghép nối</span>`;
+    } else if (parsed.dropdown) {
+      badgeLabel = `<span class="multi-badge dropdown-badge"><i class="bi bi-menu-button-wide-fill"></i> Chọn đáp án điền vào chỗ trống</span>`;
+    } else if (isMulti) {
+      badgeLabel = `<span class="multi-badge"><i class="bi bi-ui-checks"></i> Chọn ${expectedCount} đáp án</span>`;
+    }
 
     html += `
       <div class="question-card glass-panel" id="question-${q.number}">
@@ -502,7 +722,7 @@ function renderQuestions() {
           <div class="question-number-badge">
             <span class="qnum-circle">${q.number}</span>
             <span class="qnum-label">Câu ${q.number}</span>
-            ${multiLabel}
+            ${badgeLabel}
           </div>
           <div class="question-actions">
             <button class="action-btn action-reveal ${isRevealed ? 'active' : ''}" onclick="toggleRevealAnswer(${q.number})" title="${isRevealed ? 'Ẩn đáp án' : 'Xem đáp án'}">
@@ -517,53 +737,59 @@ function renderQuestions() {
           </div>
         </div>
 
-        <div class="question-text">${marked.parse(cleanExplanationText(displayQuestion))}</div>
+        <div class="question-text">${marked.parse(parsedDisplay.cleanText || '')}</div>
 
-        <div class="options-list">
-          ${q.options.map(opt => {
-            const optLetter = opt.letter;
-            let optText = opt.text;
+        <!-- Render Interactive Widgets if present -->
+        ${parsed.statements ? renderStatementsWidget(q.number, parsed.statements, isRevealed, stmtState) : ''}
+        ${parsed.dragDrop ? renderDragDropWidget(q.number, parsed.dragDrop, isRevealed, ddState) : ''}
+        ${parsed.dropdown ? renderDropdownWidget(q.number, parsed.dropdown, isRevealed, dropState) : ''}
 
-            if (isTranslated && trans && trans.options) {
-              const matchedOpt = trans.options.find(o => o.letter === optLetter);
-              if (matchedOpt) optText = matchedOpt.text;
-            }
+        <!-- Multiple Choice Options (if available) -->
+        ${(q.options && q.options.length > 0) ? `
+          <div class="options-list">
+            ${q.options.map(opt => {
+              const optLetter = opt.letter;
+              let optText = opt.text;
 
-            let optClass = 'option-item';
-            let radioClass = isMulti ? 'option-radio multi' : 'option-radio';
-            let statusIcon = '';
-            const isPicked = selectedArr.includes(optLetter);
-
-            if (isAnsSubmitted || isRevealed) {
-              // For questions with answer=null, we can't mark correct/incorrect
-              if (q.answer && optLetter === q.answer) {
-                optClass += ' correct';
-                statusIcon = '<i class="bi bi-check-circle-fill opt-status-icon correct-icon"></i>';
+              if (isTranslated && trans && trans.options) {
+                const matchedOpt = trans.options.find(o => o.letter === optLetter);
+                if (matchedOpt) optText = matchedOpt.text;
               }
-              if (q.answer && isPicked && optLetter !== q.answer) {
-                optClass += ' incorrect';
-                statusIcon = '<i class="bi bi-x-circle-fill opt-status-icon incorrect-icon"></i>';
-              }
-              if (isPicked) {
-                optClass += ' selected';
-              }
-              // For null-answer multi-select, just show selected state
-              if (!q.answer && isPicked) {
+
+              let optClass = 'option-item';
+              let radioClass = isMulti ? 'option-radio multi' : 'option-radio';
+              let statusIcon = '';
+              const isPicked = selectedArr.includes(optLetter);
+
+              if (isAnsSubmitted || isRevealed) {
+                if (q.answer && optLetter === q.answer) {
+                  optClass += ' correct';
+                  statusIcon = '<i class="bi bi-check-circle-fill opt-status-icon correct-icon"></i>';
+                }
+                if (q.answer && isPicked && optLetter !== q.answer) {
+                  optClass += ' incorrect';
+                  statusIcon = '<i class="bi bi-x-circle-fill opt-status-icon incorrect-icon"></i>';
+                }
+                if (isPicked) {
+                  optClass += ' selected';
+                }
+                if (!q.answer && isPicked) {
+                  optClass += ' picked';
+                }
+              } else if (isPicked) {
                 optClass += ' picked';
               }
-            } else if (isPicked) {
-              optClass += ' picked';
-            }
 
-            return `
-              <div class="${optClass}" onclick="selectAnswer(${q.number}, '${optLetter}')">
-                <div class="${radioClass}">${optLetter}</div>
-                <div class="option-text">${marked.parse(cleanExplanationText(optText))}</div>
-                ${statusIcon}
-              </div>
-            `;
-          }).join('')}
-        </div>
+              return `
+                <div class="${optClass}" onclick="selectAnswer(${q.number}, '${optLetter}')">
+                  <div class="${radioClass}">${optLetter}</div>
+                  <div class="option-text">${marked.parse(cleanExplanationText(optText))}</div>
+                  ${statusIcon}
+                </div>
+              `;
+            }).join('')}
+          </div>
+        ` : ''}
 
         ${showExplanationBox ? `
           <div class="explanation-box">
