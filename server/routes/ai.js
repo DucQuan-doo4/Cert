@@ -28,12 +28,13 @@ router.post('/translate', async (req, res) => {
  */
 router.post('/tutor', async (req, res) => {
   try {
-    const { questionData, userQuery } = req.body;
-    if (!questionData || !questionData.question) {
-      return res.status(400).json({ success: false, error: 'Missing questionData in request body' });
+    const { questionData, questionContext, userQuery } = req.body;
+    const qData = questionContext || questionData;
+    if (!qData || !qData.question) {
+      return res.status(400).json({ success: false, error: 'Missing questionData/questionContext in request body' });
     }
 
-    const answer = await askTutor(questionData, userQuery);
+    const answer = await askTutor(qData, userQuery);
     res.json({ success: true, data: { text: answer } });
   } catch (err) {
     console.error('[Route /api/ai/tutor]', err.message);

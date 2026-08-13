@@ -454,16 +454,19 @@ function renderQuestions() {
     html += `
       <div class="question-card glass-panel" id="question-${q.number}">
         <div class="question-header">
-          <div class="question-number"><i class="bi bi-patch-question-fill" style="color: var(--accent-cyan); margin-right: 0.35rem;"></i> Câu ${q.number}</div>
+          <div class="question-number-badge">
+            <span class="qnum-circle">${q.number}</span>
+            <span class="qnum-label">Câu ${q.number}</span>
+          </div>
           <div class="question-actions">
-            <button class="btn btn-outline btn-sm" onclick="toggleRevealAnswer(${q.number})" title="Xem hoặc ẩn đáp án">
-              <i class="bi ${isRevealed ? 'bi-eye-slash' : 'bi-eye'}"></i> ${isRevealed ? 'Ẩn đáp án' : 'Xem đáp án'}
+            <button class="action-btn action-reveal ${isRevealed ? 'active' : ''}" onclick="toggleRevealAnswer(${q.number})" title="${isRevealed ? 'Ẩn đáp án' : 'Xem đáp án'}">
+              <i class="bi ${isRevealed ? 'bi-eye-slash-fill' : 'bi-eye-fill'}"></i>
             </button>
-            <button class="btn btn-outline btn-sm" onclick="translateQuestion(${q.number})" title="Dịch siêu tốc Tiếng Việt">
-              <i class="bi bi-translate"></i> ${isTranslated ? 'Xem gốc' : 'Dịch Việt'}
+            <button class="action-btn action-translate ${isTranslated ? 'active' : ''}" onclick="translateQuestion(${q.number})" title="${isTranslated ? 'Xem gốc' : 'Dịch Tiếng Việt'}">
+              <i class="bi bi-translate"></i>
             </button>
-            <button class="btn btn-purple btn-sm" onclick="openAiTutor(${q.number})" title="Hỏi Trợ lý AI">
-              <i class="bi bi-robot"></i> Hỏi AI
+            <button class="action-btn action-ai" onclick="openAiTutor(${q.number})" title="Hỏi AI Tutor">
+              <i class="bi bi-stars"></i>
             </button>
           </div>
         </div>
@@ -481,30 +484,40 @@ function renderQuestions() {
             }
 
             let optClass = 'option-item';
+            let radioClass = 'option-radio';
+            let statusIcon = '';
             if (isAnsSubmitted || isRevealed) {
               if (optLetter === q.answer) {
                 optClass += ' correct';
+                statusIcon = '<i class="bi bi-check-circle-fill opt-status-icon correct-icon"></i>';
               }
               if (selectedAns === optLetter && selectedAns !== q.answer) {
                 optClass += ' incorrect';
+                statusIcon = '<i class="bi bi-x-circle-fill opt-status-icon incorrect-icon"></i>';
               }
               if (selectedAns === optLetter) {
                 optClass += ' selected';
               }
+            } else if (selectedAns === optLetter) {
+              optClass += ' picked';
             }
 
-            return `
-              <div class="${optClass}" onclick="selectAnswer(${q.number}, '${optLetter}')">
-                <div class="option-radio">${optLetter}</div>
-                <div class="option-text">${marked.parse(cleanExplanationText(optText))}</div>
+            return \`
+              <div class="\${optClass}" onclick="selectAnswer(${q.number}, '\${optLetter}')">
+                <div class="\${radioClass}">\${optLetter}</div>
+                <div class="option-text">\${marked.parse(cleanExplanationText(optText))}</div>
+                \${statusIcon}
               </div>
-            `;
+            \`;
           }).join('')}
         </div>
 
         ${showExplanationBox ? `
           <div class="explanation-box">
-            <div class="explanation-title"><i class="bi bi-lightbulb-fill"></i> Đáp án đúng: ${formatAnswerBadge(q.answer)}</div>
+            <div class="explanation-header">
+              <i class="bi bi-lightbulb-fill"></i>
+              <span>Đáp án đúng: ${formatAnswerBadge(q.answer)}</span>
+            </div>
             <div class="explanation-content">${marked.parse(displayExplanation || 'Không có giải thích chi tiết.')}</div>
           </div>
         ` : ''}
