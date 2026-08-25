@@ -61,7 +61,7 @@ export default function App() {
 
   const SIDEBAR_MENU = [
     { id: 'all', iconType: 'logo', src: '/logo.png' },
-    { id: 'amazon', iconType: 'text', text: 'aws', color: '#ff9900', bg: '#f9f9fa' },
+    { id: 'amazon', iconType: 'custom', src: '/aws-logo.png', bg: '#f9f9fa' },
     { id: 'microsoft', iconType: 'devicon', slug: 'azure/azure-original', bg: '#ffffff', border: '1px solid #e0e4f0' },
     { id: 'google', iconType: 'devicon', slug: 'googlecloud/googlecloud-original', bg: '#ffffff', border: '1px solid #e0e4f0' },
   ];
@@ -118,8 +118,12 @@ export default function App() {
                   style={{ width: '32px', height: '32px' }} 
                 />
               )}
-              {item.iconType === 'text' && (
-                <span style={{ fontWeight: 900, fontSize: '18px', color: item.color }}>{item.text}</span>
+              {item.iconType === 'custom' && (
+                <img 
+                  src={item.src} 
+                  alt={item.id} 
+                  style={{ width: '36px', height: '36px', objectFit: 'contain' }} 
+                />
               )}
             </button>
           ))}

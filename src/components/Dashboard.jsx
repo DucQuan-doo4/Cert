@@ -5,9 +5,10 @@ import History from './History';
 
 const PROVIDER_META = {
   amazon: { 
-    name: 'aws', 
+    name: 'AWS', 
     slug: 'amazon', 
-    badgeType: 'text',
+    badgeType: 'custom',
+    badgeIcon: '/aws-logo.png',
     gradient: 'var(--btn-aws-gradient)', 
     borderGradient: 'var(--aws-border)' 
   },
@@ -155,7 +156,10 @@ export default function Dashboard({
                     <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 600 }}>{pInfo.name}</span>
                   </>
                 ) : (
-                  <span style={{ fontWeight: 900, fontSize: '18px', color: '#ff9900' }}>aws</span>
+                  <>
+                    <img src={pInfo.badgeIcon} alt={pInfo.name} style={{ height: '20px' }} />
+                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 600 }}>{pInfo.name}</span>
+                  </>
                 )}
               </div>
 
