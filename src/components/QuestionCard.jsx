@@ -1,62 +1,40 @@
 import React, { useState } from 'react';
-import { Flag, Eye, EyeOff, Languages, Check, X, Maximize2, Minimize2 } from 'lucide-react';
+import { Flag, Eye, EyeOff, Languages, Check, X } from 'lucide-react';
 import { parseQuestionContent, parseMarkdownToHtml, detectMultiSelect, getExpectedCount } from '../utils/markdown';
 import ReferenceBox from './ReferenceBox';
 
 export default function QuestionCard({
-  question,
-  userAnswer,
-  isRevealed,
-  isFlagged,
-  mode, // 'practice' or 'exam'
-  isExamSubmitted,
-  onSelectAnswer,
-  onToggleReveal,
-  onToggleFlag,
-  provider,
-  examTitle,
+  question, userAnswer, isRevealed, isFlagged, mode, isExamSubmitted,
+  onSelectAnswer, onToggleReveal, onToggleFlag, provider, examTitle,
 }) {
   const [isZoomed, setIsZoomed] = useState(false);
   const [zoomedImgSrc, setZoomedImgSrc] = useState('');
   const [isTranslated, setIsTranslated] = useState(false);
 
   const { number, domain, options, answer, explanation } = question;
-
-  // Parse question content
   const { cleanText, statements, dropdown, dragDrop } = parseQuestionContent(question.question);
   const isMulti = detectMultiSelect(question);
   const expectedCount = isMulti ? getExpectedCount(question) : 1;
 
-  // Answers state
   const selectedArr = isMulti
     ? (Array.isArray(userAnswer) ? userAnswer : (userAnswer ? [userAnswer] : []))
     : (userAnswer ? [userAnswer] : []);
 
-  const hasAnswered = (isMulti ? selectedArr.length === expectedCount : selectedArr.length > 0) || 
+  const hasAnswered = (isMulti ? selectedArr.length === expectedCount : selectedArr.length > 0) ||
     (statements && userAnswer && Object.keys(userAnswer).length > 0) ||
     (dropdown && userAnswer && Object.keys(userAnswer).length > 0) ||
     (dragDrop && userAnswer && Object.keys(userAnswer).length > 0);
 
-  // In practice mode, reveal immediately after answering.
-  // In exam mode, only reveal after exam is submitted.
   const showResults = isRevealed || (mode === 'practice' && hasAnswered) || (mode === 'exam' && isExamSubmitted);
 
-  // Handle Option selection
   const handleOptionClick = (letter) => {
-    if (showResults && mode === 'practice') return; // Locked in practice mode once shown
-
+    if (showResults && mode === 'practice') return;
     if (isMulti) {
       const current = [...selectedArr];
       const idx = current.indexOf(letter);
-      if (idx >= 0) {
-        current.splice(idx, 1);
-      } else {
-        if (current.length < expectedCount) {
-          current.push(letter);
-        } else {
-          current.shift();
-          current.push(letter);
-        }
+      if (idx >= 0) { current.splice(idx, 1); } else {
+        if (current.length < expectedCount) { current.push(letter); }
+        else { current.shift(); current.push(letter); }
       }
       onSelectAnswer(number, current);
     } else {
@@ -64,553 +42,346 @@ export default function QuestionCard({
     }
   };
 
-  // Handle Image Click (Click-to-Zoom)
   const handleContentClick = (e) => {
-    if (e.target.tagName === 'IMG') {
-      setZoomedImgSrc(e.target.src);
-      setIsZoomed(true);
-    }
+    if (e.target.tagName === 'IMG') { setZoomedImgSrc(e.target.src); setIsZoomed(true); }
   };
 
-  // Generate a mock AI Translation for display (since we bypassed backend)
-  const getMockTranslation = () => {
-    // A simple heuristic translation of common terms for demonstration
-    let text = cleanText;
-    const dict = {
-      'Which': 'Câu nào',
-      'What': 'Cái gì',
-      'How': 'Làm thế nào',
-      'Why': 'Tại sao',
-      'service': 'dịch vụ',
-      'workload': 'khối lượng công việc',
-      'purchasing option': 'hình thức mua/thanh toán',
-      'cost-effective': 'tối ưu chi phí',
-      'storage': 'lưu trữ',
-      'database': 'cơ sở dữ liệu',
-      'security': 'bảo mật',
-      'compliance': 'tuân thủ',
-      'high availability': 'sẵn sàng cao',
-      'configure': 'cấu hình',
-      'intended': 'dự kiến',
-      'training': 'huấn luyện',
-      'inference': 'suy luận',
-      'details': 'chi tiết',
-      'documents': 'tài liệu',
-      'transparency': 'tính minh bạch',
-      'understanding': 'hiểu biết',
-      'scripts': 'kịch bản/mã lệnh',
-      'Store': 'Lưu trữ',
-      'Create': 'Tạo',
-      'Use': 'Sử dụng',
-      'Commit': 'Đẩy lên/Lưu trữ',
-    };
-    
-    Object.keys(dict).forEach(key => {
-      const regex = new RegExp(`\\b${key}\\b`, 'gi');
-      text = text.replace(regex, dict[key]);
-    });
-    
-    return text + `<br/><small style="color:var(--text-muted);font-style:italic;margin-top:8px;display:block;">[Bản dịch tự động nhanh - Click nút Dịch lần nữa để xem bản tiếng Anh gốc]</small>`;
-  };
-
-  const displayQuestionHtml = isTranslated ? getMockTranslation() : cleanText;
-
-  // Check if an option is correct
   const isOptionCorrect = (letter) => {
     if (!answer) return false;
-    const correctLetters = answer.split(',').map(s => s.trim().toUpperCase());
-    return correctLetters.includes(letter.toUpperCase());
+    return answer.split(',').map(s => s.trim().toUpperCase()).includes(letter.toUpperCase());
   };
 
+  const displayQuestionHtml = isTranslated ? cleanText + '<br/><small style="color:var(--text-muted);font-style:italic;margin-top:6px;display:block;">[Bản dịch tự động — nhấn lại nút Dịch để xem gốc]</small>' : cleanText;
+
   return (
-    <div className={`question-card glass-panel fade-in ${isFlagged ? 'flagged-border' : ''}`} style={{
-      padding: '1.5rem',
-      marginBottom: '1.5rem',
-      display: 'flex',
-      flexDirection: 'column',
-      gap: '1rem',
-      position: 'relative',
-      overflow: 'hidden'
+    <div className={`card scale-in ${isFlagged ? 'flagged-card' : ''}`} style={{
+      padding: 0, overflow: 'hidden', position: 'relative',
+      borderColor: isFlagged ? 'var(--warning)' : undefined,
     }}>
-      {/* Question Header */}
+      {/* ── Question Header ── */}
       <div style={{
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'flex-start',
-        borderBottom: '1px solid var(--border-color)',
-        paddingBottom: '0.75rem',
-        gap: '1rem'
+        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+        padding: '0.85rem 1.25rem',
+        background: 'var(--bg-secondary)',
+        borderBottom: '1px solid var(--border)',
       }}>
-        <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
+          <span style={{
+            background: 'var(--accent-gradient)', color: '#fff',
+            fontWeight: 800, fontSize: '0.75rem',
+            padding: '0.2rem 0.65rem', borderRadius: 'var(--radius-full)',
+            fontFamily: 'var(--font-heading)', letterSpacing: '0.3px'
+          }}>
+            Câu {number}
+          </span>
+          {domain && (
             <span style={{
-              background: 'var(--accent-gradient)',
-              color: '#ffffff',
-              fontWeight: '800',
-              fontSize: '0.8rem',
-              padding: '0.2rem 0.6rem',
-              borderRadius: '20px',
-              fontFamily: 'var(--font-heading)'
+              fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 500,
+              background: 'var(--bg-input)', padding: '0.15rem 0.5rem',
+              borderRadius: 'var(--radius-full)', border: '1px solid var(--border)'
             }}>
-              Câu {number}
+              {domain}
             </span>
-            {domain && (
-              <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', fontWeight: '500' }}>
-                • {domain}
-              </span>
-            )}
-          </div>
+          )}
           {isMulti && (
-            <div style={{
-              fontSize: '0.75rem',
-              color: 'var(--accent-primary)',
-              fontWeight: '600',
-              marginTop: '0.25rem'
+            <span style={{
+              fontSize: '0.72rem', color: 'var(--accent-primary)', fontWeight: 700,
+              background: 'var(--accent-light)', padding: '0.15rem 0.5rem',
+              borderRadius: 'var(--radius-full)'
             }}>
-              [Chọn {expectedCount} đáp án]
-            </div>
+              Chọn {expectedCount} đáp án
+            </span>
           )}
         </div>
 
-        {/* Actions Bar */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <button
-            onClick={() => setIsTranslated(!isTranslated)}
-            className={`btn-icon ${isTranslated ? 'active-action' : ''}`}
-            title="Dịch Tiếng Việt"
-            style={isTranslated ? { borderColor: 'var(--accent-primary)', color: 'var(--accent-primary)' } : {}}
-          >
-            <Languages size={16} />
-          </button>
-          
-          <button
-            onClick={() => onToggleReveal(number)}
-            className={`btn-icon ${isRevealed ? 'active-action' : ''}`}
-            title={isRevealed ? "Ẩn đáp án" : "Xem đáp án"}
-            style={isRevealed ? { borderColor: 'var(--accent-primary)', color: 'var(--accent-primary)' } : {}}
-          >
-            {isRevealed ? <EyeOff size={16} /> : <Eye size={16} />}
-          </button>
-
-          <button
+        {/* Actions */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+          <ActionBtn active={isTranslated} onClick={() => setIsTranslated(!isTranslated)} title="Dịch">
+            <Languages size={15} />
+          </ActionBtn>
+          <ActionBtn active={isRevealed} onClick={() => onToggleReveal(number)} title={isRevealed ? 'Ẩn' : 'Xem'}>
+            {isRevealed ? <EyeOff size={15} /> : <Eye size={15} />}
+          </ActionBtn>
+          <ActionBtn
+            active={isFlagged}
             onClick={() => onToggleFlag(number)}
-            className={`btn-icon ${isFlagged ? 'active-flag' : ''}`}
-            title="Gắn cờ câu hỏi"
-            style={isFlagged ? { borderColor: 'var(--warning-border)', color: 'var(--warning-text)', background: 'var(--warning-bg)' } : {}}
+            title="Gắn cờ"
+            activeColor="var(--warning)"
+            activeBg="var(--warning-light)"
           >
-            <Flag size={16} fill={isFlagged ? 'var(--warning-border)' : 'none'} />
-          </button>
+            <Flag size={15} fill={isFlagged ? 'currentColor' : 'none'} />
+          </ActionBtn>
         </div>
       </div>
 
-      {/* Question Body */}
-      <div
-        onClick={handleContentClick}
-        dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(displayQuestionHtml) }}
-        className="question-body-text markdown-content"
-        style={{
-          fontSize: '1rem',
-          color: 'var(--text-primary)',
-          fontWeight: '500',
-          lineHeight: '1.6'
-        }}
-      />
-
-      {/* Interactive Statements (Microsoft specific) */}
-      {statements && (
-        <div className="statements-widget" style={{ marginTop: '1rem' }}>
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: '1fr 80px 80px',
-            gap: '0.5rem',
-            padding: '0.5rem',
-            background: 'rgba(99,102,241,0.04)',
-            borderRadius: '8px',
-            fontWeight: '600',
-            fontSize: '0.85rem',
-            color: 'var(--text-secondary)'
-          }}>
-            <div>Câu phát biểu</div>
-            <div style={{ textAlign: 'center' }}>Yes</div>
-            <div style={{ textAlign: 'center' }}>No</div>
-          </div>
-          {statements.map((st, idx) => {
-            const userChoice = userAnswer && userAnswer[idx];
-            const isYesCorrect = st.answer && st.answer.toLowerCase() === 'yes';
-            const isNoCorrect = st.answer && st.answer.toLowerCase() === 'no';
-
-            const handleStmtSelect = (val) => {
-              if (showResults && mode === 'practice') return;
-              const newAnswers = { ...(userAnswer || {}) };
-              newAnswers[idx] = val;
-              onSelectAnswer(number, newAnswers);
-            };
-
-            return (
-              <div key={idx} style={{
-                display: 'grid',
-                gridTemplateColumns: '1fr 80px 80px',
-                gap: '0.5rem',
-                padding: '0.75rem 0.5rem',
-                borderBottom: '1px solid var(--border-color)',
-                alignItems: 'center',
-                fontSize: '0.9rem'
-              }}>
-                <div dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(st.text) }} />
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                  <button
-                    onClick={() => handleStmtSelect('Yes')}
-                    className={`btn ${userChoice === 'Yes' ? 'btn-primary' : 'btn-glass'}`}
-                    style={{
-                      padding: '0.25rem 0.6rem',
-                      fontSize: '0.75rem',
-                      borderRadius: '6px',
-                      ...(showResults && isYesCorrect ? { background: 'var(--success-bg)', border: '1px solid var(--success-border)', color: 'var(--success-text)' } : {}),
-                      ...(showResults && userChoice === 'Yes' && !isYesCorrect ? { background: 'var(--danger-bg)', border: '1px solid var(--danger-border)', color: 'var(--danger-text)' } : {})
-                    }}
-                  >
-                    Yes
-                  </button>
-                </div>
-                <div style={{ display: 'flex', justifyContent: 'center' }}>
-                  <button
-                    onClick={() => handleStmtSelect('No')}
-                    className={`btn ${userChoice === 'No' ? 'btn-primary' : 'btn-glass'}`}
-                    style={{
-                      padding: '0.25rem 0.6rem',
-                      fontSize: '0.75rem',
-                      borderRadius: '6px',
-                      ...(showResults && isNoCorrect ? { background: 'var(--success-bg)', border: '1px solid var(--success-border)', color: 'var(--success-text)' } : {}),
-                      ...(showResults && userChoice === 'No' && !isNoCorrect ? { background: 'var(--danger-bg)', border: '1px solid var(--danger-border)', color: 'var(--danger-text)' } : {})
-                    }}
-                  >
-                    No
-                  </button>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      )}
-
-      {/* Interactive Dropdown blanks (Microsoft specific) */}
-      {dropdown && (
-        <div className="dropdowns-widget" style={{ marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-          {dropdown.map((blank, idx) => {
-            const userChoice = userAnswer && userAnswer[idx];
-            const isCorrect = showResults && userChoice === blank.answer;
-            const isIncorrect = showResults && userChoice && userChoice !== blank.answer;
-
-            const handleDropChange = (e) => {
-              if (showResults && mode === 'practice') return;
-              const newAnswers = { ...(userAnswer || {}) };
-              newAnswers[idx] = e.target.value;
-              onSelectAnswer(number, newAnswers);
-            };
-
-            return (
-              <div key={idx} style={{
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '0.35rem',
-                padding: '0.75rem',
-                background: 'var(--accent-gradient-subtle)',
-                border: '1px solid var(--border-color)',
-                borderRadius: '8px'
-              }}>
-                <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: '600' }}
-                     dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(blank.label || `Mục ${idx + 1}`) }} />
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <select
-                    value={userChoice || ''}
-                    onChange={handleDropChange}
-                    className="exam-select"
-                    style={{
-                      flex: 1,
-                      background: 'var(--bg-secondary)',
-                      color: 'var(--text-primary)',
-                      border: '1px solid var(--border-color)',
-                      padding: '0.4rem 0.75rem',
-                      borderRadius: '8px',
-                      outline: 'none',
-                      ...(isCorrect ? { borderColor: 'var(--success-border)', color: 'var(--success-text)' } : {}),
-                      ...(isIncorrect ? { borderColor: 'var(--danger-border)', color: 'var(--danger-text)' } : {})
-                    }}
-                  >
-                    <option value="">-- Chọn đáp án --</option>
-                    {blank.options && blank.options.map((opt, oIdx) => (
-                      <option key={oIdx} value={opt}>{opt}</option>
-                    ))}
-                  </select>
-                </div>
-                {showResults && blank.answer && (
-                  <div style={{ fontSize: '0.8rem', color: 'var(--success-text)', marginTop: '0.25rem' }}>
-                    <Check size={12} style={{ display: 'inline', marginRight: '0.25rem' }} />
-                    Đáp án đúng: <strong>{blank.answer}</strong>
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
-      )}
-
-      {/* Interactive Drag & Drop matching slots (Microsoft specific) */}
-      {dragDrop && (
-        <div className="dragdrop-widget" style={{ marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-          {dragDrop.slots.map((slot, idx) => {
-            const userChoice = userAnswer && userAnswer[idx];
-            const isCorrect = showResults && userChoice === slot.answer;
-            const isIncorrect = showResults && userChoice && userChoice !== slot.answer;
-
-            const handleSlotChange = (e) => {
-              if (showResults && mode === 'practice') return;
-              const newAnswers = { ...(userAnswer || {}) };
-              newAnswers[idx] = e.target.value;
-              onSelectAnswer(number, newAnswers);
-            };
-
-            return (
-              <div key={idx} style={{
-                display: 'flex',
-                flexDirection: 'column',
-                gap: '0.35rem',
-                padding: '0.75rem',
-                background: 'var(--bg-card)',
-                border: '1px solid var(--border-color)',
-                borderRadius: '8px'
-              }}>
-                <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: '600' }}
-                     dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(slot.label || `Khái niệm ${idx + 1}`) }} />
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <select
-                    value={userChoice || ''}
-                    onChange={handleSlotChange}
-                    className="exam-select"
-                    style={{
-                      flex: 1,
-                      background: 'var(--bg-secondary)',
-                      color: 'var(--text-primary)',
-                      border: '1px solid var(--border-color)',
-                      padding: '0.4rem 0.75rem',
-                      borderRadius: '8px',
-                      outline: 'none',
-                      ...(isCorrect ? { borderColor: 'var(--success-border)', color: 'var(--success-text)' } : {}),
-                      ...(isIncorrect ? { borderColor: 'var(--danger-border)', color: 'var(--danger-text)' } : {})
-                    }}
-                  >
-                    <option value="">-- Chọn đáp án phù hợp --</option>
-                    {dragDrop.items && dragDrop.items.map((item, oIdx) => (
-                      <option key={oIdx} value={item}>{item}</option>
-                    ))}
-                  </select>
-                </div>
-                {showResults && slot.answer && (
-                  <div style={{ fontSize: '0.8rem', color: 'var(--success-text)', marginTop: '0.25rem' }}>
-                    <Check size={12} style={{ display: 'inline', marginRight: '0.25rem' }} />
-                    Ghép cặp đúng: <strong>{slot.answer}</strong>
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
-      )}
-
-      {/* Options List (AWS & standard Microsoft MCQ) */}
-      {options && options.length > 0 && (
-        <div className="options-list" style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-          {options.map((opt) => {
-            const isPicked = selectedArr.includes(opt.letter);
-            const isCorrectOption = isOptionCorrect(opt.letter);
-
-            // Styling variables based on mode and reveal state
-            let optionStyle = {
-              display: 'flex',
-              alignItems: 'center',
-              padding: '0.75rem 1rem',
-              borderRadius: '12px',
-              border: '1px solid var(--border-color)',
-              background: 'var(--bg-card)',
-              cursor: showResults && mode === 'practice' ? 'default' : 'pointer',
-              transition: 'all 0.2s ease',
-              gap: '0.75rem'
-            };
-
-            // Selection styles
-            if (isPicked && !showResults) {
-              optionStyle.borderColor = 'var(--accent-primary)';
-              optionStyle.background = 'rgba(0, 242, 254, 0.05)';
-            }
-
-            // Results revealed styles (Practice selected or Exam submitted)
-            let resultIcon = null;
-            if (showResults) {
-              if (isCorrectOption) {
-                optionStyle.borderColor = 'var(--success-border)';
-                optionStyle.background = 'var(--success-bg)';
-                optionStyle.color = 'var(--success-text)';
-                resultIcon = <Check size={16} style={{ color: 'var(--success-text)', marginLeft: 'auto' }} />;
-              } else if (isPicked && !isCorrectOption) {
-                optionStyle.borderColor = 'var(--danger-border)';
-                optionStyle.background = 'var(--danger-bg)';
-                optionStyle.color = 'var(--danger-text)';
-                resultIcon = <X size={16} style={{ color: 'var(--danger-text)', marginLeft: 'auto' }} />;
-              }
-            }
-
-            // Custom radio / checkbox selector shape style
-            const selectorStyle = {
-              width: '24px',
-              height: '24px',
-              borderRadius: isMulti ? '6px' : '50%', // Checkbox is square, Radio is circle!
-              border: `2px solid ${isPicked ? 'transparent' : 'var(--text-muted)'}`,
-              background: isPicked
-                ? (showResults
-                  ? (isCorrectOption ? 'var(--success-border)' : 'var(--danger-border)')
-                  : 'var(--accent-primary)')
-                : 'transparent',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: isPicked ? '#ffffff' : 'var(--text-secondary)',
-              fontSize: '0.75rem',
-              fontWeight: '800',
-              flexShrink: 0,
-              fontFamily: 'var(--font-heading)'
-            };
-
-            return (
-              <div
-                key={opt.letter}
-                onClick={() => handleOptionClick(opt.letter)}
-                style={optionStyle}
-                className="option-hover-effect"
-              >
-                <div style={selectorStyle}>
-                  {opt.letter}
-                </div>
-                <div
-                  className="option-text markdown-content"
-                  dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(opt.text) }}
-                  style={{
-                    fontSize: '0.92rem',
-                    fontWeight: isPicked ? '600' : '400',
-                    flex: 1
-                  }}
-                />
-                {resultIcon}
-              </div>
-            );
-          })}
-        </div>
-      )}
-
-      {/* Explanation Box */}
-      {showResults && (
-        <div className="explanation-box fade-in" style={{
-          marginTop: '0.75rem',
-          padding: '1.25rem',
-          borderRadius: '12px',
-          background: 'var(--accent-gradient-subtle)',
-          borderLeft: '4px solid var(--success-border)',
-          borderTop: '1px solid var(--border-color)',
-          borderRight: '1px solid var(--border-color)',
-          borderBottom: '1px solid var(--border-color)',
-        }}>
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            fontWeight: '700',
-            color: 'var(--success-text)',
-            fontSize: '0.95rem',
-            marginBottom: '0.75rem',
-            fontFamily: 'var(--font-heading)'
-          }}>
-            <span>✔ Đáp án đúng:</span>
-            <span style={{
-              background: 'var(--success-bg)',
-              padding: '0.15rem 0.6rem',
-              borderRadius: '6px',
-              border: '1px solid rgba(16, 185, 129, 0.3)',
-              fontSize: '0.9rem'
-            }}>
-              {answer || 'Xem phân tích giải thích bên dưới'}
-            </span>
-          </div>
-
-          <div
-            className="markdown-content"
-            dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(explanation || 'Không có giải thích chi tiết.') }}
-            style={{
-              fontSize: '0.9rem',
-              color: 'var(--text-secondary)',
-              lineHeight: '1.6'
-            }}
-          />
-
-          {/* Reference Links Component */}
-          <ReferenceBox
-            explanation={explanation}
-            provider={provider}
-            examTitle={examTitle}
-            questionText={cleanText}
-          />
-        </div>
-      )}
-
-      {/* Lightbox Zoom */}
-      {isZoomed && (
+      {/* ── Question Body ── */}
+      <div style={{ padding: '1.25rem' }}>
         <div
-          onClick={() => setIsZoomed(false)}
-          style={{
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            background: 'rgba(0, 0, 0, 0.7)',
-            zIndex: 1000,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            cursor: 'zoom-out',
-            animation: 'fadeIn 0.2s ease-out'
-          }}
-        >
-          <div style={{ position: 'relative', maxWidth: '90%', maxHeight: '90%' }}>
-            <img
-              src={zoomedImgSrc}
-              alt="Zoomed diagram"
-              style={{
-                maxWidth: '100%',
-                maxHeight: '85vh',
-                borderRadius: '8px',
-                border: '2px solid var(--border-color)',
-                boxShadow: '0 20px 50px rgba(0,0,0,0.8)'
-              }}
-            />
-            <button
-              onClick={() => setIsZoomed(false)}
-              className="btn"
-              style={{
-                position: 'absolute',
-                top: '-40px',
-                right: '0px',
-                background: 'var(--bg-card)',
-                color: 'var(--text-primary)',
-                border: '1px solid var(--border-color)',
-                borderRadius: '8px',
-                padding: '0.4rem 0.8rem',
-                fontSize: '0.8rem'
-              }}
-            >
-              Đóng [X]
-            </button>
+          onClick={handleContentClick}
+          dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(displayQuestionHtml) }}
+          className="markdown-content"
+          style={{ fontSize: '0.95rem', color: 'var(--text-primary)', fontWeight: 500, lineHeight: 1.7, marginBottom: '1rem' }}
+        />
+
+        {/* ── Statements (Microsoft) ── */}
+        {statements && (
+          <div style={{ marginBottom: '1rem' }}>
+            <div style={{
+              display: 'grid', gridTemplateColumns: '1fr 70px 70px', gap: '0',
+              background: 'var(--bg-secondary)', borderRadius: 'var(--radius-xs)',
+              border: '1px solid var(--border)', overflow: 'hidden'
+            }}>
+              <div style={{ padding: '0.5rem 0.75rem', fontWeight: 700, fontSize: '0.8rem', color: 'var(--text-secondary)', borderBottom: '1px solid var(--border)' }}>Câu phát biểu</div>
+              <div style={{ padding: '0.5rem', textAlign: 'center', fontWeight: 700, fontSize: '0.8rem', color: 'var(--text-secondary)', borderBottom: '1px solid var(--border)', borderLeft: '1px solid var(--border)' }}>Yes</div>
+              <div style={{ padding: '0.5rem', textAlign: 'center', fontWeight: 700, fontSize: '0.8rem', color: 'var(--text-secondary)', borderBottom: '1px solid var(--border)', borderLeft: '1px solid var(--border)' }}>No</div>
+              {statements.map((st, idx) => {
+                const uc = userAnswer && userAnswer[idx];
+                const handleSel = (val) => {
+                  if (showResults && mode === 'practice') return;
+                  onSelectAnswer(number, { ...(userAnswer || {}), [idx]: val });
+                };
+                const yesCorrect = st.answer && st.answer.toLowerCase() === 'yes';
+                const noCorrect = st.answer && st.answer.toLowerCase() === 'no';
+                return (
+                  <React.Fragment key={idx}>
+                    <div style={{ padding: '0.6rem 0.75rem', fontSize: '0.85rem', borderBottom: idx < statements.length - 1 ? '1px solid var(--border)' : 'none' }}
+                      dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(st.text) }} />
+                    {['Yes', 'No'].map(val => {
+                      const isThis = uc === val;
+                      const correct = val === 'Yes' ? yesCorrect : noCorrect;
+                      let bg = isThis ? 'var(--accent-light)' : 'transparent';
+                      let color = isThis ? 'var(--accent-primary)' : 'var(--text-muted)';
+                      if (showResults && correct) { bg = 'var(--success-light)'; color = 'var(--success-text)'; }
+                      if (showResults && isThis && !correct) { bg = 'var(--danger-light)'; color = 'var(--danger-text)'; }
+                      return (
+                        <div key={val} style={{
+                          display: 'flex', justifyContent: 'center', alignItems: 'center',
+                          borderBottom: idx < statements.length - 1 ? '1px solid var(--border)' : 'none',
+                          borderLeft: '1px solid var(--border)',
+                          background: bg, cursor: 'pointer', transition: 'var(--transition)'
+                        }} onClick={() => handleSel(val)}>
+                          <span style={{ fontWeight: 700, fontSize: '0.8rem', color }}>{val}</span>
+                        </div>
+                      );
+                    })}
+                  </React.Fragment>
+                );
+              })}
+            </div>
           </div>
+        )}
+
+        {/* ── Dropdown blanks (Microsoft) ── */}
+        {dropdown && (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', marginBottom: '1rem' }}>
+            {dropdown.map((blank, idx) => {
+              const uc = userAnswer && userAnswer[idx];
+              const correct = showResults && uc === blank.answer;
+              const wrong = showResults && uc && uc !== blank.answer;
+              return (
+                <div key={idx} className="card" style={{ padding: '0.75rem', borderColor: correct ? 'var(--success)' : wrong ? 'var(--danger)' : undefined }}>
+                  <div style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', fontWeight: 600, marginBottom: '0.35rem' }}
+                    dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(blank.label || `Mục ${idx + 1}`) }} />
+                  <select value={uc || ''} onChange={e => {
+                    if (showResults && mode === 'practice') return;
+                    onSelectAnswer(number, { ...(userAnswer || {}), [idx]: e.target.value });
+                  }} style={{
+                    width: '100%', background: 'var(--bg-input)', color: 'var(--text-primary)',
+                    border: '1px solid var(--border)', padding: '0.4rem 0.6rem',
+                    borderRadius: 'var(--radius-xs)', outline: 'none', fontSize: '0.85rem',
+                    ...(correct ? { borderColor: 'var(--success)', color: 'var(--success-text)' } : {}),
+                    ...(wrong ? { borderColor: 'var(--danger)', color: 'var(--danger-text)' } : {}),
+                  }}>
+                    <option value="">-- Chọn đáp án --</option>
+                    {blank.options && blank.options.map((o, i) => <option key={i} value={o}>{o}</option>)}
+                  </select>
+                  {showResults && blank.answer && (
+                    <div style={{ fontSize: '0.78rem', color: 'var(--success-text)', marginTop: '0.3rem', display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
+                      <Check size={12} /> Đáp án: <strong>{blank.answer}</strong>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        )}
+
+        {/* ── DragDrop slots (Microsoft) ── */}
+        {dragDrop && (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', marginBottom: '1rem' }}>
+            {dragDrop.slots.map((slot, idx) => {
+              const uc = userAnswer && userAnswer[idx];
+              const correct = showResults && uc === slot.answer;
+              const wrong = showResults && uc && uc !== slot.answer;
+              return (
+                <div key={idx} className="card" style={{ padding: '0.75rem', borderColor: correct ? 'var(--success)' : wrong ? 'var(--danger)' : undefined }}>
+                  <div style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', fontWeight: 600, marginBottom: '0.35rem' }}
+                    dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(slot.label || `Khái niệm ${idx + 1}`) }} />
+                  <select value={uc || ''} onChange={e => {
+                    if (showResults && mode === 'practice') return;
+                    onSelectAnswer(number, { ...(userAnswer || {}), [idx]: e.target.value });
+                  }} style={{
+                    width: '100%', background: 'var(--bg-input)', color: 'var(--text-primary)',
+                    border: '1px solid var(--border)', padding: '0.4rem 0.6rem',
+                    borderRadius: 'var(--radius-xs)', outline: 'none', fontSize: '0.85rem',
+                    ...(correct ? { borderColor: 'var(--success)', color: 'var(--success-text)' } : {}),
+                    ...(wrong ? { borderColor: 'var(--danger)', color: 'var(--danger-text)' } : {}),
+                  }}>
+                    <option value="">-- Chọn --</option>
+                    {dragDrop.items && dragDrop.items.map((o, i) => <option key={i} value={o}>{o}</option>)}
+                  </select>
+                  {showResults && slot.answer && (
+                    <div style={{ fontSize: '0.78rem', color: 'var(--success-text)', marginTop: '0.3rem', display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
+                      <Check size={12} /> Ghép cặp: <strong>{slot.answer}</strong>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        )}
+
+        {/* ── Options List (MCQ) ── */}
+        {options && options.length > 0 && (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+            {options.map((opt) => {
+              const isPicked = selectedArr.includes(opt.letter);
+              const isCorrectOpt = isOptionCorrect(opt.letter);
+
+              let borderColor = 'var(--border)';
+              let bg = 'var(--bg-card)';
+              let selectorBg = 'transparent';
+              let selectorBorder = 'var(--text-muted)';
+              let selectorColor = 'var(--text-muted)';
+              let resultIcon = null;
+
+              if (isPicked && !showResults) {
+                borderColor = 'var(--accent-primary)';
+                bg = 'var(--accent-light)';
+                selectorBg = 'var(--accent-primary)';
+                selectorBorder = 'var(--accent-primary)';
+                selectorColor = '#fff';
+              }
+
+              if (showResults) {
+                if (isCorrectOpt) {
+                  borderColor = 'var(--success)';
+                  bg = 'var(--success-light)';
+                  selectorBg = 'var(--success)';
+                  selectorBorder = 'var(--success)';
+                  selectorColor = '#fff';
+                  resultIcon = <Check size={16} style={{ color: 'var(--success)', marginLeft: 'auto', flexShrink: 0 }} />;
+                } else if (isPicked && !isCorrectOpt) {
+                  borderColor = 'var(--danger)';
+                  bg = 'var(--danger-light)';
+                  selectorBg = 'var(--danger)';
+                  selectorBorder = 'var(--danger)';
+                  selectorColor = '#fff';
+                  resultIcon = <X size={16} style={{ color: 'var(--danger)', marginLeft: 'auto', flexShrink: 0 }} />;
+                }
+              }
+
+              return (
+                <div
+                  key={opt.letter}
+                  onClick={() => handleOptionClick(opt.letter)}
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: '0.75rem',
+                    padding: '0.7rem 1rem', borderRadius: 'var(--radius-sm)',
+                    border: `1.5px solid ${borderColor}`, background: bg,
+                    cursor: showResults && mode === 'practice' ? 'default' : 'pointer',
+                    transition: 'var(--transition)',
+                  }}
+                  onMouseEnter={e => { if (!showResults || mode !== 'practice') e.currentTarget.style.borderColor = 'var(--accent-primary)'; }}
+                  onMouseLeave={e => { if (!showResults || mode !== 'practice') e.currentTarget.style.borderColor = borderColor; }}
+                >
+                  <div style={{
+                    width: '28px', height: '28px',
+                    borderRadius: isMulti ? '7px' : '50%',
+                    border: `2px solid ${selectorBorder}`,
+                    background: selectorBg, color: selectorColor,
+                    display: 'flex', alignItems: 'center', justifyContent: 'center',
+                    fontSize: '0.75rem', fontWeight: 800, flexShrink: 0,
+                    fontFamily: 'var(--font-heading)', transition: 'var(--transition)'
+                  }}>
+                    {opt.letter}
+                  </div>
+                  <div
+                    className="markdown-content"
+                    dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(opt.text) }}
+                    style={{ fontSize: '0.9rem', fontWeight: isPicked ? 600 : 400, flex: 1, color: 'var(--text-primary)' }}
+                  />
+                  {resultIcon}
+                </div>
+              );
+            })}
+          </div>
+        )}
+
+        {/* ── Explanation ── */}
+        {showResults && (
+          <div className="fade-in" style={{
+            marginTop: '1rem', padding: '1rem',
+            borderRadius: 'var(--radius-sm)',
+            background: 'var(--success-light)',
+            borderLeft: '3px solid var(--success)',
+          }}>
+            <div style={{
+              display: 'flex', alignItems: 'center', gap: '0.4rem',
+              fontWeight: 700, color: 'var(--success-text)', fontSize: '0.88rem',
+              marginBottom: '0.6rem', fontFamily: 'var(--font-heading)'
+            }}>
+              ✔ Đáp án đúng:
+              <span style={{
+                background: '#fff', padding: '0.12rem 0.5rem', borderRadius: '6px',
+                border: '1px solid var(--success)', fontSize: '0.85rem'
+              }}>
+                {answer || 'Xem giải thích bên dưới'}
+              </span>
+            </div>
+            <div
+              className="markdown-content"
+              dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(explanation || 'Không có giải thích.') }}
+              style={{ fontSize: '0.87rem', color: 'var(--text-secondary)', lineHeight: 1.65 }}
+            />
+            <ReferenceBox explanation={explanation} provider={provider} examTitle={examTitle} questionText={cleanText} />
+          </div>
+        )}
+      </div>
+
+      {/* ── Lightbox ── */}
+      {isZoomed && (
+        <div onClick={() => setIsZoomed(false)} style={{
+          position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.6)',
+          zIndex: 1000, display: 'flex', alignItems: 'center', justifyContent: 'center',
+          cursor: 'zoom-out', animation: 'fadeIn 0.2s ease'
+        }}>
+          <img src={zoomedImgSrc} alt="Zoom" style={{
+            maxWidth: '90%', maxHeight: '85vh', borderRadius: 'var(--radius-sm)',
+            border: '2px solid var(--border)', boxShadow: 'var(--shadow-lg)'
+          }} />
         </div>
       )}
     </div>
+  );
+}
+
+/* ── Sub-component: Small Action Button ── */
+function ActionBtn({ active, onClick, title, children, activeColor = 'var(--accent-primary)', activeBg = 'var(--accent-light)' }) {
+  return (
+    <button
+      onClick={onClick}
+      title={title}
+      style={{
+        width: '32px', height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center',
+        borderRadius: 'var(--radius-xs)', border: '1px solid var(--border)',
+        background: active ? activeBg : 'transparent',
+        color: active ? activeColor : 'var(--text-muted)',
+        cursor: 'pointer', transition: 'var(--transition)',
+        borderColor: active ? activeColor : 'var(--border)',
+      }}
+    >
+      {children}
+    </button>
   );
 }

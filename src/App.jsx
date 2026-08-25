@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BookOpen, Moon, Sun, Award, HelpCircle } from 'lucide-react';
+import { BookOpen, Moon, Sun } from 'lucide-react';
 import Dashboard from './components/Dashboard';
 import ExamEngine from './components/ExamEngine';
 
@@ -9,73 +9,43 @@ export default function App() {
   const [historyLogs, setHistoryLogs] = useState([]);
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
 
-  // Load catalog metadata and history on mount
   useEffect(() => {
     const fetchCatalog = async () => {
       try {
         const res = await fetch('/data/index.json');
-        if (!res.ok) {
-          throw new Error('Không thể tải file chỉ mục index.json');
-        }
+        if (!res.ok) throw new Error('Không thể tải index.json');
         const data = await res.json();
         setCatalog(data);
       } catch (err) {
-        console.error('Failed to load exam catalog index:', err);
+        console.error('Failed to load exam catalog:', err);
       }
     };
-
     fetchCatalog();
-
-    // Load history
     try {
-      const savedHistory = localStorage.getItem('examHistoryLogs');
-      if (savedHistory) {
-        setHistoryLogs(JSON.parse(savedHistory));
-      }
-    } catch (e) {
-      console.error('Failed to load exam history:', e);
-    }
+      const saved = localStorage.getItem('examHistoryLogs');
+      if (saved) setHistoryLogs(JSON.parse(saved));
+    } catch (e) { console.error(e); }
   }, []);
 
-  // Update HTML data-theme attribute when theme changes
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
   }, [theme]);
 
-  // Toggle dark/light theme
-  const toggleTheme = () => {
-    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
-  };
+  const toggleTheme = () => setTheme(prev => prev === 'dark' ? 'light' : 'dark');
 
-  // Select an exam to practice/take
-  const handleSelectExam = (exam) => {
-    setActiveExam(exam);
-  };
+  const handleSelectExam = (exam) => setActiveExam(exam);
 
-  // Import a custom exam and set as active exam immediately
   const handleImportExam = (importedExam) => {
-    // Add to local catalog state so it renders on Dashboard under 'custom' tab
     setCatalog(prev => {
-      const exists = prev.exams.some(e => e.slug === importedExam.slug);
-      if (exists) return prev;
-      return {
-        ...prev,
-        exams: [importedExam, ...prev.exams]
-      };
+      if (prev.exams.some(e => e.slug === importedExam.slug)) return prev;
+      return { ...prev, exams: [importedExam, ...prev.exams] };
     });
-    
-    // Jump straight to the exam
     setActiveExam(importedExam);
   };
 
-  // Save history log
   const handleSaveHistory = (newLog) => {
-    const logItem = {
-      id: Date.now() + Math.random().toString(36).substr(2, 5),
-      ...newLog
-    };
-    
+    const logItem = { id: Date.now() + Math.random().toString(36).substr(2, 5), ...newLog };
     setHistoryLogs(prev => {
       const updated = [logItem, ...prev];
       localStorage.setItem('examHistoryLogs', JSON.stringify(updated));
@@ -83,16 +53,12 @@ export default function App() {
     });
   };
 
-  // Clear all history
   const handleClearHistory = () => {
-    const confirmClear = window.confirm("Bạn có chắc chắn muốn xóa toàn bộ lịch sử thi thử?");
-    if (!confirmClear) return;
-    
+    if (!window.confirm('Xóa toàn bộ lịch sử thi thử?')) return;
     setHistoryLogs([]);
     localStorage.removeItem('examHistoryLogs');
   };
 
-  // Clear specific history item
   const handleClearHistoryItem = (id) => {
     setHistoryLogs(prev => {
       const updated = prev.filter(item => item.id !== id);
@@ -103,63 +69,47 @@ export default function App() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      {/* Navbar header */}
+      {/* ── Navbar ── */}
       <header className="navbar">
         <div className="nav-container">
           <div className="logo" onClick={() => setActiveExam(null)}>
             <div className="logo-icon">
-              <BookOpen size={20} />
+              <BookOpen size={19} />
             </div>
-            <div className="logo-text">
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
               <span className="brand-title">CertPrep <span className="badge-ai">Hub</span></span>
-              <span className="brand-sub">85+ Exams • Static Client Database</span>
+              <span className="brand-sub">85+ Exams • Offline-Ready</span>
             </div>
           </div>
 
           <div className="nav-actions">
-            <button
-              onClick={toggleTheme}
-              className="btn btn-icon"
-              title="Đổi giao diện Sáng / Tối"
-              style={{ borderRadius: '50%' }}
-            >
-              {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+            <button onClick={toggleTheme} className="btn-icon" title="Đổi giao diện" style={{ borderRadius: '50%' }}>
+              {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
             </button>
           </div>
         </div>
       </header>
 
-      {/* Main Content Area */}
+      {/* ── Content ── */}
       <main style={{ flex: 1 }}>
         {activeExam ? (
-          <ExamEngine
-            exam={activeExam}
-            onBack={() => setActiveExam(null)}
-            onSaveHistory={handleSaveHistory}
-          />
+          <ExamEngine exam={activeExam} onBack={() => setActiveExam(null)} onSaveHistory={handleSaveHistory} />
         ) : (
           <Dashboard
-            catalog={catalog}
-            historyLogs={historyLogs}
-            onSelectExam={handleSelectExam}
-            onImportExam={handleImportExam}
-            onClearHistory={handleClearHistory}
-            onClearHistoryItem={handleClearHistoryItem}
+            catalog={catalog} historyLogs={historyLogs}
+            onSelectExam={handleSelectExam} onImportExam={handleImportExam}
+            onClearHistory={handleClearHistory} onClearHistoryItem={handleClearHistoryItem}
           />
         )}
       </main>
 
-      {/* Footer */}
+      {/* ── Footer ── */}
       <footer style={{
-        textAlign: 'center',
-        padding: '2rem 1.5rem',
-        borderTop: '1px solid var(--border-color)',
-        color: 'var(--text-muted)',
-        fontSize: '0.8rem',
-        marginTop: '3rem'
+        textAlign: 'center', padding: '1.5rem', borderTop: '1px solid var(--border)',
+        color: 'var(--text-muted)', fontSize: '0.75rem', marginTop: '2rem'
       }}>
-        <p>© 2026 CertPrep Hub. Thiết kế cho ôn luyện các chứng chỉ AWS, Microsoft, Google Cloud.</p>
-        <p style={{ marginTop: '0.25rem', opacity: 0.8 }}>Dữ liệu tự động bóc tách từ repository cá nhân • Chạy hoàn toàn tại Client-side.</p>
+        <p>© 2026 CertPrep Hub — Ôn thi chứng chỉ AWS, Microsoft, Google Cloud</p>
+        <p style={{ marginTop: '0.2rem', opacity: 0.7 }}>Dữ liệu tĩnh • Client-side SPA</p>
       </footer>
     </div>
   );
