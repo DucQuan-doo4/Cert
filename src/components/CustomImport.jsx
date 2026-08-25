@@ -152,7 +152,7 @@ export default function CustomImport({ onImportExam }) {
           cursor: 'pointer',
           position: 'relative',
           transition: 'all 0.2s ease',
-          background: 'rgba(255,255,255,0.01)'
+          background: 'var(--bg-card)'
         }}
         onMouseEnter={(e) => e.currentTarget.style.borderColor = 'var(--accent-primary)'}
         onMouseLeave={(e) => e.currentTarget.style.borderColor = 'var(--border-color)'}
@@ -184,7 +184,7 @@ export default function CustomImport({ onImportExam }) {
           display: 'flex',
           flexDirection: 'column',
           gap: '0.75rem',
-          background: 'rgba(255,255,255,0.01)'
+          background: 'var(--bg-card)'
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem', fontWeight: '600' }}>
             <Link size={16} style={{ color: 'var(--accent-primary)' }} />

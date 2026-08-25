@@ -7,7 +7,7 @@ export default function App() {
   const [activeExam, setActiveExam] = useState(null);
   const [catalog, setCatalog] = useState({ exams: [] });
   const [historyLogs, setHistoryLogs] = useState([]);
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
 
   // Load catalog metadata and history on mount
   useEffect(() => {
@@ -108,7 +108,7 @@ export default function App() {
         <div className="nav-container">
           <div className="logo" onClick={() => setActiveExam(null)}>
             <div className="logo-icon">
-              <BookOpen size={20} fill="currentColor" />
+              <BookOpen size={20} />
             </div>
             <div className="logo-text">
               <span className="brand-title">CertPrep <span className="badge-ai">Hub</span></span>
@@ -121,6 +121,7 @@ export default function App() {
               onClick={toggleTheme}
               className="btn btn-icon"
               title="Đổi giao diện Sáng / Tối"
+              style={{ borderRadius: '50%' }}
             >
               {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
             </button>

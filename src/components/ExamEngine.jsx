@@ -334,7 +334,7 @@ export default function ExamEngine({ exam, onBack, onSaveHistory }) {
                   fontSize: '0.75rem',
                   borderRadius: '6px',
                   background: mode === 'practice' ? 'var(--accent-gradient)' : 'transparent',
-                  color: mode === 'practice' ? '#070d19' : 'var(--text-secondary)'
+                  color: mode === 'practice' ? '#ffffff' : 'var(--text-secondary)'
                 }}
               >
                 Luyện tập
@@ -347,7 +347,7 @@ export default function ExamEngine({ exam, onBack, onSaveHistory }) {
                   fontSize: '0.75rem',
                   borderRadius: '6px',
                   background: mode === 'exam' ? 'var(--accent-gradient)' : 'transparent',
-                  color: mode === 'exam' ? '#070d19' : 'var(--text-secondary)'
+                  color: mode === 'exam' ? '#ffffff' : 'var(--text-secondary)'
                 }}
               >
                 Thi thử
@@ -363,7 +363,7 @@ export default function ExamEngine({ exam, onBack, onSaveHistory }) {
             fontSize: '0.85rem',
             fontWeight: '750',
             color: mode === 'exam' && timeLeft < 300 ? 'var(--danger-text)' : 'var(--text-primary)',
-            background: mode === 'exam' && timeLeft < 300 ? 'var(--danger-bg)' : 'rgba(255, 255, 255, 0.03)',
+            background: mode === 'exam' && timeLeft < 300 ? 'var(--danger-bg)' : 'var(--accent-gradient-subtle)',
             padding: '0.35rem 0.65rem',
             borderRadius: '8px',
             border: `1px solid ${mode === 'exam' && timeLeft < 300 ? 'var(--danger-border)' : 'var(--border-color)'}`

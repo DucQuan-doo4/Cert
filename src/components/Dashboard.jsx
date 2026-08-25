@@ -98,8 +98,8 @@ export default function Dashboard({
         borderRadius: '24px'
       }}>
         {/* Glow circles behind glass */}
-        <div style={{ position: 'absolute', top: '-50px', right: '-50px', width: '200px', height: '200px', background: 'rgba(0, 242, 254, 0.12)', filter: 'blur(50px)', borderRadius: '50%', pointerEvents: 'none' }}></div>
-        <div style={{ position: 'absolute', bottom: '-50px', left: '-50px', width: '200px', height: '200px', background: 'rgba(127, 0, 255, 0.12)', filter: 'blur(50px)', borderRadius: '50%', pointerEvents: 'none' }}></div>
+        <div style={{ position: 'absolute', top: '-60px', right: '-60px', width: '220px', height: '220px', background: 'rgba(99, 102, 241, 0.1)', filter: 'blur(60px)', borderRadius: '50%', pointerEvents: 'none' }}></div>
+        <div style={{ position: 'absolute', bottom: '-60px', left: '-60px', width: '220px', height: '220px', background: 'rgba(236, 72, 153, 0.1)', filter: 'blur(60px)', borderRadius: '50%', pointerEvents: 'none' }}></div>
         
         <h1 style={{
           fontSize: '2.6rem',
@@ -107,7 +107,7 @@ export default function Dashboard({
           fontWeight: '800',
           marginBottom: '0.75rem',
           lineHeight: '1.25',
-          background: 'linear-gradient(135deg, #00f2fe 0%, #4facfe 50%, #7f00ff 100%)',
+          background: 'var(--accent-gradient)',
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
           letterSpacing: '-1px'
@@ -220,7 +220,7 @@ export default function Dashboard({
                 padding: '0.5rem 1rem',
                 borderRadius: '8px',
                 fontSize: '0.85rem',
-                ...(activeTab === prov ? {} : { borderColor: 'rgba(255,255,255,0.05)' })
+                ...(activeTab === prov ? {} : { borderColor: 'var(--border-color)' })
               }}
             >
               <span style={{ marginRight: '0.35rem' }}>{pInfo.icon}</span>

@@ -145,7 +145,7 @@ export default function QuestionCard({
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
             <span style={{
               background: 'var(--accent-gradient)',
-              color: '#070d19',
+              color: '#ffffff',
               fontWeight: '800',
               fontSize: '0.8rem',
               padding: '0.2rem 0.6rem',
@@ -224,7 +224,7 @@ export default function QuestionCard({
             gridTemplateColumns: '1fr 80px 80px',
             gap: '0.5rem',
             padding: '0.5rem',
-            background: 'rgba(255,255,255,0.03)',
+            background: 'rgba(99,102,241,0.04)',
             borderRadius: '8px',
             fontWeight: '600',
             fontSize: '0.85rem',
@@ -314,7 +314,7 @@ export default function QuestionCard({
                 flexDirection: 'column',
                 gap: '0.35rem',
                 padding: '0.75rem',
-                background: 'rgba(255,255,255,0.01)',
+                background: 'var(--accent-gradient-subtle)',
                 border: '1px solid var(--border-color)',
                 borderRadius: '8px'
               }}>
@@ -376,7 +376,7 @@ export default function QuestionCard({
                 flexDirection: 'column',
                 gap: '0.35rem',
                 padding: '0.75rem',
-                background: 'rgba(255,255,255,0.01)',
+                background: 'var(--bg-card)',
                 border: '1px solid var(--border-color)',
                 borderRadius: '8px'
               }}>
@@ -473,7 +473,7 @@ export default function QuestionCard({
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              color: isPicked ? '#070d19' : 'var(--text-secondary)',
+              color: isPicked ? '#ffffff' : 'var(--text-secondary)',
               fontSize: '0.75rem',
               fontWeight: '800',
               flexShrink: 0,
@@ -512,7 +512,7 @@ export default function QuestionCard({
           marginTop: '0.75rem',
           padding: '1.25rem',
           borderRadius: '12px',
-          background: 'rgba(255,255,255,0.02)',
+          background: 'var(--accent-gradient-subtle)',
           borderLeft: '4px solid var(--success-border)',
           borderTop: '1px solid var(--border-color)',
           borderRight: '1px solid var(--border-color)',
@@ -570,7 +570,7 @@ export default function QuestionCard({
             left: 0,
             right: 0,
             bottom: 0,
-            background: 'rgba(7, 13, 25, 0.95)',
+            background: 'rgba(0, 0, 0, 0.7)',
             zIndex: 1000,
             display: 'flex',
             alignItems: 'center',

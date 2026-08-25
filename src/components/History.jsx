@@ -149,7 +149,7 @@ export default function History({ historyLogs, onClearHistory, onClearItem }) {
                     height: '30px',
                     borderRadius: '8px',
                     border: '1px solid transparent',
-                    background: 'rgba(255,255,255,0.02)'
+                    background: 'var(--accent-gradient-subtle)'
                   }}
                   title="Xóa kết quả này"
                 >
