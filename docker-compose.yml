@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  cert-prep-hub:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cert-prep-hub-app
+    ports:
+      - "80:80"
+    restart: always
