@@ -6,14 +6,15 @@ import History from './History';
 const PROVIDER_META = {
   amazon: { 
     name: 'aws', 
-    slug: 'aws', 
-    badgeIcon: 'amazonwebservices/amazonwebservices-original',
+    slug: 'amazon', 
+    badgeType: 'text',
     gradient: 'var(--btn-aws-gradient)', 
     borderGradient: 'var(--aws-border)' 
   },
   microsoft: { 
     name: 'Microsoft Azure', 
     slug: 'microsoft', 
+    badgeType: 'devicon',
     badgeIcon: 'azure/azure-original',
     gradient: 'var(--btn-ms-gradient)', 
     borderGradient: 'var(--ms-border)' 
@@ -21,6 +22,7 @@ const PROVIDER_META = {
   google: { 
     name: 'Google Cloud', 
     slug: 'google', 
+    badgeType: 'devicon',
     badgeIcon: 'googlecloud/googlecloud-original',
     gradient: 'var(--btn-gcp-red)', // Can alternate between red/green if needed, using red as default
     borderGradient: 'var(--gcp-border)' 
@@ -147,12 +149,14 @@ export default function Dashboard({
 
               {/* Provider tag (Logo + Text) */}
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
-                {pInfo.badgeIcon && (
-                  <img src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${pInfo.badgeIcon}.svg`} alt={pInfo.name} style={{ width: '20px', height: '20px' }} onError={(e) => e.target.style.display = 'none'} />
+                {pInfo.badgeType === 'devicon' ? (
+                  <>
+                    <img src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${pInfo.badgeIcon}.svg`} alt={pInfo.name} style={{ width: '20px', height: '20px' }} />
+                    <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 600 }}>{pInfo.name}</span>
+                  </>
+                ) : (
+                  <span style={{ fontWeight: 900, fontSize: '18px', color: '#ff9900' }}>aws</span>
                 )}
-                <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
-                  {pInfo.slug === 'aws' ? 'aws' : pInfo.name}
-                </span>
               </div>
 
               {/* Exam Title */}

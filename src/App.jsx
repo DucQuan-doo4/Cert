@@ -61,7 +61,7 @@ export default function App() {
 
   const SIDEBAR_MENU = [
     { id: 'all', iconType: 'logo', src: '/logo.png' },
-    { id: 'aws', iconType: 'devicon', slug: 'amazonwebservices/amazonwebservices-original', bg: '#f9f9fa' },
+    { id: 'amazon', iconType: 'text', text: 'aws', color: '#ff9900', bg: '#f9f9fa' },
     { id: 'microsoft', iconType: 'devicon', slug: 'azure/azure-original', bg: '#ffffff', border: '1px solid #e0e4f0' },
     { id: 'google', iconType: 'devicon', slug: 'googlecloud/googlecloud-original', bg: '#ffffff', border: '1px solid #e0e4f0' },
   ];
@@ -83,9 +83,15 @@ export default function App() {
         paddingTop: '1.5rem',
         boxShadow: '2px 0 10px rgba(0,0,0,0.02)'
       }}>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem', marginBottom: '2rem' }}>
-          <img src="/logo.png" alt="Logo" style={{ width: '45px', height: '45px', objectFit: 'contain' }} />
-          <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--text-primary)' }}>Provider</span>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem', marginBottom: '2rem' }}>
+          <div style={{
+            width: '64px', height: '64px', borderRadius: '16px', overflow: 'hidden',
+            border: '2px solid var(--border)', boxShadow: '0 4px 12px rgba(0,0,0,0.06)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff'
+          }}>
+            <img src="/logo.png" alt="Logo" style={{ width: '135%', height: '135%', objectFit: 'cover' }} />
+          </div>
+          <span style={{ fontSize: '0.85rem', fontWeight: 800, color: 'var(--text-primary)', letterSpacing: '0.5px' }}>CertPrep</span>
         </div>
 
         <nav style={{ display: 'flex', flexDirection: 'column', gap: '1rem', width: '100%', alignItems: 'center' }}>
@@ -111,6 +117,9 @@ export default function App() {
                   alt={item.id} 
                   style={{ width: '32px', height: '32px' }} 
                 />
+              )}
+              {item.iconType === 'text' && (
+                <span style={{ fontWeight: 900, fontSize: '18px', color: item.color }}>{item.text}</span>
               )}
             </button>
           ))}
