@@ -32,7 +32,7 @@ export default function QuestionCard({
     ? (Array.isArray(userAnswer) ? userAnswer : (userAnswer ? [userAnswer] : []))
     : (userAnswer ? [userAnswer] : []);
 
-  const hasAnswered = selectedArr.length > 0 || 
+  const hasAnswered = (isMulti ? selectedArr.length === expectedCount : selectedArr.length > 0) || 
     (statements && userAnswer && Object.keys(userAnswer).length > 0) ||
     (dropdown && userAnswer && Object.keys(userAnswer).length > 0) ||
     (dragDrop && userAnswer && Object.keys(userAnswer).length > 0);

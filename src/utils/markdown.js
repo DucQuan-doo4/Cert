@@ -112,21 +112,47 @@ export function parseQuestionContent(rawText) {
   cleanText = cleanText.replace(/<Dropdown[\s\S]*?\/>/g, '');
   cleanText = cleanText.replace(/<DragDrop[\s\S]*?\/>/g, '');
 
-  // Strip other scraped Next.js / RSC stream payloads
-  cleanText = cleanText.replace(/",\s*"className"\s*:\s*"[^"]*\}[\s\S]*/gi, '');
-  cleanText = cleanText.replace(/^[a-z0-9]+:(?:I\[|\[)[\s\S]*?(?=[A-Z][a-z])/gm, '');
-  cleanText = cleanText.replace(/^[,\s"\$0-9a-zA-Z_:\[\]\{\}\-\.]+(?=[A-Z][a-z]\s)/gm, '');
-  cleanText = cleanText.replace(/^[\s\S]*?\}\]\s*,?\s*/, (match) => {
-    if (match.includes('className') || match.includes('button') || match.includes('icon') || match.includes('chunks')) {
-      return '';
-    }
-    return match;
-  });
+  // Detect Next.js RSC payload and clean it up
+  if (cleanText.includes('static/chunks') || cleanText.includes('className') || cleanText.includes('fav-question') || cleanText.includes('exam-content') || cleanText.includes('lassName')) {
+    // 1. Try to split by lines and filter out metadata lines
+    let lines = cleanText.split('\n');
+    lines = lines.filter(line => {
+      const trimmed = line.trim();
+      if (trimmed.includes('static/chunks') || trimmed.includes('static/media')) return false;
+      if (trimmed.match(/^[a-zA-Z0-9]+:(?:I\[|\[|\{|")/)) return false;
+      if (trimmed.startsWith('Name":"') || trimmed.startsWith('"Name":"') || trimmed.startsWith('lassName":"')) return false;
+      return true;
+    });
+    cleanText = lines.join('\n');
 
-  // Keep text starting from first real word paragraph in scrap
-  const realStart = cleanText.search(/(?:For |Select |Match |Which |What |Your |You |A |An |In |To |How |The |This |Choose |If |When |Note)/i);
-  if (realStart > 0 && realStart < 300) {
-    cleanText = cleanText.slice(realStart);
+    // 2. Find the last metadata bracket boundaries and slice the actual question text
+    const lastJunkIndex = Math.max(
+      cleanText.lastIndexOf('}]'),
+      cleanText.lastIndexOf('"]'),
+      cleanText.lastIndexOf('",'),
+      cleanText.lastIndexOf('default"]'),
+      cleanText.lastIndexOf('Image"]')
+    );
+
+    if (lastJunkIndex >= 0 && lastJunkIndex < cleanText.length - 1) {
+      let possibleText = cleanText.substring(lastJunkIndex + 2).trim();
+      possibleText = possibleText.replace(/^[,\s\]}]+/g, '').trim(); // Remove leading punctuation
+      
+      if (possibleText.length > 5) {
+        cleanText = possibleText;
+      }
+    }
+  }
+
+  // Further inline cleanup
+  cleanText = cleanText.replace(/lassName":"[^"]*"/gi, '');
+  cleanText = cleanText.replace(/className":"[^"]*"/gi, '');
+
+  // Keep text starting from first real word paragraph in scrap (broadened patterns)
+  const markerRegex = /(?:##\s+|Overview|Case\s+Study|\*\*Question|\bYou\s+have\b|\bWhich\b|\bWhat\b|\bYour\b|\bAn?\b|\bThe\b|\bIn\b|\bTo\b|\bHow\b|\bChoose\b|\bIf\b|\bWhen\b|\bFor\b|\bSelect\b|\bMatch\b)/i;
+  const match = cleanText.match(markerRegex);
+  if (match && match.index > 0 && match.index < 350) {
+    cleanText = cleanText.substring(match.index);
   }
 
   // Cleanup invalid markdown links
