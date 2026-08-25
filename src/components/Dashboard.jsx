@@ -1,356 +1,222 @@
 import React, { useState, useMemo } from 'react';
-import { Search, Play, BookOpen, Layers, ChevronRight, Star, TrendingUp, BarChart3 } from 'lucide-react';
+import { Search } from 'lucide-react';
 import CustomImport from './CustomImport';
 import History from './History';
 
 const PROVIDER_META = {
-  amazon: { name: 'AWS', slug: 'aws', color: '#ff9900', gradient: 'linear-gradient(135deg, #ff9900 0%, #ff6600 100%)' },
-  microsoft: { name: 'Microsoft', slug: 'microsoft', color: '#0078d4', gradient: 'linear-gradient(135deg, #0078d4 0%, #00bcf2 100%)' },
-  google: { name: 'Google Cloud', slug: 'google', color: '#4285f4', gradient: 'linear-gradient(135deg, #4285f4 0%, #34a853 100%)' }
+  amazon: { 
+    name: 'aws', 
+    slug: 'aws', 
+    badgeIcon: 'amazonwebservices/amazonwebservices-original',
+    gradient: 'var(--btn-aws-gradient)', 
+    borderGradient: 'var(--aws-border)' 
+  },
+  microsoft: { 
+    name: 'Microsoft Azure', 
+    slug: 'microsoft', 
+    badgeIcon: 'azure/azure-original',
+    gradient: 'var(--btn-ms-gradient)', 
+    borderGradient: 'var(--ms-border)' 
+  },
+  google: { 
+    name: 'Google Cloud', 
+    slug: 'google', 
+    badgeIcon: 'googlecloud/googlecloud-original',
+    gradient: 'var(--btn-gcp-red)', // Can alternate between red/green if needed, using red as default
+    borderGradient: 'var(--gcp-border)' 
+  }
 };
 
 export default function Dashboard({
   catalog,
   historyLogs,
+  activeFilter,
   onSelectExam,
   onImportExam,
   onClearHistory,
   onClearHistoryItem
 }) {
   const [searchQuery, setSearchQuery] = useState('');
-  const [activeTab, setActiveTab] = useState('all');
 
   const { exams, summary } = useMemo(() => {
     if (!catalog || !catalog.exams) {
-      return { exams: [], summary: { totalExams: 0, totalQuestions: 0, providerCounts: {} } };
+      return { exams: [], summary: { totalExams: 0, totalQuestions: 0 } };
     }
     const allExams = catalog.exams;
-    const providerCounts = {};
     let totalQuestions = 0;
     allExams.forEach(exam => {
-      const p = exam.provider || 'others';
-      providerCounts[p] = (providerCounts[p] || 0) + 1;
       totalQuestions += exam.totalQuestions || 0;
     });
     return {
       exams: allExams,
-      summary: { totalExams: allExams.length, totalQuestions, providerCounts }
+      summary: { totalExams: allExams.length, totalQuestions }
     };
   }, [catalog]);
 
-  const dynamicProviders = useMemo(() => {
-    const list = new Set();
-    exams.forEach(exam => { if (exam.provider) list.add(exam.provider); });
-    return Array.from(list);
-  }, [exams]);
-
   const filteredExams = useMemo(() => {
     return exams.filter(exam => {
-      const matchesTab = activeTab === 'all' || exam.provider === activeTab;
+      const p = exam.provider ? exam.provider.toLowerCase() : 'other';
+      const matchesTab = activeFilter === 'all' || p.includes(activeFilter) || activeFilter.includes(p);
       const term = searchQuery.toLowerCase().trim();
       const matchesSearch = !term ||
         exam.title.toLowerCase().includes(term) ||
         exam.slug.toLowerCase().includes(term) ||
-        (exam.provider && exam.provider.toLowerCase().includes(term));
+        p.includes(term);
       return matchesTab && matchesSearch;
     });
-  }, [exams, activeTab, searchQuery]);
+  }, [exams, activeFilter, searchQuery]);
 
-  const getProviderInfo = (provider) => {
+  const getProviderInfo = (provider, index = 0) => {
     const pLower = (provider || '').toLowerCase();
-    return PROVIDER_META[pLower] || { name: provider || 'Other', slug: 'other', color: '#64748b', gradient: 'linear-gradient(135deg, #64748b, #475569)' };
+    for (const key in PROVIDER_META) {
+      if (pLower.includes(key) || key.includes(pLower)) {
+        let meta = { ...PROVIDER_META[key] };
+        // Alternate Google Cloud button colors based on index to mimic mockup (red then green)
+        if (meta.slug === 'google' && index % 2 !== 0) {
+          meta.gradient = 'var(--btn-gcp-green)';
+        }
+        return meta;
+      }
+    }
+    return { name: provider || 'Other', slug: 'other', gradient: 'linear-gradient(to right, #6b7280, #9ca3af)', borderGradient: 'linear-gradient(to bottom, #6b7280, #9ca3af)' };
   };
 
   // Recent history stats
   const recentStats = useMemo(() => {
-    if (!historyLogs || historyLogs.length === 0) return { avgScore: 0, totalAttempts: 0 };
-    const total = historyLogs.length;
-    const avg = Math.round(historyLogs.reduce((sum, h) => sum + (h.percentage || 0), 0) / total);
-    return { avgScore: avg, totalAttempts: total };
+    if (!historyLogs || historyLogs.length === 0) return { passRate: 0, qsPracticed: 0 };
+    const passed = historyLogs.filter(h => h.percentage >= 70).length;
+    const passRate = Math.round((passed / historyLogs.length) * 100);
+    const qsPracticed = historyLogs.reduce((sum, h) => sum + (h.total || 0), 0);
+    return { passRate, qsPracticed };
   }, [historyLogs]);
 
   return (
-    <div className="fade-up" style={{ maxWidth: '1320px', margin: '0 auto', padding: '1.5rem' }}>
-
-      {/* ── Hero Stats Row ── */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-        gap: '1rem',
-        marginBottom: '2rem'
-      }}>
-        <StatCard
-          icon={<Layers size={20} />}
-          label="Tổng bộ đề"
-          value={summary.totalExams}
-          color="var(--accent-primary)"
-          bg="var(--accent-light)"
-        />
-        <StatCard
-          icon={<BookOpen size={20} />}
-          label="Tổng câu hỏi"
-          value={summary.totalQuestions.toLocaleString()}
-          color="#8b5cf6"
-          bg="rgba(139,92,246,0.08)"
-        />
-        <StatCard
-          icon={<TrendingUp size={20} />}
-          label="Điểm trung bình"
-          value={recentStats.avgScore > 0 ? `${recentStats.avgScore}%` : '—'}
-          color="var(--success-text)"
-          bg="var(--success-light)"
-        />
-        <StatCard
-          icon={<BarChart3 size={20} />}
-          label="Lần làm bài"
-          value={recentStats.totalAttempts}
-          color="var(--warning-text)"
-          bg="var(--warning-light)"
-        />
-      </div>
-
-      {/* ── Search + Filter Bar ── */}
-      <div style={{
-        display: 'flex',
-        gap: '0.75rem',
-        alignItems: 'center',
-        flexWrap: 'wrap',
-        marginBottom: '1.5rem'
-      }}>
-        {/* Search Input */}
+    <div className="fade-up" style={{ padding: '2rem', maxWidth: '1400px', width: '100%' }}>
+      
+      {/* ── Top Hero Search ── */}
+      <div style={{ marginBottom: '2rem' }}>
         <div style={{
-          flex: 1,
-          minWidth: '280px',
           display: 'flex',
           alignItems: 'center',
-          gap: '0.5rem',
+          gap: '0.75rem',
           background: 'var(--bg-input)',
           borderRadius: 'var(--radius-sm)',
-          padding: '0.5rem 1rem',
+          padding: '0.85rem 1.5rem',
           border: '1px solid var(--border)',
           transition: 'var(--transition)',
         }}>
-          <Search size={18} style={{ color: 'var(--text-muted)', flexShrink: 0 }} />
+          <Search size={22} style={{ color: 'var(--ring-color)', flexShrink: 0 }} />
           <input
             type="text"
-            placeholder="Tìm bộ đề (AZ-900, SAA-C03, Cloud Digital Leader...)"
+            placeholder="Search for an exam..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             style={{
               flex: 1,
               background: 'transparent',
               border: 'none',
-              padding: '0.35rem 0',
+              padding: '0.2rem 0',
               color: 'var(--text-primary)',
               outline: 'none',
-              fontSize: '0.9rem',
+              fontSize: '1.2rem',
               fontFamily: 'var(--font-main)'
             }}
           />
-          {searchQuery && (
-            <button
-              onClick={() => setSearchQuery('')}
-              style={{
-                background: 'none', border: 'none', cursor: 'pointer',
-                color: 'var(--text-muted)', fontSize: '0.8rem', fontWeight: 600,
-                padding: '0.15rem 0.4rem', borderRadius: '4px'
-              }}
-            >
-              ✕
-            </button>
-          )}
-        </div>
-
-        {/* Filter Tabs */}
-        <div style={{
-          display: 'flex',
-          gap: '0.35rem',
-          background: 'var(--bg-input)',
-          padding: '0.25rem',
-          borderRadius: 'var(--radius-sm)',
-          border: '1px solid var(--border)',
-        }}>
-          <FilterTab active={activeTab === 'all'} onClick={() => setActiveTab('all')}>
-            Tất cả
-          </FilterTab>
-          {dynamicProviders.map(prov => {
-            const pInfo = getProviderInfo(prov);
-            return (
-              <FilterTab key={prov} active={activeTab === prov} onClick={() => setActiveTab(prov)}>
-                {pInfo.name}
-              </FilterTab>
-            );
-          })}
         </div>
       </div>
 
-      {/* ── Exam Cards Grid ── */}
-      {filteredExams.length === 0 ? (
-        <div className="card" style={{ padding: '4rem 2rem', textAlign: 'center' }}>
-          <Search size={40} style={{ color: 'var(--text-muted)', opacity: 0.3, marginBottom: '0.75rem' }} />
-          <h3 style={{ color: 'var(--text-secondary)', fontFamily: 'var(--font-heading)', fontSize: '1.1rem' }}>
-            Không tìm thấy bộ đề phù hợp
-          </h3>
-          <p style={{ color: 'var(--text-muted)', fontSize: '0.85rem', marginTop: '0.25rem' }}>
-            Thử thay đổi bộ lọc hoặc từ khóa tìm kiếm.
-          </p>
-        </div>
-      ) : (
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-          gap: '1rem',
-          marginBottom: '2.5rem'
-        }}>
-          {filteredExams.map((exam, idx) => {
-            const pInfo = getProviderInfo(exam.provider);
-            return (
-              <div
-                key={exam.slug}
-                className="card"
-                onClick={() => onSelectExam(exam)}
-                style={{
-                  padding: '1.25rem',
-                  cursor: 'pointer',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  gap: '0.85rem',
-                  position: 'relative',
-                  overflow: 'hidden',
-                  animation: `fadeUp 0.35s ${idx * 0.02}s cubic-bezier(0.16,1,0.3,1) both`,
-                }}
-              >
-                {/* Provider gradient accent strip */}
-                <div style={{
-                  position: 'absolute', top: 0, left: 0, right: 0, height: '3px',
-                  background: pInfo.gradient, borderRadius: '16px 16px 0 0'
-                }} />
-
-                {/* Top row: Provider tag + question count */}
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span className={`provider-tag ${pInfo.slug}`}>
-                    {pInfo.name}
-                  </span>
-                  <span style={{
-                    fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 500,
-                    display: 'flex', alignItems: 'center', gap: '0.25rem'
-                  }}>
-                    <BookOpen size={12} />
-                    {exam.totalQuestions} câu
-                  </span>
-                </div>
-
-                {/* Exam Title */}
-                <h3 style={{
-                  fontSize: '0.95rem',
-                  fontFamily: 'var(--font-heading)',
-                  fontWeight: 700,
-                  lineHeight: 1.4,
-                  color: 'var(--text-primary)',
-                  display: '-webkit-box',
-                  WebkitLineClamp: 2,
-                  WebkitBoxOrient: 'vertical',
-                  overflow: 'hidden',
-                  minHeight: '2.66em'
-                }} title={exam.title}>
-                  {exam.title === 'Copy link to this question' ? exam.slug.toUpperCase() : exam.title}
-                </h3>
-
-                {/* Bottom row: Start button */}
-                <div style={{
-                  display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-                  paddingTop: '0.65rem', borderTop: '1px solid var(--border)', marginTop: 'auto'
-                }}>
-                  {exam.isComplete && (
-                    <span style={{
-                      fontSize: '0.7rem', color: 'var(--success-text)',
-                      display: 'inline-flex', alignItems: 'center', gap: '0.2rem', fontWeight: 600
-                    }}>
-                      <Star size={10} fill="currentColor" /> Verified
-                    </span>
-                  )}
-                  {!exam.isComplete && <span />}
-                  <span style={{
-                    display: 'inline-flex', alignItems: 'center', gap: '0.3rem',
-                    fontSize: '0.82rem', fontWeight: 700, color: 'var(--accent-primary)',
-                    fontFamily: 'var(--font-heading)'
-                  }}>
-                    Luyện đề
-                    <ChevronRight size={14} />
-                  </span>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      )}
-
-      {/* ── Import + History Section ── */}
+      {/* ── Main Bento Grid ── */}
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))',
         gap: '1.5rem',
-        alignItems: 'start'
+        alignItems: 'stretch'
       }}>
+        
+        {/* Exam Cards */}
+        {filteredExams.map((exam, idx) => {
+          const pInfo = getProviderInfo(exam.provider, idx);
+          return (
+            <div
+              key={exam.slug}
+              className="exam-card"
+              onClick={() => onSelectExam(exam)}
+            >
+              {/* Left Gradient Border */}
+              <div className="exam-card-border" style={{ background: pInfo.borderGradient }} />
+
+              {/* Provider tag (Logo + Text) */}
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
+                {pInfo.badgeIcon && (
+                  <img src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${pInfo.badgeIcon}.svg`} alt={pInfo.name} style={{ width: '20px', height: '20px' }} onError={(e) => e.target.style.display = 'none'} />
+                )}
+                <span style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', fontWeight: 600 }}>
+                  {pInfo.slug === 'aws' ? 'aws' : pInfo.name}
+                </span>
+              </div>
+
+              {/* Exam Title */}
+              <h3 className="exam-card-title" title={exam.title}>
+                {exam.title === 'Copy link to this question' ? exam.slug.toUpperCase() : exam.title}
+              </h3>
+
+              {/* Bottom section: Questions + Progress + Start Button */}
+              <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginTop: 'auto' }}>
+                <div style={{ flex: 1, marginRight: '1.5rem' }}>
+                  <div style={{ fontSize: '0.85rem', color: 'var(--text-primary)', fontWeight: 500, marginBottom: '0.5rem' }}>
+                    {exam.totalQuestions} questions
+                  </div>
+                  {/* Decorative Progress Bar */}
+                  <div style={{ width: '100%', height: '4px', background: 'var(--ring-bg)', borderRadius: '2px', overflow: 'hidden' }}>
+                    <div style={{ width: exam.isComplete ? '100%' : '20%', height: '100%', background: 'var(--ring-color)', borderRadius: '2px' }} />
+                  </div>
+                </div>
+
+                <button className="btn-start" style={{ background: pInfo.gradient }}>
+                  Start
+                </button>
+              </div>
+            </div>
+          );
+        })}
+
+        {/* ── Stats Card ── */}
+        <div className="exam-card" style={{ padding: '1.5rem' }}>
+          <h3 style={{ fontSize: '1.15rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '1.5rem' }}>Stats</h3>
+          
+          <div className="stats-circle-container" style={{ flexDirection: 'row', justifyContent: 'space-around', alignItems: 'flex-start' }}>
+            
+            <div className="stats-circle-container">
+              <div className="circular-progress" style={{ '--progress': '100' }}>
+                <span className="circular-progress-value">{summary.totalExams}</span>
+              </div>
+              <span className="stats-label">Total exams</span>
+            </div>
+
+            <div className="stats-circle-container">
+              <div className="circular-progress" style={{ '--progress': Math.min(100, (recentStats.qsPracticed / Math.max(1, summary.totalQuestions)) * 100).toString() }}>
+                <span className="circular-progress-value">{recentStats.qsPracticed}</span>
+              </div>
+              <span className="stats-label">Questions<br/>practiced</span>
+            </div>
+
+            <div className="stats-circle-container">
+              <div className="circular-progress" style={{ '--progress': recentStats.passRate.toString() }}>
+                <span className="circular-progress-value">{recentStats.passRate}%</span>
+              </div>
+              <span className="stats-label">Pass rate</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      {/* ── Import & History ── */}
+      <div style={{ marginTop: '3rem', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: '1.5rem' }}>
         <CustomImport onImportExam={onImportExam} />
-        <History
-          historyLogs={historyLogs}
-          onClearHistory={onClearHistory}
-          onClearItem={onClearHistoryItem}
-        />
+        <History historyLogs={historyLogs} onClearHistory={onClearHistory} onClearItem={onClearHistoryItem} />
       </div>
     </div>
-  );
-}
-
-/* ── Sub-Components ── */
-
-function StatCard({ icon, label, value, color, bg }) {
-  return (
-    <div className="card" style={{
-      padding: '1.15rem 1.25rem',
-      display: 'flex',
-      alignItems: 'center',
-      gap: '0.85rem'
-    }}>
-      <div style={{
-        width: '42px', height: '42px', borderRadius: 'var(--radius-sm)',
-        background: bg, display: 'flex', alignItems: 'center', justifyContent: 'center',
-        color: color, flexShrink: 0
-      }}>
-        {icon}
-      </div>
-      <div>
-        <div style={{ fontSize: '1.35rem', fontWeight: 800, fontFamily: 'var(--font-heading)', color: 'var(--text-primary)', lineHeight: 1.2 }}>
-          {value}
-        </div>
-        <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: 500 }}>
-          {label}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function FilterTab({ active, onClick, children }) {
-  return (
-    <button
-      onClick={onClick}
-      style={{
-        padding: '0.4rem 0.85rem',
-        borderRadius: 'var(--radius-xs)',
-        fontSize: '0.8rem',
-        fontWeight: 600,
-        fontFamily: 'var(--font-main)',
-        cursor: 'pointer',
-        border: 'none',
-        transition: 'var(--transition)',
-        background: active ? 'var(--accent-primary)' : 'transparent',
-        color: active ? '#fff' : 'var(--text-secondary)',
-        boxShadow: active ? 'var(--shadow-accent)' : 'none',
-      }}
-    >
-      {children}
-    </button>
   );
 }

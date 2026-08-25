@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Flag, Eye, EyeOff, Languages, Check, X } from 'lucide-react';
+import { Flag, Eye, EyeOff, Languages, Check, X, AlertCircle } from 'lucide-react';
 import { parseQuestionContent, parseMarkdownToHtml, detectMultiSelect, getExpectedCount } from '../utils/markdown';
 import ReferenceBox from './ReferenceBox';
 
@@ -53,6 +53,14 @@ export default function QuestionCard({
 
   const displayQuestionHtml = isTranslated ? cleanText + '<br/><small style="color:var(--text-muted);font-style:italic;margin-top:6px;display:block;">[Bản dịch tự động — nhấn lại nút Dịch để xem gốc]</small>' : cleanText;
 
+  // Determine if the user got this multiple-choice question completely correct
+  const isCompletelyCorrect = () => {
+    if (!answer || !options) return false;
+    const correctLetters = answer.split(',').map(s => s.trim().toUpperCase());
+    if (selectedArr.length !== correctLetters.length) return false;
+    return selectedArr.every(l => correctLetters.includes(l.toUpperCase()));
+  };
+
   return (
     <div className={`card scale-in ${isFlagged ? 'flagged-card' : ''}`} style={{
       padding: 0, overflow: 'hidden', position: 'relative',
@@ -68,25 +76,25 @@ export default function QuestionCard({
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
           <span style={{
             background: 'var(--accent-gradient)', color: '#fff',
-            fontWeight: 800, fontSize: '0.75rem',
-            padding: '0.2rem 0.65rem', borderRadius: 'var(--radius-full)',
+            fontWeight: 800, fontSize: '0.85rem',
+            padding: '0.2rem 0.65rem', borderRadius: 'var(--radius-xs)',
             fontFamily: 'var(--font-heading)', letterSpacing: '0.3px'
           }}>
-            Câu {number}
+            {number}
           </span>
           {domain && (
             <span style={{
-              fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 500,
-              background: 'var(--bg-input)', padding: '0.15rem 0.5rem',
-              borderRadius: 'var(--radius-full)', border: '1px solid var(--border)'
+              fontSize: '0.72rem', color: 'var(--accent-primary)', fontWeight: 600,
+              background: 'var(--accent-light)', padding: '0.15rem 0.5rem',
+              borderRadius: 'var(--radius-full)', textTransform: 'uppercase'
             }}>
               {domain}
             </span>
           )}
           {isMulti && (
             <span style={{
-              fontSize: '0.72rem', color: 'var(--accent-primary)', fontWeight: 700,
-              background: 'var(--accent-light)', padding: '0.15rem 0.5rem',
+              fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 600,
+              border: '1px solid var(--border)', padding: '0.15rem 0.5rem',
               borderRadius: 'var(--radius-full)'
             }}>
               Chọn {expectedCount} đáp án
@@ -120,7 +128,7 @@ export default function QuestionCard({
           onClick={handleContentClick}
           dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(displayQuestionHtml) }}
           className="markdown-content"
-          style={{ fontSize: '0.95rem', color: 'var(--text-primary)', fontWeight: 500, lineHeight: 1.7, marginBottom: '1rem' }}
+          style={{ fontSize: '1.05rem', color: 'var(--text-primary)', fontWeight: 600, lineHeight: 1.6, marginBottom: '1.5rem', fontFamily: 'var(--font-main)' }}
         />
 
         {/* ── Statements (Microsoft) ── */}
@@ -197,7 +205,7 @@ export default function QuestionCard({
                   </select>
                   {showResults && blank.answer && (
                     <div style={{ fontSize: '0.78rem', color: 'var(--success-text)', marginTop: '0.3rem', display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
-                      <Check size={12} /> Đáp án: <strong>{blank.answer}</strong>
+                      <Check size={12} /> Đáp án đúng: <strong>{blank.answer}</strong>
                     </div>
                   )}
                 </div>
@@ -232,7 +240,7 @@ export default function QuestionCard({
                   </select>
                   {showResults && slot.answer && (
                     <div style={{ fontSize: '0.78rem', color: 'var(--success-text)', marginTop: '0.3rem', display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
-                      <Check size={12} /> Ghép cặp: <strong>{slot.answer}</strong>
+                      <Check size={12} /> Ghép cặp đúng: <strong>{slot.answer}</strong>
                     </div>
                   )}
                 </div>
@@ -243,21 +251,20 @@ export default function QuestionCard({
 
         {/* ── Options List (MCQ) ── */}
         {options && options.length > 0 && (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
             {options.map((opt) => {
               const isPicked = selectedArr.includes(opt.letter);
               const isCorrectOpt = isOptionCorrect(opt.letter);
 
               let borderColor = 'var(--border)';
               let bg = 'var(--bg-card)';
-              let selectorBg = 'transparent';
-              let selectorBorder = 'var(--text-muted)';
-              let selectorColor = 'var(--text-muted)';
+              let selectorBg = 'var(--bg-secondary)';
+              let selectorBorder = 'var(--border)';
+              let selectorColor = 'var(--text-secondary)';
               let resultIcon = null;
 
               if (isPicked && !showResults) {
                 borderColor = 'var(--accent-primary)';
-                bg = 'var(--accent-light)';
                 selectorBg = 'var(--accent-primary)';
                 selectorBorder = 'var(--accent-primary)';
                 selectorColor = '#fff';
@@ -270,14 +277,13 @@ export default function QuestionCard({
                   selectorBg = 'var(--success)';
                   selectorBorder = 'var(--success)';
                   selectorColor = '#fff';
-                  resultIcon = <Check size={16} style={{ color: 'var(--success)', marginLeft: 'auto', flexShrink: 0 }} />;
+                  resultIcon = <Check size={18} style={{ color: 'var(--success)', marginLeft: 'auto', flexShrink: 0 }} />;
                 } else if (isPicked && !isCorrectOpt) {
                   borderColor = 'var(--danger)';
-                  bg = 'var(--danger-light)';
                   selectorBg = 'var(--danger)';
                   selectorBorder = 'var(--danger)';
                   selectorColor = '#fff';
-                  resultIcon = <X size={16} style={{ color: 'var(--danger)', marginLeft: 'auto', flexShrink: 0 }} />;
+                  resultIcon = <X size={18} style={{ color: 'var(--danger)', marginLeft: 'auto', flexShrink: 0 }} />;
                 }
               }
 
@@ -286,8 +292,8 @@ export default function QuestionCard({
                   key={opt.letter}
                   onClick={() => handleOptionClick(opt.letter)}
                   style={{
-                    display: 'flex', alignItems: 'center', gap: '0.75rem',
-                    padding: '0.7rem 1rem', borderRadius: 'var(--radius-sm)',
+                    display: 'flex', alignItems: 'center', gap: '1rem',
+                    padding: '0.85rem 1.25rem', borderRadius: 'var(--radius-sm)',
                     border: `1.5px solid ${borderColor}`, background: bg,
                     cursor: showResults && mode === 'practice' ? 'default' : 'pointer',
                     transition: 'var(--transition)',
@@ -296,20 +302,19 @@ export default function QuestionCard({
                   onMouseLeave={e => { if (!showResults || mode !== 'practice') e.currentTarget.style.borderColor = borderColor; }}
                 >
                   <div style={{
-                    width: '28px', height: '28px',
-                    borderRadius: isMulti ? '7px' : '50%',
-                    border: `2px solid ${selectorBorder}`,
+                    width: '32px', height: '32px',
+                    borderRadius: isMulti ? '8px' : '50%',
                     background: selectorBg, color: selectorColor,
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    fontSize: '0.75rem', fontWeight: 800, flexShrink: 0,
-                    fontFamily: 'var(--font-heading)', transition: 'var(--transition)'
+                    fontSize: '0.85rem', fontWeight: 700, flexShrink: 0,
+                    fontFamily: 'var(--font-main)', transition: 'var(--transition)'
                   }}>
                     {opt.letter}
                   </div>
                   <div
                     className="markdown-content"
                     dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(opt.text) }}
-                    style={{ fontSize: '0.9rem', fontWeight: isPicked ? 600 : 400, flex: 1, color: 'var(--text-primary)' }}
+                    style={{ fontSize: '0.95rem', fontWeight: isPicked ? 500 : 400, flex: 1, color: 'var(--text-primary)' }}
                   />
                   {resultIcon}
                 </div>
@@ -318,31 +323,62 @@ export default function QuestionCard({
           </div>
         )}
 
+        {/* ── EXPLICIT WRONG ANSWER FEEDBACK BANNER ── */}
+        {showResults && options && options.length > 0 && selectedArr.length > 0 && !isCompletelyCorrect() && (
+          <div className="fade-in" style={{
+            marginTop: '1.25rem', padding: '1rem 1.25rem',
+            borderRadius: 'var(--radius-sm)',
+            background: 'var(--danger-light)',
+            border: '1px solid var(--danger)',
+            display: 'flex', alignItems: 'center', gap: '0.75rem'
+          }}>
+            <AlertCircle size={24} style={{ color: 'var(--danger)', flexShrink: 0 }} />
+            <div>
+              <div style={{ fontWeight: 800, color: 'var(--danger-text)', fontSize: '0.95rem' }}>
+                Sai rồi! Đáp án đúng là: {answer}
+              </div>
+              <div style={{ fontSize: '0.8rem', color: 'var(--danger-text)', opacity: 0.85 }}>
+                Bạn đã chọn: {selectedArr.join(', ')}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* ── EXPLICIT CORRECT ANSWER FEEDBACK BANNER ── */}
+        {showResults && options && options.length > 0 && selectedArr.length > 0 && isCompletelyCorrect() && (
+          <div className="fade-in" style={{
+            marginTop: '1.25rem', padding: '1rem 1.25rem',
+            borderRadius: 'var(--radius-sm)',
+            background: 'var(--success-light)',
+            border: '1px solid var(--success)',
+            display: 'flex', alignItems: 'center', gap: '0.75rem'
+          }}>
+            <Check size={24} style={{ color: 'var(--success)', flexShrink: 0 }} />
+            <div style={{ fontWeight: 800, color: 'var(--success-text)', fontSize: '0.95rem' }}>
+              Chính xác! Đáp án là {answer}
+            </div>
+          </div>
+        )}
+
         {/* ── Explanation ── */}
         {showResults && (
           <div className="fade-in" style={{
-            marginTop: '1rem', padding: '1rem',
+            marginTop: '1.25rem', padding: '1.25rem',
             borderRadius: 'var(--radius-sm)',
-            background: 'var(--success-light)',
-            borderLeft: '3px solid var(--success)',
+            background: 'var(--bg-secondary)',
+            borderLeft: '4px solid var(--accent-primary)',
           }}>
             <div style={{
               display: 'flex', alignItems: 'center', gap: '0.4rem',
-              fontWeight: 700, color: 'var(--success-text)', fontSize: '0.88rem',
-              marginBottom: '0.6rem', fontFamily: 'var(--font-heading)'
+              fontWeight: 700, color: 'var(--text-primary)', fontSize: '0.9rem',
+              marginBottom: '0.75rem', fontFamily: 'var(--font-heading)'
             }}>
-              ✔ Đáp án đúng:
-              <span style={{
-                background: '#fff', padding: '0.12rem 0.5rem', borderRadius: '6px',
-                border: '1px solid var(--success)', fontSize: '0.85rem'
-              }}>
-                {answer || 'Xem giải thích bên dưới'}
-              </span>
+              Giải thích chi tiết:
             </div>
             <div
               className="markdown-content"
               dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(explanation || 'Không có giải thích.') }}
-              style={{ fontSize: '0.87rem', color: 'var(--text-secondary)', lineHeight: 1.65 }}
+              style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: 1.65 }}
             />
             <ReferenceBox explanation={explanation} provider={provider} examTitle={examTitle} questionText={cleanText} />
           </div>
@@ -374,12 +410,13 @@ function ActionBtn({ active, onClick, title, children, activeColor = 'var(--acce
       title={title}
       style={{
         width: '32px', height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center',
-        borderRadius: 'var(--radius-xs)', border: '1px solid var(--border)',
+        borderRadius: 'var(--radius-xs)', border: '1px solid transparent',
         background: active ? activeBg : 'transparent',
         color: active ? activeColor : 'var(--text-muted)',
         cursor: 'pointer', transition: 'var(--transition)',
-        borderColor: active ? activeColor : 'var(--border)',
       }}
+      onMouseEnter={e => e.currentTarget.style.background = active ? activeBg : 'var(--bg-input)'}
+      onMouseLeave={e => e.currentTarget.style.background = active ? activeBg : 'transparent'}
     >
       {children}
     </button>

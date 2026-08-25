@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { BookOpen, Moon, Sun } from 'lucide-react';
 import Dashboard from './components/Dashboard';
 import ExamEngine from './components/ExamEngine';
 
@@ -7,7 +6,7 @@ export default function App() {
   const [activeExam, setActiveExam] = useState(null);
   const [catalog, setCatalog] = useState({ exams: [] });
   const [historyLogs, setHistoryLogs] = useState([]);
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+  const [activeFilter, setActiveFilter] = useState('all');
 
   useEffect(() => {
     const fetchCatalog = async () => {
@@ -26,13 +25,6 @@ export default function App() {
       if (saved) setHistoryLogs(JSON.parse(saved));
     } catch (e) { console.error(e); }
   }, []);
-
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
-  }, [theme]);
-
-  const toggleTheme = () => setTheme(prev => prev === 'dark' ? 'light' : 'dark');
 
   const handleSelectExam = (exam) => setActiveExam(exam);
 
@@ -67,50 +59,83 @@ export default function App() {
     });
   };
 
+  const SIDEBAR_MENU = [
+    { id: 'all', iconType: 'logo', src: '/logo.png' },
+    { id: 'aws', iconType: 'devicon', slug: 'amazonwebservices/amazonwebservices-original', bg: '#f9f9fa' },
+    { id: 'microsoft', iconType: 'devicon', slug: 'azure/azure-original', bg: '#ffffff', border: '1px solid #e0e4f0' },
+    { id: 'google', iconType: 'devicon', slug: 'googlecloud/googlecloud-original', bg: '#ffffff', border: '1px solid #e0e4f0' },
+  ];
+
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      {/* ── Navbar ── */}
-      <header className="navbar">
-        <div className="nav-container">
-          <div className="logo" onClick={() => setActiveExam(null)}>
-            <div className="logo-icon">
-              <BookOpen size={19} />
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
-              <span className="brand-title">CertPrep <span className="badge-ai">Hub</span></span>
-              <span className="brand-sub">85+ Exams • Offline-Ready</span>
-            </div>
-          </div>
-
-          <div className="nav-actions">
-            <button onClick={toggleTheme} className="btn-icon" title="Đổi giao diện" style={{ borderRadius: '50%' }}>
-              {theme === 'dark' ? <Sun size={17} /> : <Moon size={17} />}
-            </button>
-          </div>
+    <div style={{ display: 'flex', minHeight: '100vh', width: '100%' }}>
+      {/* ── Left Sidebar ── */}
+      <aside style={{
+        width: 'var(--sidebar-width)',
+        background: 'var(--bg-sidebar)',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        position: 'fixed',
+        top: 0,
+        bottom: 0,
+        left: 0,
+        zIndex: 100,
+        paddingTop: '1.5rem',
+        boxShadow: '2px 0 10px rgba(0,0,0,0.02)'
+      }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem', marginBottom: '2rem' }}>
+          <img src="/logo.png" alt="Logo" style={{ width: '45px', height: '45px', objectFit: 'contain' }} />
+          <span style={{ fontSize: '0.85rem', fontWeight: 700, color: 'var(--text-primary)' }}>Provider</span>
         </div>
-      </header>
 
-      {/* ── Content ── */}
-      <main style={{ flex: 1 }}>
+        <nav style={{ display: 'flex', flexDirection: 'column', gap: '1rem', width: '100%', alignItems: 'center' }}>
+          {SIDEBAR_MENU.filter(item => item.id !== 'all').map(item => (
+            <button
+              key={item.id}
+              onClick={() => { setActiveExam(null); setActiveFilter(item.id); }}
+              style={{
+                width: '60px', height: '60px',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                borderRadius: '16px',
+                border: item.border || 'none',
+                background: item.bg || 'transparent',
+                cursor: 'pointer',
+                transition: 'var(--transition)',
+                boxShadow: activeFilter === item.id ? '0 4px 12px rgba(0,0,0,0.08)' : 'none',
+                transform: activeFilter === item.id ? 'scale(1.05)' : 'scale(1)'
+              }}
+            >
+              {item.iconType === 'devicon' && (
+                <img 
+                  src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${item.slug}.svg`} 
+                  alt={item.id} 
+                  style={{ width: '32px', height: '32px' }} 
+                />
+              )}
+            </button>
+          ))}
+        </nav>
+      </aside>
+
+      {/* ── Main Content Area ── */}
+      <main style={{
+        flex: 1,
+        marginLeft: 'var(--sidebar-width)',
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
+      }}>
         {activeExam ? (
           <ExamEngine exam={activeExam} onBack={() => setActiveExam(null)} onSaveHistory={handleSaveHistory} />
         ) : (
           <Dashboard
             catalog={catalog} historyLogs={historyLogs}
+            activeFilter={activeFilter}
             onSelectExam={handleSelectExam} onImportExam={handleImportExam}
             onClearHistory={handleClearHistory} onClearHistoryItem={handleClearHistoryItem}
           />
         )}
       </main>
-
-      {/* ── Footer ── */}
-      <footer style={{
-        textAlign: 'center', padding: '1.5rem', borderTop: '1px solid var(--border)',
-        color: 'var(--text-muted)', fontSize: '0.75rem', marginTop: '2rem'
-      }}>
-        <p>© 2026 CertPrep Hub — Ôn thi chứng chỉ AWS, Microsoft, Google Cloud</p>
-        <p style={{ marginTop: '0.2rem', opacity: 0.7 }}>Dữ liệu tĩnh • Client-side SPA</p>
-      </footer>
     </div>
   );
 }
