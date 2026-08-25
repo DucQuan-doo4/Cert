@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Clock, Send } from 'lucide-react';
+import { ArrowLeft, Clock, Send, Shuffle } from 'lucide-react';
 import QuestionCard from './QuestionCard';
 import QuestionGrid from './QuestionGrid';
 
@@ -79,6 +79,34 @@ export default function ExamEngine({ exam, onBack, onSaveHistory }) {
     });
   };
 
+  const handleShuffle = () => {
+    if (Object.keys(userAnswers).length > 0 && !isSubmitted) {
+      if (!window.confirm('Trộn câu hỏi sẽ xóa toàn bộ kết quả đang làm. Bạn có chắc chắn?')) return;
+    }
+    
+    // Fisher-Yates shuffle
+    const shuffled = [...questions];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    
+    // Re-assign numbers so the UI map still shows 1, 2, 3... in order
+    const renumbered = shuffled.map((q, idx) => ({
+      ...q,
+      originalNumber: q.originalNumber || q.number,
+      number: (idx + 1).toString()
+    }));
+
+    setQuestions(renumbered);
+    setUserAnswers({});
+    setFlagged({});
+    setRevealed({});
+    setCurrentIndex(0);
+    setIsSubmitted(false);
+    setTimeRemaining(renumbered.length * 90);
+  };
+
   const formatTime = (secs) => {
     const m = Math.floor(secs / 60).toString().padStart(2, '0');
     const s = (secs % 60).toString().padStart(2, '0');
@@ -132,6 +160,10 @@ export default function ExamEngine({ exam, onBack, onSaveHistory }) {
         <div className="exam-btn" style={{ cursor: 'default' }}>
           {answeredCount}/{questions.length} đã làm
         </div>
+
+        <button className="exam-btn" onClick={handleShuffle} disabled={isSubmitted} title="Trộn câu hỏi ngẫu nhiên">
+          <Shuffle size={16} /> Trộn
+        </button>
 
         <button className="exam-btn" onClick={handleSubmit} disabled={isSubmitted} style={{ background: isSubmitted ? 'var(--success)' : 'transparent', color: isSubmitted ? '#fff' : 'inherit' }}>
           <Send size={16} /> {isSubmitted ? 'Đã nộp' : 'Nộp Bài'}

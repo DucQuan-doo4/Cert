@@ -64,10 +64,10 @@ export default function QuestionCard({
     <div className={`fade-in ${isFlagged ? 'flagged-card' : ''}`} style={{ position: 'relative' }}>
       
       {/* ── Header Row ── */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
         
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          <span style={{ fontSize: '1.5rem', fontWeight: 900, color: 'var(--text-primary)' }}>
+          <span style={{ fontSize: '1.75rem', fontWeight: 900, color: 'var(--text-primary)' }}>
             {number}
           </span>
           {domain && (
@@ -102,12 +102,14 @@ export default function QuestionCard({
       </div>
 
       {/* ── Question Body ── */}
-      <div 
-        onClick={handleContentClick}
-        dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(displayQuestionHtml) }}
-        className="markdown-content"
-        style={{ fontSize: '1.15rem', color: 'var(--text-primary)', fontWeight: 700, lineHeight: 1.6, marginBottom: '2rem' }}
-      />
+      <div className="exam-grid-card" style={{ padding: '1.5rem', marginBottom: '2rem' }}>
+        <div 
+          onClick={handleContentClick}
+          dangerouslySetInnerHTML={{ __html: parseMarkdownToHtml(displayQuestionHtml) }}
+          className="markdown-content"
+          style={{ fontSize: '1.15rem', color: 'var(--text-primary)', fontWeight: 700, lineHeight: 1.6 }}
+        />
+      </div>
 
       {/* ── Microsoft Statements / Dropdowns / DragDrop skipped for brevity if unchanged, but they should be here ── */}
       {/* Keeping them just in case */}
@@ -130,11 +132,11 @@ export default function QuestionCard({
             if (showResults) {
               if (isCorrectOpt) {
                 borderClass = 'selected';
-                bgStyle = '#f0fdf4'; // Light green
+                bgStyle = 'var(--success-light)';
                 resultIcon = <Check size={20} style={{ color: 'var(--success)', marginLeft: 'auto', flexShrink: 0 }} />;
               } else if (isPicked && !isCorrectOpt) {
                 borderClass = 'selected';
-                bgStyle = '#fef2f2'; // Light red
+                bgStyle = 'var(--danger-light)';
                 resultIcon = <X size={20} style={{ color: 'var(--danger)', marginLeft: 'auto', flexShrink: 0 }} />;
               }
             }

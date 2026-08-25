@@ -30,6 +30,18 @@
   --ring-color: #2b2b68;
   --ring-bg: #e8ebf2;
 
+  /* Feedback Colors */
+  --success: #22c55e;
+  --success-light: #dcfce7;
+  --success-text: #166534;
+  
+  --danger: #ef4444;
+  --danger-light: #fee2e2;
+  --danger-text: #991b1b;
+  
+  --warning: #f59e0b;
+  --warning-light: #fef3c7;
+
   --border: #e0e4f0;
   --border-focus: #c2c9e0;
 
