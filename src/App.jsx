@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Dashboard from './components/Dashboard';
 import ExamEngine from './components/ExamEngine';
+import Landing from './components/Landing';
 
 export default function App() {
+  const [hasEnteredApp, setHasEnteredApp] = useState(false);
   const [activeExam, setActiveExam] = useState(null);
   const [catalog, setCatalog] = useState({ exams: [] });
   const [historyLogs, setHistoryLogs] = useState([]);
@@ -65,6 +67,10 @@ export default function App() {
     { id: 'microsoft', iconType: 'devicon', slug: 'azure/azure-original', bg: '#ffffff', border: '1px solid #e0e4f0' },
     { id: 'google', iconType: 'devicon', slug: 'googlecloud/googlecloud-original', bg: '#ffffff', border: '1px solid #e0e4f0' },
   ];
+
+  if (!hasEnteredApp) {
+    return <Landing onEnter={() => setHasEnteredApp(true)} />;
+  }
 
   return (
     <div style={{ display: 'flex', minHeight: '100vh', width: '100%' }}>
