@@ -28,7 +28,7 @@ export default function Landing({ onEnter }) {
             width: '40px', height: '40px', borderRadius: '10px', overflow: 'hidden',
             background: '#fff', border: '1px solid var(--border)', display: 'flex', alignItems: 'center', justifyContent: 'center'
           }}>
-            <img src="/logo.png" alt="Logo" style={{ width: '135%', height: '135%', objectFit: 'cover' }} />
+            <img src="/logo_clean.png" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'contain', padding: '2px' }} />
           </div>
           <span style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--text-primary)', letterSpacing: '0.5px' }}>CertPrep</span>
         </div>
