@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { Flag, Eye, EyeOff, Languages, Check, X, AlertCircle } from 'lucide-react';
+import { Flag, Eye, EyeOff, Languages, Check, X, AlertCircle, Bookmark } from 'lucide-react';
 import { parseQuestionContent, parseMarkdownToHtml, detectMultiSelect, getExpectedCount } from '../utils/markdown';
 import ReferenceBox from './ReferenceBox';
 
 export default function QuestionCard({
   question, userAnswer, isRevealed, isFlagged, mode, isExamSubmitted,
   onSelectAnswer, onToggleReveal, onToggleFlag, provider, examTitle,
+  isBookmarked, onToggleBookmark, examSlug,
 }) {
   const [isZoomed, setIsZoomed] = useState(false);
   const [zoomedImgSrc, setZoomedImgSrc] = useState('');
@@ -89,6 +90,14 @@ export default function QuestionCard({
           </ActionBtn>
           <ActionBtn active={isRevealed} onClick={() => onToggleReveal(number)} title={isRevealed ? 'Ẩn' : 'Xem'}>
             {isRevealed ? <EyeOff size={18} /> : <Eye size={18} />}
+          </ActionBtn>
+          <ActionBtn
+            active={isBookmarked}
+            onClick={() => onToggleBookmark && onToggleBookmark(examSlug, number, question)}
+            title={isBookmarked ? 'Bỏ lưu' : 'Lưu câu hỏi'}
+            activeColor="#6366f1"
+          >
+            <Bookmark size={18} fill={isBookmarked ? 'currentColor' : 'none'} />
           </ActionBtn>
           <ActionBtn
             active={isFlagged}

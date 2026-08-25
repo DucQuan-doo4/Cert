@@ -3,7 +3,7 @@ import { ArrowLeft, Clock, Send, Shuffle } from 'lucide-react';
 import QuestionCard from './QuestionCard';
 import QuestionGrid from './QuestionGrid';
 
-export default function ExamEngine({ exam, onBack, onSaveHistory }) {
+export default function ExamEngine({ exam, onBack, onSaveHistory, bookmarks, onToggleBookmark, isBookmarked }) {
   const [questions, setQuestions] = useState([]);
   const [userAnswers, setUserAnswers] = useState({});
   const [flagged, setFlagged] = useState({});
@@ -188,6 +188,9 @@ export default function ExamEngine({ exam, onBack, onSaveHistory }) {
               onToggleFlag={handleToggleFlag}
               provider={exam.provider}
               examTitle={exam.title}
+              examSlug={exam.slug}
+              isBookmarked={isBookmarked ? isBookmarked(exam.slug, currentQ.number) : false}
+              onToggleBookmark={onToggleBookmark}
             />
           )}
 

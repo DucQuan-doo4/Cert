@@ -1,11 +1,31 @@
-version: '3.8'
-
 services:
-  cert-prep-hub:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: cert-prep-hub-app
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: certprep
+      POSTGRES_USER: certprep
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-certprep123}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./backend/init.sql:/docker-entrypoint-initdb.d/init.sql
+    restart: always
+
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgres://certprep:${DB_PASSWORD:-certprep123}@db:5432/certprep
+      JWT_SECRET: ${JWT_SECRET:-certprep-jwt-secret-2026}
+    depends_on:
+      - db
+    restart: always
+
+  frontend:
+    build: ./frontend
     ports:
       - "80:80"
+    depends_on:
+      - backend
     restart: always
+
+volumes:
+  pgdata:
